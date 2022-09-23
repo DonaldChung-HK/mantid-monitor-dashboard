@@ -1,12 +1,15 @@
 from pygrok import Grok
 import pandas as pd
+import numpy as np
+import html
 
 def grok_parser(
     lines,
     grok_pattern = '[0-9\/]*Test[ ]*\#%{POSINT:test_num}\: (?<test_name>[^ ]*) [.]*[\* ]{3}%{WORD:outcome}[ ]*%{BASE10NUM:test_time} sec', #Default pattern for ctest unit test
     passed_string = "Passed",
     failed_string = "Failed",
-    timeout_string = "Timeout"
+    timeout_string = "Timeout",
+    aggregate_data_key = ["Tested", "Passed", "Flake","Fail","Timeout"],
 ):
     test_result_df = pd.DataFrame(columns=["test_number", "test_name", "trial", "result", "test_time","flake","stack_trace"])
     test_result_grok = Grok(grok_pattern)
@@ -51,7 +54,7 @@ def grok_parser(
                     "result": grokked["outcome"], 
                     "test_time": grokked["test_time"], 
                     "flake": current_is_flake,
-                    "stack_trace": stack_traces,
+                    "stack_trace": html.escape(stack_traces),
                 }
             new_row_df = pd.DataFrame(row, index=[0])
             test_result_df = pd.concat([test_result_df.loc[:],new_row_df]).reset_index(drop=True)
@@ -60,22 +63,64 @@ def grok_parser(
 
 
     overall_result = {
-        "num_unique_test_run": test_result_df["test_name"].nunique(),
-        "num_fail": test_result_df.loc[(test_result_df["result"] == failed_string) & (test_result_df["flake"] == False), "test_number"].nunique(),
-        "num_timeout": test_result_df.loc[(test_result_df["result"] == timeout_string) & (test_result_df["flake"] == False), "test_number"].nunique(),
-        "num_flake": test_result_df.loc[(test_result_df["result"] == passed_string) & (test_result_df["flake"] == True), "test_number"].nunique(),
+        aggregate_data_key[0]: test_result_df["test_name"].nunique(),
+        aggregate_data_key[1]: test_result_df.loc[(test_result_df["result"] == passed_string) & (test_result_df["flake"] == False), "test_number"].nunique(),
+        aggregate_data_key[2]: test_result_df.loc[((test_result_df["result"] == failed_string) | (test_result_df["result"] == timeout_string)) & (test_result_df["flake"] == True), "test_number"].nunique(),
+        aggregate_data_key[3]: test_result_df.loc[(test_result_df["result"] == failed_string) & (test_result_df["flake"] == False), "test_number"].nunique(),
+        aggregate_data_key[4]: test_result_df.loc[(test_result_df["result"] == timeout_string) & (test_result_df["flake"] == False), "test_number"].nunique(),
     }
     failed_test_result_df = test_result_df.loc[(test_result_df["result"] == failed_string) | (test_result_df["result"] == timeout_string)]
 
+    organized_stacktrace_test_num = {
+        aggregate_data_key[2]: np.sort(test_result_df.loc[((test_result_df["result"] == failed_string) | (test_result_df["result"] == timeout_string)) & (test_result_df["flake"] == True), "test_number"].unique().astype(int)),
+        aggregate_data_key[3]: np.sort(test_result_df.loc[(test_result_df["result"] == failed_string) & (test_result_df["flake"] == False), "test_number"].unique().astype(int)),
+        aggregate_data_key[4]: np.sort(test_result_df.loc[(test_result_df["result"] == timeout_string) & (test_result_df["flake"] == False), "test_number"].unique().astype(int)),
+    }
+    print(organized_stacktrace_test_num)
+
+    # data structure
+    # {
+    #     {{result}}:{
+    #         [
+    #           {{test_num}}, 
+    #           {{test_name}}, 
+    #           [
+    #               [{{trial}},{{outcome}}, {{time}}, {{stacl_trace}}],...
+    #           ]
+    #     },...
+    # }
+
+    organized_result = {}
+    for key in organized_stacktrace_test_num:
+        test_num_list = organized_stacktrace_test_num[key]
+        organized_result[key] = []
+        #print(key)
+        if len(test_num_list) <= 0:
+            continue
+        for test_num in test_num_list:
+            #print(test_num)
+            test_num_result_df = test_result_df.loc[test_result_df["test_number"] == str(test_num)]
+            #print(test_num_result_df)
+            current_test = [test_num, test_num_result_df['test_name'].unique()[0], []]
+            for i in test_num_result_df.index:
+                r = [test_num_result_df['trial'][i], test_num_result_df['result'][i], test_num_result_df['test_time'][i], test_num_result_df['stack_trace'][i]]
+                current_test[2].append(r)
+            organized_result[key].append(current_test)
+
+                
+
+
     parsed = {
         "overall": overall_result,
-        "failed_test_detail": failed_test_result_df
+        "failed_test_detail": organized_result
     }
     return parsed
 
 if __name__ == '__main__':
-    f = open("flake-64-ci.log", "r")
+    f = open("data/Linux/34.log", "r")
     lines  = f.readlines()
     f.close()
     result = grok_parser(lines)
     print(result)
+
+

@@ -1,119 +1,11 @@
 [HANDLER_OUTPUT] 
 Test project /home/donald/ctest-demo/build
 
-    Start 2: fail_test
-    Start 3: flaky_test
-    Start 4: time_out
-1/8 Test #2: fail_test ........................***Failed    0.00 sec
-This is a fail test
-FAIL
-testing message a 
-FrameworkManager-[Notice] Welcome to Mantid 6.4.20220908.1252 
-FrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid
-Running 1 testLoadIsawPeaks-[Notice] LoadIsawPeaks started
-LoadIsawPeaks-[Error] Can't execute MaskBTP algorithm
-LoadIsawPeaks-[Notice] LoadIsawPeaks successful, Duration 45.38 seconds
-SCDCalibratePanels-[Notice] SCDCalibratePanels started
-IndexPeaks-[Warning] Peaks from only one run exist but CommonUBForAll=True so peaks will be indexed with an optimised UB which will not be saved in the workspace.
-IndexPeaks-[Notice] Run 5637 indexed 39 peaks out of 39 with tolerance of 0.15
-IndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.0156883
-IndexPeaks-[Notice] All runs indexed 39 peaks out of 39 with tolerance of 0.15
-IndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.0156883
-IndexPeaks-[Notice] Lattice Parameters:    4.750000    4.750000   13.000000   90.000000   90.000000  120.000000   254.016076
-SCDCalibratePanels-[Notice] Number Indexed = 39
-SCDCalibratePanels-[Notice] Matrix(3,3)0.204218,0.180529,0.0303356,0.13154,-0.0445204,-0.050603,-0.00934556,0.156596,-0.0493584
-SCDCalibratePanels-[Notice] L1 = 17.9691  Changes in function value are too small Chi2overDoF 0.000380926
-SCDCalibratePanels-[Notice] bank47  success Chi2overDoF 0.326124
-
-    Start 2: fail_test
-    Test #2: fail_test ........................***Failed    0.00 sec
-This is a fail test
-FAIL
-testing message a 
-FrameworkManager-[Notice] Welcome to Mantid 6.4.20220908.1252 
-FrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid
-Running 1 testLoadIsawPeaks-[Notice] LoadIsawPeaks started
-LoadIsawPeaks-[Error] Can't execute MaskBTP algorithm
-LoadIsawPeaks-[Notice] LoadIsawPeaks successful, Duration 45.38 seconds
-SCDCalibratePanels-[Notice] SCDCalibratePanels started
-IndexPeaks-[Warning] Peaks from only one run exist but CommonUBForAll=True so peaks will be indexed with an optimised UB which will not be saved in the workspace.
-IndexPeaks-[Notice] Run 5637 indexed 39 peaks out of 39 with tolerance of 0.15
-IndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.0156883
-IndexPeaks-[Notice] All runs indexed 39 peaks out of 39 with tolerance of 0.15
-IndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.0156883
-IndexPeaks-[Notice] Lattice Parameters:    4.750000    4.750000   13.000000   90.000000   90.000000  120.000000   254.016076
-SCDCalibratePanels-[Notice] Number Indexed = 39
-SCDCalibratePanels-[Notice] Matrix(3,3)0.204218,0.180529,0.0303356,0.13154,-0.0445204,-0.050603,-0.00934556,0.156596,-0.0493584
-SCDCalibratePanels-[Notice] L1 = 17.9691  Changes in function value are too small Chi2overDoF 0.000380926
-SCDCalibratePanels-[Notice] bank47  success Chi2overDoF 0.326124
-
-    Start 2: fail_test
-    Test #2: fail_test ........................***Failed    0.00 sec
-This is a fail test
-FAIL
-testing message a 
-FrameworkManager-[Notice] Welcome to Mantid 6.4.20220908.1252 
-FrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid
-Running 1 testLoadIsawPeaks-[Notice] LoadIsawPeaks started
-LoadIsawPeaks-[Error] Can't execute MaskBTP algorithm
-LoadIsawPeaks-[Notice] LoadIsawPeaks successful, Duration 45.38 seconds
-SCDCalibratePanels-[Notice] SCDCalibratePanels started
-IndexPeaks-[Warning] Peaks from only one run exist but CommonUBForAll=True so peaks will be indexed with an optimised UB which will not be saved in the workspace.
-IndexPeaks-[Notice] Run 5637 indexed 39 peaks out of 39 with tolerance of 0.15
-IndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.0156883
-IndexPeaks-[Notice] All runs indexed 39 peaks out of 39 with tolerance of 0.15
-IndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.0156883
-IndexPeaks-[Notice] Lattice Parameters:    4.750000    4.750000   13.000000   90.000000   90.000000  120.000000   254.016076
-SCDCalibratePanels-[Notice] Number Indexed = 39
-SCDCalibratePanels-[Notice] Matrix(3,3)0.204218,0.180529,0.0303356,0.13154,-0.0445204,-0.050603,-0.00934556,0.156596,-0.0493584
-SCDCalibratePanels-[Notice] L1 = 17.9691  Changes in function value are too small Chi2overDoF 0.000380926
-SCDCalibratePanels-[Notice] bank47  success Chi2overDoF 0.326124
-
-    Start 2: fail_test
-    Test #2: fail_test ........................***Failed    0.00 sec
-This is a fail test
-FAIL
-testing message a 
-FrameworkManager-[Notice] Welcome to Mantid 6.4.20220908.1252 
-FrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid
-Running 1 testLoadIsawPeaks-[Notice] LoadIsawPeaks started
-LoadIsawPeaks-[Error] Can't execute MaskBTP algorithm
-LoadIsawPeaks-[Notice] LoadIsawPeaks successful, Duration 45.38 seconds
-SCDCalibratePanels-[Notice] SCDCalibratePanels started
-IndexPeaks-[Warning] Peaks from only one run exist but CommonUBForAll=True so peaks will be indexed with an optimised UB which will not be saved in the workspace.
-IndexPeaks-[Notice] Run 5637 indexed 39 peaks out of 39 with tolerance of 0.15
-IndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.0156883
-IndexPeaks-[Notice] All runs indexed 39 peaks out of 39 with tolerance of 0.15
-IndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.0156883
-IndexPeaks-[Notice] Lattice Parameters:    4.750000    4.750000   13.000000   90.000000   90.000000  120.000000   254.016076
-SCDCalibratePanels-[Notice] Number Indexed = 39
-SCDCalibratePanels-[Notice] Matrix(3,3)0.204218,0.180529,0.0303356,0.13154,-0.0445204,-0.050603,-0.00934556,0.156596,-0.0493584
-SCDCalibratePanels-[Notice] L1 = 17.9691  Changes in function value are too small Chi2overDoF 0.000380926
-SCDCalibratePanels-[Notice] bank47  success Chi2overDoF 0.326124
-
-    Start 2: fail_test
-    Test #2: fail_test ........................***Failed    0.00 sec
-This is a fail test
-FAIL
-testing message a 
-FrameworkManager-[Notice] Welcome to Mantid 6.4.20220908.1252 
-FrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid
-Running 1 testLoadIsawPeaks-[Notice] LoadIsawPeaks started
-LoadIsawPeaks-[Error] Can't execute MaskBTP algorithm
-LoadIsawPeaks-[Notice] LoadIsawPeaks successful, Duration 45.38 seconds
-SCDCalibratePanels-[Notice] SCDCalibratePanels started
-IndexPeaks-[Warning] Peaks from only one run exist but CommonUBForAll=True so peaks will be indexed with an optimised UB which will not be saved in the workspace.
-IndexPeaks-[Notice] Run 5637 indexed 39 peaks out of 39 with tolerance of 0.15
-IndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.0156883
-IndexPeaks-[Notice] All runs indexed 39 peaks out of 39 with tolerance of 0.15
-IndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.0156883
-IndexPeaks-[Notice] Lattice Parameters:    4.750000    4.750000   13.000000   90.000000   90.000000  120.000000   254.016076
-SCDCalibratePanels-[Notice] Number Indexed = 39
-SCDCalibratePanels-[Notice] Matrix(3,3)0.204218,0.180529,0.0303356,0.13154,-0.0445204,-0.050603,-0.00934556,0.156596,-0.0493584
-SCDCalibratePanels-[Notice] L1 = 17.9691  Changes in function value are too small Chi2overDoF 0.000380926
-SCDCalibratePanels-[Notice] bank47  success Chi2overDoF 0.326124
-
+    Start 1: success_test
     Start 6: fail_test_2
+    Start 2: fail_test
+1/8 Test #1: success_test .....................   Passed    0.00 sec
+    Start 7: flaky_test_2
 2/8 Test #6: fail_test_2 ......................***Failed    0.00 sec
 This is a fail test
 FAIL
@@ -136,6 +28,28 @@ SCDCalibratePanels-[Notice] L1 = 17.9691  Changes in function value are too smal
 SCDCalibratePanels-[Notice] bank47  success Chi2overDoF 0.326124
 
     Start 6: fail_test_2
+2/8 Test #2: fail_test ........................***Failed    0.00 sec
+This is a fail test
+FAIL
+testing message a 
+FrameworkManager-[Notice] Welcome to Mantid 6.4.20220908.1252 
+FrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid
+Running 1 testLoadIsawPeaks-[Notice] LoadIsawPeaks started
+LoadIsawPeaks-[Error] Can't execute MaskBTP algorithm
+LoadIsawPeaks-[Notice] LoadIsawPeaks successful, Duration 45.38 seconds
+SCDCalibratePanels-[Notice] SCDCalibratePanels started
+IndexPeaks-[Warning] Peaks from only one run exist but CommonUBForAll=True so peaks will be indexed with an optimised UB which will not be saved in the workspace.
+IndexPeaks-[Notice] Run 5637 indexed 39 peaks out of 39 with tolerance of 0.15
+IndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.0156883
+IndexPeaks-[Notice] All runs indexed 39 peaks out of 39 with tolerance of 0.15
+IndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.0156883
+IndexPeaks-[Notice] Lattice Parameters:    4.750000    4.750000   13.000000   90.000000   90.000000  120.000000   254.016076
+SCDCalibratePanels-[Notice] Number Indexed = 39
+SCDCalibratePanels-[Notice] Matrix(3,3)0.204218,0.180529,0.0303356,0.13154,-0.0445204,-0.050603,-0.00934556,0.156596,-0.0493584
+SCDCalibratePanels-[Notice] L1 = 17.9691  Changes in function value are too small Chi2overDoF 0.000380926
+SCDCalibratePanels-[Notice] bank47  success Chi2overDoF 0.326124
+
+    Start 2: fail_test
     Test #6: fail_test_2 ......................***Failed    0.00 sec
 This is a fail test
 FAIL
@@ -158,6 +72,28 @@ SCDCalibratePanels-[Notice] L1 = 17.9691  Changes in function value are too smal
 SCDCalibratePanels-[Notice] bank47  success Chi2overDoF 0.326124
 
     Start 6: fail_test_2
+    Test #2: fail_test ........................***Failed    0.00 sec
+This is a fail test
+FAIL
+testing message a 
+FrameworkManager-[Notice] Welcome to Mantid 6.4.20220908.1252 
+FrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid
+Running 1 testLoadIsawPeaks-[Notice] LoadIsawPeaks started
+LoadIsawPeaks-[Error] Can't execute MaskBTP algorithm
+LoadIsawPeaks-[Notice] LoadIsawPeaks successful, Duration 45.38 seconds
+SCDCalibratePanels-[Notice] SCDCalibratePanels started
+IndexPeaks-[Warning] Peaks from only one run exist but CommonUBForAll=True so peaks will be indexed with an optimised UB which will not be saved in the workspace.
+IndexPeaks-[Notice] Run 5637 indexed 39 peaks out of 39 with tolerance of 0.15
+IndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.0156883
+IndexPeaks-[Notice] All runs indexed 39 peaks out of 39 with tolerance of 0.15
+IndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.0156883
+IndexPeaks-[Notice] Lattice Parameters:    4.750000    4.750000   13.000000   90.000000   90.000000  120.000000   254.016076
+SCDCalibratePanels-[Notice] Number Indexed = 39
+SCDCalibratePanels-[Notice] Matrix(3,3)0.204218,0.180529,0.0303356,0.13154,-0.0445204,-0.050603,-0.00934556,0.156596,-0.0493584
+SCDCalibratePanels-[Notice] L1 = 17.9691  Changes in function value are too small Chi2overDoF 0.000380926
+SCDCalibratePanels-[Notice] bank47  success Chi2overDoF 0.326124
+
+    Start 2: fail_test
     Test #6: fail_test_2 ......................***Failed    0.00 sec
 This is a fail test
 FAIL
@@ -180,6 +116,28 @@ SCDCalibratePanels-[Notice] L1 = 17.9691  Changes in function value are too smal
 SCDCalibratePanels-[Notice] bank47  success Chi2overDoF 0.326124
 
     Start 6: fail_test_2
+    Test #2: fail_test ........................***Failed    0.00 sec
+This is a fail test
+FAIL
+testing message a 
+FrameworkManager-[Notice] Welcome to Mantid 6.4.20220908.1252 
+FrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid
+Running 1 testLoadIsawPeaks-[Notice] LoadIsawPeaks started
+LoadIsawPeaks-[Error] Can't execute MaskBTP algorithm
+LoadIsawPeaks-[Notice] LoadIsawPeaks successful, Duration 45.38 seconds
+SCDCalibratePanels-[Notice] SCDCalibratePanels started
+IndexPeaks-[Warning] Peaks from only one run exist but CommonUBForAll=True so peaks will be indexed with an optimised UB which will not be saved in the workspace.
+IndexPeaks-[Notice] Run 5637 indexed 39 peaks out of 39 with tolerance of 0.15
+IndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.0156883
+IndexPeaks-[Notice] All runs indexed 39 peaks out of 39 with tolerance of 0.15
+IndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.0156883
+IndexPeaks-[Notice] Lattice Parameters:    4.750000    4.750000   13.000000   90.000000   90.000000  120.000000   254.016076
+SCDCalibratePanels-[Notice] Number Indexed = 39
+SCDCalibratePanels-[Notice] Matrix(3,3)0.204218,0.180529,0.0303356,0.13154,-0.0445204,-0.050603,-0.00934556,0.156596,-0.0493584
+SCDCalibratePanels-[Notice] L1 = 17.9691  Changes in function value are too small Chi2overDoF 0.000380926
+SCDCalibratePanels-[Notice] bank47  success Chi2overDoF 0.326124
+
+    Start 2: fail_test
     Test #6: fail_test_2 ......................***Failed    0.00 sec
 This is a fail test
 FAIL
@@ -202,6 +160,28 @@ SCDCalibratePanels-[Notice] L1 = 17.9691  Changes in function value are too smal
 SCDCalibratePanels-[Notice] bank47  success Chi2overDoF 0.326124
 
     Start 6: fail_test_2
+    Test #2: fail_test ........................***Failed    0.00 sec
+This is a fail test
+FAIL
+testing message a 
+FrameworkManager-[Notice] Welcome to Mantid 6.4.20220908.1252 
+FrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid
+Running 1 testLoadIsawPeaks-[Notice] LoadIsawPeaks started
+LoadIsawPeaks-[Error] Can't execute MaskBTP algorithm
+LoadIsawPeaks-[Notice] LoadIsawPeaks successful, Duration 45.38 seconds
+SCDCalibratePanels-[Notice] SCDCalibratePanels started
+IndexPeaks-[Warning] Peaks from only one run exist but CommonUBForAll=True so peaks will be indexed with an optimised UB which will not be saved in the workspace.
+IndexPeaks-[Notice] Run 5637 indexed 39 peaks out of 39 with tolerance of 0.15
+IndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.0156883
+IndexPeaks-[Notice] All runs indexed 39 peaks out of 39 with tolerance of 0.15
+IndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.0156883
+IndexPeaks-[Notice] Lattice Parameters:    4.750000    4.750000   13.000000   90.000000   90.000000  120.000000   254.016076
+SCDCalibratePanels-[Notice] Number Indexed = 39
+SCDCalibratePanels-[Notice] Matrix(3,3)0.204218,0.180529,0.0303356,0.13154,-0.0445204,-0.050603,-0.00934556,0.156596,-0.0493584
+SCDCalibratePanels-[Notice] L1 = 17.9691  Changes in function value are too small Chi2overDoF 0.000380926
+SCDCalibratePanels-[Notice] bank47  success Chi2overDoF 0.326124
+
+    Start 2: fail_test
     Test #6: fail_test_2 ......................***Failed    0.00 sec
 This is a fail test
 FAIL
@@ -223,61 +203,35 @@ SCDCalibratePanels-[Notice] Matrix(3,3)0.204218,0.180529,0.0303356,0.13154,-0.04
 SCDCalibratePanels-[Notice] L1 = 17.9691  Changes in function value are too small Chi2overDoF 0.000380926
 SCDCalibratePanels-[Notice] bank47  success Chi2overDoF 0.326124
 
-    Start 7: flaky_test_2
-3/8 Test #3: flaky_test .......................***Failed    2.00 sec
-This is a flaky test
-The result is 9
-This should be a fail 
-if not check again
-testing message b
-/home/donald/mantid/build/bin/site.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-  import imp  # Avoid import loop in Python 3
-F
-======================================================================
-FAIL: test_flaky (FlakyTest.FlakyTest)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File \"/home/donald/mantid/Framework/PythonInterface/test/python/plugins/algorithms/FlakyTest.py\", line 7, in test_flaky
-    self.assertEqual(rand, 1)
-AssertionError: 0 != 1
-
-----------------------------------------------------------------------
-Ran 1 test in 0.002s
-
-FAILED (failures=1)
+    Start 4: time_out
+    Test #2: fail_test ........................***Failed    0.00 sec
+This is a fail test
+FAIL
+testing message a 
+FrameworkManager-[Notice] Welcome to Mantid 6.4.20220908.1252 
+FrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid
+Running 1 testLoadIsawPeaks-[Notice] LoadIsawPeaks started
+LoadIsawPeaks-[Error] Can't execute MaskBTP algorithm
+LoadIsawPeaks-[Notice] LoadIsawPeaks successful, Duration 45.38 seconds
+SCDCalibratePanels-[Notice] SCDCalibratePanels started
+IndexPeaks-[Warning] Peaks from only one run exist but CommonUBForAll=True so peaks will be indexed with an optimised UB which will not be saved in the workspace.
+IndexPeaks-[Notice] Run 5637 indexed 39 peaks out of 39 with tolerance of 0.15
+IndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.0156883
+IndexPeaks-[Notice] All runs indexed 39 peaks out of 39 with tolerance of 0.15
+IndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.0156883
+IndexPeaks-[Notice] Lattice Parameters:    4.750000    4.750000   13.000000   90.000000   90.000000  120.000000   254.016076
+SCDCalibratePanels-[Notice] Number Indexed = 39
+SCDCalibratePanels-[Notice] Matrix(3,3)0.204218,0.180529,0.0303356,0.13154,-0.0445204,-0.050603,-0.00934556,0.156596,-0.0493584
+SCDCalibratePanels-[Notice] L1 = 17.9691  Changes in function value are too small Chi2overDoF 0.000380926
+SCDCalibratePanels-[Notice] bank47  success Chi2overDoF 0.326124
 
     Start 3: flaky_test
-3/8 Test #7: flaky_test_2 .....................***Failed    2.00 sec
-This is a flaky test
-The result is 9
-This should be a fail 
-if not check again
-testing message b
-/home/donald/mantid/build/bin/site.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-  import imp  # Avoid import loop in Python 3
-F
-======================================================================
-FAIL: test_flaky (FlakyTest.FlakyTest)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File \"/home/donald/mantid/Framework/PythonInterface/test/python/plugins/algorithms/FlakyTest.py\", line 7, in test_flaky
-    self.assertEqual(rand, 1)
-AssertionError: 0 != 1
-
-----------------------------------------------------------------------
-Ran 1 test in 0.002s
-
-FAILED (failures=1)
-
-    Start 7: flaky_test_2
-    Test #3: flaky_test .......................   Passed    2.01 sec
-    Start 8: success_test_3
-4/8 Test #8: success_test_3 ...................   Passed    0.01 sec
+4/8 Test #7: flaky_test_2 .....................   Passed    2.00 sec
     Start 5: success_test_2
-    Test #7: flaky_test_2 .....................   Passed    2.01 sec
-    Start 1: success_test
-6/8 Test #5: success_test_2 ...................   Passed    0.01 sec
-7/8 Test #1: success_test .....................   Passed    0.00 sec
+5/8 Test #5: success_test_2 ...................   Passed    0.00 sec
+    Start 8: success_test_3
+6/8 Test #8: success_test_3 ...................   Passed    0.00 sec
+7/8 Test #3: flaky_test .......................   Passed    2.00 sec
 8/8 Test #4: time_out .........................***Timeout   5.00 sec
 This is the first line of code
 
@@ -290,7 +244,7 @@ This is the first line of code
 This is the first line of code
 
     Start 4: time_out
-    Test #4: time_out .........................***Timeout   5.01 sec
+    Test #4: time_out .........................***Timeout   5.00 sec
 This is the first line of code
 
     Start 4: time_out

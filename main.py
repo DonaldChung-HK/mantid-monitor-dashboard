@@ -118,7 +118,7 @@ def get_local_build_num_range(
         build_log_path = data_path / os_env
         build_keys[os_env] = list(int(d.name.split('.')[0]) for d in build_log_path.iterdir())
         max_build_num = max(max(build_keys[os_env]), max_build_num)
-    return list(range(max_build_num, max_build_num-num_pass_build - 1, -1))
+    return list(range(max_build_num, max(1, max_build_num-num_pass_build) - 1, -1))
 
     
 
@@ -218,7 +218,6 @@ if __name__ == "__main__":
         columns=columns, 
         grok_pattern=grok_pattern)
 
-    
 
     overall_chart_html_code = plot_line_chart_plotly(
         data=aggregate[overall_key], # getting the dataframe

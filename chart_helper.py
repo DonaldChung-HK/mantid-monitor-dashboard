@@ -2,10 +2,54 @@ import mpld3
 from mpld3 import plugins
 from mpld3.utils import get_id
 import numpy as np
-import collections
 import matplotlib.pyplot as plt
 import pandas as pd
 import plotly.graph_objects as go
+import jsonpickle
+
+def get_chart_DF(
+    Builds_collection, 
+    overall_name = 'Overall', 
+    run_keys = ["darwin17", "linux-gnu", "msys"],
+    columns = ["Build", "Tested", "Passed", "Flake", "Failed", "Timeout"]):
+    """collect data from Builds_collection to form a dict of pandas DF for plotting chart
+    I it is like a SQL groupBy for build
+    Args:
+        Builds_collection (data_object): Collection of build result
+        overall_name(str): name of the overall entry
+        run_keys(list(str)): your run keys
+        columns(list(str)): columns for pandas frame starting with build number. Default to ["Build", "Tested", "Passed", "Flake", "Failed", "Timeout"]
+    """
+    
+    
+    # initialising container
+    holder = {
+        overall_name: [],
+    }
+    for run_key in run_keys:
+        holder[run_key] = []
+    # traverse JSON dict type container
+    build_nums = list(Builds_collection.data.keys())
+    build_nums.sort(reverse=True)
+
+
+    def populate_row(build_num, data_dict, columns):
+        current_row = [build_num]
+        for item in columns[1:]:
+            current_row.append(data_dict[item])
+        return current_row
+
+    for build_num in build_nums:
+        overall_data_dict = Builds_collection.data[build_num].aggregate
+        holder[overall_name].append(populate_row(build_num, overall_data_dict, columns))
+        for run_key in run_keys:
+            run_data_dict = Builds_collection.data[build_num].ctest_runs[run_key].outcome_count
+            holder[run_key].append(populate_row(build_num, run_data_dict, columns))
+
+    result = {}
+    for key in holder.keys():
+        result[key] = pd.DataFrame(holder[key], columns=columns)
+    return result
 
 def plot_line_chart(
     data,
@@ -108,6 +152,9 @@ def plot_line_chart_plotly(
 
 
 if __name__ == '__main__':
-    a = pd.read_csv('test.csv')
-    print(plot_line_chart(a))
-    print(plot_line_chart_plotly(a)(a))
+    with open('sandbox/build_collection.json', 'r') as f:
+        string = f.read()
+        load = jsonpickle.decode(string)
+
+    test_df = get_chart_DF(load)
+    print(test_df)

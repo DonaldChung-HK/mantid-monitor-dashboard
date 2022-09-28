@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 from grok_parser import grok_parser
-from chart import plot_line_chart, plot_line_chart_plotly
+from chart_helper import plot_line_chart, plot_line_chart_plotly
 
 class data_name_visual():
     """store the data name and the visual
@@ -109,18 +109,11 @@ def traverse_data(
 
 def get_local_build_num_range(
         data_path,
-        os_keys,
         num_pass_build 
     ):
-    build_keys = {}
-    max_build_num = 0
-    for os_env in os_keys:
-        build_log_path = data_path / os_env
-        build_keys[os_env] = list(int(d.name.split('.')[0]) for d in build_log_path.iterdir())
-        max_build_num = max(max(build_keys[os_env]), max_build_num)
-    return list(range(max_build_num, max(1, max_build_num-num_pass_build) - 1, -1))
+    build_keys = list(int(d.name) for d in data_path.iterdir())
+    return list(range(build_keys, max(1, build_keys-num_pass_build) - 1, -1))
 
-    
 
 
 if __name__ == "__main__":
@@ -198,14 +191,9 @@ if __name__ == "__main__":
     plotly_js_file = src_path / "plotly-2.14.0.min.js"
     copyfile(plotly_js_file, dist_src / plotly_js_file.name)
     ###data_dir and range
-    data_path = Path("data")
-    os_keys = list(d.name for d in data_path.iterdir())
-    
-    build_keys = get_local_build_num_range(
-        data_path,
-        os_keys,
-        10
-    )
+    data_path = Path("sample_data")
+    run_keys = ["darwin17", "linux-gnu", "msys"]
+    build_keys = get_local_build_num_range(data_path, 10)
     ###############################################################
 
 
@@ -213,7 +201,7 @@ if __name__ == "__main__":
 
     aggregate, stack_trace = traverse_data(
         data_path, 
-        os_keys,
+        run_keys,
         build_keys,
         columns=columns, 
         grok_pattern=grok_pattern)

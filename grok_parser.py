@@ -3,53 +3,19 @@ import pandas as pd
 import numpy as np
 from collections import OrderedDict
 import html
+from data_object import ctest_run, ctest_test, ctest_test_trial
+
+import json
+import pprint
+import jsonpickle
 
 # this is to disable pandas future warning for bool dtype deprecation see 1.5.0 notes
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
-class ctest_test():
-    """
-    Store the result of a test collection of trials
-    """
-    def __init__(self, test_name=''):
-        """Initialize a container to store result from multiple trial fo a single test
-
-        Args:
-            test_num (int): = The number of the test by ctest
-            test_name (str, optional): The name of the test. Defaults to ''.
-        """
-        self.test_name = test_name
-        self.trials = []
-    
-    def add_trial(self, entry):
-        """add a result of a trial to a test
-
-        Args:
-            entry (ctest_test_trial): _description_
-        """
-        self.trials.append(entry)
-
-class ctest_test_trial():
-    """
-    Store the trial and its informatieon 
-    """
-    def __init__(self, trial_num, outcome='', test_time=0.0,stack_trace=''):
-        """Create a container for a storing a trial
-
-        Args:
-            trial_num (int): trial number
-            outcome (str, optional): outcome string of a test. Defaults to ''.
-            test_time (float, optional): time of test. Defaults to 0.0 .
-            stack_trace (str, optional): stack_trace_string. Defaults to ''.
-        """
-        self.trial_num = trial_num
-        self.outcome = outcome
-        self.test_time = test_time
-        self.stack_trace = stack_trace    
-
 def grok_parser(
     lines,
+    run_name,
     grok_pattern = '[0-9\/]*Test[ ]*\#%{POSINT:test_num}\: (?<test_name>[^ ]*) [.]*[\* ]{3}%{WORD:outcome}[ ]*%{BASE10NUM:test_time} sec', #Default pattern for ctest unit test
     passed_string = "Passed",
     failed_string = "Failed",
@@ -123,7 +89,7 @@ def grok_parser(
             i += 1
 
 
-    overall_result = {
+    outcome_count = {
         aggregate_data_key[0]: test_result_df["test_name"].nunique(),
         aggregate_data_key[1]: test_result_df.loc[(test_result_df["result"] == passed_string) & (test_result_df["flake"] == False), "test_name"].nunique(),
         aggregate_data_key[2]: test_result_df.loc[((test_result_df["result"] == failed_string) | (test_result_df["result"] == timeout_string)) & (test_result_df["flake"] == True), "test_name"].nunique(),
@@ -137,10 +103,10 @@ def grok_parser(
         aggregate_data_key[4]: np.sort(test_result_df.loc[(test_result_df["result"] == timeout_string) & (test_result_df["flake"] == False), "test_name"].unique().astype(str)),
     }
 
-    organized_stacktrace = {}
+    outcome_groups = {}
     for key in organized_stacktrace_test_name:
         test_name_list = organized_stacktrace_test_name[key]
-        organized_stacktrace[key] = []
+        outcome_groups[key] = []
         if len(test_name_list) <= 0:
             continue
         for test_name in test_name_list:
@@ -152,17 +118,18 @@ def grok_parser(
                     test_name_result_df['trial'][i],
                     test_name_result_df['result'][i],
                     test_name_result_df['test_time'][i],
-                    html.escape(test_name_result_df['stack_trace'][i]).replace('\n', '<br>')
+                    html.escape(test_name_result_df['stack_trace'][i])
                 )
                 current_test.add_trial(trial)
-            organized_stacktrace[key].append(current_test)
-    return overall_result, organized_stacktrace
+            outcome_groups[key].append(current_test)
+    result = ctest_run(run_name, outcome_count, outcome_groups)
+    return result
 
 if __name__ == '__main__':
-    f = open("data/Linux/34.log", "r")
+    f = open("sample_data/34/msys.log", "r")
     lines  = f.readlines()
     f.close()
-    result = grok_parser(lines)
-    print(result)
-
-
+    result = grok_parser(lines, 'linux')
+    print(jsonpickle.encode(result, indent=4))
+    with open('sandbox/data.json', 'w') as f:
+        f.write(jsonpickle.encode(result, indent=4))

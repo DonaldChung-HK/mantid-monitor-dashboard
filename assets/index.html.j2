@@ -180,23 +180,23 @@
                         {% for test in stack_trace[os_key][build][outcome] %}
                         <div class="card bg-{{data_name_style[outcome].bootstrap_style}} text-white">
                           <div class="card-header">
-                            <a class="d-block text-white text-decoration-none" data-bs-toggle="collapse" href="#{{os_key}}-{{build}}-{{outcome}}-{{test.test_num}}-collapse">
-                              <h5>Test: #{{test.test_num}} - Name: {{test.test_name}}</h5>
+                            <a class="d-block text-white text-decoration-none" data-bs-toggle="collapse" href="#{{os_key}}-{{build}}-{{outcome}}-{{test.test_name}}-collapse">
+                              <h5>Test Name: {{test.test_name}}</h5>
                             </a>
                           </div>
                           <!--Stack trace tab loop sorted by trial-->
-                          <div id="{{os_key}}-{{build}}-{{outcome}}-{{test.test_num}}-collapse" class="collapse" data-bs-parent="#{{os_key}}-{{build}}-{{outcome}}-accordion">
+                          <div id="{{os_key}}-{{build}}-{{outcome}}-{{test.test_name}}-collapse" class="collapse" data-bs-parent="#{{os_key}}-{{build}}-{{outcome}}-accordion">
                             <div class="card-body">
-                              <div id="{{os_key}}-{{build}}-{{outcome}}-{{test.test_num}}-accordion">
+                              <div id="{{os_key}}-{{build}}-{{outcome}}-{{test.test_name}}-accordion">
                                 {% for trial in test.trials %}
                                 {{trial}}
                                 <div class="card bg-{{data_name_style[trial.outcome].bootstrap_style}} text-white text-left">
                                   <div class="card-header">
-                                    <a class="d-block text-white bg-{{data_name_style[trial.outcome].bootstrap_style}}" data-bs-toggle="collapse" href="#{{os_key}}-{{build}}-{{outcome}}-{{test.test_num}}-{{trial.trial_num}}-collapse">
+                                    <a class="d-block text-white bg-{{data_name_style[trial.outcome].bootstrap_style}}" data-bs-toggle="collapse" href="#{{os_key}}-{{build}}-{{outcome}}-{{test.test_name}}-{{trial.trial_num}}-collapse">
                                       <h5>Trial: {{trial.trial_num}} - Outcome: {{trial.outcome}} - Test Time: {{trial.test_time}} sec</h5>
                                     </a>
                                   </div>
-                                  <div id="{{os_key}}-{{build}}-{{outcome}}-{{test.test_num}}-{{trial.trial_num}}-collapse" class="collapse" data-bs-parent="#{{os_key}}-{{build}}-{{outcome}}-{{test.test_num}}-accordion">
+                                  <div id="{{os_key}}-{{build}}-{{outcome}}-{{test.test_name}}-{{trial.trial_num}}-collapse" class="collapse" data-bs-parent="#{{os_key}}-{{build}}-{{outcome}}-{{test.test_name}}-accordion">
                                     <div class="card-body bg-dark">
                                       <pre><code>{{trial.stack_trace}}</code></pre>
                                     </div>

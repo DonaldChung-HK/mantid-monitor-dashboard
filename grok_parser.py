@@ -12,14 +12,13 @@ class ctest_test():
     """
     Store the result of a test collection of trials
     """
-    def __init__(self, test_num, test_name=''):
+    def __init__(self, test_name=''):
         """Initialize a container to store result from multiple trial fo a single test
 
         Args:
             test_num (int): = The number of the test by ctest
             test_name (str, optional): The name of the test. Defaults to ''.
         """
-        self.test_num = test_num
         self.test_name = test_name
         self.trials = []
     
@@ -126,34 +125,34 @@ def grok_parser(
 
     overall_result = {
         aggregate_data_key[0]: test_result_df["test_name"].nunique(),
-        aggregate_data_key[1]: test_result_df.loc[(test_result_df["result"] == passed_string) & (test_result_df["flake"] == False), "test_number"].nunique(),
-        aggregate_data_key[2]: test_result_df.loc[((test_result_df["result"] == failed_string) | (test_result_df["result"] == timeout_string)) & (test_result_df["flake"] == True), "test_number"].nunique(),
-        aggregate_data_key[3]: test_result_df.loc[(test_result_df["result"] == failed_string) & (test_result_df["flake"] == False), "test_number"].nunique(),
-        aggregate_data_key[4]: test_result_df.loc[(test_result_df["result"] == timeout_string) & (test_result_df["flake"] == False), "test_number"].nunique(),
+        aggregate_data_key[1]: test_result_df.loc[(test_result_df["result"] == passed_string) & (test_result_df["flake"] == False), "test_name"].nunique(),
+        aggregate_data_key[2]: test_result_df.loc[((test_result_df["result"] == failed_string) | (test_result_df["result"] == timeout_string)) & (test_result_df["flake"] == True), "test_name"].nunique(),
+        aggregate_data_key[3]: test_result_df.loc[(test_result_df["result"] == failed_string) & (test_result_df["flake"] == False), "test_name"].nunique(),
+        aggregate_data_key[4]: test_result_df.loc[(test_result_df["result"] == timeout_string) & (test_result_df["flake"] == False), "test_name"].nunique(),
     }
 
-    organized_stacktrace_test_num = {
-        aggregate_data_key[2]: np.sort(test_result_df.loc[((test_result_df["result"] == failed_string) | (test_result_df["result"] == timeout_string)) & (test_result_df["flake"] == True), "test_number"].unique().astype(int)),
-        aggregate_data_key[3]: np.sort(test_result_df.loc[(test_result_df["result"] == failed_string) & (test_result_df["flake"] == False), "test_number"].unique().astype(int)),
-        aggregate_data_key[4]: np.sort(test_result_df.loc[(test_result_df["result"] == timeout_string) & (test_result_df["flake"] == False), "test_number"].unique().astype(int)),
+    organized_stacktrace_test_name = {
+        aggregate_data_key[2]: np.sort(test_result_df.loc[((test_result_df["result"] == failed_string) | (test_result_df["result"] == timeout_string)) & (test_result_df["flake"] == True), "test_name"].unique().astype(str)),
+        aggregate_data_key[3]: np.sort(test_result_df.loc[(test_result_df["result"] == failed_string) & (test_result_df["flake"] == False), "test_name"].unique().astype(str)),
+        aggregate_data_key[4]: np.sort(test_result_df.loc[(test_result_df["result"] == timeout_string) & (test_result_df["flake"] == False), "test_name"].unique().astype(str)),
     }
 
     organized_stacktrace = {}
-    for key in organized_stacktrace_test_num:
-        test_num_list = organized_stacktrace_test_num[key]
+    for key in organized_stacktrace_test_name:
+        test_name_list = organized_stacktrace_test_name[key]
         organized_stacktrace[key] = []
-        if len(test_num_list) <= 0:
+        if len(test_name_list) <= 0:
             continue
-        for test_num in test_num_list:
-            test_num_result_df = test_result_df.loc[test_result_df["test_number"] == str(test_num)]
+        for test_name in test_name_list:
+            test_name_result_df = test_result_df.loc[test_result_df["test_name"] == str(test_name)]
             #make sure html safe
-            current_test = ctest_test(test_num, html.escape(str(test_num_result_df['test_name'].unique()[0]))) 
-            for i in test_num_result_df.index:
+            current_test = ctest_test(html.escape(test_name)) 
+            for i in test_name_result_df.index:
                 trial = ctest_test_trial(
-                    test_num_result_df['trial'][i],
-                    test_num_result_df['result'][i],
-                    test_num_result_df['test_time'][i],
-                    html.escape(test_num_result_df['stack_trace'][i]).replace('\n', '<br>')
+                    test_name_result_df['trial'][i],
+                    test_name_result_df['result'][i],
+                    test_name_result_df['test_time'][i],
+                    html.escape(test_name_result_df['stack_trace'][i]).replace('\n', '<br>')
                 )
                 current_test.add_trial(trial)
             organized_stacktrace[key].append(current_test)

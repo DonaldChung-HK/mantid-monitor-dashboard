@@ -14,8 +14,9 @@ from datetime import datetime, timezone, timedelta
 import matplotlib.pyplot as plt
 import pandas as pd
 
-from grok_parser import grok_parser
-from chart_helper import plot_line_chart, plot_line_chart_plotly
+from traverse_data import traverse_data_local
+from datatable_helper import fail_test_table_data_gen
+from chart_helper import get_chart_DF, plot_line_chart, plot_line_chart_plotly
 
 class data_name_visual():
     """store the data name and the visual
@@ -41,78 +42,13 @@ class data_name_visual():
         self.marker_shape = marker_shape
         
 
-def traverse_data(
-    data_path, 
-    os_keys,
-    build_keys,
-    log_sub_filename = '.log',
-    columns=["Build","Test_ran", "Passed","Flake","Failed","Timeout"], 
-    grok_pattern = '[0-9\/]*Test[ ]*\#%{POSINT:test_num}\: (?<test_name>[^ ]*) [.]*[\* ]{3}%{WORD:outcome}[ ]*%{BASE10NUM:test_time} sec',
-    passed_string = "Passed",
-    failed_string = "Failed",
-    timeout_string = "Timeout",
-    overall_key = 'overall'):
-    """traverse data in the data path
-
-    Args:
-        data_path (Pathlib.Path): path to folder containing data organized by /data_path/build_env/build_num.log
-        os_keys: list of system to parse.
-        build_keys: list of build number to parse.
-        columns (list, optional): columns of dataframe of aggregate data. Defaults to ["Build","Test_ran", "Passed","Flake","Failed","Timeout"].
-        grok_pattern (str, optional): grok pattern to parse log. Defaults to '[0-9\/]*Test[ ]*\#%{POSINT:test_num}\: (?<test_name>[^ ]*) [.]*[\* ]{3}%{WORD:outcome}[ ]*%{BASE10NUM:test_time} sec'.
-        passed_string (str, optional): in grok pattern %{WORD:outcome} for passed. Defaults to "Passed".
-        failed_string (str, optional): in grok pattern %{WORD:outcome} for failed. Defaults to "Failed".
-        timeout_string (str, optional): in grok pattern %{WORD:outcome} for timeout. Defaults to "Timeout".
-        overall_key (str, optional): key for dict that indicates overall data. Defaults to 'overall'.
-
-    Returns:
-        Tuple: 
-            aggregate (dict(pandas.dataFrame, ...)): aggregate test result data for each os and overeall in the key
-            stack_trace (dict(dict(grok_parser.ctest_test))): stack trace dict organized by os/build_num/stacktrace
-    """
-
-    stack_trace = {}
-    aggregate = {}
-    aggregate[overall_key] = pd.DataFrame(columns=columns)
-    for os_key in os_keys:
-        stack_trace[os_key] = {}
-        aggregate[os_key] = pd.DataFrame(columns=columns)
-        aggregate[os_key].set_index(columns[0])
-        os_path = data_path / os_key
-        for build_key in build_keys:
-            build_log_path = os_path / (str(build_key) + log_sub_filename)
-            if build_log_path.exists():
-                f = build_log_path.open()
-                lines = f.readlines()
-                f.close()
-            else: 
-                lines = []
-            overall_result, organized_stacktrace = grok_parser(
-                lines, 
-                aggregate_data_key=columns[1:], 
-                grok_pattern=grok_pattern,
-                passed_string=passed_string,
-                failed_string=failed_string,
-                timeout_string=timeout_string
-            )
-            build_num = int(build_log_path.name.split('.')[0])
-            overall_result[columns[0]] = int(build_num)
-            aggregate_row = pd.DataFrame(overall_result, index=[build_num])
-            aggregate[os_key] = pd.concat([aggregate[os_key],aggregate_row])
-            stack_trace[os_key][build_num] = organized_stacktrace
-
-        aggregate[os_key] = aggregate[os_key].astype(int).sort_values(columns[0])
-        aggregate[overall_key][columns[1:]] = aggregate[overall_key][columns[1:]].add(aggregate[os_key][columns[1:]], fill_value=0)  
-    aggregate[overall_key][columns[0]] =  aggregate[overall_key].index
-    
-    return aggregate, stack_trace
-
 def get_local_build_num_range(
         data_path,
         num_pass_build 
     ):
     build_keys = list(int(d.name) for d in data_path.iterdir())
-    return list(range(build_keys, max(1, build_keys-num_pass_build) - 1, -1))
+    latest_build = max(build_keys)
+    return list(range(latest_build, max(1, latest_build-num_pass_build) - 1, -1))
 
 
 
@@ -159,10 +95,16 @@ if __name__ == "__main__":
         "DarkGoldenRod",
         "hourglass"
     )
+    data_name_style["None"] = data_name_visual(
+        "None",
+        "info",
+        "Black",
+        "x"
+    )
     ## Parsing
     columns = ["Build", "Tested", "Passed", "Flake", "Failed", "Timeout"]
     grok_pattern = '[0-9\/]*Test[ ]*\#%{POSINT:test_num}\: (?<test_name>[^ ]*) [.]*[\* ]{3}%{WORD:outcome}[ ]*%{BASE10NUM:test_time} sec'
-    overall_key = 'overall'
+    overall_key = 'Overall'
     ## Plotting
     x_column = "Build"
     y_columns = ["Flake" ,"Failed", "Timeout"]
@@ -172,6 +114,11 @@ if __name__ == "__main__":
     ## Data location
     ###assets
     assets = Path("assets")
+    ###data_dir
+    local_sample_data_path = Path("sample_data")
+    ## table data dir for fail count table
+    website_data_dir = assets / "data" 
+    website_data_dir.mkdir(exist_ok=True)
     ###dist
     dist = Path("dist")
     dist.mkdir(exist_ok=True)
@@ -179,6 +126,8 @@ if __name__ == "__main__":
     dist_asset.mkdir(exist_ok=True)
     dist_src = dist_asset / "src"
     dist_src.mkdir(exist_ok=True)
+    dist_data = dist / "data" # if you change this you will also change the table.html.j2
+    dist_data.mkdir(exist_ok=True)
     ####logo
     logo_path = assets / "logo.png"
     copyfile(logo_path, dist_asset / logo_path.name)
@@ -190,22 +139,24 @@ if __name__ == "__main__":
     copyfile(bootstrap_js_file, dist_src / bootstrap_js_file.name)
     plotly_js_file = src_path / "plotly-2.14.0.min.js"
     copyfile(plotly_js_file, dist_src / plotly_js_file.name)
-    ###data_dir and range
-    data_path = Path("sample_data")
-    run_keys = ["darwin17", "linux-gnu", "msys"]
-    build_keys = get_local_build_num_range(data_path, 10)
+    
+    
+    # range of data
+    agent_keys = ["darwin17", "linux-gnu", "msys"]
+    build_keys = get_local_build_num_range(local_sample_data_path, 10)
     ###############################################################
 
 
     
 
-    aggregate, stack_trace = traverse_data(
-        data_path, 
-        run_keys,
+    build_collection_data = traverse_data_local(
+        local_sample_data_path, 
+        agent_keys,
         build_keys,
         columns=columns, 
         grok_pattern=grok_pattern)
 
+    aggregate = get_chart_DF(build_collection_data)
 
     overall_chart_html_code = plot_line_chart_plotly(
         data=aggregate[overall_key], # getting the dataframe
@@ -222,12 +173,12 @@ if __name__ == "__main__":
 
     # plot by os
     by_os_chart_html_code = {}
-    for os_key in os_keys:
+    for agent_key in agent_keys:
         current_plot = plot_line_chart_plotly(
-            data=aggregate[os_key], # getting the dataframe
+            data=aggregate[agent_key], # getting the dataframe
             x_column = x_column, 
             y_columns = y_columns, 
-            title = f'Failed, Timeout and Flake Count VS Build Number ({os_key})', 
+            title = f'Failed, Timeout and Flake Count VS Build Number ({agent_key})', 
             labels = y_columns, 
             color = [data_name_style[item].css_color_style for item in y_columns],
             marker = [data_name_style[item].marker_shape for item in y_columns],   
@@ -235,11 +186,37 @@ if __name__ == "__main__":
             y_axis = y_axis,
             legend_title = legend_title
         )
-        by_os_chart_html_code[os_key] = current_plot
+        by_os_chart_html_code[agent_key] = current_plot
     
+    #create data table
+    with (assets / "table.html.j2").open("r") as f:
+        table_template = Template(f.read())
+    table_html_code = {}
+    for agent_key in agent_keys:
+        json_file_name = "fail_test_table_" + agent_key + ".json"
+        # generate json file
+        fail_test_table_data_gen(
+                path=website_data_dir / json_file_name,
+                build_collection = build_collection_data,
+                build_keys = build_keys,
+                agent = agent_key,
+                passed_key = "Passed",
+                not_found_key = "None",
+                stacktrace_excluded_outcome = ["Passed"]
+            )
+        # copy json file to dist
+        copyfile((website_data_dir / json_file_name), (dist_data / json_file_name))
+        data_table_template_data = {
+            "agent_name": agent_key,
+            "json_file_name": json_file_name
+        }
+        data_table_output = table_template.render(**data_table_template_data)
+        table_html_code[agent_key] = data_table_output
+
     with (assets / "index.html.j2").open("r") as f:
         template = Template(f.read())
     # organize 
+    # print(aggregate["msys"].set_indexT.to_json(orient="records"))
     template_data = {
         "jenkins_pipeline_name": jenkins_pipeline_name,
         "jenkins_pipeline_url": jenkins_pipeline_url,
@@ -250,14 +227,13 @@ if __name__ == "__main__":
         "plotly_js_file": plotly_js_file.name,
         "aggregate_test_data": aggregate,
         "aggregate_columns_key": columns,
-        "stack_trace_columns": y_columns,
-        "stack_trace": stack_trace,
         "overall_chart_html_code": overall_chart_html_code,
         "by_os_chart_html_code": by_os_chart_html_code,
-        "os_keys": os_keys,
+        "os_keys": agent_keys,
         "overall_key": overall_key,
         "build_keys": build_keys,
         "data_name_style": data_name_style,
+        "table_html_code": table_html_code,
     }
     output = template.render(**template_data)
     index_path = dist / "index.html"

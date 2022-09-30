@@ -1,0 +1,86 @@
+          <!-- <!==Stack trace==>
+          <div class="col-lg-9 mx-auto text-center">
+            <h3>Stack Trace</h3>       
+          </div>
+          <!==Stack trace tab loop==>
+          <ul class="nav nav-tabs nav-fill mb-3" role="tablist" id="os-tabs">
+            {% for build in build_keys %}
+            <li class="nav-item">
+              <a 
+                class="nav-link" 
+                data-bs-toggle="tab" 
+                href="#{{os_key}}-{{build}}-stack-trace"
+                >
+                <h4>#{{build}}</h4>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+          <!==Stack trace tab loop by build==>
+          <div class="tab-content" id="{{os_key}}-stack-trace-tabs-content">
+            {% for build in build_keys %}
+            <div
+              class="container tab-pane fade"
+              id="{{os_key}}-{{build}}-stack-trace"
+              role="tabpanel"
+              aria-labelledby="ex2-tab-1"
+            >
+              <!==Stack trace tab loop sorted by result type==>
+              <div id="{{os_key}}-{{build}}-accordion">
+                {% for outcome in stack_trace_columns %}
+                <div class="card bg-{{data_name_style[outcome].bootstrap_style}} text-white">
+                  <div class="card-header">
+                    <a class="d-block text-white" data-bs-toggle="collapse" href="#{{os_key}}-{{build}}-{{outcome}}-collapse">
+                      <h5>{{outcome}}</h5>
+                    </a>
+                  </div>
+                  <div id="{{os_key}}-{{build}}-{{outcome}}-collapse" class="collapse" data-bs-parent="#{{os_key}}-{{build}}-accordion">
+                    <div class="card-body">
+                      <!==Stack trace tab loop sorted by test number the test is groupped into a nested list for easier looping
+                      refer to grok_parser.py for how it is formated
+                      ==>
+                      <div id="{{os_key}}-{{build}}-{{outcome}}-accordion">
+                        {% for test in stack_trace[os_key][build][outcome] %}
+                        <div class="card bg-{{data_name_style[outcome].bootstrap_style}} text-white">
+                          <div class="card-header">
+                            <a class="d-block text-white text-decoration-none" data-bs-toggle="collapse" href="#{{os_key}}-{{build}}-{{outcome}}-{{test.test_name}}-collapse">
+                              <h5>Test Name: {{test.test_name}}</h5>
+                            </a>
+                          </div>
+                          <!==Stack trace tab loop sorted by trial==>
+                          <div id="{{os_key}}-{{build}}-{{outcome}}-{{test.test_name}}-collapse" class="collapse" data-bs-parent="#{{os_key}}-{{build}}-{{outcome}}-accordion">
+                            <div class="card-body">
+                              <div id="{{os_key}}-{{build}}-{{outcome}}-{{test.test_name}}-accordion">
+                                {% for trial in test.trials %}
+                                {{trial}}
+                                <div class="card bg-{{data_name_style[trial.outcome].bootstrap_style}} text-white text-left">
+                                  <div class="card-header">
+                                    <a class="d-block text-white bg-{{data_name_style[trial.outcome].bootstrap_style}}" data-bs-toggle="collapse" href="#{{os_key}}-{{build}}-{{outcome}}-{{test.test_name}}-{{trial.trial_num}}-collapse">
+                                      <h5>Trial: {{trial.trial_num}} - Outcome: {{trial.outcome}} - Test Time: {{trial.test_time}} sec</h5>
+                                    </a>
+                                  </div>
+                                  <div id="{{os_key}}-{{build}}-{{outcome}}-{{test.test_name}}-{{trial.trial_num}}-collapse" class="collapse" data-bs-parent="#{{os_key}}-{{build}}-{{outcome}}-{{test.test_name}}-accordion">
+                                    <div class="card-body bg-dark">
+                                      <pre><code>{{trial.stack_trace}}</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                                {% endfor %}
+                              </div>
+                            </div>
+                          </div>
+                          <!==Stack trace tab loop sorted by trial (end)==>
+                        </div>
+                        {% endfor %}
+                      </div>
+                      <!==Stack trace tab loop sorted by test number (end)==>
+                    </div>
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
+              <!==Stack trace tab loop sorted by result type (end)==>
+            </div>
+            {% endfor %}
+          </div>
+          <!== stacktrace end==> -->

@@ -15,7 +15,7 @@ def get_local_build_num_range(
 
 def traverse_data_local(
     data_path, 
-    run_keys,
+    agent_keys,
     build_keys,
     log_sub_filename = '.log',
     columns=["Build","Test_ran", "Passed","Flake","Failed","Timeout"], 
@@ -28,7 +28,7 @@ def traverse_data_local(
 
     Args:
         data_path (Pathlib.Path): path to folder containing data organized by /data_path/build_env/build_num.log
-        run_keys: list of system to parse.
+        agent_keys: list of system to parse.
         build_keys: list of build number to parse.
         columns (list, optional): columns of dataframe of aggregate data. Defaults to ["Build","Test_ran", "Passed","Flake","Failed","Timeout"].
         grok_pattern (str, optional): grok pattern to parse log. Defaults to '[0-9\/]*Test[ ]*\#%{POSINT:test_num}\: (?<test_name>[^ ]*) [.]*[\* ]{3}%{WORD:outcome}[ ]*%{BASE10NUM:test_time} sec'.
@@ -45,78 +45,43 @@ def traverse_data_local(
     builds_data = OrderedDict()
     for build in build_keys:
         build_path = data_path / str(build)
-        ctest_runs = {}
-        for run in run_keys:
-            run_path = build_path / (run + log_sub_filename)
-            if run_path.exists():
-                f = run_path.open()
+        ctest_agents = {}
+        for agent in agent_keys:
+            agent_path = build_path / (agent + log_sub_filename)
+            if agent_path.exists():
+                f = agent_path.open()
                 lines = f.readlines()
                 f.close()
-                log_is_not_found = False
+                is_not_found = False
             else: 
                 lines = []
-                log_is_not_found = True
-            current_run = Ctest_run(
-                log_is_not_found=log_is_not_found, 
+                is_not_found = True
+            current_agent = Ctest_run(
+                is_not_found=is_not_found, 
                 lines=lines, 
-                run_name=run,
+                agent_name=agent,
                 aggregate_data_key=columns[1:], 
                 grok_pattern=grok_pattern,
                 passed_string=passed_string,
                 failed_string=failed_string,
                 timeout_string=timeout_string
             )
-            #print(current_run)
-            ctest_runs[run] = current_run
-            #print(ctest_runs.keys())
-        current_build = Build(build, ctest_runs)
+            #print(current_agent)
+            ctest_agents[agent] = current_agent
+            #print(ctest_agents.keys())
+        current_build = Build(build, ctest_agents)
         builds_data[build] = current_build
     result = Builds_collection(builds_data)
     return result  
 
-
-    # stack_trace = {}
-    # aggregate = {}
-    # aggregate[overall_key] = pd.DataFrame(columns=columns)
-    # for os_key in os_keys:
-    #     stack_trace[os_key] = {}
-    #     aggregate[os_key] = pd.DataFrame(columns=columns)
-    #     aggregate[os_key].set_index(columns[0])
-    #     os_path = data_path / os_key
-    #     for build_key in build_keys:
-    #         build_log_path = os_path / (str(build_key) + log_sub_filename)
-    #         if build_log_path.exists():
-    #             f = build_log_path.open()
-    #             lines = f.readlines()
-    #             f.close()
-    #         else: 
-    #             lines = []
-    #         overall_result, organized_stacktrace = grok_parser(
-    #             lines, 
-    #             aggregate_data_key=columns[1:], 
-    #             grok_pattern=grok_pattern,
-    #             passed_string=passed_string,
-    #             failed_string=failed_string,
-    #             timeout_string=timeout_string
-    #         )
-    #         build_num = int(build_log_path.name.split('.')[0])
-    #         overall_result[columns[0]] = int(build_num)
-    #         aggregate_row = pd.DataFrame(overall_result, index=[build_num])
-    #         aggregate[os_key] = pd.concat([aggregate[os_key],aggregate_row])
-    #         stack_trace[os_key][build_num] = organized_stacktrace
-
-    #     aggregate[os_key] = aggregate[os_key].astype(int).sort_values(columns[0])
-    #     aggregate[overall_key][columns[1:]] = aggregate[overall_key][columns[1:]].add(aggregate[os_key][columns[1:]], fill_value=0)  
-    # aggregate[overall_key][columns[0]] =  aggregate[overall_key].index
-
 if __name__ == '__main__':
     data_path = Path("sample_data")
-    run_keys = ["darwin17", "linux-gnu", "msys"]
+    agent_keys = ["darwin17", "linux-gnu", "msys"]
     build_keys = get_local_build_num_range(data_path, 10)
     columns = ["Build", "Tested", "Passed", "Flake", "Failed", "Timeout"]
     build_collection = traverse_data_local(
         data_path, 
-        run_keys,
+        agent_keys,
         build_keys,
         columns=columns
     )

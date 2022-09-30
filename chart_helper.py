@@ -10,14 +10,14 @@ import jsonpickle
 def get_chart_DF(
     Builds_collection, 
     overall_name = 'Overall', 
-    run_keys = ["darwin17", "linux-gnu", "msys"],
+    agent_keys = ["darwin17", "linux-gnu", "msys"],
     columns = ["Build", "Tested", "Passed", "Flake", "Failed", "Timeout"]):
     """collect data from Builds_collection to form a dict of pandas DF for plotting chart
     I it is like a SQL groupBy for build
     Args:
         Builds_collection (data_object): Collection of build result
         overall_name(str): name of the overall entry
-        run_keys(list(str)): your run keys
+        agent_keys(list(str)): your agent keys
         columns(list(str)): columns for pandas frame starting with build number. Default to ["Build", "Tested", "Passed", "Flake", "Failed", "Timeout"]
     """
     
@@ -26,8 +26,8 @@ def get_chart_DF(
     holder = {
         overall_name: [],
     }
-    for run_key in run_keys:
-        holder[run_key] = []
+    for agent_key in agent_keys:
+        holder[agent_key] = []
     # traverse JSON dict type container
     build_nums = list(Builds_collection.data.keys())
     build_nums.sort(reverse=True)
@@ -42,9 +42,9 @@ def get_chart_DF(
     for build_num in build_nums:
         overall_data_dict = Builds_collection.data[build_num].aggregate
         holder[overall_name].append(populate_row(build_num, overall_data_dict, columns))
-        for run_key in run_keys:
-            run_data_dict = Builds_collection.data[build_num].ctest_runs[run_key].outcome_count
-            holder[run_key].append(populate_row(build_num, run_data_dict, columns))
+        for agent_key in agent_keys:
+            agent_data_dict = Builds_collection.data[build_num].ctest_runs[agent_key].outcome_count
+            holder[agent_key].append(populate_row(build_num, agent_data_dict, columns))
 
     result = {}
     for key in holder.keys():
@@ -129,7 +129,7 @@ def plot_line_chart_plotly(
     for i in range(len(y_columns)):
         fig.add_trace(go.Scatter(
             x=data[x_column], 
-            y=data[y_columns[i]], 
+            y=data[y_columns[i]].fillna(0), 
             name=y_columns[i],
             marker_symbol=marker[i],
             marker_size=10,

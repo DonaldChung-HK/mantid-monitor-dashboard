@@ -55,7 +55,7 @@ class Builds_collection(Data_object):
         """_summary_
 
         Args:
-            data_collection (OrderedDict(Build)): Ordered dict collection of Build
+            data_collection (dict(Build)): Ordered dict collection of Build
         """
         self.data = data_collection
 
@@ -71,6 +71,10 @@ class Builds_collection(Data_object):
         for build_num in build_num_range:
             new_dict[build_num] = self.data[build_num]
         self.data = new_dict
+    
+    def sort(self):
+        self.data = {key:self.data[key] for key in sorted(self.data.keys())}
+
 
 
 class Build(Data_object):

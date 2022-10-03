@@ -1,0 +1,58 @@
+name: Build webpage
+
+on:
+  schedule:
+    # Nightly build at 14:00
+    - cron: "0 14 * * * "
+  push:
+    branches:
+      - main
+  # Manual run
+  workflow_dispatch:
+
+jobs:
+  build_webpage:
+    name: Build webpage
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+          architecture: x64
+      - uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      # - uses: actions/cache@v2
+      #   with:
+      #     path: ~/.cache/ghcache.json
+      #     key: ${{ runner.os }}-ghcache-v3-${{ hashFiles('make.py') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-ghcache-v3
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run builder
+        run: |
+          python main.py -u 'https://builds.mantidproject.org/' -p 'build_packages_from_branch' -n 15
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.7
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: dist # The folder the action should deploy.
+          git-config-name: github-actions[bot]
+          git-config-email: github-actions[bot]@users.noreply.github.com
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: history-storage
+          push_options: '--force'
+          commit_options: '--no-verify --signoff'
+          commit_message: Build and auto update history
+          create_branch: true
+          file_pattern: 'history/*.json'

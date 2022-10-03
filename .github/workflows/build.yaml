@@ -2,11 +2,8 @@ name: Build webpage
 
 on:
   schedule:
-    # Nightly build at 14:00
+    # Daily build at 14:00
     - cron: "0 14 * * * "
-  push:
-    branches:
-      - main
   # Manual run
   workflow_dispatch:
 
@@ -50,7 +47,7 @@ jobs:
           git-config-email: github-actions[bot]@users.noreply.github.com
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          branch: history-storage
+          branch: main
           push_options: '--force'
           commit_options: '--no-verify --signoff'
           commit_message: Build and auto update history

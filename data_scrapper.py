@@ -2,7 +2,7 @@ import requests
 from collections import OrderedDict
 from data_object import Builds_collection, Build, Ctest_run
 import jsonpickle
-class remote_source():
+class Remote_source():
     """remote pipeline source
     """
     def __init__(
@@ -13,6 +13,7 @@ class remote_source():
         self.jenkins_url = jenkins_url
         self.pipeline_name = pipeline_name
         self.auth = auth
+        self.pipeline_url = self.jenkins_url + "job/" + self.pipeline_name
         self.job_api = self.jenkins_url + "job/" + self.pipeline_name + "/api/json"
         self.build_url_dict = self.get_build_url()
         
@@ -75,7 +76,7 @@ def traverse_data_remote(
     file_list,
     build_search_range,
     cached_object = None,
-    columns=["Build","Test_ran", "Passed","Flake","Failed","Timeout"], 
+    columns=["Build","Tested", "Passed","Flake","Failed","Timeout"], 
     grok_pattern = '[0-9\/]*Test[ ]*\#%{POSINT:test_num}\: (?<test_name>[^ ]*) [.]*[\* ]{3}%{WORD:outcome}[ ]*%{BASE10NUM:test_time} sec',
     passed_string = "Passed",
     failed_string = "Failed",
@@ -131,7 +132,7 @@ def traverse_data_remote(
     
     
 if __name__ == '__main__':
-    remote_source_test = remote_source()
+    remote_source_test = Remote_source()
     num_past_build = 10
     print(type(remote_source_test.get_latest_build_id()))
     build_range = list(range(remote_source_test.get_latest_build_id(), max(1, remote_source_test.get_latest_build_id()-num_past_build) - 1, -1))

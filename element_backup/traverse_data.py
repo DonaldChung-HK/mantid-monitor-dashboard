@@ -5,7 +5,6 @@ from collections import OrderedDict
 from data_object import Builds_collection, Build, Ctest_run
 import jsonpickle
 
-from data_scrapper import remote_source
 
 def get_local_build_num_range(
         data_path,
@@ -22,7 +21,7 @@ def traverse_data_local(
     agent_keys,
     build_keys,
     log_sub_filename = '.log',
-    columns=["Build","Test_ran", "Passed","Flake","Failed","Timeout"], 
+    columns=["Build","Tested", "Passed","Flake","Failed","Timeout"], 
     grok_pattern = '[0-9\/]*Test[ ]*\#%{POSINT:test_num}\: (?<test_name>[^ ]*) [.]*[\* ]{3}%{WORD:outcome}[ ]*%{BASE10NUM:test_time} sec',
     passed_string = "Passed",
     failed_string = "Failed",
@@ -34,7 +33,7 @@ def traverse_data_local(
         data_path (Pathlib.Path): path to folder containing data organized by /data_path/build_env/build_num.log
         agent_keys: list of system to parse.
         build_keys: list of build number to parse.
-        columns (list, optional): columns of dataframe of aggregate data. Defaults to ["Build","Test_ran", "Passed","Flake","Failed","Timeout"].
+        columns (list, optional): columns of dataframe of aggregate data. Defaults to ["Build","Tested", "Passed","Flake","Failed","Timeout"].
         grok_pattern (str, optional): grok pattern to parse log. Defaults to '[0-9\/]*Test[ ]*\#%{POSINT:test_num}\: (?<test_name>[^ ]*) [.]*[\* ]{3}%{WORD:outcome}[ ]*%{BASE10NUM:test_time} sec'.
         passed_string (str, optional): in grok pattern %{WORD:outcome} for passed. Defaults to "Passed".
         failed_string (str, optional): in grok pattern %{WORD:outcome} for failed. Defaults to "Failed".

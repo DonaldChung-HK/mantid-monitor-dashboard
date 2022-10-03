@@ -1,22 +1,19 @@
 from ensurepip import bootstrap
-import sys
-import json
-import os
-from itertools import groupby, product
-from collections import defaultdict, OrderedDict
+
+from collections import OrderedDict
 import argparse
 from pathlib import Path
 from shutil import copyfile
 
 from jinja2 import Template
-from github import Github
-from datetime import datetime, timezone, timedelta
-import matplotlib.pyplot as plt
-import pandas as pd
+from datetime import datetime
 
-from traverse_data import traverse_data_local
+#from traverse_data import traverse_data_local
 from datatable_helper import fail_test_table_data_gen
-from chart_helper import get_chart_DF, plot_line_chart, plot_line_chart_plotly
+from chart_helper import get_chart_DF, plot_line_chart_plotly
+from data_scrapper import Remote_source, file_object, traverse_data_remote
+
+import jsonpickle
 
 class data_name_visual():
     """store the data name and the visual
@@ -42,20 +39,29 @@ class data_name_visual():
         self.marker_shape = marker_shape
         
 
-def get_local_build_num_range(
-        data_path,
-        num_pass_build 
-    ):
-    build_keys = list(int(d.name) for d in data_path.iterdir())
-    latest_build = max(build_keys)
-    return list(range(latest_build, max(1, latest_build-num_pass_build) - 1, -1))
-
-
-
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Produce a dashboard to monitor mantid unit test')
+    parser.add_argument('-u','--jenkins_url', 
+                        type=str,
+                        help='url to your mantid project',
+                        dest="jenkins_url",
+                        required=True)
+    parser.add_argument('-p', '--pipeline_name', 
+                        type=str,
+                        help='the pipeline name to monitor',
+                        dest = "pipeline_name",
+                        required=True)
+    parser.add_argument('-n', '--num_past_build', 
+                        type=int,
+                        help='number of past build to monitor',
+                        dest = "num_past_build",
+                        required=True)                    
+
+    args = parser.parse_args()
+
+    
     # environmental variable############################
-    jenkins_pipeline_name = "Testing Pipeline"
-    jenkins_pipeline_url = "#"
+    
     now = datetime.now()
     ## Data
     data_name_style = OrderedDict()
@@ -128,6 +134,11 @@ if __name__ == "__main__":
     dist_src.mkdir(exist_ok=True)
     dist_data = dist / "data" # if you change this you will also change the table.html.j2
     dist_data.mkdir(exist_ok=True)
+    ##historical data path
+    history_path = Path("history")
+    history_path.mkdir(exist_ok=True)
+    history_json = history_path / "history_fail_test_data.json"
+    history_json_pickle = history_path / "history_fail_test_data_pickle.json"
     ####logo
     logo_path = assets / "logo.png"
     copyfile(logo_path, dist_asset / logo_path.name)
@@ -142,19 +153,38 @@ if __name__ == "__main__":
     
     
     # range of data
+    remote_source = Remote_source(args.jenkins_url, args.pipeline_name) # set in arguments
+    num_past_build = args.num_past_build    
     agent_keys = ["darwin17", "linux-gnu", "msys"]
-    build_keys = get_local_build_num_range(local_sample_data_path, 10)
+    file_names = ["darwin17.log", "linux-gnu.log", "msys.log"]
+    build_keys = list(range(remote_source.get_latest_build_id(), max(1, remote_source.get_latest_build_id()-num_past_build) - 1, -1))
+    build_keys = [str(i) for i in build_keys]
+    file_list = [
+        file_object(agent_keys[i], file_names[i]) for i in range(len(file_names))
+    ]
+
     ###############################################################
-
-
+    
     
 
-    build_collection_data = traverse_data_local(
-        local_sample_data_path, 
-        agent_keys,
-        build_keys,
-        columns=columns, 
-        grok_pattern=grok_pattern)
+    if history_json_pickle.exists():
+        with open(history_json_pickle, 'r') as f:
+            string = f.read()
+            old_data = jsonpickle.decode(string)
+    else:
+        old_data = None
+
+    build_collection_data = traverse_data_remote(remote_source, file_list,build_keys,cached_object=old_data)
+    build_collection_data.toJson_file(history_json, False)
+    build_collection_data.toJson_file(history_json_pickle, True)
+    
+
+    # build_collection_data = traverse_data_local(
+    #     local_sample_data_path, 
+    #     agent_keys,
+    #     build_keys,
+    #     columns=columns, 
+    #     grok_pattern=grok_pattern)
 
     aggregate = get_chart_DF(build_collection_data)
 
@@ -218,8 +248,8 @@ if __name__ == "__main__":
     # organize 
     # print(aggregate["msys"].set_indexT.to_json(orient="records"))
     template_data = {
-        "jenkins_pipeline_name": jenkins_pipeline_name,
-        "jenkins_pipeline_url": jenkins_pipeline_url,
+        "jenkins_pipeline_name": remote_source.pipeline_name,
+        "jenkins_pipeline_url": remote_source.pipeline_url,
         "current_datetime": now.strftime("%B %d, %Y %H:%M"),
         "logo": logo_path.name,
         "bootstrap_css_file": bootstrap_css_file.name,

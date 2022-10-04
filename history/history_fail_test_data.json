@@ -1,0 +1,1016 @@
+{
+    "data": {
+        "59": {
+            "build_name": "59",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "darwin17": {
+                    "agent_name": "darwin17",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "linux-gnu": {
+                    "agent_name": "linux-gnu",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "msys": {
+                    "agent_name": "msys",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "60": {
+            "build_name": "60",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "darwin17": {
+                    "agent_name": "darwin17",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "linux-gnu": {
+                    "agent_name": "linux-gnu",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "msys": {
+                    "agent_name": "msys",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "61": {
+            "build_name": "61",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "darwin17": {
+                    "agent_name": "darwin17",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "linux-gnu": {
+                    "agent_name": "linux-gnu",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "msys": {
+                    "agent_name": "msys",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "62": {
+            "build_name": "62",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "darwin17": {
+                    "agent_name": "darwin17",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "linux-gnu": {
+                    "agent_name": "linux-gnu",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "msys": {
+                    "agent_name": "msys",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "63": {
+            "build_name": "63",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "darwin17": {
+                    "agent_name": "darwin17",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "linux-gnu": {
+                    "agent_name": "linux-gnu",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "msys": {
+                    "agent_name": "msys",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "64": {
+            "build_name": "64",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "darwin17": {
+                    "agent_name": "darwin17",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "linux-gnu": {
+                    "agent_name": "linux-gnu",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "msys": {
+                    "agent_name": "msys",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "65": {
+            "build_name": "65",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "darwin17": {
+                    "agent_name": "darwin17",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "linux-gnu": {
+                    "agent_name": "linux-gnu",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "msys": {
+                    "agent_name": "msys",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "66": {
+            "build_name": "66",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 7912,
+                "Passed": 7908,
+                "Flake": 1,
+                "Failed": 3,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "darwin17": {
+                    "agent_name": "darwin17",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2637,
+                        "Passed": 2635,
+                        "Flake": 1,
+                        "Failed": 1,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {
+                            "python.algorithms.FlakyTest.FlakyTest": {
+                                "test_name": "python.algorithms.FlakyTest.FlakyTest",
+                                "trials": [
+                                    {
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "0.34",
+                                        "stack_trace": "F\n======================================================================\nFAIL: test_flaky (FlakyTest.FlakyTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FlakyTest.py&quot;, line 7, in test_flaky\n    self.assertEqual(rand, 1)\nAssertionError: 0 != 1\n\n----------------------------------------------------------------------\nRan 1 test in 0.011s\n\nFAILED (failures=1)\n\n          Start 1516: python.algorithms.FlakyTest.FlakyTest\n"
+                                    },
+                                    {
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "0.33",
+                                        "stack_trace": "F\n======================================================================\nFAIL: test_flaky (FlakyTest.FlakyTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FlakyTest.py&quot;, line 7, in test_flaky\n    self.assertEqual(rand, 1)\nAssertionError: 0 != 1\n\n----------------------------------------------------------------------\nRan 1 test in 0.011s\n\nFAILED (failures=1)\n\n          Start 1516: python.algorithms.FlakyTest.FlakyTest\n"
+                                    },
+                                    {
+                                        "trial_num": 3,
+                                        "outcome": "Passed",
+                                        "test_time": "0.33",
+                                        "stack_trace": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "Failed": {
+                            "python.algorithms.FailTest.FailTest": {
+                                "test_name": "python.algorithms.FailTest.FailTest",
+                                "trials": [
+                                    {
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "0.31",
+                                        "stack_trace": "F\n======================================================================\nFAIL: test_fail (FailTest.FailTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FailTest.py&quot;, line 5, in test_fail\n    self.assertEqual(0, 1)\nAssertionError: 0 != 1\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n\n          Start 1510: python.algorithms.FailTest.FailTest\n"
+                                    },
+                                    {
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "0.30",
+                                        "stack_trace": "F\n======================================================================\nFAIL: test_fail (FailTest.FailTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FailTest.py&quot;, line 5, in test_fail\n    self.assertEqual(0, 1)\nAssertionError: 0 != 1\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n\n          Start 1510: python.algorithms.FailTest.FailTest\n"
+                                    },
+                                    {
+                                        "trial_num": 3,
+                                        "outcome": "Failed",
+                                        "test_time": "0.32",
+                                        "stack_trace": "F\n======================================================================\nFAIL: test_fail (FailTest.FailTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FailTest.py&quot;, line 5, in test_fail\n    self.assertEqual(0, 1)\nAssertionError: 0 != 1\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n\n          Start 2041: mantidqt_qt5.test_codeeditor_tab_view.test_codeeditor_tab_view\n"
+                                    }
+                                ]
+                            }
+                        },
+                        "Timeout": {}
+                    }
+                },
+                "linux-gnu": {
+                    "agent_name": "linux-gnu",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2637,
+                        "Passed": 2636,
+                        "Flake": 0,
+                        "Failed": 1,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {
+                            "python.algorithms.FailTest.FailTest": {
+                                "test_name": "python.algorithms.FailTest.FailTest",
+                                "trials": [
+                                    {
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "0.17",
+                                        "stack_trace": "/jenkins_workdir/workspace/build_packages_from_branch/build/bin/site.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module&#x27;s documentation for alternative uses\n  import imp  # Avoid import loop in Python 3\nF\n======================================================================\nFAIL: test_fail (FailTest.FailTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FailTest.py&quot;, line 5, in test_fail\n    self.assertEqual(0, 1)\nAssertionError: 0 != 1\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (failures=1)\n\n          Start 1510: python.algorithms.FailTest.FailTest\n"
+                                    },
+                                    {
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "0.21",
+                                        "stack_trace": "/jenkins_workdir/workspace/build_packages_from_branch/build/bin/site.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module&#x27;s documentation for alternative uses\n  import imp  # Avoid import loop in Python 3\nF\n======================================================================\nFAIL: test_fail (FailTest.FailTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FailTest.py&quot;, line 5, in test_fail\n    self.assertEqual(0, 1)\nAssertionError: 0 != 1\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (failures=1)\n\n          Start 1510: python.algorithms.FailTest.FailTest\n"
+                                    },
+                                    {
+                                        "trial_num": 3,
+                                        "outcome": "Failed",
+                                        "test_time": "0.28",
+                                        "stack_trace": "/jenkins_workdir/workspace/build_packages_from_branch/build/bin/site.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module&#x27;s documentation for alternative uses\n  import imp  # Avoid import loop in Python 3\nF\n======================================================================\nFAIL: test_fail (FailTest.FailTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FailTest.py&quot;, line 5, in test_fail\n    self.assertEqual(0, 1)\nAssertionError: 0 != 1\n\n----------------------------------------------------------------------\nRan 1 test in 0.013s\n\nFAILED (failures=1)\n\n          Start  134: KernelTest_UtilsTest\n"
+                                    }
+                                ]
+                            }
+                        },
+                        "Timeout": {}
+                    }
+                },
+                "msys": {
+                    "agent_name": "msys",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2638,
+                        "Passed": 2637,
+                        "Flake": 0,
+                        "Failed": 1,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {
+                            "python.algorithms.FailTest.FailTest": {
+                                "test_name": "python.algorithms.FailTest.FailTest",
+                                "trials": [
+                                    {
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "3.74",
+                                        "stack_trace": "F\r\n======================================================================\r\nFAIL: test_fail (FailTest.FailTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FailTest.py&quot;, line 5, in test_fail\r\n    self.assertEqual(0, 1)\r\nAssertionError: 0 != 1\r\n\r\n----------------------------------------------------------------------\r\nRan 1 test in 0.001s\r\n\r\nFAILED (failures=1)\r\n\r\n          Start 1511: python.algorithms.FailTest.FailTest\r\n"
+                                    },
+                                    {
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "2.42",
+                                        "stack_trace": "F\r\n======================================================================\r\nFAIL: test_fail (FailTest.FailTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FailTest.py&quot;, line 5, in test_fail\r\n    self.assertEqual(0, 1)\r\nAssertionError: 0 != 1\r\n\r\n----------------------------------------------------------------------\r\nRan 1 test in 0.001s\r\n\r\nFAILED (failures=1)\r\n\r\n          Start 1511: python.algorithms.FailTest.FailTest\r\n"
+                                    },
+                                    {
+                                        "trial_num": 3,
+                                        "outcome": "Failed",
+                                        "test_time": "2.29",
+                                        "stack_trace": "F\r\n======================================================================\r\nFAIL: test_fail (FailTest.FailTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FailTest.py&quot;, line 5, in test_fail\r\n    self.assertEqual(0, 1)\r\nAssertionError: 0 != 1\r\n\r\n----------------------------------------------------------------------\r\nRan 1 test in 0.002s\r\n\r\nFAILED (failures=1)\r\n\r\n          Start  207: AlgorithmsTest_CompareWorkspacesTest\r\n"
+                                    }
+                                ]
+                            }
+                        },
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "67": {
+            "build_name": "67",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "darwin17": {
+                    "agent_name": "darwin17",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "linux-gnu": {
+                    "agent_name": "linux-gnu",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "msys": {
+                    "agent_name": "msys",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "68": {
+            "build_name": "68",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "darwin17": {
+                    "agent_name": "darwin17",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "linux-gnu": {
+                    "agent_name": "linux-gnu",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "msys": {
+                    "agent_name": "msys",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "69": {
+            "build_name": "69",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "darwin17": {
+                    "agent_name": "darwin17",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "linux-gnu": {
+                    "agent_name": "linux-gnu",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "msys": {
+                    "agent_name": "msys",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "70": {
+            "build_name": "70",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "darwin17": {
+                    "agent_name": "darwin17",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "linux-gnu": {
+                    "agent_name": "linux-gnu",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "msys": {
+                    "agent_name": "msys",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "71": {
+            "build_name": "71",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 7912,
+                "Passed": 7907,
+                "Flake": 2,
+                "Failed": 3,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "darwin17": {
+                    "agent_name": "darwin17",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2637,
+                        "Passed": 2636,
+                        "Flake": 0,
+                        "Failed": 1,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {
+                            "python.algorithms.FailTest.FailTest": {
+                                "test_name": "python.algorithms.FailTest.FailTest",
+                                "trials": [
+                                    {
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "0.29",
+                                        "stack_trace": "F\n======================================================================\nFAIL: test_fail (FailTest.FailTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FailTest.py&quot;, line 5, in test_fail\n    self.assertEqual(0, 1)\nAssertionError: 0 != 1\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n\n          Start 1510: python.algorithms.FailTest.FailTest\n"
+                                    },
+                                    {
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "0.29",
+                                        "stack_trace": "F\n======================================================================\nFAIL: test_fail (FailTest.FailTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FailTest.py&quot;, line 5, in test_fail\n    self.assertEqual(0, 1)\nAssertionError: 0 != 1\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n\n          Start 1510: python.algorithms.FailTest.FailTest\n"
+                                    },
+                                    {
+                                        "trial_num": 3,
+                                        "outcome": "Failed",
+                                        "test_time": "0.29",
+                                        "stack_trace": "F\n======================================================================\nFAIL: test_fail (FailTest.FailTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FailTest.py&quot;, line 5, in test_fail\n    self.assertEqual(0, 1)\nAssertionError: 0 != 1\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n\n          Start 1660: python.WorkflowAlgorithms.PolDiffILLReductionTest.PolDiffILLReductionTest\n"
+                                    }
+                                ]
+                            }
+                        },
+                        "Timeout": {}
+                    }
+                },
+                "linux-gnu": {
+                    "agent_name": "linux-gnu",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2637,
+                        "Passed": 2635,
+                        "Flake": 1,
+                        "Failed": 1,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {
+                            "python.algorithms.FlakyTest.FlakyTest": {
+                                "test_name": "python.algorithms.FlakyTest.FlakyTest",
+                                "trials": [
+                                    {
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "0.28",
+                                        "stack_trace": "/jenkins_workdir/workspace/build_packages_from_branch/build/bin/site.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module&#x27;s documentation for alternative uses\n  import imp  # Avoid import loop in Python 3\nF\n======================================================================\nFAIL: test_flaky (FlakyTest.FlakyTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FlakyTest.py&quot;, line 7, in test_flaky\n    self.assertEqual(rand, 1)\nAssertionError: 0 != 1\n\n----------------------------------------------------------------------\nRan 1 test in 0.004s\n\nFAILED (failures=1)\n\n          Start 1516: python.algorithms.FlakyTest.FlakyTest\n"
+                                    },
+                                    {
+                                        "trial_num": 2,
+                                        "outcome": "Passed",
+                                        "test_time": "0.31",
+                                        "stack_trace": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "Failed": {
+                            "python.algorithms.FailTest.FailTest": {
+                                "test_name": "python.algorithms.FailTest.FailTest",
+                                "trials": [
+                                    {
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "0.30",
+                                        "stack_trace": "/jenkins_workdir/workspace/build_packages_from_branch/build/bin/site.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module&#x27;s documentation for alternative uses\n  import imp  # Avoid import loop in Python 3\nF\n======================================================================\nFAIL: test_fail (FailTest.FailTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FailTest.py&quot;, line 5, in test_fail\n    self.assertEqual(0, 1)\nAssertionError: 0 != 1\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (failures=1)\n\n          Start 1510: python.algorithms.FailTest.FailTest\n"
+                                    },
+                                    {
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "0.37",
+                                        "stack_trace": "/jenkins_workdir/workspace/build_packages_from_branch/build/bin/site.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module&#x27;s documentation for alternative uses\n  import imp  # Avoid import loop in Python 3\nF\n======================================================================\nFAIL: test_fail (FailTest.FailTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FailTest.py&quot;, line 5, in test_fail\n    self.assertEqual(0, 1)\nAssertionError: 0 != 1\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (failures=1)\n\n          Start 1510: python.algorithms.FailTest.FailTest\n"
+                                    },
+                                    {
+                                        "trial_num": 3,
+                                        "outcome": "Failed",
+                                        "test_time": "0.27",
+                                        "stack_trace": "/jenkins_workdir/workspace/build_packages_from_branch/build/bin/site.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module&#x27;s documentation for alternative uses\n  import imp  # Avoid import loop in Python 3\nF\n======================================================================\nFAIL: test_fail (FailTest.FailTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FailTest.py&quot;, line 5, in test_fail\n    self.assertEqual(0, 1)\nAssertionError: 0 != 1\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (failures=1)\n\n          Start 2433: MantidQtInterfacesIndirectTestQt5_IndirectFitPlotPresenterTest\n"
+                                    }
+                                ]
+                            }
+                        },
+                        "Timeout": {}
+                    }
+                },
+                "msys": {
+                    "agent_name": "msys",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2638,
+                        "Passed": 2636,
+                        "Flake": 1,
+                        "Failed": 1,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {
+                            "python.algorithms.FlakyTest.FlakyTest": {
+                                "test_name": "python.algorithms.FlakyTest.FlakyTest",
+                                "trials": [
+                                    {
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "2.21",
+                                        "stack_trace": "F\r\n======================================================================\r\nFAIL: test_flaky (FlakyTest.FlakyTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FlakyTest.py&quot;, line 7, in test_flaky\r\n    self.assertEqual(rand, 1)\r\nAssertionError: 0 != 1\r\n\r\n----------------------------------------------------------------------\r\nRan 1 test in 0.001s\r\n\r\nFAILED (failures=1)\r\n\r\n          Start 1517: python.algorithms.FlakyTest.FlakyTest\r\n"
+                                    },
+                                    {
+                                        "trial_num": 2,
+                                        "outcome": "Passed",
+                                        "test_time": "1.88",
+                                        "stack_trace": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "Failed": {
+                            "python.algorithms.FailTest.FailTest": {
+                                "test_name": "python.algorithms.FailTest.FailTest",
+                                "trials": [
+                                    {
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "1.61",
+                                        "stack_trace": "F\r\n======================================================================\r\nFAIL: test_fail (FailTest.FailTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FailTest.py&quot;, line 5, in test_fail\r\n    self.assertEqual(0, 1)\r\nAssertionError: 0 != 1\r\n\r\n----------------------------------------------------------------------\r\nRan 1 test in 0.001s\r\n\r\nFAILED (failures=1)\r\n\r\n          Start 1511: python.algorithms.FailTest.FailTest\r\n"
+                                    },
+                                    {
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "1.32",
+                                        "stack_trace": "F\r\n======================================================================\r\nFAIL: test_fail (FailTest.FailTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FailTest.py&quot;, line 5, in test_fail\r\n    self.assertEqual(0, 1)\r\nAssertionError: 0 != 1\r\n\r\n----------------------------------------------------------------------\r\nRan 1 test in 0.001s\r\n\r\nFAILED (failures=1)\r\n\r\n          Start 1511: python.algorithms.FailTest.FailTest\r\n"
+                                    },
+                                    {
+                                        "trial_num": 3,
+                                        "outcome": "Failed",
+                                        "test_time": "2.11",
+                                        "stack_trace": "F\r\n======================================================================\r\nFAIL: test_fail (FailTest.FailTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FailTest.py&quot;, line 5, in test_fail\r\n    self.assertEqual(0, 1)\r\nAssertionError: 0 != 1\r\n\r\n----------------------------------------------------------------------\r\nRan 1 test in 0.011s\r\n\r\nFAILED (failures=1)\r\n\r\n          Start 1358: python.kernel.PythonPluginsTest.PythonPluginsTest\r\n"
+                                    }
+                                ]
+                            }
+                        },
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "72": {
+            "build_name": "72",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "darwin17": {
+                    "agent_name": "darwin17",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "linux-gnu": {
+                    "agent_name": "linux-gnu",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "msys": {
+                    "agent_name": "msys",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "73": {
+            "build_name": "73",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "darwin17": {
+                    "agent_name": "darwin17",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "linux-gnu": {
+                    "agent_name": "linux-gnu",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "msys": {
+                    "agent_name": "msys",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "74": {
+            "build_name": "74",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "darwin17": {
+                    "agent_name": "darwin17",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "linux-gnu": {
+                    "agent_name": "linux-gnu",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "msys": {
+                    "agent_name": "msys",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        }
+    }
+}

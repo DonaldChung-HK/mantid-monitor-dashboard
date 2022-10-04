@@ -27,3 +27,8 @@ The main.py does the following
 9. create and copy the json for the data table using `datatable_helper.fail_test_table_data_gen` 
 10. generate the HTML code for failed test dataTable with `jinja2` and `assets/table.html.j2` not that you will have to add the helper functions to the header of `assets/index.html.j2`
 11. generate the HTML code for the page using `jinja2` and `assets/index.html.j2` 
+## Github page
+This repo is deploy using the legacy github page mode, you have to enable the github page in the `repo settings -> pages`
+set source to `deploy from a branch` and point to the `gh-pages` Branch
+## Github action
+The update action will run daily at `14:00 UTC` you can also manually run the github action in `Actions - Build webpage` workflow. 

@@ -20,11 +20,8 @@ class LTS_Problem_test_entry(Data_object):
         """Initialise a container for a fail test entry
 
         Args:
-            test_name (str): Failed test name
-            latest_failed_build (str): last failed build name
-            last_failed_outcome (str): outcome of the test in the last failed build
-            agent_name (str): os/env name 
-            past_failed_outcome (dict(str)): dictionary of {build_id: outcome}
+            problem_test_entry(datatable_helper.Problem_test_entry): a test fail entry which is new
+            excluded(list(str)): list of outcome to exclude from recording usually to skip over passed and none outcome. Default to ["Passed", "None"]
         """
         self.test_name = problem_test_entry.test_name
         self.latest_failed_build = problem_test_entry.latest_failed_build
@@ -39,17 +36,11 @@ class LTS_Problem_test_entry(Data_object):
         self, 
         problem_test_entry,
         excluded = ["Passed", "None"]):
-        """_summary_
+        """update an existing fail test entry
 
         Args:
-            latest_failed_build (_type_): _description_
-            last_failed_outcome (_type_): _description_
-            agent_name (_type_): _description_
-            past_failed_outcome (_type_): _description_
-            last_stack_traces (_type_): _description_
-
-        Returns:
-            _type_: _description_
+            problem_test_entry(datatable_helper.Problem_test_entry): a test fail entry which is new
+            excluded(list(str)): list of outcome to exclude from recording usually to skip over passed and none outcome. Default to ["Passed", "None"]
         """
         if int(problem_test_entry.latest_failed_build) > int(self.latest_failed_build):
             self.latest_failed_build = problem_test_entry.latest_failed_build

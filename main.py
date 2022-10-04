@@ -11,7 +11,7 @@ from datetime import datetime
 #from traverse_data import traverse_data_local
 from datatable_helper import fail_test_table_data_gen
 from chart_helper import get_chart_DF, plot_line_chart_plotly
-from data_scrapper import Remote_source, file_object, traverse_data_remote
+from data_scrapper import Remote_source, File_object, traverse_data_remote
 
 import jsonpickle
 
@@ -43,7 +43,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Produce a dashboard to monitor mantid unit test')
     parser.add_argument('-u','--jenkins_url', 
                         type=str,
-                        help='url to your mantid project',
+                        help='url to your jenkins project',
                         dest="jenkins_url",
                         required=True)
     parser.add_argument('-p', '--pipeline_name', 
@@ -60,7 +60,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     
-    # environmental variable############################
+    # environment variable############################
     
     now = datetime.now()
     ## Data
@@ -160,7 +160,7 @@ if __name__ == "__main__":
     build_keys = list(range(remote_source.get_latest_build_id(), max(1, remote_source.get_latest_build_id()-num_past_build) - 1, -1))
     build_keys = [str(i) for i in build_keys]
     file_list = [
-        file_object(agent_keys[i], file_names[i]) for i in range(len(file_names))
+        File_object(agent_keys[i], file_names[i]) for i in range(len(file_names))
     ]
 
     ###############################################################
@@ -174,7 +174,13 @@ if __name__ == "__main__":
     else:
         old_data = None
 
-    build_collection_data = traverse_data_remote(remote_source, file_list,build_keys,cached_object=old_data)
+    build_collection_data = traverse_data_remote(
+        remote_source, 
+        file_list,
+        build_keys,
+        cached_object=old_data,
+        columns=columns,
+        grok_pattern=grok_pattern,)
     build_collection_data.toJson_file(history_json, False)
     build_collection_data.toJson_file(history_json_pickle, True)
     

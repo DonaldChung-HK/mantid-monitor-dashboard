@@ -1,4 +1,3 @@
-from ast import Lt
 import jsonpickle
 from data_object import Data_object
 

@@ -1,0 +1,46 @@
+{
+    "py/object": "datatable_helper.LTS_Problem_test",
+    "data": {
+        "python.algorithms.FlakyTest.FlakyTest": {
+            "py/object": "datatable_helper.LTS_Problem_test_entry",
+            "test_name": "python.algorithms.FlakyTest.FlakyTest",
+            "latest_failed_build": "71",
+            "agent_name": "msys",
+            "last_failed_outcome": "Flake",
+            "past_failed_outcome": {
+                "71": "Flake"
+            },
+            "last_stack_traces": {
+                "py/object": "datatable_helper.Problem_test_trial",
+                "test_name": "python.algorithms.FlakyTest.FlakyTest",
+                "build": "71",
+                "agent_name": "msys",
+                "trial": 1,
+                "outcome": "Failed",
+                "test_time": "2.21",
+                "stacktrace": "F\r\n======================================================================\r\nFAIL: test_flaky (FlakyTest.FlakyTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FlakyTest.py&quot;, line 7, in test_flaky\r\n    self.assertEqual(rand, 1)\r\nAssertionError: 0 != 1\r\n\r\n----------------------------------------------------------------------\r\nRan 1 test in 0.001s\r\n\r\nFAILED (failures=1)\r\n\r\n          Start 1517: python.algorithms.FlakyTest.FlakyTest\r\n"
+            }
+        },
+        "python.algorithms.FailTest.FailTest": {
+            "py/object": "datatable_helper.LTS_Problem_test_entry",
+            "test_name": "python.algorithms.FailTest.FailTest",
+            "latest_failed_build": "71",
+            "agent_name": "msys",
+            "last_failed_outcome": "Failed",
+            "past_failed_outcome": {
+                "66": "Failed",
+                "71": "Failed"
+            },
+            "last_stack_traces": {
+                "py/object": "datatable_helper.Problem_test_trial",
+                "test_name": "python.algorithms.FailTest.FailTest",
+                "build": "71",
+                "agent_name": "msys",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "2.11",
+                "stacktrace": "F\r\n======================================================================\r\nFAIL: test_fail (FailTest.FailTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FailTest.py&quot;, line 5, in test_fail\r\n    self.assertEqual(0, 1)\r\nAssertionError: 0 != 1\r\n\r\n----------------------------------------------------------------------\r\nRan 1 test in 0.011s\r\n\r\nFAILED (failures=1)\r\n\r\n          Start 1358: python.kernel.PythonPluginsTest.PythonPluginsTest\r\n"
+            }
+        }
+    }
+}

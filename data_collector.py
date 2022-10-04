@@ -51,7 +51,6 @@ class Remote_source():
         """
         job_api = self.job_api
         data = requests.get(job_api, auth=self.auth).json()['lastBuild']
-        #print(data)
         latest_build = data['number']
         return latest_build
 
@@ -100,8 +99,6 @@ class Remote_source():
                     "content": None,
                     "url" : None,
                 }
-        #print (artifacts_list)
-        #print(log_files.keys())
         return log_files
 
 class File_object():
@@ -150,15 +147,14 @@ def traverse_data_remote(
                 existing_completed.add(build)
     else:
         cached_object = Builds_collection({})
-    print(existing_completed)
+    print("existing completed:", existing_completed)
     targets = list(set(build_search_range) - existing_completed)
-    print(targets)
+    print("targets:", targets)
     for build in targets:
         log_data = remote_source.get_log_artifacts_for_build(build, [f.file_name for f in file_list])
-        #print(log_data)
         ctest_agents = {}
         for i in range(len(file_list)):
-            print(build, file_list[i].file_name, log_data.keys())
+            print("parsing:", build, file_list[i].file_name, log_data.keys())
             if log_data[file_list[i].file_name]['content'] != None:
                 lines = log_data[file_list[i].file_name]['content'].split('\n')
                 is_not_found = False
@@ -175,9 +171,7 @@ def traverse_data_remote(
                 failed_string=failed_string,
                 timeout_string=timeout_string
             )
-            #print(current_agent)
             ctest_agents[file_list[i].agent_key] = current_agent
-            #print(ctest_agents.keys())
         current_build = Build(build, ctest_agents)
         cached_object.data[build] = current_build
     

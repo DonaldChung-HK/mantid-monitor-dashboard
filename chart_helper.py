@@ -80,8 +80,6 @@ def plot_line_chart(
     """
     fig, ax = plt.subplots()
     line_collections = ax.plot(data[x_column], data[y_columns], lw=4, alpha=0.4, ms=8, mew=2)
-    #print(data[x_column])
-    #print(data[y_columns])
     ax.set_title(title)
     ax.set_xlabel(x_axis)
     ax.set_ylabel(y_axis)

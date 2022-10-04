@@ -63,7 +63,6 @@ class Builds_collection(Data_object):
         """
         Drop data outside of key range make sure you have the correct key
         """
-        print(build_num_range)
         build_num_range = list(set(build_num_range))
         build_num_range.sort(reverse=True)
         print(f"build_num_range: {build_num_range}")
@@ -148,16 +147,11 @@ class Ctest_run(Data_object):
             i = 0 #pointer
             while i < len(lines):
                 line = lines[i]
-                #print(line)
                 grokked = test_result_grok.match(line)
                 current_is_flake = False
-                #print(grokked)
                 if grokked != None:
                     previous_result = test_result_df.loc[test_result_df["test_number"] == grokked["test_num"]]
-                    #print(previous_result)
                     trial = len(previous_result) + 1
-                    # is failed
-                    # entry_is_failed = True if grokked["outcome"] != passed_string else False
                     # if flake
                     if len(previous_result.loc[previous_result["result"] != passed_string]) > 0 and grokked["outcome"] == passed_string:
                         test_result_df.loc[test_result_df["test_number"] == grokked["test_num"], "flake"] = True
@@ -169,15 +163,12 @@ class Ctest_run(Data_object):
                     if grokked["outcome"] != passed_string:
                         while i < len(lines):
                             stack_trace_line = lines[i]
-                            #print(stack_trace_line)
                             stack_trace_grokked = test_result_grok.match(stack_trace_line)
-                            #print(stack_trace_grokked)
                             if stack_trace_grokked == None:
                                 if not stack_trace_line.endswith('\n'):
                                     stack_trace_line += '\n'
                                 stack_traces += stack_trace_line
                                 i += 1
-                                #print(stack_traces)
                             else:
                                 break
                 

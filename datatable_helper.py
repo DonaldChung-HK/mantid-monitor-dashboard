@@ -151,7 +151,6 @@ class Problem_test_entry(Data_object):
                 for outcome in build_collection.data[build].ctest_runs[self.agent_name].outcome_groups.keys():
                     failed_test = build_collection.data[build].ctest_runs[self.agent_name].outcome_groups[outcome]
                     if self.test_name in failed_test.keys():
-                        #print(self.test_name, failed_test.keys())
                         past_outcome_list_result.append(outcome)
                         problem_count += 1
                         break
@@ -171,7 +170,6 @@ class Problem_test_entry(Data_object):
         """
         failed_test_trials = build_collection.data[self.latest_failed_build].ctest_runs[self.agent_name].outcome_groups[self.last_failed_outcome][self.test_name].trials
         for failed_test_trial_i in range(len(failed_test_trials) - 1 , 0 - 1, -1):
-            #print(failed_test_trials[failed_test_trial_i].trial_num)
             if failed_test_trials[failed_test_trial_i].outcome not in stacktrace_excluded_outcome: # exclude the flaky pass
                 return Problem_test_trial(
                     test_name = self.test_name,

@@ -69,9 +69,7 @@ def traverse_data_local(
                 failed_string=failed_string,
                 timeout_string=timeout_string
             )
-            #print(current_agent)
             ctest_agents[agent] = current_agent
-            #print(ctest_agents.keys())
         current_build = Build(build, ctest_agents)
         builds_data[build] = current_build
     result = Builds_collection(builds_data)
@@ -88,7 +86,6 @@ if __name__ == '__main__':
         build_keys,
         columns=columns
     )
-    #print(build_collection)
     build_collection.toJson_file('sandbox/build_collection.json', unpickleable=True)
     build_collection.toJson_file('sandbox/build_collection_pretty.json', unpickleable=False)
     with open('sandbox/build_collection.json', 'r') as f:

@@ -139,6 +139,8 @@ if __name__ == "__main__":
     history_path.mkdir(exist_ok=True)
     history_json = history_path / "history_fail_test_data.json"
     history_json_pickle = history_path / "history_fail_test_data_pickle.json"
+    tabled_histroy_path = history_path / "tabled_fail_test"
+    tabled_histroy_path.mkdir(exist_ok=True)
     ####logo
     logo_path = assets / "logo.png"
     copyfile(logo_path, dist_asset / logo_path.name)
@@ -230,12 +232,16 @@ if __name__ == "__main__":
     table_html_code = {}
     for agent_key in agent_keys:
         json_file_name = "fail_test_table_" + agent_key + ".json"
+        lts_file_name = "fail_test_store_" + agent_key + ".json"
+        lts_pickle_file_name = "fail_test_store_" + agent_key + "_pickle.json"
         # generate json file
         fail_test_table_data_gen(
                 path=website_data_dir / json_file_name,
                 build_collection = build_collection_data,
                 build_keys = build_keys,
                 agent = agent_key,
+                lts_path = tabled_histroy_path / lts_file_name,
+                lts_path_pickle = tabled_histroy_path / lts_pickle_file_name,
                 passed_key = "Passed",
                 not_found_key = "None",
                 stacktrace_excluded_outcome = ["Passed"]

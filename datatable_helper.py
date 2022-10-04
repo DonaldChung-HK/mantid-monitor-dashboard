@@ -1,5 +1,69 @@
+from ast import Lt
 import jsonpickle
 from data_object import Data_object
+
+class LTS_Problem_test (Data_object):
+    """new class for long term storage of problem test since jsonpickle is unable to ignore attribute
+    """
+    def __init__(self, data) -> None:
+        super().__init__()
+        self.data = data
+
+class LTS_Problem_test_entry(Data_object):
+    """new class for long term storage of problem test entry since jsonpickle is unable to ignore attribute
+    """
+    def __init__(
+        self, 
+        problem_test_entry,
+        excluded = ["Passed", "None"]
+        ):
+        """Initialise a container for a fail test entry
+
+        Args:
+            test_name (str): Failed test name
+            latest_failed_build (str): last failed build name
+            last_failed_outcome (str): outcome of the test in the last failed build
+            agent_name (str): os/env name 
+            past_failed_outcome (dict(str)): dictionary of {build_id: outcome}
+        """
+        self.test_name = problem_test_entry.test_name
+        self.latest_failed_build = problem_test_entry.latest_failed_build
+        self.agent_name = problem_test_entry.agent_name
+        self.last_failed_outcome = problem_test_entry.last_failed_outcome
+        self.past_failed_outcome = {}
+
+        self.past_failed_outcome = self.build_list_to_dict(problem_test_entry, excluded)
+        self.last_stack_traces = problem_test_entry.last_stack_traces
+
+    def update_test(
+        self, 
+        problem_test_entry,
+        excluded = ["Passed", "None"]):
+        """_summary_
+
+        Args:
+            latest_failed_build (_type_): _description_
+            last_failed_outcome (_type_): _description_
+            agent_name (_type_): _description_
+            past_failed_outcome (_type_): _description_
+            last_stack_traces (_type_): _description_
+
+        Returns:
+            _type_: _description_
+        """
+        if int(problem_test_entry.latest_failed_build) > int(self.latest_failed_build):
+            self.latest_failed_build = problem_test_entry.latest_failed_build
+            self.last_failed_outcome = problem_test_entry.last_failed_outcome
+            self.past_failed_outcome = self.build_list_to_dict(problem_test_entry, excluded)
+            self.last_stack_traces = problem_test_entry.last_stack_traces
+
+    def build_list_to_dict(self, problem_test_entry, excluded):
+        past_fail_dict = {}
+        for i in range(len(problem_test_entry.past_outcome['build_keys'])):
+            if problem_test_entry.past_outcome['past_outcome_list'][i] not in excluded:
+                past_fail_dict[problem_test_entry.past_outcome['build_keys'][i]] = problem_test_entry.past_outcome['past_outcome_list'][i]
+        past_fail_dict = {key:past_fail_dict[key] for key in sorted(past_fail_dict.keys())}
+        return past_fail_dict
 
 class Problem_test_trial(Data_object):
     """store stack_trace for problem test
@@ -53,13 +117,13 @@ class Problem_test_entry(Data_object):
         Args:
             test_name (str): Failed test name
             latest_failed_build (str): last failed build name
-            last_failed_outcome (_type_): outcome of the test in the last failed build
-            build_collection (_type_): _description_
-            agent_name (_type_): _description_
-            build_keys (_type_): _description_
-            passed_key (str, optional): _description_. Defaults to "Passed".
-            not_found_key (str, optional): _description_. Defaults to "None".
-            stacktrace_excluded_outcome (list, optional): _description_. Defaults to ['Passed'].
+            last_failed_outcome (str): outcome of the test in the last failed build
+            build_collection (data_object.Build_collection): storage object
+            agent_name (str): os/env name 
+            build_keys (list(str)): list of build keys to parse
+            passed_key (str, optional): Key name for passed test. Defaults to "Passed".
+            not_found_key (str, optional): Key name for build with not found test log. Defaults to "None".
+            stacktrace_excluded_outcome (list(str), optional): excluding an outcome usually for a passed test after fails in flaky test. Defaults to ['Passed'].
         """
         self.test_name = test_name
         self.latest_failed_build = latest_failed_build
@@ -69,8 +133,8 @@ class Problem_test_entry(Data_object):
         past_outcome_list, self.problem_count = self.get_past_outcome_list_single_env(build_collection, build_keys, passed_key, not_found_key)
 
         self.past_outcome = {
-            "build_keys":build_keys,
-            "past_outcome_list":past_outcome_list, 
+            "build_keys": build_keys,
+            "past_outcome_list": past_outcome_list, 
         }
         self.last_stack_traces = self.get_last_stack_trace(build_collection, stacktrace_excluded_outcome)
 
@@ -181,9 +245,12 @@ def fail_test_table_data_gen(
     build_collection,
     build_keys,
     agent,
+    lts_path_pickle,
+    lts_path,
     passed_key = "Passed",
     not_found_key = "None",
-    stacktrace_excluded_outcome = ["Passed"]
+    stacktrace_excluded_outcome = ["Passed"],
+    lts_excluded = ["Passed", "None"]
     ):
     """Generate a JSON file to pass into DataTable
 
@@ -205,6 +272,32 @@ def fail_test_table_data_gen(
         stacktrace_excluded_outcome=stacktrace_excluded_outcome
         )
     data.toJson_file(path, unpickleable=False)
+    data_dict = {}
+    for item in data.data:
+        data_dict[item.test_name] = item
+    if lts_path_pickle.exists():
+        with open(lts_path_pickle, 'r') as f:
+            string = f.read()
+            lts_data = jsonpickle.decode(string)
+    else:
+        lts_data = LTS_Problem_test({})
+    existing_list = []
+    for key in lts_data.data.keys():
+        existing_list.append(key)
+    for key in data_dict.keys():
+        if key in existing_list:
+            lts_data.data[key].update_test(
+                problem_test_entry=data_dict[key],
+                excluded=lts_excluded)
+        else:
+            lts_data.data[key] = LTS_Problem_test_entry(
+                problem_test_entry=data_dict[key],
+                excluded=lts_excluded)
+    lts_data.toJson_file(lts_path, unpickleable=False)
+    lts_data.toJson_file(lts_path_pickle, unpickleable=True)
+            
+        
+
 
 if __name__ == '__main__':
     with open('sandbox/build_collection.json', 'r') as f:

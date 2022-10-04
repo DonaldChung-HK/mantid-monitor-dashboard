@@ -33,5 +33,5 @@ set source to `deploy from a branch` and point to the `gh-pages` Branch
 ## Github action
 The update action will run daily at `14:00 UTC` you can also manually run the github action in `Actions - Build webpage` workflow. 
 ## Potential Issue
-Change the `data_scrapper.File_object` if the name of the log file changes in the future because the log file name is based on the environmental variables on the build machine
-The format of the Jenkins url can also change in the future so modify `data_scrapper.Remote_source` to change the logic of how to build the url
+Change the `data_collector.File_object` if the name of the log file changes in the future because the log file name is based on the environmental variables on the build machine
+The format of the Jenkins url can also change in the future so modify `data_collector.Remote_source` to change the logic of how to build the url

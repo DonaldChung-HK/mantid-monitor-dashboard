@@ -11,7 +11,7 @@ from datetime import datetime
 #from traverse_data import traverse_data_local
 from datatable_helper import fail_test_table_data_gen
 from chart_helper import get_chart_DF, plot_line_chart_plotly
-from data_scrapper import Remote_source, File_object, traverse_data_remote
+from data_collector import Remote_source, File_object, traverse_data_remote
 
 import jsonpickle
 

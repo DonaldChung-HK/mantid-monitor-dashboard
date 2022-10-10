@@ -1116,11 +1116,11 @@
             "build_name": "75",
             "is_completed": false,
             "aggregate": {
-                "Tested": null,
-                "Passed": null,
-                "Flake": null,
-                "Failed": null,
-                "Timeout": null
+                "Tested": 2637,
+                "Passed": 2637,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
             },
             "ctest_runs": {
                 "darwin17": {
@@ -1152,15 +1152,19 @@
                 "msys": {
                     "py/object": "data_object.Ctest_run",
                     "agent_name": "msys",
-                    "is_not_found": true,
+                    "is_not_found": false,
                     "outcome_count": {
-                        "Tested": null,
-                        "Passed": null,
-                        "Flake": null,
-                        "Failed": null,
-                        "Timeout": null
+                        "Tested": 2637,
+                        "Passed": 2637,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
                     },
-                    "outcome_groups": {}
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
                 }
             }
         },
@@ -1169,25 +1173,29 @@
             "build_name": "76",
             "is_completed": false,
             "aggregate": {
-                "Tested": null,
-                "Passed": null,
-                "Flake": null,
-                "Failed": null,
-                "Timeout": null
+                "Tested": 2636,
+                "Passed": 2636,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
             },
             "ctest_runs": {
                 "darwin17": {
                     "py/object": "data_object.Ctest_run",
                     "agent_name": "darwin17",
-                    "is_not_found": true,
+                    "is_not_found": false,
                     "outcome_count": {
-                        "Tested": null,
-                        "Passed": null,
-                        "Flake": null,
-                        "Failed": null,
-                        "Timeout": null
+                        "Tested": 2636,
+                        "Passed": 2636,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
                     },
-                    "outcome_groups": {}
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
                 },
                 "linux-gnu": {
                     "py/object": "data_object.Ctest_run",

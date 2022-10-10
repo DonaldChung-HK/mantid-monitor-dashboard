@@ -1122,6 +1122,63 @@
             "build_name": "77",
             "is_completed": false,
             "aggregate": {
+                "Tested": 5272,
+                "Passed": 5272,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "darwin17": {
+                    "agent_name": "darwin17",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2636,
+                        "Passed": 2636,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                },
+                "linux-gnu": {
+                    "agent_name": "linux-gnu",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2636,
+                        "Passed": 2636,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                },
+                "msys": {
+                    "agent_name": "msys",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "78": {
+            "build_name": "78",
+            "is_completed": false,
+            "aggregate": {
                 "Tested": null,
                 "Passed": null,
                 "Flake": null,

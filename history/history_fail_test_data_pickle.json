@@ -1346,53 +1346,65 @@
         "79": {
             "py/object": "data_object.Build",
             "build_name": "79",
-            "is_completed": false,
+            "is_completed": true,
             "aggregate": {
-                "Tested": null,
-                "Passed": null,
-                "Flake": null,
-                "Failed": null,
-                "Timeout": null
+                "Tested": 7909,
+                "Passed": 7909,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
             },
             "ctest_runs": {
                 "darwin17": {
                     "py/object": "data_object.Ctest_run",
                     "agent_name": "darwin17",
-                    "is_not_found": true,
+                    "is_not_found": false,
                     "outcome_count": {
-                        "Tested": null,
-                        "Passed": null,
-                        "Flake": null,
-                        "Failed": null,
-                        "Timeout": null
+                        "Tested": 2636,
+                        "Passed": 2636,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
                     },
-                    "outcome_groups": {}
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
                 },
                 "linux-gnu": {
                     "py/object": "data_object.Ctest_run",
                     "agent_name": "linux-gnu",
-                    "is_not_found": true,
+                    "is_not_found": false,
                     "outcome_count": {
-                        "Tested": null,
-                        "Passed": null,
-                        "Flake": null,
-                        "Failed": null,
-                        "Timeout": null
+                        "Tested": 2636,
+                        "Passed": 2636,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
                     },
-                    "outcome_groups": {}
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
                 },
                 "msys": {
                     "py/object": "data_object.Ctest_run",
                     "agent_name": "msys",
-                    "is_not_found": true,
+                    "is_not_found": false,
                     "outcome_count": {
-                        "Tested": null,
-                        "Passed": null,
-                        "Flake": null,
-                        "Failed": null,
-                        "Timeout": null
+                        "Tested": 2637,
+                        "Passed": 2637,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
                     },
-                    "outcome_groups": {}
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
                 }
             }
         }

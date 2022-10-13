@@ -5,9 +5,12 @@
             "latest_failed_build": "71",
             "agent_name": "darwin17",
             "last_failed_outcome": "Failed",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "82",
+                    "81",
+                    "80",
                     "79",
                     "78",
                     "77",
@@ -20,12 +23,12 @@
                     "70",
                     "69",
                     "68",
-                    "67",
-                    "66",
-                    "65",
-                    "64"
+                    "67"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "None",
+                    "Passed",
                     "Passed",
                     "None",
                     "Passed",
@@ -37,9 +40,6 @@
                     "Failed",
                     "None",
                     "None",
-                    "None",
-                    "None",
-                    "Failed",
                     "None",
                     "None"
                 ]
@@ -52,60 +52,6 @@
                 "outcome": "Failed",
                 "test_time": "0.29",
                 "stacktrace": "F\n======================================================================\nFAIL: test_fail (FailTest.FailTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FailTest.py&quot;, line 5, in test_fail\n    self.assertEqual(0, 1)\nAssertionError: 0 != 1\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n\n          Start 1660: python.WorkflowAlgorithms.PolDiffILLReductionTest.PolDiffILLReductionTest\n"
-            }
-        },
-        {
-            "test_name": "python.algorithms.FlakyTest.FlakyTest",
-            "latest_failed_build": "66",
-            "agent_name": "darwin17",
-            "last_failed_outcome": "Flake",
-            "problem_count": 1,
-            "past_outcome": {
-                "build_keys": [
-                    "79",
-                    "78",
-                    "77",
-                    "76",
-                    "75",
-                    "74",
-                    "73",
-                    "72",
-                    "71",
-                    "70",
-                    "69",
-                    "68",
-                    "67",
-                    "66",
-                    "65",
-                    "64"
-                ],
-                "past_outcome_list": [
-                    "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "Passed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "Flake",
-                    "None",
-                    "None"
-                ]
-            },
-            "last_stack_traces": {
-                "test_name": "python.algorithms.FlakyTest.FlakyTest",
-                "build": "66",
-                "agent_name": "darwin17",
-                "trial": 2,
-                "outcome": "Failed",
-                "test_time": "0.33",
-                "stacktrace": "F\n======================================================================\nFAIL: test_flaky (FlakyTest.FlakyTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/algorithms/FlakyTest.py&quot;, line 7, in test_flaky\n    self.assertEqual(rand, 1)\nAssertionError: 0 != 1\n\n----------------------------------------------------------------------\nRan 1 test in 0.011s\n\nFAILED (failures=1)\n\n          Start 1516: python.algorithms.FlakyTest.FlakyTest\n"
             }
         }
     ]

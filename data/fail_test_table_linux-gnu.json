@@ -8,6 +8,9 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "82",
+                    "81",
+                    "80",
                     "79",
                     "78",
                     "77",
@@ -20,12 +23,12 @@
                     "70",
                     "69",
                     "68",
-                    "67",
-                    "66",
-                    "65",
-                    "64"
+                    "67"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "None",
+                    "Passed",
                     "Passed",
                     "None",
                     "Passed",
@@ -37,9 +40,6 @@
                     "Flake",
                     "None",
                     "None",
-                    "None",
-                    "None",
-                    "Passed",
                     "None",
                     "None"
                 ]
@@ -59,9 +59,12 @@
             "latest_failed_build": "71",
             "agent_name": "linux-gnu",
             "last_failed_outcome": "Failed",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "82",
+                    "81",
+                    "80",
                     "79",
                     "78",
                     "77",
@@ -74,12 +77,12 @@
                     "70",
                     "69",
                     "68",
-                    "67",
-                    "66",
-                    "65",
-                    "64"
+                    "67"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "None",
+                    "Passed",
                     "Passed",
                     "None",
                     "Passed",
@@ -91,9 +94,6 @@
                     "Failed",
                     "None",
                     "None",
-                    "None",
-                    "None",
-                    "Failed",
                     "None",
                     "None"
                 ]

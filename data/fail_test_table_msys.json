@@ -1,13 +1,16 @@
 {
     "data": [
         {
-            "test_name": "python.algorithms.FlakyTest.FlakyTest",
-            "latest_failed_build": "71",
+            "test_name": "python.MuonQt5.tf_asymmetry_fitting_view_test.tf_asymmetry_fitting_view_test",
+            "latest_failed_build": "80",
             "agent_name": "msys",
             "last_failed_outcome": "Flake",
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "82",
+                    "81",
+                    "80",
                     "79",
                     "78",
                     "77",
@@ -20,12 +23,66 @@
                     "70",
                     "69",
                     "68",
-                    "67",
-                    "66",
-                    "65",
-                    "64"
+                    "67"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "None",
+                    "Flake",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "None",
+                    "Passed",
+                    "None",
+                    "None",
+                    "None",
+                    "Passed",
+                    "None",
+                    "None",
+                    "None",
+                    "None"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "python.MuonQt5.tf_asymmetry_fitting_view_test.tf_asymmetry_fitting_view_test",
+                "build": "80",
+                "agent_name": "msys",
+                "trial": 1,
+                "outcome": "Failed",
+                "test_time": "20.63",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.4.20221012.1421\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\n.EEEEE\r\n======================================================================\r\nERROR: test_that_is_normalisation_fixed_can_be_set_to_true (tf_asymmetry_fitting_view_test.TFAsymmetryFittingViewTest)\r\n----------------------------------------------------------------------\r\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\r\n\r\nThe above exception was the direct cause of the following exception:\r\n\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/build_packages_from_branch/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/tf_asymmetry_fitting/tf_asymmetry_fitting_view_test.py&quot;, line 18, in setUp\r\n    self.view = TFAsymmetryFittingView()\r\n  File &quot;c:\\jenkins\\workspace\\build_packages_from_branch\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\tf_asymmetry_fitting\\tf_asymmetry_fitting_view.py&quot;, line 24, in __init__\r\n    super(TFAsymmetryFittingView, self).__init__(parent)\r\n  File &quot;c:\\jenkins\\workspace\\build_packages_from_branch\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\general_fitting\\general_fitting_view.py&quot;, line 25, in __init__\r\n    super(GeneralFittingView, self).__init__(parent)\r\n  File &quot;c:\\jenkins\\workspace\\build_packages_from_branch\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\basic_fitting\\basic_fitting_view.py&quot;, line 33, in __init__\r\n    self.fit_function_options = FitFunctionOptionsView(self)\r\n  File &quot;c:\\jenkins\\workspace\\build_packages_from_branch\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\basic_fitting\\fit_function_options_view.py&quot;, line 48, in __init__\r\n    self.setupUi(self)\r\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\r\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\r\n\r\n======================================================================\r\nERROR: test_that_tf_asymmetry_mode_can_be_turned_off_and_the_relevant_widgets_hidden (tf_asymmetry_fitting_view_test.TFAsymmetryFittingViewTest)\r\n----------------------------------------------------------------------\r\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\r\n\r\nThe above exception was the direct cause of the following exception:\r\n\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/build_packages_from_branch/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/tf_asymmetry_fitting/tf_asymmetry_fitting_view_test.py&quot;, line 18, in setUp\r\n    self.view = TFAsymmetryFittingView()\r\n  File &quot;c:\\jenkins\\workspace\\build_packages_from_branch\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\tf_asymmetry_fitting\\tf_asymmetry_fitting_view.py&quot;, line 24, in __init__\r\n    super(TFAsymmetryFittingView, self).__init__(parent)\r\n  File &quot;c:\\jenkins\\workspace\\build_packages_from_branch\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\general_fitting\\general_fitting_view.py&quot;, line 25, in __init__\r\n    super(GeneralFittingView, self).__init__(parent)\r\n  File &quot;c:\\jenkins\\workspace\\build_packages_from_branch\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\basic_fitting\\basic_fitting_view.py&quot;, line 33, in __init__\r\n    self.fit_function_options = FitFunctionOptionsView(self)\r\n  File &quot;c:\\jenkins\\workspace\\build_packages_from_branch\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\basic_fitting\\fit_function_options_view.py&quot;, line 48, in __init__\r\n    self.setupUi(self)\r\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\r\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\r\n\r\n======================================================================\r\nERROR: test_that_tf_asymmetry_mode_can_be_turned_on_and_the_relevant_widgets_shown (tf_asymmetry_fitting_view_test.TFAsymmetryFittingViewTest)\r\n----------------------------------------------------------------------\r\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\r\n\r\nThe above exception was the direct cause of the following exception:\r\n\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/build_packages_from_branch/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/tf_asymmetry_fitting/tf_asymmetry_fitting_view_test.py&quot;, line 18, in setUp\r\n    self.view = TFAsymmetryFittingView()\r\n  File &quot;c:\\jenkins\\workspace\\build_packages_from_branch\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\tf_asymmetry_fitting\\tf_asymmetry_fitting_view.py&quot;, line 24, in __init__\r\n    super(TFAsymmetryFittingView, self).__init__(parent)\r\n  File &quot;c:\\jenkins\\workspace\\build_packages_from_branch\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\general_fitting\\general_fitting_view.py&quot;, line 25, in __init__\r\n    super(GeneralFittingView, self).__init__(parent)\r\n  File &quot;c:\\jenkins\\workspace\\build_packages_from_branch\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\basic_fitting\\basic_fitting_view.py&quot;, line 33, in __init__\r\n    self.fit_function_options = FitFunctionOptionsView(self)\r\n  File &quot;c:\\jenkins\\workspace\\build_packages_from_branch\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\basic_fitting\\fit_function_options_view.py&quot;, line 48, in __init__\r\n    self.setupUi(self)\r\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\r\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\r\n\r\n======================================================================\r\nERROR: test_that_the_normalisation_can_be_set_as_expected (tf_asymmetry_fitting_view_test.TFAsymmetryFittingViewTest)\r\n----------------------------------------------------------------------\r\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\r\n\r\nThe above exception was the direct cause of the following exception:\r\n\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/build_packages_from_branch/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/tf_asymmetry_fitting/tf_asymmetry_fitting_view_test.py&quot;, line 18, in setUp\r\n    self.view = TFAsymmetryFittingView()\r\n  File &quot;c:\\jenkins\\workspace\\build_packages_from_branch\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\tf_asymmetry_fitting\\tf_asymmetry_fitting_view.py&quot;, line 24, in __init__\r\n    super(TFAsymmetryFittingView, self).__init__(parent)\r\n  File &quot;c:\\jenkins\\workspace\\build_packages_from_branch\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\general_fitting\\general_fitting_view.py&quot;, line 25, in __init__\r\n    super(GeneralFittingView, self).__init__(parent)\r\n  File &quot;c:\\jenkins\\workspace\\build_packages_from_branch\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\basic_fitting\\basic_fitting_view.py&quot;, line 33, in __init__\r\n    self.fit_function_options = FitFunctionOptionsView(self)\r\n  File &quot;c:\\jenkins\\workspace\\build_packages_from_branch\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\basic_fitting\\fit_function_options_view.py&quot;, line 48, in __init__\r\n    self.setupUi(self)\r\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\r\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\r\n\r\n======================================================================\r\nERROR: test_that_the_view_has_been_initialized_with_the_tf_asymmetry_mode_turned_off_and_the_relevant_widgets_hidden (tf_asymmetry_fitting_view_test.TFAsymmetryFittingViewTest)\r\n----------------------------------------------------------------------\r\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\r\n\r\nThe above exception was the direct cause of the following exception:\r\n\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/build_packages_from_branch/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/tf_asymmetry_fitting/tf_asymmetry_fitting_view_test.py&quot;, line 18, in setUp\r\n    self.view = TFAsymmetryFittingView()\r\n  File &quot;c:\\jenkins\\workspace\\build_packages_from_branch\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\tf_asymmetry_fitting\\tf_asymmetry_fitting_view.py&quot;, line 24, in __init__\r\n    super(TFAsymmetryFittingView, self).__init__(parent)\r\n  File &quot;c:\\jenkins\\workspace\\build_packages_from_branch\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\general_fitting\\general_fitting_view.py&quot;, line 25, in __init__\r\n    super(GeneralFittingView, self).__init__(parent)\r\n  File &quot;c:\\jenkins\\workspace\\build_packages_from_branch\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\basic_fitting\\basic_fitting_view.py&quot;, line 33, in __init__\r\n    self.fit_function_options = FitFunctionOptionsView(self)\r\n  File &quot;c:\\jenkins\\workspace\\build_packages_from_branch\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\basic_fitting\\fit_function_options_view.py&quot;, line 48, in __init__\r\n    self.setupUi(self)\r\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\r\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\r\n\r\n----------------------------------------------------------------------\r\nRan 6 tests in 3.053s\r\n\r\nFAILED (errors=5)\r\n\r\n          Start 2192: python.MuonQt5.tf_asymmetry_fitting_view_test.tf_asymmetry_fitting_view_test\r\n"
+            }
+        },
+        {
+            "test_name": "python.algorithms.FlakyTest.FlakyTest",
+            "latest_failed_build": "71",
+            "agent_name": "msys",
+            "last_failed_outcome": "Flake",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "82",
+                    "81",
+                    "80",
+                    "79",
+                    "78",
+                    "77",
+                    "76",
+                    "75",
+                    "74",
+                    "73",
+                    "72",
+                    "71",
+                    "70",
+                    "69",
+                    "68",
+                    "67"
+                ],
+                "past_outcome_list": [
+                    "None",
+                    "None",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "None",
@@ -37,9 +94,6 @@
                     "Flake",
                     "None",
                     "None",
-                    "None",
-                    "None",
-                    "Passed",
                     "None",
                     "None"
                 ]
@@ -59,9 +113,12 @@
             "latest_failed_build": "71",
             "agent_name": "msys",
             "last_failed_outcome": "Failed",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "82",
+                    "81",
+                    "80",
                     "79",
                     "78",
                     "77",
@@ -74,12 +131,12 @@
                     "70",
                     "69",
                     "68",
-                    "67",
-                    "66",
-                    "65",
-                    "64"
+                    "67"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "None",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "None",
@@ -91,9 +148,6 @@
                     "Failed",
                     "None",
                     "None",
-                    "None",
-                    "None",
-                    "Failed",
                     "None",
                     "None"
                 ]

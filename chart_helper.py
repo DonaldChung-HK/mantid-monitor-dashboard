@@ -8,7 +8,8 @@ import plotly.graph_objects as go
 import jsonpickle
 
 def get_chart_DF(
-    Builds_collection, 
+    Builds_collection,
+    build_keys, 
     overall_name = 'Overall', 
     agent_keys = ["darwin17", "linux-gnu", "msys"],
     columns = ["Build", "Tested", "Passed", "Flake", "Failed", "Timeout"]):
@@ -16,6 +17,7 @@ def get_chart_DF(
     I it is like a SQL groupBy for build
     Args:
         Builds_collection (data_object): Collection of build result
+        build_keys (list): collection of keys to update or display
         overall_name(str): name of the overall entry
         agent_keys(list(str)): your agent keys
         columns(list(str)): columns for pandas frame starting with build number. Default to ["Build", "Tested", "Passed", "Flake", "Failed", "Timeout"]
@@ -29,7 +31,7 @@ def get_chart_DF(
     for agent_key in agent_keys:
         holder[agent_key] = []
     # traverse JSON dict type container
-    build_nums = list(Builds_collection.data.keys())
+    build_nums = build_keys
     build_nums.sort(reverse=True)
 
 

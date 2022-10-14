@@ -94,33 +94,7 @@
       </div>
       <!--Overall aggregate result table-->
       <div class="col-lg-9 mx-auto text-center">
-        <div class="card mb-4 rounded-3 shadow-sm">
-          <div class="card-header py-2">
-            <h4 class="my-0 fw-normal">Test Result</h4>
-          </div>
-          <table class="table table-sm mb-0">
-            <thead>
-              <!--Table Column-->
-              <tr>
-                <th scope="col"></th>
-                {% for num in aggregate_test_data[overall_key][aggregate_columns_key[0]] %}
-                <th scope="col">#{{ num }}</th>
-                {% endfor %}
-              </tr>
-            </thead>
-            <!--Table body row-->
-            <tbody>
-              {% for outcome in aggregate_columns_key[1:] %}
-              <tr class="table-{{data_name_style[outcome].bootstrap_style}}">
-                <th scope="row">{{outcome}}</th>
-                {% for num in aggregate_test_data[overall_key][outcome] %}
-                <td>{{ num }}</td>
-                {% endfor %}
-              </tr>
-              {% endfor %}
-            </tbody>
-          </table>
-        </div>
+        {{overall_agg_table_html_code}}
       </div>
       <!--Result by environment part-->
       <div class="col-lg-9 mx-auto text-center">
@@ -155,31 +129,7 @@
           </div>
           <!--Result by environment Table-->
           <div class="col-lg-9 mx-auto text-center">
-            <div class="card mb-4 rounded-3 shadow-sm">
-              <div class="card-header py-2">
-                <h4 class="my-0 fw-normal">Test Result</h4>
-              </div>
-              <table class="table table-sm mb-0">
-                <thead>
-                  <tr>
-                    <th scope="col"></th>
-                    {% for num in aggregate_test_data[os_key][aggregate_columns_key[0]] %}
-                    <th scope="col">#{{ num }}</th>
-                    {% endfor %}
-                  </tr>
-                </thead>
-                <tbody>
-                  {% for outcome in aggregate_columns_key[1:] %}
-                  <tr class="table-{{data_name_style[outcome].bootstrap_style}}">
-                    <th scope="row">{{outcome}}</th>
-                    {% for num in aggregate_test_data[os_key][outcome] %}
-                    <td>{{ num }}</td>
-                    {% endfor %}
-                  </tr>
-                  {% endfor %}
-                </tbody>
-              </table>
-            </div>
+            {{agg_table_html_code[os_key]}}
           </div>
           <div class="col-lg-9 mx-auto">
             {{table_html_code[os_key]}}

@@ -187,15 +187,26 @@ if __name__ == "__main__":
     build_collection_data.toJson_file(history_json_pickle, True)
     
 
-    # build_collection_data = traverse_data_local(
-    #     local_sample_data_path, 
-    #     agent_keys,
-    #     build_keys,
-    #     columns=columns, 
-    #     grok_pattern=grok_pattern)
+    aggregate = get_chart_DF(build_collection_data, build_keys)
+    #create aggregate data table
+    with (assets / "agg_table.html.j2").open("r") as f:
+        agg_table_template = Template(f.read())
+    agg_table_html_code = {}
 
-    aggregate = get_chart_DF(build_collection_data)
+    for item in aggregate.keys():
+        aggregate_json_filename = f"{item}_aggregate_table.json" 
+        aggregate_dir = website_data_dir / aggregate_json_filename
+        aggregate[item].fillna('NaN').to_json(path_or_buf = aggregate_dir, orient = "split", index=False)
+        copyfile((website_data_dir / aggregate_json_filename), (dist_data / aggregate_json_filename))
+        agg_data_table_template_data = {
+            "agent_name": item,
+            "json_file_name": aggregate_json_filename
+        }
+        agg_data_table_output = agg_table_template.render(**agg_data_table_template_data)
+        agg_table_html_code[item] = agg_data_table_output
 
+    overall_agg_table_html_code = agg_table_html_code[overall_key]
+    # create chart
     overall_chart_html_code = plot_line_chart_plotly(
         data=aggregate[overall_key], # getting the dataframe
         x_column = x_column, 
@@ -262,6 +273,8 @@ if __name__ == "__main__":
     template_data = {
         "jenkins_pipeline_name": remote_source.pipeline_name,
         "jenkins_pipeline_url": remote_source.pipeline_url,
+        "agg_table_html_code": agg_table_html_code,
+        "overall_agg_table_html_code": overall_agg_table_html_code,
         "current_datetime": now.strftime("%B %d, %Y %H:%M"),
         "logo": logo_path.name,
         "bootstrap_css_file": bootstrap_css_file.name,

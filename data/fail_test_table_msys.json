@@ -8,6 +8,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "91",
+                    "90",
                     "89",
                     "88",
                     "87",
@@ -21,9 +23,7 @@
                     "79",
                     "78",
                     "77",
-                    "76",
-                    "75",
-                    "74"
+                    "76"
                 ],
                 "past_outcome_list": [
                     "None",
@@ -35,10 +35,10 @@
                     "None",
                     "None",
                     "None",
+                    "None",
+                    "None",
                     "Flake",
                     "Passed",
-                    "None",
-                    "None",
                     "None",
                     "None",
                     "None"

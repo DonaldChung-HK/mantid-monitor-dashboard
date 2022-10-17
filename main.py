@@ -157,7 +157,7 @@ if __name__ == "__main__":
     # range of data
     remote_source = Remote_source(args.jenkins_url, args.pipeline_name) # set in arguments
     num_past_build = args.num_past_build    
-    agent_keys = ["darwin17", "linux-gnu", "msys"]
+    agent_keys = ["Mac", "Linux", "Windows"]
     file_names = ["darwin17.log", "linux-gnu.log", "msys.log"]
     build_keys = list(range(remote_source.get_latest_build_id(), max(1, remote_source.get_latest_build_id()-num_past_build) - 1, -1))
     build_keys = [str(i) for i in build_keys]

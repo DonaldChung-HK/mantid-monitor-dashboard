@@ -196,7 +196,7 @@ if __name__ == "__main__":
     for item in aggregate.keys():
         aggregate_json_filename = f"{item}_aggregate_table.json" 
         aggregate_dir = website_data_dir / aggregate_json_filename
-        aggregate[item].fillna('NaN').to_json(path_or_buf = aggregate_dir, orient = "split", index=False)
+        aggregate[item].fillna('Missing').to_json(path_or_buf = aggregate_dir, orient = "split", index=False)
         copyfile((website_data_dir / aggregate_json_filename), (dist_data / aggregate_json_filename))
         agg_data_table_template_data = {
             "agent_name": item,

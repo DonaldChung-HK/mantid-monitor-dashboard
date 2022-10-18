@@ -187,7 +187,7 @@ if __name__ == "__main__":
     build_collection_data.toJson_file(history_json_pickle, True)
     
 
-    aggregate = get_chart_DF(build_collection_data, build_keys)
+    aggregate = get_chart_DF(build_collection_data, build_keys, agent_keys=agent_keys)
     #create aggregate data table
     with (assets / "agg_table.html.j2").open("r") as f:
         agg_table_template = Template(f.read())

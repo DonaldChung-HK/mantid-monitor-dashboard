@@ -159,7 +159,7 @@ if __name__ == "__main__":
     num_past_build = args.num_past_build    
     agent_keys = ["Mac", "Linux", "Windows"]
     file_names = ["darwin17.log", "linux-gnu.log", "msys.log"]
-    build_keys = list(range(remote_source.get_latest_build_id(), max(1, remote_source.get_latest_build_id()-num_past_build) - 1, -1))
+    build_keys = list(remote_source.get_list_of_build_range(num_past_build))
     build_keys = [str(i) for i in build_keys]
     file_list = [
         File_object(agent_keys[i], file_names[i]) for i in range(len(file_names))

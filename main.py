@@ -56,7 +56,14 @@ if __name__ == "__main__":
                         type=int,
                         help='number of past build to monitor',
                         dest = "num_past_build",
-                        required=True)                    
+                        required=True)
+    parser.add_argument('-a', '--auth', 
+                        type=str,
+                        help='authentication for HTTP API if needed, it is parsed as {username} {password}',
+                        dest = "auth",
+                        nargs = 2,
+                        default = None,
+                        required = False)         
 
     args = parser.parse_args()
 
@@ -167,9 +174,11 @@ if __name__ == "__main__":
     combined_result_json = combined_result_path / "combined_failed_detail_store.json"
     combined_result_jsonpickle = combined_result_path / "combined_failed_detail_store_pickle.json"
 
+    auth = (args.auth[0], args.auth[1])
+
 
     for pipeline_name in pipeline_names:
-        remote_source = Remote_source(args.jenkins_url, pipeline_name)
+        remote_source = Remote_source(args.jenkins_url, pipeline_name, auth=auth)
         num_past_build = args.num_past_build    
         build_keys = list(remote_source.get_list_of_build_range(num_past_build))
         build_keys = [str(i) for i in build_keys]

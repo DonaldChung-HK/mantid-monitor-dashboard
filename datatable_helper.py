@@ -70,7 +70,6 @@ class Combined_LTS_Problem_test_entry(Data_object):
     def __init__(
         self, 
         lts_problem_test_entry,
-        excluded = ["Passed", "None"]
         ):
         """Initialise a container for a fail test entry
 
@@ -336,9 +335,6 @@ def fail_test_table_data_gen(
     lts_data.toJson_file(lts_path_json, unpickleable=False)
     lts_data.toJson_file(lts_path_jsonpickle, unpickleable=True)
     #reformat and save JSON for combined result 
-    lts_data_dict = {}
-    for item in lts_data.data:
-        lts_data_dict[item.test_name] = item
     if combined_path_jsonpickle.exists():
         with open(combined_path_jsonpickle, 'r') as f:
             string = f.read()
@@ -351,15 +347,15 @@ def fail_test_table_data_gen(
     for key in combined_data.data.keys():
         existing_list.append(key)
     
-    for key in data_dict.keys():
+    for key in lts_data.data.keys():
         if key in existing_list:
             combined_data.data[key].update_test(
-                problem_test_entry=data_dict[key],
-                excluded=lts_excluded)
+                lts_problem_test_entry=lts_data.data[key],
+            )
         else:
             combined_data.data[key] = Combined_LTS_Problem_test_entry(
-                problem_test_entry=data_dict[key],
-                excluded=lts_excluded)
+                lts_problem_test_entry=lts_data.data[key],
+            )
     
     combined_data.toJson_file(combined_path_json, unpickleable=False)
     combined_data.toJson_file(combined_path_jsonpickle, unpickleable=True)

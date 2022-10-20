@@ -55,7 +55,7 @@ class LTS_Problem_test_entry(Data_object):
         for i in range(len(problem_test_entry.past_outcome['build_keys'])):
             if problem_test_entry.past_outcome['past_outcome_list'][i] not in excluded:
                 past_fail_dict[problem_test_entry.past_outcome['build_keys'][i]] = problem_test_entry.past_outcome['past_outcome_list'][i]
-        past_fail_dict = {key:past_fail_dict[key] for key in sorted(past_fail_dict.keys())}
+        past_fail_dict = {key:past_fail_dict[key] for key in sorted(past_fail_dict.keys(), key=int)}
         return past_fail_dict
 
 class Combined_LTS_Problem_test (LTS_Problem_test):
@@ -252,24 +252,27 @@ class Problem_test_table_collection(Data_object):
         """
         recent_fail_list = []
         result_object_list = []
+        build_keys.sort(key=int, reverse=True)
+        print(build_keys)
         for build in build_keys:
-                failed_outcomes = build_collection.data[build].ctest_runs[agent].outcome_groups
-                for outcome_group in failed_outcomes.keys():
-                    for item in failed_outcomes[outcome_group].keys():
-                        if item not in recent_fail_list:
-                            recent_fail_list.append(item)
-                            result_object_list.append(Problem_test_entry(
-                                    test_name = failed_outcomes[outcome_group][item].test_name,
-                                    latest_failed_build=build,
-                                    last_failed_outcome = outcome_group,
-                                    agent_name=agent,
-                                    pipeline_name=pipeline_name,
-                                    build_keys=build_keys,
-                                    build_collection=build_collection,
-                                    passed_key=passed_key,
-                                    not_found_key=not_found_key,
-                                    stacktrace_excluded_outcome = stacktrace_excluded_outcome
-                                ))
+            print(build)
+            failed_outcomes = build_collection.data[build].ctest_runs[agent].outcome_groups
+            for outcome_group in failed_outcomes.keys():
+                for item in failed_outcomes[outcome_group].keys():
+                    if item not in recent_fail_list:
+                        recent_fail_list.append(item)
+                        result_object_list.append(Problem_test_entry(
+                                test_name = failed_outcomes[outcome_group][item].test_name,
+                                latest_failed_build=build,
+                                last_failed_outcome = outcome_group,
+                                agent_name=agent,
+                                pipeline_name=pipeline_name,
+                                build_keys=build_keys,
+                                build_collection=build_collection,
+                                passed_key=passed_key,
+                                not_found_key=not_found_key,
+                                stacktrace_excluded_outcome = stacktrace_excluded_outcome
+                            ))
 
         self.data = result_object_list
 

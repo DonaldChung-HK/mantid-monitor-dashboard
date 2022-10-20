@@ -66,6 +66,7 @@ class Remote_source():
         build_id_list= []
         for i in range(min(quantity, len(data))):
             build_id_list.append(data[i]['number'])
+        build_id_list.sort(key=int, reverse=True)
         return build_id_list
 
     def get_log_artifacts_for_build(self, build, file_names):

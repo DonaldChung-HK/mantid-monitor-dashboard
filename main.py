@@ -159,6 +159,7 @@ if __name__ == "__main__":
     # range of data
     agent_keys = ["Mac", "Linux", "Windows"]
     file_names = ["darwin17.log", "linux-gnu.log", "msys.log"]
+    # file_names = ["osx-64-ci.log", "linux-64-ci.log", "windows-64-ci.log"] # name for testing system
     
 
     ###############################################################
@@ -182,6 +183,7 @@ if __name__ == "__main__":
         num_past_build = args.num_past_build    
         build_keys = list(remote_source.get_list_of_build_range(num_past_build))
         build_keys = [str(i) for i in build_keys]
+        build_keys.sort(key=int, reverse=True)
         file_list = [
             File_object(agent_keys[i], file_names[i]) for i in range(len(file_names))
         ]

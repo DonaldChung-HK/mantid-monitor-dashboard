@@ -253,9 +253,7 @@ class Problem_test_table_collection(Data_object):
         recent_fail_list = []
         result_object_list = []
         build_keys.sort(key=int, reverse=True)
-        print(build_keys)
         for build in build_keys:
-            print(build)
             failed_outcomes = build_collection.data[build].ctest_runs[agent].outcome_groups
             for outcome_group in failed_outcomes.keys():
                 for item in failed_outcomes[outcome_group].keys():

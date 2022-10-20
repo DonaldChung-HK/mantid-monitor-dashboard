@@ -48,8 +48,9 @@ if __name__ == "__main__":
                         required=True)
     parser.add_argument('-p', '--pipeline_name', 
                         type=str,
-                        help='the pipeline name to monitor',
-                        dest = "pipeline_name",
+                        nargs='+',
+                        help='the pipeline names to monitor',
+                        dest = "pipeline_names",
                         required=True)
     parser.add_argument('-n', '--num_past_build', 
                         type=int,
@@ -120,8 +121,6 @@ if __name__ == "__main__":
     ## Data location
     ###assets
     assets = Path("assets")
-    ###data_dir
-    local_sample_data_path = Path("sample_data")
     ## table data dir for fail count table
     website_data_dir = assets / "data" 
     website_data_dir.mkdir(exist_ok=True)
@@ -137,10 +136,6 @@ if __name__ == "__main__":
     ##historical data path
     history_path = Path("history")
     history_path.mkdir(exist_ok=True)
-    history_json = history_path / "history_fail_test_data.json"
-    history_json_pickle = history_path / "history_fail_test_data_pickle.json"
-    tabled_histroy_path = history_path / "tabled_fail_test"
-    tabled_histroy_path.mkdir(exist_ok=True)
     ####logo
     logo_path = assets / "logo.png"
     copyfile(logo_path, dist_asset / logo_path.name)
@@ -155,79 +150,82 @@ if __name__ == "__main__":
     
     
     # range of data
-    remote_source = Remote_source(args.jenkins_url, args.pipeline_name) # set in arguments
-    num_past_build = args.num_past_build    
     agent_keys = ["Mac", "Linux", "Windows"]
     file_names = ["darwin17.log", "linux-gnu.log", "msys.log"]
-    build_keys = list(remote_source.get_list_of_build_range(num_past_build))
-    build_keys = [str(i) for i in build_keys]
-    file_list = [
-        File_object(agent_keys[i], file_names[i]) for i in range(len(file_names))
-    ]
+    
 
     ###############################################################
-    
-    
 
-    if history_json_pickle.exists():
-        with open(history_json_pickle, 'r') as f:
-            string = f.read()
-            old_data = jsonpickle.decode(string)
-    else:
-        old_data = None
+    pipeline_names = args.pipeline_names
+    pipeline_links = {}
 
-    build_collection_data = traverse_data_remote(
-        remote_source, 
-        file_list,
-        build_keys,
-        cached_object=old_data,
-        columns=columns,
-        grok_pattern=grok_pattern,)
-    build_collection_data.toJson_file(history_json, False)
-    build_collection_data.toJson_file(history_json_pickle, True)
-    
+    combined_result_path = history_path / "combined_result"
+    combined_result_path.mkdir(exist_ok=True)
 
-    aggregate = get_chart_DF(build_collection_data, build_keys, agent_keys=agent_keys)
-    #create aggregate data table
-    with (assets / "agg_table.html.j2").open("r") as f:
-        agg_table_template = Template(f.read())
-    agg_table_html_code = {}
+    combined_by_testname_histroy_path = combined_result_path / "combined_by_name_fail"
 
-    for item in aggregate.keys():
-        aggregate_json_filename = f"{item}_aggregate_table.json" 
-        aggregate_dir = website_data_dir / aggregate_json_filename
-        aggregate[item].fillna('Missing').to_json(path_or_buf = aggregate_dir, orient = "split", index=False)
-        copyfile((website_data_dir / aggregate_json_filename), (dist_data / aggregate_json_filename))
-        agg_data_table_template_data = {
-            "agent_name": item,
-            "json_file_name": aggregate_json_filename
-        }
-        agg_data_table_output = agg_table_template.render(**agg_data_table_template_data)
-        agg_table_html_code[item] = agg_data_table_output
+    combined_result_json = combined_result_path / "combined_failed_detail_store.json"
+    combined_result_jsonpickle = combined_result_path / "combined_failed_detail_store_pickle.json"
 
-    overall_agg_table_html_code = agg_table_html_code[overall_key]
-    # create chart
-    overall_chart_html_code = plot_line_chart_plotly(
-        data=aggregate[overall_key], # getting the dataframe
-        x_column = x_column, 
-        y_columns = y_columns, 
-        title = 'Failed, Timeout and Flake Count VS Build Number (Overall)', 
-        labels = y_columns, 
-        color = [data_name_style[item].css_color_style for item in y_columns],
-        marker = [data_name_style[item].marker_shape for item in y_columns],   
-        x_axis = x_axis, 
-        y_axis = y_axis,
-        legend_title = legend_title
-    )
 
-    # plot by os
-    by_os_chart_html_code = {}
-    for agent_key in agent_keys:
-        current_plot = plot_line_chart_plotly(
-            data=aggregate[agent_key], # getting the dataframe
+    for pipeline_name in pipeline_names:
+        remote_source = Remote_source(args.jenkins_url, pipeline_name)
+        num_past_build = args.num_past_build    
+        build_keys = list(remote_source.get_list_of_build_range(num_past_build))
+        build_keys = [str(i) for i in build_keys]
+        file_list = [
+            File_object(agent_keys[i], file_names[i]) for i in range(len(file_names))
+        ]
+        current_pipeline_hist = history_path / pipeline_name
+        current_pipeline_hist.mkdir(exist_ok=True)
+        history_json = current_pipeline_hist / f"{pipeline_name}_by_build_fail.json"
+        history_json_pickle = current_pipeline_hist / f"{pipeline_name}_by_build_fail_pickle.json"
+        by_testname_histroy_path = current_pipeline_hist / f"{pipeline_name}_by_name_fail"
+        by_testname_histroy_path.mkdir(exist_ok=True)
+
+        if history_json_pickle.exists():
+            with open(history_json_pickle, 'r') as f:
+                string = f.read()
+                old_data = jsonpickle.decode(string)
+        else:
+            old_data = None
+
+        build_collection_data = traverse_data_remote(
+            remote_source, 
+            file_list,
+            build_keys,
+            cached_object=old_data,
+            columns=columns,
+            grok_pattern=grok_pattern,)
+        build_collection_data.toJson_file(history_json, False)
+        build_collection_data.toJson_file(history_json_pickle, True)
+        
+
+        aggregate = get_chart_DF(build_collection_data, build_keys, agent_keys=agent_keys)
+        #create aggregate data table
+        with (assets / "agg_table.html.j2").open("r") as f:
+            agg_table_template = Template(f.read())
+        agg_table_html_code = {}
+
+        for item in aggregate.keys():
+            aggregate_json_filename = f"{pipeline_name}_{item}_aggregate_table.json" 
+            aggregate_dir = website_data_dir / aggregate_json_filename
+            aggregate[item].fillna('Missing').to_json(path_or_buf = aggregate_dir, orient = "split", index=False)
+            copyfile((website_data_dir / aggregate_json_filename), (dist_data / aggregate_json_filename))
+            agg_data_table_template_data = {
+                "agent_name": item,
+                "json_file_name": aggregate_json_filename
+            }
+            agg_data_table_output = agg_table_template.render(**agg_data_table_template_data)
+            agg_table_html_code[item] = agg_data_table_output
+
+        overall_agg_table_html_code = agg_table_html_code[overall_key]
+        # create chart
+        overall_chart_html_code = plot_line_chart_plotly(
+            data=aggregate[overall_key], # getting the dataframe
             x_column = x_column, 
             y_columns = y_columns, 
-            title = f'Failed, Timeout and Flake Count VS Build Number ({agent_key})', 
+            title = 'Failed, Timeout and Flake Count VS Build Number (Overall)', 
             labels = y_columns, 
             color = [data_name_style[item].css_color_style for item in y_columns],
             marker = [data_name_style[item].marker_shape for item in y_columns],   
@@ -235,65 +233,101 @@ if __name__ == "__main__":
             y_axis = y_axis,
             legend_title = legend_title
         )
-        by_os_chart_html_code[agent_key] = current_plot
-    
-    #create data table
-    with (assets / "table.html.j2").open("r") as f:
-        table_template = Template(f.read())
-    table_html_code = {}
-    for agent_key in agent_keys:
-        json_file_name = "fail_test_table_" + agent_key + ".json"
-        lts_file_name = "fail_test_store_" + agent_key + ".json"
-        lts_pickle_file_name = "fail_test_store_" + agent_key + "_pickle.json"
-        # generate json file
-        fail_test_table_data_gen(
-                path=website_data_dir / json_file_name,
-                build_collection = build_collection_data,
-                build_keys = build_keys,
-                agent = agent_key,
-                lts_path = tabled_histroy_path / lts_file_name,
-                lts_path_pickle = tabled_histroy_path / lts_pickle_file_name,
-                passed_key = "Passed",
-                not_found_key = "None",
-                stacktrace_excluded_outcome = ["Passed"]
+
+        # plot by os
+        by_os_chart_html_code = {}
+        for agent_key in agent_keys:
+            current_plot = plot_line_chart_plotly(
+                data=aggregate[agent_key], # getting the dataframe
+                x_column = x_column, 
+                y_columns = y_columns, 
+                title = f'Failed, Timeout and Flake Count VS Build Number ({agent_key})', 
+                labels = y_columns, 
+                color = [data_name_style[item].css_color_style for item in y_columns],
+                marker = [data_name_style[item].marker_shape for item in y_columns],   
+                x_axis = x_axis, 
+                y_axis = y_axis,
+                legend_title = legend_title
             )
-        # copy json file to dist
-        copyfile((website_data_dir / json_file_name), (dist_data / json_file_name))
-        data_table_template_data = {
-            "agent_name": agent_key,
-            "json_file_name": json_file_name
+            by_os_chart_html_code[agent_key] = current_plot
+        
+        #create data table
+        with (assets / "test_detail_table.html.j2").open("r") as f:
+            table_template = Template(f.read())
+        table_html_code = {}
+        for agent_key in agent_keys:
+            json_file_name = f"{pipeline_name}_{agent_key}_failed_detail.json"
+            lts_file_name = f"{pipeline_name}_{agent_key}_failed_detail_store.json"
+            lts_pickle_file_name = f"{pipeline_name}_{agent_key}_failed_detail_store_pickle.json"
+            # generate json file
+            fail_test_table_data_gen(
+                    path=website_data_dir / json_file_name,
+                    build_collection = build_collection_data,
+                    build_keys = build_keys,
+                    agent = agent_key,
+                    pipeline_name = pipeline_name,
+                    lts_path_json = by_testname_histroy_path / lts_file_name,
+                    lts_path_jsonpickle = by_testname_histroy_path / lts_pickle_file_name,
+                    combined_path_json = combined_result_json,
+                    combined_path_jsonpickle = combined_result_jsonpickle,
+                    passed_key = "Passed",
+                    not_found_key = "None",
+                    stacktrace_excluded_outcome = ["Passed"]
+                )
+            # copy json file to dist
+            copyfile((website_data_dir / json_file_name), (dist_data / json_file_name))
+
+            data_table_template_data = {
+                "agent_name": agent_key,
+                "json_file_name": json_file_name
+            }
+            data_table_output = table_template.render(**data_table_template_data)
+            table_html_code[agent_key] = data_table_output
+
+        with (assets / "content.html.j2").open("r") as f:
+            template = Template(f.read())
+
+        template_data = {
+            "jenkins_pipeline_name": remote_source.pipeline_name,
+            "jenkins_pipeline_url": remote_source.pipeline_url,
+            "agg_table_html_code": agg_table_html_code,
+            "overall_agg_table_html_code": overall_agg_table_html_code,
+            "current_datetime": now.strftime("%B %d, %Y %H:%M"),
+            "logo": logo_path.name,
+            "bootstrap_css_file": bootstrap_css_file.name,
+            "bootstrap_js_file": bootstrap_js_file.name,
+            "plotly_js_file": plotly_js_file.name,
+            "aggregate_test_data": aggregate,
+            "aggregate_columns_key": columns,
+            "overall_chart_html_code": overall_chart_html_code,
+            "by_os_chart_html_code": by_os_chart_html_code,
+            "os_keys": agent_keys,
+            "overall_key": overall_key,
+            "build_keys": build_keys,
+            "data_name_style": data_name_style,
+            "table_html_code": table_html_code,
         }
-        data_table_output = table_template.render(**data_table_template_data)
-        table_html_code[agent_key] = data_table_output
+        output = template.render(**template_data)
+        content_path = dist / f"{pipeline_name}.html"
+        content_path.write_text(output)
+        pipeline_links[pipeline_name] = content_path.name
 
     with (assets / "index.html.j2").open("r") as f:
-        template = Template(f.read())
-    # organize 
-    # print(aggregate["msys"].set_indexT.to_json(orient="records"))
+        index_template = Template(f.read())
+
     template_data = {
         "jenkins_pipeline_name": remote_source.pipeline_name,
-        "jenkins_pipeline_url": remote_source.pipeline_url,
-        "agg_table_html_code": agg_table_html_code,
-        "overall_agg_table_html_code": overall_agg_table_html_code,
-        "current_datetime": now.strftime("%B %d, %Y %H:%M"),
+        "jenkins_url": remote_source.pipeline_url,
         "logo": logo_path.name,
+        "current_datetime": now.strftime("%B %d, %Y %H:%M"),
+        "pipeline_links": pipeline_links,
         "bootstrap_css_file": bootstrap_css_file.name,
         "bootstrap_js_file": bootstrap_js_file.name,
-        "plotly_js_file": plotly_js_file.name,
-        "aggregate_test_data": aggregate,
-        "aggregate_columns_key": columns,
-        "overall_chart_html_code": overall_chart_html_code,
-        "by_os_chart_html_code": by_os_chart_html_code,
-        "os_keys": agent_keys,
-        "overall_key": overall_key,
-        "build_keys": build_keys,
-        "data_name_style": data_name_style,
-        "table_html_code": table_html_code,
     }
-    output = template.render(**template_data)
+
+    output = index_template.render(**template_data)
     index_path = dist / "index.html"
     index_path.write_text(output)
-    # move assets to dist
     
-    #copyfile(cache, dist_asset / cache.name)
+
 

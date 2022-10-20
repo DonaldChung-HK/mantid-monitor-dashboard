@@ -10,136 +10,39 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   -->
+
   <!-- Bootstrap JavaScript (Uncomment this foe CDN)
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
   integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" 
   crossorigin="anonymous"></script>
   -->
-  <!--Plotly JS (Uncomment this foe CDN)
-  <script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
-  -->
-  <!--DataTable is installed via CDN since it is more stable local installation has bugged sort icon-->
-  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs5/jq-3.6.0/dt-1.12.1/datatables.min.css"/>
- 
-  <script type="text/javascript" src="https://cdn.datatables.net/v/bs5/jq-3.6.0/dt-1.12.1/datatables.min.js"></script>
+  
   <!--Local CSS install-->
   <link rel="stylesheet" href="assets/src/{{bootstrap_css_file}}">
   <script src="assets/src/{{bootstrap_js_file}}"></script>
-  <script src="assets/src/{{plotly_js_file}}"></script>
-
-  <!-- DataTable Java Script Helper-->
-
-  <script>
-    var bootstrap_color = {
-      {% for key in data_name_style.keys() %}
-        "{{key}}": "{{data_name_style[key].bootstrap_style}}", 
-      {% endfor %}
-    };
-    var color = {
-      {% for key in data_name_style.keys() %}
-      "{{key}}": "{{data_name_style[key].css_color_style}}", 
-      {% endfor %}
-    };
-
-    function single_stark_trace_card(d) {
-      var stack_trace_card = '';
-      stack_trace_card += 
-                          '<div class="card bg-'+ bootstrap_color[d.last_stack_traces.outcome] +' text-white" style="width:100%;">' +
-                              '<div class="card-header">' +
-                                  '<h5>Test Name: ' + d.last_stack_traces.test_name + ' | Build: ' + d.last_stack_traces.build + ' | OS: ' + d.last_stack_traces.agent_name + ' | Trial: ' + d.last_stack_traces.trial + ' | Outcome: ' + d.last_stack_traces.outcome + ' | Test Time: ' + d.last_stack_traces.test_time + ' sec </h5>' +
-                            ' </div>' +
-                              '<div class="card-body bg-dark">'+
-                              '<code style="color:white;">' + d.last_stack_traces.stacktrace.replaceAll('\n', '<br><br>') + '</code>'+
-                              '</div>' +
-                          '</div>'
-                          ;
-      return stack_trace_card
-    }
-
-    function format_single_system(e) {
-        // `d` is the original data object for the row
-        
-        return (
-        '<table cellpadding="5" cellspacing="0" border="0" style="width:100%">' +
-            single_stark_trace_card(e) +
-        '</table>'
-        );
-    };
-    
-
-  </script>
-  <!-- DataTable Java Script Helper (end)-->
-  <title>{{ jenkins_pipeline_name }} Pipeline Status</title>
-
-
+  
 </head>
 
 <body>
   <!--Page Container-->
   <div class="container px-2 mt-5">
     <!--Logo-->
-    <a href="{{jenkins_pipeline_url}}"><img class="d-block mx-auto mb-4" src="assets/{{ logo }}" alt="Logo" height="110"></a>
+    <a href="{{jenkins_url}}"><img class="d-block mx-auto mb-4" src="assets/{{ logo }}" alt="Logo" height="110"></a>
     <!--Page Container Heading-->
-    <h1 class="display-3 fw-bold text-center">Pipeline Status</h1>
+    <h1 class="display-3 fw-bold text-center">Mantid Unit Test Dashboard</h1>
     <!--Sub Heading-->
     <div class="col-lg-12 mx-auto">
-      <h2 class="display-5 text-center">{{ jenkins_pipeline_name }}</h2>
+      <h2 class="display-5 text-center">Content Page</h2>
       <p class="text-muted text-center">(Updated on {{ current_datetime }} UTC)</p>
       <div class="col-lg-9 mx-auto text-center">
-        <h3>Overall</h3>       
-      </div>
-      <!--Overall Chart by Plotly-->
-      <div class="col-lg-9 mx-auto">
-        {{overall_chart_html_code}}        
-      </div>
-      <!--Overall aggregate result table-->
-      <div class="col-lg-9 mx-auto text-center">
-        {{overall_agg_table_html_code}}
-      </div>
-      <!--Result by environment part-->
-      <div class="col-lg-9 mx-auto text-center">
-        <h3>By Environment</h3>       
-      </div>
-      <!--Result by environment tabs heading loop-->
-      <ul class="nav nav-tabs nav-fill mb-3" role="tablist" id="os-tabs">
-        {% for os_key in os_keys %}
-        <li class="nav-item">
-          <a 
-            class="nav-link" 
-            data-bs-toggle="tab" 
-            href="#{{os_key}}"
-            >
-            <h3>{{os_key}}</h3>
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
-      <!--Result by environment tabs content loop-->
-      <div class="tab-content" id="os-tabs-content">
-        {% for os_key in os_keys %}
-        <div
-          class="container tab-pane fade"
-          id="{{os_key}}"
-          role="tabpanel"
-          aria-labelledby="ex2-tab-1"
-        >
-          <!--Result by environment Chart-->
-          <div class="col-lg-9 mx-auto">
-            {{by_os_chart_html_code[os_key]}}        
-          </div>
-          <!--Result by environment Table-->
-          <div class="col-lg-9 mx-auto text-center">
-            {{agg_table_html_code[os_key]}}
-          </div>
-          <div class="col-lg-9 mx-auto">
-            {{table_html_code[os_key]}}
-          </div>
-          <!--insert stack trace block here-->
-        </div>
-        {% endfor %}
+        <ul class="list-group">
+          <!--list of dashboard here-->
+            {% for key in pipeline_links.keys() %}
+              <a href="{{ pipeline_links[key] }}" class="list-group-item list-group-item-action">{{ key }}</a>            
+            {% endfor %}
+        </ul>
       </div>
     </div>
   </div>
 </body>
-
-</html>
+    

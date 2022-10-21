@@ -205,8 +205,8 @@ if __name__ == "__main__":
 
     combined_result_json = combined_result_path / "combined_failed_detail_store.json"
     combined_result_jsonpickle = combined_result_path / "combined_failed_detail_store_pickle.json"
-
-    auth = (args.auth[0], args.auth[1])
+    if args.auth != None:
+        auth = (args.auth[0], args.auth[1])
 
 
     for i in range(len(pipeline_names)):

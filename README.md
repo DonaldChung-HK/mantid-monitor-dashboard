@@ -8,7 +8,10 @@ A dashboard design to monitor unit test for mantid
 Run
 ```
 pip install -r requirements.txt
-python main.py -u 'https://builds.mantidproject.org/' -p 'build_packages_from_branch' 'main_nightly_deployment_prototype' -n 30
+# example 1
+python main.py -u 'https://builds.mantidproject.org/' -p 'build_packages_from_branch' 'main_nightly_deployment_prototype' -n 30 -t "Mac" -f "darwin17.log" -t "Mac" "Linux" "Windows" -f "darwin17.log" "linux-gnu.log" "msys.log"
+# example 2
+python main.py -u 'http://localhost:99202/' -p 'ctest-sample' 'ctest-sample-2' -n 35 -a 'your-username' 'your-username' -t "Windows" "Mac" "Linux" -f "windows-64-ci.log" "osx-64-ci.log" "linux-64-ci.log" -t "Windows" -f "windows-64-ci.log"
 ```
 | argument  | description | Example
 | ------------- | ------------- |-----------------|
@@ -16,6 +19,8 @@ python main.py -u 'https://builds.mantidproject.org/' -p 'build_packages_from_br
 | `-p`, `--pipeline_name`  | list of pipeline name to monitor (past multiple string as list) | `'build_packages_from_branch' 'main_nightly_deployment_prototype'` |
 |  `-u`, `--jenkins_url`  | the number of builds from latest to parse  | `15` |
 |  `-a`, `--auth`  | username and password pair if jenkins requires login to view builds and artifacts with username as first argument and password as second argument  | `'your-username' 'your-password'` |
+|  `-t`, `--target`  | The list of target name to parse the number of this argument must match the number of pipeline name and the order. Use a flag for a pipeline you should have as mutch of this flag as the number of pipeline in `-p` | `"Windows" "Mac" "Linux"` |
+|  `-f`, `--file_name`  | The list of target name to parse the number of this argument must match the number of pipeline name and the order. Use a flag for a pipeline you should have as mutch of this flag as the number of pipeline in `-p` | `"windows-64-ci.log" "osx-64-ci.log" "linux-64-ci.log"` |
 
 The webpage should be in `dist/index.html`
 ## Process

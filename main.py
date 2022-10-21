@@ -40,7 +40,7 @@ class data_name_visual():
         
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Produce a dashboard to monitor mantid unit test')
+    parser = argparse.ArgumentParser(description='Produce a dashboard to monitor mantid unit test !!!edit the `agent_keys_list` and `file_names_list` as well for temporory fix')
     parser.add_argument('-u','--jenkins_url', 
                         type=str,
                         help='url to your jenkins project',
@@ -158,10 +158,23 @@ if __name__ == "__main__":
     
     
     # range of data
-    agent_keys = ["Mac", "Linux", "Windows"]
-    file_names = ["darwin17.log", "linux-gnu.log", "msys.log"]
-    # file_names = ["osx-64-ci.log", "linux-64-ci.log", "windows-64-ci.log"] # name for testing system
+    # !!! edit here to create a list of target that matches the order of pipeline that you specified in input
+    agent_keys_list = [
+        ["Mac", "Linux", "Windows"], 
+        ["Linux"]
+    ]
+    # the file_name_list should have a list of file name matching to the os target in agent_keys_list
+    file_names_list = [
+        ["darwin17.log", "linux-gnu.log", "msys.log"],
+        ["linux-gnu.log"]
+    ]
     
+
+    # name for testing system
+    # file_names_list = [
+    #     ["osx-64-ci.log", "linux-64-ci.log", "windows-64-ci.log"],
+    #     ["linux-64-ci.log"]
+    # ]
 
     ###############################################################
 
@@ -179,7 +192,12 @@ if __name__ == "__main__":
     auth = (args.auth[0], args.auth[1])
 
 
-    for pipeline_name in pipeline_names:
+    for i in range(len(pipeline_names)):
+        #temp fix for controlling files to parse if you don't edit
+        pipeline_name = pipeline_names[i]
+        agent_keys = agent_keys_list[i]
+        file_names = file_names_list[i]
+
         remote_source = Remote_source(args.jenkins_url, pipeline_name, auth=auth)
         num_past_build = args.num_past_build    
         build_keys = list(remote_source.get_list_of_build_range(num_past_build))

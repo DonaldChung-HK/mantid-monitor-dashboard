@@ -9,6 +9,7 @@ Run
 ```
 pip install -r requirements.txt
 python main.py -u 'https://builds.mantidproject.org/' -p 'build_packages_from_branch' 'main_nightly_deployment_prototype' -n 30
+# note a tempory fix is implemented where you will have to edit `agent_keys_list` and `file_names_list` in `main.py` that the index maches the pipeline you want to monitor see comment in `main.py`. This is to allow user to control target to parse for individual pipeline.
 ```
 | argument  | description | Example
 | ------------- | ------------- |-----------------|

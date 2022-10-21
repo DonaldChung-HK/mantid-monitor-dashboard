@@ -32,7 +32,6 @@ def get_chart_DF(
         holder[agent_key] = []
     # traverse JSON dict type container
     build_nums = build_keys
-    build_nums.sort(reverse=True)
 
 
     def populate_row(build_num, data_dict, columns):
@@ -125,7 +124,7 @@ def plot_line_chart_plotly(
         str: HTML string to be inserted via jinja2
     """   
     fig = go.Figure()
-
+    data = data.sort_values(x_column)
     for i in range(len(y_columns)):
         fig.add_trace(go.Scatter(
             x=data[x_column], 

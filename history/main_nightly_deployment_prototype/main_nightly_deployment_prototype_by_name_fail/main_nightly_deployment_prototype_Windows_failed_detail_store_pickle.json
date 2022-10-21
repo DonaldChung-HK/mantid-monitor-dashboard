@@ -1,0 +1,26 @@
+{
+    "py/object": "datatable_helper.LTS_Problem_test",
+    "data": {
+        "AlgorithmsTest_FitPeaksTest": {
+            "py/object": "datatable_helper.LTS_Problem_test_entry",
+            "test_name": "AlgorithmsTest_FitPeaksTest",
+            "latest_failed_build": "430",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Flake",
+            "pipeline_name": "main_nightly_deployment_prototype",
+            "past_failed_outcome": {
+                "430": "Flake"
+            },
+            "last_stack_traces": {
+                "py/object": "datatable_helper.Problem_test_trial",
+                "test_name": "AlgorithmsTest_FitPeaksTest",
+                "build": "430",
+                "agent_name": "Windows",
+                "trial": 1,
+                "outcome": "Failed",
+                "test_time": "2.20",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221020.729\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 10 tests.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nFitPeaks-[Notice] FitPeaks started\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  303: AlgorithmsTest_FitPeaksTest\r\n"
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "data": {
+        "AlgorithmsTest_FitPeaksTest": {
+            "test_name": "AlgorithmsTest_FitPeaksTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "main_nightly_deployment_prototype_430": "Flake"
+            }
+        }
+    }
+}

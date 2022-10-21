@@ -1,0 +1,87 @@
+{
+    "data": {
+        "flaky_test": {
+            "test_name": "flaky_test",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "ctest-sample_6": "Flake",
+                "ctest-sample_7": "Flake",
+                "ctest-sample_8": "Flake",
+                "ctest-sample_9": "Flake",
+                "ctest-sample_10": "Flake",
+                "ctest-sample_11": "Flake",
+                "ctest-sample_12": "Flake",
+                "ctest-sample-2_1": "Flake",
+                "ctest-sample-2_2": "Failed",
+                "ctest-sample-2_4": "Flake"
+            }
+        },
+        "flaky_test_2": {
+            "test_name": "flaky_test_2",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "ctest-sample_6": "Flake",
+                "ctest-sample_7": "Flake",
+                "ctest-sample_8": "Flake",
+                "ctest-sample_9": "Flake",
+                "ctest-sample_10": "Flake",
+                "ctest-sample_11": "Flake",
+                "ctest-sample_12": "Flake",
+                "ctest-sample-2_1": "Flake",
+                "ctest-sample-2_2": "Failed",
+                "ctest-sample-2_4": "Flake"
+            }
+        },
+        "fail_test": {
+            "test_name": "fail_test",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "ctest-sample_6": "Failed",
+                "ctest-sample_7": "Failed",
+                "ctest-sample_8": "Failed",
+                "ctest-sample_9": "Failed",
+                "ctest-sample_10": "Failed",
+                "ctest-sample_11": "Failed",
+                "ctest-sample_12": "Failed",
+                "ctest-sample-2_1": "Failed",
+                "ctest-sample-2_2": "Failed",
+                "ctest-sample-2_3": "Failed",
+                "ctest-sample-2_4": "Failed"
+            }
+        },
+        "fail_test_2": {
+            "test_name": "fail_test_2",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "ctest-sample_6": "Failed",
+                "ctest-sample_7": "Failed",
+                "ctest-sample_8": "Failed",
+                "ctest-sample_9": "Failed",
+                "ctest-sample_10": "Failed",
+                "ctest-sample_11": "Failed",
+                "ctest-sample_12": "Failed",
+                "ctest-sample-2_1": "Failed",
+                "ctest-sample-2_2": "Failed",
+                "ctest-sample-2_3": "Failed",
+                "ctest-sample-2_4": "Failed"
+            }
+        },
+        "time_out": {
+            "test_name": "time_out",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "ctest-sample_6": "Timeout",
+                "ctest-sample_7": "Timeout",
+                "ctest-sample_8": "Timeout",
+                "ctest-sample_9": "Timeout",
+                "ctest-sample_10": "Timeout",
+                "ctest-sample_11": "Timeout",
+                "ctest-sample_12": "Timeout",
+                "ctest-sample-2_1": "Timeout",
+                "ctest-sample-2_2": "Timeout",
+                "ctest-sample-2_3": "Timeout",
+                "ctest-sample-2_4": "Timeout"
+            }
+        }
+    }
+}

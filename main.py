@@ -307,6 +307,8 @@ if __name__ == "__main__":
             json_file_name = f"{pipeline_name}_{agent_key}_failed_detail.json"
             lts_file_name = f"{pipeline_name}_{agent_key}_failed_detail_store.json"
             lts_pickle_file_name = f"{pipeline_name}_{agent_key}_failed_detail_store_pickle.json"
+            combined_result_json = combined_result_path / f"{agent_key}_combined_failed_detail_store.json"
+            combined_result_jsonpickle = combined_result_path / f"{agent_key}_combined_failed_detail_store_pickle.json"
             # generate json file
             fail_test_table_data_gen(
                     path=website_data_dir / json_file_name,

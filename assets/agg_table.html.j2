@@ -39,7 +39,7 @@
             {
                 //marking missing for tested and pass
                 "createdCell": function (td, cellData, rowData, row, col) {
-                    if ( cellData == "NaN" ) {
+                    if ( cellData == "{{missing_key}}" ) {
                         $(td).css('background-color', '#a6a6a6')
                     }
                 },
@@ -49,7 +49,7 @@
             {   
                 // Flake
                 "createdCell": function (td, cellData, rowData, row, col) {
-                    if ( cellData == "NaN" ) {
+                    if ( cellData == "{{missing_key}}" ) {
                         $(td).css('background-color', '#a6a6a6')
                     }
                     else if ( cellData > 0 ) {
@@ -61,7 +61,7 @@
             {
                 //Failed
                 "createdCell": function (td, cellData, rowData, row, col) {
-                    if ( cellData == "NaN" ) {
+                    if ( cellData == "{{missing_key}}" ) {
                         $(td).css('background-color', '#a6a6a6')
                     }
                     else if ( cellData > 0 ) {
@@ -73,7 +73,7 @@
             {
                 //Timeout
                 "createdCell": function (td, cellData, rowData, row, col) {
-                    if ( cellData == "NaN" ) {
+                    if ( cellData == "{{missing_key}}" ) {
                         $(td).css('background-color', '#a6a6a6')
                     }
                     else if ( cellData > 0 ) {

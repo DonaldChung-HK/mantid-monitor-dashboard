@@ -109,8 +109,9 @@ if __name__ == "__main__":
         "DarkGoldenRod",
         "hourglass"
     )
-    data_name_style["None"] = data_name_visual(
-        "None",
+    missing_key = "Missing"
+    data_name_style[missing_key] = data_name_visual(
+        missing_key,
         "info",
         "Black",
         "x"
@@ -221,11 +222,12 @@ if __name__ == "__main__":
         for item in aggregate.keys():
             aggregate_json_filename = f"{pipeline_name}_{item}_aggregate_table.json" 
             aggregate_dir = website_data_dir / aggregate_json_filename
-            aggregate[item].fillna('Missing').to_json(path_or_buf = aggregate_dir, orient = "split", index=False)
+            aggregate[item].fillna(missing_key).to_json(path_or_buf = aggregate_dir, orient = "split", index=False)
             copyfile((website_data_dir / aggregate_json_filename), (dist_data / aggregate_json_filename))
             agg_data_table_template_data = {
                 "agent_name": item,
-                "json_file_name": aggregate_json_filename
+                "json_file_name": aggregate_json_filename,
+                "missing_key": missing_key,
             }
             agg_data_table_output = agg_table_template.render(**agg_data_table_template_data)
             agg_table_html_code[item] = agg_data_table_output

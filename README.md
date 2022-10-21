@@ -13,8 +13,9 @@ python main.py -u 'https://builds.mantidproject.org/' -p 'build_packages_from_br
 | argument  | description | Example
 | ------------- | ------------- |-----------------|
 | `-u`, `--jenkins_url` | url to your jenkins project you have to include the ending `/` | `https://builds.mantidproject.org/` |
-| `-p`, `--pipeline_name`  | list of pipeline name to monitor (past multiple string as list) | `build_packages_from_branch` |
+| `-p`, `--pipeline_name`  | list of pipeline name to monitor (past multiple string as list) | `'build_packages_from_branch' 'main_nightly_deployment_prototype'` |
 |  `-u`, `--jenkins_url`  | the number of builds from latest to parse  | `15` |
+|  `-a`, `--auth`  | username and password pair if jenkins requires login to view builds and artifacts with username as first argument and password as second argument  | `'your-username' 'your-password'` |
 
 The webpage should be in `dist/index.html`
 ## Process
@@ -42,3 +43,9 @@ The update action will run daily at `14:00 UTC` you can also manually run the gi
 - Delete the `History` when you change to monitor another pipeline which change the build number series to avoid any issues.
 - Change the `data_collector.File_object` if the name of the log file changes in the future because the log file name is based on the environmental variables on the build machine
 - The format of the Jenkins url can also change in the future so modify `data_collector.Remote_source` to change the logic of how to build the url
+- Some of the variables are hard-coded in `main.py` as it is unlikely that they change without a significant system change such as:
+    - Styling
+    - Location for save files
+    - Pattern for log parsing `grok_pattern`
+    - Key of outcome columns for plotting `columns`, `x_column` and `y_columns`
+    - Keys for OS `agent_keys` and log file names `file_names`

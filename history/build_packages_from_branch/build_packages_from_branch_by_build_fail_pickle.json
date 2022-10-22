@@ -810,6 +810,60 @@
                     "outcome_groups": {}
                 }
             }
+        },
+        "98": {
+            "py/object": "data_object.Build",
+            "build_name": "98",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Mac",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "99": {
+            "py/object": "data_object.Build",
+            "build_name": "99",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Mac",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
         }
     }
 }

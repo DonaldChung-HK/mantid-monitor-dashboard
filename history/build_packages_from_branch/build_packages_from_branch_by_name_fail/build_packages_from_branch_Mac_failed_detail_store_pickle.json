@@ -1,4 +1,47 @@
 {
     "py/object": "datatable_helper.LTS_Problem_test",
-    "data": {}
+    "data": {
+        "python.functions.MeierTest.MeierTest": {
+            "py/object": "datatable_helper.LTS_Problem_test_entry",
+            "test_name": "python.functions.MeierTest.MeierTest",
+            "latest_failed_build": "103",
+            "agent_name": "Mac",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "build_packages_from_branch",
+            "past_failed_outcome": {
+                "103": "Failed"
+            },
+            "last_stack_traces": {
+                "py/object": "datatable_helper.Problem_test_trial",
+                "test_name": "python.functions.MeierTest.MeierTest",
+                "build": "103",
+                "agent_name": "Mac",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "6.25",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221025.1017\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/testhelpers/testrunner.py&quot;, line 96, in &lt;module&gt;\n    main(sys.argv)\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/testhelpers/testrunner.py&quot;, line 54, in main\n    test_module = SourceFileLoader(module_name(pathname), pathname).load_module()\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 522, in _check_name_wrapper\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 1022, in load_module\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 847, in load_module\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 265, in _load_module_shim\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 702, in _load\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 671, in _load_unlocked\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 843, in exec_module\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 219, in _call_with_frames_removed\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/functions/MeierTest.py&quot;, line 13, in &lt;module&gt;\n    class MeierTest(unittest.TestCase):\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/functions/MeierTest.py&quot;, line 29, in MeierTest\n    @unittest.skipIf(sys.platform.startswith(&quot;linux&quot;), &quot;test fails on Centos 7 machines&quot;)\nNameError: name &#x27;sys&#x27; is not defined\n\n          Start  454: AlgorithmsTest_SumRowColumnTest\n"
+            }
+        },
+        "AlgorithmsTest_FitPeaksTest": {
+            "py/object": "datatable_helper.LTS_Problem_test_entry",
+            "test_name": "AlgorithmsTest_FitPeaksTest",
+            "latest_failed_build": "101",
+            "agent_name": "Mac",
+            "last_failed_outcome": "Flake",
+            "pipeline_name": "build_packages_from_branch",
+            "past_failed_outcome": {
+                "101": "Flake"
+            },
+            "last_stack_traces": {
+                "py/object": "datatable_helper.Problem_test_trial",
+                "test_name": "AlgorithmsTest_FitPeaksTest",
+                "build": "101",
+                "agent_name": "Mac",
+                "trial": 1,
+                "outcome": "Failed",
+                "test_time": "0.45",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221018.852\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/build_packages_from_branch/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/build_packages_from_branch/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/build_packages_from_branch/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/build_packages_from_branch/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 10 tests.Instrument-[Warning] In Instrument::getSource(). No source has been set.\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\nFitPeaks-[Notice] FitPeaks started\nlibc++abi.dylib: Pure virtual function called!\nSubprocess aborted\n\n          Start  303: AlgorithmsTest_FitPeaksTest\n"
+            }
+        }
+    }
 }

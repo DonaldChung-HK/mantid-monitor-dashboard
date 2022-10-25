@@ -27,6 +27,206 @@
         },
         "101": {
             "build_name": "101",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2637,
+                "Passed": 2636,
+                "Flake": 1,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2637,
+                        "Passed": 2636,
+                        "Flake": 1,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {
+                            "AlgorithmsTest_FitPeaksTest": {
+                                "test_name": "AlgorithmsTest_FitPeaksTest",
+                                "trials": [
+                                    {
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "0.45",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221018.852\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/build_packages_from_branch/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/build_packages_from_branch/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/build_packages_from_branch/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/build_packages_from_branch/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 10 tests.Instrument-[Warning] In Instrument::getSource(). No source has been set.\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\nFitPeaks-[Notice] FitPeaks started\nlibc++abi.dylib: Pure virtual function called!\nSubprocess aborted\n\n          Start  303: AlgorithmsTest_FitPeaksTest\n"
+                                    },
+                                    {
+                                        "trial_num": 2,
+                                        "outcome": "Passed",
+                                        "test_time": "6.28",
+                                        "stack_trace": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "102": {
+            "build_name": "102",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "103": {
+            "build_name": "103",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2637,
+                "Passed": 2636,
+                "Flake": 0,
+                "Failed": 1,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2637,
+                        "Passed": 2636,
+                        "Flake": 0,
+                        "Failed": 1,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {
+                            "python.functions.MeierTest.MeierTest": {
+                                "test_name": "python.functions.MeierTest.MeierTest",
+                                "trials": [
+                                    {
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "6.53",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221025.1017\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/testhelpers/testrunner.py&quot;, line 96, in &lt;module&gt;\n    main(sys.argv)\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/testhelpers/testrunner.py&quot;, line 54, in main\n    test_module = SourceFileLoader(module_name(pathname), pathname).load_module()\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 522, in _check_name_wrapper\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 1022, in load_module\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 847, in load_module\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 265, in _load_module_shim\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 702, in _load\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 671, in _load_unlocked\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 843, in exec_module\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 219, in _call_with_frames_removed\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/functions/MeierTest.py&quot;, line 13, in &lt;module&gt;\n    class MeierTest(unittest.TestCase):\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/functions/MeierTest.py&quot;, line 29, in MeierTest\n    @unittest.skipIf(sys.platform.startswith(&quot;linux&quot;), &quot;test fails on Centos 7 machines&quot;)\nNameError: name &#x27;sys&#x27; is not defined\n\n          Start 1716: python.functions.MeierTest.MeierTest\n"
+                                    },
+                                    {
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "6.52",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221025.1017\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/testhelpers/testrunner.py&quot;, line 96, in &lt;module&gt;\n    main(sys.argv)\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/testhelpers/testrunner.py&quot;, line 54, in main\n    test_module = SourceFileLoader(module_name(pathname), pathname).load_module()\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 522, in _check_name_wrapper\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 1022, in load_module\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 847, in load_module\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 265, in _load_module_shim\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 702, in _load\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 671, in _load_unlocked\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 843, in exec_module\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 219, in _call_with_frames_removed\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/functions/MeierTest.py&quot;, line 13, in &lt;module&gt;\n    class MeierTest(unittest.TestCase):\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/functions/MeierTest.py&quot;, line 29, in MeierTest\n    @unittest.skipIf(sys.platform.startswith(&quot;linux&quot;), &quot;test fails on Centos 7 machines&quot;)\nNameError: name &#x27;sys&#x27; is not defined\n\n          Start 1716: python.functions.MeierTest.MeierTest\n"
+                                    },
+                                    {
+                                        "trial_num": 3,
+                                        "outcome": "Failed",
+                                        "test_time": "6.25",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221025.1017\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/testhelpers/testrunner.py&quot;, line 96, in &lt;module&gt;\n    main(sys.argv)\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/testhelpers/testrunner.py&quot;, line 54, in main\n    test_module = SourceFileLoader(module_name(pathname), pathname).load_module()\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 522, in _check_name_wrapper\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 1022, in load_module\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 847, in load_module\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 265, in _load_module_shim\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 702, in _load\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 671, in _load_unlocked\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 843, in exec_module\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 219, in _call_with_frames_removed\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/functions/MeierTest.py&quot;, line 13, in &lt;module&gt;\n    class MeierTest(unittest.TestCase):\n  File &quot;/Users/builder/Jenkins/workspace/build_packages_from_branch/Framework/PythonInterface/test/python/plugins/functions/MeierTest.py&quot;, line 29, in MeierTest\n    @unittest.skipIf(sys.platform.startswith(&quot;linux&quot;), &quot;test fails on Centos 7 machines&quot;)\nNameError: name &#x27;sys&#x27; is not defined\n\n          Start  454: AlgorithmsTest_SumRowColumnTest\n"
+                                    }
+                                ]
+                            }
+                        },
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "104": {
+            "build_name": "104",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "105": {
+            "build_name": "105",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "106": {
+            "build_name": "106",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "107": {
+            "build_name": "107",
             "is_completed": false,
             "aggregate": {
                 "Tested": null,

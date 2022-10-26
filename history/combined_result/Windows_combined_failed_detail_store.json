@@ -6,6 +6,20 @@
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_430": "Flake"
             }
+        },
+        "python.algorithms.AbinsAdvancedParametersTest.AbinsAdvancedParametersTest": {
+            "test_name": "python.algorithms.AbinsAdvancedParametersTest.AbinsAdvancedParametersTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "main_nightly_deployment_prototype_433": "Flake"
+            }
+        },
+        "python.functions.CompositePCRmagnetTest.CompositePCRmagnetTest": {
+            "test_name": "python.functions.CompositePCRmagnetTest.CompositePCRmagnetTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "main_nightly_deployment_prototype_433": "Flake"
+            }
         }
     }
 }

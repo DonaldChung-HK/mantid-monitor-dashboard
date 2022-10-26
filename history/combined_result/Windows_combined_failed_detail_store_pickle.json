@@ -8,6 +8,22 @@
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_430": "Flake"
             }
+        },
+        "python.algorithms.AbinsAdvancedParametersTest.AbinsAdvancedParametersTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.algorithms.AbinsAdvancedParametersTest.AbinsAdvancedParametersTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "main_nightly_deployment_prototype_433": "Flake"
+            }
+        },
+        "python.functions.CompositePCRmagnetTest.CompositePCRmagnetTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.functions.CompositePCRmagnetTest.CompositePCRmagnetTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "main_nightly_deployment_prototype_433": "Flake"
+            }
         }
     }
 }

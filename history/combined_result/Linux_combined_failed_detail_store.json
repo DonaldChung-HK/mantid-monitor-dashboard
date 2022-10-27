@@ -6,6 +6,13 @@
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_430": "Flake"
             }
+        },
+        "python.MuonQt5.tf_asymmetry_fitting_view_test.tf_asymmetry_fitting_view_test": {
+            "test_name": "python.MuonQt5.tf_asymmetry_fitting_view_test.tf_asymmetry_fitting_view_test",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "main_nightly_deployment_prototype_434": "Flake"
+            }
         }
     }
 }

@@ -2,21 +2,22 @@
     "data": {
         "AlgorithmsTest_FitPeaksTest": {
             "test_name": "AlgorithmsTest_FitPeaksTest",
-            "latest_failed_build": "430",
+            "latest_failed_build": "435",
             "agent_name": "Linux",
             "last_failed_outcome": "Flake",
             "pipeline_name": "main_nightly_deployment_prototype",
             "past_failed_outcome": {
-                "430": "Flake"
+                "430": "Flake",
+                "435": "Flake"
             },
             "last_stack_traces": {
                 "test_name": "AlgorithmsTest_FitPeaksTest",
-                "build": "430",
+                "build": "435",
                 "agent_name": "Linux",
-                "trial": 2,
+                "trial": 1,
                 "outcome": "Failed",
-                "test_time": "0.25",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221020.729\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 10 tests.Instrument-[Warning] In Instrument::getSource(). No source has been set.\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\nFitPeaks-[Notice] FitPeaks started\npure virtual method called\n\n********* UNHANDLED EXCEPTION *********\nSegmentation fault\n\n          Start  303: AlgorithmsTest_FitPeaksTest\n"
+                "test_time": "0.42",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221027.1652\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 10 tests.Instrument-[Warning] In Instrument::getSource(). No source has been set.\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\nFitPeaks-[Notice] FitPeaks started\npure virtual method called\n\n********* UNHANDLED EXCEPTION *********\nSegmentation fault\n\n          Start  303: AlgorithmsTest_FitPeaksTest\n"
             }
         },
         "python.MuonQt5.tf_asymmetry_fitting_view_test.tf_asymmetry_fitting_view_test": {

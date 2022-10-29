@@ -1,0 +1,23 @@
+{
+    "data": {
+        "AlgorithmsTest_FitPeaksTest": {
+            "test_name": "AlgorithmsTest_FitPeaksTest",
+            "latest_failed_build": "475",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Flake",
+            "pipeline_name": "pull_requests-conda-windows",
+            "past_failed_outcome": {
+                "475": "Flake"
+            },
+            "last_stack_traces": {
+                "test_name": "AlgorithmsTest_FitPeaksTest",
+                "build": "475",
+                "agent_name": "Windows",
+                "trial": 2,
+                "outcome": "Failed",
+                "test_time": "2.81",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221028.1415\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 10 tests.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Error] FitPeaks: ParamFunction parameter index 0 out of range 0\r\nFitPeaks-[Error] Error in execution of algorithm FitPeaks\r\nFitPeaks-[Error] FitPeaks: error (see log)\r\n\r\nIn FitPeaksTest::test_singlePeaksPartialSpectra:\r\nC:/Jenkins/workspace/pull_requests-conda-windows/Framework/Algorithms/test/FitPeaksTest.h:102: Error: Assertion failed: fitpeaks.isExecuted()\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.01 seconds\r\n.FitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.00 seconds\r\n.LoadNexus-[Notice] LoadNexus started\r\nLoadNexus-[Notice] LoadNexus successful, Duration 0.17 seconds\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.00 seconds\r\n.LoadNexus-[Notice] LoadNexus started\r\nLoadNexus-[Notice] LoadNexus successful, Duration 0.04 seconds\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.18 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\VULCAN906497e397b1c3924994f136dd575a353d9d050d.vtp\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.40 seconds\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.04 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.34 seconds\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.11 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.33 seconds\r\nLoadParameterFile-[Notice] LoadParameterFile started\r\nLoadParameterFile-[Notice] LoadParameterFile successful, Duration 0.07 seconds\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] Neither parameter value table nor initial parameter name/value vectors is specified. Fitting might not be reliable for peak profile other than Gaussian\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.16 seconds\r\n.FitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] Output error table workspace\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.00 seconds\r\n.\r\nFailed 1 of 10 tests\r\nSuccess rate: 90%\r\n\r\n          Start  303: AlgorithmsTest_FitPeaksTest\r\n"
+            }
+        }
+    }
+}

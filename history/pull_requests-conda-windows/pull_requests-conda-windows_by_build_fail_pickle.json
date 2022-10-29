@@ -1,0 +1,851 @@
+{
+    "py/object": "data_object.Builds_collection",
+    "data": {
+        "447": {
+            "py/object": "data_object.Build",
+            "build_name": "447",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "448": {
+            "py/object": "data_object.Build",
+            "build_name": "448",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "449": {
+            "py/object": "data_object.Build",
+            "build_name": "449",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "450": {
+            "py/object": "data_object.Build",
+            "build_name": "450",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "451": {
+            "py/object": "data_object.Build",
+            "build_name": "451",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "452": {
+            "py/object": "data_object.Build",
+            "build_name": "452",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "453": {
+            "py/object": "data_object.Build",
+            "build_name": "453",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "454": {
+            "py/object": "data_object.Build",
+            "build_name": "454",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "455": {
+            "py/object": "data_object.Build",
+            "build_name": "455",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "456": {
+            "py/object": "data_object.Build",
+            "build_name": "456",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "457": {
+            "py/object": "data_object.Build",
+            "build_name": "457",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "458": {
+            "py/object": "data_object.Build",
+            "build_name": "458",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "459": {
+            "py/object": "data_object.Build",
+            "build_name": "459",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "460": {
+            "py/object": "data_object.Build",
+            "build_name": "460",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "461": {
+            "py/object": "data_object.Build",
+            "build_name": "461",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "462": {
+            "py/object": "data_object.Build",
+            "build_name": "462",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "463": {
+            "py/object": "data_object.Build",
+            "build_name": "463",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "464": {
+            "py/object": "data_object.Build",
+            "build_name": "464",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "465": {
+            "py/object": "data_object.Build",
+            "build_name": "465",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "466": {
+            "py/object": "data_object.Build",
+            "build_name": "466",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "467": {
+            "py/object": "data_object.Build",
+            "build_name": "467",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "468": {
+            "py/object": "data_object.Build",
+            "build_name": "468",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "469": {
+            "py/object": "data_object.Build",
+            "build_name": "469",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "470": {
+            "py/object": "data_object.Build",
+            "build_name": "470",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "471": {
+            "py/object": "data_object.Build",
+            "build_name": "471",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "472": {
+            "py/object": "data_object.Build",
+            "build_name": "472",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "473": {
+            "py/object": "data_object.Build",
+            "build_name": "473",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "474": {
+            "py/object": "data_object.Build",
+            "build_name": "474",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "475": {
+            "py/object": "data_object.Build",
+            "build_name": "475",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2638,
+                "Flake": 1,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2638,
+                        "Flake": 1,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {
+                            "AlgorithmsTest_FitPeaksTest": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "AlgorithmsTest_FitPeaksTest",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "2.52",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221028.1415\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 10 tests.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nFitPeaks-[Notice] FitPeaks started\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  303: AlgorithmsTest_FitPeaksTest\r\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "2.81",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221028.1415\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 10 tests.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Error] FitPeaks: ParamFunction parameter index 0 out of range 0\r\nFitPeaks-[Error] Error in execution of algorithm FitPeaks\r\nFitPeaks-[Error] FitPeaks: error (see log)\r\n\r\nIn FitPeaksTest::test_singlePeaksPartialSpectra:\r\nC:/Jenkins/workspace/pull_requests-conda-windows/Framework/Algorithms/test/FitPeaksTest.h:102: Error: Assertion failed: fitpeaks.isExecuted()\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.01 seconds\r\n.FitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.00 seconds\r\n.LoadNexus-[Notice] LoadNexus started\r\nLoadNexus-[Notice] LoadNexus successful, Duration 0.17 seconds\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.00 seconds\r\n.LoadNexus-[Notice] LoadNexus started\r\nLoadNexus-[Notice] LoadNexus successful, Duration 0.04 seconds\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.18 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\VULCAN906497e397b1c3924994f136dd575a353d9d050d.vtp\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.40 seconds\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.04 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.34 seconds\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.11 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.33 seconds\r\nLoadParameterFile-[Notice] LoadParameterFile started\r\nLoadParameterFile-[Notice] LoadParameterFile successful, Duration 0.07 seconds\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] Neither parameter value table nor initial parameter name/value vectors is specified. Fitting might not be reliable for peak profile other than Gaussian\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.16 seconds\r\n.FitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] Output error table workspace\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.00 seconds\r\n.\r\nFailed 1 of 10 tests\r\nSuccess rate: 90%\r\n\r\n          Start  303: AlgorithmsTest_FitPeaksTest\r\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Passed",
+                                        "test_time": "2.87",
+                                        "stack_trace": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "476": {
+            "py/object": "data_object.Build",
+            "build_name": "476",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2639,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2639,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        }
+    }
+}

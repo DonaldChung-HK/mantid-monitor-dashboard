@@ -1,4 +1,26 @@
 {
     "py/object": "datatable_helper.LTS_Problem_test",
-    "data": {}
+    "data": {
+        "TypesTest_DateAndTimeTest": {
+            "py/object": "datatable_helper.LTS_Problem_test_entry",
+            "test_name": "TypesTest_DateAndTimeTest",
+            "latest_failed_build": "442",
+            "agent_name": "Mac",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-osx",
+            "past_failed_outcome": {
+                "442": "Failed"
+            },
+            "last_stack_traces": {
+                "py/object": "datatable_helper.Problem_test_trial",
+                "test_name": "TypesTest_DateAndTimeTest",
+                "build": "442",
+                "agent_name": "Mac",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "0.04",
+                "stacktrace": "Running 24 tests...............\nIn DateAndTimeTest::test_time_t_support:\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/Types/test/DateAndTimeTest.h:284: Error: Expected (current == t.to_time_t()), found (1667089690 != 1667093290)\n........\nFailed 1 of 24 tests\nSuccess rate: 95%\n\n          Start 2631: python.IsisPowder.ISISPowderCommonTest.ISISPowderCommonTest\n"
+            }
+        }
+    }
 }

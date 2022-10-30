@@ -25,6 +25,14 @@
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_433": "Flake"
             }
+        },
+        "TypesTest_DateAndTimeTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "TypesTest_DateAndTimeTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_479": "Failed"
+            }
         }
     }
 }

@@ -13,6 +13,13 @@
             "past_failed_outcome": {
                 "build_packages_from_branch_101": "Flake"
             }
+        },
+        "TypesTest_DateAndTimeTest": {
+            "test_name": "TypesTest_DateAndTimeTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_442": "Failed"
+            }
         }
     }
 }

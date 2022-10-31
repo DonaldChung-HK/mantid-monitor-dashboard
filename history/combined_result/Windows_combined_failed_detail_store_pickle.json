@@ -33,6 +33,14 @@
             "past_failed_outcome": {
                 "pull_requests-conda-windows_479": "Failed"
             }
+        },
+        "python.MuonQt5.tf_asymmetry_fitting_view_test.tf_asymmetry_fitting_view_test": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.MuonQt5.tf_asymmetry_fitting_view_test.tf_asymmetry_fitting_view_test",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_488": "Flake"
+            }
         }
     }
 }

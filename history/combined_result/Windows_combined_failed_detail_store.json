@@ -5,7 +5,10 @@
             "agent_name": "Windows",
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_430": "Flake",
-                "pull_requests-conda-windows_475": "Flake"
+                "pull_requests-conda-windows_475": "Flake",
+                "pull_requests-conda-windows_491": "Flake",
+                "pull_requests-conda-windows_493": "Flake",
+                "pull_requests-conda-windows_504": "Flake"
             }
         },
         "python.algorithms.AbinsAdvancedParametersTest.AbinsAdvancedParametersTest": {
@@ -33,7 +36,15 @@
             "test_name": "python.MuonQt5.tf_asymmetry_fitting_view_test.tf_asymmetry_fitting_view_test",
             "agent_name": "Windows",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_488": "Flake"
+                "pull_requests-conda-windows_488": "Flake",
+                "pull_requests-conda-windows_492": "Flake"
+            }
+        },
+        "mantidqt_qt5.test_sliceviewer_imageinfowidget.test_sliceviewer_imageinfowidget": {
+            "test_name": "mantidqt_qt5.test_sliceviewer_imageinfowidget.test_sliceviewer_imageinfowidget",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_494": "Failed"
             }
         }
     }

@@ -5,7 +5,8 @@
             "agent_name": "Linux",
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_430": "Flake",
-                "main_nightly_deployment_prototype_435": "Flake"
+                "main_nightly_deployment_prototype_435": "Flake",
+                "pull_requests-conda-linux_1761": "Flake"
             }
         },
         "python.MuonQt5.tf_asymmetry_fitting_view_test.tf_asymmetry_fitting_view_test": {
@@ -13,6 +14,13 @@
             "agent_name": "Linux",
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_434": "Flake"
+            }
+        },
+        "mantidqt_qt5.test_sliceviewer_imageinfowidget.test_sliceviewer_imageinfowidget": {
+            "test_name": "mantidqt_qt5.test_sliceviewer_imageinfowidget.test_sliceviewer_imageinfowidget",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1760": "Failed"
             }
         }
     }

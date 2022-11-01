@@ -20,6 +20,20 @@
             "past_failed_outcome": {
                 "pull_requests-conda-osx_442": "Failed"
             }
+        },
+        "mantidqt_qt5.test_sliceviewer_imageinfowidget.test_sliceviewer_imageinfowidget": {
+            "test_name": "mantidqt_qt5.test_sliceviewer_imageinfowidget.test_sliceviewer_imageinfowidget",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_456": "Failed"
+            }
+        },
+        "python.algorithms.CleanFileCacheTest.CleanFileCacheTest": {
+            "test_name": "python.algorithms.CleanFileCacheTest.CleanFileCacheTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "main_nightly_deployment_prototype_437": "Failed"
+            }
         }
     }
 }

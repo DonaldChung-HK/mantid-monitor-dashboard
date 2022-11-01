@@ -1174,6 +1174,258 @@
         },
         "489": {
             "build_name": "489",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2640,
+                "Passed": 2640,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2640,
+                        "Passed": 2640,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "490": {
+            "build_name": "490",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2639,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2639,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "491": {
+            "build_name": "491",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2640,
+                "Passed": 2639,
+                "Flake": 1,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2640,
+                        "Passed": 2639,
+                        "Flake": 1,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {
+                            "AlgorithmsTest_FitPeaksTest": {
+                                "test_name": "AlgorithmsTest_FitPeaksTest",
+                                "trials": [
+                                    {
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "2.71",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221031.1531\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 10 tests.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Error] FitPeaks: ParamFunction parameter index 0 out of range 0\r\nFitPeaks-[Error] Error in execution of algorithm FitPeaks\r\nFitPeaks-[Error] FitPeaks: error (see log)\r\n\r\nIn FitPeaksTest::test_singlePeaksPartialSpectra:\r\nC:/Jenkins/workspace/pull_requests-conda-windows/Framework/Algorithms/test/FitPeaksTest.h:102: Error: Assertion failed: fitpeaks.isExecuted()\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.00 seconds\r\n.FitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.00 seconds\r\n.LoadNexus-[Notice] LoadNexus started\r\nLoadNexus-[Notice] LoadNexus successful, Duration 0.17 seconds\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.00 seconds\r\n.LoadNexus-[Notice] LoadNexus started\r\nLoadNexus-[Notice] LoadNexus successful, Duration 0.04 seconds\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.24 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\VULCAN906497e397b1c3924994f136dd575a353d9d050d.vtp\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.36 seconds\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.03 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.29 seconds\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.11 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.30 seconds\r\nLoadParameterFile-[Notice] LoadParameterFile started\r\nLoadParameterFile-[Notice] LoadParameterFile successful, Duration 0.06 seconds\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] Neither parameter value table nor initial parameter name/value vectors is specified. Fitting might not be reliable for peak profile other than Gaussian\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.16 seconds\r\n.FitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] Output error table workspace\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.00 seconds\r\n.\r\nFailed 1 of 10 tests\r\nSuccess rate: 90%\r\n\r\n          Start  303: AlgorithmsTest_FitPeaksTest\r\n"
+                                    },
+                                    {
+                                        "trial_num": 2,
+                                        "outcome": "Passed",
+                                        "test_time": "2.69",
+                                        "stack_trace": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "492": {
+            "build_name": "492",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2638,
+                "Flake": 1,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2638,
+                        "Flake": 1,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {
+                            "python.MuonQt5.tf_asymmetry_fitting_view_test.tf_asymmetry_fitting_view_test": {
+                                "test_name": "python.MuonQt5.tf_asymmetry_fitting_view_test.tf_asymmetry_fitting_view_test",
+                                "trials": [
+                                    {
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "16.32",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221031.1227\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\n.EEEEE\r\n======================================================================\r\nERROR: test_that_is_normalisation_fixed_can_be_set_to_true (tf_asymmetry_fitting_view_test.TFAsymmetryFittingViewTest)\r\n----------------------------------------------------------------------\r\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\r\n\r\nThe above exception was the direct cause of the following exception:\r\n\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/tf_asymmetry_fitting/tf_asymmetry_fitting_view_test.py&quot;, line 18, in setUp\r\n    self.view = TFAsymmetryFittingView()\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\tf_asymmetry_fitting\\tf_asymmetry_fitting_view.py&quot;, line 24, in __init__\r\n    super(TFAsymmetryFittingView, self).__init__(parent)\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\general_fitting\\general_fitting_view.py&quot;, line 25, in __init__\r\n    super(GeneralFittingView, self).__init__(parent)\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\basic_fitting\\basic_fitting_view.py&quot;, line 33, in __init__\r\n    self.fit_function_options = FitFunctionOptionsView(self)\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\basic_fitting\\fit_function_options_view.py&quot;, line 48, in __init__\r\n    self.setupUi(self)\r\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\r\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\r\n\r\n======================================================================\r\nERROR: test_that_tf_asymmetry_mode_can_be_turned_off_and_the_relevant_widgets_hidden (tf_asymmetry_fitting_view_test.TFAsymmetryFittingViewTest)\r\n----------------------------------------------------------------------\r\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\r\n\r\nThe above exception was the direct cause of the following exception:\r\n\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/tf_asymmetry_fitting/tf_asymmetry_fitting_view_test.py&quot;, line 18, in setUp\r\n    self.view = TFAsymmetryFittingView()\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\tf_asymmetry_fitting\\tf_asymmetry_fitting_view.py&quot;, line 24, in __init__\r\n    super(TFAsymmetryFittingView, self).__init__(parent)\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\general_fitting\\general_fitting_view.py&quot;, line 25, in __init__\r\n    super(GeneralFittingView, self).__init__(parent)\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\basic_fitting\\basic_fitting_view.py&quot;, line 33, in __init__\r\n    self.fit_function_options = FitFunctionOptionsView(self)\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\basic_fitting\\fit_function_options_view.py&quot;, line 48, in __init__\r\n    self.setupUi(self)\r\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\r\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\r\n\r\n======================================================================\r\nERROR: test_that_tf_asymmetry_mode_can_be_turned_on_and_the_relevant_widgets_shown (tf_asymmetry_fitting_view_test.TFAsymmetryFittingViewTest)\r\n----------------------------------------------------------------------\r\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\r\n\r\nThe above exception was the direct cause of the following exception:\r\n\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/tf_asymmetry_fitting/tf_asymmetry_fitting_view_test.py&quot;, line 18, in setUp\r\n    self.view = TFAsymmetryFittingView()\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\tf_asymmetry_fitting\\tf_asymmetry_fitting_view.py&quot;, line 24, in __init__\r\n    super(TFAsymmetryFittingView, self).__init__(parent)\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\general_fitting\\general_fitting_view.py&quot;, line 25, in __init__\r\n    super(GeneralFittingView, self).__init__(parent)\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\basic_fitting\\basic_fitting_view.py&quot;, line 33, in __init__\r\n    self.fit_function_options = FitFunctionOptionsView(self)\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\basic_fitting\\fit_function_options_view.py&quot;, line 48, in __init__\r\n    self.setupUi(self)\r\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\r\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\r\n\r\n======================================================================\r\nERROR: test_that_the_normalisation_can_be_set_as_expected (tf_asymmetry_fitting_view_test.TFAsymmetryFittingViewTest)\r\n----------------------------------------------------------------------\r\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\r\n\r\nThe above exception was the direct cause of the following exception:\r\n\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/tf_asymmetry_fitting/tf_asymmetry_fitting_view_test.py&quot;, line 18, in setUp\r\n    self.view = TFAsymmetryFittingView()\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\tf_asymmetry_fitting\\tf_asymmetry_fitting_view.py&quot;, line 24, in __init__\r\n    super(TFAsymmetryFittingView, self).__init__(parent)\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\general_fitting\\general_fitting_view.py&quot;, line 25, in __init__\r\n    super(GeneralFittingView, self).__init__(parent)\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\basic_fitting\\basic_fitting_view.py&quot;, line 33, in __init__\r\n    self.fit_function_options = FitFunctionOptionsView(self)\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\basic_fitting\\fit_function_options_view.py&quot;, line 48, in __init__\r\n    self.setupUi(self)\r\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\r\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\r\n\r\n======================================================================\r\nERROR: test_that_the_view_has_been_initialized_with_the_tf_asymmetry_mode_turned_off_and_the_relevant_widgets_hidden (tf_asymmetry_fitting_view_test.TFAsymmetryFittingViewTest)\r\n----------------------------------------------------------------------\r\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\r\n\r\nThe above exception was the direct cause of the following exception:\r\n\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/tf_asymmetry_fitting/tf_asymmetry_fitting_view_test.py&quot;, line 18, in setUp\r\n    self.view = TFAsymmetryFittingView()\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\tf_asymmetry_fitting\\tf_asymmetry_fitting_view.py&quot;, line 24, in __init__\r\n    super(TFAsymmetryFittingView, self).__init__(parent)\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\general_fitting\\general_fitting_view.py&quot;, line 25, in __init__\r\n    super(GeneralFittingView, self).__init__(parent)\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\basic_fitting\\basic_fitting_view.py&quot;, line 33, in __init__\r\n    self.fit_function_options = FitFunctionOptionsView(self)\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqtinterfaces\\mantidqtinterfaces\\Muon\\GUI\\Common\\fitting_widgets\\basic_fitting\\fit_function_options_view.py&quot;, line 48, in __init__\r\n    self.setupUi(self)\r\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\r\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\r\n\r\n----------------------------------------------------------------------\r\nRan 6 tests in 1.812s\r\n\r\nFAILED (errors=5)\r\n\r\n          Start 2193: python.MuonQt5.tf_asymmetry_fitting_view_test.tf_asymmetry_fitting_view_test\r\n"
+                                    },
+                                    {
+                                        "trial_num": 2,
+                                        "outcome": "Passed",
+                                        "test_time": "14.94",
+                                        "stack_trace": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "493": {
+            "build_name": "493",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2640,
+                "Passed": 2639,
+                "Flake": 1,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2640,
+                        "Passed": 2639,
+                        "Flake": 1,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {
+                            "AlgorithmsTest_FitPeaksTest": {
+                                "test_name": "AlgorithmsTest_FitPeaksTest",
+                                "trials": [
+                                    {
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "2.71",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221031.1531\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 10 tests.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Error] FitPeaks: ParamFunction parameter index 0 out of range 0\r\nFitPeaks-[Error] Error in execution of algorithm FitPeaks\r\nFitPeaks-[Error] FitPeaks: error (see log)\r\n\r\nIn FitPeaksTest::test_singlePeaksPartialSpectra:\r\nC:/Jenkins/workspace/pull_requests-conda-windows/Framework/Algorithms/test/FitPeaksTest.h:102: Error: Assertion failed: fitpeaks.isExecuted()\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.00 seconds\r\n.FitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.00 seconds\r\n.LoadNexus-[Notice] LoadNexus started\r\nLoadNexus-[Notice] LoadNexus successful, Duration 0.17 seconds\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.00 seconds\r\n.LoadNexus-[Notice] LoadNexus started\r\nLoadNexus-[Notice] LoadNexus successful, Duration 0.04 seconds\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.24 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\VULCAN906497e397b1c3924994f136dd575a353d9d050d.vtp\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.36 seconds\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.03 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.29 seconds\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.11 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.30 seconds\r\nLoadParameterFile-[Notice] LoadParameterFile started\r\nLoadParameterFile-[Notice] LoadParameterFile successful, Duration 0.06 seconds\r\nFitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] Neither parameter value table nor initial parameter name/value vectors is specified. Fitting might not be reliable for peak profile other than Gaussian\r\nFitPeaks-[Warning] No error table output\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.16 seconds\r\n.FitPeaks-[Notice] FitPeaks started\r\nFitPeaks-[Notice] Peak centers are not specified by peak center workspace\r\nFitPeaks-[Warning] Output error table workspace\r\nFitPeaks-[Notice] FitPeaks successful, Duration 0.00 seconds\r\n.\r\nFailed 1 of 10 tests\r\nSuccess rate: 90%\r\n\r\n          Start  303: AlgorithmsTest_FitPeaksTest\r\n"
+                                    },
+                                    {
+                                        "trial_num": 2,
+                                        "outcome": "Passed",
+                                        "test_time": "2.69",
+                                        "stack_trace": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "494": {
+            "build_name": "494",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2638,
+                "Flake": 0,
+                "Failed": 1,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2638,
+                        "Flake": 0,
+                        "Failed": 1,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {
+                            "mantidqt_qt5.test_sliceviewer_imageinfowidget.test_sliceviewer_imageinfowidget": {
+                                "test_name": "mantidqt_qt5.test_sliceviewer_imageinfowidget.test_sliceviewer_imageinfowidget",
+                                "trials": [
+                                    {
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "7.65",
+                                        "stack_trace": "EEEEE\r\n======================================================================\r\nERROR: test_cursorAt_arguments_correct_when_not_mesh_and_not_transposed (test_sliceviewer_imageinfowidget.ImageInfoTrackerTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\unittest\\mock.py&quot;, line 1325, in patched\r\n    return func(*newargs, **newkeywargs)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_imageinfowidget.py&quot;, line 68, in test_cursorAt_arguments_correct_when_not_mesh_and_not_transposed\r\n    tracker = ImageInfoTracker(image=self.image,\r\nTypeError: __init__() missing 1 required positional argument: &#x27;presenter&#x27;\r\n\r\n======================================================================\r\nERROR: test_cursorAt_arguments_correct_when_not_mesh_and_transposed (test_sliceviewer_imageinfowidget.ImageInfoTrackerTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\unittest\\mock.py&quot;, line 1325, in patched\r\n    return func(*newargs, **newkeywargs)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_imageinfowidget.py&quot;, line 84, in test_cursorAt_arguments_correct_when_not_mesh_and_transposed\r\n    tracker = ImageInfoTracker(image=self.image,\r\nTypeError: __init__() missing 1 required positional argument: &#x27;presenter&#x27;\r\n\r\n======================================================================\r\nERROR: test_nonortho_transform_applied_when_mesh_and_transfrom_true (test_sliceviewer_imageinfowidget.ImageInfoTrackerTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_imageinfowidget.py&quot;, line 38, in test_nonortho_transform_applied_when_mesh_and_transfrom_true\r\n    tracker = ImageInfoTracker(image=self.image,\r\nTypeError: __init__() missing 1 required positional argument: &#x27;presenter&#x27;\r\n\r\n======================================================================\r\nERROR: test_nonortho_transform_not_applied_when_mesh_and_transfrom_false (test_sliceviewer_imageinfowidget.ImageInfoTrackerTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_imageinfowidget.py&quot;, line 27, in test_nonortho_transform_not_applied_when_mesh_and_transfrom_false\r\n    tracker = ImageInfoTracker(image=self.image,\r\nTypeError: __init__() missing 1 required positional argument: &#x27;presenter&#x27;\r\n\r\n======================================================================\r\nERROR: test_nonortho_transform_not_applied_when_not_mesh (test_sliceviewer_imageinfowidget.ImageInfoTrackerTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\unittest\\mock.py&quot;, line 1325, in patched\r\n    return func(*newargs, **newkeywargs)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_imageinfowidget.py&quot;, line 51, in test_nonortho_transform_not_applied_when_not_mesh\r\n    tracker = ImageInfoTracker(image=self.image,\r\nTypeError: __init__() missing 1 required positional argument: &#x27;presenter&#x27;\r\n\r\n----------------------------------------------------------------------\r\nRan 5 tests in 0.030s\r\n\r\nFAILED (errors=5)\r\n\r\n          Start 2064: mantidqt_qt5.test_sliceviewer_imageinfowidget.test_sliceviewer_imageinfowidget\r\n"
+                                    },
+                                    {
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "4.82",
+                                        "stack_trace": "EEEEE\r\n======================================================================\r\nERROR: test_cursorAt_arguments_correct_when_not_mesh_and_not_transposed (test_sliceviewer_imageinfowidget.ImageInfoTrackerTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\unittest\\mock.py&quot;, line 1325, in patched\r\n    return func(*newargs, **newkeywargs)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_imageinfowidget.py&quot;, line 68, in test_cursorAt_arguments_correct_when_not_mesh_and_not_transposed\r\n    tracker = ImageInfoTracker(image=self.image,\r\nTypeError: __init__() missing 1 required positional argument: &#x27;presenter&#x27;\r\n\r\n======================================================================\r\nERROR: test_cursorAt_arguments_correct_when_not_mesh_and_transposed (test_sliceviewer_imageinfowidget.ImageInfoTrackerTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\unittest\\mock.py&quot;, line 1325, in patched\r\n    return func(*newargs, **newkeywargs)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_imageinfowidget.py&quot;, line 84, in test_cursorAt_arguments_correct_when_not_mesh_and_transposed\r\n    tracker = ImageInfoTracker(image=self.image,\r\nTypeError: __init__() missing 1 required positional argument: &#x27;presenter&#x27;\r\n\r\n======================================================================\r\nERROR: test_nonortho_transform_applied_when_mesh_and_transfrom_true (test_sliceviewer_imageinfowidget.ImageInfoTrackerTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_imageinfowidget.py&quot;, line 38, in test_nonortho_transform_applied_when_mesh_and_transfrom_true\r\n    tracker = ImageInfoTracker(image=self.image,\r\nTypeError: __init__() missing 1 required positional argument: &#x27;presenter&#x27;\r\n\r\n======================================================================\r\nERROR: test_nonortho_transform_not_applied_when_mesh_and_transfrom_false (test_sliceviewer_imageinfowidget.ImageInfoTrackerTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_imageinfowidget.py&quot;, line 27, in test_nonortho_transform_not_applied_when_mesh_and_transfrom_false\r\n    tracker = ImageInfoTracker(image=self.image,\r\nTypeError: __init__() missing 1 required positional argument: &#x27;presenter&#x27;\r\n\r\n======================================================================\r\nERROR: test_nonortho_transform_not_applied_when_not_mesh (test_sliceviewer_imageinfowidget.ImageInfoTrackerTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\unittest\\mock.py&quot;, line 1325, in patched\r\n    return func(*newargs, **newkeywargs)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_imageinfowidget.py&quot;, line 51, in test_nonortho_transform_not_applied_when_not_mesh\r\n    tracker = ImageInfoTracker(image=self.image,\r\nTypeError: __init__() missing 1 required positional argument: &#x27;presenter&#x27;\r\n\r\n----------------------------------------------------------------------\r\nRan 5 tests in 0.027s\r\n\r\nFAILED (errors=5)\r\n\r\n          Start 2064: mantidqt_qt5.test_sliceviewer_imageinfowidget.test_sliceviewer_imageinfowidget\r\n"
+                                    },
+                                    {
+                                        "trial_num": 3,
+                                        "outcome": "Failed",
+                                        "test_time": "4.63",
+                                        "stack_trace": "EEEEE\r\n======================================================================\r\nERROR: test_cursorAt_arguments_correct_when_not_mesh_and_not_transposed (test_sliceviewer_imageinfowidget.ImageInfoTrackerTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\unittest\\mock.py&quot;, line 1325, in patched\r\n    return func(*newargs, **newkeywargs)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_imageinfowidget.py&quot;, line 68, in test_cursorAt_arguments_correct_when_not_mesh_and_not_transposed\r\n    tracker = ImageInfoTracker(image=self.image,\r\nTypeError: __init__() missing 1 required positional argument: &#x27;presenter&#x27;\r\n\r\n======================================================================\r\nERROR: test_cursorAt_arguments_correct_when_not_mesh_and_transposed (test_sliceviewer_imageinfowidget.ImageInfoTrackerTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\unittest\\mock.py&quot;, line 1325, in patched\r\n    return func(*newargs, **newkeywargs)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_imageinfowidget.py&quot;, line 84, in test_cursorAt_arguments_correct_when_not_mesh_and_transposed\r\n    tracker = ImageInfoTracker(image=self.image,\r\nTypeError: __init__() missing 1 required positional argument: &#x27;presenter&#x27;\r\n\r\n======================================================================\r\nERROR: test_nonortho_transform_applied_when_mesh_and_transfrom_true (test_sliceviewer_imageinfowidget.ImageInfoTrackerTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_imageinfowidget.py&quot;, line 38, in test_nonortho_transform_applied_when_mesh_and_transfrom_true\r\n    tracker = ImageInfoTracker(image=self.image,\r\nTypeError: __init__() missing 1 required positional argument: &#x27;presenter&#x27;\r\n\r\n======================================================================\r\nERROR: test_nonortho_transform_not_applied_when_mesh_and_transfrom_false (test_sliceviewer_imageinfowidget.ImageInfoTrackerTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_imageinfowidget.py&quot;, line 27, in test_nonortho_transform_not_applied_when_mesh_and_transfrom_false\r\n    tracker = ImageInfoTracker(image=self.image,\r\nTypeError: __init__() missing 1 required positional argument: &#x27;presenter&#x27;\r\n\r\n======================================================================\r\nERROR: test_nonortho_transform_not_applied_when_not_mesh (test_sliceviewer_imageinfowidget.ImageInfoTrackerTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\unittest\\mock.py&quot;, line 1325, in patched\r\n    return func(*newargs, **newkeywargs)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_imageinfowidget.py&quot;, line 51, in test_nonortho_transform_not_applied_when_not_mesh\r\n    tracker = ImageInfoTracker(image=self.image,\r\nTypeError: __init__() missing 1 required positional argument: &#x27;presenter&#x27;\r\n\r\n----------------------------------------------------------------------\r\nRan 5 tests in 0.027s\r\n\r\nFAILED (errors=5)\r\n\r\n          Start 1388: python.geometry.CrystalStructureTest.CrystalStructureTest\r\n"
+                                    }
+                                ]
+                            }
+                        },
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "495": {
+            "build_name": "495",
             "is_completed": false,
             "aggregate": {
                 "Tested": null,
@@ -1194,6 +1446,314 @@
                         "Timeout": null
                     },
                     "outcome_groups": {}
+                }
+            }
+        },
+        "496": {
+            "build_name": "496",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2639,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2639,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "497": {
+            "build_name": "497",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2639,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2639,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "498": {
+            "build_name": "498",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2639,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2639,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "499": {
+            "build_name": "499",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2639,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2639,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "500": {
+            "build_name": "500",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2639,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2639,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "501": {
+            "build_name": "501",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2639,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2639,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "502": {
+            "build_name": "502",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2639,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2639,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "503": {
+            "build_name": "503",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2639,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2639,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "504": {
+            "build_name": "504",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2638,
+                "Flake": 1,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2638,
+                        "Flake": 1,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {
+                            "AlgorithmsTest_FitPeaksTest": {
+                                "test_name": "AlgorithmsTest_FitPeaksTest",
+                                "trials": [
+                                    {
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "1.40",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221101.1201\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 10 tests.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nFitPeaks-[Notice] FitPeaks started\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  303: AlgorithmsTest_FitPeaksTest\r\n"
+                                    },
+                                    {
+                                        "trial_num": 2,
+                                        "outcome": "Passed",
+                                        "test_time": "2.84",
+                                        "stack_trace": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "505": {
+            "build_name": "505",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2639,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2639,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
                 }
             }
         }

@@ -8,7 +8,9 @@
                 "pull_requests-conda-windows_475": "Flake",
                 "pull_requests-conda-windows_491": "Flake",
                 "pull_requests-conda-windows_493": "Flake",
-                "pull_requests-conda-windows_504": "Flake"
+                "pull_requests-conda-windows_504": "Flake",
+                "pull_requests-conda-windows_510": "Flake",
+                "main_nightly_deployment_prototype_438": "Failed"
             }
         },
         "python.algorithms.AbinsAdvancedParametersTest.AbinsAdvancedParametersTest": {
@@ -45,6 +47,21 @@
             "agent_name": "Windows",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_494": "Failed"
+            }
+        },
+        "python.simplescanviewer.RectanglePlotTest.RectanglePlotTest": {
+            "test_name": "python.simplescanviewer.RectanglePlotTest.RectanglePlotTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_512": "Failed",
+                "pull_requests-conda-windows_513": "Failed"
+            }
+        },
+        "mantidqt_qt5.test_sample_shape.test_sample_shape": {
+            "test_name": "mantidqt_qt5.test_sample_shape.test_sample_shape",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_511": "Failed"
             }
         }
     }

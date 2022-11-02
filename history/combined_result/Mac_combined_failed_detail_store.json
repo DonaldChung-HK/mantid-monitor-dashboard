@@ -11,7 +11,8 @@
             "test_name": "AlgorithmsTest_FitPeaksTest",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "build_packages_from_branch_101": "Flake"
+                "build_packages_from_branch_101": "Flake",
+                "pull_requests-conda-osx_477": "Flake"
             }
         },
         "TypesTest_DateAndTimeTest": {
@@ -32,7 +33,23 @@
             "test_name": "python.algorithms.CleanFileCacheTest.CleanFileCacheTest",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "main_nightly_deployment_prototype_437": "Failed"
+                "main_nightly_deployment_prototype_437": "Failed",
+                "main_nightly_deployment_prototype_438": "Failed"
+            }
+        },
+        "python.simplescanviewer.RectanglePlotTest.RectanglePlotTest": {
+            "test_name": "python.simplescanviewer.RectanglePlotTest.RectanglePlotTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_473": "Failed",
+                "pull_requests-conda-osx_474": "Failed"
+            }
+        },
+        "mantidqt_qt5.test_sample_shape.test_sample_shape": {
+            "test_name": "mantidqt_qt5.test_sample_shape.test_sample_shape",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_472": "Failed"
             }
         }
     }

@@ -6,9 +6,11 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Flake",
             "pipeline_name": "main_nightly_deployment_prototype",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "440",
+                    "439",
                     "438",
                     "437",
                     "436",
@@ -16,20 +18,18 @@
                     "434",
                     "433",
                     "432",
-                    "431",
-                    "430",
-                    "429"
+                    "431"
                 ],
                 "past_outcome_list": [
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Flake",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Flake",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed"
                 ]
             },
@@ -52,6 +52,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "440",
+                    "439",
                     "438",
                     "437",
                     "436",
@@ -59,18 +61,16 @@
                     "434",
                     "433",
                     "432",
-                    "431",
-                    "430",
-                    "429"
+                    "431"
                 ],
                 "past_outcome_list": [
                     "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
+                    "Passed",
+                    "Passed",
                     "Flake",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"

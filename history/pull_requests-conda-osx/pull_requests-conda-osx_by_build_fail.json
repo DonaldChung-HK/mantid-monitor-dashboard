@@ -1964,6 +1964,402 @@
                     }
                 }
             }
+        },
+        "478": {
+            "build_name": "478",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2640,
+                "Passed": 2640,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2640,
+                        "Passed": 2640,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "479": {
+            "build_name": "479",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2639,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2639,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "480": {
+            "build_name": "480",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2638,
+                "Flake": 0,
+                "Failed": 1,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2638,
+                        "Flake": 0,
+                        "Failed": 1,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {
+                            "python.algorithms.IntegratePeaksSkewTest.IntegratePeaksSkewTest": {
+                                "test_name": "python.algorithms.IntegratePeaksSkewTest.IntegratePeaksSkewTest",
+                                "trials": [
+                                    {
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "35.80",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221102.1717\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace started\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 14.54 seconds\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace started\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\n..IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\nPrecision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.\nPrecision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Error] Error in execution of algorithm IntegratePeaksSkew:\nIntegratePeaksSkew-[Error] local variable &#x27;dTOF&#x27; referenced before assignment\nIntegratePeaksSkew-[Error]   at line 793 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/IntegratePeaksSkew.py&#x27;\nEIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nPython-[Notice] Estimated resolution parameters:\nBackscatteringTOFResolution = 0.9999999999999979\nThetaWidth = 1.4864226597308577e-07\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nPython-[Warning] Resolution parameters could not be estimated - the provided TOF window parameters arelikely to be suboptimal (probably the resulting window is too large). Please inspect the results (if an OutputFile has been specified the optimal TOF windows found will be plotted on the last page.\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nPython-[Notice] Estimated resolution parameters:\nBackscatteringTOFResolution = 0.9999999999999979\nThetaWidth = 1.4864226597308577e-07\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\n...IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\n.CloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 3.09 seconds\nStarting from Matplotlib 3.6, colorbar() will steal space from the mappable&#x27;s axes, rather than from the current axes, to place the colorbar.  To silence this warning, explicitly pass the &#x27;ax&#x27; argument to colorbar().\n.\n======================================================================\nERROR: test_integrate_use_nearest_peak_false_update_peak_position_false_with_back_to_back_params (IntegratePeaksSkewTest.IntegratePeaksSkewTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 1058, in __call__\n    algm.execute()\nRuntimeError: local variable &#x27;dTOF&#x27; referenced before assignment\n  at line 793 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/IntegratePeaksSkew.py&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/test/python/plugins/algorithms/IntegratePeaksSkewTest.py&quot;, line 95, in test_integrate_use_nearest_peak_false_update_peak_position_false_with_back_to_back_params\n    out = IntegratePeaksSkew(InputWorkspace=self.ws, PeaksWorkspace=self.peaks,\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 1065, in __call__\n    raise RuntimeError(msg) from e\nRuntimeError: IntegratePeaksSkew-v1: local variable &#x27;dTOF&#x27; referenced before assignment\n  at line 793 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/IntegratePeaksSkew.py&#x27;\n\n----------------------------------------------------------------------\nRan 17 tests in 27.374s\n\nFAILED (errors=1)\n\n          Start 1530: python.algorithms.IntegratePeaksSkewTest.IntegratePeaksSkewTest\n"
+                                    },
+                                    {
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "34.13",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221102.1717\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace started\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 13.58 seconds\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace started\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\n..IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\nPrecision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.\nPrecision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.04 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Error] Error in execution of algorithm IntegratePeaksSkew:\nIntegratePeaksSkew-[Error] local variable &#x27;dTOF&#x27; referenced before assignment\nIntegratePeaksSkew-[Error]   at line 793 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/IntegratePeaksSkew.py&#x27;\nEIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nPython-[Notice] Estimated resolution parameters:\nBackscatteringTOFResolution = 0.9999999999999979\nThetaWidth = 1.4864226597308577e-07\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nPython-[Warning] Resolution parameters could not be estimated - the provided TOF window parameters arelikely to be suboptimal (probably the resulting window is too large). Please inspect the results (if an OutputFile has been specified the optimal TOF windows found will be plotted on the last page.\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nPython-[Notice] Estimated resolution parameters:\nBackscatteringTOFResolution = 0.9999999999999979\nThetaWidth = 1.4864226597308577e-07\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\n...IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\n.CloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 3.20 seconds\nStarting from Matplotlib 3.6, colorbar() will steal space from the mappable&#x27;s axes, rather than from the current axes, to place the colorbar.  To silence this warning, explicitly pass the &#x27;ax&#x27; argument to colorbar().\n.\n======================================================================\nERROR: test_integrate_use_nearest_peak_false_update_peak_position_false_with_back_to_back_params (IntegratePeaksSkewTest.IntegratePeaksSkewTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 1058, in __call__\n    algm.execute()\nRuntimeError: local variable &#x27;dTOF&#x27; referenced before assignment\n  at line 793 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/IntegratePeaksSkew.py&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/test/python/plugins/algorithms/IntegratePeaksSkewTest.py&quot;, line 95, in test_integrate_use_nearest_peak_false_update_peak_position_false_with_back_to_back_params\n    out = IntegratePeaksSkew(InputWorkspace=self.ws, PeaksWorkspace=self.peaks,\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 1065, in __call__\n    raise RuntimeError(msg) from e\nRuntimeError: IntegratePeaksSkew-v1: local variable &#x27;dTOF&#x27; referenced before assignment\n  at line 793 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/IntegratePeaksSkew.py&#x27;\n\n----------------------------------------------------------------------\nRan 17 tests in 26.639s\n\nFAILED (errors=1)\n\n          Start 1530: python.algorithms.IntegratePeaksSkewTest.IntegratePeaksSkewTest\n"
+                                    },
+                                    {
+                                        "trial_num": 3,
+                                        "outcome": "Failed",
+                                        "test_time": "26.23",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221102.1717\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace started\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 12.16 seconds\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace started\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\n..IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.01 seconds\nPrecision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.\nPrecision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Error] Error in execution of algorithm IntegratePeaksSkew:\nIntegratePeaksSkew-[Error] local variable &#x27;dTOF&#x27; referenced before assignment\nIntegratePeaksSkew-[Error]   at line 793 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/IntegratePeaksSkew.py&#x27;\nEIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nPython-[Notice] Estimated resolution parameters:\nBackscatteringTOFResolution = 0.9999999999999979\nThetaWidth = 1.4864226597308577e-07\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nPython-[Warning] Resolution parameters could not be estimated - the provided TOF window parameters arelikely to be suboptimal (probably the resulting window is too large). Please inspect the results (if an OutputFile has been specified the optimal TOF windows found will be plotted on the last page.\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nPython-[Notice] Estimated resolution parameters:\nBackscatteringTOFResolution = 0.9999999999999979\nThetaWidth = 1.4864226597308577e-07\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\n...IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.01 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.01 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.01 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.01 seconds\n.CloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.01 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.01 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 1.67 seconds\nStarting from Matplotlib 3.6, colorbar() will steal space from the mappable&#x27;s axes, rather than from the current axes, to place the colorbar.  To silence this warning, explicitly pass the &#x27;ax&#x27; argument to colorbar().\n.\n======================================================================\nERROR: test_integrate_use_nearest_peak_false_update_peak_position_false_with_back_to_back_params (IntegratePeaksSkewTest.IntegratePeaksSkewTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 1058, in __call__\n    algm.execute()\nRuntimeError: local variable &#x27;dTOF&#x27; referenced before assignment\n  at line 793 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/IntegratePeaksSkew.py&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/test/python/plugins/algorithms/IntegratePeaksSkewTest.py&quot;, line 95, in test_integrate_use_nearest_peak_false_update_peak_position_false_with_back_to_back_params\n    out = IntegratePeaksSkew(InputWorkspace=self.ws, PeaksWorkspace=self.peaks,\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 1065, in __call__\n    raise RuntimeError(msg) from e\nRuntimeError: IntegratePeaksSkew-v1: local variable &#x27;dTOF&#x27; referenced before assignment\n  at line 793 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/IntegratePeaksSkew.py&#x27;\n\n----------------------------------------------------------------------\nRan 17 tests in 19.657s\n\nFAILED (errors=1)\n\n"
+                                    }
+                                ]
+                            }
+                        },
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "481": {
+            "build_name": "481",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2639,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2639,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "482": {
+            "build_name": "482",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2638,
+                "Flake": 0,
+                "Failed": 1,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2638,
+                        "Flake": 0,
+                        "Failed": 1,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {
+                            "python.WorkflowAlgorithms.MolDynTest.MolDynTest": {
+                                "test_name": "python.WorkflowAlgorithms.MolDynTest.MolDynTest",
+                                "trials": [
+                                    {
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "8.54",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221103.733\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nMolDyn-[Notice] MolDyn started\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii started (child)\nPython-[Notice] Loading CDL file\nCreateWorkspace-[Notice] CreateWorkspace started (child)\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\nGroupWorkspaces-[Notice] GroupWorkspaces started (child)\nGroupWorkspaces-[Notice] GroupWorkspaces successful, Duration 0.00 seconds\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii successful, Duration 0.02 seconds\nCropWorkspace-[Notice] CropWorkspace started (child)\nCropWorkspace-[Notice] CropWorkspace successful, Duration 0.00 seconds\nMolDyn-[Notice] MolDyn successful, Duration 0.03 seconds\n.CreateSampleWorkspace-[Notice] CreateSampleWorkspace started\nCreateSampleWorkspace-[Notice] CreateSampleWorkspace successful, Duration 0.00 seconds\nMolDyn-[Notice] MolDyn started\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii started (child)\nPython-[Notice] Loading CDL file\nCreateWorkspace-[Notice] CreateWorkspace started (child)\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\nGroupWorkspaces-[Notice] GroupWorkspaces started (child)\nGroupWorkspaces-[Notice] GroupWorkspaces successful, Duration 0.00 seconds\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii successful, Duration 0.02 seconds\nSymmetrise-[Notice] Symmetrise started (child)\nCropWorkspace-[Notice] CropWorkspace started (child)\nCropWorkspace-[Notice] CropWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nSymmetrise-[Notice] Symmetrise successful, Duration 0.01 seconds\nPython-[Notice] Creating resolution workspace.\nConjoinSpectra-[Notice] ConjoinSpectra started (child)\nExtractSingleSpectrum-[Notice] ExtractSingleSpectrum started (child)\nExtractSingleSpectrum-[Notice] ExtractSingleSpectrum successful, Duration 0.00 seconds\nRenameWorkspace-[Notice] RenameWorkspace started (child)\nRenameWorkspace-[Notice] RenameWorkspace successful, Duration 0.00 seconds\nExtractSingleSpectrum-[Notice] ExtractSingleSpectrum started (child)\nExtractSingleSpectrum-[Notice] ExtractSingleSpectrum successful, Duration 0.00 seconds\nConjoinWorkspaces-[Notice] ConjoinWorkspaces started (child)\nConjoinWorkspaces-[Notice] ConjoinWorkspaces successful, Duration 0.00 seconds\nExtractSingleSpectrum-[Notice] ExtractSingleSpectrum started (child)\nExtractSingleSpectrum-[Notice] ExtractSingleSpectrum successful, Duration 0.00 seconds\nConjoinWorkspaces-[Notice] ConjoinWorkspaces started (child)\nConjoinWorkspaces-[Notice] ConjoinWorkspaces successful, Duration 0.00 seconds\nConjoinSpectra-[Notice] ConjoinSpectra successful, Duration 0.02 seconds\nPython-[Notice] Convoluting sample NaF_DISF_Sqw-total with resolution resolution_ws\nConvolveWorkspaces-[Notice] ConvolveWorkspaces started (child)\nConvolveWorkspaces-[Error] ConvolveWorkspaces: Histogram::setSharedX: size mismatch\nConvolveWorkspaces-[Error] \nConvolveWorkspaces-[Error] Error in execution of algorithm ConvolveWorkspaces:\nConvolveWorkspaces-[Error] ConvolveWorkspaces: error (see log)\nMolDyn-[Error] Error in execution of algorithm MolDyn:\nMolDyn-[Error] ConvolveWorkspaces-v1: ConvolveWorkspaces: error (see log)\nMolDyn-[Error]   at line 119 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/MolDyn.py&#x27;\nMolDyn-[Error]   caused by line 210 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/MolDyn.py&#x27;\nMolDyn-[Error]   caused by line 1065 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&#x27;\nEMolDyn-[Notice] MolDyn started\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii started (child)\nPython-[Notice] Loading CDL file\nCreateWorkspace-[Notice] CreateWorkspace started (child)\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\nGroupWorkspaces-[Notice] GroupWorkspaces started (child)\nGroupWorkspaces-[Notice] GroupWorkspaces successful, Duration 0.00 seconds\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii successful, Duration 0.02 seconds\nSymmetrise-[Notice] Symmetrise started (child)\nCropWorkspace-[Notice] CropWorkspace started (child)\nCropWorkspace-[Notice] CropWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nSymmetrise-[Notice] Symmetrise successful, Duration 0.01 seconds\nMolDyn-[Notice] MolDyn successful, Duration 0.04 seconds\n.MolDyn-[Notice] MolDyn started\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii started (child)\nPython-[Notice] Loading CDL file\nCreateWorkspace-[Notice] CreateWorkspace started (child)\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\nGroupWorkspaces-[Notice] GroupWorkspaces started (child)\nGroupWorkspaces-[Notice] GroupWorkspaces successful, Duration 0.00 seconds\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii successful, Duration 0.02 seconds\nMolDyn-[Notice] MolDyn successful, Duration 0.03 seconds\n.MolDyn-[Notice] MolDyn started\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii started (child)\nPython-[Notice] Loading ASCII data\nLoadInstrument-[Notice] LoadInstrument started (child)\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\nLoadParameterFile-[Notice] LoadParameterFile started (child)\nLoadParameterFile-[Notice] LoadParameterFile successful, Duration 0.00 seconds\nUpdateInstrumentFromFile-[Notice] UpdateInstrumentFromFile started (child)\nUpdateInstrumentFromFile-[Notice] UpdateInstrumentFromFile successful, Duration 0.00 seconds\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii successful, Duration 0.44 seconds\nMolDyn-[Notice] MolDyn successful, Duration 0.45 seconds\n.MolDyn-[Notice] MolDyn started\nLoadNMoldyn4Ascii-[Notice] LoadNMoldyn4Ascii started (child)\nGroupWorkspaces-[Notice] GroupWorkspaces started (child)\nGroupWorkspaces-[Notice] GroupWorkspaces successful, Duration 0.00 seconds\nLoadNMoldyn4Ascii-[Notice] LoadNMoldyn4Ascii successful, Duration 0.05 seconds\nMolDyn-[Notice] MolDyn successful, Duration 0.05 seconds\n&#x27;U&#x27; mode is deprecated\n&#x27;U&#x27; mode is deprecated\n.\n======================================================================\nERROR: test_loadSqwWithRes (MolDynTest.MolDynTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 1058, in __call__\n    algm.execute()\nRuntimeError: ConvolveWorkspaces-v1: ConvolveWorkspaces: error (see log)\n  at line 119 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/MolDyn.py&#x27;\n  caused by line 210 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/MolDyn.py&#x27;\n  caused by line 1065 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/test/python/plugins/algorithms/WorkflowAlgorithms/MolDynTest.py&quot;, line 103, in test_loadSqwWithRes\n    moldyn_group = MolDyn(Data=&#x27;NaF_DISF.cdl&#x27;,\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 1065, in __call__\n    raise RuntimeError(msg) from e\nRuntimeError: MolDyn-v1: ConvolveWorkspaces-v1: ConvolveWorkspaces: error (see log)\n  at line 119 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/MolDyn.py&#x27;\n  caused by line 210 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/MolDyn.py&#x27;\n  caused by line 1065 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&#x27;\n\n----------------------------------------------------------------------\nRan 6 tests in 0.670s\n\nFAILED (errors=1)\n\n          Start 1655: python.WorkflowAlgorithms.MolDynTest.MolDynTest\n"
+                                    },
+                                    {
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "8.76",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221103.733\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nMolDyn-[Notice] MolDyn started\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii started (child)\nPython-[Notice] Loading CDL file\nCreateWorkspace-[Notice] CreateWorkspace started (child)\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\nGroupWorkspaces-[Notice] GroupWorkspaces started (child)\nGroupWorkspaces-[Notice] GroupWorkspaces successful, Duration 0.00 seconds\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii successful, Duration 0.02 seconds\nCropWorkspace-[Notice] CropWorkspace started (child)\nCropWorkspace-[Notice] CropWorkspace successful, Duration 0.00 seconds\nMolDyn-[Notice] MolDyn successful, Duration 0.03 seconds\n.CreateSampleWorkspace-[Notice] CreateSampleWorkspace started\nCreateSampleWorkspace-[Notice] CreateSampleWorkspace successful, Duration 0.00 seconds\nMolDyn-[Notice] MolDyn started\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii started (child)\nPython-[Notice] Loading CDL file\nCreateWorkspace-[Notice] CreateWorkspace started (child)\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\nGroupWorkspaces-[Notice] GroupWorkspaces started (child)\nGroupWorkspaces-[Notice] GroupWorkspaces successful, Duration 0.00 seconds\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii successful, Duration 0.02 seconds\nSymmetrise-[Notice] Symmetrise started (child)\nCropWorkspace-[Notice] CropWorkspace started (child)\nCropWorkspace-[Notice] CropWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nSymmetrise-[Notice] Symmetrise successful, Duration 0.01 seconds\nPython-[Notice] Creating resolution workspace.\nConjoinSpectra-[Notice] ConjoinSpectra started (child)\nExtractSingleSpectrum-[Notice] ExtractSingleSpectrum started (child)\nExtractSingleSpectrum-[Notice] ExtractSingleSpectrum successful, Duration 0.00 seconds\nRenameWorkspace-[Notice] RenameWorkspace started (child)\nRenameWorkspace-[Notice] RenameWorkspace successful, Duration 0.00 seconds\nExtractSingleSpectrum-[Notice] ExtractSingleSpectrum started (child)\nExtractSingleSpectrum-[Notice] ExtractSingleSpectrum successful, Duration 0.00 seconds\nConjoinWorkspaces-[Notice] ConjoinWorkspaces started (child)\nConjoinWorkspaces-[Notice] ConjoinWorkspaces successful, Duration 0.00 seconds\nExtractSingleSpectrum-[Notice] ExtractSingleSpectrum started (child)\nExtractSingleSpectrum-[Notice] ExtractSingleSpectrum successful, Duration 0.00 seconds\nConjoinWorkspaces-[Notice] ConjoinWorkspaces started (child)\nConjoinWorkspaces-[Notice] ConjoinWorkspaces successful, Duration 0.00 seconds\nConjoinSpectra-[Notice] ConjoinSpectra successful, Duration 0.02 seconds\nPython-[Notice] Convoluting sample NaF_DISF_Sqw-total with resolution resolution_ws\nConvolveWorkspaces-[Notice] ConvolveWorkspaces started (child)\nConvolveWorkspaces-[Error] ConvolveWorkspaces: Histogram::setSharedX: size mismatch\nConvolveWorkspaces-[Error] \nConvolveWorkspaces-[Error] Error in execution of algorithm ConvolveWorkspaces:\nConvolveWorkspaces-[Error] ConvolveWorkspaces: error (see log)\nMolDyn-[Error] Error in execution of algorithm MolDyn:\nMolDyn-[Error] ConvolveWorkspaces-v1: ConvolveWorkspaces: error (see log)\nMolDyn-[Error]   at line 119 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/MolDyn.py&#x27;\nMolDyn-[Error]   caused by line 210 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/MolDyn.py&#x27;\nMolDyn-[Error]   caused by line 1065 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&#x27;\nEMolDyn-[Notice] MolDyn started\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii started (child)\nPython-[Notice] Loading CDL file\nCreateWorkspace-[Notice] CreateWorkspace started (child)\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\nGroupWorkspaces-[Notice] GroupWorkspaces started (child)\nGroupWorkspaces-[Notice] GroupWorkspaces successful, Duration 0.00 seconds\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii successful, Duration 0.02 seconds\nSymmetrise-[Notice] Symmetrise started (child)\nCropWorkspace-[Notice] CropWorkspace started (child)\nCropWorkspace-[Notice] CropWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nSymmetrise-[Notice] Symmetrise successful, Duration 0.01 seconds\nMolDyn-[Notice] MolDyn successful, Duration 0.04 seconds\n.MolDyn-[Notice] MolDyn started\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii started (child)\nPython-[Notice] Loading CDL file\nCreateWorkspace-[Notice] CreateWorkspace started (child)\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\nGroupWorkspaces-[Notice] GroupWorkspaces started (child)\nGroupWorkspaces-[Notice] GroupWorkspaces successful, Duration 0.00 seconds\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii successful, Duration 0.02 seconds\nMolDyn-[Notice] MolDyn successful, Duration 0.03 seconds\n.MolDyn-[Notice] MolDyn started\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii started (child)\nPython-[Notice] Loading ASCII data\nLoadInstrument-[Notice] LoadInstrument started (child)\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\nLoadParameterFile-[Notice] LoadParameterFile started (child)\nLoadParameterFile-[Notice] LoadParameterFile successful, Duration 0.00 seconds\nUpdateInstrumentFromFile-[Notice] UpdateInstrumentFromFile started (child)\nUpdateInstrumentFromFile-[Notice] UpdateInstrumentFromFile successful, Duration 0.00 seconds\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii successful, Duration 0.40 seconds\nMolDyn-[Notice] MolDyn successful, Duration 0.41 seconds\n.MolDyn-[Notice] MolDyn started\nLoadNMoldyn4Ascii-[Notice] LoadNMoldyn4Ascii started (child)\nGroupWorkspaces-[Notice] GroupWorkspaces started (child)\nGroupWorkspaces-[Notice] GroupWorkspaces successful, Duration 0.00 seconds\nLoadNMoldyn4Ascii-[Notice] LoadNMoldyn4Ascii successful, Duration 0.04 seconds\nMolDyn-[Notice] MolDyn successful, Duration 0.05 seconds\n&#x27;U&#x27; mode is deprecated\n&#x27;U&#x27; mode is deprecated\n.\n======================================================================\nERROR: test_loadSqwWithRes (MolDynTest.MolDynTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 1058, in __call__\n    algm.execute()\nRuntimeError: ConvolveWorkspaces-v1: ConvolveWorkspaces: error (see log)\n  at line 119 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/MolDyn.py&#x27;\n  caused by line 210 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/MolDyn.py&#x27;\n  caused by line 1065 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/test/python/plugins/algorithms/WorkflowAlgorithms/MolDynTest.py&quot;, line 103, in test_loadSqwWithRes\n    moldyn_group = MolDyn(Data=&#x27;NaF_DISF.cdl&#x27;,\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 1065, in __call__\n    raise RuntimeError(msg) from e\nRuntimeError: MolDyn-v1: ConvolveWorkspaces-v1: ConvolveWorkspaces: error (see log)\n  at line 119 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/MolDyn.py&#x27;\n  caused by line 210 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/MolDyn.py&#x27;\n  caused by line 1065 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&#x27;\n\n----------------------------------------------------------------------\nRan 6 tests in 0.626s\n\nFAILED (errors=1)\n\n          Start 1655: python.WorkflowAlgorithms.MolDynTest.MolDynTest\n"
+                                    },
+                                    {
+                                        "trial_num": 3,
+                                        "outcome": "Failed",
+                                        "test_time": "10.05",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221103.733\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nMolDyn-[Notice] MolDyn started\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii started (child)\nPython-[Notice] Loading CDL file\nCreateWorkspace-[Notice] CreateWorkspace started (child)\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\nGroupWorkspaces-[Notice] GroupWorkspaces started (child)\nGroupWorkspaces-[Notice] GroupWorkspaces successful, Duration 0.00 seconds\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii successful, Duration 0.02 seconds\nCropWorkspace-[Notice] CropWorkspace started (child)\nCropWorkspace-[Notice] CropWorkspace successful, Duration 0.00 seconds\nMolDyn-[Notice] MolDyn successful, Duration 0.04 seconds\n.CreateSampleWorkspace-[Notice] CreateSampleWorkspace started\nCreateSampleWorkspace-[Notice] CreateSampleWorkspace successful, Duration 0.00 seconds\nMolDyn-[Notice] MolDyn started\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii started (child)\nPython-[Notice] Loading CDL file\nCreateWorkspace-[Notice] CreateWorkspace started (child)\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\nGroupWorkspaces-[Notice] GroupWorkspaces started (child)\nGroupWorkspaces-[Notice] GroupWorkspaces successful, Duration 0.00 seconds\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii successful, Duration 0.02 seconds\nSymmetrise-[Notice] Symmetrise started (child)\nCropWorkspace-[Notice] CropWorkspace started (child)\nCropWorkspace-[Notice] CropWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nSymmetrise-[Notice] Symmetrise successful, Duration 0.01 seconds\nPython-[Notice] Creating resolution workspace.\nConjoinSpectra-[Notice] ConjoinSpectra started (child)\nExtractSingleSpectrum-[Notice] ExtractSingleSpectrum started (child)\nExtractSingleSpectrum-[Notice] ExtractSingleSpectrum successful, Duration 0.00 seconds\nRenameWorkspace-[Notice] RenameWorkspace started (child)\nRenameWorkspace-[Notice] RenameWorkspace successful, Duration 0.00 seconds\nExtractSingleSpectrum-[Notice] ExtractSingleSpectrum started (child)\nExtractSingleSpectrum-[Notice] ExtractSingleSpectrum successful, Duration 0.00 seconds\nConjoinWorkspaces-[Notice] ConjoinWorkspaces started (child)\nConjoinWorkspaces-[Notice] ConjoinWorkspaces successful, Duration 0.00 seconds\nExtractSingleSpectrum-[Notice] ExtractSingleSpectrum started (child)\nExtractSingleSpectrum-[Notice] ExtractSingleSpectrum successful, Duration 0.00 seconds\nConjoinWorkspaces-[Notice] ConjoinWorkspaces started (child)\nConjoinWorkspaces-[Notice] ConjoinWorkspaces successful, Duration 0.00 seconds\nConjoinSpectra-[Notice] ConjoinSpectra successful, Duration 0.02 seconds\nPython-[Notice] Convoluting sample NaF_DISF_Sqw-total with resolution resolution_ws\nConvolveWorkspaces-[Notice] ConvolveWorkspaces started (child)\nConvolveWorkspaces-[Error] ConvolveWorkspaces: Histogram::setSharedX: size mismatch\nConvolveWorkspaces-[Error] \nConvolveWorkspaces-[Error] Error in execution of algorithm ConvolveWorkspaces:\nConvolveWorkspaces-[Error] ConvolveWorkspaces: error (see log)\nMolDyn-[Error] Error in execution of algorithm MolDyn:\nMolDyn-[Error] ConvolveWorkspaces-v1: ConvolveWorkspaces: error (see log)\nMolDyn-[Error]   at line 119 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/MolDyn.py&#x27;\nMolDyn-[Error]   caused by line 210 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/MolDyn.py&#x27;\nMolDyn-[Error]   caused by line 1065 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&#x27;\nEMolDyn-[Notice] MolDyn started\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii started (child)\nPython-[Notice] Loading CDL file\nCreateWorkspace-[Notice] CreateWorkspace started (child)\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\nGroupWorkspaces-[Notice] GroupWorkspaces started (child)\nGroupWorkspaces-[Notice] GroupWorkspaces successful, Duration 0.00 seconds\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii successful, Duration 0.02 seconds\nSymmetrise-[Notice] Symmetrise started (child)\nCropWorkspace-[Notice] CropWorkspace started (child)\nCropWorkspace-[Notice] CropWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nSymmetrise-[Notice] Symmetrise successful, Duration 0.01 seconds\nMolDyn-[Notice] MolDyn successful, Duration 0.04 seconds\n.MolDyn-[Notice] MolDyn started\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii started (child)\nPython-[Notice] Loading CDL file\nCreateWorkspace-[Notice] CreateWorkspace started (child)\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\nGroupWorkspaces-[Notice] GroupWorkspaces started (child)\nGroupWorkspaces-[Notice] GroupWorkspaces successful, Duration 0.00 seconds\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii successful, Duration 0.02 seconds\nMolDyn-[Notice] MolDyn successful, Duration 0.03 seconds\n.MolDyn-[Notice] MolDyn started\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii started (child)\nPython-[Notice] Loading ASCII data\nLoadInstrument-[Notice] LoadInstrument started (child)\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\nLoadParameterFile-[Notice] LoadParameterFile started (child)\nLoadParameterFile-[Notice] LoadParameterFile successful, Duration 0.00 seconds\nUpdateInstrumentFromFile-[Notice] UpdateInstrumentFromFile started (child)\nUpdateInstrumentFromFile-[Notice] UpdateInstrumentFromFile successful, Duration 0.00 seconds\nLoadNMoldyn3Ascii-[Notice] LoadNMoldyn3Ascii successful, Duration 0.39 seconds\nMolDyn-[Notice] MolDyn successful, Duration 0.40 seconds\n.MolDyn-[Notice] MolDyn started\nLoadNMoldyn4Ascii-[Notice] LoadNMoldyn4Ascii started (child)\nGroupWorkspaces-[Notice] GroupWorkspaces started (child)\nGroupWorkspaces-[Notice] GroupWorkspaces successful, Duration 0.00 seconds\nLoadNMoldyn4Ascii-[Notice] LoadNMoldyn4Ascii successful, Duration 0.05 seconds\nMolDyn-[Notice] MolDyn successful, Duration 0.05 seconds\n&#x27;U&#x27; mode is deprecated\n&#x27;U&#x27; mode is deprecated\n.\n======================================================================\nERROR: test_loadSqwWithRes (MolDynTest.MolDynTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 1058, in __call__\n    algm.execute()\nRuntimeError: ConvolveWorkspaces-v1: ConvolveWorkspaces: error (see log)\n  at line 119 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/MolDyn.py&#x27;\n  caused by line 210 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/MolDyn.py&#x27;\n  caused by line 1065 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/test/python/plugins/algorithms/WorkflowAlgorithms/MolDynTest.py&quot;, line 103, in test_loadSqwWithRes\n    moldyn_group = MolDyn(Data=&#x27;NaF_DISF.cdl&#x27;,\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 1065, in __call__\n    raise RuntimeError(msg) from e\nRuntimeError: MolDyn-v1: ConvolveWorkspaces-v1: ConvolveWorkspaces: error (see log)\n  at line 119 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/MolDyn.py&#x27;\n  caused by line 210 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/MolDyn.py&#x27;\n  caused by line 1065 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&#x27;\n\n----------------------------------------------------------------------\nRan 6 tests in 0.639s\n\nFAILED (errors=1)\n\n          Start  963: DataHandlingTest_RotateSourceTest\n"
+                                    }
+                                ]
+                            }
+                        },
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "483": {
+            "build_name": "483",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2640,
+                "Passed": 2640,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2640,
+                        "Passed": 2640,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "484": {
+            "build_name": "484",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2639,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2639,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "485": {
+            "build_name": "485",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2639,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2639,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "486": {
+            "build_name": "486",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2639,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2639,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "487": {
+            "build_name": "487",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2640,
+                "Passed": 2640,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2640,
+                        "Passed": 2640,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "488": {
+            "build_name": "488",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2639,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2639,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "489": {
+            "build_name": "489",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2639,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2639,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
         }
     }
 }

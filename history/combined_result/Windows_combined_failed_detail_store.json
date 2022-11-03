@@ -10,7 +10,9 @@
                 "pull_requests-conda-windows_493": "Flake",
                 "pull_requests-conda-windows_504": "Flake",
                 "pull_requests-conda-windows_510": "Flake",
-                "main_nightly_deployment_prototype_438": "Failed"
+                "main_nightly_deployment_prototype_438": "Failed",
+                "pull_requests-conda-windows_529": "Flake",
+                "main_nightly_deployment_prototype_439": "Flake"
             }
         },
         "python.algorithms.AbinsAdvancedParametersTest.AbinsAdvancedParametersTest": {
@@ -62,6 +64,34 @@
             "agent_name": "Windows",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_511": "Failed"
+            }
+        },
+        "python.MuonQt5.model_fitting_view_test.model_fitting_view_test": {
+            "test_name": "python.MuonQt5.model_fitting_view_test.model_fitting_view_test",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_523": "Flake"
+            }
+        },
+        "python.MuonQt5.background_corrections_model_test.background_corrections_model_test": {
+            "test_name": "python.MuonQt5.background_corrections_model_test.background_corrections_model_test",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_522": "Flake"
+            }
+        },
+        "python.WorkflowAlgorithms.MolDynTest.MolDynTest": {
+            "test_name": "python.WorkflowAlgorithms.MolDynTest.MolDynTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_521": "Failed"
+            }
+        },
+        "python.algorithms.IntegratePeaksSkewTest.IntegratePeaksSkewTest": {
+            "test_name": "python.algorithms.IntegratePeaksSkewTest.IntegratePeaksSkewTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_519": "Failed"
             }
         }
     }

@@ -1126,6 +1126,185 @@
                     }
                 }
             }
+        },
+        "439": {
+            "py/object": "data_object.Build",
+            "build_name": "439",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 7918,
+                "Passed": 7916,
+                "Flake": 1,
+                "Failed": 1,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2638,
+                        "Flake": 0,
+                        "Failed": 1,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {
+                            "python.algorithms.CleanFileCacheTest.CleanFileCacheTest": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "python.algorithms.CleanFileCacheTest.CleanFileCacheTest",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "30.66",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221102.1659\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nCreateCacheFilename-[Notice] CreateCacheFilename started\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\nCreateCacheFilename-[Notice] CreateCacheFilename started\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\nFrameworkManager-[Notice] Welcome to Mantid 6.5.20221102.1659\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nCleanFileCache-[Notice] CleanFileCache started\nCleanFileCache-[Notice] CleanFileCache successful, Duration 0.00 seconds\n.CreateCacheFilename-[Notice] CreateCacheFilename started\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\nCreateCacheFilename-[Notice] CreateCacheFilename started\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\nFrameworkManager-[Notice] Welcome to Mantid 6.5.20221102.1659\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nCleanFileCache-[Notice] CleanFileCache started\nCleanFileCache-[Notice] CleanFileCache successful, Duration 0.00 seconds\n.CreateCacheFilename-[Notice] CreateCacheFilename started\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\nCreateCacheFilename-[Notice] CreateCacheFilename started\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\nCreateCacheFilename-[Notice] CreateCacheFilename started\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\nFrameworkManager-[Notice] Welcome to Mantid 6.5.20221102.1659\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nCleanFileCache-[Notice] CleanFileCache started\nCleanFileCache-[Notice] CleanFileCache successful, Duration 0.00 seconds\nF\n======================================================================\nFAIL: test3 (CleanFileCacheTest.CleanFileCache)\nCleanFileCache: &quot;age&quot; parameter\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/Framework/PythonInterface/test/python/plugins/algorithms/CleanFileCacheTest.py&quot;, line 147, in test3\n    self.assertEqual(set(files_remained), set(non_cache+[cache1]))\nAssertionError: Items in the first set but not the second:\n&#x27;/tmp/tmp2h_bymtu/b4fd5fc22586b9b01c0193ad550440ef7b19bf91.nxs&#x27;\n\n----------------------------------------------------------------------\nRan 3 tests in 22.847s\n\nFAILED (failures=1)\n\n          Start 1478: python.algorithms.CleanFileCacheTest.CleanFileCacheTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "29.92",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221102.1659\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nCreateCacheFilename-[Notice] CreateCacheFilename started\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\nCreateCacheFilename-[Notice] CreateCacheFilename started\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\nFrameworkManager-[Notice] Welcome to Mantid 6.5.20221102.1659\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nCleanFileCache-[Notice] CleanFileCache started\nCleanFileCache-[Notice] CleanFileCache successful, Duration 0.00 seconds\n.CreateCacheFilename-[Notice] CreateCacheFilename started\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\nCreateCacheFilename-[Notice] CreateCacheFilename started\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\nFrameworkManager-[Notice] Welcome to Mantid 6.5.20221102.1659\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nCleanFileCache-[Notice] CleanFileCache started\nCleanFileCache-[Notice] CleanFileCache successful, Duration 0.00 seconds\n.CreateCacheFilename-[Notice] CreateCacheFilename started\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\nCreateCacheFilename-[Notice] CreateCacheFilename started\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\nCreateCacheFilename-[Notice] CreateCacheFilename started\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\nFrameworkManager-[Notice] Welcome to Mantid 6.5.20221102.1659\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nCleanFileCache-[Notice] CleanFileCache started\nCleanFileCache-[Notice] CleanFileCache successful, Duration 0.00 seconds\nF\n======================================================================\nFAIL: test3 (CleanFileCacheTest.CleanFileCache)\nCleanFileCache: &quot;age&quot; parameter\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/Framework/PythonInterface/test/python/plugins/algorithms/CleanFileCacheTest.py&quot;, line 147, in test3\n    self.assertEqual(set(files_remained), set(non_cache+[cache1]))\nAssertionError: Items in the first set but not the second:\n&#x27;/tmp/tmpxcml3_fq/b4fd5fc22586b9b01c0193ad550440ef7b19bf91.nxs&#x27;\n\n----------------------------------------------------------------------\nRan 3 tests in 22.348s\n\nFAILED (failures=1)\n\n          Start 1478: python.algorithms.CleanFileCacheTest.CleanFileCacheTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Failed",
+                                        "test_time": "34.66",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221102.1659\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nCreateCacheFilename-[Notice] CreateCacheFilename started\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\nCreateCacheFilename-[Notice] CreateCacheFilename started\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\nFrameworkManager-[Notice] Welcome to Mantid 6.5.20221102.1659\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nCleanFileCache-[Notice] CleanFileCache started\nCleanFileCache-[Notice] CleanFileCache successful, Duration 0.00 seconds\n.CreateCacheFilename-[Notice] CreateCacheFilename started\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\nCreateCacheFilename-[Notice] CreateCacheFilename started\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\nFrameworkManager-[Notice] Welcome to Mantid 6.5.20221102.1659\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nCleanFileCache-[Notice] CleanFileCache started\nCleanFileCache-[Notice] CleanFileCache successful, Duration 0.00 seconds\n.CreateCacheFilename-[Notice] CreateCacheFilename started\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\nCreateCacheFilename-[Notice] CreateCacheFilename started\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\nCreateCacheFilename-[Notice] CreateCacheFilename started\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\nFrameworkManager-[Notice] Welcome to Mantid 6.5.20221102.1659\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nCleanFileCache-[Notice] CleanFileCache started\nCleanFileCache-[Notice] CleanFileCache successful, Duration 0.00 seconds\nF\n======================================================================\nFAIL: test3 (CleanFileCacheTest.CleanFileCache)\nCleanFileCache: &quot;age&quot; parameter\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/Framework/PythonInterface/test/python/plugins/algorithms/CleanFileCacheTest.py&quot;, line 147, in test3\n    self.assertEqual(set(files_remained), set(non_cache+[cache1]))\nAssertionError: Items in the first set but not the second:\n&#x27;/tmp/tmpw06al4dc/b4fd5fc22586b9b01c0193ad550440ef7b19bf91.nxs&#x27;\n\n----------------------------------------------------------------------\nRan 3 tests in 26.252s\n\nFAILED (failures=1)\n\n          Start 1223: HistogramDataTest_FrequencyVariancesTest\n"
+                                    }
+                                ]
+                            }
+                        },
+                        "Timeout": {}
+                    }
+                },
+                "Linux": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Linux",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2639,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                },
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2640,
+                        "Passed": 2639,
+                        "Flake": 1,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {
+                            "AlgorithmsTest_FitPeaksTest": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "AlgorithmsTest_FitPeaksTest",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "4.42",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221102.1659\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 10 tests.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nFitPeaks-[Notice] FitPeaks started\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  303: AlgorithmsTest_FitPeaksTest\r\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Passed",
+                                        "test_time": "4.03",
+                                        "stack_trace": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "440": {
+            "py/object": "data_object.Build",
+            "build_name": "440",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 7918,
+                "Passed": 7918,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2639,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                },
+                "Linux": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Linux",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2639,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                },
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2640,
+                        "Passed": 2640,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
         }
     }
 }

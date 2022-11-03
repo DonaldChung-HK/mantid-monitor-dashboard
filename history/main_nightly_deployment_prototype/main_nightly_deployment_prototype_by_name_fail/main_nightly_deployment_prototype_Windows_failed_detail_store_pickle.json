@@ -4,23 +4,23 @@
         "AlgorithmsTest_FitPeaksTest": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "AlgorithmsTest_FitPeaksTest",
-            "latest_failed_build": "438",
+            "latest_failed_build": "439",
             "agent_name": "Windows",
-            "last_failed_outcome": "Failed",
+            "last_failed_outcome": "Flake",
             "pipeline_name": "main_nightly_deployment_prototype",
             "past_failed_outcome": {
-                "430": "Flake",
-                "438": "Failed"
+                "438": "Failed",
+                "439": "Flake"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "AlgorithmsTest_FitPeaksTest",
-                "build": "438",
+                "build": "439",
                 "agent_name": "Windows",
-                "trial": 3,
+                "trial": 1,
                 "outcome": "Failed",
-                "test_time": "0.77",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221101.1600\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 10 tests.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nFitPeaks-[Notice] FitPeaks started\r\nExit code 0xc0000409\r\n\r\n\r\n          Start 1697: PythonAlgorithms.SANSConvertToWavelengthAndRebinTest.SANSConvertToWavelengthAndRebinTest\r\n"
+                "test_time": "4.42",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221102.1659\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 10 tests.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nFitPeaks-[Notice] FitPeaks started\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  303: AlgorithmsTest_FitPeaksTest\r\n"
             }
         },
         "python.algorithms.AbinsAdvancedParametersTest.AbinsAdvancedParametersTest": {

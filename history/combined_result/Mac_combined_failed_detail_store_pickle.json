@@ -40,7 +40,8 @@
             "agent_name": "Mac",
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_437": "Failed",
-                "main_nightly_deployment_prototype_438": "Failed"
+                "main_nightly_deployment_prototype_438": "Failed",
+                "main_nightly_deployment_prototype_439": "Failed"
             }
         },
         "python.simplescanviewer.RectanglePlotTest.RectanglePlotTest": {
@@ -58,6 +59,22 @@
             "agent_name": "Mac",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_472": "Failed"
+            }
+        },
+        "python.WorkflowAlgorithms.MolDynTest.MolDynTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.WorkflowAlgorithms.MolDynTest.MolDynTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_482": "Failed"
+            }
+        },
+        "python.algorithms.IntegratePeaksSkewTest.IntegratePeaksSkewTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.algorithms.IntegratePeaksSkewTest.IntegratePeaksSkewTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_480": "Failed"
             }
         }
     }

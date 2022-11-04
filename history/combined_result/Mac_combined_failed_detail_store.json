@@ -12,7 +12,8 @@
             "agent_name": "Mac",
             "past_failed_outcome": {
                 "build_packages_from_branch_101": "Flake",
-                "pull_requests-conda-osx_477": "Flake"
+                "pull_requests-conda-osx_477": "Flake",
+                "pull_requests-conda-osx_493": "Flake"
             }
         },
         "TypesTest_DateAndTimeTest": {
@@ -26,7 +27,12 @@
             "test_name": "mantidqt_qt5.test_sliceviewer_imageinfowidget.test_sliceviewer_imageinfowidget",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_456": "Failed"
+                "pull_requests-conda-osx_456": "Failed",
+                "pull_requests-conda-osx_494": "Failed",
+                "pull_requests-conda-osx_496": "Failed",
+                "pull_requests-conda-osx_497": "Failed",
+                "pull_requests-conda-osx_499": "Failed",
+                "pull_requests-conda-osx_501": "Failed"
             }
         },
         "python.algorithms.CleanFileCacheTest.CleanFileCacheTest": {
@@ -35,7 +41,8 @@
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_437": "Failed",
                 "main_nightly_deployment_prototype_438": "Failed",
-                "main_nightly_deployment_prototype_439": "Failed"
+                "main_nightly_deployment_prototype_439": "Failed",
+                "main_nightly_deployment_prototype_441": "Failed"
             }
         },
         "python.simplescanviewer.RectanglePlotTest.RectanglePlotTest": {
@@ -65,6 +72,63 @@
             "agent_name": "Mac",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_480": "Failed"
+            }
+        },
+        "python.scripts.ReductionWrapperTest.ReductionWrapperTest": {
+            "test_name": "python.scripts.ReductionWrapperTest.ReductionWrapperTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_499": "Flake",
+                "pull_requests-conda-osx_501": "Flake"
+            }
+        },
+        "MantidQtWidgetsCommonTestQt5_ImageInfoPresenterTest": {
+            "test_name": "MantidQtWidgetsCommonTestQt5_ImageInfoPresenterTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_494": "Failed",
+                "pull_requests-conda-osx_496": "Failed",
+                "pull_requests-conda-osx_497": "Failed",
+                "pull_requests-conda-osx_499": "Failed",
+                "pull_requests-conda-osx_501": "Failed"
+            }
+        },
+        "mantidqt_qt5.test_sliceviewer_dataview.test_sliceviewer_dataview": {
+            "test_name": "mantidqt_qt5.test_sliceviewer_dataview.test_sliceviewer_dataview",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_494": "Failed",
+                "pull_requests-conda-osx_496": "Failed",
+                "pull_requests-conda-osx_497": "Failed",
+                "pull_requests-conda-osx_499": "Failed",
+                "pull_requests-conda-osx_501": "Failed"
+            }
+        },
+        "mantidqt_qt5.test_sliceviewer_presenter.test_sliceviewer_presenter": {
+            "test_name": "mantidqt_qt5.test_sliceviewer_presenter.test_sliceviewer_presenter",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_494": "Failed",
+                "pull_requests-conda-osx_496": "Failed",
+                "pull_requests-conda-osx_497": "Failed",
+                "pull_requests-conda-osx_499": "Failed",
+                "pull_requests-conda-osx_501": "Failed"
+            }
+        },
+        "AlgorithmsTest_Q1DWeightedTest": {
+            "test_name": "AlgorithmsTest_Q1DWeightedTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_490": "Failed",
+                "pull_requests-conda-osx_491": "Failed"
+            }
+        },
+        "python.WorkflowAlgorithms.SANSILLMultiProcessTest.SANSILLMultiProcessTest": {
+            "test_name": "python.WorkflowAlgorithms.SANSILLMultiProcessTest.SANSILLMultiProcessTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_490": "Failed",
+                "pull_requests-conda-osx_491": "Failed"
             }
         }
     }

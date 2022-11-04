@@ -25,7 +25,12 @@
             "test_name": "mantidqt_qt5.test_sliceviewer_imageinfowidget.test_sliceviewer_imageinfowidget",
             "agent_name": "Linux",
             "past_failed_outcome": {
-                "pull_requests-conda-linux_1760": "Failed"
+                "pull_requests-conda-linux_1760": "Failed",
+                "pull_requests-conda-linux_1799": "Failed",
+                "pull_requests-conda-linux_1801": "Failed",
+                "pull_requests-conda-linux_1802": "Failed",
+                "pull_requests-conda-linux_1804": "Failed",
+                "pull_requests-conda-linux_1806": "Failed"
             }
         },
         "python.simplescanviewer.RectanglePlotTest.RectanglePlotTest": {
@@ -58,7 +63,8 @@
             "test_name": "python.MuonQt5.model_fitting_view_test.model_fitting_view_test",
             "agent_name": "Linux",
             "past_failed_outcome": {
-                "pull_requests-conda-linux_1775": "Flake"
+                "pull_requests-conda-linux_1775": "Flake",
+                "main_nightly_deployment_prototype_441": "Flake"
             }
         },
         "python.WorkflowAlgorithms.MolDynTest.MolDynTest": {
@@ -83,6 +89,69 @@
             "agent_name": "Linux",
             "past_failed_outcome": {
                 "pull_requests-conda-linux_1784": "Failed"
+            }
+        },
+        "MantidQtWidgetsCommonTestQt5_ImageInfoPresenterTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "MantidQtWidgetsCommonTestQt5_ImageInfoPresenterTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1799": "Failed",
+                "pull_requests-conda-linux_1801": "Failed",
+                "pull_requests-conda-linux_1802": "Failed",
+                "pull_requests-conda-linux_1804": "Failed",
+                "pull_requests-conda-linux_1806": "Failed"
+            }
+        },
+        "mantidqt_qt5.test_sliceviewer_dataview.test_sliceviewer_dataview": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "mantidqt_qt5.test_sliceviewer_dataview.test_sliceviewer_dataview",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1799": "Failed",
+                "pull_requests-conda-linux_1801": "Failed",
+                "pull_requests-conda-linux_1802": "Failed",
+                "pull_requests-conda-linux_1804": "Failed",
+                "pull_requests-conda-linux_1806": "Failed"
+            }
+        },
+        "mantidqt_qt5.test_sliceviewer_presenter.test_sliceviewer_presenter": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "mantidqt_qt5.test_sliceviewer_presenter.test_sliceviewer_presenter",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1799": "Failed",
+                "pull_requests-conda-linux_1801": "Failed",
+                "pull_requests-conda-linux_1802": "Failed",
+                "pull_requests-conda-linux_1804": "Failed",
+                "pull_requests-conda-linux_1806": "Failed"
+            }
+        },
+        "python.scripts.CrystalFieldTest.CrystalFieldTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.scripts.CrystalFieldTest.CrystalFieldTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1799": "Failed",
+                "pull_requests-conda-linux_1806": "Failed"
+            }
+        },
+        "AlgorithmsTest_Q1DWeightedTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "AlgorithmsTest_Q1DWeightedTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1795": "Failed",
+                "pull_requests-conda-linux_1796": "Failed"
+            }
+        },
+        "python.WorkflowAlgorithms.SANSILLMultiProcessTest.SANSILLMultiProcessTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.WorkflowAlgorithms.SANSILLMultiProcessTest.SANSILLMultiProcessTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1795": "Failed",
+                "pull_requests-conda-linux_1796": "Failed"
             }
         }
     }

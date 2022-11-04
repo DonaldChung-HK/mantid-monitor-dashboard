@@ -1,14 +1,15 @@
 {
     "data": [
         {
-            "test_name": "AlgorithmsTest_FitPeaksTest",
-            "latest_failed_build": "435",
+            "test_name": "python.MuonQt5.model_fitting_view_test.model_fitting_view_test",
+            "latest_failed_build": "441",
             "agent_name": "Linux",
             "last_failed_outcome": "Flake",
             "pipeline_name": "main_nightly_deployment_prototype",
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "441",
                     "440",
                     "439",
                     "438",
@@ -17,8 +18,50 @@
                     "435",
                     "434",
                     "433",
-                    "432",
-                    "431"
+                    "432"
+                ],
+                "past_outcome_list": [
+                    "Flake",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "python.MuonQt5.model_fitting_view_test.model_fitting_view_test",
+                "build": "441",
+                "agent_name": "Linux",
+                "trial": 1,
+                "outcome": "Failed",
+                "test_time": "4.78",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221103.1804\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\nEEEEEEEE\n======================================================================\nERROR: test_that_add_results_table_name_will_add_a_result_table_to_the_workspace_selector (model_fitting_view_test.ModelFittingViewTest)\n----------------------------------------------------------------------\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/model_fitting/model_fitting_view_test.py&quot;, line 19, in setUp\n    self.view = ModelFittingView()\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/model_fitting/model_fitting_view.py&quot;, line 21, in __init__\n    super(ModelFittingView, self).__init__(parent)\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/basic_fitting_view.py&quot;, line 33, in __init__\n    self.fit_function_options = FitFunctionOptionsView(self)\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/fit_function_options_view.py&quot;, line 48, in __init__\n    self.setupUi(self)\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\n\n======================================================================\nERROR: test_that_current_result_table_index_returns_the_expected_index (model_fitting_view_test.ModelFittingViewTest)\n----------------------------------------------------------------------\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/model_fitting/model_fitting_view_test.py&quot;, line 19, in setUp\n    self.view = ModelFittingView()\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/model_fitting/model_fitting_view.py&quot;, line 21, in __init__\n    super(ModelFittingView, self).__init__(parent)\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/basic_fitting_view.py&quot;, line 33, in __init__\n    self.fit_function_options = FitFunctionOptionsView(self)\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/fit_function_options_view.py&quot;, line 48, in __init__\n    self.setupUi(self)\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\n\n======================================================================\nERROR: test_that_the_dataset_workspace_selector_is_hidden_by_default (model_fitting_view_test.ModelFittingViewTest)\n----------------------------------------------------------------------\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/model_fitting/model_fitting_view_test.py&quot;, line 19, in setUp\n    self.view = ModelFittingView()\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/model_fitting/model_fitting_view.py&quot;, line 21, in __init__\n    super(ModelFittingView, self).__init__(parent)\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/basic_fitting_view.py&quot;, line 33, in __init__\n    self.fit_function_options = FitFunctionOptionsView(self)\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/fit_function_options_view.py&quot;, line 48, in __init__\n    self.setupUi(self)\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\n\n======================================================================\nERROR: test_that_the_view_is_enabled_if_results_tables_exist (model_fitting_view_test.ModelFittingViewTest)\n----------------------------------------------------------------------\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/model_fitting/model_fitting_view_test.py&quot;, line 19, in setUp\n    self.view = ModelFittingView()\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/model_fitting/model_fitting_view.py&quot;, line 21, in __init__\n    super(ModelFittingView, self).__init__(parent)\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/basic_fitting_view.py&quot;, line 33, in __init__\n    self.fit_function_options = FitFunctionOptionsView(self)\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/fit_function_options_view.py&quot;, line 48, in __init__\n    self.setupUi(self)\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\n\n======================================================================\nERROR: test_that_the_view_is_not_enabled_if_results_tables_do_not_exist (model_fitting_view_test.ModelFittingViewTest)\n----------------------------------------------------------------------\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/model_fitting/model_fitting_view_test.py&quot;, line 19, in setUp\n    self.view = ModelFittingView()\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/model_fitting/model_fitting_view.py&quot;, line 21, in __init__\n    super(ModelFittingView, self).__init__(parent)\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/basic_fitting_view.py&quot;, line 33, in __init__\n    self.fit_function_options = FitFunctionOptionsView(self)\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/fit_function_options_view.py&quot;, line 48, in __init__\n    self.setupUi(self)\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\n\n======================================================================\nERROR: test_that_update_result_table_names_will_select_the_previously_selected_item_if_it_still_exists (model_fitting_view_test.ModelFittingViewTest)\n----------------------------------------------------------------------\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/model_fitting/model_fitting_view_test.py&quot;, line 19, in setUp\n    self.view = ModelFittingView()\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/model_fitting/model_fitting_view.py&quot;, line 21, in __init__\n    super(ModelFittingView, self).__init__(parent)\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/basic_fitting_view.py&quot;, line 33, in __init__\n    self.fit_function_options = FitFunctionOptionsView(self)\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/fit_function_options_view.py&quot;, line 48, in __init__\n    self.setupUi(self)\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\n\n======================================================================\nERROR: test_that_update_result_table_names_will_set_the_names_in_the_result_table_names_combobox (model_fitting_view_test.ModelFittingViewTest)\n----------------------------------------------------------------------\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/model_fitting/model_fitting_view_test.py&quot;, line 19, in setUp\n    self.view = ModelFittingView()\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/model_fitting/model_fitting_view.py&quot;, line 21, in __init__\n    super(ModelFittingView, self).__init__(parent)\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/basic_fitting_view.py&quot;, line 33, in __init__\n    self.fit_function_options = FitFunctionOptionsView(self)\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/fit_function_options_view.py&quot;, line 48, in __init__\n    self.setupUi(self)\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\n\n======================================================================\nERROR: test_that_update_x_and_y_parameters_will_update_the_x_and_y_parameters (model_fitting_view_test.ModelFittingViewTest)\n----------------------------------------------------------------------\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/model_fitting/model_fitting_view_test.py&quot;, line 19, in setUp\n    self.view = ModelFittingView()\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/model_fitting/model_fitting_view.py&quot;, line 21, in __init__\n    super(ModelFittingView, self).__init__(parent)\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/basic_fitting_view.py&quot;, line 33, in __init__\n    self.fit_function_options = FitFunctionOptionsView(self)\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/fit_function_options_view.py&quot;, line 48, in __init__\n    self.setupUi(self)\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\n\n----------------------------------------------------------------------\nRan 8 tests in 0.094s\n\nFAILED (errors=8)\n\n          Start 2188: python.MuonQt5.model_fitting_view_test.model_fitting_view_test\n"
+            }
+        },
+        {
+            "test_name": "AlgorithmsTest_FitPeaksTest",
+            "latest_failed_build": "435",
+            "agent_name": "Linux",
+            "last_failed_outcome": "Flake",
+            "pipeline_name": "main_nightly_deployment_prototype",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "441",
+                    "440",
+                    "439",
+                    "438",
+                    "437",
+                    "436",
+                    "435",
+                    "434",
+                    "433",
+                    "432"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -26,8 +69,8 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Flake",
                     "Passed",
+                    "Flake",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -52,6 +95,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "441",
                     "440",
                     "439",
                     "438",
@@ -60,8 +104,7 @@
                     "435",
                     "434",
                     "433",
-                    "432",
-                    "431"
+                    "432"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -70,8 +113,8 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Flake",
                     "Passed",
+                    "Flake",
                     "Passed",
                     "Passed"
                 ]

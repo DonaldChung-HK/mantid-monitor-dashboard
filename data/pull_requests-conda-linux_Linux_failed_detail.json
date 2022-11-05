@@ -2,13 +2,16 @@
     "data": [
         {
             "test_name": "MantidQtWidgetsCommonTestQt5_ImageInfoPresenterTest",
-            "latest_failed_build": "1806",
+            "latest_failed_build": "1810",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 5,
+            "problem_count": 6,
             "past_outcome": {
                 "build_keys": [
+                    "1810",
+                    "1809",
+                    "1808",
                     "1807",
                     "1806",
                     "1805",
@@ -35,12 +38,12 @@
                     "1784",
                     "1783",
                     "1782",
-                    "1781",
-                    "1780",
-                    "1779",
-                    "1778"
+                    "1781"
                 ],
                 "past_outcome_list": [
+                    "Failed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Failed",
                     "Passed",
@@ -67,15 +70,12 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
                 "test_name": "MantidQtWidgetsCommonTestQt5_ImageInfoPresenterTest",
-                "build": "1806",
+                "build": "1810",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
@@ -85,13 +85,16 @@
         },
         {
             "test_name": "mantidqt_qt5.test_sliceviewer_dataview.test_sliceviewer_dataview",
-            "latest_failed_build": "1806",
+            "latest_failed_build": "1810",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 5,
+            "problem_count": 6,
             "past_outcome": {
                 "build_keys": [
+                    "1810",
+                    "1809",
+                    "1808",
                     "1807",
                     "1806",
                     "1805",
@@ -118,12 +121,12 @@
                     "1784",
                     "1783",
                     "1782",
-                    "1781",
-                    "1780",
-                    "1779",
-                    "1778"
+                    "1781"
                 ],
                 "past_outcome_list": [
+                    "Failed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Failed",
                     "Passed",
@@ -150,15 +153,12 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
                 "test_name": "mantidqt_qt5.test_sliceviewer_dataview.test_sliceviewer_dataview",
-                "build": "1806",
+                "build": "1810",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
@@ -168,13 +168,16 @@
         },
         {
             "test_name": "mantidqt_qt5.test_sliceviewer_imageinfowidget.test_sliceviewer_imageinfowidget",
-            "latest_failed_build": "1806",
+            "latest_failed_build": "1810",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 5,
+            "problem_count": 6,
             "past_outcome": {
                 "build_keys": [
+                    "1810",
+                    "1809",
+                    "1808",
                     "1807",
                     "1806",
                     "1805",
@@ -201,12 +204,12 @@
                     "1784",
                     "1783",
                     "1782",
-                    "1781",
-                    "1780",
-                    "1779",
-                    "1778"
+                    "1781"
                 ],
                 "past_outcome_list": [
+                    "Failed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Failed",
                     "Passed",
@@ -233,15 +236,12 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
                 "test_name": "mantidqt_qt5.test_sliceviewer_imageinfowidget.test_sliceviewer_imageinfowidget",
-                "build": "1806",
+                "build": "1810",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
@@ -251,13 +251,16 @@
         },
         {
             "test_name": "mantidqt_qt5.test_sliceviewer_presenter.test_sliceviewer_presenter",
-            "latest_failed_build": "1806",
+            "latest_failed_build": "1810",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 5,
+            "problem_count": 6,
             "past_outcome": {
                 "build_keys": [
+                    "1810",
+                    "1809",
+                    "1808",
                     "1807",
                     "1806",
                     "1805",
@@ -284,12 +287,12 @@
                     "1784",
                     "1783",
                     "1782",
-                    "1781",
-                    "1780",
-                    "1779",
-                    "1778"
+                    "1781"
                 ],
                 "past_outcome_list": [
+                    "Failed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Failed",
                     "Passed",
@@ -316,15 +319,12 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
                 "test_name": "mantidqt_qt5.test_sliceviewer_presenter.test_sliceviewer_presenter",
-                "build": "1806",
+                "build": "1810",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
@@ -334,13 +334,16 @@
         },
         {
             "test_name": "python.scripts.CrystalFieldTest.CrystalFieldTest",
-            "latest_failed_build": "1806",
+            "latest_failed_build": "1810",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
+                    "1810",
+                    "1809",
+                    "1808",
                     "1807",
                     "1806",
                     "1805",
@@ -367,12 +370,12 @@
                     "1784",
                     "1783",
                     "1782",
-                    "1781",
-                    "1780",
-                    "1779",
-                    "1778"
+                    "1781"
                 ],
                 "past_outcome_list": [
+                    "Failed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Failed",
                     "Passed",
@@ -399,15 +402,12 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
                 "test_name": "python.scripts.CrystalFieldTest.CrystalFieldTest",
-                "build": "1806",
+                "build": "1810",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
@@ -424,6 +424,9 @@
             "problem_count": 2,
             "past_outcome": {
                 "build_keys": [
+                    "1810",
+                    "1809",
+                    "1808",
                     "1807",
                     "1806",
                     "1805",
@@ -450,10 +453,7 @@
                     "1784",
                     "1783",
                     "1782",
-                    "1781",
-                    "1780",
-                    "1779",
-                    "1778"
+                    "1781"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -467,6 +467,9 @@
                     "Passed",
                     "Passed",
                     "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "Failed",
                     "None",
@@ -482,10 +485,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -507,6 +507,9 @@
             "problem_count": 2,
             "past_outcome": {
                 "build_keys": [
+                    "1810",
+                    "1809",
+                    "1808",
                     "1807",
                     "1806",
                     "1805",
@@ -533,10 +536,7 @@
                     "1784",
                     "1783",
                     "1782",
-                    "1781",
-                    "1780",
-                    "1779",
-                    "1778"
+                    "1781"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -550,6 +550,9 @@
                     "Passed",
                     "Passed",
                     "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "Failed",
                     "None",
@@ -565,10 +568,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -590,6 +590,9 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "1810",
+                    "1809",
+                    "1808",
                     "1807",
                     "1806",
                     "1805",
@@ -616,12 +619,12 @@
                     "1784",
                     "1783",
                     "1782",
-                    "1781",
-                    "1780",
-                    "1779",
-                    "1778"
+                    "1781"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -648,10 +651,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -673,6 +673,9 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "1810",
+                    "1809",
+                    "1808",
                     "1807",
                     "1806",
                     "1805",
@@ -699,12 +702,12 @@
                     "1784",
                     "1783",
                     "1782",
-                    "1781",
-                    "1780",
-                    "1779",
-                    "1778"
+                    "1781"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -731,10 +734,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -756,6 +756,9 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "1810",
+                    "1809",
+                    "1808",
                     "1807",
                     "1806",
                     "1805",
@@ -782,12 +785,12 @@
                     "1784",
                     "1783",
                     "1782",
-                    "1781",
-                    "1780",
-                    "1779",
-                    "1778"
+                    "1781"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -814,10 +817,7 @@
                     "Flake",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -839,6 +839,9 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "1810",
+                    "1809",
+                    "1808",
                     "1807",
                     "1806",
                     "1805",
@@ -865,12 +868,12 @@
                     "1784",
                     "1783",
                     "1782",
-                    "1781",
-                    "1780",
-                    "1779",
-                    "1778"
+                    "1781"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -897,10 +900,7 @@
                     "Failed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -911,89 +911,6 @@
                 "outcome": "Failed",
                 "test_time": "29.32",
                 "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221102.1717\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace started\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 12.17 seconds\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace started\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\nAddPeak-[Notice] AddPeak started\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\n..IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\nPrecision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.\nPrecision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Error] Error in execution of algorithm IntegratePeaksSkew:\nIntegratePeaksSkew-[Error] local variable &#x27;dTOF&#x27; referenced before assignment\nIntegratePeaksSkew-[Error]   at line 793 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/plugins/algorithms/IntegratePeaksSkew.py&#x27;\nEIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nPython-[Notice] Estimated resolution parameters:\nBackscatteringTOFResolution = 0.9999999999999979\nThetaWidth = 1.4864226597308577e-07\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.04 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nPython-[Warning] Resolution parameters could not be estimated - the provided TOF window parameters arelikely to be suboptimal (probably the resulting window is too large). Please inspect the results (if an OutputFile has been specified the optimal TOF windows found will be plotted on the last page.\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.01 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nPython-[Notice] Estimated resolution parameters:\nBackscatteringTOFResolution = 0.9999999999999979\nThetaWidth = 1.4864226597308577e-07\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.01 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\n...IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.04 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\n.CloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\nQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 2.77 seconds\nStarting from Matplotlib 3.6, colorbar() will steal space from the mappable&#x27;s axes, rather than from the current axes, to place the colorbar.  To silence this warning, explicitly pass the &#x27;ax&#x27; argument to colorbar().\n.\n======================================================================\nERROR: test_integrate_use_nearest_peak_false_update_peak_position_false_with_back_to_back_params (IntegratePeaksSkewTest.IntegratePeaksSkewTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 1058, in __call__\n    algm.execute()\nRuntimeError: local variable &#x27;dTOF&#x27; referenced before assignment\n  at line 793 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/plugins/algorithms/IntegratePeaksSkew.py&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/test/python/plugins/algorithms/IntegratePeaksSkewTest.py&quot;, line 95, in test_integrate_use_nearest_peak_false_update_peak_position_false_with_back_to_back_params\n    out = IntegratePeaksSkew(InputWorkspace=self.ws, PeaksWorkspace=self.peaks,\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 1065, in __call__\n    raise RuntimeError(msg) from e\nRuntimeError: IntegratePeaksSkew-v1: local variable &#x27;dTOF&#x27; referenced before assignment\n  at line 793 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/plugins/algorithms/IntegratePeaksSkew.py&#x27;\n\n----------------------------------------------------------------------\nRan 17 tests in 23.992s\n\nFAILED (errors=1)\n\n          Start  359: AlgorithmsTest_MergeRunsTest\n"
-            }
-        },
-        {
-            "test_name": "python.simplescanviewer.RectanglePlotTest.RectanglePlotTest",
-            "latest_failed_build": "1778",
-            "agent_name": "Linux",
-            "last_failed_outcome": "Failed",
-            "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 1,
-            "past_outcome": {
-                "build_keys": [
-                    "1807",
-                    "1806",
-                    "1805",
-                    "1804",
-                    "1803",
-                    "1802",
-                    "1801",
-                    "1800",
-                    "1799",
-                    "1798",
-                    "1797",
-                    "1796",
-                    "1795",
-                    "1794",
-                    "1793",
-                    "1792",
-                    "1791",
-                    "1790",
-                    "1789",
-                    "1788",
-                    "1787",
-                    "1786",
-                    "1785",
-                    "1784",
-                    "1783",
-                    "1782",
-                    "1781",
-                    "1780",
-                    "1779",
-                    "1778"
-                ],
-                "past_outcome_list": [
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Failed"
-                ]
-            },
-            "last_stack_traces": {
-                "test_name": "python.simplescanviewer.RectanglePlotTest.RectanglePlotTest",
-                "build": "1778",
-                "agent_name": "Linux",
-                "trial": 3,
-                "outcome": "Failed",
-                "test_time": "9.06",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221102.1142\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\n/jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/site.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module&#x27;s documentation for alternative uses\n  import imp  # Avoid import loop in Python 3\n/jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/python3.8/site-packages/h5py/__init__.py:46: DeprecationWarning: `np.typeDict` is a deprecated alias for `np.sctypeDict`.\n  from ._conv import register_converters as _register_converters\nThe global colormaps dictionary is no longer considered public API.\n..CreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.02 seconds\n.CreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.07 seconds\nCreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.04 seconds\nCreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.05 seconds\nCreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.04 seconds\nCreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.05 seconds\nCreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.03 seconds\nCreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.04 seconds\nCreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.04 seconds\n...Traceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqtinterfaces/mantidqtinterfaces/simplescanviewer/rectangle_plot.py&quot;, line 261, in _on_controller_updated\n    self._update_plot_values()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqtinterfaces/mantidqtinterfaces/simplescanviewer/rectangle_plot.py&quot;, line 274, in _update_plot_values\n    (x_line_x_axis, x_line_y_values), (y_line_x_axis, y_line_y_values) = self._compute_plot_axes()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqtinterfaces/mantidqtinterfaces/simplescanviewer/rectangle_plot.py&quot;, line 288, in _compute_plot_axes\n    xmin, xmax, ymin, ymax = self.plotter.image.get_extent()\nValueError: not enough values to unpack (expected 4, got 0)\nSubprocess aborted\n\n          Start  606: CrystalTest_CompositeClusterTest\n"
             }
         }
     ]

@@ -9,6 +9,10 @@
             "problem_count": 4,
             "past_outcome": {
                 "build_keys": [
+                    "546",
+                    "545",
+                    "544",
+                    "543",
                     "542",
                     "541",
                     "540",
@@ -34,16 +38,16 @@
                     "520",
                     "519",
                     "518",
-                    "517",
-                    "516",
-                    "515",
-                    "514",
-                    "513"
+                    "517"
                 ],
                 "past_outcome_list": [
                     "Passed",
                     "Passed",
                     "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "Passed",
                     "Failed",
@@ -64,10 +68,6 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -92,6 +92,10 @@
             "problem_count": 4,
             "past_outcome": {
                 "build_keys": [
+                    "546",
+                    "545",
+                    "544",
+                    "543",
                     "542",
                     "541",
                     "540",
@@ -117,16 +121,16 @@
                     "520",
                     "519",
                     "518",
-                    "517",
-                    "516",
-                    "515",
-                    "514",
-                    "513"
+                    "517"
                 ],
                 "past_outcome_list": [
                     "Passed",
                     "Passed",
                     "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "Passed",
                     "Failed",
@@ -147,10 +151,6 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -175,6 +175,10 @@
             "problem_count": 4,
             "past_outcome": {
                 "build_keys": [
+                    "546",
+                    "545",
+                    "544",
+                    "543",
                     "542",
                     "541",
                     "540",
@@ -200,16 +204,16 @@
                     "520",
                     "519",
                     "518",
-                    "517",
-                    "516",
-                    "515",
-                    "514",
-                    "513"
+                    "517"
                 ],
                 "past_outcome_list": [
                     "Passed",
                     "Passed",
                     "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "Passed",
                     "Failed",
@@ -230,10 +234,6 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -258,6 +258,10 @@
             "problem_count": 4,
             "past_outcome": {
                 "build_keys": [
+                    "546",
+                    "545",
+                    "544",
+                    "543",
                     "542",
                     "541",
                     "540",
@@ -283,16 +287,16 @@
                     "520",
                     "519",
                     "518",
-                    "517",
-                    "516",
-                    "515",
-                    "514",
-                    "513"
+                    "517"
                 ],
                 "past_outcome_list": [
                     "Passed",
                     "Passed",
                     "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "Passed",
                     "Failed",
@@ -313,10 +317,6 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -341,6 +341,10 @@
             "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
+                    "546",
+                    "545",
+                    "544",
+                    "543",
                     "542",
                     "541",
                     "540",
@@ -366,11 +370,7 @@
                     "520",
                     "519",
                     "518",
-                    "517",
-                    "516",
-                    "515",
-                    "514",
-                    "513"
+                    "517"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -378,6 +378,10 @@
                     "Passed",
                     "Passed",
                     "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Flake",
                     "Passed",
                     "Passed",
@@ -396,10 +400,6 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -424,6 +424,10 @@
             "problem_count": 2,
             "past_outcome": {
                 "build_keys": [
+                    "546",
+                    "545",
+                    "544",
+                    "543",
                     "542",
                     "541",
                     "540",
@@ -449,11 +453,7 @@
                     "520",
                     "519",
                     "518",
-                    "517",
-                    "516",
-                    "515",
-                    "514",
-                    "513"
+                    "517"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -467,6 +467,10 @@
                     "Passed",
                     "Passed",
                     "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "Failed",
                     "Passed",
@@ -479,10 +483,6 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -507,6 +507,10 @@
             "problem_count": 2,
             "past_outcome": {
                 "build_keys": [
+                    "546",
+                    "545",
+                    "544",
+                    "543",
                     "542",
                     "541",
                     "540",
@@ -532,11 +536,7 @@
                     "520",
                     "519",
                     "518",
-                    "517",
-                    "516",
-                    "515",
-                    "514",
-                    "513"
+                    "517"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -550,6 +550,10 @@
                     "Passed",
                     "Passed",
                     "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "Failed",
                     "Passed",
@@ -562,10 +566,6 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -590,6 +590,10 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "546",
+                    "545",
+                    "544",
+                    "543",
                     "542",
                     "541",
                     "540",
@@ -615,13 +619,13 @@
                     "520",
                     "519",
                     "518",
-                    "517",
-                    "516",
-                    "515",
-                    "514",
-                    "513"
+                    "517"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -645,10 +649,6 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -673,6 +673,10 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "546",
+                    "545",
+                    "544",
+                    "543",
                     "542",
                     "541",
                     "540",
@@ -698,13 +702,13 @@
                     "520",
                     "519",
                     "518",
-                    "517",
-                    "516",
-                    "515",
-                    "514",
-                    "513"
+                    "517"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -730,10 +734,6 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
                     "Passed"
                 ]
             },
@@ -756,6 +756,10 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "546",
+                    "545",
+                    "544",
+                    "543",
                     "542",
                     "541",
                     "540",
@@ -781,11 +785,7 @@
                     "520",
                     "519",
                     "518",
-                    "517",
-                    "516",
-                    "515",
-                    "514",
-                    "513"
+                    "517"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -809,12 +809,12 @@
                     "Passed",
                     "Passed",
                     "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -839,6 +839,10 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "546",
+                    "545",
+                    "544",
+                    "543",
                     "542",
                     "541",
                     "540",
@@ -864,13 +868,13 @@
                     "520",
                     "519",
                     "518",
-                    "517",
-                    "516",
-                    "515",
-                    "514",
-                    "513"
+                    "517"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -896,10 +900,6 @@
                     "Passed",
                     "Failed",
                     "Passed",
-                    "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
                     "Passed"
                 ]
             },
@@ -911,89 +911,6 @@
                 "outcome": "Failed",
                 "test_time": "52.59",
                 "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221102.1717\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace started\r\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace successful, Duration 0.00 seconds\r\nAddPeak-[Notice] AddPeak started\r\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\r\nAddPeak-[Notice] AddPeak started\r\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\r\nAddPeak-[Notice] AddPeak started\r\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 18.96 seconds\r\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace started\r\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace successful, Duration 0.00 seconds\r\nAddPeak-[Notice] AddPeak started\r\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\r\nAddPeak-[Notice] AddPeak started\r\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\r\nAddPeak-[Notice] AddPeak started\r\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\r\nAddPeak-[Notice] AddPeak started\r\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\r\nAddPeak-[Notice] AddPeak started\r\nAddPeak-[Notice] AddPeak successful, Duration 0.00 seconds\r\n..IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\r\nPrecision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.\r\nPrecision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.\r\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\r\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\r\nIntegratePeaksSkew-[Error] Error in execution of algorithm IntegratePeaksSkew:\r\nIntegratePeaksSkew-[Error] local variable &#x27;dTOF&#x27; referenced before assignment\r\nIntegratePeaksSkew-[Error]   at line 793 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/IntegratePeaksSkew.py&#x27;\r\nEIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.06 seconds\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\r\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\r\nPython-[Notice] Estimated resolution parameters:\r\nBackscatteringTOFResolution = 0.9999999999999979\r\nThetaWidth = 1.4864226597308577e-07\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\r\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\r\nPython-[Warning] Resolution parameters could not be estimated - the provided TOF window parameters arelikely to be suboptimal (probably the resulting window is too large). Please inspect the results (if an OutputFile has been specified the optimal TOF windows found will be plotted on the last page.\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\r\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.01 seconds\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\r\nPython-[Notice] Estimated resolution parameters:\r\nBackscatteringTOFResolution = 0.9999999999999979\r\nThetaWidth = 1.4864226597308577e-07\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\r\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\r\n...IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\r\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\r\n.CloneWorkspace-[Notice] CloneWorkspace started\r\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.02 seconds\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew started\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.03 seconds\r\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 0.04 seconds\r\n.IntegratePeaksSkew-[Notice] IntegratePeaksSkew started\r\nIntegratePeaksSkew-[Notice] IntegratePeaksSkew successful, Duration 4.63 seconds\r\nStarting from Matplotlib 3.6, colorbar() will steal space from the mappable&#x27;s axes, rather than from the current axes, to place the colorbar.  To silence this warning, explicitly pass the &#x27;ax&#x27; argument to colorbar().\r\n.\r\n======================================================================\r\nERROR: test_integrate_use_nearest_peak_false_update_peak_position_false_with_back_to_back_params (IntegratePeaksSkewTest.IntegratePeaksSkewTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\framework\\pythoninterface\\mantid\\simpleapi.py&quot;, line 1058, in __call__\r\n    algm.execute()\r\nRuntimeError: local variable &#x27;dTOF&#x27; referenced before assignment\r\n  at line 793 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/IntegratePeaksSkew.py&#x27;\r\n\r\nThe above exception was the direct cause of the following exception:\r\n\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/test/python/plugins/algorithms/IntegratePeaksSkewTest.py&quot;, line 95, in test_integrate_use_nearest_peak_false_update_peak_position_false_with_back_to_back_params\r\n    out = IntegratePeaksSkew(InputWorkspace=self.ws, PeaksWorkspace=self.peaks,\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\framework\\pythoninterface\\mantid\\simpleapi.py&quot;, line 1065, in __call__\r\n    raise RuntimeError(msg) from e\r\nRuntimeError: IntegratePeaksSkew-v1: local variable &#x27;dTOF&#x27; referenced before assignment\r\n  at line 793 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/IntegratePeaksSkew.py&#x27;\r\n\r\n----------------------------------------------------------------------\r\nRan 17 tests in 38.058s\r\n\r\nFAILED (errors=1)\r\n\r\n          Start 1202: GeometryTest_SymmetryElementFactoryTest\r\n"
-            }
-        },
-        {
-            "test_name": "python.simplescanviewer.RectanglePlotTest.RectanglePlotTest",
-            "latest_failed_build": "513",
-            "agent_name": "Windows",
-            "last_failed_outcome": "Failed",
-            "pipeline_name": "pull_requests-conda-windows",
-            "problem_count": 1,
-            "past_outcome": {
-                "build_keys": [
-                    "542",
-                    "541",
-                    "540",
-                    "539",
-                    "538",
-                    "537",
-                    "536",
-                    "535",
-                    "534",
-                    "533",
-                    "532",
-                    "531",
-                    "530",
-                    "529",
-                    "528",
-                    "527",
-                    "526",
-                    "525",
-                    "524",
-                    "523",
-                    "522",
-                    "521",
-                    "520",
-                    "519",
-                    "518",
-                    "517",
-                    "516",
-                    "515",
-                    "514",
-                    "513"
-                ],
-                "past_outcome_list": [
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Failed"
-                ]
-            },
-            "last_stack_traces": {
-                "test_name": "python.simplescanviewer.RectanglePlotTest.RectanglePlotTest",
-                "build": "513",
-                "agent_name": "Windows",
-                "trial": 3,
-                "outcome": "Failed",
-                "test_time": "5.84",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221102.1142\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\n..CreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\r\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\r\n.CreateWorkspace-[Notice] CreateWorkspace started\r\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\r\nCreateWorkspace-[Notice] CreateWorkspace started\r\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\r\nCreateWorkspace-[Notice] CreateWorkspace started\r\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\r\nCreateWorkspace-[Notice] CreateWorkspace started\r\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\r\nCreateWorkspace-[Notice] CreateWorkspace started\r\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\r\nCreateWorkspace-[Notice] CreateWorkspace started\r\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\r\nCreateWorkspace-[Notice] CreateWorkspace started\r\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\r\nCreateWorkspace-[Notice] CreateWorkspace started\r\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\r\n...Exit code 0xc0000409\r\n\r\n\r\n          Start 2163: python.MuonQt5.ea_auto_tab_model_test.ea_auto_tab_model_test\r\n"
             }
         }
     ]

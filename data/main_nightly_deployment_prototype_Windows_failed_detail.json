@@ -1,14 +1,15 @@
 {
     "data": [
         {
-            "test_name": "AlgorithmsTest_FitPeaksTest",
-            "latest_failed_build": "439",
+            "test_name": "DataHandlingTest_LoadNexusProcessedTest",
+            "latest_failed_build": "442",
             "agent_name": "Windows",
             "last_failed_outcome": "Flake",
             "pipeline_name": "main_nightly_deployment_prototype",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "442",
                     "441",
                     "440",
                     "439",
@@ -17,15 +18,57 @@
                     "436",
                     "435",
                     "434",
-                    "433",
-                    "432"
+                    "433"
+                ],
+                "past_outcome_list": [
+                    "Flake",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "DataHandlingTest_LoadNexusProcessedTest",
+                "build": "442",
+                "agent_name": "Windows",
+                "trial": 1,
+                "outcome": "Failed",
+                "test_time": "9.32",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221104.1627\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 45 tests.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nISISRunLogs-[Warning] Cannot find status log. Logs will be not be filtered by run status\r\nISISRunLogs-[Warning] Cannot find period log. Logs will be not be filtered by current period\r\nISISRunLogs-[Warning] Cannot find periods log. Logs will be not be filtered by current period\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.26 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nISISRunLogs-[Warning] Cannot find status log. Logs will be not be filtered by run status\r\nISISRunLogs-[Warning] Cannot find period log. Logs will be not be filtered by current period\r\nISISRunLogs-[Warning] Cannot find periods log. Logs will be not be filtered by current period\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.04 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nISISRunLogs-[Warning] Cannot find status log. Logs will be not be filtered by run status\r\nISISRunLogs-[Warning] Cannot find period log. Logs will be not be filtered by current period\r\nISISRunLogs-[Warning] Cannot find periods log. Logs will be not be filtered by current period\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.05 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nISISRunLogs-[Warning] Cannot find status log. Logs will be not be filtered by run status\r\nISISRunLogs-[Warning] Cannot find period log. Logs will be not be filtered by current period\r\nISISRunLogs-[Warning] Cannot find periods log. Logs will be not be filtered by current period\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.04 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nISISRunLogs-[Warning] Cannot find status log. Logs will be not be filtered by run status\r\nISISRunLogs-[Warning] Cannot find period log. Logs will be not be filtered by current period\r\nISISRunLogs-[Warning] Cannot find periods log. Logs will be not be filtered by current period\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.05 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nISISRunLogs-[Warning] Cannot find status log. Logs will be not be filtered by run status\r\nISISRunLogs-[Warning] Cannot find period log. Logs will be not be filtered by current period\r\nISISRunLogs-[Warning] Cannot find periods log. Logs will be not be filtered by current period\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.04 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nISISRunLogs-[Warning] Cannot find status log. Logs will be not be filtered by run status\r\nISISRunLogs-[Warning] Cannot find period log. Logs will be not be filtered by current period\r\nISISRunLogs-[Warning] Cannot find periods log. Logs will be not be filtered by current period\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.08 seconds\r\nSaveNexusProcessed-[Notice] SaveNexusProcessed started\r\nSaveNexusProcessed-[Notice] SaveNexusProcessed successful, Duration 0.07 seconds\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nISISRunLogs-[Warning] Cannot find status log. Logs will be not be filtered by run status\r\nISISRunLogs-[Warning] Cannot find period log. Logs will be not be filtered by current period\r\nISISRunLogs-[Warning] Cannot find periods log. Logs will be not be filtered by current period\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.05 seconds\r\n.SaveNexusProcessed-[Notice] SaveNexusProcessed started\r\nInstrument-[Warning] Saving Instrument with no XML data. If this was instrument data you may not be able to load this data back into Mantid, for fitted/analysed data this warning can be ignored.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nSaveNexusProcessed-[Notice] SaveNexusProcessed successful, Duration 0.12 seconds\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.02 seconds\r\nCompareWorkspaces-[Notice] CompareWorkspaces started\r\nCompareWorkspaces-[Warning] Event workspace has unit as  and .  Tolerance of TOF is set to 0.05 still. \r\nCompareWorkspaces-[Notice] TOF Tolerance = 0.05\r\nCompareWorkspaces-[Notice] The workspaces &quot;&quot; and &quot;nxstest&quot; matched!\r\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\r\n.SaveNexusProcessed-[Notice] SaveNexusProcessed started\r\nInstrument-[Warning] Saving Instrument with no XML data. If this was instrument data you may not be able to load this data back into Mantid, for fitted/analysed data this warning can be ignored.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nSaveNexusProcessed-[Notice] SaveNexusProcessed successful, Duration 0.04 seconds\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.03 seconds\r\nCompareWorkspaces-[Notice] CompareWorkspaces started\r\nCompareWorkspaces-[Warning] Event workspace has unit as  and .  Tolerance of TOF is set to 0.05 still. \r\nCompareWorkspaces-[Notice] TOF Tolerance = 0.05\r\nCompareWorkspaces-[Notice] The workspaces &quot;&quot; and &quot;nxstest&quot; matched!\r\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\r\n.SaveNexusProcessed-[Notice] SaveNexusProcessed started\r\nInstrument-[Warning] Saving Instrument with no XML data. If this was instrument data you may not be able to load this data back into Mantid, for fitted/analysed data this warning can be ignored.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nSaveNexusProcessed-[Notice] SaveNexusProcessed successful, Duration 0.02 seconds\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.03 seconds\r\nCompareWorkspaces-[Notice] CompareWorkspaces started\r\nCompareWorkspaces-[Warning] Event workspace has unit as  and .  Tolerance of TOF is set to 0.05 still. \r\nCompareWorkspaces-[Notice] TOF Tolerance = 0.05\r\nCompareWorkspaces-[Notice] The workspaces &quot;&quot; and &quot;nxstest&quot; matched!\r\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\r\n.SaveNexusProcessed-[Notice] SaveNexusProcessed started\r\nInstrument-[Warning] Saving Instrument with no XML data. If this was instrument data you may not be able to load this data back into Mantid, for fitted/analysed data this warning can be ignored.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nSaveNexusProcessed-[Notice] SaveNexusProcessed successful, Duration 0.03 seconds\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.03 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.08 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.06 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Error] Invalid list of spectra\r\nLoadNexusProcessed-[Error] Logic Error in execution of algorithm LoadNexusProcessed\r\nLoadNexusProcessed-[Error] Inconsistent properties defined\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.03 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.04 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.02 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.03 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.55 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.10 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.10 seconds\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.09 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nInstrumentDefinitionParser-[Warning] Attribute &#x27;mark-as&#x27; is a depricated attribute in Instrument Definition File. Please see the deprecated section of www.mantidproject.org/IDF for how to remove this warning message\r\nInstrumentDefinitionParser-[Warning] Attribute &#x27;mark-as&#x27; is a depricated attribute in Instrument Definition File. Please see the deprecated section of www.mantidproject.org/IDF for how to remove this warning message\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.15 seconds\r\n.Load-[Notice] Load started\r\nLoad-[Notice] Load successful, Duration 0.04 seconds\r\n.....SaveNexusProcessed-[Notice] SaveNexusProcessed started\r\nSaveNexusProcessed-[Notice] SaveNexusProcessed successful, Duration 0.00 seconds\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.01 seconds\r\n.SaveNexusProcessed-[Notice] SaveNexusProcessed started\r\nInstrument-[Warning] Saving Instrument with no XML data. If this was instrument data you may not be able to load this data back into Mantid, for fitted/analysed data this warning can be ignored.\r\nSaveNexusProcessed-[Notice] SaveNexusProcessed successful, Duration 0.01 seconds\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.02 seconds\r\n.SaveNexusProcessed-[Notice] SaveNexusProcessed started\r\nInstrument-[Warning] Saving Instrument with no XML data. If this was instrument data you may not be able to load this data back into Mantid, for fitted/analysed data this warning can be ignored.\r\nSaveNexusProcessed-[Notice] SaveNexusProcessed successful, Duration 0.01 seconds\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.03 seconds\r\n.SaveNexusProcessed-[Notice] SaveNexusProcessed started\r\nInstrument-[Warning] Saving Instrument with no XML data. If this was instrument data you may not be able to load this data back into Mantid, for fitted/analysed data this warning can be ignored.\r\nSaveNexusProcessed-[Notice] SaveNexusProcessed successful, Duration 0.01 seconds\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.02 seconds\r\n.SaveNexusProcessed-[Notice] SaveNexusProcessed started\r\nInstrument-[Warning] Saving Instrument with no XML data. If this was instrument data you may not be able to load this data back into Mantid, for fitted/analysed data this warning can be ignored.\r\nSaveNexusProcessed-[Notice] SaveNexusProcessed successful, Duration 0.03 seconds\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Warning] Legacy X uncertainty found in input file, i.e., delta-Q for each BIN EDGE. Uncertainties will be re-interpreted as delta-Q of the BIN CENTRE and the last value will be dropped.\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.02 seconds\r\n.SaveNexusProcessed-[Notice] SaveNexusProcessed started\r\nInstrument-[Warning] Saving Instrument with no XML data. If this was instrument data you may not be able to load this data back into Mantid, for fitted/analysed data this warning can be ignored.\r\nSaveNexusProcessed-[Notice] SaveNexusProcessed successful, Duration 0.01 seconds\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.03 seconds\r\n.SaveNexusProcessed-[Notice] SaveNexusProcessed started\r\nInstrument-[Warning] Saving Instrument with no XML data. If this was instrument data you may not be able to load this data back into Mantid, for fitted/analysed data this warning can be ignored.\r\nSaveNexusProcessed-[Notice] SaveNexusProcessed successful, Duration 0.01 seconds\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.03 seconds\r\n.LoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\POLREFae0cf085fed7f3447063ea96df40c97831d0a036.vtp\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.98 seconds\r\n.SaveNexusProcessed-[Notice] SaveNexusProcessed started\r\nInstrument-[Warning] Saving Instrument with no XML data. If this was instrument data you may not be able to load this data back into Mantid, for fitted/analysed data this warning can be ignored.\r\nSaveNexusProcessed-[Notice] SaveNexusProcessed successful, Duration 0.01 seconds\r\nSaveNexusProcessed-[Notice] SaveNexusProcessed started\r\nInstrument-[Warning] Saving Instrument with no XML data. If this was instrument data you may not be able to load this data back into Mantid, for fitted/analysed data this warning can be ignored.\r\nSaveNexusProcessed-[Notice] SaveNexusProcessed successful, Duration 0.02 seconds\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.07 seconds\r\n.....LoadNexus-[Notice] LoadNexus started\r\nLoadNexusLogs-[Warning] Sample Log &quot;cryo_temp1&quot; and 1 others contain invalid values, click &quot;Show Sample Logs&quot; for details.\r\nLoadNexus-[Notice] LoadNexus successful, Duration 0.43 seconds\r\nSaveNexusProcessed-[Notice] SaveNexusProcessed started\r\nSaveNexusProcessed-[Notice] SaveNexusProcessed successful, Duration 0.42 seconds\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.24 seconds\r\n.LoadNexus-[Notice] LoadNexus started\r\nLoadNexus-[Notice] LoadNexus successful, Duration 0.65 seconds\r\nSaveNexusProcessed-[Notice] SaveNexusProcessed started\r\nSaveNexusProcessed-[Notice] SaveNexusProcessed successful, Duration 0.34 seconds\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed started\r\nLoadNexusProcessed-[Notice] LoadNexusProcessed successful, Duration 0.32 seconds\r\n.SaveNexusProcessed-[Notice] SaveNexusProcessed started\r\nInstrument-[Warning] Saving Instrument with no XML data. If this was instrument data you may not be able to load this data back into Mantid, for fitted/analysed data this warning can be ignored.\r\nAccess violation\r\n\r\n          Start  917: DataHandlingTest_LoadNexusProcessedTest\r\n"
+            }
+        },
+        {
+            "test_name": "AlgorithmsTest_FitPeaksTest",
+            "latest_failed_build": "439",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Flake",
+            "pipeline_name": "main_nightly_deployment_prototype",
+            "problem_count": 2,
+            "past_outcome": {
+                "build_keys": [
+                    "442",
+                    "441",
+                    "440",
+                    "439",
+                    "438",
+                    "437",
+                    "436",
+                    "435",
+                    "434",
+                    "433"
                 ],
                 "past_outcome_list": [
                     "Passed",
                     "Passed",
+                    "Passed",
                     "Flake",
                     "Failed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -52,6 +95,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "442",
                     "441",
                     "440",
                     "439",
@@ -60,8 +104,7 @@
                     "436",
                     "435",
                     "434",
-                    "433",
-                    "432"
+                    "433"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -72,8 +115,8 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Flake",
-                    "Passed"
+                    "Passed",
+                    "Flake"
                 ]
             },
             "last_stack_traces": {
@@ -95,6 +138,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "442",
                     "441",
                     "440",
                     "439",
@@ -103,8 +147,7 @@
                     "436",
                     "435",
                     "434",
-                    "433",
-                    "432"
+                    "433"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -115,8 +158,8 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Flake",
-                    "Passed"
+                    "Passed",
+                    "Flake"
                 ]
             },
             "last_stack_traces": {

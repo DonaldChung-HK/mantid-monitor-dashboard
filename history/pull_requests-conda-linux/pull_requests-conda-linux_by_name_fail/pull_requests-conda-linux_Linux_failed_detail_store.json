@@ -21,7 +21,7 @@
         },
         "mantidqt_qt5.test_sliceviewer_imageinfowidget.test_sliceviewer_imageinfowidget": {
             "test_name": "mantidqt_qt5.test_sliceviewer_imageinfowidget.test_sliceviewer_imageinfowidget",
-            "latest_failed_build": "1806",
+            "latest_failed_build": "1810",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
@@ -30,11 +30,12 @@
                 "1801": "Failed",
                 "1802": "Failed",
                 "1804": "Failed",
-                "1806": "Failed"
+                "1806": "Failed",
+                "1810": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "mantidqt_qt5.test_sliceviewer_imageinfowidget.test_sliceviewer_imageinfowidget",
-                "build": "1806",
+                "build": "1810",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
@@ -178,7 +179,7 @@
         },
         "MantidQtWidgetsCommonTestQt5_ImageInfoPresenterTest": {
             "test_name": "MantidQtWidgetsCommonTestQt5_ImageInfoPresenterTest",
-            "latest_failed_build": "1806",
+            "latest_failed_build": "1810",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
@@ -187,11 +188,12 @@
                 "1801": "Failed",
                 "1802": "Failed",
                 "1804": "Failed",
-                "1806": "Failed"
+                "1806": "Failed",
+                "1810": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "MantidQtWidgetsCommonTestQt5_ImageInfoPresenterTest",
-                "build": "1806",
+                "build": "1810",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
@@ -201,7 +203,7 @@
         },
         "mantidqt_qt5.test_sliceviewer_dataview.test_sliceviewer_dataview": {
             "test_name": "mantidqt_qt5.test_sliceviewer_dataview.test_sliceviewer_dataview",
-            "latest_failed_build": "1806",
+            "latest_failed_build": "1810",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
@@ -210,11 +212,12 @@
                 "1801": "Failed",
                 "1802": "Failed",
                 "1804": "Failed",
-                "1806": "Failed"
+                "1806": "Failed",
+                "1810": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "mantidqt_qt5.test_sliceviewer_dataview.test_sliceviewer_dataview",
-                "build": "1806",
+                "build": "1810",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
@@ -224,7 +227,7 @@
         },
         "mantidqt_qt5.test_sliceviewer_presenter.test_sliceviewer_presenter": {
             "test_name": "mantidqt_qt5.test_sliceviewer_presenter.test_sliceviewer_presenter",
-            "latest_failed_build": "1806",
+            "latest_failed_build": "1810",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
@@ -233,11 +236,12 @@
                 "1801": "Failed",
                 "1802": "Failed",
                 "1804": "Failed",
-                "1806": "Failed"
+                "1806": "Failed",
+                "1810": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "mantidqt_qt5.test_sliceviewer_presenter.test_sliceviewer_presenter",
-                "build": "1806",
+                "build": "1810",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
@@ -247,17 +251,18 @@
         },
         "python.scripts.CrystalFieldTest.CrystalFieldTest": {
             "test_name": "python.scripts.CrystalFieldTest.CrystalFieldTest",
-            "latest_failed_build": "1806",
+            "latest_failed_build": "1810",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
             "past_failed_outcome": {
                 "1799": "Failed",
-                "1806": "Failed"
+                "1806": "Failed",
+                "1810": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "python.scripts.CrystalFieldTest.CrystalFieldTest",
-                "build": "1806",
+                "build": "1810",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",

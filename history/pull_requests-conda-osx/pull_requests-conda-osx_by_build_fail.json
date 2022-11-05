@@ -3350,6 +3350,118 @@
                     }
                 }
             }
+        },
+        "503": {
+            "build_name": "503",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "504": {
+            "build_name": "504",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2640,
+                "Passed": 2640,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2640,
+                        "Passed": 2640,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "505": {
+            "build_name": "505",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2640,
+                "Passed": 2640,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2640,
+                        "Passed": 2640,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "506": {
+            "build_name": "506",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2640,
+                "Passed": 2640,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2640,
+                        "Passed": 2640,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
         }
     }
 }

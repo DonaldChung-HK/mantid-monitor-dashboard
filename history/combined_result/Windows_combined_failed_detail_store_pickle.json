@@ -163,6 +163,14 @@
                 "pull_requests-conda-windows_530": "Failed",
                 "pull_requests-conda-windows_531": "Failed"
             }
+        },
+        "DataHandlingTest_LoadNexusProcessedTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "DataHandlingTest_LoadNexusProcessedTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "main_nightly_deployment_prototype_442": "Flake"
+            }
         }
     }
 }

@@ -4,17 +4,18 @@
         "AlgorithmsTest_FitPeaksTest": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "AlgorithmsTest_FitPeaksTest",
-            "latest_failed_build": "1793",
+            "latest_failed_build": "1812",
             "agent_name": "Linux",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-linux",
             "past_failed_outcome": {
-                "1793": "Flake"
+                "1793": "Flake",
+                "1812": "Flake"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "AlgorithmsTest_FitPeaksTest",
-                "build": "1793",
+                "build": "1812",
                 "agent_name": "Linux",
                 "trial": 1,
                 "outcome": "Failed",

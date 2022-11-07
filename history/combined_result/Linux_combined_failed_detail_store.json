@@ -7,7 +7,8 @@
                 "main_nightly_deployment_prototype_430": "Flake",
                 "main_nightly_deployment_prototype_435": "Flake",
                 "pull_requests-conda-linux_1761": "Flake",
-                "pull_requests-conda-linux_1793": "Flake"
+                "pull_requests-conda-linux_1793": "Flake",
+                "pull_requests-conda-linux_1812": "Flake"
             }
         },
         "python.MuonQt5.tf_asymmetry_fitting_view_test.tf_asymmetry_fitting_view_test": {

@@ -3590,6 +3590,82 @@
                     }
                 }
             }
+        },
+        "1811": {
+            "build_name": "1811",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2640,
+                "Passed": 2640,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Linux": {
+                    "agent_name": "Linux",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2640,
+                        "Passed": 2640,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "1812": {
+            "build_name": "1812",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2639,
+                "Passed": 2638,
+                "Flake": 1,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Linux": {
+                    "agent_name": "Linux",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2639,
+                        "Passed": 2638,
+                        "Flake": 1,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {
+                            "AlgorithmsTest_FitPeaksTest": {
+                                "test_name": "AlgorithmsTest_FitPeaksTest",
+                                "trials": [
+                                    {
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "0.34",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221103.1211\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 10 tests.Instrument-[Warning] In Instrument::getSource(). No source has been set.\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\nFitPeaks-[Notice] FitPeaks started\npure virtual method called\n\n********* UNHANDLED EXCEPTION *********\nSegmentation fault\n\n          Start  303: AlgorithmsTest_FitPeaksTest\n"
+                                    },
+                                    {
+                                        "trial_num": 2,
+                                        "outcome": "Passed",
+                                        "test_time": "3.02",
+                                        "stack_trace": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
         }
     }
 }

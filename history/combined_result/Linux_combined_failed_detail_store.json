@@ -36,7 +36,9 @@
             "agent_name": "Linux",
             "past_failed_outcome": {
                 "pull_requests-conda-linux_1777": "Failed",
-                "pull_requests-conda-linux_1778": "Failed"
+                "pull_requests-conda-linux_1778": "Failed",
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed"
             }
         },
         "python.MuonQt5.tf_asymmetry_fitting_options_view_test.tf_asymmetry_fitting_options_view_test": {
@@ -72,14 +74,17 @@
             "test_name": "mantidqt_qt5.test_interpreter.test_interpreter",
             "agent_name": "Linux",
             "past_failed_outcome": {
-                "pull_requests-conda-linux_1784": "Flake"
+                "pull_requests-conda-linux_1784": "Flake",
+                "pull_requests-conda-linux_1825": "Flake"
             }
         },
         "python.algorithms.IntegratePeaksSkewTest.IntegratePeaksSkewTest": {
             "test_name": "python.algorithms.IntegratePeaksSkewTest.IntegratePeaksSkewTest",
             "agent_name": "Linux",
             "past_failed_outcome": {
-                "pull_requests-conda-linux_1784": "Failed"
+                "pull_requests-conda-linux_1784": "Failed",
+                "pull_requests-conda-linux_1835": "Failed",
+                "pull_requests-conda-linux_1839": "Failed"
             }
         },
         "MantidQtWidgetsCommonTestQt5_ImageInfoPresenterTest": {
@@ -141,6 +146,134 @@
             "past_failed_outcome": {
                 "pull_requests-conda-linux_1795": "Failed",
                 "pull_requests-conda-linux_1796": "Failed"
+            }
+        },
+        "MantidQtWidgetsMplCppTestQt5_FigureCanvasQtTest": {
+            "test_name": "MantidQtWidgetsMplCppTestQt5_FigureCanvasQtTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed"
+            }
+        },
+        "MantidQtWidgetsMplCppTestQt5_PlotTest": {
+            "test_name": "MantidQtWidgetsMplCppTestQt5_PlotTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed"
+            }
+        },
+        "mantidqt_qt5.test_apply_all_properties.test_apply_all_properties": {
+            "test_name": "mantidqt_qt5.test_apply_all_properties.test_apply_all_properties",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed"
+            }
+        },
+        "mantidqt_qt5.test_curvestabwidgetpresenter.test_curvestabwidgetpresenter": {
+            "test_name": "mantidqt_qt5.test_curvestabwidgetpresenter.test_curvestabwidgetpresenter",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed"
+            }
+        },
+        "mantidqt_qt5.test_fitpropertybrowser.test_fitpropertybrowser": {
+            "test_name": "mantidqt_qt5.test_fitpropertybrowser.test_fitpropertybrowser",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed"
+            }
+        },
+        "mantidqt_qt5.test_functions.test_functions": {
+            "test_name": "mantidqt_qt5.test_functions.test_functions",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed"
+            }
+        },
+        "mantidqt_qt5.test_plotssaver.test_plotssaver": {
+            "test_name": "mantidqt_qt5.test_plotssaver.test_plotssaver",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed"
+            }
+        },
+        "mantidqt_qt5.test_regionselector_presenter.test_regionselector_presenter": {
+            "test_name": "mantidqt_qt5.test_regionselector_presenter.test_regionselector_presenter",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed"
+            }
+        },
+        "mantidqt_qt5.test_tiledplots.test_tiledplots": {
+            "test_name": "mantidqt_qt5.test_tiledplots.test_tiledplots",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed"
+            }
+        },
+        "python.plots.plotfunctionsTest.plotfunctionsTest": {
+            "test_name": "python.plots.plotfunctionsTest.plotfunctionsTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed"
+            }
+        },
+        "workbench.test_figureerrorsmanager.test_figureerrorsmanager": {
+            "test_name": "workbench.test_figureerrorsmanager.test_figureerrorsmanager",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed"
+            }
+        },
+        "workbench.test_figureinteraction.test_figureinteraction": {
+            "test_name": "workbench.test_figureinteraction.test_figureinteraction",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed"
+            }
+        },
+        "workbench.test_figurewindow.test_figurewindow": {
+            "test_name": "workbench.test_figurewindow.test_figurewindow",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed"
+            }
+        },
+        "workbench.test_plotscriptgenerator.test_plotscriptgenerator": {
+            "test_name": "workbench.test_plotscriptgenerator.test_plotscriptgenerator",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed"
+            }
+        },
+        "workbench.test_plotscriptgeneratorlegend.test_plotscriptgeneratorlegend": {
+            "test_name": "workbench.test_plotscriptgeneratorlegend.test_plotscriptgeneratorlegend",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed"
+            }
+        },
+        "workbench.test_utility.test_utility": {
+            "test_name": "workbench.test_utility.test_utility",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed"
             }
         }
     }

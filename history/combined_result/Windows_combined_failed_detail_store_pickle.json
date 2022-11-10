@@ -329,6 +329,34 @@
                 "pull_requests-conda-windows_556": "Flake",
                 "pull_requests-conda-windows_558": "Flake"
             }
+        },
+        "python.algorithms.HB2AReduceTest.HB2AReduceTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.algorithms.HB2AReduceTest.HB2AReduceTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_581": "Failed",
+                "pull_requests-conda-windows_582": "Failed",
+                "pull_requests-conda-windows_583": "Failed",
+                "pull_requests-conda-windows_584": "Failed",
+                "pull_requests-conda-windows_586": "Failed"
+            }
+        },
+        "mantidqt_qt5.test_base_presenter.test_base_presenter": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "mantidqt_qt5.test_base_presenter.test_base_presenter",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_579": "Failed"
+            }
+        },
+        "python.MuonQt5.general_fitting_view_test.general_fitting_view_test": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.MuonQt5.general_fitting_view_test.general_fitting_view_test",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "main_nightly_deployment_prototype_445": "Flake"
+            }
         }
     }
 }

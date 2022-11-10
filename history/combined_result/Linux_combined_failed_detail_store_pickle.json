@@ -308,6 +308,36 @@
                 "pull_requests-conda-linux_1829": "Failed",
                 "pull_requests-conda-linux_1831": "Failed"
             }
+        },
+        "mantidqt_qt5.test_base_presenter.test_base_presenter": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "mantidqt_qt5.test_base_presenter.test_base_presenter",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1845": "Failed",
+                "pull_requests-conda-linux_1854": "Failed"
+            }
+        },
+        "python.algorithms.HB2AReduceTest.HB2AReduceTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.algorithms.HB2AReduceTest.HB2AReduceTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1847": "Failed",
+                "pull_requests-conda-linux_1848": "Failed",
+                "pull_requests-conda-linux_1849": "Failed",
+                "pull_requests-conda-linux_1850": "Failed",
+                "pull_requests-conda-linux_1852": "Failed",
+                "pull_requests-conda-linux_1853": "Failed"
+            }
+        },
+        "AlgorithmsTest_SassenaFFTTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "AlgorithmsTest_SassenaFFTTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1849": "Flake"
+            }
         }
     }
 }

@@ -50,7 +50,8 @@
                 "main_nightly_deployment_prototype_439": "Failed",
                 "main_nightly_deployment_prototype_441": "Failed",
                 "main_nightly_deployment_prototype_442": "Failed",
-                "main_nightly_deployment_prototype_444": "Failed"
+                "main_nightly_deployment_prototype_444": "Failed",
+                "main_nightly_deployment_prototype_445": "Failed"
             }
         },
         "python.simplescanviewer.RectanglePlotTest.RectanglePlotTest": {
@@ -157,7 +158,9 @@
             "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisModelTest",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_535": "Failed"
+                "pull_requests-conda-osx_535": "Failed",
+                "pull_requests-conda-osx_541": "Failed",
+                "pull_requests-conda-osx_553": "Failed"
             }
         },
         "MantidQtInterfacesDirectTestQt5_ALFAnalysisPresenterTest": {
@@ -165,7 +168,9 @@
             "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisPresenterTest",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_535": "Failed"
+                "pull_requests-conda-osx_535": "Failed",
+                "pull_requests-conda-osx_541": "Failed",
+                "pull_requests-conda-osx_553": "Failed"
             }
         },
         "MantidQtInterfacesDirectTestQt5_ALFInstrumentModelTest": {
@@ -173,7 +178,9 @@
             "test_name": "MantidQtInterfacesDirectTestQt5_ALFInstrumentModelTest",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_535": "Failed"
+                "pull_requests-conda-osx_535": "Failed",
+                "pull_requests-conda-osx_541": "Failed",
+                "pull_requests-conda-osx_553": "Failed"
             }
         },
         "MantidQtInterfacesDirectTestQt5_ALFInstrumentPresenterTest": {
@@ -181,7 +188,9 @@
             "test_name": "MantidQtInterfacesDirectTestQt5_ALFInstrumentPresenterTest",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_535": "Failed"
+                "pull_requests-conda-osx_535": "Failed",
+                "pull_requests-conda-osx_541": "Failed",
+                "pull_requests-conda-osx_553": "Failed"
             }
         },
         "MantidQtWidgetsMplCppTestQt5_FigureCanvasQtTest": {
@@ -310,6 +319,65 @@
             "agent_name": "Mac",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_524": "Failed"
+            }
+        },
+        "python.WorkflowAlgorithms.ReflectometryISISLoadAndProcessTest.ReflectometryISISLoadAndProcessTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.WorkflowAlgorithms.ReflectometryISISLoadAndProcessTest.ReflectometryISISLoadAndProcessTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_557": "Failed"
+            }
+        },
+        "python.WorkflowAlgorithms.ReflectometryISISPreprocessTest.ReflectometryISISPreprocessTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.WorkflowAlgorithms.ReflectometryISISPreprocessTest.ReflectometryISISPreprocessTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_557": "Failed"
+            }
+        },
+        "python.algorithms.ReflectometryReductionOneLiveDataTest.ReflectometryReductionOneLiveDataTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.algorithms.ReflectometryReductionOneLiveDataTest.ReflectometryReductionOneLiveDataTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_557": "Failed"
+            }
+        },
+        "KernelTest_StdoutChannelTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "KernelTest_StdoutChannelTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_552": "Flake"
+            }
+        },
+        "python.algorithms.HB2AReduceTest.HB2AReduceTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.algorithms.HB2AReduceTest.HB2AReduceTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_545": "Failed",
+                "pull_requests-conda-osx_546": "Failed",
+                "pull_requests-conda-osx_547": "Failed",
+                "pull_requests-conda-osx_548": "Failed"
+            }
+        },
+        "mantidqt_qt5.test_base_presenter.test_base_presenter": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "mantidqt_qt5.test_base_presenter.test_base_presenter",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_543": "Failed"
+            }
+        },
+        "python.WorkflowAlgorithms.TransformToIqtTest.TransformToIqtTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.WorkflowAlgorithms.TransformToIqtTest.TransformToIqtTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "main_nightly_deployment_prototype_446": "Flake"
             }
         }
     }

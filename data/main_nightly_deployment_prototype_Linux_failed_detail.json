@@ -9,6 +9,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "447",
                     "446",
                     "445",
                     "444",
@@ -17,17 +18,16 @@
                     "441",
                     "440",
                     "439",
-                    "438",
-                    "437"
+                    "438"
                 ],
                 "past_outcome_list": [
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
                     "None",
                     "Passed",
                     "Flake",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"

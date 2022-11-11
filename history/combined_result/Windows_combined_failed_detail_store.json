@@ -131,7 +131,9 @@
                 "pull_requests-conda-windows_534": "Failed",
                 "pull_requests-conda-windows_536": "Failed",
                 "pull_requests-conda-windows_537": "Failed",
-                "pull_requests-conda-windows_539": "Failed"
+                "pull_requests-conda-windows_539": "Failed",
+                "pull_requests-conda-windows_611": "Failed",
+                "pull_requests-conda-windows_612": "Failed"
             }
         },
         "AlgorithmsTest_Q1DWeightedTest": {
@@ -317,6 +319,68 @@
             "agent_name": "Windows",
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_445": "Flake"
+            }
+        },
+        "mantidqt_qt5.test_cut_representation.test_cut_representation": {
+            "test_name": "mantidqt_qt5.test_cut_representation.test_cut_representation",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_611": "Failed",
+                "pull_requests-conda-windows_612": "Failed",
+                "pull_requests-conda-windows_615": "Failed"
+            }
+        },
+        "python.WorkflowAlgorithms.ReflectometryISISLoadAndProcessTest.ReflectometryISISLoadAndProcessTest": {
+            "test_name": "python.WorkflowAlgorithms.ReflectometryISISLoadAndProcessTest.ReflectometryISISLoadAndProcessTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_594": "Failed",
+                "pull_requests-conda-windows_609": "Failed",
+                "pull_requests-conda-windows_613": "Failed"
+            }
+        },
+        "python.WorkflowAlgorithms.ReflectometryISISPreprocessTest.ReflectometryISISPreprocessTest": {
+            "test_name": "python.WorkflowAlgorithms.ReflectometryISISPreprocessTest.ReflectometryISISPreprocessTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_594": "Failed",
+                "pull_requests-conda-windows_609": "Failed",
+                "pull_requests-conda-windows_613": "Failed"
+            }
+        },
+        "python.EngineeringDiffraction.engineering_diffraction_io_test.engineering_diffraction_io_test": {
+            "test_name": "python.EngineeringDiffraction.engineering_diffraction_io_test.engineering_diffraction_io_test",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_596": "Failed"
+            }
+        },
+        "python.EngineeringDiffraction.test_data_model.test_data_model": {
+            "test_name": "python.EngineeringDiffraction.test_data_model.test_data_model",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_596": "Failed"
+            }
+        },
+        "python.EngineeringDiffraction.test_data_presenter.test_data_presenter": {
+            "test_name": "python.EngineeringDiffraction.test_data_presenter.test_data_presenter",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_596": "Failed"
+            }
+        },
+        "python.EngineeringDiffraction.test_gsas2_model.test_gsas2_model": {
+            "test_name": "python.EngineeringDiffraction.test_gsas2_model.test_gsas2_model",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_596": "Failed"
+            }
+        },
+        "python.algorithms.ReflectometryReductionOneLiveDataTest.ReflectometryReductionOneLiveDataTest": {
+            "test_name": "python.algorithms.ReflectometryReductionOneLiveDataTest.ReflectometryReductionOneLiveDataTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_594": "Failed"
             }
         }
     }

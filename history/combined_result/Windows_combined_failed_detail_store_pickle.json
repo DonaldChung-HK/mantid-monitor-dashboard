@@ -429,6 +429,22 @@
             "past_failed_outcome": {
                 "pull_requests-conda-windows_594": "Failed"
             }
+        },
+        "python.SANS.command_interface.command_interface_state_director_test.command_interface_state_director_test": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.SANS.command_interface.command_interface_state_director_test.command_interface_state_director_test",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_622": "Failed"
+            }
+        },
+        "python.SANS.user_file.txt_parsers.toml_v1_parser_test.toml_v1_parser_test": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.SANS.user_file.txt_parsers.toml_v1_parser_test.toml_v1_parser_test",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_622": "Failed"
+            }
         }
     }
 }

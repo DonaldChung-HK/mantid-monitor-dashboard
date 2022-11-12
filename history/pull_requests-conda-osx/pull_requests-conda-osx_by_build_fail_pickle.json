@@ -7963,6 +7963,1476 @@
                     }
                 }
             }
+        },
+        "581": {
+            "py/object": "data_object.Build",
+            "build_name": "581",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2645,
+                "Passed": 2645,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2645,
+                        "Passed": 2645,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "582": {
+            "py/object": "data_object.Build",
+            "build_name": "582",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2645,
+                "Passed": 2635,
+                "Flake": 0,
+                "Failed": 2,
+                "Timeout": 8
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2645,
+                        "Passed": 2635,
+                        "Flake": 0,
+                        "Failed": 2,
+                        "Timeout": 8
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {
+                            "mantidqt_qt5.test_cut_representation.test_cut_representation": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "mantidqt_qt5.test_cut_representation.test_cut_representation",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "0.59",
+                                        "stack_trace": "EEEEEEEEEEEE\n======================================================================\nERROR: test_get_mid_point (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_get_perp_dir (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_get_start_end_points (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_has_current_artist (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_is_valid_event_if_event_in_axes (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_is_valid_event_if_event_not_in_axes (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_on_motion_end_point_selected (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_on_motion_midpoint_selected (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_on_motion_thickness_selected (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_on_release_not_notify_if_no_current_artist (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_on_release_not_notify_if_not_valid_event (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_on_release_swaps_start_end_so_xmin_less_than_xmax (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n----------------------------------------------------------------------\nRan 12 tests in 0.044s\n\nFAILED (errors=12)\n\n          Start 2075: mantidqt_qt5.test_cut_representation.test_cut_representation\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "0.59",
+                                        "stack_trace": "EEEEEEEEEEEE\n======================================================================\nERROR: test_get_mid_point (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_get_perp_dir (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_get_start_end_points (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_has_current_artist (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_is_valid_event_if_event_in_axes (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_is_valid_event_if_event_not_in_axes (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_on_motion_end_point_selected (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_on_motion_midpoint_selected (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_on_motion_thickness_selected (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_on_release_not_notify_if_no_current_artist (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_on_release_not_notify_if_not_valid_event (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_on_release_swaps_start_end_so_xmin_less_than_xmax (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n----------------------------------------------------------------------\nRan 12 tests in 0.046s\n\nFAILED (errors=12)\n\n          Start 2075: mantidqt_qt5.test_cut_representation.test_cut_representation\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Failed",
+                                        "test_time": "0.60",
+                                        "stack_trace": "EEEEEEEEEEEE\n======================================================================\nERROR: test_get_mid_point (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_get_perp_dir (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_get_start_end_points (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_has_current_artist (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_is_valid_event_if_event_in_axes (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_is_valid_event_if_event_not_in_axes (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_on_motion_end_point_selected (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_on_motion_midpoint_selected (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_on_motion_thickness_selected (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_on_release_not_notify_if_no_current_artist (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_on_release_not_notify_if_not_valid_event (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n======================================================================\nERROR: test_on_release_swaps_start_end_so_xmin_less_than_xmax (test_cut_representation.LinePlotsTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/cutviewer//representation/test/test_cut_representation.py&quot;, line 23, in setUp\n    self.cut_rep = CutRepresentation(self.canvas, self.notify_on_release, xmin, xmax, ymin, ymax, thickness)\nTypeError: __init__() missing 1 required positional argument: &#x27;transform&#x27;\n\n----------------------------------------------------------------------\nRan 12 tests in 0.042s\n\nFAILED (errors=12)\n\n          Start 1973: MantidQtWidgetsMplCppTestQt5_MantidColormapTest\n"
+                                    }
+                                ]
+                            },
+                            "mantidqt_qt5.test_sliceviewer_presenter.test_sliceviewer_presenter": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "mantidqt_qt5.test_sliceviewer_presenter.test_sliceviewer_presenter",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "4.26",
+                                        "stack_trace": ".........F...F.......................\n======================================================================\nFAIL: test_cut_view_toggled_on (test_sliceviewer_presenter.SliceViewerTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_presenter.py&quot;, line 331, in test_cut_view_toggled_on\n    self.view.data_view.deactivate_and_disable_tool.assert_has_calls([mock.call(tool) for tool in\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 950, in assert_has_calls\n    raise AssertionError(\nAssertionError: Calls not found.\nExpected: [call(&#x27;RegionSelection&#x27;), call(&#x27;LinePlots&#x27;), call(&#x27;NonOrthogonalAxes&#x27;)]\nActual: [call(&#x27;RegionSelection&#x27;), call(&#x27;LinePlots&#x27;)]\n\n======================================================================\nFAIL: test_non_orthogonal_axes_toggled_off (test_sliceviewer_presenter.SliceViewerTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_presenter.py&quot;, line 292, in test_non_orthogonal_axes_toggled_off\n    data_view_mock.enable_tool_button.assert_has_calls(\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 950, in assert_has_calls\n    raise AssertionError(\nAssertionError: Calls not found.\nExpected: [call(&#x27;LinePlots&#x27;), call(&#x27;RegionSelection&#x27;), call(&#x27;NonAxisAlignedCuts&#x27;)]\nActual: [call(&#x27;LinePlots&#x27;), call(&#x27;RegionSelection&#x27;)]\n\n----------------------------------------------------------------------\nRan 37 tests in 1.419s\n\nFAILED (failures=2)\n\n          Start 2067: mantidqt_qt5.test_sliceviewer_presenter.test_sliceviewer_presenter\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "4.28",
+                                        "stack_trace": ".........F...F.......................\n======================================================================\nFAIL: test_cut_view_toggled_on (test_sliceviewer_presenter.SliceViewerTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_presenter.py&quot;, line 331, in test_cut_view_toggled_on\n    self.view.data_view.deactivate_and_disable_tool.assert_has_calls([mock.call(tool) for tool in\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 950, in assert_has_calls\n    raise AssertionError(\nAssertionError: Calls not found.\nExpected: [call(&#x27;RegionSelection&#x27;), call(&#x27;LinePlots&#x27;), call(&#x27;NonOrthogonalAxes&#x27;)]\nActual: [call(&#x27;RegionSelection&#x27;), call(&#x27;LinePlots&#x27;)]\n\n======================================================================\nFAIL: test_non_orthogonal_axes_toggled_off (test_sliceviewer_presenter.SliceViewerTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_presenter.py&quot;, line 292, in test_non_orthogonal_axes_toggled_off\n    data_view_mock.enable_tool_button.assert_has_calls(\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 950, in assert_has_calls\n    raise AssertionError(\nAssertionError: Calls not found.\nExpected: [call(&#x27;LinePlots&#x27;), call(&#x27;RegionSelection&#x27;), call(&#x27;NonAxisAlignedCuts&#x27;)]\nActual: [call(&#x27;LinePlots&#x27;), call(&#x27;RegionSelection&#x27;)]\n\n----------------------------------------------------------------------\nRan 37 tests in 1.385s\n\nFAILED (failures=2)\n\n          Start 2067: mantidqt_qt5.test_sliceviewer_presenter.test_sliceviewer_presenter\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Failed",
+                                        "test_time": "4.01",
+                                        "stack_trace": ".........F...F.......................\n======================================================================\nFAIL: test_cut_view_toggled_on (test_sliceviewer_presenter.SliceViewerTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_presenter.py&quot;, line 331, in test_cut_view_toggled_on\n    self.view.data_view.deactivate_and_disable_tool.assert_has_calls([mock.call(tool) for tool in\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 950, in assert_has_calls\n    raise AssertionError(\nAssertionError: Calls not found.\nExpected: [call(&#x27;RegionSelection&#x27;), call(&#x27;LinePlots&#x27;), call(&#x27;NonOrthogonalAxes&#x27;)]\nActual: [call(&#x27;RegionSelection&#x27;), call(&#x27;LinePlots&#x27;)]\n\n======================================================================\nFAIL: test_non_orthogonal_axes_toggled_off (test_sliceviewer_presenter.SliceViewerTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_presenter.py&quot;, line 292, in test_non_orthogonal_axes_toggled_off\n    data_view_mock.enable_tool_button.assert_has_calls(\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 950, in assert_has_calls\n    raise AssertionError(\nAssertionError: Calls not found.\nExpected: [call(&#x27;LinePlots&#x27;), call(&#x27;RegionSelection&#x27;), call(&#x27;NonAxisAlignedCuts&#x27;)]\nActual: [call(&#x27;LinePlots&#x27;), call(&#x27;RegionSelection&#x27;)]\n\n----------------------------------------------------------------------\nRan 37 tests in 1.442s\n\nFAILED (failures=2)\n\n          Start 1081: GeometryTest_AcompTest\n"
+                                    }
+                                ]
+                            }
+                        },
+                        "Timeout": {
+                            "MantidQtWidgetsCommonTestQt5_AlgorithmProgressDialogPresenterTest": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "MantidQtWidgetsCommonTestQt5_AlgorithmProgressDialogPresenterTest",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.11",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1018\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 2 testsManualProgressReporter-[Notice] ManualProgressReporter started\nManualProgressReporter-[Notice] ManualProgressReporter successful, Duration 0.00 seconds\n\n          Start 1960: MantidQtWidgetsCommonTestQt5_AlgorithmProgressDialogPresenterTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.12",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1018\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 2 testsManualProgressReporter-[Notice] ManualProgressReporter started\nManualProgressReporter-[Notice] ManualProgressReporter successful, Duration 0.00 seconds\n\n          Start 1960: MantidQtWidgetsCommonTestQt5_AlgorithmProgressDialogPresenterTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.06",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1018\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 2 testsManualProgressReporter-[Notice] ManualProgressReporter started\nManualProgressReporter-[Notice] ManualProgressReporter successful, Duration 0.00 seconds\n\n          Start 2456: workbench.test_plotscriptgeneratorlegend.test_plotscriptgeneratorlegend\n"
+                                    }
+                                ]
+                            },
+                            "MantidQtWidgetsCommonTestQt5_ManageUserDirectoriesTest": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "MantidQtWidgetsCommonTestQt5_ManageUserDirectoriesTest",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.07",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1018\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\n\n          Start 1948: MantidQtWidgetsCommonTestQt5_ManageUserDirectoriesTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.19",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1018\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\n\n          Start 1948: MantidQtWidgetsCommonTestQt5_ManageUserDirectoriesTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.03",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1018\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\n\n"
+                                    }
+                                ]
+                            },
+                            "mantidqt_qt5.test_modal_tester.test_modal_tester": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "mantidqt_qt5.test_modal_tester.test_modal_tester",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.08",
+                                        "stack_trace": "\n          Start 2007: mantidqt_qt5.test_modal_tester.test_modal_tester\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.06",
+                                        "stack_trace": "\n          Start 2007: mantidqt_qt5.test_modal_tester.test_modal_tester\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.04",
+                                        "stack_trace": "\n"
+                                    }
+                                ]
+                            },
+                            "python.MuonQt5.difference_table_presenter_test.difference_table_presenter_test": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "python.MuonQt5.difference_table_presenter_test.difference_table_presenter_test",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.05",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1018\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.01 seconds\n\n          Start 2197: python.MuonQt5.difference_table_presenter_test.difference_table_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.08",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1018\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n          Start 2197: python.MuonQt5.difference_table_presenter_test.difference_table_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.16",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1018\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n"
+                                    }
+                                ]
+                            },
+                            "python.MuonQt5.grouping_tab_presenter_test.grouping_tab_presenter_test": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "python.MuonQt5.grouping_tab_presenter_test.grouping_tab_presenter_test",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.20",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1018\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.01 seconds\n\n          Start 2201: python.MuonQt5.grouping_tab_presenter_test.grouping_tab_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.18",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1018\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n          Start 2201: python.MuonQt5.grouping_tab_presenter_test.grouping_tab_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.19",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1018\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n"
+                                    }
+                                ]
+                            },
+                            "python.MuonQt5.grouping_table_presenter_test.grouping_table_presenter_test": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "python.MuonQt5.grouping_table_presenter_test.grouping_table_presenter_test",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.12",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1018\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.01 seconds\n\n          Start 2202: python.MuonQt5.grouping_table_presenter_test.grouping_table_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.19",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1018\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.01 seconds\n\n          Start 2202: python.MuonQt5.grouping_table_presenter_test.grouping_table_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.10",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1018\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n"
+                                    }
+                                ]
+                            },
+                            "python.MuonQt5.pairing_table_presenter_test.pairing_table_presenter_test": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "python.MuonQt5.pairing_table_presenter_test.pairing_table_presenter_test",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.06",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1018\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.01 seconds\n\n          Start 2205: python.MuonQt5.pairing_table_presenter_test.pairing_table_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.19",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1018\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.01 seconds\n\n          Start 2205: python.MuonQt5.pairing_table_presenter_test.pairing_table_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.19",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1018\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n"
+                                    }
+                                ]
+                            },
+                            "workbench.test_mainwindow.test_mainwindow": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "workbench.test_mainwindow.test_mainwindow",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.17",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1018\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nQt WebEngine seems to be initialized from a plugin. Please set Qt::AA_ShareOpenGLContexts using QCoreApplication::setAttribute before constructing QGuiApplication.\nQPixmap::scaled: Pixmap is a null pixmap\n\n          Start 2451: workbench.test_mainwindow.test_mainwindow\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.18",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1018\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nQt WebEngine seems to be initialized from a plugin. Please set Qt::AA_ShareOpenGLContexts using QCoreApplication::setAttribute before constructing QGuiApplication.\nQPixmap::scaled: Pixmap is a null pixmap\n\n          Start 2451: workbench.test_mainwindow.test_mainwindow\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.18",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1018\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nQt WebEngine seems to be initialized from a plugin. Please set Qt::AA_ShareOpenGLContexts using QCoreApplication::setAttribute before constructing QGuiApplication.\nQPixmap::scaled: Pixmap is a null pixmap\n\n          Start 2489: workbench.test_projectrecoverysaver.test_projectrecoverysaver\n"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "583": {
+            "py/object": "data_object.Build",
+            "build_name": "583",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2645,
+                "Passed": 2633,
+                "Flake": 1,
+                "Failed": 0,
+                "Timeout": 11
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2645,
+                        "Passed": 2633,
+                        "Flake": 1,
+                        "Failed": 0,
+                        "Timeout": 11
+                    },
+                    "outcome_groups": {
+                        "Flake": {
+                            "MantidQtWidgetsCommonTestQt5_AlgorithmProgressDialogPresenterTest": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "MantidQtWidgetsCommonTestQt5_AlgorithmProgressDialogPresenterTest",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.16",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 2 testsManualProgressReporter-[Notice] ManualProgressReporter started\nManualProgressReporter-[Notice] ManualProgressReporter successful, Duration 0.00 seconds\n\n          Start 1960: MantidQtWidgetsCommonTestQt5_AlgorithmProgressDialogPresenterTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Passed",
+                                        "test_time": "0.73",
+                                        "stack_trace": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "Failed": {},
+                        "Timeout": {
+                            "MantidQtInterfacesMuonTestQt5_ALCBaselineModellingModelTest": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "MantidQtInterfacesMuonTestQt5_ALCBaselineModellingModelTest",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.19",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 6 testsExtractSingleSpectrum-[Notice] ExtractSingleSpectrum started\nExtractSingleSpectrum-[Notice] ExtractSingleSpectrum successful, Duration 0.00 seconds\n.CloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nFit-[Notice] Fit started\nFit-[Warning] Fit status: Changes in function value are too small\nFit-[Warning] Stopped after 2 iterations\nFit-[Notice] Fit successful, Duration 0.00 seconds\n\n          Start 2371: MantidQtInterfacesMuonTestQt5_ALCBaselineModellingModelTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.18",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 6 testsExtractSingleSpectrum-[Notice] ExtractSingleSpectrum started\nExtractSingleSpectrum-[Notice] ExtractSingleSpectrum successful, Duration 0.00 seconds\n.CloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nFit-[Notice] Fit started\nFit-[Warning] Fit status: Changes in function value are too small\nFit-[Warning] Stopped after 2 iterations\nFit-[Notice] Fit successful, Duration 0.00 seconds\n\n          Start 2371: MantidQtInterfacesMuonTestQt5_ALCBaselineModellingModelTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.17",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 6 testsExtractSingleSpectrum-[Notice] ExtractSingleSpectrum started\nExtractSingleSpectrum-[Notice] ExtractSingleSpectrum successful, Duration 0.00 seconds\n.CloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nFit-[Notice] Fit started\nFit-[Warning] Fit status: Changes in function value are too small\nFit-[Warning] Stopped after 2 iterations\nFit-[Notice] Fit successful, Duration 0.00 seconds\n\n          Start 2554: python.SANS.SansIsisGuiSettings.SansIsisGuiSettings\n"
+                                    }
+                                ]
+                            },
+                            "MantidQtInterfacesMuonTestQt5_ALCDataLoadingPresenterTest": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "MantidQtInterfacesMuonTestQt5_ALCDataLoadingPresenterTest",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.17",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 29 tests.PlotAsymmetryByLogValue-[Notice] PlotAsymmetryByLogValue started\nPlotAsymmetryByLogValue-[Notice] PlotAsymmetryByLogValue successful, Duration 0.46 seconds\n\n          Start 2373: MantidQtInterfacesMuonTestQt5_ALCDataLoadingPresenterTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.16",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 29 tests.PlotAsymmetryByLogValue-[Notice] PlotAsymmetryByLogValue started\nPlotAsymmetryByLogValue-[Notice] PlotAsymmetryByLogValue successful, Duration 0.42 seconds\n\n          Start 2373: MantidQtInterfacesMuonTestQt5_ALCDataLoadingPresenterTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.07",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 29 tests.PlotAsymmetryByLogValue-[Notice] PlotAsymmetryByLogValue started\nPlotAsymmetryByLogValue-[Notice] PlotAsymmetryByLogValue successful, Duration 0.42 seconds\n\n          Start  684: CurveFittingTest_QENSFitSimultaneousTest\n"
+                                    }
+                                ]
+                            },
+                            "MantidQtInterfacesMuonTestQt5_ALCPeakFittingModelTest": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "MantidQtInterfacesMuonTestQt5_ALCPeakFittingModelTest",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.18",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 3 tests.Fit-[Notice] Fit started\nFit-[Notice] Fit status: success\nFit-[Notice] Stopped after 2 iterations\nFit-[Notice] Fit successful, Duration 0.00 seconds\n\n          Start 2375: MantidQtInterfacesMuonTestQt5_ALCPeakFittingModelTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.18",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 3 tests.Fit-[Notice] Fit started\nFit-[Notice] Fit status: success\nFit-[Notice] Stopped after 2 iterations\nFit-[Notice] Fit successful, Duration 0.00 seconds\n\n          Start 2375: MantidQtInterfacesMuonTestQt5_ALCPeakFittingModelTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.06",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 3 tests.Fit-[Notice] Fit started\nFit-[Notice] Fit status: success\nFit-[Notice] Stopped after 2 iterations\nFit-[Notice] Fit successful, Duration 0.00 seconds\n\n          Start 2358: python.drill.DrillRundexIOTest.DrillRundexIOTest\n"
+                                    }
+                                ]
+                            },
+                            "MantidQtWidgetsCommonTestQt5_ManageUserDirectoriesTest": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "MantidQtWidgetsCommonTestQt5_ManageUserDirectoriesTest",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.18",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\n\n          Start 1948: MantidQtWidgetsCommonTestQt5_ManageUserDirectoriesTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.17",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\n\n          Start 1948: MantidQtWidgetsCommonTestQt5_ManageUserDirectoriesTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.15",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\n\n          Start 2468: workbench.test_plothelppages.test_plothelppages\n"
+                                    }
+                                ]
+                            },
+                            "mantidqt_qt5.test_modal_tester.test_modal_tester": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "mantidqt_qt5.test_modal_tester.test_modal_tester",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.15",
+                                        "stack_trace": "\n          Start 2007: mantidqt_qt5.test_modal_tester.test_modal_tester\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.15",
+                                        "stack_trace": "\n          Start 2007: mantidqt_qt5.test_modal_tester.test_modal_tester\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.14",
+                                        "stack_trace": "\n          Start 1942: MantidQtWidgetsCommonTestQt5_FitScriptOptionsBrowserTest\n"
+                                    }
+                                ]
+                            },
+                            "python.MuonQt5.difference_table_presenter_test.difference_table_presenter_test": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "python.MuonQt5.difference_table_presenter_test.difference_table_presenter_test",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.07",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.01 seconds\n\n          Start 2197: python.MuonQt5.difference_table_presenter_test.difference_table_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.16",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n          Start 2197: python.MuonQt5.difference_table_presenter_test.difference_table_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.11",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n          Start 1270: IndexingTest_RoundRobinPartitionerTest\n"
+                                    }
+                                ]
+                            },
+                            "python.MuonQt5.grouping_tab_presenter_test.grouping_tab_presenter_test": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "python.MuonQt5.grouping_tab_presenter_test.grouping_tab_presenter_test",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.05",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n          Start 2201: python.MuonQt5.grouping_tab_presenter_test.grouping_tab_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.04",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n          Start 2201: python.MuonQt5.grouping_tab_presenter_test.grouping_tab_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.16",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n          Start 2429: MantidQtInterfacesIndirectTestQt5_IDAFunctionParameterEstimationTest\n"
+                                    }
+                                ]
+                            },
+                            "python.MuonQt5.grouping_table_presenter_test.grouping_table_presenter_test": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "python.MuonQt5.grouping_table_presenter_test.grouping_table_presenter_test",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.18",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.01 seconds\n\n          Start 2202: python.MuonQt5.grouping_table_presenter_test.grouping_table_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.06",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n          Start 2202: python.MuonQt5.grouping_table_presenter_test.grouping_table_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.04",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n"
+                                    }
+                                ]
+                            },
+                            "python.MuonQt5.pairing_table_presenter_test.pairing_table_presenter_test": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "python.MuonQt5.pairing_table_presenter_test.pairing_table_presenter_test",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.18",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n          Start 2205: python.MuonQt5.pairing_table_presenter_test.pairing_table_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.19",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n          Start 2205: python.MuonQt5.pairing_table_presenter_test.pairing_table_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.18",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n          Start  705: CurveFittingTest_EigenMatrixTest\n"
+                                    }
+                                ]
+                            },
+                            "python.MuonQt5.thread_model_test.thread_model_test": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "python.MuonQt5.thread_model_test.thread_model_test",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.18",
+                                        "stack_trace": "\n          Start 2277: python.MuonQt5.thread_model_test.thread_model_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.11",
+                                        "stack_trace": "\n          Start 2277: python.MuonQt5.thread_model_test.thread_model_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.16",
+                                        "stack_trace": "\n"
+                                    }
+                                ]
+                            },
+                            "workbench.test_mainwindow.test_mainwindow": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "workbench.test_mainwindow.test_mainwindow",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.16",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nQt WebEngine seems to be initialized from a plugin. Please set Qt::AA_ShareOpenGLContexts using QCoreApplication::setAttribute before constructing QGuiApplication.\nQPixmap::scaled: Pixmap is a null pixmap\n\n          Start 2451: workbench.test_mainwindow.test_mainwindow\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.13",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nQt WebEngine seems to be initialized from a plugin. Please set Qt::AA_ShareOpenGLContexts using QCoreApplication::setAttribute before constructing QGuiApplication.\nQPixmap::scaled: Pixmap is a null pixmap\n\n          Start 2451: workbench.test_mainwindow.test_mainwindow\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.18",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nQt WebEngine seems to be initialized from a plugin. Please set Qt::AA_ShareOpenGLContexts using QCoreApplication::setAttribute before constructing QGuiApplication.\nQPixmap::scaled: Pixmap is a null pixmap\n\n          Start 2481: workbench.test_settings_presenter.test_settings_presenter\n"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "584": {
+            "py/object": "data_object.Build",
+            "build_name": "584",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2645,
+                "Passed": 2645,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2645,
+                        "Passed": 2645,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "585": {
+            "py/object": "data_object.Build",
+            "build_name": "585",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2645,
+                "Passed": 2645,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2645,
+                        "Passed": 2645,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "586": {
+            "py/object": "data_object.Build",
+            "build_name": "586",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2645,
+                "Passed": 2643,
+                "Flake": 0,
+                "Failed": 2,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2645,
+                        "Passed": 2643,
+                        "Flake": 0,
+                        "Failed": 2,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {
+                            "python.SANS.command_interface.command_interface_state_director_test.command_interface_state_director_test": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "python.SANS.command_interface.command_interface_state_director_test.command_interface_state_director_test",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "1.66",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1625\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nE.\n======================================================================\nERROR: test_can_set_commands_without_exceptions (command_interface_state_director_test.CommandInterfaceStateDirectorTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/test/SANS/command_interface/command_interface_state_director_test.py&quot;, line 118, in test_can_set_commands_without_exceptions\n    state = command_interface.process_commands()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/SANS/sans/command_interface/command_interface_state_director.py&quot;, line 161, in process_commands\n    state = self._process_command_queue()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/SANS/sans/command_interface/command_interface_state_director.py&quot;, line 274, in _process_command_queue\n    process_function(command)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/SANS/sans/command_interface/command_interface_state_director.py&quot;, line 603, in _process_qxy_limit\n    q_step_type = command.values[3]\nIndexError: list index out of range\n\n----------------------------------------------------------------------\nRan 2 tests in 0.727s\n\nFAILED (errors=1)\n\n          Start 2580: python.SANS.command_interface.command_interface_state_director_test.command_interface_state_director_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "1.72",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1625\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nE.\n======================================================================\nERROR: test_can_set_commands_without_exceptions (command_interface_state_director_test.CommandInterfaceStateDirectorTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/test/SANS/command_interface/command_interface_state_director_test.py&quot;, line 118, in test_can_set_commands_without_exceptions\n    state = command_interface.process_commands()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/SANS/sans/command_interface/command_interface_state_director.py&quot;, line 161, in process_commands\n    state = self._process_command_queue()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/SANS/sans/command_interface/command_interface_state_director.py&quot;, line 274, in _process_command_queue\n    process_function(command)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/SANS/sans/command_interface/command_interface_state_director.py&quot;, line 603, in _process_qxy_limit\n    q_step_type = command.values[3]\nIndexError: list index out of range\n\n----------------------------------------------------------------------\nRan 2 tests in 0.747s\n\nFAILED (errors=1)\n\n          Start 2580: python.SANS.command_interface.command_interface_state_director_test.command_interface_state_director_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Failed",
+                                        "test_time": "1.72",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1625\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nE.\n======================================================================\nERROR: test_can_set_commands_without_exceptions (command_interface_state_director_test.CommandInterfaceStateDirectorTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/test/SANS/command_interface/command_interface_state_director_test.py&quot;, line 118, in test_can_set_commands_without_exceptions\n    state = command_interface.process_commands()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/SANS/sans/command_interface/command_interface_state_director.py&quot;, line 161, in process_commands\n    state = self._process_command_queue()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/SANS/sans/command_interface/command_interface_state_director.py&quot;, line 274, in _process_command_queue\n    process_function(command)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/SANS/sans/command_interface/command_interface_state_director.py&quot;, line 603, in _process_qxy_limit\n    q_step_type = command.values[3]\nIndexError: list index out of range\n\n----------------------------------------------------------------------\nRan 2 tests in 0.773s\n\nFAILED (errors=1)\n\n          Start 2596: PythonSANSQt5.state_gui_model_test.state_gui_model_test\n"
+                                    }
+                                ]
+                            },
+                            "python.SANS.user_file.txt_parsers.toml_v1_parser_test.toml_v1_parser_test": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "python.SANS.user_file.txt_parsers.toml_v1_parser_test.toml_v1_parser_test",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "1.22",
+                                        "stack_trace": ".SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n..SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n..\n======================================================================\nERROR: test_binning_commands_parsed (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 180, in test_binning_commands_parsed\n    self.assertTrue(two_d_convert_to_q.q_xy_step_type is RangeStepType.LIN)\nAttributeError: &#x27;StateConvertToQ&#x27; object has no attribute &#x27;q_xy_step_type&#x27;\n\n----------------------------------------------------------------------\nRan 29 tests in 0.300s\n\nFAILED (errors=1)\n\n          Start 2631: python.SANS.user_file.txt_parsers.toml_v1_parser_test.toml_v1_parser_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "1.24",
+                                        "stack_trace": ".SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n..SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n..\n======================================================================\nERROR: test_binning_commands_parsed (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 180, in test_binning_commands_parsed\n    self.assertTrue(two_d_convert_to_q.q_xy_step_type is RangeStepType.LIN)\nAttributeError: &#x27;StateConvertToQ&#x27; object has no attribute &#x27;q_xy_step_type&#x27;\n\n----------------------------------------------------------------------\nRan 29 tests in 0.321s\n\nFAILED (errors=1)\n\n          Start 2631: python.SANS.user_file.txt_parsers.toml_v1_parser_test.toml_v1_parser_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Failed",
+                                        "test_time": "1.22",
+                                        "stack_trace": ".SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n..SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n.SANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\n..\n======================================================================\nERROR: test_binning_commands_parsed (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 180, in test_binning_commands_parsed\n    self.assertTrue(two_d_convert_to_q.q_xy_step_type is RangeStepType.LIN)\nAttributeError: &#x27;StateConvertToQ&#x27; object has no attribute &#x27;q_xy_step_type&#x27;\n\n----------------------------------------------------------------------\nRan 29 tests in 0.313s\n\nFAILED (errors=1)\n\n          Start 2500: python.scripts.CrystalFieldMultiSiteTest.CrystalFieldMultiSiteTest\n"
+                                    }
+                                ]
+                            }
+                        },
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "587": {
+            "py/object": "data_object.Build",
+            "build_name": "587",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2645,
+                "Passed": 2644,
+                "Flake": 1,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2645,
+                        "Passed": 2644,
+                        "Flake": 1,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {
+                            "KernelTest_StdoutChannelTest": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "KernelTest_StdoutChannelTest",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "0.48",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1645\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 2 tests..OK!\nKernelTest(94385,0x7fffb7790380) malloc: *** error for object 0x7fba24dd11d8: incorrect checksum for freed object - object was probably modified after being freed.\n*** set a breakpoint in malloc_error_break to debug\nSubprocess aborted\n\n          Start  113: KernelTest_StdoutChannelTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Passed",
+                                        "test_time": "0.47",
+                                        "stack_trace": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "588": {
+            "py/object": "data_object.Build",
+            "build_name": "588",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2645,
+                "Passed": 2644,
+                "Flake": 1,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2645,
+                        "Passed": 2644,
+                        "Flake": 1,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {
+                            "KernelTest_StdoutChannelTest": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "KernelTest_StdoutChannelTest",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "0.48",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1645\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 2 tests..OK!\nKernelTest(94385,0x7fffb7790380) malloc: *** error for object 0x7fba24dd11d8: incorrect checksum for freed object - object was probably modified after being freed.\n*** set a breakpoint in malloc_error_break to debug\nSubprocess aborted\n\n          Start  113: KernelTest_StdoutChannelTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Passed",
+                                        "test_time": "0.47",
+                                        "stack_trace": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "589": {
+            "py/object": "data_object.Build",
+            "build_name": "589",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2645,
+                "Passed": 2644,
+                "Flake": 1,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2645,
+                        "Passed": 2644,
+                        "Flake": 1,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {
+                            "KernelTest_StdoutChannelTest": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "KernelTest_StdoutChannelTest",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "0.48",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1645\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 2 tests..OK!\nKernelTest(94385,0x7fffb7790380) malloc: *** error for object 0x7fba24dd11d8: incorrect checksum for freed object - object was probably modified after being freed.\n*** set a breakpoint in malloc_error_break to debug\nSubprocess aborted\n\n          Start  113: KernelTest_StdoutChannelTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Passed",
+                                        "test_time": "0.47",
+                                        "stack_trace": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "590": {
+            "py/object": "data_object.Build",
+            "build_name": "590",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2645,
+                "Passed": 2645,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2645,
+                        "Passed": 2645,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "591": {
+            "py/object": "data_object.Build",
+            "build_name": "591",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2645,
+                "Passed": 2635,
+                "Flake": 3,
+                "Failed": 0,
+                "Timeout": 7
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2645,
+                        "Passed": 2635,
+                        "Flake": 3,
+                        "Failed": 0,
+                        "Timeout": 7
+                    },
+                    "outcome_groups": {
+                        "Flake": {
+                            "MantidQtInterfacesMuonTestQt5_ALCDataLoadingPresenterTest": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "MantidQtInterfacesMuonTestQt5_ALCDataLoadingPresenterTest",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.14",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.2108\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 29 tests.PlotAsymmetryByLogValue-[Notice] PlotAsymmetryByLogValue started\nPlotAsymmetryByLogValue-[Notice] PlotAsymmetryByLogValue successful, Duration 0.46 seconds\n\n          Start 2373: MantidQtInterfacesMuonTestQt5_ALCDataLoadingPresenterTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Passed",
+                                        "test_time": "7.35",
+                                        "stack_trace": ""
+                                    }
+                                ]
+                            },
+                            "python.MuonQt5.grouping_tab_presenter_test.grouping_tab_presenter_test": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "python.MuonQt5.grouping_tab_presenter_test.grouping_tab_presenter_test",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.05",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.2108\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.01 seconds\n\n          Start 2201: python.MuonQt5.grouping_tab_presenter_test.grouping_tab_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.18",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.2108\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n          Start 2201: python.MuonQt5.grouping_tab_presenter_test.grouping_tab_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Passed",
+                                        "test_time": "5.62",
+                                        "stack_trace": ""
+                                    }
+                                ]
+                            },
+                            "python.MuonQt5.thread_model_test.thread_model_test": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "python.MuonQt5.thread_model_test.thread_model_test",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.12",
+                                        "stack_trace": "\n          Start 2277: python.MuonQt5.thread_model_test.thread_model_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.13",
+                                        "stack_trace": "\n          Start 2277: python.MuonQt5.thread_model_test.thread_model_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Passed",
+                                        "test_time": "1.62",
+                                        "stack_trace": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "Failed": {},
+                        "Timeout": {
+                            "MantidQtInterfacesMuonTestQt5_ALCPeakFittingModelTest": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "MantidQtInterfacesMuonTestQt5_ALCPeakFittingModelTest",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.19",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.2108\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 3 tests.Fit-[Notice] Fit started\nFit-[Notice] Fit status: success\nFit-[Notice] Stopped after 2 iterations\nFit-[Notice] Fit successful, Duration 0.00 seconds\n\n          Start 2375: MantidQtInterfacesMuonTestQt5_ALCPeakFittingModelTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.16",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.2108\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 3 tests.Fit-[Notice] Fit started\nFit-[Notice] Fit status: success\nFit-[Notice] Stopped after 2 iterations\nFit-[Notice] Fit successful, Duration 0.00 seconds\n\n          Start 2375: MantidQtInterfacesMuonTestQt5_ALCPeakFittingModelTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.19",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.2108\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 3 tests.Fit-[Notice] Fit started\nFit-[Notice] Fit status: success\nFit-[Notice] Stopped after 2 iterations\nFit-[Notice] Fit successful, Duration 0.00 seconds\n\n"
+                                    }
+                                ]
+                            },
+                            "MantidQtWidgetsCommonTestQt5_ManageUserDirectoriesTest": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "MantidQtWidgetsCommonTestQt5_ManageUserDirectoriesTest",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.18",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.2108\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\n\n          Start 1948: MantidQtWidgetsCommonTestQt5_ManageUserDirectoriesTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.16",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.2108\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\n\n          Start 1948: MantidQtWidgetsCommonTestQt5_ManageUserDirectoriesTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.04",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.2108\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\n\n          Start 2464: workbench.test_figurewindow.test_figurewindow\n"
+                                    }
+                                ]
+                            },
+                            "mantidqt_qt5.test_modal_tester.test_modal_tester": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "mantidqt_qt5.test_modal_tester.test_modal_tester",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.13",
+                                        "stack_trace": "\n          Start 2007: mantidqt_qt5.test_modal_tester.test_modal_tester\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.17",
+                                        "stack_trace": "\n          Start 2007: mantidqt_qt5.test_modal_tester.test_modal_tester\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.18",
+                                        "stack_trace": "\n"
+                                    }
+                                ]
+                            },
+                            "python.MuonQt5.difference_table_presenter_test.difference_table_presenter_test": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "python.MuonQt5.difference_table_presenter_test.difference_table_presenter_test",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.10",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.2108\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.01 seconds\n\n          Start 2197: python.MuonQt5.difference_table_presenter_test.difference_table_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.18",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.2108\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.01 seconds\n\n          Start 2197: python.MuonQt5.difference_table_presenter_test.difference_table_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.05",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.2108\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n"
+                                    }
+                                ]
+                            },
+                            "python.MuonQt5.grouping_table_presenter_test.grouping_table_presenter_test": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "python.MuonQt5.grouping_table_presenter_test.grouping_table_presenter_test",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.18",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.2108\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n          Start 2202: python.MuonQt5.grouping_table_presenter_test.grouping_table_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.09",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.2108\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n          Start 2202: python.MuonQt5.grouping_table_presenter_test.grouping_table_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.06",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.2108\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n"
+                                    }
+                                ]
+                            },
+                            "python.MuonQt5.pairing_table_presenter_test.pairing_table_presenter_test": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "python.MuonQt5.pairing_table_presenter_test.pairing_table_presenter_test",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.04",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.2108\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.01 seconds\n\n          Start 2205: python.MuonQt5.pairing_table_presenter_test.pairing_table_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.19",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.2108\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n          Start 2205: python.MuonQt5.pairing_table_presenter_test.pairing_table_presenter_test\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.18",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.2108\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadInstrument-[Notice] LoadInstrument started\nLoadInstrument-[Notice] LoadInstrument successful, Duration 0.00 seconds\n\n          Start 1191: GeometryTest_ShapeFactoryTest\n"
+                                    }
+                                ]
+                            },
+                            "workbench.test_mainwindow.test_mainwindow": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "workbench.test_mainwindow.test_mainwindow",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.06",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.2108\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nQt WebEngine seems to be initialized from a plugin. Please set Qt::AA_ShareOpenGLContexts using QCoreApplication::setAttribute before constructing QGuiApplication.\nQPixmap::scaled: Pixmap is a null pixmap\n\n          Start 2451: workbench.test_mainwindow.test_mainwindow\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.12",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.2108\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nQt WebEngine seems to be initialized from a plugin. Please set Qt::AA_ShareOpenGLContexts using QCoreApplication::setAttribute before constructing QGuiApplication.\nQPixmap::scaled: Pixmap is a null pixmap\n\n          Start 2451: workbench.test_mainwindow.test_mainwindow\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Timeout",
+                                        "test_time": "1200.16",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.2108\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nQt WebEngine seems to be initialized from a plugin. Please set Qt::AA_ShareOpenGLContexts using QCoreApplication::setAttribute before constructing QGuiApplication.\nQPixmap::scaled: Pixmap is a null pixmap\n\n          Start 2456: workbench.test_plotscriptgeneratorlegend.test_plotscriptgeneratorlegend\n"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "592": {
+            "py/object": "data_object.Build",
+            "build_name": "592",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2645,
+                "Passed": 2645,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2645,
+                        "Passed": 2645,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "593": {
+            "py/object": "data_object.Build",
+            "build_name": "593",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2645,
+                "Passed": 2645,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2645,
+                        "Passed": 2645,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "594": {
+            "py/object": "data_object.Build",
+            "build_name": "594",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2645,
+                "Passed": 2645,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2645,
+                        "Passed": 2645,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "595": {
+            "py/object": "data_object.Build",
+            "build_name": "595",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2645,
+                "Passed": 2645,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2645,
+                        "Passed": 2645,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "596": {
+            "py/object": "data_object.Build",
+            "build_name": "596",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2645,
+                "Passed": 2645,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2645,
+                        "Passed": 2645,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
         }
     }
 }

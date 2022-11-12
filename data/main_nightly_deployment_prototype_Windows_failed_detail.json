@@ -9,6 +9,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "448",
                     "447",
                     "446",
                     "445",
@@ -17,16 +18,15 @@
                     "442",
                     "441",
                     "440",
-                    "439",
-                    "438"
+                    "439"
                 ],
                 "past_outcome_list": [
+                    "Passed",
                     "Passed",
                     "None",
                     "Flake",
                     "Passed",
                     "None",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -52,6 +52,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "448",
                     "447",
                     "446",
                     "445",
@@ -60,17 +61,16 @@
                     "442",
                     "441",
                     "440",
-                    "439",
-                    "438"
+                    "439"
                 ],
                 "past_outcome_list": [
+                    "Passed",
                     "Passed",
                     "None",
                     "Passed",
                     "Passed",
                     "None",
                     "Flake",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -92,9 +92,10 @@
             "agent_name": "Windows",
             "last_failed_outcome": "Flake",
             "pipeline_name": "main_nightly_deployment_prototype",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "448",
                     "447",
                     "446",
                     "445",
@@ -103,20 +104,19 @@
                     "442",
                     "441",
                     "440",
-                    "439",
-                    "438"
+                    "439"
                 ],
                 "past_outcome_list": [
                     "Passed",
-                    "None",
-                    "Passed",
                     "Passed",
                     "None",
                     "Passed",
                     "Passed",
+                    "None",
                     "Passed",
-                    "Flake",
-                    "Failed"
+                    "Passed",
+                    "Passed",
+                    "Flake"
                 ]
             },
             "last_stack_traces": {

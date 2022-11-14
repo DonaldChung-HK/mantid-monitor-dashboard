@@ -505,7 +505,8 @@
             "test_name": "python.SANS.command_interface.command_interface_state_director_test.command_interface_state_director_test",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_586": "Failed"
+                "pull_requests-conda-osx_586": "Failed",
+                "pull_requests-conda-osx_597": "Failed"
             }
         },
         "python.SANS.user_file.txt_parsers.toml_v1_parser_test.toml_v1_parser_test": {
@@ -528,6 +529,27 @@
             "agent_name": "Mac",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_583": "Timeout"
+            }
+        },
+        "CrystalTest_PeakIntensityVsRadiusTest": {
+            "test_name": "CrystalTest_PeakIntensityVsRadiusTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_606": "Failed"
+            }
+        },
+        "MDAlgorithmsTest_IntegratePeaksMD2Test": {
+            "test_name": "MDAlgorithmsTest_IntegratePeaksMD2Test",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_606": "Failed"
+            }
+        },
+        "python.algorithms.HB3AIntegratePeaksTest.HB3AIntegratePeaksTest": {
+            "test_name": "python.algorithms.HB3AIntegratePeaksTest.HB3AIntegratePeaksTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_606": "Failed"
             }
         }
     }

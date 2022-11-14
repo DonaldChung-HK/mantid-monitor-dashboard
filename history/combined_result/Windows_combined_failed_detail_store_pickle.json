@@ -88,7 +88,8 @@
             "test_name": "python.MuonQt5.model_fitting_view_test.model_fitting_view_test",
             "agent_name": "Windows",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_523": "Flake"
+                "pull_requests-conda-windows_523": "Flake",
+                "pull_requests-conda-windows_635": "Flake"
             }
         },
         "python.MuonQt5.background_corrections_model_test.background_corrections_model_test": {
@@ -96,7 +97,8 @@
             "test_name": "python.MuonQt5.background_corrections_model_test.background_corrections_model_test",
             "agent_name": "Windows",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_522": "Flake"
+                "pull_requests-conda-windows_522": "Flake",
+                "pull_requests-conda-windows_640": "Flake"
             }
         },
         "python.WorkflowAlgorithms.MolDynTest.MolDynTest": {
@@ -435,7 +437,8 @@
             "test_name": "python.SANS.command_interface.command_interface_state_director_test.command_interface_state_director_test",
             "agent_name": "Windows",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_622": "Failed"
+                "pull_requests-conda-windows_622": "Failed",
+                "pull_requests-conda-windows_633": "Failed"
             }
         },
         "python.SANS.user_file.txt_parsers.toml_v1_parser_test.toml_v1_parser_test": {
@@ -444,6 +447,41 @@
             "agent_name": "Windows",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_622": "Failed"
+            }
+        },
+        "CrystalTest_PeakIntensityVsRadiusTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "CrystalTest_PeakIntensityVsRadiusTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_642": "Failed",
+                "pull_requests-conda-windows_643": "Failed"
+            }
+        },
+        "MDAlgorithmsTest_IntegratePeaksMD2Test": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "MDAlgorithmsTest_IntegratePeaksMD2Test",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_642": "Failed",
+                "pull_requests-conda-windows_643": "Failed"
+            }
+        },
+        "python.algorithms.HB3AIntegratePeaksTest.HB3AIntegratePeaksTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.algorithms.HB3AIntegratePeaksTest.HB3AIntegratePeaksTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_642": "Failed",
+                "pull_requests-conda-windows_643": "Failed"
+            }
+        },
+        "python.algorithms.LoadNMoldyn4Ascii1DTest.LoadNMoldyn4Ascii1DTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.algorithms.LoadNMoldyn4Ascii1DTest.LoadNMoldyn4Ascii1DTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_633": "Flake"
             }
         }
     }

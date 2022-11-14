@@ -1243,22 +1243,23 @@
         "python.SANS.command_interface.command_interface_state_director_test.command_interface_state_director_test": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "python.SANS.command_interface.command_interface_state_director_test.command_interface_state_director_test",
-            "latest_failed_build": "586",
+            "latest_failed_build": "597",
             "agent_name": "Mac",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-osx",
             "past_failed_outcome": {
-                "586": "Failed"
+                "586": "Failed",
+                "597": "Failed"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "python.SANS.command_interface.command_interface_state_director_test.command_interface_state_director_test",
-                "build": "586",
+                "build": "597",
                 "agent_name": "Mac",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "1.72",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1625\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nE.\n======================================================================\nERROR: test_can_set_commands_without_exceptions (command_interface_state_director_test.CommandInterfaceStateDirectorTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/test/SANS/command_interface/command_interface_state_director_test.py&quot;, line 118, in test_can_set_commands_without_exceptions\n    state = command_interface.process_commands()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/SANS/sans/command_interface/command_interface_state_director.py&quot;, line 161, in process_commands\n    state = self._process_command_queue()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/SANS/sans/command_interface/command_interface_state_director.py&quot;, line 274, in _process_command_queue\n    process_function(command)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/SANS/sans/command_interface/command_interface_state_director.py&quot;, line 603, in _process_qxy_limit\n    q_step_type = command.values[3]\nIndexError: list index out of range\n\n----------------------------------------------------------------------\nRan 2 tests in 0.773s\n\nFAILED (errors=1)\n\n          Start 2596: PythonSANSQt5.state_gui_model_test.state_gui_model_test\n"
+                "test_time": "1.80",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221114.922\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nE.\n======================================================================\nERROR: test_can_set_commands_without_exceptions (command_interface_state_director_test.CommandInterfaceStateDirectorTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/test/SANS/command_interface/command_interface_state_director_test.py&quot;, line 118, in test_can_set_commands_without_exceptions\n    state = command_interface.process_commands()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/SANS/sans/command_interface/command_interface_state_director.py&quot;, line 161, in process_commands\n    state = self._process_command_queue()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/SANS/sans/command_interface/command_interface_state_director.py&quot;, line 274, in _process_command_queue\n    process_function(command)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/SANS/sans/command_interface/command_interface_state_director.py&quot;, line 603, in _process_qxy_limit\n    new_state_entries = {LimitsId.QXY: simple_range(start=q_min, stop=q_max, step=q_step)}\nTypeError: __new__() missing 1 required positional argument: &#x27;step_type&#x27;\n\n----------------------------------------------------------------------\nRan 2 tests in 0.763s\n\nFAILED (errors=1)\n\n          Start 1455: python.plots.surfacecontourplotsTest.surfacecontourplotsTest\n"
             }
         },
         "python.SANS.user_file.txt_parsers.toml_v1_parser_test.toml_v1_parser_test": {
@@ -1323,6 +1324,69 @@
                 "outcome": "Timeout",
                 "test_time": "1200.17",
                 "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221111.1541\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 6 testsExtractSingleSpectrum-[Notice] ExtractSingleSpectrum started\nExtractSingleSpectrum-[Notice] ExtractSingleSpectrum successful, Duration 0.00 seconds\n.CloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nFit-[Notice] Fit started\nFit-[Warning] Fit status: Changes in function value are too small\nFit-[Warning] Stopped after 2 iterations\nFit-[Notice] Fit successful, Duration 0.00 seconds\n\n          Start 2554: python.SANS.SansIsisGuiSettings.SansIsisGuiSettings\n"
+            }
+        },
+        "CrystalTest_PeakIntensityVsRadiusTest": {
+            "py/object": "datatable_helper.LTS_Problem_test_entry",
+            "test_name": "CrystalTest_PeakIntensityVsRadiusTest",
+            "latest_failed_build": "606",
+            "agent_name": "Mac",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-osx",
+            "past_failed_outcome": {
+                "606": "Failed"
+            },
+            "last_stack_traces": {
+                "py/object": "datatable_helper.Problem_test_trial",
+                "test_name": "CrystalTest_PeakIntensityVsRadiusTest",
+                "build": "606",
+                "agent_name": "Mac",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "0.44",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221114.1209\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 7 testsCreateMDWorkspace-[Notice] CreateMDWorkspace started\nCreateMDWorkspace-[Notice] CreateMDWorkspace successful, Duration 0.00 seconds\nFakeMDEventData-[Notice] FakeMDEventData started\nFakeMDEventData-[Notice] FakeMDEventData successful, Duration 0.00 seconds\nFakeMDEventData-[Notice] FakeMDEventData started\nFakeMDEventData-[Notice] FakeMDEventData successful, Duration 0.00 seconds\n.CreateMDWorkspace-[Notice] CreateMDWorkspace started\nCreateMDWorkspace-[Notice] CreateMDWorkspace successful, Duration 0.00 seconds\nFakeMDEventData-[Notice] FakeMDEventData started\nFakeMDEventData-[Notice] FakeMDEventData successful, Duration 0.00 seconds\nFakeMDEventData-[Notice] FakeMDEventData started\nFakeMDEventData-[Notice] FakeMDEventData successful, Duration 0.00 seconds\nPeakIntensityVsRadius-[Notice] PeakIntensityVsRadius started\nSegmentation fault\n\n          Start  153: ParallelTest_ThreadingBackendTest\n"
+            }
+        },
+        "MDAlgorithmsTest_IntegratePeaksMD2Test": {
+            "py/object": "datatable_helper.LTS_Problem_test_entry",
+            "test_name": "MDAlgorithmsTest_IntegratePeaksMD2Test",
+            "latest_failed_build": "606",
+            "agent_name": "Mac",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-osx",
+            "past_failed_outcome": {
+                "606": "Failed"
+            },
+            "last_stack_traces": {
+                "py/object": "datatable_helper.Problem_test_trial",
+                "test_name": "MDAlgorithmsTest_IntegratePeaksMD2Test",
+                "build": "606",
+                "agent_name": "Mac",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "0.50",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221114.1209\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 30 tests.CreateMDWorkspace-[Notice] CreateMDWorkspace started\nCreateMDWorkspace-[Notice] CreateMDWorkspace successful, Duration 0.00 seconds\nLogger_simpleRun-[Notice] Running simpleRun with inputs: shouldPass:1 numberValuesPeakRadius:1 numberValuesBkgInnerRadius:1 numberValuesBkgOuterRadius:1 cyl:0 ellip:0\nIntegratePeaksMD-[Notice] IntegratePeaksMD started\nIntegratePeaksMD-[Error] Can&#x27;t execute MaskBTP algorithm for this instrument to set edge for IntegrateIfOnEdge option\nSegmentation fault\n\n          Start 1607: python.algorithms.SaveP2DTest.SaveP2DTest\n"
+            }
+        },
+        "python.algorithms.HB3AIntegratePeaksTest.HB3AIntegratePeaksTest": {
+            "py/object": "datatable_helper.LTS_Problem_test_entry",
+            "test_name": "python.algorithms.HB3AIntegratePeaksTest.HB3AIntegratePeaksTest",
+            "latest_failed_build": "606",
+            "agent_name": "Mac",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-osx",
+            "past_failed_outcome": {
+                "606": "Failed"
+            },
+            "last_stack_traces": {
+                "py/object": "datatable_helper.Problem_test_trial",
+                "test_name": "python.algorithms.HB3AIntegratePeaksTest.HB3AIntegratePeaksTest",
+                "build": "606",
+                "agent_name": "Mac",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "19.59",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221114.1209\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nHB3AAdjustSampleNorm-[Notice] HB3AAdjustSampleNorm started\nLoadMD-[Notice] LoadMD started (child)\nLoadMD-[Notice] LoadMD successful, Duration 7.82 seconds\nSetGoniometer-[Notice] SetGoniometer started (child)\nSetGoniometer-[Notice] SetGoniometer successful, Duration 0.00 seconds\nConvertHFIRSCDtoMDE-[Notice] ConvertHFIRSCDtoMDE started (child)\nConvertHFIRSCDtoMDE-[Notice] ConvertHFIRSCDtoMDE successful, Duration 0.58 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nLoadMD-[Notice] LoadMD started (child)\nLoadMD-[Notice] LoadMD successful, Duration 5.83 seconds\nSetGoniometer-[Notice] SetGoniometer started (child)\nSetGoniometer-[Notice] SetGoniometer successful, Duration 0.00 seconds\nConvertHFIRSCDtoMDE-[Notice] ConvertHFIRSCDtoMDE started (child)\nConvertHFIRSCDtoMDE-[Notice] ConvertHFIRSCDtoMDE successful, Duration 0.59 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nMergeMD-[Notice] MergeMD started (child)\nMergeMD-[Notice] MergeMD successful, Duration 1.07 seconds\nDeleteWorkspaces-[Notice] DeleteWorkspaces started (child)\nDeleteWorkspaces-[Notice] DeleteWorkspaces successful, Duration 0.01 seconds\nHB3AAdjustSampleNorm-[Notice] HB3AAdjustSampleNorm successful, Duration 16.33 seconds\nHB3AFindPeaks-[Notice] HB3AFindPeaks started\nFindPeaksMD-[Notice] FindPeaksMD started (child)\nFindPeaksMD-[Notice] Number of peaks found: 26\nFindPeaksMD-[Notice] FindPeaksMD successful, Duration 0.00 seconds\nFindUBUsingFFT-[Notice] FindUBUsingFFT started (child)\nFindUBUsingFFT-[Notice] Error = 0.0173408\nFindUBUsingFFT-[Notice] UB = Matrix(3,3)0.0223361,0.0484886,-0.100805,-0.275231,0.0340218,0.00952149,0.0372822,0.267584,-0.00227044\nFindUBUsingFFT-[Notice] New UB will index 24 Peaks out of 26 with tolerance of  0.15\nFindUBUsingFFT-[Notice] Lattice Parameters:    3.645732    3.714062   10.206438   79.318951   79.944046   89.376487   133.686339\nFindUBUsingFFT-[Notice] Parameter Errors  :    0.009246    0.008566    0.021181    0.170299    0.181964    0.196921    0.546722\nFindUBUsingFFT-[Notice] FindUBUsingFFT successful, Duration 0.24 seconds\nShowPossibleCells-[Notice] ShowPossibleCells started (child)\nShowPossibleCells-[Notice] Num Cells : 6\nShowPossibleCells-[Notice] Form #15  Error: 0.0683  Tetragonal    I   Lat Par:   3.6457   3.7141  19.7478    90.086   89.646   89.376     267.37\nShowPossibleCells-[Notice] Form #16  Error: 0.1698  Orthorhombic  F   Lat Par:   5.2326   5.1760  19.7478    89.689   90.185   88.936     534.75\nShowPossibleCells-[Notice] Form #42  Error: 0.0284  Orthorhombic  I   Lat Par:   3.6457   3.7141  19.7478    89.914   90.354   89.376     267.37\nShowPossibleCells-[Notice] Form #10  Error: 0.0683  Monoclinic    C   Lat Par:   5.2326   5.1760  10.2064    89.427  104.668   91.064     267.37\nShowPossibleCells-[Notice] Form #37  Error: 0.0284  Monoclinic    I   Lat Par:   3.7141   3.6457  19.7478    89.646   89.914   90.624     267.37\nShowPossibleCells-[Notice] Form #31  Error: 0.0000  Triclinic     P   Lat Par:   3.6457   3.7141  10.2064    79.319   79.944   89.376     133.69\nShowPossibleCells-[Notice] ShowPossibleCells successful, Duration 0.01 seconds\nSelectCellOfType-[Notice] SelectCellOfType started (child)\nSelectCellOfType-[Notice] Form #16  Error: 0.1698  Orthorhombic  F   Lat Par:   5.2326   5.1760  19.7478    89.689   90.185   88.936     534.75\nSelectCellOfType-[Notice] Reduced to Conventional Cell Transformation Matrix =  -1 -1 0 1 -1 0 1 1 2 \nSelectCellOfType-[Notice] Re-indexed the peaks with the new UB. \nSelectCellOfType-[Notice] Now, 24 are indexed with average error 0.0194414\nSelectCellOfType-[Notice] SelectCellOfType successful, Duration 0.00 seconds\nOptimizeLatticeForCellType-[Notice] OptimizeLatticeForCellType started (child)\nOptimizeLatticeForCellType-[Notice] peaks  Lattice Parameters:    5.234869    5.257473   19.748138   90.000000   90.000000   90.000000   543.511918\nOptimizeLatticeForCellType-[Notice] Parameter Errors  :    0.004353    0.009826    0.013286    0.000000    0.000000    0.000000    1.170370\nIndexPeaks-[Notice] Run 183 indexed 10 peaks out of 11 with tolerance of 0.12\nIndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.0177215\nIndexPeaks-[Notice] Run 182 indexed 14 peaks out of 15 with tolerance of 0.12\nIndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.0192002\nIndexPeaks-[Notice] All runs indexed 24 peaks out of 26 with tolerance of 0.12\nIndexPeaks-[Notice]   Average error in h,k,l for indexed peaks =  0.018584\nIndexPeaks-[Notice] Lattice Parameters:    5.234869    5.257473   19.748138   90.000000   90.000000   90.000000   543.511918\nIndexPeaks-[Notice] Parameter Errors  :    0.004353    0.009826    0.013286    0.000000    0.000000    0.000000    1.170370\nOptimizeLatticeForCellType-[Notice] OptimizeLatticeForCellType successful, Duration 0.00 seconds\nHB3AFindPeaks-[Notice] HB3AFindPeaks successful, Duration 0.26 seconds\nIntegratePeaksMD-[Notice] IntegratePeaksMD started\nMaskBTP-[Error] Error in execution of algorithm MaskBTP:\nMaskBTP-[Error] Instrument &#x27;HB3A&#x27; not in the allowed list\nMaskBTP-[Error]   at line 94 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\nIntegratePeaksMD-[Error] Can&#x27;t execute MaskBTP algorithm for this instrument to set edge for IntegrateIfOnEdge option\nSegmentation fault\n\n          Start 2462: workbench.test_figureinteraction.test_figureinteraction\n"
             }
         }
     }

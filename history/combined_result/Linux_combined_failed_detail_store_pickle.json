@@ -51,7 +51,9 @@
             "test_name": "python.MuonQt5.tf_asymmetry_fitting_options_view_test.tf_asymmetry_fitting_options_view_test",
             "agent_name": "Linux",
             "past_failed_outcome": {
-                "pull_requests-conda-linux_1776": "Flake"
+                "pull_requests-conda-linux_1776": "Flake",
+                "pull_requests-conda-linux_1901": "Flake",
+                "pull_requests-conda-linux_1909": "Flake"
             }
         },
         "mantidqt_qt5.test_sample_shape.test_sample_shape": {
@@ -433,7 +435,10 @@
             "test_name": "python.SANS.command_interface.command_interface_state_director_test.command_interface_state_director_test",
             "agent_name": "Linux",
             "past_failed_outcome": {
-                "pull_requests-conda-linux_1889": "Failed"
+                "pull_requests-conda-linux_1889": "Failed",
+                "pull_requests-conda-linux_1900": "Failed",
+                "pull_requests-conda-linux_1904": "Failed",
+                "pull_requests-conda-linux_1905": "Failed"
             }
         },
         "python.SANS.user_file.txt_parsers.toml_v1_parser_test.toml_v1_parser_test": {
@@ -442,6 +447,30 @@
             "agent_name": "Linux",
             "past_failed_outcome": {
                 "pull_requests-conda-linux_1889": "Failed"
+            }
+        },
+        "CrystalTest_PeakIntensityVsRadiusTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "CrystalTest_PeakIntensityVsRadiusTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1910": "Failed"
+            }
+        },
+        "MDAlgorithmsTest_IntegratePeaksMD2Test": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "MDAlgorithmsTest_IntegratePeaksMD2Test",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1910": "Failed"
+            }
+        },
+        "python.algorithms.HB3AIntegratePeaksTest.HB3AIntegratePeaksTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.algorithms.HB3AIntegratePeaksTest.HB3AIntegratePeaksTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1910": "Failed"
             }
         }
     }

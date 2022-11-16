@@ -551,6 +551,13 @@
             "past_failed_outcome": {
                 "pull_requests-conda-osx_606": "Failed"
             }
+        },
+        "python.MuonQt5.general_fitting_view_test.general_fitting_view_test": {
+            "test_name": "python.MuonQt5.general_fitting_view_test.general_fitting_view_test",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_620": "Flake"
+            }
         }
     }
 }

@@ -9,6 +9,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "450",
+                    "449",
                     "448",
                     "447",
                     "446",
@@ -16,9 +18,7 @@
                     "444",
                     "443",
                     "442",
-                    "441",
-                    "440",
-                    "439"
+                    "441"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -26,11 +26,11 @@
                     "Passed",
                     "Passed",
                     "Passed",
+                    "Passed",
+                    "Passed",
                     "None",
                     "Passed",
-                    "Flake",
-                    "Passed",
-                    "Passed"
+                    "Flake"
                 ]
             },
             "last_stack_traces": {

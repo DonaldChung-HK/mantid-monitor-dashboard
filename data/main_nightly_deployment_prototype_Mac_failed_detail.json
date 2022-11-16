@@ -9,6 +9,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "450",
+                    "449",
                     "448",
                     "447",
                     "446",
@@ -16,19 +18,17 @@
                     "444",
                     "443",
                     "442",
-                    "441",
-                    "440",
-                    "439"
+                    "441"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Flake",
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed"
                 ]
@@ -49,9 +49,11 @@
             "agent_name": "Mac",
             "last_failed_outcome": "Failed",
             "pipeline_name": "main_nightly_deployment_prototype",
-            "problem_count": 5,
+            "problem_count": 4,
             "past_outcome": {
                 "build_keys": [
+                    "450",
+                    "449",
                     "448",
                     "447",
                     "446",
@@ -59,11 +61,11 @@
                     "444",
                     "443",
                     "442",
-                    "441",
-                    "440",
-                    "439"
+                    "441"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -71,8 +73,6 @@
                     "Failed",
                     "None",
                     "Failed",
-                    "Failed",
-                    "Passed",
                     "Failed"
                 ]
             },

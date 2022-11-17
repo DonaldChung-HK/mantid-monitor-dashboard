@@ -483,6 +483,14 @@
             "past_failed_outcome": {
                 "pull_requests-conda-windows_633": "Flake"
             }
+        },
+        "AlgorithmsTest_LogarithmTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "AlgorithmsTest_LogarithmTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_666": "Flake"
+            }
         }
     }
 }

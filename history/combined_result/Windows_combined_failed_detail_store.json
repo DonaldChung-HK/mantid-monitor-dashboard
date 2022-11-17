@@ -430,6 +430,13 @@
             "past_failed_outcome": {
                 "pull_requests-conda-windows_633": "Flake"
             }
+        },
+        "AlgorithmsTest_LogarithmTest": {
+            "test_name": "AlgorithmsTest_LogarithmTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_666": "Flake"
+            }
         }
     }
 }

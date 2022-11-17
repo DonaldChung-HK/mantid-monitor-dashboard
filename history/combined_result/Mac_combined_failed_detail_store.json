@@ -558,6 +558,13 @@
             "past_failed_outcome": {
                 "pull_requests-conda-osx_620": "Flake"
             }
+        },
+        "python.MuonQt5.fit_function_options_view_test.fit_function_options_view_test": {
+            "test_name": "python.MuonQt5.fit_function_options_view_test.fit_function_options_view_test",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "main_nightly_deployment_prototype_451": "Flake"
+            }
         }
     }
 }

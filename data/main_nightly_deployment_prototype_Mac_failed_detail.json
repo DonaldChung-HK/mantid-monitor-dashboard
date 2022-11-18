@@ -9,6 +9,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "452",
                     "451",
                     "450",
                     "449",
@@ -17,10 +18,10 @@
                     "446",
                     "445",
                     "444",
-                    "443",
-                    "442"
+                    "443"
                 ],
                 "past_outcome_list": [
+                    "Passed",
                     "Flake",
                     "Passed",
                     "Passed",
@@ -29,8 +30,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -52,6 +52,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "452",
                     "451",
                     "450",
                     "449",
@@ -60,10 +61,10 @@
                     "446",
                     "445",
                     "444",
-                    "443",
-                    "442"
+                    "443"
                 ],
                 "past_outcome_list": [
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -72,8 +73,7 @@
                     "Flake",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -92,9 +92,10 @@
             "agent_name": "Mac",
             "last_failed_outcome": "Failed",
             "pipeline_name": "main_nightly_deployment_prototype",
-            "problem_count": 3,
+            "problem_count": 2,
             "past_outcome": {
                 "build_keys": [
+                    "452",
                     "451",
                     "450",
                     "449",
@@ -103,8 +104,7 @@
                     "446",
                     "445",
                     "444",
-                    "443",
-                    "442"
+                    "443"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -113,10 +113,10 @@
                     "Passed",
                     "Passed",
                     "Passed",
+                    "Passed",
                     "Failed",
                     "Failed",
-                    "None",
-                    "Failed"
+                    "None"
                 ]
             },
             "last_stack_traces": {

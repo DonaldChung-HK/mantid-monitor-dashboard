@@ -9902,6 +9902,356 @@
                     }
                 }
             }
+        },
+        "643": {
+            "build_name": "643",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2646,
+                "Passed": 2646,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2646,
+                        "Passed": 2646,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "644": {
+            "build_name": "644",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2646,
+                "Passed": 2646,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2646,
+                        "Passed": 2646,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "645": {
+            "build_name": "645",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2646,
+                "Passed": 2646,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2646,
+                        "Passed": 2646,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "646": {
+            "build_name": "646",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2646,
+                "Passed": 2646,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2646,
+                        "Passed": 2646,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "647": {
+            "build_name": "647",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2646,
+                "Passed": 2646,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2646,
+                        "Passed": 2646,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "648": {
+            "build_name": "648",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2646,
+                "Passed": 2646,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2646,
+                        "Passed": 2646,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "649": {
+            "build_name": "649",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2646,
+                "Passed": 2644,
+                "Flake": 1,
+                "Failed": 1,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2646,
+                        "Passed": 2644,
+                        "Flake": 1,
+                        "Failed": 1,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {
+                            "python.MuonQt5.model_fitting_view_test.model_fitting_view_test": {
+                                "test_name": "python.MuonQt5.model_fitting_view_test.model_fitting_view_test",
+                                "trials": [
+                                    {
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "8.49",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221118.1650\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nEEEEEEEE\n======================================================================\nERROR: test_that_add_results_table_name_will_add_a_result_table_to_the_workspace_selector (model_fitting_view_test.ModelFittingViewTest)\n----------------------------------------------------------------------\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/model_fitting/model_fitting_view_test.py&quot;, line 19, in setUp\n    self.view = ModelFittingView()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/model_fitting/model_fitting_view.py&quot;, line 21, in __init__\n    super(ModelFittingView, self).__init__(parent)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/basic_fitting_view.py&quot;, line 33, in __init__\n    self.fit_function_options = FitFunctionOptionsView(self)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/fit_function_options_view.py&quot;, line 48, in __init__\n    self.setupUi(self)\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\n\n======================================================================\nERROR: test_that_current_result_table_index_returns_the_expected_index (model_fitting_view_test.ModelFittingViewTest)\n----------------------------------------------------------------------\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/model_fitting/model_fitting_view_test.py&quot;, line 19, in setUp\n    self.view = ModelFittingView()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/model_fitting/model_fitting_view.py&quot;, line 21, in __init__\n    super(ModelFittingView, self).__init__(parent)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/basic_fitting_view.py&quot;, line 33, in __init__\n    self.fit_function_options = FitFunctionOptionsView(self)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/fit_function_options_view.py&quot;, line 48, in __init__\n    self.setupUi(self)\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\n\n======================================================================\nERROR: test_that_the_dataset_workspace_selector_is_hidden_by_default (model_fitting_view_test.ModelFittingViewTest)\n----------------------------------------------------------------------\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/model_fitting/model_fitting_view_test.py&quot;, line 19, in setUp\n    self.view = ModelFittingView()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/model_fitting/model_fitting_view.py&quot;, line 21, in __init__\n    super(ModelFittingView, self).__init__(parent)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/basic_fitting_view.py&quot;, line 33, in __init__\n    self.fit_function_options = FitFunctionOptionsView(self)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/fit_function_options_view.py&quot;, line 48, in __init__\n    self.setupUi(self)\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\n\n======================================================================\nERROR: test_that_the_view_is_enabled_if_results_tables_exist (model_fitting_view_test.ModelFittingViewTest)\n----------------------------------------------------------------------\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/model_fitting/model_fitting_view_test.py&quot;, line 19, in setUp\n    self.view = ModelFittingView()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/model_fitting/model_fitting_view.py&quot;, line 21, in __init__\n    super(ModelFittingView, self).__init__(parent)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/basic_fitting_view.py&quot;, line 33, in __init__\n    self.fit_function_options = FitFunctionOptionsView(self)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/fit_function_options_view.py&quot;, line 48, in __init__\n    self.setupUi(self)\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\n\n======================================================================\nERROR: test_that_the_view_is_not_enabled_if_results_tables_do_not_exist (model_fitting_view_test.ModelFittingViewTest)\n----------------------------------------------------------------------\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/model_fitting/model_fitting_view_test.py&quot;, line 19, in setUp\n    self.view = ModelFittingView()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/model_fitting/model_fitting_view.py&quot;, line 21, in __init__\n    super(ModelFittingView, self).__init__(parent)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/basic_fitting_view.py&quot;, line 33, in __init__\n    self.fit_function_options = FitFunctionOptionsView(self)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/fit_function_options_view.py&quot;, line 48, in __init__\n    self.setupUi(self)\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\n\n======================================================================\nERROR: test_that_update_result_table_names_will_select_the_previously_selected_item_if_it_still_exists (model_fitting_view_test.ModelFittingViewTest)\n----------------------------------------------------------------------\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/model_fitting/model_fitting_view_test.py&quot;, line 19, in setUp\n    self.view = ModelFittingView()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/model_fitting/model_fitting_view.py&quot;, line 21, in __init__\n    super(ModelFittingView, self).__init__(parent)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/basic_fitting_view.py&quot;, line 33, in __init__\n    self.fit_function_options = FitFunctionOptionsView(self)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/fit_function_options_view.py&quot;, line 48, in __init__\n    self.setupUi(self)\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\n\n======================================================================\nERROR: test_that_update_result_table_names_will_set_the_names_in_the_result_table_names_combobox (model_fitting_view_test.ModelFittingViewTest)\n----------------------------------------------------------------------\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/model_fitting/model_fitting_view_test.py&quot;, line 19, in setUp\n    self.view = ModelFittingView()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/model_fitting/model_fitting_view.py&quot;, line 21, in __init__\n    super(ModelFittingView, self).__init__(parent)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/basic_fitting_view.py&quot;, line 33, in __init__\n    self.fit_function_options = FitFunctionOptionsView(self)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/fit_function_options_view.py&quot;, line 48, in __init__\n    self.setupUi(self)\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\n\n======================================================================\nERROR: test_that_update_x_and_y_parameters_will_update_the_x_and_y_parameters (model_fitting_view_test.ModelFittingViewTest)\n----------------------------------------------------------------------\nAttributeError: &#x27;FitFunctionOptionsView&#x27; object has no attribute &#x27;y&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/model_fitting/model_fitting_view_test.py&quot;, line 19, in setUp\n    self.view = ModelFittingView()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/model_fitting/model_fitting_view.py&quot;, line 21, in __init__\n    super(ModelFittingView, self).__init__(parent)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/basic_fitting_view.py&quot;, line 33, in __init__\n    self.fit_function_options = FitFunctionOptionsView(self)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/fit_function_options_view.py&quot;, line 48, in __init__\n    self.setupUi(self)\n  File &quot;&lt;string&gt;&quot;, line 71, in setupUi\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\n\n----------------------------------------------------------------------\nRan 8 tests in 1.075s\n\nFAILED (errors=8)\n\n          Start 2187: python.MuonQt5.model_fitting_view_test.model_fitting_view_test\n"
+                                    },
+                                    {
+                                        "trial_num": 2,
+                                        "outcome": "Passed",
+                                        "test_time": "9.10",
+                                        "stack_trace": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "Failed": {
+                            "python.EngineeringDiffraction.test_gsas2_model.test_gsas2_model": {
+                                "test_name": "python.EngineeringDiffraction.test_gsas2_model.test_gsas2_model",
+                                "trials": [
+                                    {
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "8.58",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221118.1650\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\n...Python-[Error] GSAS-II call must have failed, as the output project file was not found.\n\n\n---------------------\n---------------------\n Errors from GSAS-II \n---------------------\n---------------------\nDetailed\nError\nMessage\n---------------------\n---------------------\n\n\n\n.Python-[Error] Invalid Phase file format in invalid_phase_file\n.CreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCompareWorkspaces-[Notice] CompareWorkspaces started\nCompareWorkspaces-[Notice] The workspaces &quot;gsas2_output_GSASII_instrument_parameters&quot; and &quot;expected_gsas2_output_GSASII_instrument_parameters&quot; matched!\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCompareWorkspaces-[Notice] CompareWorkspaces started\nCompareWorkspaces-[Notice] The workspaces &quot;gsas2_output_GSASII_instrument_parameters&quot; and &quot;expected_gsas2_output_GSASII_instrument_parameters&quot; matched!\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCompareWorkspaces-[Notice] CompareWorkspaces started\nCompareWorkspaces-[Notice] The workspaces &quot;gsas2_output_GSASII_instrument_parameters&quot; and &quot;expected_gsas2_output_GSASII_instrument_parameters&quot; matched!\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCompareWorkspaces-[Notice] CompareWorkspaces started\nCompareWorkspaces-[Notice] The workspaces &quot;gsas2_output_GSASII_instrument_parameters&quot; and &quot;expected_gsas2_output_GSASII_instrument_parameters&quot; matched!\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\n.CreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCompareWorkspaces-[Notice] CompareWorkspaces started\nCompareWorkspaces-[Notice] The workspaces &quot;gsas2_output_GSASII_lattice_parameters&quot; and &quot;expected_gsas2_output_GSASII_lattice_parameters&quot; matched!\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\n.CreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCompareWorkspaces-[Notice] CompareWorkspaces started\nCompareWorkspaces-[Notice] The workspaces &quot;gsas2_output_GSASII_lattice_parameters&quot; and &quot;expected_gsas2_output_GSASII_lattice_parameters&quot; matched!\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\n..CreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCompareWorkspaces-[Notice] CompareWorkspaces started\nCompareWorkspaces-[Notice] The workspaces &quot;gsas2_output_GSASII_reflections&quot; and &quot;expected_gsas2_output_GSASII_lattice_parameters&quot; matched!\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\n.Python-[Error] Different number of banks in file_mismatch and None\n.......Python-[Error] No Pawley Reflections were generated for the phases provided. Not calling GSAS-II.\n.Python-[Warning] Note the roto-inversion space group F m -3 m has been used rather than F m 3 m read from /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/ExternalData/Testing/Data/UnitTest/EngDiff_gsas2_tab/gsas2_FE_GAMMA.cif as it is not in the accepted list of space groups.\n.Python-[Error] * All filepaths for Instrument, Phase and Focused Data must be valid\nPython-[Error] * There must be a valid Project Name for GSASII refinement\n...CreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.01 seconds\nReplaceSpecialValues-[Notice] ReplaceSpecialValues started\nReplaceSpecialValues-[Notice] ReplaceSpecialValues successful, Duration 0.00 seconds\nE..Python-[Error] Invalid Phase file format in invalid_phase_file\n.Python-[Notice] ENGINX_305761_307521_all_banks_TOF.gss\nPython-[Notice] Final refinement wR = 26.83%\n.Python-[Error] GSAS-II call must have failed, as the output project file was not found.\n\n\n---------------------\n---------------------\n Errors from GSAS-II \n---------------------\n---------------------\nErrors from GSAS-II\n---------------------\n---------------------\n\n\n\nPython-[Error] GSAS-II call must have failed, as the output result file was not found.\n\n\n---------------------\n---------------------\n Errors from GSAS-II \n---------------------\n---------------------\nErrors from GSAS-II\n---------------------\n---------------------\n\n\n\nPython-[Notice] \nGSAS-II call complete in 3.14 seconds.\n\n.LoadGSS-[Notice] LoadGSS started\nLoadGSS-[Warning] Line not defined: Monitor: 1\nLoadGSS-[Notice] LoadGSS successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n..Python-[Error] The number of instrument files (2) must be 1 or equal to the number of input histograms 3\n.\n======================================================================\nERROR: test_load_gsas_histogram (test_gsas2_model.TestGSAS2Model)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 922, in do_set_property\n    alg_object.setProperty(key, new_value)\nValueError: Invalid value for property Filename (string) from string &quot;&quot;: No file specified.\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/gsas2/test/test_gsas2_model.py&quot;, line 345, in test_load_gsas_histogram\n    expected_workspace = LoadNexus(FileFinder.getFullPath(&quot;gsas2_output_workspace_1.nxs&quot;))\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 1055, in __call__\n    set_properties(algm, *args, **final_keywords)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 949, in set_properties\n    do_set_property(key, value)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 926, in do_set_property\n    raise e.__class__(msg) from e\nValueError: Problem setting &quot;Filename&quot; in LoadNexus-v1: Invalid value for property Filename (string) from string &quot;&quot;: No file specified.\n\n----------------------------------------------------------------------\nRan 31 tests in 1.243s\n\nFAILED (errors=1)\n\n          Start 2353: python.EngineeringDiffraction.test_gsas2_model.test_gsas2_model\n"
+                                    },
+                                    {
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "8.98",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221118.1650\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\n...Python-[Error] GSAS-II call must have failed, as the output project file was not found.\n\n\n---------------------\n---------------------\n Errors from GSAS-II \n---------------------\n---------------------\nDetailed\nError\nMessage\n---------------------\n---------------------\n\n\n\n.Python-[Error] Invalid Phase file format in invalid_phase_file\n.CreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCompareWorkspaces-[Notice] CompareWorkspaces started\nCompareWorkspaces-[Notice] The workspaces &quot;gsas2_output_GSASII_instrument_parameters&quot; and &quot;expected_gsas2_output_GSASII_instrument_parameters&quot; matched!\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCompareWorkspaces-[Notice] CompareWorkspaces started\nCompareWorkspaces-[Notice] The workspaces &quot;gsas2_output_GSASII_instrument_parameters&quot; and &quot;expected_gsas2_output_GSASII_instrument_parameters&quot; matched!\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCompareWorkspaces-[Notice] CompareWorkspaces started\nCompareWorkspaces-[Notice] The workspaces &quot;gsas2_output_GSASII_instrument_parameters&quot; and &quot;expected_gsas2_output_GSASII_instrument_parameters&quot; matched!\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCompareWorkspaces-[Notice] CompareWorkspaces started\nCompareWorkspaces-[Notice] The workspaces &quot;gsas2_output_GSASII_instrument_parameters&quot; and &quot;expected_gsas2_output_GSASII_instrument_parameters&quot; matched!\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\n.CreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCompareWorkspaces-[Notice] CompareWorkspaces started\nCompareWorkspaces-[Notice] The workspaces &quot;gsas2_output_GSASII_lattice_parameters&quot; and &quot;expected_gsas2_output_GSASII_lattice_parameters&quot; matched!\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\n.CreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCompareWorkspaces-[Notice] CompareWorkspaces started\nCompareWorkspaces-[Notice] The workspaces &quot;gsas2_output_GSASII_lattice_parameters&quot; and &quot;expected_gsas2_output_GSASII_lattice_parameters&quot; matched!\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\n..CreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCompareWorkspaces-[Notice] CompareWorkspaces started\nCompareWorkspaces-[Notice] The workspaces &quot;gsas2_output_GSASII_reflections&quot; and &quot;expected_gsas2_output_GSASII_lattice_parameters&quot; matched!\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\n.Python-[Error] Different number of banks in file_mismatch and None\n.......Python-[Error] No Pawley Reflections were generated for the phases provided. Not calling GSAS-II.\n.Python-[Warning] Note the roto-inversion space group F m -3 m has been used rather than F m 3 m read from /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/ExternalData/Testing/Data/UnitTest/EngDiff_gsas2_tab/gsas2_FE_GAMMA.cif as it is not in the accepted list of space groups.\n.Python-[Error] * All filepaths for Instrument, Phase and Focused Data must be valid\nPython-[Error] * There must be a valid Project Name for GSASII refinement\n...CreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.01 seconds\nReplaceSpecialValues-[Notice] ReplaceSpecialValues started\nReplaceSpecialValues-[Notice] ReplaceSpecialValues successful, Duration 0.00 seconds\nE..Python-[Error] Invalid Phase file format in invalid_phase_file\n.Python-[Notice] ENGINX_305761_307521_all_banks_TOF.gss\nPython-[Notice] Final refinement wR = 26.83%\n.Python-[Error] GSAS-II call must have failed, as the output project file was not found.\n\n\n---------------------\n---------------------\n Errors from GSAS-II \n---------------------\n---------------------\nErrors from GSAS-II\n---------------------\n---------------------\n\n\n\nPython-[Error] GSAS-II call must have failed, as the output result file was not found.\n\n\n---------------------\n---------------------\n Errors from GSAS-II \n---------------------\n---------------------\nErrors from GSAS-II\n---------------------\n---------------------\n\n\n\nPython-[Notice] \nGSAS-II call complete in 3.14 seconds.\n\n.LoadGSS-[Notice] LoadGSS started\nLoadGSS-[Warning] Line not defined: Monitor: 1\nLoadGSS-[Notice] LoadGSS successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n..Python-[Error] The number of instrument files (2) must be 1 or equal to the number of input histograms 3\n.\n======================================================================\nERROR: test_load_gsas_histogram (test_gsas2_model.TestGSAS2Model)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 922, in do_set_property\n    alg_object.setProperty(key, new_value)\nValueError: Invalid value for property Filename (string) from string &quot;&quot;: No file specified.\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/gsas2/test/test_gsas2_model.py&quot;, line 345, in test_load_gsas_histogram\n    expected_workspace = LoadNexus(FileFinder.getFullPath(&quot;gsas2_output_workspace_1.nxs&quot;))\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 1055, in __call__\n    set_properties(algm, *args, **final_keywords)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 949, in set_properties\n    do_set_property(key, value)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 926, in do_set_property\n    raise e.__class__(msg) from e\nValueError: Problem setting &quot;Filename&quot; in LoadNexus-v1: Invalid value for property Filename (string) from string &quot;&quot;: No file specified.\n\n----------------------------------------------------------------------\nRan 31 tests in 1.245s\n\nFAILED (errors=1)\n\n          Start 2353: python.EngineeringDiffraction.test_gsas2_model.test_gsas2_model\n"
+                                    },
+                                    {
+                                        "trial_num": 3,
+                                        "outcome": "Failed",
+                                        "test_time": "8.93",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221118.1650\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\n...Python-[Error] GSAS-II call must have failed, as the output project file was not found.\n\n\n---------------------\n---------------------\n Errors from GSAS-II \n---------------------\n---------------------\nDetailed\nError\nMessage\n---------------------\n---------------------\n\n\n\n.Python-[Error] Invalid Phase file format in invalid_phase_file\n.CreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCompareWorkspaces-[Notice] CompareWorkspaces started\nCompareWorkspaces-[Notice] The workspaces &quot;gsas2_output_GSASII_instrument_parameters&quot; and &quot;expected_gsas2_output_GSASII_instrument_parameters&quot; matched!\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCompareWorkspaces-[Notice] CompareWorkspaces started\nCompareWorkspaces-[Notice] The workspaces &quot;gsas2_output_GSASII_instrument_parameters&quot; and &quot;expected_gsas2_output_GSASII_instrument_parameters&quot; matched!\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCompareWorkspaces-[Notice] CompareWorkspaces started\nCompareWorkspaces-[Notice] The workspaces &quot;gsas2_output_GSASII_instrument_parameters&quot; and &quot;expected_gsas2_output_GSASII_instrument_parameters&quot; matched!\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.01 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCompareWorkspaces-[Notice] CompareWorkspaces started\nCompareWorkspaces-[Notice] The workspaces &quot;gsas2_output_GSASII_instrument_parameters&quot; and &quot;expected_gsas2_output_GSASII_instrument_parameters&quot; matched!\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\n.CreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCompareWorkspaces-[Notice] CompareWorkspaces started\nCompareWorkspaces-[Notice] The workspaces &quot;gsas2_output_GSASII_lattice_parameters&quot; and &quot;expected_gsas2_output_GSASII_lattice_parameters&quot; matched!\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\n.CreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCompareWorkspaces-[Notice] CompareWorkspaces started\nCompareWorkspaces-[Notice] The workspaces &quot;gsas2_output_GSASII_lattice_parameters&quot; and &quot;expected_gsas2_output_GSASII_lattice_parameters&quot; matched!\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\n..CreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace started\nCreateEmptyTableWorkspace-[Notice] CreateEmptyTableWorkspace successful, Duration 0.00 seconds\nCompareWorkspaces-[Notice] CompareWorkspaces started\nCompareWorkspaces-[Notice] The workspaces &quot;gsas2_output_GSASII_reflections&quot; and &quot;expected_gsas2_output_GSASII_lattice_parameters&quot; matched!\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\n.Python-[Error] Different number of banks in file_mismatch and None\n.......Python-[Error] No Pawley Reflections were generated for the phases provided. Not calling GSAS-II.\n.Python-[Warning] Note the roto-inversion space group F m -3 m has been used rather than F m 3 m read from /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/ExternalData/Testing/Data/UnitTest/EngDiff_gsas2_tab/gsas2_FE_GAMMA.cif as it is not in the accepted list of space groups.\n.Python-[Error] * All filepaths for Instrument, Phase and Focused Data must be valid\nPython-[Error] * There must be a valid Project Name for GSASII refinement\n...CreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.01 seconds\nReplaceSpecialValues-[Notice] ReplaceSpecialValues started\nReplaceSpecialValues-[Notice] ReplaceSpecialValues successful, Duration 0.00 seconds\nE..Python-[Error] Invalid Phase file format in invalid_phase_file\n.Python-[Notice] ENGINX_305761_307521_all_banks_TOF.gss\nPython-[Notice] Final refinement wR = 26.83%\n.Python-[Error] GSAS-II call must have failed, as the output project file was not found.\n\n\n---------------------\n---------------------\n Errors from GSAS-II \n---------------------\n---------------------\nErrors from GSAS-II\n---------------------\n---------------------\n\n\n\nPython-[Error] GSAS-II call must have failed, as the output result file was not found.\n\n\n---------------------\n---------------------\n Errors from GSAS-II \n---------------------\n---------------------\nErrors from GSAS-II\n---------------------\n---------------------\n\n\n\nPython-[Notice] \nGSAS-II call complete in 3.14 seconds.\n\n.LoadGSS-[Notice] LoadGSS started\nLoadGSS-[Warning] Line not defined: Monitor: 1\nLoadGSS-[Notice] LoadGSS successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n..Python-[Error] The number of instrument files (2) must be 1 or equal to the number of input histograms 3\n.\n======================================================================\nERROR: test_load_gsas_histogram (test_gsas2_model.TestGSAS2Model)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 922, in do_set_property\n    alg_object.setProperty(key, new_value)\nValueError: Invalid value for property Filename (string) from string &quot;&quot;: No file specified.\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/gsas2/test/test_gsas2_model.py&quot;, line 345, in test_load_gsas_histogram\n    expected_workspace = LoadNexus(FileFinder.getFullPath(&quot;gsas2_output_workspace_1.nxs&quot;))\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 1055, in __call__\n    set_properties(algm, *args, **final_keywords)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 949, in set_properties\n    do_set_property(key, value)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 926, in do_set_property\n    raise e.__class__(msg) from e\nValueError: Problem setting &quot;Filename&quot; in LoadNexus-v1: Invalid value for property Filename (string) from string &quot;&quot;: No file specified.\n\n----------------------------------------------------------------------\nRan 31 tests in 1.218s\n\nFAILED (errors=1)\n\n          Start  471: AlgorithmsTest_WienerSmoothTest\n"
+                                    }
+                                ]
+                            }
+                        },
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "650": {
+            "build_name": "650",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2646,
+                "Passed": 2646,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2646,
+                        "Passed": 2646,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "651": {
+            "build_name": "651",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2646,
+                "Passed": 2645,
+                "Flake": 1,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2646,
+                        "Passed": 2645,
+                        "Flake": 1,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {
+                            "python.MuonQt5.tf_asymmetry_fitting_view_test.tf_asymmetry_fitting_view_test": {
+                                "test_name": "python.MuonQt5.tf_asymmetry_fitting_view_test.tf_asymmetry_fitting_view_test",
+                                "trials": [
+                                    {
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "11.03",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221118.1726\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nEEEEEE\n======================================================================\nERROR: test_that_fix_normalisation_is_turned_off_by_default (tf_asymmetry_fitting_view_test.TFAsymmetryFittingViewTest)\n----------------------------------------------------------------------\nAttributeError: &#x27;TFAsymmetryFittingView&#x27; object has no attribute &#x27;y&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/tf_asymmetry_fitting/tf_asymmetry_fitting_view_test.py&quot;, line 18, in setUp\n    self.view = TFAsymmetryFittingView()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/tf_asymmetry_fitting/tf_asymmetry_fitting_view.py&quot;, line 24, in __init__\n    super(TFAsymmetryFittingView, self).__init__(parent)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/general_fitting/general_fitting_view.py&quot;, line 25, in __init__\n    super(GeneralFittingView, self).__init__(parent)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/basic_fitting_view.py&quot;, line 29, in __init__\n    self.setupUi(self)\n  File &quot;&lt;string&gt;&quot;, line 31, in setupUi\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\n\n======================================================================\nERROR: test_that_is_normalisation_fixed_can_be_set_to_true (tf_asymmetry_fitting_view_test.TFAsymmetryFittingViewTest)\n----------------------------------------------------------------------\nAttributeError: &#x27;TFAsymmetryFittingView&#x27; object has no attribute &#x27;y&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/tf_asymmetry_fitting/tf_asymmetry_fitting_view_test.py&quot;, line 18, in setUp\n    self.view = TFAsymmetryFittingView()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/tf_asymmetry_fitting/tf_asymmetry_fitting_view.py&quot;, line 24, in __init__\n    super(TFAsymmetryFittingView, self).__init__(parent)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/general_fitting/general_fitting_view.py&quot;, line 25, in __init__\n    super(GeneralFittingView, self).__init__(parent)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/basic_fitting_view.py&quot;, line 29, in __init__\n    self.setupUi(self)\n  File &quot;&lt;string&gt;&quot;, line 31, in setupUi\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\n\n======================================================================\nERROR: test_that_tf_asymmetry_mode_can_be_turned_off_and_the_relevant_widgets_hidden (tf_asymmetry_fitting_view_test.TFAsymmetryFittingViewTest)\n----------------------------------------------------------------------\nAttributeError: &#x27;TFAsymmetryFittingView&#x27; object has no attribute &#x27;y&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/tf_asymmetry_fitting/tf_asymmetry_fitting_view_test.py&quot;, line 18, in setUp\n    self.view = TFAsymmetryFittingView()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/tf_asymmetry_fitting/tf_asymmetry_fitting_view.py&quot;, line 24, in __init__\n    super(TFAsymmetryFittingView, self).__init__(parent)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/general_fitting/general_fitting_view.py&quot;, line 25, in __init__\n    super(GeneralFittingView, self).__init__(parent)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/basic_fitting_view.py&quot;, line 29, in __init__\n    self.setupUi(self)\n  File &quot;&lt;string&gt;&quot;, line 31, in setupUi\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\n\n======================================================================\nERROR: test_that_tf_asymmetry_mode_can_be_turned_on_and_the_relevant_widgets_shown (tf_asymmetry_fitting_view_test.TFAsymmetryFittingViewTest)\n----------------------------------------------------------------------\nAttributeError: &#x27;TFAsymmetryFittingView&#x27; object has no attribute &#x27;y&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/tf_asymmetry_fitting/tf_asymmetry_fitting_view_test.py&quot;, line 18, in setUp\n    self.view = TFAsymmetryFittingView()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/tf_asymmetry_fitting/tf_asymmetry_fitting_view.py&quot;, line 24, in __init__\n    super(TFAsymmetryFittingView, self).__init__(parent)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/general_fitting/general_fitting_view.py&quot;, line 25, in __init__\n    super(GeneralFittingView, self).__init__(parent)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/basic_fitting_view.py&quot;, line 29, in __init__\n    self.setupUi(self)\n  File &quot;&lt;string&gt;&quot;, line 31, in setupUi\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\n\n======================================================================\nERROR: test_that_the_normalisation_can_be_set_as_expected (tf_asymmetry_fitting_view_test.TFAsymmetryFittingViewTest)\n----------------------------------------------------------------------\nAttributeError: &#x27;TFAsymmetryFittingView&#x27; object has no attribute &#x27;y&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/tf_asymmetry_fitting/tf_asymmetry_fitting_view_test.py&quot;, line 18, in setUp\n    self.view = TFAsymmetryFittingView()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/tf_asymmetry_fitting/tf_asymmetry_fitting_view.py&quot;, line 24, in __init__\n    super(TFAsymmetryFittingView, self).__init__(parent)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/general_fitting/general_fitting_view.py&quot;, line 25, in __init__\n    super(GeneralFittingView, self).__init__(parent)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/basic_fitting_view.py&quot;, line 29, in __init__\n    self.setupUi(self)\n  File &quot;&lt;string&gt;&quot;, line 31, in setupUi\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\n\n======================================================================\nERROR: test_that_the_view_has_been_initialized_with_the_tf_asymmetry_mode_turned_off_and_the_relevant_widgets_hidden (tf_asymmetry_fitting_view_test.TFAsymmetryFittingViewTest)\n----------------------------------------------------------------------\nAttributeError: &#x27;TFAsymmetryFittingView&#x27; object has no attribute &#x27;y&#x27;\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/test/Muon/fitting_widgets/tf_asymmetry_fitting/tf_asymmetry_fitting_view_test.py&quot;, line 18, in setUp\n    self.view = TFAsymmetryFittingView()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/tf_asymmetry_fitting/tf_asymmetry_fitting_view.py&quot;, line 24, in __init__\n    super(TFAsymmetryFittingView, self).__init__(parent)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/general_fitting/general_fitting_view.py&quot;, line 25, in __init__\n    super(GeneralFittingView, self).__init__(parent)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/Muon/GUI/Common/fitting_widgets/basic_fitting/basic_fitting_view.py&quot;, line 29, in __init__\n    self.setupUi(self)\n  File &quot;&lt;string&gt;&quot;, line 31, in setupUi\nSystemError: &lt;built-in function connectSlotsByName&gt; returned a result with an error set\n\n----------------------------------------------------------------------\nRan 6 tests in 0.740s\n\nFAILED (errors=6)\n\n          Start 2191: python.MuonQt5.tf_asymmetry_fitting_view_test.tf_asymmetry_fitting_view_test\n"
+                                    },
+                                    {
+                                        "trial_num": 2,
+                                        "outcome": "Passed",
+                                        "test_time": "9.93",
+                                        "stack_trace": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "652": {
+            "build_name": "652",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2646,
+                "Passed": 2646,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2646,
+                        "Passed": 2646,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
         }
     }
 }

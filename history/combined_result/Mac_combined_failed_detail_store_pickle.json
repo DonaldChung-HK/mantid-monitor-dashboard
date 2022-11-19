@@ -417,7 +417,8 @@
             "test_name": "python.MuonQt5.tf_asymmetry_fitting_view_test.tf_asymmetry_fitting_view_test",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_573": "Flake"
+                "pull_requests-conda-osx_573": "Flake",
+                "pull_requests-conda-osx_651": "Flake"
             }
         },
         "AlgorithmsTest_ExtractSpectra2Test": {
@@ -461,7 +462,8 @@
             "agent_name": "Mac",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_560": "Failed",
-                "pull_requests-conda-osx_561": "Failed"
+                "pull_requests-conda-osx_561": "Failed",
+                "pull_requests-conda-osx_649": "Failed"
             }
         },
         "MantidQtInterfacesMuonTestQt5_ALCDataLoadingPresenterTest": {
@@ -633,6 +635,14 @@
             "agent_name": "Mac",
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_451": "Flake"
+            }
+        },
+        "python.MuonQt5.model_fitting_view_test.model_fitting_view_test": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.MuonQt5.model_fitting_view_test.model_fitting_view_test",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_649": "Flake"
             }
         }
     }

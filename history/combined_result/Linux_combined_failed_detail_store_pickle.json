@@ -420,7 +420,8 @@
             "agent_name": "Linux",
             "past_failed_outcome": {
                 "pull_requests-conda-linux_1863": "Failed",
-                "pull_requests-conda-linux_1870": "Failed"
+                "pull_requests-conda-linux_1870": "Failed",
+                "pull_requests-conda-linux_1954": "Failed"
             }
         },
         "python.algorithms.ReflectometryReductionOneLiveDataTest.ReflectometryReductionOneLiveDataTest": {

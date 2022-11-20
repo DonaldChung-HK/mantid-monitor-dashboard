@@ -9,6 +9,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "1958",
                     "1957",
                     "1956",
                     "1955",
@@ -37,10 +38,10 @@
                     "1932",
                     "1931",
                     "1930",
-                    "1929",
-                    "1928"
+                    "1929"
                 ],
                 "past_outcome_list": [
+                    "Passed",
                     "None",
                     "Passed",
                     "Passed",
@@ -69,7 +70,6 @@
                     "None",
                     "Passed",
                     "Passed",
-                    "Passed",
                     "Passed"
                 ]
             },
@@ -92,6 +92,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "1958",
                     "1957",
                     "1956",
                     "1955",
@@ -120,10 +121,10 @@
                     "1932",
                     "1931",
                     "1930",
-                    "1929",
-                    "1928"
+                    "1929"
                 ],
                 "past_outcome_list": [
+                    "Passed",
                     "None",
                     "Passed",
                     "Passed",
@@ -150,7 +151,6 @@
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"

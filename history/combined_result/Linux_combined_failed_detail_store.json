@@ -377,7 +377,9 @@
             "past_failed_outcome": {
                 "pull_requests-conda-linux_1863": "Failed",
                 "pull_requests-conda-linux_1870": "Failed",
-                "pull_requests-conda-linux_1954": "Failed"
+                "pull_requests-conda-linux_1954": "Failed",
+                "pull_requests-conda-linux_1963": "Failed",
+                "pull_requests-conda-linux_1965": "Failed"
             }
         },
         "python.algorithms.ReflectometryReductionOneLiveDataTest.ReflectometryReductionOneLiveDataTest": {
@@ -424,6 +426,14 @@
             "agent_name": "Linux",
             "past_failed_outcome": {
                 "pull_requests-conda-linux_1910": "Failed"
+            }
+        },
+        "MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest": {
+            "test_name": "MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1960": "Failed",
+                "pull_requests-conda-linux_1961": "Failed"
             }
         }
     }

@@ -574,6 +574,17 @@
             "past_failed_outcome": {
                 "pull_requests-conda-osx_649": "Flake"
             }
+        },
+        "MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest": {
+            "test_name": "MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_653": "Failed",
+                "pull_requests-conda-osx_654": "Failed",
+                "pull_requests-conda-osx_656": "Failed",
+                "pull_requests-conda-osx_657": "Failed",
+                "pull_requests-conda-osx_658": "Failed"
+            }
         }
     }
 }

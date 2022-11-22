@@ -9,6 +9,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "454",
                     "453",
                     "452",
                     "451",
@@ -17,14 +18,13 @@
                     "448",
                     "447",
                     "446",
-                    "445",
-                    "444"
+                    "445"
                 ],
                 "past_outcome_list": [
                     "Passed",
                     "Passed",
-                    "Flake",
                     "Passed",
+                    "Flake",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -52,6 +52,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "454",
                     "453",
                     "452",
                     "451",
@@ -60,8 +61,7 @@
                     "448",
                     "447",
                     "446",
-                    "445",
-                    "444"
+                    "445"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -71,8 +71,8 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Flake",
                     "Passed",
+                    "Flake",
                     "Passed"
                 ]
             },
@@ -92,9 +92,10 @@
             "agent_name": "Mac",
             "last_failed_outcome": "Failed",
             "pipeline_name": "main_nightly_deployment_prototype",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "454",
                     "453",
                     "452",
                     "451",
@@ -103,8 +104,7 @@
                     "448",
                     "447",
                     "446",
-                    "445",
-                    "444"
+                    "445"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -115,7 +115,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Failed",
+                    "Passed",
                     "Failed"
                 ]
             },

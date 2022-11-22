@@ -10565,6 +10565,767 @@
         "694": {
             "py/object": "data_object.Build",
             "build_name": "694",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2647,
+                "Passed": 2647,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2647,
+                        "Passed": 2647,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "695": {
+            "py/object": "data_object.Build",
+            "build_name": "695",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2647,
+                "Passed": 2647,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2647,
+                        "Passed": 2647,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "696": {
+            "py/object": "data_object.Build",
+            "build_name": "696",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2647,
+                "Passed": 2647,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2647,
+                        "Passed": 2647,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "697": {
+            "py/object": "data_object.Build",
+            "build_name": "697",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2647,
+                "Passed": 2647,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2647,
+                        "Passed": 2647,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "698": {
+            "py/object": "data_object.Build",
+            "build_name": "698",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2648,
+                "Passed": 2648,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2648,
+                        "Passed": 2648,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "699": {
+            "py/object": "data_object.Build",
+            "build_name": "699",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2646,
+                "Passed": 2646,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2646,
+                        "Passed": 2646,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "700": {
+            "py/object": "data_object.Build",
+            "build_name": "700",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2647,
+                "Passed": 2647,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2647,
+                        "Passed": 2647,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "701": {
+            "py/object": "data_object.Build",
+            "build_name": "701",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2647,
+                "Passed": 2646,
+                "Flake": 0,
+                "Failed": 1,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2647,
+                        "Passed": 2646,
+                        "Flake": 0,
+                        "Failed": 1,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {
+                            "python.algorithms.MaskBTPTest.MaskBTPTest": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "python.algorithms.MaskBTPTest.MaskBTPTest",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "44.99",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221121.1628\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\EQ-SANS0b80b1d76214f87f774379ccfbd5b64d0bf198cb.vtp\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.43 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.06 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.05 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.09 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.09 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.05 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.05 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.09 seconds\r\n.MaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 9.84 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 11.62 seconds\r\nFMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.40 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.49 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.05 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.05 seconds\r\nDeleteWorkspace-[Notice] DeleteWorkspace started\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\n.MaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Error] Error in execution of algorithm MaskBTP:\r\nMaskBTP-[Error] Instrument &#x27;testInst&#x27; not in the allowed list\r\nMaskBTP-[Error]   at line 94 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nDeleteWorkspace-[Notice] DeleteWorkspace started\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\n.MaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\ARCSe69b371f7e854244be1a519319113ae690299ba8.vtp\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 1.07 seconds\r\nMaskBTP-[Error] Error in execution of algorithm MaskBTP:\r\nMaskBTP-[Error] None of the indices ([128]) are in range\r\nMaskBTP-[Error]   at line 134 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Error]   caused by line 177 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 1.15 seconds\r\nMaskBTP-[Error] Error in execution of algorithm MaskBTP:\r\nMaskBTP-[Error] Out of range index=1 for SEQUOIA instrument bank numbers\r\nMaskBTP-[Error]   at line 107 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Error]   caused by line 107 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Error]   caused by line 199 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.27 seconds\r\nMaskBTP-[Error] Error in execution of algorithm MaskBTP:\r\nMaskBTP-[Error] Out of range index=22 for SEQUOIA instrument bank numbers\r\nMaskBTP-[Error]   at line 107 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Error]   caused by line 107 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Error]   caused by line 199 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.17 seconds\r\nMaskBTP-[Error] Error in execution of algorithm MaskBTP:\r\nMaskBTP-[Error] None of the indices ([17]) are in range\r\nMaskBTP-[Error]   at line 132 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Error]   caused by line 177 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nDeleteWorkspace-[Notice] DeleteWorkspace started\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\nDeleteWorkspace-[Notice] DeleteWorkspace started\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\nDeleteWorkspace-[Notice] DeleteWorkspace started\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\n.MaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.17 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.30 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.21 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.37 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.21 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.39 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.21 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.38 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.18 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.25 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.17 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.23 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.17 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.38 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.19 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.38 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.16 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.30 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.18 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.33 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.15 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.36 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.17 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.32 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.15 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.29 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.17 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.31 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.22 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.38 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.15 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.29 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.17 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.33 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.19 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.34 seconds\r\n.MaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.63 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.73 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.20 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.11 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\CG25bb43c9f637a20ccbb0b686797c1b3f8b9bcfd04.vtp\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.53 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.09 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.49 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.01 seconds\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.18 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.01 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D1151dc7f7a5e728fe4613c91f389177a02588ea91e.vtp\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.83 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.10 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.29 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.05 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.83 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.11 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D16750b975b55a05e94fd34864870ac420f0afc9e04.vtp\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.95 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.13 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D22268907d5c53c38ea879c73182e01c4a74ddfaeea.vtp\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.46 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.04 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D22Bdd1a725f1e285a694f08ac302648db7a564db559.vtp\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.76 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.11 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D22lra75898d0ec997448dc5f88fcd3bbc5f56b1232f7.vtp\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.27 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.02 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.89 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.18 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.06 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\EQ-SANS661dbf99f143c826c1ea301c7407a0a44527ceb6.vtp\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.58 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.08 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.27 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.09 seconds\r\n.\r\n======================================================================\r\nFAIL: testEdges (MaskBTPTest.MaskBTPTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/test/python/plugins/algorithms/MaskBTPTest.py&quot;, line 152, in testEdges\r\n    self.assertEqual(4 * 24, len(masking))\r\nAssertionError: 96 != 100\r\n\r\n----------------------------------------------------------------------\r\nRan 21 tests in 31.673s\r\n\r\nFAILED (failures=1)\r\n\r\n          Start 1552: python.algorithms.MaskBTPTest.MaskBTPTest\r\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "47.03",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221121.1628\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 1.10 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.06 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.07 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.07 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.13 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.06 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.05 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.10 seconds\r\n.MaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 12.24 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 13.94 seconds\r\nFMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.41 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.51 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.06 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.07 seconds\r\nDeleteWorkspace-[Notice] DeleteWorkspace started\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\n.MaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Error] Error in execution of algorithm MaskBTP:\r\nMaskBTP-[Error] Instrument &#x27;testInst&#x27; not in the allowed list\r\nMaskBTP-[Error]   at line 94 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nDeleteWorkspace-[Notice] DeleteWorkspace started\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\n.MaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 1.05 seconds\r\nMaskBTP-[Error] Error in execution of algorithm MaskBTP:\r\nMaskBTP-[Error] None of the indices ([128]) are in range\r\nMaskBTP-[Error]   at line 134 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Error]   caused by line 177 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 1.14 seconds\r\nMaskBTP-[Error] Error in execution of algorithm MaskBTP:\r\nMaskBTP-[Error] Out of range index=1 for SEQUOIA instrument bank numbers\r\nMaskBTP-[Error]   at line 107 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Error]   caused by line 107 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Error]   caused by line 199 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.24 seconds\r\nMaskBTP-[Error] Error in execution of algorithm MaskBTP:\r\nMaskBTP-[Error] Out of range index=22 for SEQUOIA instrument bank numbers\r\nMaskBTP-[Error]   at line 107 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Error]   caused by line 107 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Error]   caused by line 199 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.19 seconds\r\nMaskBTP-[Error] Error in execution of algorithm MaskBTP:\r\nMaskBTP-[Error] None of the indices ([17]) are in range\r\nMaskBTP-[Error]   at line 132 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Error]   caused by line 177 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nDeleteWorkspace-[Notice] DeleteWorkspace started\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\nDeleteWorkspace-[Notice] DeleteWorkspace started\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\nDeleteWorkspace-[Notice] DeleteWorkspace started\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\n.MaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.23 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.40 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.18 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.32 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.16 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.30 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.17 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.31 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.21 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.27 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.16 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.21 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.18 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.35 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.18 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.33 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.16 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.31 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.19 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.37 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.20 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.44 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.22 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.43 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.22 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.42 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.21 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.42 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.23 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.51 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.22 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.40 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.18 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.40 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.19 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.34 seconds\r\n.MaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.70 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.83 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.23 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.18 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.54 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.11 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.27 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.02 seconds\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.15 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.01 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.62 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.08 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.13 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.04 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.59 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.12 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.91 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.12 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.31 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.04 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.46 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.12 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.12 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.02 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.75 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.17 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.07 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.41 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.09 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.21 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.12 seconds\r\n.\r\n======================================================================\r\nFAIL: testEdges (MaskBTPTest.MaskBTPTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/test/python/plugins/algorithms/MaskBTPTest.py&quot;, line 152, in testEdges\r\n    self.assertEqual(4 * 24, len(masking))\r\nAssertionError: 96 != 100\r\n\r\n----------------------------------------------------------------------\r\nRan 21 tests in 33.780s\r\n\r\nFAILED (failures=1)\r\n\r\n          Start 1552: python.algorithms.MaskBTPTest.MaskBTPTest\r\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Failed",
+                                        "test_time": "43.68",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221121.1628\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.45 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.10 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.08 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.11 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.13 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.05 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.07 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.10 seconds\r\n.MaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 11.10 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 13.32 seconds\r\nFMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.40 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.51 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.05 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.05 seconds\r\nDeleteWorkspace-[Notice] DeleteWorkspace started\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\n.MaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Error] Error in execution of algorithm MaskBTP:\r\nMaskBTP-[Error] Instrument &#x27;testInst&#x27; not in the allowed list\r\nMaskBTP-[Error]   at line 94 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nDeleteWorkspace-[Notice] DeleteWorkspace started\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\n.MaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 1.10 seconds\r\nMaskBTP-[Error] Error in execution of algorithm MaskBTP:\r\nMaskBTP-[Error] None of the indices ([128]) are in range\r\nMaskBTP-[Error]   at line 134 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Error]   caused by line 177 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 1.22 seconds\r\nMaskBTP-[Error] Error in execution of algorithm MaskBTP:\r\nMaskBTP-[Error] Out of range index=1 for SEQUOIA instrument bank numbers\r\nMaskBTP-[Error]   at line 107 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Error]   caused by line 107 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Error]   caused by line 199 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.20 seconds\r\nMaskBTP-[Error] Error in execution of algorithm MaskBTP:\r\nMaskBTP-[Error] Out of range index=22 for SEQUOIA instrument bank numbers\r\nMaskBTP-[Error]   at line 107 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Error]   caused by line 107 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Error]   caused by line 199 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.17 seconds\r\nMaskBTP-[Error] Error in execution of algorithm MaskBTP:\r\nMaskBTP-[Error] None of the indices ([17]) are in range\r\nMaskBTP-[Error]   at line 132 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nMaskBTP-[Error]   caused by line 177 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/MaskBTP.py&#x27;\r\nDeleteWorkspace-[Notice] DeleteWorkspace started\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\nDeleteWorkspace-[Notice] DeleteWorkspace started\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\nDeleteWorkspace-[Notice] DeleteWorkspace started\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\n.MaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.18 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.29 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.17 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.34 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.18 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.33 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.19 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.36 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.18 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.23 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.17 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.24 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.19 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.33 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.17 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.33 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.18 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.35 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.17 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.32 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.19 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.38 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.19 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.34 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.20 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.34 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.20 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.38 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.17 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.33 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.19 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.35 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.17 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.32 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.17 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.35 seconds\r\n.MaskBTP-[Notice] MaskBTP started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started (child)\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.66 seconds\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.76 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.18 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.12 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.37 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.08 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.24 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.01 seconds\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.08 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.01 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.44 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.07 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.10 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.03 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.53 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.09 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.64 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.09 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.21 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.03 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.41 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.10 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.10 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.02 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.60 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.15 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.06 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.37 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.08 seconds\r\n.LoadEmptyInstrument-[Notice] LoadEmptyInstrument started\r\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 0.12 seconds\r\nMaskBTP-[Notice] MaskBTP started\r\nMaskBTP-[Notice] MaskBTP successful, Duration 0.08 seconds\r\n.\r\n======================================================================\r\nFAIL: testEdges (MaskBTPTest.MaskBTPTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/test/python/plugins/algorithms/MaskBTPTest.py&quot;, line 152, in testEdges\r\n    self.assertEqual(4 * 24, len(masking))\r\nAssertionError: 96 != 100\r\n\r\n----------------------------------------------------------------------\r\nRan 21 tests in 30.366s\r\n\r\nFAILED (failures=1)\r\n\r\n          Start  948: DataHandlingTest_LoadTest\r\n"
+                                    }
+                                ]
+                            }
+                        },
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "702": {
+            "py/object": "data_object.Build",
+            "build_name": "702",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2647,
+                "Passed": 2647,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2647,
+                        "Passed": 2647,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "703": {
+            "py/object": "data_object.Build",
+            "build_name": "703",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2647,
+                "Passed": 2647,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2647,
+                        "Passed": 2647,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "704": {
+            "py/object": "data_object.Build",
+            "build_name": "704",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2647,
+                "Passed": 2647,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2647,
+                        "Passed": 2647,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "705": {
+            "py/object": "data_object.Build",
+            "build_name": "705",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2647,
+                "Passed": 2647,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2647,
+                        "Passed": 2647,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "706": {
+            "py/object": "data_object.Build",
+            "build_name": "706",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2647,
+                "Passed": 2647,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2647,
+                        "Passed": 2647,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "707": {
+            "py/object": "data_object.Build",
+            "build_name": "707",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2648,
+                "Passed": 2647,
+                "Flake": 0,
+                "Failed": 1,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2648,
+                        "Passed": 2647,
+                        "Flake": 0,
+                        "Failed": 1,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {
+                            "MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "4.68",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221122.829\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 10 testsunknown file: error: \r\nUnexpected mock function call - returning directly.\r\n    Function call: connect(00000252D85CEDE0, 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;, 000000C62CD6F760, 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;)\r\nGoogle Mock tried the following 11 expectations, but none matched:\r\n\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #0: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2enableLighting(bool)&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1enableLighting(bool)&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: called once - saturated and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #1: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2changed(double, double)&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1setIntegrationRange(double, double)&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: called once - saturated and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #2: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2clicked()&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1helpClicked()&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: called once - saturated and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #3: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2setAutoscaling(bool)&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1setColorMapAutoscaling(bool)&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #4: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2rescaleColorMap()&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1setupColorMap()&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #5: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2executeAlgorithm(const QString &amp;, const QString &amp;)&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1executeAlgorithm(const QString &amp;, const QString &amp;)&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #6: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2changed(double, double)&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1changedIntegrationRange(double, double)&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #7: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2currentChanged(int)&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1tabChanged(int)&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #8: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2triggered()&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1clearPeakOverlays()&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #9: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2triggered()&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1clearAlignmentPlane()&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #10: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2executeAlgorithm(Mantid::API::IAlgorithm_sptr)&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1executeAlgorithm(Mantid::API::IAlgorithm_sptr)&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nExit code 0xc0000409\r\n\r\n\r\n          Start 1986: MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest\r\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "3.35",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221122.829\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 10 testsunknown file: error: \r\nUnexpected mock function call - returning directly.\r\n    Function call: connect(000001B2BD98B8C0, 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;, 000000AE78CFF7A0, 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;)\r\nGoogle Mock tried the following 11 expectations, but none matched:\r\n\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #0: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2enableLighting(bool)&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1enableLighting(bool)&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: called once - saturated and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #1: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2changed(double, double)&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1setIntegrationRange(double, double)&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: called once - saturated and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #2: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2clicked()&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1helpClicked()&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: called once - saturated and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #3: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2setAutoscaling(bool)&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1setColorMapAutoscaling(bool)&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #4: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2rescaleColorMap()&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1setupColorMap()&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #5: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2executeAlgorithm(const QString &amp;, const QString &amp;)&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1executeAlgorithm(const QString &amp;, const QString &amp;)&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #6: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2changed(double, double)&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1changedIntegrationRange(double, double)&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #7: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2currentChanged(int)&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1tabChanged(int)&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #8: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2triggered()&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1clearPeakOverlays()&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #9: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2triggered()&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1clearAlignmentPlane()&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #10: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2executeAlgorithm(Mantid::API::IAlgorithm_sptr)&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1executeAlgorithm(Mantid::API::IAlgorithm_sptr)&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nExit code 0xc0000409\r\n\r\n\r\n          Start 1986: MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest\r\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Failed",
+                                        "test_time": "3.69",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221122.829\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 10 testsunknown file: error: \r\nUnexpected mock function call - returning directly.\r\n    Function call: connect(000001D802B9D350, 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;, 00000074520FF4F0, 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;)\r\nGoogle Mock tried the following 11 expectations, but none matched:\r\n\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #0: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2enableLighting(bool)&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1enableLighting(bool)&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: called once - saturated and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #1: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2changed(double, double)&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1setIntegrationRange(double, double)&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: called once - saturated and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #2: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2clicked()&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1helpClicked()&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: called once - saturated and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #3: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2setAutoscaling(bool)&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1setColorMapAutoscaling(bool)&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #4: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2rescaleColorMap()&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1setupColorMap()&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #5: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2executeAlgorithm(const QString &amp;, const QString &amp;)&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1executeAlgorithm(const QString &amp;, const QString &amp;)&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #6: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2changed(double, double)&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1changedIntegrationRange(double, double)&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #7: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2currentChanged(int)&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1tabChanged(int)&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #8: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2triggered()&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1clearPeakOverlays()&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #9: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2triggered()&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1clearAlignmentPlane()&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #10: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2executeAlgorithm(Mantid::API::IAlgorithm_sptr)&quot;\r\n           Actual: 00007FFB93B22A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1executeAlgorithm(Mantid::API::IAlgorithm_sptr)&quot;\r\n           Actual: 00007FFB93B229F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nExit code 0xc0000409\r\n\r\n\r\n          Start 1303: MuonTest_MuonPreProcessTest\r\n"
+                                    }
+                                ]
+                            }
+                        },
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "708": {
+            "py/object": "data_object.Build",
+            "build_name": "708",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2646,
+                "Passed": 2646,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2646,
+                        "Passed": 2646,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "709": {
+            "py/object": "data_object.Build",
+            "build_name": "709",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2646,
+                "Passed": 2646,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2646,
+                        "Passed": 2646,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "710": {
+            "py/object": "data_object.Build",
+            "build_name": "710",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2646,
+                "Passed": 2646,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2646,
+                        "Passed": 2646,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "711": {
+            "py/object": "data_object.Build",
+            "build_name": "711",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2647,
+                "Passed": 2647,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2647,
+                        "Passed": 2647,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "712": {
+            "py/object": "data_object.Build",
+            "build_name": "712",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2647,
+                "Passed": 2647,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2647,
+                        "Passed": 2647,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "713": {
+            "py/object": "data_object.Build",
+            "build_name": "713",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2647,
+                "Passed": 2647,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2647,
+                        "Passed": 2647,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "714": {
+            "py/object": "data_object.Build",
+            "build_name": "714",
+            "is_completed": true,
+            "aggregate": {
+                "Tested": 2646,
+                "Passed": 2646,
+                "Flake": 0,
+                "Failed": 0,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2646,
+                        "Passed": 2646,
+                        "Flake": 0,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                }
+            }
+        },
+        "715": {
+            "py/object": "data_object.Build",
+            "build_name": "715",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "716": {
+            "py/object": "data_object.Build",
+            "build_name": "716",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": null,
+                "Passed": null,
+                "Flake": null,
+                "Failed": null,
+                "Timeout": null
+            },
+            "ctest_runs": {
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                }
+            }
+        },
+        "717": {
+            "py/object": "data_object.Build",
+            "build_name": "717",
             "is_completed": false,
             "aggregate": {
                 "Tested": null,

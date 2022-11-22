@@ -444,7 +444,15 @@
             "agent_name": "Windows",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_689": "Failed",
-                "pull_requests-conda-windows_690": "Failed"
+                "pull_requests-conda-windows_690": "Failed",
+                "pull_requests-conda-windows_707": "Failed"
+            }
+        },
+        "python.algorithms.MaskBTPTest.MaskBTPTest": {
+            "test_name": "python.algorithms.MaskBTPTest.MaskBTPTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_701": "Failed"
             }
         }
     }

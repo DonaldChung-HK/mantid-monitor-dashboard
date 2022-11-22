@@ -433,7 +433,24 @@
             "agent_name": "Linux",
             "past_failed_outcome": {
                 "pull_requests-conda-linux_1960": "Failed",
-                "pull_requests-conda-linux_1961": "Failed"
+                "pull_requests-conda-linux_1961": "Failed",
+                "pull_requests-conda-linux_1982": "Failed",
+                "pull_requests-conda-linux_1989": "Failed"
+            }
+        },
+        "python.algorithms.MaskBTPTest.MaskBTPTest": {
+            "test_name": "python.algorithms.MaskBTPTest.MaskBTPTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1974": "Failed",
+                "pull_requests-conda-linux_1975": "Failed"
+            }
+        },
+        "python.MuonQt5.basic_fitting_view_test.basic_fitting_view_test": {
+            "test_name": "python.MuonQt5.basic_fitting_view_test.basic_fitting_view_test",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1971": "Flake"
             }
         }
     }

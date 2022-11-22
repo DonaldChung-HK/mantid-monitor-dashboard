@@ -355,7 +355,8 @@
             "test_name": "python.WorkflowAlgorithms.TransformToIqtTest.TransformToIqtTest",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "main_nightly_deployment_prototype_446": "Flake"
+                "main_nightly_deployment_prototype_446": "Flake",
+                "pull_requests-conda-osx_672": "Flake"
             }
         },
         "mantidqt_qt5.test_cut_representation.test_cut_representation": {
@@ -373,7 +374,8 @@
             "agent_name": "Mac",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_573": "Flake",
-                "pull_requests-conda-osx_651": "Flake"
+                "pull_requests-conda-osx_651": "Flake",
+                "pull_requests-conda-osx_671": "Flake"
             }
         },
         "AlgorithmsTest_ExtractSpectra2Test": {
@@ -583,7 +585,23 @@
                 "pull_requests-conda-osx_654": "Failed",
                 "pull_requests-conda-osx_656": "Failed",
                 "pull_requests-conda-osx_657": "Failed",
-                "pull_requests-conda-osx_658": "Failed"
+                "pull_requests-conda-osx_658": "Failed",
+                "pull_requests-conda-osx_673": "Failed"
+            }
+        },
+        "CurveFittingTest_ResolutionTest": {
+            "test_name": "CurveFittingTest_ResolutionTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_673": "Flake"
+            }
+        },
+        "python.algorithms.MaskBTPTest.MaskBTPTest": {
+            "test_name": "python.algorithms.MaskBTPTest.MaskBTPTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_667": "Failed",
+                "pull_requests-conda-osx_668": "Failed"
             }
         }
     }

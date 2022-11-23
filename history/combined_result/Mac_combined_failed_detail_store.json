@@ -198,42 +198,60 @@
             "test_name": "MantidQtWidgetsMplCppTestQt5_PlotTest",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_524": "Failed"
+                "pull_requests-conda-osx_524": "Failed",
+                "pull_requests-conda-osx_689": "Failed",
+                "pull_requests-conda-osx_691": "Failed",
+                "pull_requests-conda-osx_694": "Failed"
             }
         },
         "mantidqt_qt5.test_apply_all_properties.test_apply_all_properties": {
             "test_name": "mantidqt_qt5.test_apply_all_properties.test_apply_all_properties",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_524": "Failed"
+                "pull_requests-conda-osx_524": "Failed",
+                "pull_requests-conda-osx_689": "Failed",
+                "pull_requests-conda-osx_691": "Failed",
+                "pull_requests-conda-osx_694": "Failed"
             }
         },
         "mantidqt_qt5.test_curvestabwidgetpresenter.test_curvestabwidgetpresenter": {
             "test_name": "mantidqt_qt5.test_curvestabwidgetpresenter.test_curvestabwidgetpresenter",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_524": "Failed"
+                "pull_requests-conda-osx_524": "Failed",
+                "pull_requests-conda-osx_689": "Failed",
+                "pull_requests-conda-osx_691": "Failed",
+                "pull_requests-conda-osx_694": "Failed"
             }
         },
         "mantidqt_qt5.test_fitpropertybrowser.test_fitpropertybrowser": {
             "test_name": "mantidqt_qt5.test_fitpropertybrowser.test_fitpropertybrowser",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_524": "Failed"
+                "pull_requests-conda-osx_524": "Failed",
+                "pull_requests-conda-osx_689": "Failed",
+                "pull_requests-conda-osx_691": "Failed",
+                "pull_requests-conda-osx_694": "Failed"
             }
         },
         "mantidqt_qt5.test_functions.test_functions": {
             "test_name": "mantidqt_qt5.test_functions.test_functions",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_524": "Failed"
+                "pull_requests-conda-osx_524": "Failed",
+                "pull_requests-conda-osx_689": "Failed",
+                "pull_requests-conda-osx_691": "Failed",
+                "pull_requests-conda-osx_694": "Failed"
             }
         },
         "mantidqt_qt5.test_plotssaver.test_plotssaver": {
             "test_name": "mantidqt_qt5.test_plotssaver.test_plotssaver",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_524": "Failed"
+                "pull_requests-conda-osx_524": "Failed",
+                "pull_requests-conda-osx_689": "Failed",
+                "pull_requests-conda-osx_691": "Failed",
+                "pull_requests-conda-osx_694": "Failed"
             }
         },
         "mantidqt_qt5.test_regionselector_presenter.test_regionselector_presenter": {
@@ -247,28 +265,40 @@
             "test_name": "mantidqt_qt5.test_tiledplots.test_tiledplots",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_524": "Failed"
+                "pull_requests-conda-osx_524": "Failed",
+                "pull_requests-conda-osx_689": "Failed",
+                "pull_requests-conda-osx_691": "Failed",
+                "pull_requests-conda-osx_694": "Failed"
             }
         },
         "python.plots.plotfunctionsTest.plotfunctionsTest": {
             "test_name": "python.plots.plotfunctionsTest.plotfunctionsTest",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_524": "Failed"
+                "pull_requests-conda-osx_524": "Failed",
+                "pull_requests-conda-osx_689": "Failed",
+                "pull_requests-conda-osx_691": "Failed",
+                "pull_requests-conda-osx_694": "Failed"
             }
         },
         "workbench.test_figureerrorsmanager.test_figureerrorsmanager": {
             "test_name": "workbench.test_figureerrorsmanager.test_figureerrorsmanager",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_524": "Failed"
+                "pull_requests-conda-osx_524": "Failed",
+                "pull_requests-conda-osx_689": "Failed",
+                "pull_requests-conda-osx_691": "Failed",
+                "pull_requests-conda-osx_694": "Failed"
             }
         },
         "workbench.test_figureinteraction.test_figureinteraction": {
             "test_name": "workbench.test_figureinteraction.test_figureinteraction",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_524": "Failed"
+                "pull_requests-conda-osx_524": "Failed",
+                "pull_requests-conda-osx_689": "Failed",
+                "pull_requests-conda-osx_691": "Failed",
+                "pull_requests-conda-osx_694": "Failed"
             }
         },
         "workbench.test_figurewindow.test_figurewindow": {
@@ -282,21 +312,30 @@
             "test_name": "workbench.test_plotscriptgenerator.test_plotscriptgenerator",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_524": "Failed"
+                "pull_requests-conda-osx_524": "Failed",
+                "pull_requests-conda-osx_689": "Failed",
+                "pull_requests-conda-osx_691": "Failed",
+                "pull_requests-conda-osx_694": "Failed"
             }
         },
         "workbench.test_plotscriptgeneratorlegend.test_plotscriptgeneratorlegend": {
             "test_name": "workbench.test_plotscriptgeneratorlegend.test_plotscriptgeneratorlegend",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_524": "Failed"
+                "pull_requests-conda-osx_524": "Failed",
+                "pull_requests-conda-osx_689": "Failed",
+                "pull_requests-conda-osx_691": "Failed",
+                "pull_requests-conda-osx_694": "Failed"
             }
         },
         "workbench.test_utility.test_utility": {
             "test_name": "workbench.test_utility.test_utility",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_524": "Failed"
+                "pull_requests-conda-osx_524": "Failed",
+                "pull_requests-conda-osx_689": "Failed",
+                "pull_requests-conda-osx_691": "Failed",
+                "pull_requests-conda-osx_694": "Failed"
             }
         },
         "python.WorkflowAlgorithms.ReflectometryISISLoadAndProcessTest.ReflectometryISISLoadAndProcessTest": {
@@ -398,7 +437,8 @@
             "agent_name": "Mac",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_560": "Failed",
-                "pull_requests-conda-osx_561": "Failed"
+                "pull_requests-conda-osx_561": "Failed",
+                "pull_requests-conda-osx_682": "Failed"
             }
         },
         "python.EngineeringDiffraction.test_data_presenter.test_data_presenter": {
@@ -415,7 +455,8 @@
             "past_failed_outcome": {
                 "pull_requests-conda-osx_560": "Failed",
                 "pull_requests-conda-osx_561": "Failed",
-                "pull_requests-conda-osx_649": "Failed"
+                "pull_requests-conda-osx_649": "Failed",
+                "pull_requests-conda-osx_682": "Failed"
             }
         },
         "MantidQtInterfacesMuonTestQt5_ALCDataLoadingPresenterTest": {
@@ -586,7 +627,10 @@
                 "pull_requests-conda-osx_656": "Failed",
                 "pull_requests-conda-osx_657": "Failed",
                 "pull_requests-conda-osx_658": "Failed",
-                "pull_requests-conda-osx_673": "Failed"
+                "pull_requests-conda-osx_673": "Failed",
+                "pull_requests-conda-osx_683": "Failed",
+                "pull_requests-conda-osx_690": "Failed",
+                "pull_requests-conda-osx_692": "Failed"
             }
         },
         "CurveFittingTest_ResolutionTest": {

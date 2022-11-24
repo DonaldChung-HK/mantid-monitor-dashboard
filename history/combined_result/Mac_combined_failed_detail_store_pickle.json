@@ -620,7 +620,8 @@
             "test_name": "python.SANS.user_file.txt_parsers.toml_v1_parser_test.toml_v1_parser_test",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_586": "Failed"
+                "pull_requests-conda-osx_586": "Failed",
+                "pull_requests-conda-osx_697": "Failed"
             }
         },
         "MantidQtWidgetsCommonTestQt5_AlgorithmProgressDialogPresenterTest": {
@@ -701,7 +702,8 @@
                 "pull_requests-conda-osx_673": "Failed",
                 "pull_requests-conda-osx_683": "Failed",
                 "pull_requests-conda-osx_690": "Failed",
-                "pull_requests-conda-osx_692": "Failed"
+                "pull_requests-conda-osx_692": "Failed",
+                "pull_requests-conda-osx_699": "Failed"
             }
         },
         "CurveFittingTest_ResolutionTest": {
@@ -719,6 +721,14 @@
             "past_failed_outcome": {
                 "pull_requests-conda-osx_667": "Failed",
                 "pull_requests-conda-osx_668": "Failed"
+            }
+        },
+        "python.MuonQt5.basic_fitting_view_test.basic_fitting_view_test": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.MuonQt5.basic_fitting_view_test.basic_fitting_view_test",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_696": "Flake"
             }
         }
     }

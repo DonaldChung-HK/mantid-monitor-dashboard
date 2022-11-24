@@ -440,7 +440,8 @@
             "test_name": "python.SANS.user_file.txt_parsers.toml_v1_parser_test.toml_v1_parser_test",
             "agent_name": "Windows",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_622": "Failed"
+                "pull_requests-conda-windows_622": "Failed",
+                "pull_requests-conda-windows_732": "Failed"
             }
         },
         "CrystalTest_PeakIntensityVsRadiusTest": {
@@ -489,7 +490,8 @@
                 "pull_requests-conda-windows_690": "Failed",
                 "pull_requests-conda-windows_707": "Failed",
                 "pull_requests-conda-windows_717": "Failed",
-                "pull_requests-conda-windows_725": "Failed"
+                "pull_requests-conda-windows_725": "Failed",
+                "pull_requests-conda-windows_734": "Failed"
             }
         },
         "python.algorithms.MaskBTPTest.MaskBTPTest": {
@@ -503,7 +505,8 @@
             "test_name": "mantidqt_qt5.test_view.test_view",
             "agent_name": "Windows",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_725": "Failed"
+                "pull_requests-conda-windows_725": "Failed",
+                "pull_requests-conda-windows_734": "Failed"
             }
         }
     }

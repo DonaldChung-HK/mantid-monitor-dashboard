@@ -223,7 +223,8 @@
                 "pull_requests-conda-osx_524": "Failed",
                 "pull_requests-conda-osx_689": "Failed",
                 "pull_requests-conda-osx_691": "Failed",
-                "pull_requests-conda-osx_694": "Failed"
+                "pull_requests-conda-osx_694": "Failed",
+                "pull_requests-conda-osx_708": "Failed"
             }
         },
         "mantidqt_qt5.test_apply_all_properties.test_apply_all_properties": {
@@ -234,7 +235,8 @@
                 "pull_requests-conda-osx_524": "Failed",
                 "pull_requests-conda-osx_689": "Failed",
                 "pull_requests-conda-osx_691": "Failed",
-                "pull_requests-conda-osx_694": "Failed"
+                "pull_requests-conda-osx_694": "Failed",
+                "pull_requests-conda-osx_708": "Failed"
             }
         },
         "mantidqt_qt5.test_curvestabwidgetpresenter.test_curvestabwidgetpresenter": {
@@ -245,7 +247,8 @@
                 "pull_requests-conda-osx_524": "Failed",
                 "pull_requests-conda-osx_689": "Failed",
                 "pull_requests-conda-osx_691": "Failed",
-                "pull_requests-conda-osx_694": "Failed"
+                "pull_requests-conda-osx_694": "Failed",
+                "pull_requests-conda-osx_708": "Failed"
             }
         },
         "mantidqt_qt5.test_fitpropertybrowser.test_fitpropertybrowser": {
@@ -256,7 +259,8 @@
                 "pull_requests-conda-osx_524": "Failed",
                 "pull_requests-conda-osx_689": "Failed",
                 "pull_requests-conda-osx_691": "Failed",
-                "pull_requests-conda-osx_694": "Failed"
+                "pull_requests-conda-osx_694": "Failed",
+                "pull_requests-conda-osx_708": "Failed"
             }
         },
         "mantidqt_qt5.test_functions.test_functions": {
@@ -267,7 +271,8 @@
                 "pull_requests-conda-osx_524": "Failed",
                 "pull_requests-conda-osx_689": "Failed",
                 "pull_requests-conda-osx_691": "Failed",
-                "pull_requests-conda-osx_694": "Failed"
+                "pull_requests-conda-osx_694": "Failed",
+                "pull_requests-conda-osx_708": "Failed"
             }
         },
         "mantidqt_qt5.test_plotssaver.test_plotssaver": {
@@ -278,7 +283,8 @@
                 "pull_requests-conda-osx_524": "Failed",
                 "pull_requests-conda-osx_689": "Failed",
                 "pull_requests-conda-osx_691": "Failed",
-                "pull_requests-conda-osx_694": "Failed"
+                "pull_requests-conda-osx_694": "Failed",
+                "pull_requests-conda-osx_708": "Failed"
             }
         },
         "mantidqt_qt5.test_regionselector_presenter.test_regionselector_presenter": {
@@ -297,7 +303,8 @@
                 "pull_requests-conda-osx_524": "Failed",
                 "pull_requests-conda-osx_689": "Failed",
                 "pull_requests-conda-osx_691": "Failed",
-                "pull_requests-conda-osx_694": "Failed"
+                "pull_requests-conda-osx_694": "Failed",
+                "pull_requests-conda-osx_708": "Failed"
             }
         },
         "python.plots.plotfunctionsTest.plotfunctionsTest": {
@@ -308,7 +315,8 @@
                 "pull_requests-conda-osx_524": "Failed",
                 "pull_requests-conda-osx_689": "Failed",
                 "pull_requests-conda-osx_691": "Failed",
-                "pull_requests-conda-osx_694": "Failed"
+                "pull_requests-conda-osx_694": "Failed",
+                "pull_requests-conda-osx_708": "Failed"
             }
         },
         "workbench.test_figureerrorsmanager.test_figureerrorsmanager": {
@@ -319,7 +327,8 @@
                 "pull_requests-conda-osx_524": "Failed",
                 "pull_requests-conda-osx_689": "Failed",
                 "pull_requests-conda-osx_691": "Failed",
-                "pull_requests-conda-osx_694": "Failed"
+                "pull_requests-conda-osx_694": "Failed",
+                "pull_requests-conda-osx_708": "Failed"
             }
         },
         "workbench.test_figureinteraction.test_figureinteraction": {
@@ -330,7 +339,8 @@
                 "pull_requests-conda-osx_524": "Failed",
                 "pull_requests-conda-osx_689": "Failed",
                 "pull_requests-conda-osx_691": "Failed",
-                "pull_requests-conda-osx_694": "Failed"
+                "pull_requests-conda-osx_694": "Failed",
+                "pull_requests-conda-osx_708": "Failed"
             }
         },
         "workbench.test_figurewindow.test_figurewindow": {
@@ -349,7 +359,8 @@
                 "pull_requests-conda-osx_524": "Failed",
                 "pull_requests-conda-osx_689": "Failed",
                 "pull_requests-conda-osx_691": "Failed",
-                "pull_requests-conda-osx_694": "Failed"
+                "pull_requests-conda-osx_694": "Failed",
+                "pull_requests-conda-osx_708": "Failed"
             }
         },
         "workbench.test_plotscriptgeneratorlegend.test_plotscriptgeneratorlegend": {
@@ -360,7 +371,8 @@
                 "pull_requests-conda-osx_524": "Failed",
                 "pull_requests-conda-osx_689": "Failed",
                 "pull_requests-conda-osx_691": "Failed",
-                "pull_requests-conda-osx_694": "Failed"
+                "pull_requests-conda-osx_694": "Failed",
+                "pull_requests-conda-osx_708": "Failed"
             }
         },
         "workbench.test_utility.test_utility": {
@@ -371,7 +383,8 @@
                 "pull_requests-conda-osx_524": "Failed",
                 "pull_requests-conda-osx_689": "Failed",
                 "pull_requests-conda-osx_691": "Failed",
-                "pull_requests-conda-osx_694": "Failed"
+                "pull_requests-conda-osx_694": "Failed",
+                "pull_requests-conda-osx_708": "Failed"
             }
         },
         "python.WorkflowAlgorithms.ReflectometryISISLoadAndProcessTest.ReflectometryISISLoadAndProcessTest": {
@@ -476,7 +489,8 @@
             "agent_name": "Mac",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_560": "Failed",
-                "pull_requests-conda-osx_561": "Failed"
+                "pull_requests-conda-osx_561": "Failed",
+                "pull_requests-conda-osx_705": "Failed"
             }
         },
         "python.EngineeringDiffraction.test_data_model.test_data_model": {
@@ -670,7 +684,8 @@
             "test_name": "python.MuonQt5.general_fitting_view_test.general_fitting_view_test",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_620": "Flake"
+                "pull_requests-conda-osx_620": "Flake",
+                "pull_requests-conda-osx_705": "Flake"
             }
         },
         "python.MuonQt5.fit_function_options_view_test.fit_function_options_view_test": {
@@ -729,6 +744,22 @@
             "agent_name": "Mac",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_696": "Flake"
+            }
+        },
+        "DataHandlingTest_LoadILLDiffractionTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "DataHandlingTest_LoadILLDiffractionTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_715": "Flake"
+            }
+        },
+        "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_709": "Failed"
             }
         }
     }

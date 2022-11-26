@@ -761,6 +761,23 @@
             "past_failed_outcome": {
                 "pull_requests-conda-osx_709": "Failed"
             }
+        },
+        "python.IsisPowder.ISISPowderCommonTest.ISISPowderCommonTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.IsisPowder.ISISPowderCommonTest.ISISPowderCommonTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_723": "Failed"
+            }
+        },
+        "mantidqt_qt5.test_instrumentview_presenter.test_instrumentview_presenter": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "mantidqt_qt5.test_instrumentview_presenter.test_instrumentview_presenter",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_719": "Failed",
+                "pull_requests-conda-osx_720": "Failed"
+            }
         }
     }
 }

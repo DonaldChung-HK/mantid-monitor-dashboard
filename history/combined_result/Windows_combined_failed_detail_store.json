@@ -521,7 +521,9 @@
             "past_failed_outcome": {
                 "pull_requests-conda-windows_725": "Failed",
                 "pull_requests-conda-windows_734": "Failed",
-                "pull_requests-conda-windows_748": "Failed"
+                "pull_requests-conda-windows_748": "Failed",
+                "pull_requests-conda-windows_752": "Failed",
+                "pull_requests-conda-windows_756": "Failed"
             }
         },
         "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter": {
@@ -529,6 +531,13 @@
             "agent_name": "Windows",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_744": "Failed"
+            }
+        },
+        "python.IsisPowder.ISISPowderCommonTest.ISISPowderCommonTest": {
+            "test_name": "python.IsisPowder.ISISPowderCommonTest.ISISPowderCommonTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_758": "Failed"
             }
         }
     }

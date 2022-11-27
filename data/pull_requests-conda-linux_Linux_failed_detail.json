@@ -9,6 +9,8 @@
             "problem_count": 5,
             "past_outcome": {
                 "build_keys": [
+                    "2039",
+                    "2038",
                     "2037",
                     "2036",
                     "2035",
@@ -36,11 +38,11 @@
                     "2013",
                     "2012",
                     "2011",
-                    "2010",
-                    "2009",
-                    "2008"
+                    "2010"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Flake",
                     "Passed",
@@ -66,8 +68,6 @@
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -92,6 +92,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2039",
+                    "2038",
                     "2037",
                     "2036",
                     "2035",
@@ -119,11 +121,11 @@
                     "2013",
                     "2012",
                     "2011",
-                    "2010",
-                    "2009",
-                    "2008"
+                    "2010"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Failed",
                     "Passed",
@@ -149,8 +151,6 @@
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -175,6 +175,8 @@
             "problem_count": 2,
             "past_outcome": {
                 "build_keys": [
+                    "2039",
+                    "2038",
                     "2037",
                     "2036",
                     "2035",
@@ -202,11 +204,11 @@
                     "2013",
                     "2012",
                     "2011",
-                    "2010",
-                    "2009",
-                    "2008"
+                    "2010"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -232,8 +234,6 @@
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -258,6 +258,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2039",
+                    "2038",
                     "2037",
                     "2036",
                     "2035",
@@ -285,11 +287,11 @@
                     "2013",
                     "2012",
                     "2011",
-                    "2010",
-                    "2009",
-                    "2008"
+                    "2010"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -315,8 +317,6 @@
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -341,6 +341,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2039",
+                    "2038",
                     "2037",
                     "2036",
                     "2035",
@@ -368,11 +370,11 @@
                     "2013",
                     "2012",
                     "2011",
-                    "2010",
-                    "2009",
-                    "2008"
+                    "2010"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -400,8 +402,6 @@
                     "None",
                     "Passed",
                     "Passed",
-                    "Passed",
-                    "Passed",
                     "Passed"
                 ]
             },
@@ -424,6 +424,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2039",
+                    "2038",
                     "2037",
                     "2036",
                     "2035",
@@ -451,11 +453,11 @@
                     "2013",
                     "2012",
                     "2011",
-                    "2010",
-                    "2009",
-                    "2008"
+                    "2010"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -481,8 +483,6 @@
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -507,6 +507,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2039",
+                    "2038",
                     "2037",
                     "2036",
                     "2035",
@@ -534,11 +536,11 @@
                     "2013",
                     "2012",
                     "2011",
-                    "2010",
-                    "2009",
-                    "2008"
+                    "2010"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -564,8 +566,6 @@
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -590,6 +590,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2039",
+                    "2038",
                     "2037",
                     "2036",
                     "2035",
@@ -617,11 +619,11 @@
                     "2013",
                     "2012",
                     "2011",
-                    "2010",
-                    "2009",
-                    "2008"
+                    "2010"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -647,8 +649,6 @@
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -673,6 +673,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2039",
+                    "2038",
                     "2037",
                     "2036",
                     "2035",
@@ -700,11 +702,11 @@
                     "2013",
                     "2012",
                     "2011",
-                    "2010",
-                    "2009",
-                    "2008"
+                    "2010"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -730,8 +732,6 @@
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -756,6 +756,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2039",
+                    "2038",
                     "2037",
                     "2036",
                     "2035",
@@ -783,11 +785,11 @@
                     "2013",
                     "2012",
                     "2011",
-                    "2010",
-                    "2009",
-                    "2008"
+                    "2010"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -813,8 +815,6 @@
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -839,6 +839,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2039",
+                    "2038",
                     "2037",
                     "2036",
                     "2035",
@@ -866,11 +868,11 @@
                     "2013",
                     "2012",
                     "2011",
-                    "2010",
-                    "2009",
-                    "2008"
+                    "2010"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -896,8 +898,6 @@
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -922,6 +922,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2039",
+                    "2038",
                     "2037",
                     "2036",
                     "2035",
@@ -949,11 +951,11 @@
                     "2013",
                     "2012",
                     "2011",
-                    "2010",
-                    "2009",
-                    "2008"
+                    "2010"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -979,8 +981,6 @@
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -1005,6 +1005,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2039",
+                    "2038",
                     "2037",
                     "2036",
                     "2035",
@@ -1032,11 +1034,11 @@
                     "2013",
                     "2012",
                     "2011",
-                    "2010",
-                    "2009",
-                    "2008"
+                    "2010"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -1062,8 +1064,6 @@
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -1088,6 +1088,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2039",
+                    "2038",
                     "2037",
                     "2036",
                     "2035",
@@ -1115,11 +1117,11 @@
                     "2013",
                     "2012",
                     "2011",
-                    "2010",
-                    "2009",
-                    "2008"
+                    "2010"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -1145,8 +1147,6 @@
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -1171,6 +1171,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2039",
+                    "2038",
                     "2037",
                     "2036",
                     "2035",
@@ -1198,11 +1200,11 @@
                     "2013",
                     "2012",
                     "2011",
-                    "2010",
-                    "2009",
-                    "2008"
+                    "2010"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -1228,8 +1230,6 @@
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -1254,6 +1254,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2039",
+                    "2038",
                     "2037",
                     "2036",
                     "2035",
@@ -1281,11 +1283,11 @@
                     "2013",
                     "2012",
                     "2011",
-                    "2010",
-                    "2009",
-                    "2008"
+                    "2010"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -1311,8 +1313,6 @@
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -1337,6 +1337,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2039",
+                    "2038",
                     "2037",
                     "2036",
                     "2035",
@@ -1364,11 +1366,11 @@
                     "2013",
                     "2012",
                     "2011",
-                    "2010",
-                    "2009",
-                    "2008"
+                    "2010"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -1394,8 +1396,6 @@
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -1420,6 +1420,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2039",
+                    "2038",
                     "2037",
                     "2036",
                     "2035",
@@ -1447,11 +1449,11 @@
                     "2013",
                     "2012",
                     "2011",
-                    "2010",
-                    "2009",
-                    "2008"
+                    "2010"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -1477,8 +1479,6 @@
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -1503,6 +1503,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2039",
+                    "2038",
                     "2037",
                     "2036",
                     "2035",
@@ -1530,11 +1532,11 @@
                     "2013",
                     "2012",
                     "2011",
-                    "2010",
-                    "2009",
-                    "2008"
+                    "2010"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -1560,8 +1562,6 @@
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -1586,6 +1586,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2039",
+                    "2038",
                     "2037",
                     "2036",
                     "2035",
@@ -1613,11 +1615,11 @@
                     "2013",
                     "2012",
                     "2011",
-                    "2010",
-                    "2009",
-                    "2008"
+                    "2010"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -1643,8 +1645,6 @@
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -1669,6 +1669,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2039",
+                    "2038",
                     "2037",
                     "2036",
                     "2035",
@@ -1696,11 +1698,11 @@
                     "2013",
                     "2012",
                     "2011",
-                    "2010",
-                    "2009",
-                    "2008"
+                    "2010"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -1728,8 +1730,6 @@
                     "None",
                     "Passed",
                     "Failed",
-                    "Passed",
-                    "Passed",
                     "Passed"
                 ]
             },
@@ -1741,89 +1741,6 @@
                 "outcome": "Failed",
                 "test_time": "2.33",
                 "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221124.750\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 10 testsQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\nQObject::connect: Cannot connect (null)::colorMapChanged() to MantidQt::MantidWidgets::ProjectionSurface::colorMapChanged()\nQObject::connect: Cannot connect (null)::refreshView() to MantidQt::MantidWidgets::ProjectionSurface::refreshView()\nQObject::connect: Cannot queue arguments of type &#x27;std::string&#x27;\n(Make sure &#x27;std::string&#x27; is registered using qRegisterMetaType().)\nQObject::connect: Cannot queue arguments of type &#x27;std::string&#x27;\n(Make sure &#x27;std::string&#x27; is registered using qRegisterMetaType().)\nQObject::connect: Cannot queue arguments of type &#x27;std::string&#x27;\n(Make sure &#x27;std::string&#x27; is registered using qRegisterMetaType().)\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\nQObject::connect: Cannot connect (null)::colorMapChanged() to MantidQt::MantidWidgets::ProjectionSurface::colorMapChanged()\nQObject::connect: Cannot connect (null)::refreshView() to MantidQt::MantidWidgets::ProjectionSurface::refreshView()\nunknown file: Failure\n\nUnexpected mock function call - returning directly.\n    Function call: connect(0x55f93bb056a0, 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;, 0x7ffed22b3090, 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;)\nGoogle Mock tried the following 11 expectations, but none matched:\n\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h:308: tried expectation #0: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\n  Expected arg #1: is equal to &quot;2enableLighting(bool)&quot;\n           Actual: 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;\n  Expected arg #3: is equal to &quot;1enableLighting(bool)&quot;\n           Actual: 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;\n         Expected: to be called once\n           Actual: called once - saturated and active\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h:308: tried expectation #1: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\n  Expected arg #1: is equal to &quot;2changed(double, double)&quot;\n           Actual: 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;\n  Expected arg #3: is equal to &quot;1setIntegrationRange(double, double)&quot;\n           Actual: 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;\n         Expected: to be called once\n           Actual: called once - saturated and active\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h:308: tried expectation #2: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\n  Expected arg #1: is equal to &quot;2clicked()&quot;\n           Actual: 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;\n  Expected arg #3: is equal to &quot;1helpClicked()&quot;\n           Actual: 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;\n         Expected: to be called once\n           Actual: called once - saturated and active\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h:308: tried expectation #3: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\n  Expected arg #1: is equal to &quot;2setAutoscaling(bool)&quot;\n           Actual: 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;\n  Expected arg #3: is equal to &quot;1setColorMapAutoscaling(bool)&quot;\n           Actual: 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;\n         Expected: to be called once\n           Actual: never called - unsatisfied and active\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h:308: tried expectation #4: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\n  Expected arg #1: is equal to &quot;2rescaleColorMap()&quot;\n           Actual: 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;\n  Expected arg #3: is equal to &quot;1setupColorMap()&quot;\n           Actual: 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;\n         Expected: to be called once\n           Actual: never called - unsatisfied and active\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h:308: tried expectation #5: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\n  Expected arg #1: is equal to &quot;2executeAlgorithm(const QString &amp;, const QString &amp;)&quot;\n           Actual: 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;\n  Expected arg #3: is equal to &quot;1executeAlgorithm(const QString &amp;, const QString &amp;)&quot;\n           Actual: 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;\n         Expected: to be called once\n           Actual: never called - unsatisfied and active\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h:308: tried expectation #6: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\n  Expected arg #1: is equal to &quot;2changed(double, double)&quot;\n           Actual: 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;\n  Expected arg #3: is equal to &quot;1changedIntegrationRange(double, double)&quot;\n           Actual: 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;\n         Expected: to be called once\n           Actual: never called - unsatisfied and active\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h:308: tried expectation #7: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\n  Expected arg #1: is equal to &quot;2currentChanged(int)&quot;\n           Actual: 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;\n  Expected arg #3: is equal to &quot;1tabChanged(int)&quot;\n           Actual: 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;\n         Expected: to be called once\n           Actual: never called - unsatisfied and active\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h:308: tried expectation #8: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\n  Expected arg #1: is equal to &quot;2triggered()&quot;\n           Actual: 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;\n  Expected arg #3: is equal to &quot;1clearPeakOverlays()&quot;\n           Actual: 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;\n         Expected: to be called once\n           Actual: never called - unsatisfied and active\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h:308: tried expectation #9: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\n  Expected arg #1: is equal to &quot;2triggered()&quot;\n           Actual: 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;\n  Expected arg #3: is equal to &quot;1clearAlignmentPlane()&quot;\n           Actual: 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;\n         Expected: to be called once\n           Actual: never called - unsatisfied and active\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h:308: tried expectation #10: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\n  Expected arg #1: is equal to &quot;2executeAlgorithm(Mantid::API::IAlgorithm_sptr)&quot;\n           Actual: 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;\n  Expected arg #3: is equal to &quot;1executeAlgorithm(Mantid::API::IAlgorithm_sptr)&quot;\n           Actual: 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;\n         Expected: to be called once\n           Actual: never called - unsatisfied and active\n\n********* UNHANDLED EXCEPTION *********\n  what(): unknown file: Failure\n\nUnexpected mock function call - returning directly.\n    Function call: connect(0x55f93bb056a0, 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;, 0x7ffed22b3090, 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;)\nGoogle Mock tried the following 11 expectations, but none matched:\n\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h:308: tried expectation #0: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\n  Expected arg #1: is equal to &quot;2enableLighting(bool)&quot;\n           Actual: 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;\n  Expected arg #3: is equal to &quot;1enableLighting(bool)&quot;\n           Actual: 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;\n         Expected: to be called once\n           Actual: called once - saturated and active\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h:308: tried expectation #1: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\n  Expected arg #1: is equal to &quot;2changed(double, double)&quot;\n           Actual: 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;\n  Expected arg #3: is equal to &quot;1setIntegrationRange(double, double)&quot;\n           Actual: 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;\n         Expected: to be called once\n           Actual: called once - saturated and active\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h:308: tried expectation #2: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\n  Expected arg #1: is equal to &quot;2clicked()&quot;\n           Actual: 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;\n  Expected arg #3: is equal to &quot;1helpClicked()&quot;\n           Actual: 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;\n         Expected: to be called once\n           Actual: called once - saturated and active\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h:308: tried expectation #3: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\n  Expected arg #1: is equal to &quot;2setAutoscaling(bool)&quot;\n           Actual: 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;\n  Expected arg #3: is equal to &quot;1setColorMapAutoscaling(bool)&quot;\n           Actual: 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;\n         Expected: to be called once\n           Actual: never called - unsatisfied and active\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h:308: tried expectation #4: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\n  Expected arg #1: is equal to &quot;2rescaleColorMap()&quot;\n           Actual: 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;\n  Expected arg #3: is equal to &quot;1setupColorMap()&quot;\n           Actual: 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;\n         Expected: to be called once\n           Actual: never called - unsatisfied and active\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h:308: tried expectation #5: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\n  Expected arg #1: is equal to &quot;2executeAlgorithm(const QString &amp;, const QString &amp;)&quot;\n           Actual: 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;\n  Expected arg #3: is equal to &quot;1executeAlgorithm(const QString &amp;, const QString &amp;)&quot;\n           Actual: 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;\n         Expected: to be called once\n           Actual: never called - unsatisfied and active\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h:308: tried expectation #6: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\n  Expected arg #1: is equal to &quot;2changed(double, double)&quot;\n           Actual: 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;\n  Expected arg #3: is equal to &quot;1changedIntegrationRange(double, double)&quot;\n           Actual: 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;\n         Expected: to be called once\n           Actual: never called - unsatisfied and active\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h:308: tried expectation #7: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\n  Expected arg #1: is equal to &quot;2currentChanged(int)&quot;\n           Actual: 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;\n  Expected arg #3: is equal to &quot;1tabChanged(int)&quot;\n           Actual: 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;\n         Expected: to be called once\n           Actual: never called - unsatisfied and active\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h:308: tried expectation #8: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\n  Expected arg #1: is equal to &quot;2triggered()&quot;\n           Actual: 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;\n  Expected arg #3: is equal to &quot;1clearPeakOverlays()&quot;\n           Actual: 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;\n         Expected: to be called once\n           Actual: never called - unsatisfied and active\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h:308: tried expectation #9: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\n  Expected arg #1: is equal to &quot;2triggered()&quot;\n           Actual: 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;\n  Expected arg #3: is equal to &quot;1clearAlignmentPlane()&quot;\n           Actual: 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;\n         Expected: to be called once\n           Actual: never called - unsatisfied and active\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h:308: tried expectation #10: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\n  Expected arg #1: is equal to &quot;2executeAlgorithm(Mantid::API::IAlgorithm_sptr)&quot;\n           Actual: 0x7f6df9f1daaf pointing to &quot;2initWidget(bool, bool)&quot;\n  Expected arg #3: is equal to &quot;1executeAlgorithm(Mantid::API::IAlgorithm_sptr)&quot;\n           Actual: 0x7f6df9f1da97 pointing to &quot;1initWidget(bool, bool)&quot;\n         Expected: to be called once\n           Actual: never called - unsatisfied and active\n\nBacktrace:\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidAPI.so(+0x1efc6a) [0x7f6df780bc6a]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidAPI.so(+0xfffef) [0x7f6df771bfef]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libstdc++.so.6(+0xb0514) [0x7f6df69d2514]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libstdc++.so.6(+0xb0566) [0x7f6df69d2566]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libstdc++.so.6(__cxa_rethrow+0) [0x7f6df69d2758]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtWidgetsInstrumentWidgetTestQt5(+0x37ebf) [0x55f93aa6cebf]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtWidgetsInstrumentWidgetTestQt5(+0xe78a9) [0x55f93ab1c8a9]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtWidgetsInstrumentWidgetTestQt5(+0xbcf64) [0x55f93aaf1f64]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtWidgetsInstrumentWidgetTestQt5(+0xc20d2) [0x55f93aaf70d2]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtWidgetsInstrumentWidgetTestQt5(+0x5e3c4) [0x55f93aa933c4]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidQtWidgetsInstrumentViewQt5.so(_ZN8MantidQt13MantidWidgets16InstrumentWidget20resetInstrumentActorEbbddb+0x593) [0x7f6df9e95f33]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidQtWidgetsInstrumentViewQt5.so(_ZN8MantidQt13MantidWidgets16InstrumentWidgetC1E7QStringP7QWidgetbbddbbNS0_6Detail12DependenciesE+0x789) [0x7f6df9e9d509]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtWidgetsInstrumentWidgetTestQt5(+0x663a9) [0x55f93aa9b3a9]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtWidgetsInstrumentWidgetTestQt5(+0x9144b) [0x55f93aac644b]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtWidgetsInstrumentWidgetTestQt5(+0xa45d3) [0x55f93aad95d3]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtWidgetsInstrumentWidgetTestQt5(+0x38d47) [0x55f93aa6dd47]\n /lib64/libc.so.6(__libc_start_main+0xf5) [0x7f6df625a555]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtWidgetsInstrumentWidgetTestQt5(+0x39fd9) [0x55f93aa6efd9]\n\n[ FATAL ] /jenkins_workdir/workspace/pull_requests-conda-linux/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h:1670:: pthread_mutex_destroy(&amp;mutex_)failed with error 16\nSubprocess aborted\n\n          Start  910: DataHandlingTest_LoadMuonNexusV2Test\n"
-            }
-        },
-        {
-            "test_name": "python.SANS.user_file.txt_parsers.toml_v1_parser_test.toml_v1_parser_test",
-            "latest_failed_build": "2009",
-            "agent_name": "Linux",
-            "last_failed_outcome": "Failed",
-            "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 1,
-            "past_outcome": {
-                "build_keys": [
-                    "2037",
-                    "2036",
-                    "2035",
-                    "2034",
-                    "2033",
-                    "2032",
-                    "2031",
-                    "2030",
-                    "2029",
-                    "2028",
-                    "2027",
-                    "2026",
-                    "2025",
-                    "2024",
-                    "2023",
-                    "2022",
-                    "2021",
-                    "2020",
-                    "2019",
-                    "2018",
-                    "2017",
-                    "2016",
-                    "2015",
-                    "2014",
-                    "2013",
-                    "2012",
-                    "2011",
-                    "2010",
-                    "2009",
-                    "2008"
-                ],
-                "past_outcome_list": [
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Failed",
-                    "Passed"
-                ]
-            },
-            "last_stack_traces": {
-                "test_name": "python.SANS.user_file.txt_parsers.toml_v1_parser_test.toml_v1_parser_test",
-                "build": "2009",
-                "agent_name": "Linux",
-                "trial": 3,
-                "outcome": "Failed",
-                "test_time": "0.97",
-                "stacktrace": "ESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nFSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nEESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nFSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nFSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nFSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nFSANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nESANS-[Warning] Could not parse run number from filename, using the run number direct set in the file which is 12345\nE.\n======================================================================\nERROR: test_all_centre_entry (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 121, in test_all_centre_entry\n    parser = self._setup_parser(input_dict)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 49, in _setup_parser\n    return TomlV1Parser(dict_vals, file_information=None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nERROR: test_beamstop_masking_x_y_positions (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 576, in test_beamstop_masking_x_y_positions\n    parser = self._setup_parser({&quot;mask&quot;: {&quot;spatial&quot;: {&quot;beamstop_shadow&quot;: beamstop_values}}})\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 49, in _setup_parser\n    return TomlV1Parser(dict_vals, file_information=None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nERROR: test_binning_commands_parsed (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 160, in test_binning_commands_parsed\n    wavelength = self._setup_parser(wavelength_dict).get_state_wavelength()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 49, in _setup_parser\n    return TomlV1Parser(dict_vals, file_information=None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nERROR: test_detector_configuration_parsed (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 97, in test_detector_configuration_parsed\n    self._loop_over_supported_keys(supported_keys=supported_keys, top_level_keys=[&quot;detector&quot;, &quot;configuration&quot;])\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 76, in _loop_over_supported_keys\n    parser = self._setup_parser(top_level_dict)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 49, in _setup_parser\n    return TomlV1Parser(dict_vals, file_information=None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nERROR: test_detector_correction_position (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 272, in test_detector_correction_position\n    state_move = self._setup_parser(top_level_dict).get_state_move(None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 49, in _setup_parser\n    return TomlV1Parser(dict_vals, file_information=None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nERROR: test_detector_parsed (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 237, in test_detector_parsed\n    parser = self._setup_parser(top_level_dict)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 49, in _setup_parser\n    return TomlV1Parser(dict_vals, file_information=None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nERROR: test_instrument (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 52, in test_instrument\n    parser = self._setup_parser(dict_vals={&quot;instrument&quot;: {&quot;name&quot;: SANSInstrument.SANS2D.value}})\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 49, in _setup_parser\n    return TomlV1Parser(dict_vals, file_information=None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nERROR: test_instrument_configuration_parsed (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 90, in test_instrument_configuration_parsed\n    self._loop_over_supported_keys(supported_keys=supported_keys, top_level_keys=[&quot;instrument&quot;, &quot;configuration&quot;])\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 76, in _loop_over_supported_keys\n    parser = self._setup_parser(top_level_dict)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 49, in _setup_parser\n    return TomlV1Parser(dict_vals, file_information=None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nERROR: test_normalisation_normalization_both_accepted (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 461, in test_normalisation_normalization_both_accepted\n    calc_transmission = self._setup_parser(norm_dict).get_state_calculate_transmission()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 49, in _setup_parser\n    return TomlV1Parser(dict_vals, file_information=None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nERROR: test_parse_mask (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 603, in test_parse_mask\n    parser_result = self._setup_parser(top_level_dict)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 49, in _setup_parser\n    return TomlV1Parser(dict_vals, file_information=None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nERROR: test_parse_mask_spatial (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 546, in test_parse_mask_spatial\n    mask_state = self._setup_parser(top_level_dict).get_state_mask(None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 49, in _setup_parser\n    return TomlV1Parser(dict_vals, file_information=None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nERROR: test_parse_normalisation (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 505, in test_parse_normalisation\n    parser = self._setup_parser(top_level_dict)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 49, in _setup_parser\n    return TomlV1Parser(dict_vals, file_information=None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nERROR: test_parsing_all_monitor_background (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 468, in test_parsing_all_monitor_background\n    parsed = self._setup_parser(top_level_dict)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 49, in _setup_parser\n    return TomlV1Parser(dict_vals, file_information=None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nERROR: test_parsing_all_monitor_background_ignored_false (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 479, in test_parsing_all_monitor_background_ignored_false\n    parsed = self._setup_parser(top_level_dict)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 49, in _setup_parser\n    return TomlV1Parser(dict_vals, file_information=None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nERROR: test_q_resolution (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 287, in test_q_resolution\n    q_resolution = self._setup_parser(top_level_dict).get_state_convert_to_q()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 49, in _setup_parser\n    return TomlV1Parser(dict_vals, file_information=None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nERROR: test_rear_front_maps_to_enum_correctly (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 143, in test_rear_front_maps_to_enum_correctly\n    parser = self._setup_parser(dict_vals=input_dict)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 49, in _setup_parser\n    return TomlV1Parser(dict_vals, file_information=None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nERROR: test_reduction_commands_parsed (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 196, in test_reduction_commands_parsed\n    parsed_obj = self._setup_parser(top_level_dict)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 49, in _setup_parser\n    return TomlV1Parser(dict_vals, file_information=None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nERROR: test_reduction_mode_mandatory (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 154, in test_reduction_mode_mandatory\n    TomlV1Parser({&quot;instrument&quot;: {&quot;name&quot;: &quot;LOQ&quot;}}, None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nERROR: test_transmission (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 322, in test_transmission\n    parser = self._setup_parser(top_level_dict)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 49, in _setup_parser\n    return TomlV1Parser(dict_vals, file_information=None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nERROR: test_transmission_fitting (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 427, in test_transmission_fitting\n    parser = self._setup_parser(top_level_dict)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 49, in _setup_parser\n    return TomlV1Parser(dict_vals, file_information=None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nERROR: test_transmission_monitor_parser_ignores_roi (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 381, in test_transmission_monitor_parser_ignores_roi\n    parser = self._setup_parser(top_level_dict)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 49, in _setup_parser\n    return TomlV1Parser(dict_vals, file_information=None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nERROR: test_transmission_monitor_parses_roi (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 392, in test_transmission_monitor_parses_roi\n    result = self._setup_parser(top_level_dict)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 49, in _setup_parser\n    return TomlV1Parser(dict_vals, file_information=None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nERROR: test_transmission_with_different_norm_monitor (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 363, in test_transmission_with_different_norm_monitor\n    self._setup_parser(top_level_dict)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 49, in _setup_parser\n    return TomlV1Parser(dict_vals, file_information=None)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 39, in __init__\n    self._implementation.parse_all()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 104, in parse_all\n    self._parse_binning()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/SANS/sans/user_file/toml_parsers/toml_v1_parser.py&quot;, line 242, in _parse_binning\n    raise ValueError(\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\n======================================================================\nFAIL: test_legacy_reduction_mode_rejected (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 150, in test_legacy_reduction_mode_rejected\n    self._setup_parser(dict_vals=input_dict)\nAssertionError: &quot;rear&quot; does not match &quot;None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.&quot;\n\n======================================================================\nFAIL: test_throws_when_all_and_front_specified (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 137, in test_throws_when_all_and_front_specified\n    self._setup_parser(input_dict)\nAssertionError: &quot;front_centre&quot; does not match &quot;None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.&quot;\n\n======================================================================\nFAIL: test_throws_when_all_and_rear_specified (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 131, in test_throws_when_all_and_rear_specified\n    self._setup_parser(input_dict)\nAssertionError: &quot;front_centre&quot; does not match &quot;None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.&quot;\n\n======================================================================\nFAIL: test_transmission_monitor_errors_for_empty_value (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 411, in test_transmission_monitor_errors_for_empty_value\n    self._setup_parser(top_level_dict)\nAssertionError: &quot;empty&quot; does not match &quot;None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.&quot;\n\n======================================================================\nFAIL: test_transmission_monitor_errors_for_multiple_values (toml_v1_parser_test.TomlV1ParserTest)\n----------------------------------------------------------------------\nValueError: None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/test/SANS/user_file/toml_parsers/toml_v1_parser_test.py&quot;, line 402, in test_transmission_monitor_errors_for_multiple_values\n    self._setup_parser(top_level_dict)\nAssertionError: &quot;single file&quot; does not match &quot;None binning is not supported for 2D reductions. The type must be set to &quot;Lin&quot;.&quot;\n\n----------------------------------------------------------------------\nRan 29 tests in 0.119s\n\nFAILED (failures=5, errors=23)\n\n          Start  967: DataHandlingTest_SampleEnvironmentSpecTest\n"
             }
         }
     ]

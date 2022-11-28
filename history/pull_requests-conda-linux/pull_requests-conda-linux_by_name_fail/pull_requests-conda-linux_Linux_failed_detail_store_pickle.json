@@ -159,22 +159,22 @@
         "mantidqt_qt5.test_interpreter.test_interpreter": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "mantidqt_qt5.test_interpreter.test_interpreter",
-            "latest_failed_build": "1825",
+            "latest_failed_build": "2040",
             "agent_name": "Linux",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-linux",
             "past_failed_outcome": {
-                "1825": "Flake"
+                "2040": "Flake"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "mantidqt_qt5.test_interpreter.test_interpreter",
-                "build": "1825",
+                "build": "2040",
                 "agent_name": "Linux",
                 "trial": 1,
-                "outcome": "Timeout",
-                "test_time": "1200.11",
-                "stacktrace": "QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\n.........\n----------------------------------------------------------------------\nRan 9 tests in 0.284s\n\nOK\nthis is a string\nthis is a string\n\n          Start 2035: mantidqt_qt5.test_interpreter.test_interpreter\n"
+                "outcome": "Failed",
+                "test_time": "1.63",
+                "stacktrace": "QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\n........Segmentation fault\n\n          Start 2032: mantidqt_qt5.test_interpreter.test_interpreter\n"
             }
         },
         "python.algorithms.IntegratePeaksSkewTest.IntegratePeaksSkewTest": {
@@ -1283,6 +1283,48 @@
                 "outcome": "Failed",
                 "test_time": "2.19",
                 "stacktrace": ".....F................\n======================================================================\nFAIL: test_constructor_works_with_ws_name (test_instrumentview_presenter.InstrumentViewPresenterTest)\nCheck that the InstrumentViewPresenter constructs correctly when passing the name\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqt/mantidqt/widgets/instrumentview/test/test_instrumentview_presenter.py&quot;, line 44, in test_constructor_works_with_ws_name\n    mock_view.assert_called_once_with(parent=mock.ANY, presenter=presenter,\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 925, in assert_called_once_with\n    return self.assert_called_with(*args, **kwargs)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 913, in assert_called_with\n    raise AssertionError(_error_message()) from cause\nAssertionError: expected call not found.\nExpected: InstrumentView(parent=&lt;ANY&gt;, presenter=&lt;mantidqt.widgets.instrumentview.presenter.InstrumentViewPresenter object at 0x7f303fc5e760&gt;, name=&#x27;my_workspace&#x27;, window_flags=&lt;ANY&gt;, use_thread=True)\nActual: InstrumentView(parent=None, presenter=&lt;mantidqt.widgets.instrumentview.presenter.InstrumentViewPresenter object at 0x7f303fc5e760&gt;, name=&#x27;my_workspace&#x27;, window_flags=1, use_thread=False)\n\n----------------------------------------------------------------------\nRan 22 tests in 1.128s\n\nFAILED (failures=1)\n\n          Start 2550: python.corelli.calibration.test_utils.test_utils\n"
+            }
+        },
+        "MantidQtInterfacesDirectTestQt5_ALFAnalysisPresenterTest": {
+            "py/object": "datatable_helper.LTS_Problem_test_entry",
+            "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisPresenterTest",
+            "latest_failed_build": "2042",
+            "agent_name": "Linux",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-linux",
+            "past_failed_outcome": {
+                "2042": "Failed"
+            },
+            "last_stack_traces": {
+                "py/object": "datatable_helper.Problem_test_trial",
+                "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisPresenterTest",
+                "build": "2042",
+                "agent_name": "Linux",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "0.54",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221128.855\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 14 tests./jenkins_workdir/workspace/pull_requests-conda-linux/qt/scientific_interfaces/Direct/test/ALFAnalysisPresenterTest.h:218: Failure\nActual function call count doesn&#x27;t match EXPECT_CALL(*m_view, peakCentre())...\n         Expected: to be called once\n           Actual: never called - unsatisfied and active\n\n********* UNHANDLED EXCEPTION *********\n  what(): /jenkins_workdir/workspace/pull_requests-conda-linux/qt/scientific_interfaces/Direct/test/ALFAnalysisPresenterTest.h:218: Failure\nActual function call count doesn&#x27;t match EXPECT_CALL(*m_view, peakCentre())...\n         Expected: to be called once\n           Actual: never called - unsatisfied and active\n\nBacktrace:\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidAPI.so(+0x1efb9a) [0x7fe778f5db9a]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidAPI.so(+0xfffef) [0x7fe778e6dfef]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libstdc++.so.6(+0xb0514) [0x7fe778127514]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libstdc++.so.6(+0xaf8b5) [0x7fe7781268b5]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libstdc++.so.6(__gxx_personality_v0+0x7f) [0x7fe778126e5f]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libgcc_s.so.1(+0x11d79) [0x7fe777d6dd79]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libgcc_s.so.1(_Unwind_Resume+0x65) [0x7fe777d6e29b]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtInterfacesDirectTestQt5(+0x32fa9) [0x55ef32286fa9]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtInterfacesDirectTestQt5(+0x8c3d9) [0x55ef322e03d9]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtInterfacesDirectTestQt5(+0x920df) [0x55ef322e60df]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtInterfacesDirectTestQt5(+0x92903) [0x55ef322e6903]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtInterfacesDirectTestQt5(+0xbe026) [0x55ef32312026]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtInterfacesDirectTestQt5(+0xc03cf) [0x55ef323143cf]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtInterfacesDirectTestQt5(+0x3a657) [0x55ef3228e657]\n /lib64/libc.so.6(__libc_start_main+0xf5) [0x7fe7779b0555]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtInterfacesDirectTestQt5(+0x3b7a9) [0x55ef3228f7a9]\n\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/scientific_interfaces/Direct/test/ALFAnalysisPresenterTest.h:218: ERROR: this mock object should be deleted but never is. Its address is @0x55ef33f49e00.\nERROR: 1 leaked mock object found at program exit. Expectations on a mock object are verified when the object is destructed. Leaking a mock means that its expectations aren&#x27;t verified, which is usually a test bug. If you really intend to leak a mock, you can suppress this error using testing::Mock::AllowLeak(mock_object), or you may use a fake or stub instead of a mock.\n\n          Start  188: AlgorithmsTest_CalculateTransmissionTest\n"
+            }
+        },
+        "mantidqt_qt5.test_view.test_view": {
+            "py/object": "datatable_helper.LTS_Problem_test_entry",
+            "test_name": "mantidqt_qt5.test_view.test_view",
+            "latest_failed_build": "2041",
+            "agent_name": "Linux",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-linux",
+            "past_failed_outcome": {
+                "2041": "Failed"
+            },
+            "last_stack_traces": {
+                "py/object": "datatable_helper.Problem_test_trial",
+                "test_name": "mantidqt_qt5.test_view.test_view",
+                "build": "2041",
+                "agent_name": "Linux",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "4.20",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221128.850\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\n........................F\n======================================================================\nFAIL: test_show_directory_manager (test_view.RawDataExplorerViewTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqt/mantidqt/widgets/rawdataexplorer/test/test_view.py&quot;, line 328, in test_show_directory_manager\n    dialog().getExistingDirectory.assert_called_with(parent=self.view,\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 913, in assert_called_with\n    raise AssertionError(_error_message()) from cause\nAssertionError: expected call not found.\nExpected: getExistingDirectory(parent=&lt;mantidqt.widgets.rawdataexplorer.view.RawDataExplorerView object at 0x7fee0c625b80&gt;, caption=&#x27;Select a directory&#x27;, directory=PurePosixPath(&#x27;/&#x27;), options=&lt;MagicMock name=&#x27;QFileDialog.DontUseNativeDialog.__or__()&#x27; id=&#x27;140660384620304&#x27;&gt;)\nActual: getExistingDirectory(parent=&lt;mantidqt.widgets.rawdataexplorer.view.RawDataExplorerView object at 0x7fee0c625b80&gt;, caption=&#x27;Select a directory&#x27;, directory=&#x27;/&#x27;, options=&lt;MagicMock name=&#x27;QFileDialog.DontUseNativeDialog.__or__()&#x27; id=&#x27;140660384620304&#x27;&gt;)\n\n----------------------------------------------------------------------\nRan 25 tests in 0.265s\n\nFAILED (failures=1)\n\n          Start   15: KernelTest_BinaryStreamWriterTest\n"
             }
         }
     }

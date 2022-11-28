@@ -160,7 +160,8 @@
                 "pull_requests-conda-osx_553": "Failed",
                 "pull_requests-conda-osx_559": "Failed",
                 "pull_requests-conda-osx_564": "Failed",
-                "pull_requests-conda-osx_571": "Failed"
+                "pull_requests-conda-osx_571": "Failed",
+                "pull_requests-conda-osx_726": "Failed"
             }
         },
         "MantidQtInterfacesDirectTestQt5_ALFInstrumentModelTest": {
@@ -427,7 +428,8 @@
             "past_failed_outcome": {
                 "pull_requests-conda-osx_573": "Flake",
                 "pull_requests-conda-osx_651": "Flake",
-                "pull_requests-conda-osx_671": "Flake"
+                "pull_requests-conda-osx_671": "Flake",
+                "pull_requests-conda-osx_727": "Flake"
             }
         },
         "AlgorithmsTest_ExtractSpectra2Test": {
@@ -699,6 +701,13 @@
             "past_failed_outcome": {
                 "pull_requests-conda-osx_719": "Failed",
                 "pull_requests-conda-osx_720": "Failed"
+            }
+        },
+        "mantidqt_qt5.test_view.test_view": {
+            "test_name": "mantidqt_qt5.test_view.test_view",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_725": "Failed"
             }
         }
     }

@@ -82,7 +82,8 @@
             "agent_name": "Linux",
             "past_failed_outcome": {
                 "pull_requests-conda-linux_1784": "Flake",
-                "pull_requests-conda-linux_1825": "Flake"
+                "pull_requests-conda-linux_1825": "Flake",
+                "pull_requests-conda-linux_2040": "Flake"
             }
         },
         "python.algorithms.IntegratePeaksSkewTest.IntegratePeaksSkewTest": {
@@ -562,6 +563,20 @@
             "past_failed_outcome": {
                 "pull_requests-conda-linux_2032": "Failed",
                 "pull_requests-conda-linux_2033": "Failed"
+            }
+        },
+        "MantidQtInterfacesDirectTestQt5_ALFAnalysisPresenterTest": {
+            "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisPresenterTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2042": "Failed"
+            }
+        },
+        "mantidqt_qt5.test_view.test_view": {
+            "test_name": "mantidqt_qt5.test_view.test_view",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2041": "Failed"
             }
         }
     }

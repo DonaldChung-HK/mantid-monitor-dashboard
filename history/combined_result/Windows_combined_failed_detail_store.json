@@ -545,7 +545,44 @@
             "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisPresenterTest",
             "agent_name": "Windows",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_761": "Failed"
+                "pull_requests-conda-windows_761": "Failed",
+                "pull_requests-conda-windows_765": "Failed",
+                "pull_requests-conda-windows_767": "Failed"
+            }
+        },
+        "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest": {
+            "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_779": "Failed"
+            }
+        },
+        "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest": {
+            "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_779": "Failed"
+            }
+        },
+        "DataHandlingTest_LoadILLDiffractionTest": {
+            "test_name": "DataHandlingTest_LoadILLDiffractionTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_778": "Flake"
+            }
+        },
+        "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest": {
+            "test_name": "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_770": "Failed"
+            }
+        },
+        "python.MuonQt5.difference_table_presenter_test.difference_table_presenter_test": {
+            "test_name": "python.MuonQt5.difference_table_presenter_test.difference_table_presenter_test",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_765": "Flake"
             }
         }
     }

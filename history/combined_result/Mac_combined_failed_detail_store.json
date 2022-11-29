@@ -161,7 +161,9 @@
                 "pull_requests-conda-osx_559": "Failed",
                 "pull_requests-conda-osx_564": "Failed",
                 "pull_requests-conda-osx_571": "Failed",
-                "pull_requests-conda-osx_726": "Failed"
+                "pull_requests-conda-osx_726": "Failed",
+                "pull_requests-conda-osx_730": "Failed",
+                "pull_requests-conda-osx_732": "Failed"
             }
         },
         "MantidQtInterfacesDirectTestQt5_ALFInstrumentModelTest": {
@@ -384,7 +386,8 @@
                 "pull_requests-conda-osx_552": "Flake",
                 "pull_requests-conda-osx_587": "Flake",
                 "pull_requests-conda-osx_588": "Flake",
-                "pull_requests-conda-osx_589": "Flake"
+                "pull_requests-conda-osx_589": "Flake",
+                "pull_requests-conda-osx_734": "Flake"
             }
         },
         "python.algorithms.HB2AReduceTest.HB2AReduceTest": {
@@ -619,7 +622,8 @@
             "agent_name": "Mac",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_620": "Flake",
-                "pull_requests-conda-osx_705": "Flake"
+                "pull_requests-conda-osx_705": "Flake",
+                "pull_requests-conda-osx_732": "Flake"
             }
         },
         "python.MuonQt5.fit_function_options_view_test.fit_function_options_view_test": {
@@ -708,6 +712,20 @@
             "agent_name": "Mac",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_725": "Failed"
+            }
+        },
+        "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest": {
+            "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_744": "Failed"
+            }
+        },
+        "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest": {
+            "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_744": "Failed"
             }
         }
     }

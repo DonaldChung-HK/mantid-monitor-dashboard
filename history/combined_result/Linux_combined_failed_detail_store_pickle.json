@@ -161,7 +161,10 @@
                 "pull_requests-conda-linux_2026": "Flake",
                 "pull_requests-conda-linux_2031": "Flake",
                 "pull_requests-conda-linux_2034": "Flake",
-                "pull_requests-conda-linux_2036": "Flake"
+                "pull_requests-conda-linux_2036": "Flake",
+                "pull_requests-conda-linux_2054": "Flake",
+                "pull_requests-conda-linux_2056": "Flake",
+                "main_nightly_deployment_prototype_459": "Failed"
             }
         },
         "AlgorithmsTest_Q1DWeightedTest": {
@@ -627,7 +630,8 @@
             "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisPresenterTest",
             "agent_name": "Linux",
             "past_failed_outcome": {
-                "pull_requests-conda-linux_2042": "Failed"
+                "pull_requests-conda-linux_2042": "Failed",
+                "pull_requests-conda-linux_2049": "Failed"
             }
         },
         "mantidqt_qt5.test_view.test_view": {
@@ -636,6 +640,22 @@
             "agent_name": "Linux",
             "past_failed_outcome": {
                 "pull_requests-conda-linux_2041": "Failed"
+            }
+        },
+        "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2063": "Failed"
+            }
+        },
+        "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2063": "Failed"
             }
         }
     }

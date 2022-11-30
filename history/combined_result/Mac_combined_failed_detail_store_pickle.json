@@ -808,6 +808,15 @@
             "past_failed_outcome": {
                 "pull_requests-conda-osx_744": "Failed"
             }
+        },
+        "HistogramDataTest_InterpolateTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "HistogramDataTest_InterpolateTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_752": "Failed",
+                "pull_requests-conda-osx_754": "Failed"
+            }
         }
     }
 }

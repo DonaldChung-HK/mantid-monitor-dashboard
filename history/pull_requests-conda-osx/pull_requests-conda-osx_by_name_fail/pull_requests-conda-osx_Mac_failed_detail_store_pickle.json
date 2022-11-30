@@ -1721,6 +1721,28 @@
                 "test_time": "2.48",
                 "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221129.1021\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 2 testslibc++abi.dylib: terminating with uncaught exception of type Mantid::Kernel::Exception::NotFoundError: Unknown property search object CalibrationFile\nSubprocess aborted\n\n          Start 1202: GeometryTest_SymmetryElementTest\n"
             }
+        },
+        "HistogramDataTest_InterpolateTest": {
+            "py/object": "datatable_helper.LTS_Problem_test_entry",
+            "test_name": "HistogramDataTest_InterpolateTest",
+            "latest_failed_build": "754",
+            "agent_name": "Mac",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-osx",
+            "past_failed_outcome": {
+                "752": "Failed",
+                "754": "Failed"
+            },
+            "last_stack_traces": {
+                "py/object": "datatable_helper.Problem_test_trial",
+                "test_name": "HistogramDataTest_InterpolateTest",
+                "build": "754",
+                "agent_name": "Mac",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "0.51",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221129.1649\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 27 tests......................Interpolate-[Warning] Number of x points too small to calculate errors\n\nIn InterpolateTest::test_interpolateLinearPointDataSet_Errors_Too_Few_Points:\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/HistogramData/test/InterpolateTest.h:351: Error: Expected (interpolateLinear(input, 4, true)) to throw (const std::runtime_error &amp;) but it didn&#x27;t throw\n....\nFailed 1 of 27 tests\nSuccess rate: 96%\n\n          Start 1284: LiveDataTest_KafkaEventStreamDecoderTest\n"
+            }
         }
     }
 }

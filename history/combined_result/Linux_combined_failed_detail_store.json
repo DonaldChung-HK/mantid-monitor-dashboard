@@ -149,7 +149,9 @@
                 "pull_requests-conda-linux_2036": "Flake",
                 "pull_requests-conda-linux_2054": "Flake",
                 "pull_requests-conda-linux_2056": "Flake",
-                "main_nightly_deployment_prototype_459": "Failed"
+                "main_nightly_deployment_prototype_459": "Failed",
+                "pull_requests-conda-linux_2069": "Flake",
+                "pull_requests-conda-linux_2070": "Flake"
             }
         },
         "AlgorithmsTest_Q1DWeightedTest": {
@@ -595,6 +597,21 @@
             "agent_name": "Linux",
             "past_failed_outcome": {
                 "pull_requests-conda-linux_2063": "Failed"
+            }
+        },
+        "python.MuonQt5.general_fitting_view_test.general_fitting_view_test": {
+            "test_name": "python.MuonQt5.general_fitting_view_test.general_fitting_view_test",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2084": "Flake",
+                "main_nightly_deployment_prototype_460": "Flake"
+            }
+        },
+        "HistogramDataTest_InterpolateTest": {
+            "test_name": "HistogramDataTest_InterpolateTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2071": "Failed"
             }
         }
     }

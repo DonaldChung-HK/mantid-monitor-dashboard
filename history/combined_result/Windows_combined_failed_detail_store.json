@@ -28,7 +28,8 @@
             "test_name": "python.functions.CompositePCRmagnetTest.CompositePCRmagnetTest",
             "agent_name": "Windows",
             "past_failed_outcome": {
-                "main_nightly_deployment_prototype_433": "Flake"
+                "main_nightly_deployment_prototype_433": "Flake",
+                "pull_requests-conda-windows_784": "Flake"
             }
         },
         "TypesTest_DateAndTimeTest": {
@@ -568,7 +569,8 @@
             "test_name": "DataHandlingTest_LoadILLDiffractionTest",
             "agent_name": "Windows",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_778": "Flake"
+                "pull_requests-conda-windows_778": "Flake",
+                "pull_requests-conda-windows_783": "Flake"
             }
         },
         "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest": {
@@ -583,6 +585,20 @@
             "agent_name": "Windows",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_765": "Flake"
+            }
+        },
+        "HistogramDataTest_InterpolateTest": {
+            "test_name": "HistogramDataTest_InterpolateTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_787": "Failed"
+            }
+        },
+        "python.WorkflowAlgorithms.ReflectometryILLPolarizationCorTest.ReflectometryILLPolarizationCorTest": {
+            "test_name": "python.WorkflowAlgorithms.ReflectometryILLPolarizationCorTest.ReflectometryILLPolarizationCorTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "main_nightly_deployment_prototype_460": "Flake"
             }
         }
     }

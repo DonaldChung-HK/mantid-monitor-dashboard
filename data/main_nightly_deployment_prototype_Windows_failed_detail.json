@@ -1,3 +1,47 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "python.WorkflowAlgorithms.ReflectometryILLPolarizationCorTest.ReflectometryILLPolarizationCorTest",
+            "latest_failed_build": "460",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Flake",
+            "pipeline_name": "main_nightly_deployment_prototype",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "460",
+                    "459",
+                    "458",
+                    "457",
+                    "456",
+                    "455",
+                    "454",
+                    "453",
+                    "452",
+                    "451"
+                ],
+                "past_outcome_list": [
+                    "Flake",
+                    "Passed",
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "python.WorkflowAlgorithms.ReflectometryILLPolarizationCorTest.ReflectometryILLPolarizationCorTest",
+                "build": "460",
+                "agent_name": "Windows",
+                "trial": 1,
+                "outcome": "Failed",
+                "test_time": "53.75",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221129.1233\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nReflectometryILLPreprocess-[Notice] ReflectometryILLPreprocess started\r\nLoadInstrument-[Error] Error in execution of algorithm LoadInstrument:\r\nLoadInstrument-[Error] Unable to parse File: in &quot;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D17f0271067f53081f4084d905cfdb650cfb78cd780.vtp&quot;\r\nReflectometryILLPreprocess-[Error] Error in execution of algorithm ReflectometryILLPreprocess:\r\nReflectometryILLPreprocess-[Error] LoadAndMerge-v1: Unable to parse File: in &quot;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D17f0271067f53081f4084d905cfdb650cfb78cd780.vtp&quot;\r\nReflectometryILLPreprocess-[Error]   at line 128 in &#x27;C:/Jenkins/workspace/main_nightly_deployment_prototype/Framework/PythonInterface/plugins/algorithms/LoadAndMerge.py&#x27;\r\nReflectometryILLPreprocess-[Error]   caused by line 77 in &#x27;C:/Jenkins/workspace/main_nightly_deployment_prototype/Framework/PythonInterface/plugins/algorithms/LoadAndMerge.py&#x27;\r\nReflectometryILLPreprocess-[Error]   at line 353 in &#x27;C:/Jenkins/workspace/main_nightly_deployment_prototype/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/ReflectometryILLPreprocess.py&#x27;\r\nReflectometryILLPreprocess-[Error]   caused by line 643 in &#x27;C:/Jenkins/workspace/main_nightly_deployment_prototype/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/ReflectometryILLPreprocess.py&#x27;\r\nReflectometryILLPreprocess-[Error]   caused by line 1064 in &#x27;c:\\jenkins\\workspace\\main_nightly_deployment_prototype\\framework\\pythoninterface\\mantid\\simpleapi.py&#x27;\r\nE\r\n======================================================================\r\nERROR: setUpClass (ReflectometryILLPolarizationCorTest.ReflectometryILLPolarizationCorTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;c:\\jenkins\\workspace\\main_nightly_deployment_prototype\\framework\\pythoninterface\\mantid\\simpleapi.py&quot;, line 1057, in __call__\r\n    algm.execute()\r\nRuntimeError: LoadAndMerge-v1: Unable to parse File: in &quot;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D17f0271067f53081f4084d905cfdb650cfb78cd780.vtp&quot;\r\n  at line 128 in &#x27;C:/Jenkins/workspace/main_nightly_deployment_prototype/Framework/PythonInterface/plugins/algorithms/LoadAndMerge.py&#x27;\r\n  caused by line 77 in &#x27;C:/Jenkins/workspace/main_nightly_deployment_prototype/Framework/PythonInterface/plugins/algorithms/LoadAndMerge.py&#x27;\r\n  at line 353 in &#x27;C:/Jenkins/workspace/main_nightly_deployment_prototype/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/ReflectometryILLPreprocess.py&#x27;\r\n  caused by line 643 in &#x27;C:/Jenkins/workspace/main_nightly_deployment_prototype/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/ReflectometryILLPreprocess.py&#x27;\r\n  caused by line 1064 in &#x27;c:\\jenkins\\workspace\\main_nightly_deployment_prototype\\framework\\pythoninterface\\mantid\\simpleapi.py&#x27;\r\n\r\nThe above exception was the direct cause of the following exception:\r\n\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/main_nightly_deployment_prototype/Framework/PythonInterface/test/python/plugins/algorithms/WorkflowAlgorithms/ReflectometryILLPolarizationCorTest.py&quot;, line 17, in setUpClass\r\n    ReflectometryILLPreprocess(Run=&#x27;ILL/D17/317369.nxs&#x27;,\r\n  File &quot;c:\\jenkins\\workspace\\main_nightly_deployment_prototype\\framework\\pythoninterface\\mantid\\simpleapi.py&quot;, line 1064, in __call__\r\n    raise RuntimeError(msg) from e\r\nRuntimeError: ReflectometryILLPreprocess-v1: LoadAndMerge-v1: Unable to parse File: in &quot;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D17f0271067f53081f4084d905cfdb650cfb78cd780.vtp&quot;\r\n  at line 128 in &#x27;C:/Jenkins/workspace/main_nightly_deployment_prototype/Framework/PythonInterface/plugins/algorithms/LoadAndMerge.py&#x27;\r\n  caused by line 77 in &#x27;C:/Jenkins/workspace/main_nightly_deployment_prototype/Framework/PythonInterface/plugins/algorithms/LoadAndMerge.py&#x27;\r\n  at line 353 in &#x27;C:/Jenkins/workspace/main_nightly_deployment_prototype/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/ReflectometryILLPreprocess.py&#x27;\r\n  caused by line 643 in &#x27;C:/Jenkins/workspace/main_nightly_deployment_prototype/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/ReflectometryILLPreprocess.py&#x27;\r\n  caused by line 1064 in &#x27;c:\\jenkins\\workspace\\main_nightly_deployment_prototype\\framework\\pythoninterface\\mantid\\simpleapi.py&#x27;\r\n\r\n----------------------------------------------------------------------\r\nRan 0 tests in 0.349s\r\n\r\nFAILED (errors=1)\r\n\r\n          Start 1666: python.WorkflowAlgorithms.ReflectometryILLPolarizationCorTest.ReflectometryILLPolarizationCorTest\r\n"
+            }
+        }
+    ]
 }

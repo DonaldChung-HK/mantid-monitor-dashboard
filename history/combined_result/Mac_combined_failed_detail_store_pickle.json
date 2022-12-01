@@ -215,8 +215,11 @@
             "test_name": "MantidQtWidgetsMplCppTestQt5_FigureCanvasQtTest",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_524": "Failed"
-            }
+                "pull_requests-conda-osx_524": "Failed",
+                "pull_requests-conda-osx_771": "Failed",
+                "pull_requests-conda-osx_773": "Failed"
+            },
+            "last_fail_detected": "2022-12-01"
         },
         "MantidQtWidgetsMplCppTestQt5_PlotTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -239,8 +242,11 @@
                 "pull_requests-conda-osx_689": "Failed",
                 "pull_requests-conda-osx_691": "Failed",
                 "pull_requests-conda-osx_694": "Failed",
-                "pull_requests-conda-osx_708": "Failed"
-            }
+                "pull_requests-conda-osx_708": "Failed",
+                "pull_requests-conda-osx_771": "Failed",
+                "pull_requests-conda-osx_773": "Failed"
+            },
+            "last_fail_detected": "2022-12-01"
         },
         "mantidqt_qt5.test_curvestabwidgetpresenter.test_curvestabwidgetpresenter": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -351,8 +357,11 @@
             "test_name": "workbench.test_figurewindow.test_figurewindow",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_524": "Failed"
-            }
+                "pull_requests-conda-osx_524": "Failed",
+                "pull_requests-conda-osx_771": "Failed",
+                "pull_requests-conda-osx_773": "Failed"
+            },
+            "last_fail_detected": "2022-12-01"
         },
         "workbench.test_plotscriptgenerator.test_plotscriptgenerator": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",

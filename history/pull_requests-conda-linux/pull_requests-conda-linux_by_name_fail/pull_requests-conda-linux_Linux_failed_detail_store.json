@@ -312,22 +312,21 @@
         },
         "MantidQtWidgetsMplCppTestQt5_FigureCanvasQtTest": {
             "test_name": "MantidQtWidgetsMplCppTestQt5_FigureCanvasQtTest",
-            "latest_failed_build": "1831",
+            "latest_failed_build": "2093",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
             "past_failed_outcome": {
-                "1829": "Failed",
-                "1831": "Failed"
+                "2093": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "MantidQtWidgetsMplCppTestQt5_FigureCanvasQtTest",
-                "build": "1831",
+                "build": "2093",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "1.49",
-                "stacktrace": "Running 4 testsQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nterminate called after throwing an instance of &#x27;boost::python::error_already_set&#x27;\nSubprocess aborted\n\n          Start 2324: python.DNSReductionQt5.tof_powder_options_model_test.tof_powder_options_model_test\n"
+                "test_time": "1.16",
+                "stacktrace": "Running 4 testsQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\nterminate called after throwing an instance of &#x27;boost::python::error_already_set&#x27;\nSubprocess aborted\n\n          Start  537: APITest_InstrumentFileFinderTest\n"
             }
         },
         "MantidQtWidgetsMplCppTestQt5_PlotTest": {
@@ -355,25 +354,21 @@
         },
         "mantidqt_qt5.test_apply_all_properties.test_apply_all_properties": {
             "test_name": "mantidqt_qt5.test_apply_all_properties.test_apply_all_properties",
-            "latest_failed_build": "2020",
+            "latest_failed_build": "2093",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
             "past_failed_outcome": {
-                "1999": "Failed",
-                "2001": "Failed",
-                "2002": "Failed",
-                "2006": "Failed",
-                "2020": "Failed"
+                "2093": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "mantidqt_qt5.test_apply_all_properties.test_apply_all_properties",
-                "build": "2020",
+                "build": "2093",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "2.78",
-                "stacktrace": "E\n======================================================================\nERROR: setUpClass (test_apply_all_properties.ApplyAllPropertiesTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqt/mantidqt/widgets/plotconfigdialog/test/test_apply_all_properties.py&quot;, line 214, in setUpClass\n    cls.legend_ax = _run_apply_properties_on_figure_with_legend(cls.curve_view_mock)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqt/mantidqt/widgets/plotconfigdialog/test/test_apply_all_properties.py&quot;, line 162, in _run_apply_properties_on_figure_with_legend\n    presenter = PlotConfigDialogPresenter(fig, view=Mock())\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqt/mantidqt/widgets/plotconfigdialog/presenter.py&quot;, line 43, in __init__\n    legend_tab = LegendTabWidgetPresenter(self.fig, parent_view=self.view, parent_presenter=self)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqt/mantidqt/widgets/plotconfigdialog/legendtabwidget/presenter.py&quot;, line 28, in __init__\n    self.init_view()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqt/mantidqt/widgets/plotconfigdialog/legendtabwidget/presenter.py&quot;, line 51, in init_view\n    legend_props = LegendProperties.from_legend(ax.get_legend())\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/mantid/plots/legend.py&quot;, line 71, in from_legend\n    if LooseVersion(matplotlib._version__) &gt;= LooseVersion(&#x27;3.6.0&#x27;):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/python3.8/site-packages/matplotlib/_api/__init__.py&quot;, line 222, in __getattr__\n    raise AttributeError(\nAttributeError: module &#x27;matplotlib&#x27; has no attribute &#x27;_version__&#x27;\n\n----------------------------------------------------------------------\nRan 0 tests in 1.024s\n\nFAILED (errors=1)\n\n          Start 1380: python.geometry.UnitCellTest.UnitCellTest\n"
+                "test_time": "3.92",
+                "stacktrace": "findfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\n......../jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqt/mantidqt/widgets/plotconfigdialog/test/test_apply_all_properties.py:320: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison\n  if bar_color[0] != &#x27;#&#x27;:\n...........................findfont: Font family [&#x27;Bitstream Vera Sans&#x27;] not found. Falling back to DejaVu Sans.\n......E.....findfont: Font family [&#x27;Bitstream Vera Sans&#x27;] not found. Falling back to DejaVu Sans.\n....\n======================================================================\nERROR: test_apply_properties_on_figure_with_legend_sets_number_of_columns (test_apply_all_properties.ApplyAllPropertiesTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqt/mantidqt/widgets/plotconfigdialog/test/test_apply_all_properties.py&quot;, line 392, in test_apply_properties_on_figure_with_legend_sets_number_of_columns\n    self.assertEqual(new_legend_props[&#x27;columns&#x27;], self.new_legend._ncol)\nAttributeError: &#x27;Legend&#x27; object has no attribute &#x27;_ncol&#x27;\n\n----------------------------------------------------------------------\nRan 51 tests in 1.719s\n\nFAILED (errors=1)\n\n          Start 1378: python.geometry.OrientedLatticeTest.OrientedLatticeTest\n"
             }
         },
         "mantidqt_qt5.test_curvestabwidgetpresenter.test_curvestabwidgetpresenter": {
@@ -582,22 +577,21 @@
         },
         "workbench.test_figurewindow.test_figurewindow": {
             "test_name": "workbench.test_figurewindow.test_figurewindow",
-            "latest_failed_build": "1831",
+            "latest_failed_build": "2093",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
             "past_failed_outcome": {
-                "1829": "Failed",
-                "1831": "Failed"
+                "2093": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "workbench.test_figurewindow.test_figurewindow",
-                "build": "1831",
+                "build": "2093",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "1.56",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221108.1655\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nCreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\nEDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n\n======================================================================\nERROR: test_drag_and_drop_adds_plot_to_correct_axes (test_figurewindow.Test)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/applications/workbench/workbench/plotting/test/test_figurewindow.py&quot;, line 56, in test_drag_and_drop_adds_plot_to_correct_axes\n    self.fig_window.dropEvent(mock_event)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/applications/workbench/workbench/plotting/figurewindow.py&quot;, line 96, in dropEvent\n    x, y = self._canvas.mouseEventCoords(event.pos())\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/python3.8/site-packages/matplotlib/backends/backend_qt.py&quot;, line 267, in mouseEventCoords\n    y = self.figure.bbox.height / self.device_pixel_ratio - pos.y()\nTypeError: unsupported operand type(s) for -: &#x27;float&#x27; and &#x27;Mock&#x27;\n\n----------------------------------------------------------------------\nRan 1 test in 0.062s\n\nFAILED (errors=1)\n\n          Start 2495: workbench.test_recoveryfailureview.test_recoveryfailureview\n"
+                "test_time": "1.59",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221201.952\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nCreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\nEDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n\n======================================================================\nERROR: test_drag_and_drop_adds_plot_to_correct_axes (test_figurewindow.Test)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/applications/workbench/workbench/plotting/test/test_figurewindow.py&quot;, line 56, in test_drag_and_drop_adds_plot_to_correct_axes\n    self.fig_window.dropEvent(mock_event)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/applications/workbench/workbench/plotting/figurewindow.py&quot;, line 96, in dropEvent\n    x, y = self._canvas.mouseEventCoords(event.pos())\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/python3.8/site-packages/matplotlib/backends/backend_qt.py&quot;, line 267, in mouseEventCoords\n    y = self.figure.bbox.height / self.device_pixel_ratio - pos.y()\nTypeError: unsupported operand type(s) for -: &#x27;float&#x27; and &#x27;Mock&#x27;\n\n----------------------------------------------------------------------\nRan 1 test in 0.064s\n\nFAILED (errors=1)\n\n          Start 2475: workbench.test_workspacewidget.test_workspacewidget\n"
             }
         },
         "workbench.test_plotscriptgenerator.test_plotscriptgenerator": {

@@ -175,8 +175,10 @@
             "agent_name": "Linux",
             "past_failed_outcome": {
                 "pull_requests-conda-linux_1829": "Failed",
-                "pull_requests-conda-linux_1831": "Failed"
-            }
+                "pull_requests-conda-linux_1831": "Failed",
+                "pull_requests-conda-linux_2093": "Failed"
+            },
+            "last_fail_detected": "2022-12-01"
         },
         "MantidQtWidgetsMplCppTestQt5_PlotTest": {
             "test_name": "MantidQtWidgetsMplCppTestQt5_PlotTest",
@@ -201,8 +203,10 @@
                 "pull_requests-conda-linux_2001": "Failed",
                 "pull_requests-conda-linux_2002": "Failed",
                 "pull_requests-conda-linux_2006": "Failed",
-                "pull_requests-conda-linux_2020": "Failed"
-            }
+                "pull_requests-conda-linux_2020": "Failed",
+                "pull_requests-conda-linux_2093": "Failed"
+            },
+            "last_fail_detected": "2022-12-01"
         },
         "mantidqt_qt5.test_curvestabwidgetpresenter.test_curvestabwidgetpresenter": {
             "test_name": "mantidqt_qt5.test_curvestabwidgetpresenter.test_curvestabwidgetpresenter",
@@ -321,8 +325,10 @@
             "agent_name": "Linux",
             "past_failed_outcome": {
                 "pull_requests-conda-linux_1829": "Failed",
-                "pull_requests-conda-linux_1831": "Failed"
-            }
+                "pull_requests-conda-linux_1831": "Failed",
+                "pull_requests-conda-linux_2093": "Failed"
+            },
+            "last_fail_detected": "2022-12-01"
         },
         "workbench.test_plotscriptgenerator.test_plotscriptgenerator": {
             "test_name": "workbench.test_plotscriptgenerator.test_plotscriptgenerator",

@@ -354,21 +354,22 @@
         },
         "MantidQtWidgetsMplCppTestQt5_FigureCanvasQtTest": {
             "test_name": "MantidQtWidgetsMplCppTestQt5_FigureCanvasQtTest",
-            "latest_failed_build": "524",
+            "latest_failed_build": "773",
             "agent_name": "Mac",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-osx",
             "past_failed_outcome": {
-                "524": "Failed"
+                "771": "Failed",
+                "773": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "MantidQtWidgetsMplCppTestQt5_FigureCanvasQtTest",
-                "build": "524",
+                "build": "773",
                 "agent_name": "Mac",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "2.02",
-                "stacktrace": "Running 4 testslibc++abi.dylib: terminating with uncaught exception of type boost::python::error_already_set\nSubprocess aborted\n\n          Start 1053: DataObjectsTest_PeakColumnTest\n"
+                "test_time": "1.46",
+                "stacktrace": "Running 4 testslibc++abi.dylib: terminating with uncaught exception of type boost::python::error_already_set\nSubprocess aborted\n\n          Start  823: CurveFittingTest_LatticeFunctionTest\n"
             }
         },
         "MantidQtWidgetsMplCppTestQt5_PlotTest": {
@@ -395,24 +396,22 @@
         },
         "mantidqt_qt5.test_apply_all_properties.test_apply_all_properties": {
             "test_name": "mantidqt_qt5.test_apply_all_properties.test_apply_all_properties",
-            "latest_failed_build": "708",
+            "latest_failed_build": "773",
             "agent_name": "Mac",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-osx",
             "past_failed_outcome": {
-                "689": "Failed",
-                "691": "Failed",
-                "694": "Failed",
-                "708": "Failed"
+                "771": "Failed",
+                "773": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "mantidqt_qt5.test_apply_all_properties.test_apply_all_properties",
-                "build": "708",
+                "build": "773",
                 "agent_name": "Mac",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "6.47",
-                "stacktrace": "Fontconfig warning: ignoring UTF-8: not a valid region tag\nE\n======================================================================\nERROR: setUpClass (test_apply_all_properties.ApplyAllPropertiesTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/plotconfigdialog/test/test_apply_all_properties.py&quot;, line 214, in setUpClass\n    cls.legend_ax = _run_apply_properties_on_figure_with_legend(cls.curve_view_mock)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/plotconfigdialog/test/test_apply_all_properties.py&quot;, line 162, in _run_apply_properties_on_figure_with_legend\n    presenter = PlotConfigDialogPresenter(fig, view=Mock())\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/plotconfigdialog/presenter.py&quot;, line 43, in __init__\n    legend_tab = LegendTabWidgetPresenter(self.fig, parent_view=self.view, parent_presenter=self)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/plotconfigdialog/legendtabwidget/presenter.py&quot;, line 28, in __init__\n    self.init_view()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/plotconfigdialog/legendtabwidget/presenter.py&quot;, line 51, in init_view\n    legend_props = LegendProperties.from_legend(ax.get_legend())\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/mantid/plots/legend.py&quot;, line 71, in from_legend\n    if LooseVersion(matplotlib._version__) &gt;= LooseVersion(&#x27;3.6.0&#x27;):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/site-packages/matplotlib/_api/__init__.py&quot;, line 222, in __getattr__\n    raise AttributeError(\nAttributeError: module &#x27;matplotlib&#x27; has no attribute &#x27;_version__&#x27;\n\n----------------------------------------------------------------------\nRan 0 tests in 2.791s\n\nFAILED (errors=1)\n\n          Start  175: AlgorithmsTest_CalculateCountRateTest\n"
+                "test_time": "6.52",
+                "stacktrace": "Fontconfig warning: ignoring UTF-8: not a valid region tag\n......../Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/plotconfigdialog/test/test_apply_all_properties.py:320: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison\n  if bar_color[0] != &#x27;#&#x27;:\n.................................E.........\n======================================================================\nERROR: test_apply_properties_on_figure_with_legend_sets_number_of_columns (test_apply_all_properties.ApplyAllPropertiesTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/plotconfigdialog/test/test_apply_all_properties.py&quot;, line 392, in test_apply_properties_on_figure_with_legend_sets_number_of_columns\n    self.assertEqual(new_legend_props[&#x27;columns&#x27;], self.new_legend._ncol)\nAttributeError: &#x27;Legend&#x27; object has no attribute &#x27;_ncol&#x27;\n\n----------------------------------------------------------------------\nRan 51 tests in 3.430s\n\nFAILED (errors=1)\n\n          Start 2010: mantidqt_qt5.test_qappthreadcall.test_qappthreadcall\n"
             }
         },
         "mantidqt_qt5.test_curvestabwidgetpresenter.test_curvestabwidgetpresenter": {
@@ -612,21 +611,22 @@
         },
         "workbench.test_figurewindow.test_figurewindow": {
             "test_name": "workbench.test_figurewindow.test_figurewindow",
-            "latest_failed_build": "524",
+            "latest_failed_build": "773",
             "agent_name": "Mac",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-osx",
             "past_failed_outcome": {
-                "524": "Failed"
+                "771": "Failed",
+                "773": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "workbench.test_figurewindow.test_figurewindow",
-                "build": "524",
+                "build": "773",
                 "agent_name": "Mac",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "3.72",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221108.1655\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nCreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\nEDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n\n======================================================================\nERROR: test_drag_and_drop_adds_plot_to_correct_axes (test_figurewindow.Test)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/applications/workbench/workbench/plotting/test/test_figurewindow.py&quot;, line 56, in test_drag_and_drop_adds_plot_to_correct_axes\n    self.fig_window.dropEvent(mock_event)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/applications/workbench/workbench/plotting/figurewindow.py&quot;, line 96, in dropEvent\n    x, y = self._canvas.mouseEventCoords(event.pos())\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/site-packages/matplotlib/backends/backend_qt.py&quot;, line 267, in mouseEventCoords\n    y = self.figure.bbox.height / self.device_pixel_ratio - pos.y()\nTypeError: unsupported operand type(s) for -: &#x27;float&#x27; and &#x27;Mock&#x27;\n\n----------------------------------------------------------------------\nRan 1 test in 0.781s\n\nFAILED (errors=1)\n\n          Start 2490: workbench.test_projectrecoveryloader.test_projectrecoveryloader\n"
+                "test_time": "5.04",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221201.952\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nCreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\nEDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n\n======================================================================\nERROR: test_drag_and_drop_adds_plot_to_correct_axes (test_figurewindow.Test)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/applications/workbench/workbench/plotting/test/test_figurewindow.py&quot;, line 56, in test_drag_and_drop_adds_plot_to_correct_axes\n    self.fig_window.dropEvent(mock_event)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/applications/workbench/workbench/plotting/figurewindow.py&quot;, line 96, in dropEvent\n    x, y = self._canvas.mouseEventCoords(event.pos())\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/site-packages/matplotlib/backends/backend_qt.py&quot;, line 267, in mouseEventCoords\n    y = self.figure.bbox.height / self.device_pixel_ratio - pos.y()\nTypeError: unsupported operand type(s) for -: &#x27;float&#x27; and &#x27;Mock&#x27;\n\n----------------------------------------------------------------------\nRan 1 test in 1.107s\n\nFAILED (errors=1)\n\n          Start 2483: workbench.test_settings_view.test_settings_view\n"
             }
         },
         "workbench.test_plotscriptgenerator.test_plotscriptgenerator": {

@@ -335,23 +335,22 @@
         "MantidQtWidgetsMplCppTestQt5_FigureCanvasQtTest": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "MantidQtWidgetsMplCppTestQt5_FigureCanvasQtTest",
-            "latest_failed_build": "564",
+            "latest_failed_build": "807",
             "agent_name": "Windows",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "562": "Failed",
-                "564": "Failed"
+                "807": "Failed"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "MantidQtWidgetsMplCppTestQt5_FigureCanvasQtTest",
-                "build": "564",
+                "build": "807",
                 "agent_name": "Windows",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "2.35",
-                "stacktrace": "Running 4 testsExit code 0xc0000409\r\n\r\n\r\n          Start  963: DataHandlingTest_RotateSourceTest\r\n"
+                "test_time": "1.98",
+                "stacktrace": "Running 4 testsExit code 0xc0000409\r\n\r\n\r\n          Start  599: CrystalTest_CalculatePeaksHKLTest\r\n"
             }
         },
         "MantidQtWidgetsMplCppTestQt5_PlotTest": {
@@ -381,25 +380,22 @@
         "mantidqt_qt5.test_apply_all_properties.test_apply_all_properties": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "mantidqt_qt5.test_apply_all_properties.test_apply_all_properties",
-            "latest_failed_build": "743",
+            "latest_failed_build": "807",
             "agent_name": "Windows",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "724": "Failed",
-                "727": "Failed",
-                "729": "Failed",
-                "743": "Failed"
+                "807": "Failed"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "mantidqt_qt5.test_apply_all_properties.test_apply_all_properties",
-                "build": "743",
+                "build": "807",
                 "agent_name": "Windows",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "4.26",
-                "stacktrace": "E\r\n======================================================================\r\nERROR: setUpClass (test_apply_all_properties.ApplyAllPropertiesTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/plotconfigdialog/test/test_apply_all_properties.py&quot;, line 214, in setUpClass\r\n    cls.legend_ax = _run_apply_properties_on_figure_with_legend(cls.curve_view_mock)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/plotconfigdialog/test/test_apply_all_properties.py&quot;, line 162, in _run_apply_properties_on_figure_with_legend\r\n    presenter = PlotConfigDialogPresenter(fig, view=Mock())\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqt\\mantidqt\\widgets\\plotconfigdialog\\presenter.py&quot;, line 43, in __init__\r\n    legend_tab = LegendTabWidgetPresenter(self.fig, parent_view=self.view, parent_presenter=self)\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqt\\mantidqt\\widgets\\plotconfigdialog\\legendtabwidget\\presenter.py&quot;, line 28, in __init__\r\n    self.init_view()\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqt\\mantidqt\\widgets\\plotconfigdialog\\legendtabwidget\\presenter.py&quot;, line 51, in init_view\r\n    legend_props = LegendProperties.from_legend(ax.get_legend())\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\framework\\pythoninterface\\mantid\\plots\\legend.py&quot;, line 71, in from_legend\r\n    if LooseVersion(matplotlib._version__) &gt;= LooseVersion(&#x27;3.6.0&#x27;):\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\site-packages\\matplotlib\\_api\\__init__.py&quot;, line 222, in __getattr__\r\n    raise AttributeError(\r\nAttributeError: module &#x27;matplotlib&#x27; has no attribute &#x27;_version__&#x27;\r\n\r\n----------------------------------------------------------------------\r\nRan 0 tests in 1.447s\r\n\r\nFAILED (errors=1)\r\n\r\n          Start   53: KernelTest_ISaveableTest\r\n"
+                "test_time": "3.94",
+                "stacktrace": "findfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\r\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\r\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\r\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\r\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\r\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\r\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\r\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\r\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\r\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\r\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\r\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\r\nfindfont: Font family &#x27;Bitstream Vera Sans&#x27; not found.\r\n........C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/plotconfigdialog/test/test_apply_all_properties.py:320: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison\r\n  if bar_color[0] != &#x27;#&#x27;:\r\n...........................findfont: Font family [&#x27;Bitstream Vera Sans&#x27;] not found. Falling back to DejaVu Sans.\r\n......E.....findfont: Font family [&#x27;Bitstream Vera Sans&#x27;] not found. Falling back to DejaVu Sans.\r\n....\r\n======================================================================\r\nERROR: test_apply_properties_on_figure_with_legend_sets_number_of_columns (test_apply_all_properties.ApplyAllPropertiesTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/plotconfigdialog/test/test_apply_all_properties.py&quot;, line 392, in test_apply_properties_on_figure_with_legend_sets_number_of_columns\r\n    self.assertEqual(new_legend_props[&#x27;columns&#x27;], self.new_legend._ncol)\r\nAttributeError: &#x27;Legend&#x27; object has no attribute &#x27;_ncol&#x27;\r\n\r\n----------------------------------------------------------------------\r\nRan 51 tests in 1.547s\r\n\r\nFAILED (errors=1)\r\n\r\n          Start 2377: MantidQtInterfacesMuonTestQt5_ALCPeakFittingModelTest\r\n"
             }
         },
         "mantidqt_qt5.test_curvestabwidgetpresenter.test_curvestabwidgetpresenter": {
@@ -619,23 +615,22 @@
         "workbench.test_figurewindow.test_figurewindow": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "workbench.test_figurewindow.test_figurewindow",
-            "latest_failed_build": "564",
+            "latest_failed_build": "807",
             "agent_name": "Windows",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "562": "Failed",
-                "564": "Failed"
+                "807": "Failed"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "workbench.test_figurewindow.test_figurewindow",
-                "build": "564",
+                "build": "807",
                 "agent_name": "Windows",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "3.61",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221108.1655\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nCreateWorkspace-[Notice] CreateWorkspace started\r\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\r\nEDeleteWorkspace-[Notice] DeleteWorkspace started\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\n\r\n======================================================================\r\nERROR: test_drag_and_drop_adds_plot_to_correct_axes (test_figurewindow.Test)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/applications/workbench/workbench/plotting/test/test_figurewindow.py&quot;, line 56, in test_drag_and_drop_adds_plot_to_correct_axes\r\n    self.fig_window.dropEvent(mock_event)\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\qt\\applications\\workbench\\workbench\\plotting\\figurewindow.py&quot;, line 96, in dropEvent\r\n    x, y = self._canvas.mouseEventCoords(event.pos())\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\site-packages\\matplotlib\\backends\\backend_qt.py&quot;, line 267, in mouseEventCoords\r\n    y = self.figure.bbox.height / self.device_pixel_ratio - pos.y()\r\nTypeError: unsupported operand type(s) for -: &#x27;float&#x27; and &#x27;Mock&#x27;\r\n\r\n----------------------------------------------------------------------\r\nRan 1 test in 0.167s\r\n\r\nFAILED (errors=1)\r\n\r\n          Start 2475: workbench.test_exception_handler.test_exception_handler\r\n"
+                "test_time": "3.15",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221201.952\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nCreateWorkspace-[Notice] CreateWorkspace started\r\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\r\nEDeleteWorkspace-[Notice] DeleteWorkspace started\r\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\r\n\r\n======================================================================\r\nERROR: test_drag_and_drop_adds_plot_to_correct_axes (test_figurewindow.Test)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/applications/workbench/workbench/plotting/test/test_figurewindow.py&quot;, line 56, in test_drag_and_drop_adds_plot_to_correct_axes\r\n    self.fig_window.dropEvent(mock_event)\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\qt\\applications\\workbench\\workbench\\plotting\\figurewindow.py&quot;, line 96, in dropEvent\r\n    x, y = self._canvas.mouseEventCoords(event.pos())\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\site-packages\\matplotlib\\backends\\backend_qt.py&quot;, line 267, in mouseEventCoords\r\n    y = self.figure.bbox.height / self.device_pixel_ratio - pos.y()\r\nTypeError: unsupported operand type(s) for -: &#x27;float&#x27; and &#x27;Mock&#x27;\r\n\r\n----------------------------------------------------------------------\r\nRan 1 test in 0.155s\r\n\r\nFAILED (errors=1)\r\n\r\n          Start 2495: workbench.test_recoveryfailureview.test_recoveryfailureview\r\n"
             }
         },
         "workbench.test_plotscriptgenerator.test_plotscriptgenerator": {

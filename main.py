@@ -9,7 +9,7 @@ from jinja2 import Template
 from datetime import datetime
 
 #from traverse_data import traverse_data_local
-from datatable_helper import fail_test_table_data_gen
+from datatable_helper import fail_test_table_data_gen, LTS_Problem_test_display
 from chart_helper import get_chart_DF, plot_line_chart_plotly
 from data_collector import Remote_source, File_object, traverse_data_remote
 
@@ -147,15 +147,21 @@ if __name__ == "__main__":
     ## table data dir for fail count table
     website_data_dir = assets / "data" 
     website_data_dir.mkdir(exist_ok=True)
+    website_data_dir_combined = website_data_dir / "combine"
+    website_data_dir_combined.mkdir(exist_ok=True)
     ###dist
     dist = Path("dist")
     dist.mkdir(exist_ok=True)
+    dist_combined = dist / "combined"
+    dist_combined.mkdir(exist_ok=True)
     dist_asset = dist / "assets"
     dist_asset.mkdir(exist_ok=True)
     dist_src = dist_asset / "src"
     dist_src.mkdir(exist_ok=True)
     dist_data = dist / "data" # if you change this you will also change the table.html.j2
     dist_data.mkdir(exist_ok=True)
+    dist_data_combined = dist_data / "combined" # if you change this you will also change the table.html.j2
+    dist_data_combined.mkdir(exist_ok=True)
     ##historical data path
     history_path = Path("history")
     history_path.mkdir(exist_ok=True)
@@ -197,6 +203,8 @@ if __name__ == "__main__":
     file_names_list = args.file_names_list
     pipeline_names = args.pipeline_names
     pipeline_links = {}
+
+    combined_agent_keys_list = []
 
     combined_result_path = history_path / "combined_result"
     combined_result_path.mkdir(exist_ok=True)
@@ -336,6 +344,11 @@ if __name__ == "__main__":
             data_table_output = table_template.render(**data_table_template_data)
             table_html_code[agent_key] = data_table_output
 
+            #add the key to combined result if it is not in there
+            if agent_key not in combined_agent_keys_list:
+                combined_agent_keys_list.append(agent_key)
+            
+
         with (assets / "content.html.j2").open("r") as f:
             template = Template(f.read())
 
@@ -364,6 +377,48 @@ if __name__ == "__main__":
         content_path.write_text(output)
         pipeline_links[pipeline_name] = content_path.name
 
+    with (assets / "combined_content.html.j2").open("r") as f:
+        combined_page_template = Template(f.read())
+
+    combined_html = {}
+    #combined table since result need to be aggregated from multiple dable
+    for agent_key in combined_agent_keys_list:
+        file_name = f"{agent_key}_combined_failed_detail_store_pickle.json"
+        display_file_name = f"{agent_key}_combined_failed_detail_display.json"
+        combined_result_jsonpickle = combined_result_path / file_name
+        with (combined_result_jsonpickle).open("r") as f:
+            string = f.read()
+            combined_result = jsonpickle.decode(string)
+        combined_result_container = []
+        for key in combined_result.data.keys():
+            current_entry = {}
+            current_entry["test_name"] = combined_result.data[key].test_name
+            current_entry["past_failed_outcome"] = combined_result.data[key].past_failed_outcome
+            combined_result_container.append(current_entry)
+
+        combined_result_display_object = LTS_Problem_test_display(combined_result_container)
+        combined_result_display_object.toJson_file(website_data_dir_combined / display_file_name, unpickleable=False)
+
+        # copy json file to dist
+        copyfile((website_data_dir_combined / display_file_name), (dist_data_combined / display_file_name))
+
+        template_data = {
+            "agent_name": agent_key,
+            "logo": logo_path.name,
+            "current_datetime": now.strftime("%B %d, %Y %H:%M"),
+            "json_file_name": display_file_name, 
+            "bootstrap_css_file": bootstrap_css_file.name,
+            "bootstrap_js_file": bootstrap_js_file.name,
+        }
+        combined_html_name = "combined_"+ agent_key +".html"
+        output = combined_page_template.render(**template_data)
+        dist_combined_path = dist_combined / combined_html_name
+        dist_combined_path.write_text(output)
+        combined_html[agent_key] = combined_html_name
+
+
+
+
     with (assets / "index.html.j2").open("r") as f:
         index_template = Template(f.read())
 
@@ -375,6 +430,7 @@ if __name__ == "__main__":
         "pipeline_links": pipeline_links,
         "bootstrap_css_file": bootstrap_css_file.name,
         "bootstrap_js_file": bootstrap_js_file.name,
+        "combined_html": combined_html,
     }
 
     output = index_template.render(**template_data)

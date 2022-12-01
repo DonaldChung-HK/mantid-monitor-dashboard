@@ -42,6 +42,15 @@
             {% endfor %}
         </ul>
       </div>
+      <h2 class="display-5 text-center">Combined Result</h2>
+      <div class="col-lg-9 mx-auto text-center">
+        <ul class="list-group">
+          <!--list of dashboard here-->
+            {% for key in combined_html.keys() %}
+              <a href="combined/{{ combined_html[key] }}" class="list-group-item list-group-item-action">{{ key }}</a>            
+            {% endfor %}
+        </ul>
+      </div>
     </div>
   </div>
 </body>

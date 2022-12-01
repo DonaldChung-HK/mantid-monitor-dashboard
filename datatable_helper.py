@@ -3,6 +3,13 @@ from data_object import Data_object
 
 
 
+class LTS_Problem_test_display(Data_object):
+    """new class for long term storage of problem test since jsonpickle is unable to ignore attribute
+    """
+    def __init__(self, data) -> None:
+        super().__init__()
+        self.data = data
+
 class LTS_Problem_test (Data_object):
     """new class for long term storage of problem test since jsonpickle is unable to ignore attribute
     """

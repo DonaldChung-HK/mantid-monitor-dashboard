@@ -1,6 +1,8 @@
 import jsonpickle
 from data_object import Data_object
 
+from datetime import datetime
+
 
 
 class LTS_Problem_test_display(Data_object):
@@ -90,6 +92,8 @@ class Combined_LTS_Problem_test_entry(Data_object):
         for key in lts_problem_test_entry.past_failed_outcome.keys():
             entry_name = f"{lts_problem_test_entry.pipeline_name}_{key}"
             self.past_failed_outcome[entry_name] = lts_problem_test_entry.past_failed_outcome[key]
+        now = datetime.now()
+        self.last_fail_detected = now.strftime("%Y-%m-%d")
 
     def update_test(
         self, 
@@ -100,9 +104,15 @@ class Combined_LTS_Problem_test_entry(Data_object):
             problem_test_entry(datatable_helper.Problem_test_entry): a test fail entry which is new
             excluded(list(str)): list of outcome to exclude from recording usually to skip over passed and none outcome. Default to ["Passed", "None"]
         """
+        old_fail = set(self.past_failed_outcome.keys())
         for key in lts_problem_test_entry.past_failed_outcome.keys():
             entry_name = f"{lts_problem_test_entry.pipeline_name}_{key}"
             self.past_failed_outcome[entry_name] = lts_problem_test_entry.past_failed_outcome[key]
+        
+        #update last fail if the list changed
+        if old_fail != set(self.past_failed_outcome.keys()):
+            now = datetime.now()
+            self.last_fail_detected = now.strftime("%Y-%m-%d")
 
 class Problem_test_trial(Data_object):
     """store stack_trace for problem test

@@ -394,6 +394,11 @@ if __name__ == "__main__":
             current_entry = {}
             current_entry["test_name"] = combined_result.data[key].test_name
             current_entry["past_failed_outcome"] = combined_result.data[key].past_failed_outcome
+            #this is to accomodate older data before the last fail date was implemented
+            try:
+                current_entry["last_fail_detected"] = combined_result.data[key].last_fail_detected
+            except:
+                current_entry["last_fail_detected"] = "1990-01-01" #place holder for older data
             combined_result_container.append(current_entry)
 
         combined_result_display_object = LTS_Problem_test_display(combined_result_container)

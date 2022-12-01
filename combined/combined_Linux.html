@@ -70,7 +70,7 @@
         $(document).ready( function () {
           var table = $('#table-combined-Linux').DataTable({
               "ajax": '../data/combined/Linux_combined_failed_detail_display.json', // the path is preset here except the file name
-              order: [[2, 'desc']],
+              order: [[3, 'desc']],
               "columns": [
               {
                   className: 'dt-control',
@@ -84,6 +84,7 @@
               }, 
               title: "Count"
               },
+              { data: 'last_fail_detected',title: "Last Failed Date" },
               ]
           });
           $('#table-combined-Linux tbody').on('click', 'td.dt-control', function () {

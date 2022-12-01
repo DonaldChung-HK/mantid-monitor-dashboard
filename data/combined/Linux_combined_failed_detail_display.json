@@ -1,0 +1,556 @@
+{
+    "data": [
+        {
+            "test_name": "AlgorithmsTest_FitPeaksTest",
+            "past_failed_outcome": {
+                "main_nightly_deployment_prototype_430": "Flake",
+                "main_nightly_deployment_prototype_435": "Flake",
+                "pull_requests-conda-linux_1761": "Flake",
+                "pull_requests-conda-linux_1793": "Flake",
+                "pull_requests-conda-linux_1812": "Flake"
+            }
+        },
+        {
+            "test_name": "python.MuonQt5.tf_asymmetry_fitting_view_test.tf_asymmetry_fitting_view_test",
+            "past_failed_outcome": {
+                "main_nightly_deployment_prototype_434": "Flake",
+                "pull_requests-conda-linux_1991": "Flake",
+                "pull_requests-conda-linux_1995": "Flake",
+                "pull_requests-conda-linux_2025": "Flake"
+            }
+        },
+        {
+            "test_name": "mantidqt_qt5.test_sliceviewer_imageinfowidget.test_sliceviewer_imageinfowidget",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1760": "Failed",
+                "pull_requests-conda-linux_1799": "Failed",
+                "pull_requests-conda-linux_1801": "Failed",
+                "pull_requests-conda-linux_1802": "Failed",
+                "pull_requests-conda-linux_1804": "Failed",
+                "pull_requests-conda-linux_1806": "Failed",
+                "pull_requests-conda-linux_1810": "Failed"
+            }
+        },
+        {
+            "test_name": "python.simplescanviewer.RectanglePlotTest.RectanglePlotTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1777": "Failed",
+                "pull_requests-conda-linux_1778": "Failed",
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed"
+            }
+        },
+        {
+            "test_name": "python.MuonQt5.tf_asymmetry_fitting_options_view_test.tf_asymmetry_fitting_options_view_test",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1776": "Flake",
+                "pull_requests-conda-linux_1901": "Flake",
+                "pull_requests-conda-linux_1909": "Flake"
+            }
+        },
+        {
+            "test_name": "mantidqt_qt5.test_sample_shape.test_sample_shape",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1776": "Failed"
+            }
+        },
+        {
+            "test_name": "python.MuonQt5.model_fitting_view_test.model_fitting_view_test",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1775": "Flake",
+                "main_nightly_deployment_prototype_441": "Flake",
+                "pull_requests-conda-linux_1940": "Flake",
+                "pull_requests-conda-linux_2026": "Flake"
+            }
+        },
+        {
+            "test_name": "python.WorkflowAlgorithms.MolDynTest.MolDynTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1786": "Failed"
+            }
+        },
+        {
+            "test_name": "mantidqt_qt5.test_interpreter.test_interpreter",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1784": "Flake",
+                "pull_requests-conda-linux_1825": "Flake",
+                "pull_requests-conda-linux_2040": "Flake"
+            }
+        },
+        {
+            "test_name": "python.algorithms.IntegratePeaksSkewTest.IntegratePeaksSkewTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1784": "Failed",
+                "pull_requests-conda-linux_1835": "Failed",
+                "pull_requests-conda-linux_1839": "Failed"
+            }
+        },
+        {
+            "test_name": "MantidQtWidgetsCommonTestQt5_ImageInfoPresenterTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1799": "Failed",
+                "pull_requests-conda-linux_1801": "Failed",
+                "pull_requests-conda-linux_1802": "Failed",
+                "pull_requests-conda-linux_1804": "Failed",
+                "pull_requests-conda-linux_1806": "Failed",
+                "pull_requests-conda-linux_1810": "Failed"
+            }
+        },
+        {
+            "test_name": "mantidqt_qt5.test_sliceviewer_dataview.test_sliceviewer_dataview",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1799": "Failed",
+                "pull_requests-conda-linux_1801": "Failed",
+                "pull_requests-conda-linux_1802": "Failed",
+                "pull_requests-conda-linux_1804": "Failed",
+                "pull_requests-conda-linux_1806": "Failed",
+                "pull_requests-conda-linux_1810": "Failed"
+            }
+        },
+        {
+            "test_name": "mantidqt_qt5.test_sliceviewer_presenter.test_sliceviewer_presenter",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1799": "Failed",
+                "pull_requests-conda-linux_1801": "Failed",
+                "pull_requests-conda-linux_1802": "Failed",
+                "pull_requests-conda-linux_1804": "Failed",
+                "pull_requests-conda-linux_1806": "Failed",
+                "pull_requests-conda-linux_1810": "Failed",
+                "pull_requests-conda-linux_1878": "Failed",
+                "pull_requests-conda-linux_1879": "Failed",
+                "pull_requests-conda-linux_1891": "Failed"
+            }
+        },
+        {
+            "test_name": "python.scripts.CrystalFieldTest.CrystalFieldTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1799": "Failed",
+                "pull_requests-conda-linux_1806": "Failed",
+                "pull_requests-conda-linux_1810": "Failed",
+                "main_nightly_deployment_prototype_452": "Flake",
+                "pull_requests-conda-linux_2017": "Failed",
+                "pull_requests-conda-linux_2026": "Flake",
+                "pull_requests-conda-linux_2031": "Flake",
+                "pull_requests-conda-linux_2034": "Flake",
+                "pull_requests-conda-linux_2036": "Flake",
+                "pull_requests-conda-linux_2054": "Flake",
+                "pull_requests-conda-linux_2056": "Flake",
+                "main_nightly_deployment_prototype_459": "Failed",
+                "pull_requests-conda-linux_2069": "Flake",
+                "pull_requests-conda-linux_2070": "Flake"
+            }
+        },
+        {
+            "test_name": "AlgorithmsTest_Q1DWeightedTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1795": "Failed",
+                "pull_requests-conda-linux_1796": "Failed"
+            }
+        },
+        {
+            "test_name": "python.WorkflowAlgorithms.SANSILLMultiProcessTest.SANSILLMultiProcessTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1795": "Failed",
+                "pull_requests-conda-linux_1796": "Failed"
+            }
+        },
+        {
+            "test_name": "MantidQtWidgetsMplCppTestQt5_FigureCanvasQtTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed"
+            }
+        },
+        {
+            "test_name": "MantidQtWidgetsMplCppTestQt5_PlotTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed",
+                "pull_requests-conda-linux_1999": "Failed",
+                "pull_requests-conda-linux_2001": "Failed",
+                "pull_requests-conda-linux_2002": "Failed",
+                "pull_requests-conda-linux_2006": "Failed",
+                "pull_requests-conda-linux_2020": "Failed"
+            }
+        },
+        {
+            "test_name": "mantidqt_qt5.test_apply_all_properties.test_apply_all_properties",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed",
+                "pull_requests-conda-linux_1999": "Failed",
+                "pull_requests-conda-linux_2001": "Failed",
+                "pull_requests-conda-linux_2002": "Failed",
+                "pull_requests-conda-linux_2006": "Failed",
+                "pull_requests-conda-linux_2020": "Failed"
+            }
+        },
+        {
+            "test_name": "mantidqt_qt5.test_curvestabwidgetpresenter.test_curvestabwidgetpresenter",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed",
+                "pull_requests-conda-linux_1999": "Failed",
+                "pull_requests-conda-linux_2001": "Failed",
+                "pull_requests-conda-linux_2002": "Failed",
+                "pull_requests-conda-linux_2006": "Failed",
+                "pull_requests-conda-linux_2020": "Failed"
+            }
+        },
+        {
+            "test_name": "mantidqt_qt5.test_fitpropertybrowser.test_fitpropertybrowser",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed",
+                "pull_requests-conda-linux_1999": "Failed",
+                "pull_requests-conda-linux_2001": "Failed",
+                "pull_requests-conda-linux_2002": "Failed",
+                "pull_requests-conda-linux_2006": "Failed",
+                "pull_requests-conda-linux_2020": "Failed"
+            }
+        },
+        {
+            "test_name": "mantidqt_qt5.test_functions.test_functions",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed",
+                "pull_requests-conda-linux_1999": "Failed",
+                "pull_requests-conda-linux_2001": "Failed",
+                "pull_requests-conda-linux_2002": "Failed",
+                "pull_requests-conda-linux_2006": "Failed",
+                "pull_requests-conda-linux_2020": "Failed"
+            }
+        },
+        {
+            "test_name": "mantidqt_qt5.test_plotssaver.test_plotssaver",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed",
+                "pull_requests-conda-linux_1999": "Failed",
+                "pull_requests-conda-linux_2001": "Failed",
+                "pull_requests-conda-linux_2002": "Failed",
+                "pull_requests-conda-linux_2006": "Failed",
+                "pull_requests-conda-linux_2020": "Failed"
+            }
+        },
+        {
+            "test_name": "mantidqt_qt5.test_regionselector_presenter.test_regionselector_presenter",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed"
+            }
+        },
+        {
+            "test_name": "mantidqt_qt5.test_tiledplots.test_tiledplots",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed",
+                "pull_requests-conda-linux_1999": "Failed",
+                "pull_requests-conda-linux_2001": "Failed",
+                "pull_requests-conda-linux_2002": "Failed",
+                "pull_requests-conda-linux_2006": "Failed",
+                "pull_requests-conda-linux_2020": "Failed"
+            }
+        },
+        {
+            "test_name": "python.plots.plotfunctionsTest.plotfunctionsTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed",
+                "pull_requests-conda-linux_1999": "Failed",
+                "pull_requests-conda-linux_2001": "Failed",
+                "pull_requests-conda-linux_2002": "Failed",
+                "pull_requests-conda-linux_2006": "Failed",
+                "pull_requests-conda-linux_2020": "Failed"
+            }
+        },
+        {
+            "test_name": "workbench.test_figureerrorsmanager.test_figureerrorsmanager",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed",
+                "pull_requests-conda-linux_1999": "Failed",
+                "pull_requests-conda-linux_2001": "Failed",
+                "pull_requests-conda-linux_2002": "Failed",
+                "pull_requests-conda-linux_2006": "Failed",
+                "pull_requests-conda-linux_2020": "Failed"
+            }
+        },
+        {
+            "test_name": "workbench.test_figureinteraction.test_figureinteraction",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed",
+                "pull_requests-conda-linux_1999": "Failed",
+                "pull_requests-conda-linux_2001": "Failed",
+                "pull_requests-conda-linux_2002": "Failed",
+                "pull_requests-conda-linux_2006": "Failed",
+                "pull_requests-conda-linux_2020": "Failed"
+            }
+        },
+        {
+            "test_name": "workbench.test_figurewindow.test_figurewindow",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed"
+            }
+        },
+        {
+            "test_name": "workbench.test_plotscriptgenerator.test_plotscriptgenerator",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed",
+                "pull_requests-conda-linux_1999": "Failed",
+                "pull_requests-conda-linux_2001": "Failed",
+                "pull_requests-conda-linux_2002": "Failed",
+                "pull_requests-conda-linux_2006": "Failed",
+                "pull_requests-conda-linux_2020": "Failed"
+            }
+        },
+        {
+            "test_name": "workbench.test_plotscriptgeneratorlegend.test_plotscriptgeneratorlegend",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed",
+                "pull_requests-conda-linux_1999": "Failed",
+                "pull_requests-conda-linux_2001": "Failed",
+                "pull_requests-conda-linux_2002": "Failed",
+                "pull_requests-conda-linux_2006": "Failed",
+                "pull_requests-conda-linux_2020": "Failed"
+            }
+        },
+        {
+            "test_name": "workbench.test_utility.test_utility",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1829": "Failed",
+                "pull_requests-conda-linux_1831": "Failed",
+                "pull_requests-conda-linux_1999": "Failed",
+                "pull_requests-conda-linux_2001": "Failed",
+                "pull_requests-conda-linux_2002": "Failed",
+                "pull_requests-conda-linux_2006": "Failed",
+                "pull_requests-conda-linux_2020": "Failed"
+            }
+        },
+        {
+            "test_name": "mantidqt_qt5.test_base_presenter.test_base_presenter",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1845": "Failed",
+                "pull_requests-conda-linux_1854": "Failed"
+            }
+        },
+        {
+            "test_name": "python.algorithms.HB2AReduceTest.HB2AReduceTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1847": "Failed",
+                "pull_requests-conda-linux_1848": "Failed",
+                "pull_requests-conda-linux_1849": "Failed",
+                "pull_requests-conda-linux_1850": "Failed",
+                "pull_requests-conda-linux_1852": "Failed",
+                "pull_requests-conda-linux_1853": "Failed"
+            }
+        },
+        {
+            "test_name": "AlgorithmsTest_SassenaFFTTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1849": "Flake"
+            }
+        },
+        {
+            "test_name": "mantidqt_qt5.test_cut_representation.test_cut_representation",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1878": "Failed",
+                "pull_requests-conda-linux_1879": "Failed",
+                "pull_requests-conda-linux_1882": "Failed",
+                "pull_requests-conda-linux_1891": "Failed"
+            }
+        },
+        {
+            "test_name": "python.WorkflowAlgorithms.ReflectometryISISLoadAndProcessTest.ReflectometryISISLoadAndProcessTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1860": "Failed",
+                "pull_requests-conda-linux_1866": "Failed",
+                "pull_requests-conda-linux_1876": "Failed",
+                "pull_requests-conda-linux_1880": "Failed"
+            }
+        },
+        {
+            "test_name": "python.WorkflowAlgorithms.ReflectometryISISPreprocessTest.ReflectometryISISPreprocessTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1860": "Failed",
+                "pull_requests-conda-linux_1866": "Failed",
+                "pull_requests-conda-linux_1876": "Failed",
+                "pull_requests-conda-linux_1880": "Failed"
+            }
+        },
+        {
+            "test_name": "mantidqt_qt5.test_qappthreadcall.test_qappthreadcall",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1872": "Flake"
+            }
+        },
+        {
+            "test_name": "python.EngineeringDiffraction.engineering_diffraction_io_test.engineering_diffraction_io_test",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1863": "Failed",
+                "pull_requests-conda-linux_1870": "Failed",
+                "pull_requests-conda-linux_2017": "Failed"
+            }
+        },
+        {
+            "test_name": "python.EngineeringDiffraction.test_data_model.test_data_model",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1863": "Failed",
+                "pull_requests-conda-linux_1870": "Failed",
+                "pull_requests-conda-linux_1991": "Failed"
+            }
+        },
+        {
+            "test_name": "python.EngineeringDiffraction.test_data_presenter.test_data_presenter",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1863": "Failed",
+                "pull_requests-conda-linux_1870": "Failed"
+            }
+        },
+        {
+            "test_name": "python.EngineeringDiffraction.test_gsas2_model.test_gsas2_model",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1863": "Failed",
+                "pull_requests-conda-linux_1870": "Failed",
+                "pull_requests-conda-linux_1954": "Failed",
+                "pull_requests-conda-linux_1963": "Failed",
+                "pull_requests-conda-linux_1965": "Failed",
+                "pull_requests-conda-linux_1991": "Failed"
+            }
+        },
+        {
+            "test_name": "python.algorithms.ReflectometryReductionOneLiveDataTest.ReflectometryReductionOneLiveDataTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1860": "Failed",
+                "pull_requests-conda-linux_1866": "Failed"
+            }
+        },
+        {
+            "test_name": "python.SANS.command_interface.command_interface_state_director_test.command_interface_state_director_test",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1889": "Failed",
+                "pull_requests-conda-linux_1900": "Failed",
+                "pull_requests-conda-linux_1904": "Failed",
+                "pull_requests-conda-linux_1905": "Failed"
+            }
+        },
+        {
+            "test_name": "python.SANS.user_file.txt_parsers.toml_v1_parser_test.toml_v1_parser_test",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1889": "Failed",
+                "pull_requests-conda-linux_2009": "Failed"
+            }
+        },
+        {
+            "test_name": "CrystalTest_PeakIntensityVsRadiusTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1910": "Failed"
+            }
+        },
+        {
+            "test_name": "MDAlgorithmsTest_IntegratePeaksMD2Test",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1910": "Failed"
+            }
+        },
+        {
+            "test_name": "python.algorithms.HB3AIntegratePeaksTest.HB3AIntegratePeaksTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1910": "Failed"
+            }
+        },
+        {
+            "test_name": "MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1960": "Failed",
+                "pull_requests-conda-linux_1961": "Failed",
+                "pull_requests-conda-linux_1982": "Failed",
+                "pull_requests-conda-linux_1989": "Failed",
+                "pull_requests-conda-linux_1992": "Failed",
+                "pull_requests-conda-linux_1997": "Failed",
+                "pull_requests-conda-linux_2000": "Failed",
+                "pull_requests-conda-linux_2011": "Failed"
+            }
+        },
+        {
+            "test_name": "python.algorithms.MaskBTPTest.MaskBTPTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1974": "Failed",
+                "pull_requests-conda-linux_1975": "Failed"
+            }
+        },
+        {
+            "test_name": "python.MuonQt5.basic_fitting_view_test.basic_fitting_view_test",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_1971": "Flake"
+            }
+        },
+        {
+            "test_name": "python.MuonQt5.load_model_test.load_model_test",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2007": "Flake"
+            }
+        },
+        {
+            "test_name": "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2021": "Failed"
+            }
+        },
+        {
+            "test_name": "python.IsisPowder.ISISPowderCommonTest.ISISPowderCommonTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2036": "Failed"
+            }
+        },
+        {
+            "test_name": "mantidqt_qt5.test_instrumentview_presenter.test_instrumentview_presenter",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2032": "Failed",
+                "pull_requests-conda-linux_2033": "Failed"
+            }
+        },
+        {
+            "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisPresenterTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2042": "Failed",
+                "pull_requests-conda-linux_2049": "Failed"
+            }
+        },
+        {
+            "test_name": "mantidqt_qt5.test_view.test_view",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2041": "Failed"
+            }
+        },
+        {
+            "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2063": "Failed"
+            }
+        },
+        {
+            "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2063": "Failed"
+            }
+        },
+        {
+            "test_name": "python.MuonQt5.general_fitting_view_test.general_fitting_view_test",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2084": "Flake",
+                "main_nightly_deployment_prototype_460": "Flake"
+            }
+        },
+        {
+            "test_name": "HistogramDataTest_InterpolateTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2071": "Failed"
+            }
+        }
+    ]
+}

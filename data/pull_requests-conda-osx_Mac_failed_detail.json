@@ -9,6 +9,7 @@
             "problem_count": 2,
             "past_outcome": {
                 "build_keys": [
+                    "775",
                     "774",
                     "773",
                     "772",
@@ -37,15 +38,14 @@
                     "749",
                     "748",
                     "747",
-                    "746",
-                    "745"
+                    "746"
                 ],
                 "past_outcome_list": [
-                    "None",
-                    "Failed",
+                    "Passed",
                     "Passed",
                     "Failed",
                     "Passed",
+                    "Failed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -92,6 +92,7 @@
             "problem_count": 2,
             "past_outcome": {
                 "build_keys": [
+                    "775",
                     "774",
                     "773",
                     "772",
@@ -120,15 +121,14 @@
                     "749",
                     "748",
                     "747",
-                    "746",
-                    "745"
+                    "746"
                 ],
                 "past_outcome_list": [
-                    "None",
-                    "Failed",
+                    "Passed",
                     "Passed",
                     "Failed",
                     "Passed",
+                    "Failed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -175,6 +175,7 @@
             "problem_count": 2,
             "past_outcome": {
                 "build_keys": [
+                    "775",
                     "774",
                     "773",
                     "772",
@@ -203,15 +204,14 @@
                     "749",
                     "748",
                     "747",
-                    "746",
-                    "745"
+                    "746"
                 ],
                 "past_outcome_list": [
-                    "None",
-                    "Failed",
+                    "Passed",
                     "Passed",
                     "Failed",
                     "Passed",
+                    "Failed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -258,6 +258,7 @@
             "problem_count": 2,
             "past_outcome": {
                 "build_keys": [
+                    "775",
                     "774",
                     "773",
                     "772",
@@ -286,11 +287,11 @@
                     "749",
                     "748",
                     "747",
-                    "746",
-                    "745"
+                    "746"
                 ],
                 "past_outcome_list": [
-                    "None",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -313,7 +314,6 @@
                     "Failed",
                     "Passed",
                     "Failed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",

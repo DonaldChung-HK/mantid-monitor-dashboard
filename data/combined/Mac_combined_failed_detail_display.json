@@ -724,16 +724,18 @@
         {
             "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_744": "Failed"
+                "pull_requests-conda-osx_744": "Failed",
+                "pull_requests-conda-osx_792": "Failed"
             },
-            "last_fail_detected": "1990-01-01"
+            "last_fail_detected": "2022-12-02"
         },
         {
             "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_744": "Failed"
+                "pull_requests-conda-osx_744": "Failed",
+                "pull_requests-conda-osx_792": "Failed"
             },
-            "last_fail_detected": "1990-01-01"
+            "last_fail_detected": "2022-12-02"
         },
         {
             "test_name": "HistogramDataTest_InterpolateTest",
@@ -770,6 +772,13 @@
             "test_name": "python.scripts.AbinsIOmoduleTest.AbinsIOmoduleTest",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_776": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "python.WorkflowAlgorithms.ISISIndirectEnergyTransferTest.ISISIndirectEnergyTransferTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_794": "Flake"
             },
             "last_fail_detected": "2022-12-02"
         }

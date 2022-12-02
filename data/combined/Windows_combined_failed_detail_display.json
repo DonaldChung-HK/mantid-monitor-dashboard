@@ -558,16 +558,20 @@
         {
             "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_779": "Failed"
+                "pull_requests-conda-windows_779": "Failed",
+                "pull_requests-conda-windows_827": "Failed",
+                "pull_requests-conda-windows_828": "Failed"
             },
-            "last_fail_detected": "1990-01-01"
+            "last_fail_detected": "2022-12-02"
         },
         {
             "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_779": "Failed"
+                "pull_requests-conda-windows_779": "Failed",
+                "pull_requests-conda-windows_827": "Failed",
+                "pull_requests-conda-windows_828": "Failed"
             },
-            "last_fail_detected": "1990-01-01"
+            "last_fail_detected": "2022-12-02"
         },
         {
             "test_name": "DataHandlingTest_LoadILLDiffractionTest",
@@ -928,6 +932,13 @@
             "test_name": "python.scripts.AbinsIOmoduleTest.AbinsIOmoduleTest",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "python.drill.DrillTest.DrillTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_830": "Failed"
             },
             "last_fail_detected": "2022-12-02"
         }

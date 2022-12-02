@@ -152,7 +152,8 @@
                 "pull_requests-conda-linux_2069": "Flake",
                 "pull_requests-conda-linux_2070": "Flake",
                 "pull_requests-conda-linux_2098": "Failed",
-                "main_nightly_deployment_prototype_462": "Failed"
+                "main_nightly_deployment_prototype_462": "Failed",
+                "pull_requests-conda-linux_2113": "Failed"
             },
             "last_fail_detected": "2022-12-02"
         },
@@ -593,24 +594,29 @@
         {
             "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest",
             "past_failed_outcome": {
-                "pull_requests-conda-linux_2063": "Failed"
+                "pull_requests-conda-linux_2063": "Failed",
+                "pull_requests-conda-linux_2113": "Failed",
+                "pull_requests-conda-linux_2114": "Failed"
             },
-            "last_fail_detected": "1990-01-01"
+            "last_fail_detected": "2022-12-02"
         },
         {
             "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest",
             "past_failed_outcome": {
-                "pull_requests-conda-linux_2063": "Failed"
+                "pull_requests-conda-linux_2063": "Failed",
+                "pull_requests-conda-linux_2113": "Failed",
+                "pull_requests-conda-linux_2114": "Failed"
             },
-            "last_fail_detected": "1990-01-01"
+            "last_fail_detected": "2022-12-02"
         },
         {
             "test_name": "python.MuonQt5.general_fitting_view_test.general_fitting_view_test",
             "past_failed_outcome": {
                 "pull_requests-conda-linux_2084": "Flake",
-                "main_nightly_deployment_prototype_460": "Flake"
+                "main_nightly_deployment_prototype_460": "Flake",
+                "pull_requests-conda-linux_2116": "Flake"
             },
-            "last_fail_detected": "1990-01-01"
+            "last_fail_detected": "2022-12-02"
         },
         {
             "test_name": "HistogramDataTest_InterpolateTest",
@@ -646,6 +652,14 @@
             "test_name": "python.scripts.AbinsIOmoduleTest.AbinsIOmoduleTest",
             "past_failed_outcome": {
                 "pull_requests-conda-linux_2098": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "python.drill.DrillTest.DrillTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2116": "Failed",
+                "pull_requests-conda-linux_2117": "Failed"
             },
             "last_fail_detected": "2022-12-02"
         }

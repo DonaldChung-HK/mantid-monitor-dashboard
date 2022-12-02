@@ -396,8 +396,10 @@
                 "pull_requests-conda-osx_587": "Flake",
                 "pull_requests-conda-osx_588": "Flake",
                 "pull_requests-conda-osx_589": "Flake",
-                "pull_requests-conda-osx_734": "Flake"
-            }
+                "pull_requests-conda-osx_734": "Flake",
+                "pull_requests-conda-osx_780": "Flake"
+            },
+            "last_fail_detected": "2022-12-02"
         },
         "python.algorithms.HB2AReduceTest.HB2AReduceTest": {
             "test_name": "python.algorithms.HB2AReduceTest.HB2AReduceTest",
@@ -744,6 +746,40 @@
                 "pull_requests-conda-osx_752": "Failed",
                 "pull_requests-conda-osx_754": "Failed"
             }
+        },
+        "python.utils.absorptioncorrutilsTest.absorptioncorrutilsTest": {
+            "test_name": "python.utils.absorptioncorrutilsTest.absorptioncorrutilsTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_785": "Failed",
+                "pull_requests-conda-osx_786": "Failed",
+                "pull_requests-conda-osx_787": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        "python.algorithms.EnggSaveGSASIIFitResultsToHDF5Test.EnggSaveGSASIIFitResultsToHDF5Test": {
+            "test_name": "python.algorithms.EnggSaveGSASIIFitResultsToHDF5Test.EnggSaveGSASIIFitResultsToHDF5Test",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_776": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        "python.algorithms.ExportSampleLogsToHDF5Test.ExportSampleLogsToHDF5Test": {
+            "test_name": "python.algorithms.ExportSampleLogsToHDF5Test.ExportSampleLogsToHDF5Test",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_776": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        "python.scripts.AbinsIOmoduleTest.AbinsIOmoduleTest": {
+            "test_name": "python.scripts.AbinsIOmoduleTest.AbinsIOmoduleTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_776": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
         }
     }
 }

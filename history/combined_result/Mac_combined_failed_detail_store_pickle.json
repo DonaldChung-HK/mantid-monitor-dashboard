@@ -436,8 +436,10 @@
                 "pull_requests-conda-osx_587": "Flake",
                 "pull_requests-conda-osx_588": "Flake",
                 "pull_requests-conda-osx_589": "Flake",
-                "pull_requests-conda-osx_734": "Flake"
-            }
+                "pull_requests-conda-osx_734": "Flake",
+                "pull_requests-conda-osx_780": "Flake"
+            },
+            "last_fail_detected": "2022-12-02"
         },
         "python.algorithms.HB2AReduceTest.HB2AReduceTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -826,6 +828,44 @@
                 "pull_requests-conda-osx_752": "Failed",
                 "pull_requests-conda-osx_754": "Failed"
             }
+        },
+        "python.utils.absorptioncorrutilsTest.absorptioncorrutilsTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.utils.absorptioncorrutilsTest.absorptioncorrutilsTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_785": "Failed",
+                "pull_requests-conda-osx_786": "Failed",
+                "pull_requests-conda-osx_787": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        "python.algorithms.EnggSaveGSASIIFitResultsToHDF5Test.EnggSaveGSASIIFitResultsToHDF5Test": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.algorithms.EnggSaveGSASIIFitResultsToHDF5Test.EnggSaveGSASIIFitResultsToHDF5Test",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_776": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        "python.algorithms.ExportSampleLogsToHDF5Test.ExportSampleLogsToHDF5Test": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.algorithms.ExportSampleLogsToHDF5Test.ExportSampleLogsToHDF5Test",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_776": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        "python.scripts.AbinsIOmoduleTest.AbinsIOmoduleTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.scripts.AbinsIOmoduleTest.AbinsIOmoduleTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_776": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
         }
     }
 }

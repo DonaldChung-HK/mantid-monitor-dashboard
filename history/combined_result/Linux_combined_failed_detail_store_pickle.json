@@ -166,8 +166,11 @@
                 "pull_requests-conda-linux_2056": "Flake",
                 "main_nightly_deployment_prototype_459": "Failed",
                 "pull_requests-conda-linux_2069": "Flake",
-                "pull_requests-conda-linux_2070": "Flake"
-            }
+                "pull_requests-conda-linux_2070": "Flake",
+                "pull_requests-conda-linux_2098": "Failed",
+                "main_nightly_deployment_prototype_462": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
         },
         "AlgorithmsTest_Q1DWeightedTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -682,6 +685,44 @@
             "past_failed_outcome": {
                 "pull_requests-conda-linux_2071": "Failed"
             }
+        },
+        "python.utils.absorptioncorrutilsTest.absorptioncorrutilsTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.utils.absorptioncorrutilsTest.absorptioncorrutilsTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2107": "Failed",
+                "pull_requests-conda-linux_2108": "Failed",
+                "pull_requests-conda-linux_2109": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        "python.algorithms.EnggSaveGSASIIFitResultsToHDF5Test.EnggSaveGSASIIFitResultsToHDF5Test": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.algorithms.EnggSaveGSASIIFitResultsToHDF5Test.EnggSaveGSASIIFitResultsToHDF5Test",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2098": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        "python.algorithms.ExportSampleLogsToHDF5Test.ExportSampleLogsToHDF5Test": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.algorithms.ExportSampleLogsToHDF5Test.ExportSampleLogsToHDF5Test",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2098": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        "python.scripts.AbinsIOmoduleTest.AbinsIOmoduleTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.scripts.AbinsIOmoduleTest.AbinsIOmoduleTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2098": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
         }
     }
 }

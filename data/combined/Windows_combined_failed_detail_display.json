@@ -80,9 +80,10 @@
             "test_name": "python.MuonQt5.model_fitting_view_test.model_fitting_view_test",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_523": "Flake",
-                "pull_requests-conda-windows_635": "Flake"
+                "pull_requests-conda-windows_635": "Flake",
+                "pull_requests-conda-windows_818": "Flake"
             },
-            "last_fail_detected": "1990-01-01"
+            "last_fail_detected": "2022-12-02"
         },
         {
             "test_name": "python.MuonQt5.background_corrections_model_test.background_corrections_model_test",
@@ -572,9 +573,10 @@
             "test_name": "DataHandlingTest_LoadILLDiffractionTest",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_778": "Flake",
-                "pull_requests-conda-windows_783": "Flake"
+                "pull_requests-conda-windows_783": "Flake",
+                "pull_requests-conda-windows_812": "Failed"
             },
-            "last_fail_detected": "1990-01-01"
+            "last_fail_detected": "2022-12-02"
         },
         {
             "test_name": "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest",
@@ -603,6 +605,331 @@
                 "main_nightly_deployment_prototype_460": "Flake"
             },
             "last_fail_detected": "1990-01-01"
+        },
+        {
+            "test_name": "python.utils.absorptioncorrutilsTest.absorptioncorrutilsTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_821": "Failed",
+                "pull_requests-conda-windows_822": "Failed",
+                "pull_requests-conda-windows_823": "Failed",
+                "pull_requests-conda-windows_824": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "AlgorithmsTest_FilterBadPulsesTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "CrystalTest_SCDCalibratePanels2ObjFuncTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "CrystalTest_SCDCalibratePanels2Test",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "CrystalTest_SetCrystalLocationTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "CurveFittingTest_ConvolutionFitSequentialTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "CurveFittingTest_PlotPeakByLogValueHelperTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "CurveFittingTest_ProfileChiSquared1DTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "DataHandlingTest_H5UtilTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "DataHandlingTest_LoadDiffCalTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "DataHandlingTest_LoadEventNexusTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "DataHandlingTest_LoadILLSALSATest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "DataHandlingTest_LoadILLTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "DataHandlingTest_LoadMuonNexusV2Test",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "DataHandlingTest_LoadNXcanSASTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "DataHandlingTest_LoadNexusLogsTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "DataHandlingTest_LoadPreNexusTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "DataHandlingTest_LoadTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "DataHandlingTest_SaveBankScatteringAnglesTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "DataHandlingTest_SaveDaveGrpTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "DataHandlingTest_SaveDiffCalTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "DataHandlingTest_SaveNISTDATTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "DataHandlingTest_SaveNXcanSASTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "DataHandlingTest_SaveNexusGeometryTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "DataHandlingTest_SaveOpenGenieAsciiTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "KernelTest_NexusHDF5DescriptorTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "LiveDataTest_FileEventDataListenerTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "MDAlgorithmsTest_CloneMDWorkspaceTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "MDAlgorithmsTest_ConvertHFIRSCDtoMDETest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "MDAlgorithmsTest_MinusMDTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "MDAlgorithmsTest_PlusMDTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "MDAlgorithmsTest_SaveMDTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "MDAlgorithmsTest_TransformMDTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "MantidQtInterfacesMuonTestQt5_ALCDataLoadingPresenterTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "NexusGeometryTest_NexusGeometryParserTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "NexusGeometryTest_NexusGeometrySaveTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "ParallelTest_EventLoaderTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "ReflectometryTest_CreateTransmissionWorkspaceAuto2Test",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "ReflectometryTest_ReflectometryReductionOneAuto2Test",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "ReflectometryTest_ReflectometryReductionOneAuto3Test",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "WorkflowAlgorithmsTest_ExtractQENSMembersTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "WorkflowAlgorithmsTest_LoadEventAndCompressTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "python.SANS.algorithm_detail.crop_helper_test.crop_helper_test",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "python.algorithms.EnggSaveGSASIIFitResultsToHDF5Test.EnggSaveGSASIIFitResultsToHDF5Test",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "python.algorithms.ExportSampleLogsToHDF5Test.ExportSampleLogsToHDF5Test",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "python.scripts.AbinsIOmoduleTest.AbinsIOmoduleTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_812": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
         }
     ]
 }

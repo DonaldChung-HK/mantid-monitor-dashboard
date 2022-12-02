@@ -150,9 +150,11 @@
                 "pull_requests-conda-linux_2056": "Flake",
                 "main_nightly_deployment_prototype_459": "Failed",
                 "pull_requests-conda-linux_2069": "Flake",
-                "pull_requests-conda-linux_2070": "Flake"
+                "pull_requests-conda-linux_2070": "Flake",
+                "pull_requests-conda-linux_2098": "Failed",
+                "main_nightly_deployment_prototype_462": "Failed"
             },
-            "last_fail_detected": "1990-01-01"
+            "last_fail_detected": "2022-12-02"
         },
         {
             "test_name": "AlgorithmsTest_Q1DWeightedTest",
@@ -616,6 +618,36 @@
                 "pull_requests-conda-linux_2071": "Failed"
             },
             "last_fail_detected": "1990-01-01"
+        },
+        {
+            "test_name": "python.utils.absorptioncorrutilsTest.absorptioncorrutilsTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2107": "Failed",
+                "pull_requests-conda-linux_2108": "Failed",
+                "pull_requests-conda-linux_2109": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "python.algorithms.EnggSaveGSASIIFitResultsToHDF5Test.EnggSaveGSASIIFitResultsToHDF5Test",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2098": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "python.algorithms.ExportSampleLogsToHDF5Test.ExportSampleLogsToHDF5Test",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2098": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "python.scripts.AbinsIOmoduleTest.AbinsIOmoduleTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2098": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
         }
     ]
 }

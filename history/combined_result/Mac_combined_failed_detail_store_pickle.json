@@ -809,16 +809,20 @@
             "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_744": "Failed"
-            }
+                "pull_requests-conda-osx_744": "Failed",
+                "pull_requests-conda-osx_792": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
         },
         "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
             "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_744": "Failed"
-            }
+                "pull_requests-conda-osx_744": "Failed",
+                "pull_requests-conda-osx_792": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
         },
         "HistogramDataTest_InterpolateTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -864,6 +868,15 @@
             "agent_name": "Mac",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_776": "Failed"
+            },
+            "last_fail_detected": "2022-12-02"
+        },
+        "python.WorkflowAlgorithms.ISISIndirectEnergyTransferTest.ISISIndirectEnergyTransferTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.WorkflowAlgorithms.ISISIndirectEnergyTransferTest.ISISIndirectEnergyTransferTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_794": "Flake"
             },
             "last_fail_detected": "2022-12-02"
         }

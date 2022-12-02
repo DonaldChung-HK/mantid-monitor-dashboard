@@ -1123,40 +1123,42 @@
         },
         "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest": {
             "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest",
-            "latest_failed_build": "779",
+            "latest_failed_build": "828",
             "agent_name": "Windows",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "779": "Failed"
+                "827": "Failed",
+                "828": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest",
-                "build": "779",
+                "build": "828",
                 "agent_name": "Windows",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "7.93",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221129.1021\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 12 testsExit code 0xc0000409\r\n\r\n\r\n          Start  282: AlgorithmsTest_ExtractSingleSpectrumTest\r\n"
+                "test_time": "3.61",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221202.1203\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 12 testsExit code 0xc0000409\r\n\r\n\r\n          Start 1307: MuonTest_PlotAsymmetryByLogValueTest\r\n"
             }
         },
         "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest": {
             "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest",
-            "latest_failed_build": "779",
+            "latest_failed_build": "828",
             "agent_name": "Windows",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "779": "Failed"
+                "827": "Failed",
+                "828": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest",
-                "build": "779",
+                "build": "828",
                 "agent_name": "Windows",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "7.73",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221129.1021\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 2 testsExit code 0xc0000409\r\n\r\n\r\n          Start   82: KernelTest_MultiFileValidatorTest\r\n"
+                "test_time": "3.60",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221202.1203\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 2 testsExit code 0xc0000409\r\n\r\n\r\n          Start 1352: python.kernel.PhysicalConstantsTest.PhysicalConstantsTest\r\n"
             }
         },
         "DataHandlingTest_LoadILLDiffractionTest": {
@@ -2129,6 +2131,25 @@
                 "outcome": "Failed",
                 "test_time": "4.18",
                 "stacktrace": "Python-[Error] [Errno 2] No such file or directory: &#x27;BadCars.foo&#x27;\r\nPython-[Error] [Errno 2] No such file or directory: &#x27;BadCars.foo&#x27;\r\nPython-[Error] [Errno 2] No such file or directory: &#x27;Cars.foo&#x27;\r\nPython-[Error] [Errno 2] No such file or directory: &#x27;goodfile&#x27;\r\nPython-[Error] [Errno 2] No such file or directory: &#x27;bumCars&#x27;\r\nF\r\n======================================================================\r\nFAIL: runTest (AbinsIOmoduleTest.IOTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/scripts/test/Abins/AbinsIOmoduleTest.py&quot;, line 117, in runTest\r\n    self._loading_structured_datasets()\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/scripts/test/Abins/AbinsIOmoduleTest.py&quot;, line 89, in _loading_structured_datasets\r\n    self.assertEqual([{&quot;Winter&quot;: False, &quot;Punctured&quot;: False, &quot;Brand&quot;: &quot;Mercedes&quot;, &quot;Age&quot;: 2},\r\nAssertionError: Lists differ: [{&#x27;Winter&#x27;: False, &#x27;Punctured&#x27;: False, &#x27;Bran[230 chars]: 7}] != [{&#x27;Age&#x27;: 2, &#x27;Brand&#x27;: b&#x27;Mercedes&#x27;, &#x27;Punctured[234 chars]lse}]\r\n\r\nFirst differing element 0:\r\n{&#x27;Winter&#x27;: False, &#x27;Punctured&#x27;: False, &#x27;Brand&#x27;: &#x27;Mercedes&#x27;, &#x27;Age&#x27;: 2}\r\n{&#x27;Age&#x27;: 2, &#x27;Brand&#x27;: b&#x27;Mercedes&#x27;, &#x27;Punctured&#x27;: False, &#x27;Winter&#x27;: False}\r\n\r\nDiff is 690 characters long. Set self.maxDiff to None to see it.\r\n\r\n----------------------------------------------------------------------\r\nRan 1 test in 0.105s\r\n\r\nFAILED (failures=1)\r\n\r\n          Start  703: CurveFittingTest_EigenFortranMatrixTest\r\n"
+            }
+        },
+        "python.drill.DrillTest.DrillTest": {
+            "test_name": "python.drill.DrillTest.DrillTest",
+            "latest_failed_build": "830",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-windows",
+            "past_failed_outcome": {
+                "830": "Failed"
+            },
+            "last_stack_traces": {
+                "test_name": "python.drill.DrillTest.DrillTest",
+                "build": "830",
+                "agent_name": "Windows",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "11.44",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221202.1312\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nan integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\r\n...Exit code 0xc0000409\r\n\r\n\r\n          Start 1464: python.utils.dgsTest.dgsTest\r\n"
             }
         }
     }

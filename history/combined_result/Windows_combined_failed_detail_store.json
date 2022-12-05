@@ -382,8 +382,10 @@
             "test_name": "python.MuonQt5.general_fitting_view_test.general_fitting_view_test",
             "agent_name": "Windows",
             "past_failed_outcome": {
-                "main_nightly_deployment_prototype_445": "Flake"
-            }
+                "main_nightly_deployment_prototype_445": "Flake",
+                "pull_requests-conda-windows_841": "Flake"
+            },
+            "last_fail_detected": "2022-12-05"
         },
         "mantidqt_qt5.test_cut_representation.test_cut_representation": {
             "test_name": "mantidqt_qt5.test_cut_representation.test_cut_representation",
@@ -1040,6 +1042,14 @@
                 "pull_requests-conda-windows_831": "Failed"
             },
             "last_fail_detected": "2022-12-03"
+        },
+        "PythonSANSQt5.beam_centre_presenter_test.beam_centre_presenter_test": {
+            "test_name": "PythonSANSQt5.beam_centre_presenter_test.beam_centre_presenter_test",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_846": "Flake"
+            },
+            "last_fail_detected": "2022-12-05"
         }
     }
 }

@@ -438,9 +438,10 @@
                 "pull_requests-conda-osx_573": "Flake",
                 "pull_requests-conda-osx_651": "Flake",
                 "pull_requests-conda-osx_671": "Flake",
-                "pull_requests-conda-osx_727": "Flake"
+                "pull_requests-conda-osx_727": "Flake",
+                "pull_requests-conda-osx_829": "Flake"
             },
-            "last_fail_detected": "1990-01-01"
+            "last_fail_detected": "2022-12-06"
         },
         {
             "test_name": "AlgorithmsTest_ExtractSpectra2Test",
@@ -643,9 +644,10 @@
         {
             "test_name": "python.MuonQt5.model_fitting_view_test.model_fitting_view_test",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_649": "Flake"
+                "pull_requests-conda-osx_649": "Flake",
+                "pull_requests-conda-osx_843": "Flake"
             },
-            "last_fail_detected": "1990-01-01"
+            "last_fail_detected": "2022-12-06"
         },
         {
             "test_name": "MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest",
@@ -781,6 +783,20 @@
                 "pull_requests-conda-osx_794": "Flake"
             },
             "last_fail_detected": "2022-12-02"
+        },
+        {
+            "test_name": "python.algorithms.AnstoCommonFractionalTest.AnstoCommonFractionalTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_832": "Failed"
+            },
+            "last_fail_detected": "2022-12-06"
+        },
+        {
+            "test_name": "python.WorkflowAlgorithms.SaveVulcanGSSTest.SaveVulcanGSSTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_828": "Failed"
+            },
+            "last_fail_detected": "2022-12-06"
         }
     ]
 }

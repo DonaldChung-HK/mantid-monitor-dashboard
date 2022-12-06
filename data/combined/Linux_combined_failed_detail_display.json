@@ -634,9 +634,10 @@
             "past_failed_outcome": {
                 "pull_requests-conda-linux_2107": "Failed",
                 "pull_requests-conda-linux_2108": "Failed",
-                "pull_requests-conda-linux_2109": "Failed"
+                "pull_requests-conda-linux_2109": "Failed",
+                "pull_requests-conda-linux_2143": "Failed"
             },
-            "last_fail_detected": "2022-12-02"
+            "last_fail_detected": "2022-12-06"
         },
         {
             "test_name": "python.algorithms.EnggSaveGSASIIFitResultsToHDF5Test.EnggSaveGSASIIFitResultsToHDF5Test",
@@ -673,6 +674,41 @@
                 "pull_requests-conda-linux_2118": "Flake"
             },
             "last_fail_detected": "2022-12-03"
+        },
+        {
+            "test_name": "AlgorithmsTest_ExtractFFTSpectrumTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2160": "Flake"
+            },
+            "last_fail_detected": "2022-12-06"
+        },
+        {
+            "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisModelTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2160": "Failed"
+            },
+            "last_fail_detected": "2022-12-06"
+        },
+        {
+            "test_name": "python.MuonQt5.fit_function_options_view_test.fit_function_options_view_test",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2159": "Flake"
+            },
+            "last_fail_detected": "2022-12-06"
+        },
+        {
+            "test_name": "python.algorithms.AnstoCommonFractionalTest.AnstoCommonFractionalTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2154": "Failed"
+            },
+            "last_fail_detected": "2022-12-06"
+        },
+        {
+            "test_name": "python.WorkflowAlgorithms.SaveVulcanGSSTest.SaveVulcanGSSTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2150": "Failed"
+            },
+            "last_fail_detected": "2022-12-06"
         }
     ]
 }

@@ -994,6 +994,41 @@
                 "pull_requests-conda-windows_846": "Flake"
             },
             "last_fail_detected": "2022-12-05"
+        },
+        {
+            "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisModelTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_866": "Failed"
+            },
+            "last_fail_detected": "2022-12-06"
+        },
+        {
+            "test_name": "python.algorithms.AnstoCommonFractionalTest.AnstoCommonFractionalTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_863": "Failed"
+            },
+            "last_fail_detected": "2022-12-06"
+        },
+        {
+            "test_name": "AlgorithmsTest_PowerTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_862": "Flake"
+            },
+            "last_fail_detected": "2022-12-06"
+        },
+        {
+            "test_name": "python.WorkflowAlgorithms.SaveVulcanGSSTest.SaveVulcanGSSTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_859": "Failed"
+            },
+            "last_fail_detected": "2022-12-06"
+        },
+        {
+            "test_name": "python.MuonQt5.ea_auto_tab_presenter_test.ea_auto_tab_presenter_test",
+            "past_failed_outcome": {
+                "main_nightly_deployment_prototype_464": "Flake"
+            },
+            "last_fail_detected": "2022-12-06"
         }
     ]
 }

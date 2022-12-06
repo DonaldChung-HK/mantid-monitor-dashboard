@@ -488,8 +488,10 @@
                 "pull_requests-conda-osx_573": "Flake",
                 "pull_requests-conda-osx_651": "Flake",
                 "pull_requests-conda-osx_671": "Flake",
-                "pull_requests-conda-osx_727": "Flake"
-            }
+                "pull_requests-conda-osx_727": "Flake",
+                "pull_requests-conda-osx_829": "Flake"
+            },
+            "last_fail_detected": "2022-12-06"
         },
         "AlgorithmsTest_ExtractSpectra2Test": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -718,8 +720,10 @@
             "test_name": "python.MuonQt5.model_fitting_view_test.model_fitting_view_test",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_649": "Flake"
-            }
+                "pull_requests-conda-osx_649": "Flake",
+                "pull_requests-conda-osx_843": "Flake"
+            },
+            "last_fail_detected": "2022-12-06"
         },
         "MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -879,6 +883,24 @@
                 "pull_requests-conda-osx_794": "Flake"
             },
             "last_fail_detected": "2022-12-02"
+        },
+        "python.algorithms.AnstoCommonFractionalTest.AnstoCommonFractionalTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.algorithms.AnstoCommonFractionalTest.AnstoCommonFractionalTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_832": "Failed"
+            },
+            "last_fail_detected": "2022-12-06"
+        },
+        "python.WorkflowAlgorithms.SaveVulcanGSSTest.SaveVulcanGSSTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.WorkflowAlgorithms.SaveVulcanGSSTest.SaveVulcanGSSTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_828": "Failed"
+            },
+            "last_fail_detected": "2022-12-06"
         }
     }
 }

@@ -92,9 +92,10 @@
             "past_failed_outcome": {
                 "pull_requests-conda-windows_523": "Flake",
                 "pull_requests-conda-windows_635": "Flake",
-                "pull_requests-conda-windows_818": "Flake"
+                "pull_requests-conda-windows_818": "Flake",
+                "pull_requests-conda-windows_883": "Flake"
             },
-            "last_fail_detected": "2022-12-02"
+            "last_fail_detected": "2022-12-07"
         },
         "python.MuonQt5.background_corrections_model_test.background_corrections_model_test": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -652,9 +653,10 @@
                 "pull_requests-conda-windows_783": "Flake",
                 "pull_requests-conda-windows_812": "Failed",
                 "pull_requests-conda-windows_835": "Flake",
-                "pull_requests-conda-windows_836": "Failed"
+                "pull_requests-conda-windows_836": "Failed",
+                "pull_requests-conda-windows_887": "Flake"
             },
-            "last_fail_detected": "2022-12-03"
+            "last_fail_detected": "2022-12-07"
         },
         "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -696,9 +698,10 @@
                 "pull_requests-conda-windows_821": "Failed",
                 "pull_requests-conda-windows_822": "Failed",
                 "pull_requests-conda-windows_823": "Failed",
-                "pull_requests-conda-windows_824": "Failed"
+                "pull_requests-conda-windows_824": "Failed",
+                "pull_requests-conda-windows_874": "Failed"
             },
-            "last_fail_detected": "2022-12-02"
+            "last_fail_detected": "2022-12-07"
         },
         "AlgorithmsTest_FilterBadPulsesTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -1210,6 +1213,24 @@
                 "main_nightly_deployment_prototype_464": "Flake"
             },
             "last_fail_detected": "2022-12-06"
+        },
+        "python.WorkflowAlgorithms.FindPeakAutomaticTest.FindPeakAutomaticTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.WorkflowAlgorithms.FindPeakAutomaticTest.FindPeakAutomaticTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_877": "Flake"
+            },
+            "last_fail_detected": "2022-12-07"
+        },
+        "KernelTest_PropertyNexusTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "KernelTest_PropertyNexusTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_874": "Failed"
+            },
+            "last_fail_detected": "2022-12-07"
         }
     }
 }

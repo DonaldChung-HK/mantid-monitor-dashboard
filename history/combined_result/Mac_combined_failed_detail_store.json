@@ -690,8 +690,10 @@
             "test_name": "python.MuonQt5.basic_fitting_view_test.basic_fitting_view_test",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_696": "Flake"
-            }
+                "pull_requests-conda-osx_696": "Flake",
+                "pull_requests-conda-osx_852": "Flake"
+            },
+            "last_fail_detected": "2022-12-07"
         },
         "DataHandlingTest_LoadILLDiffractionTest": {
             "test_name": "DataHandlingTest_LoadILLDiffractionTest",
@@ -761,9 +763,10 @@
             "past_failed_outcome": {
                 "pull_requests-conda-osx_785": "Failed",
                 "pull_requests-conda-osx_786": "Failed",
-                "pull_requests-conda-osx_787": "Failed"
+                "pull_requests-conda-osx_787": "Failed",
+                "pull_requests-conda-osx_848": "Failed"
             },
-            "last_fail_detected": "2022-12-02"
+            "last_fail_detected": "2022-12-07"
         },
         "python.algorithms.EnggSaveGSASIIFitResultsToHDF5Test.EnggSaveGSASIIFitResultsToHDF5Test": {
             "test_name": "python.algorithms.EnggSaveGSASIIFitResultsToHDF5Test.EnggSaveGSASIIFitResultsToHDF5Test",
@@ -812,6 +815,14 @@
                 "pull_requests-conda-osx_828": "Failed"
             },
             "last_fail_detected": "2022-12-06"
+        },
+        "KernelTest_PropertyNexusTest": {
+            "test_name": "KernelTest_PropertyNexusTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_848": "Failed"
+            },
+            "last_fail_detected": "2022-12-07"
         }
     }
 }

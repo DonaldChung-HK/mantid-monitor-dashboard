@@ -643,9 +643,10 @@
                 "pull_requests-conda-linux_2107": "Failed",
                 "pull_requests-conda-linux_2108": "Failed",
                 "pull_requests-conda-linux_2109": "Failed",
-                "pull_requests-conda-linux_2143": "Failed"
+                "pull_requests-conda-linux_2143": "Failed",
+                "pull_requests-conda-linux_2169": "Failed"
             },
-            "last_fail_detected": "2022-12-06"
+            "last_fail_detected": "2022-12-07"
         },
         "python.algorithms.EnggSaveGSASIIFitResultsToHDF5Test.EnggSaveGSASIIFitResultsToHDF5Test": {
             "test_name": "python.algorithms.EnggSaveGSASIIFitResultsToHDF5Test.EnggSaveGSASIIFitResultsToHDF5Test",
@@ -727,6 +728,14 @@
                 "pull_requests-conda-linux_2150": "Failed"
             },
             "last_fail_detected": "2022-12-06"
+        },
+        "KernelTest_PropertyNexusTest": {
+            "test_name": "KernelTest_PropertyNexusTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2169": "Failed"
+            },
+            "last_fail_detected": "2022-12-07"
         }
     }
 }

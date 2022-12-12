@@ -9,6 +9,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2207",
+                    "2206",
                     "2205",
                     "2204",
                     "2203",
@@ -36,11 +38,11 @@
                     "2181",
                     "2180",
                     "2179",
-                    "2178",
-                    "2177",
-                    "2176"
+                    "2178"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -68,8 +70,6 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Passed",
-                    "None",
                     "Passed"
                 ]
             },

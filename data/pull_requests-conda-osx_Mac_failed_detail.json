@@ -9,6 +9,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "881",
+                    "880",
                     "879",
                     "878",
                     "877",
@@ -36,11 +38,11 @@
                     "855",
                     "854",
                     "853",
-                    "852",
-                    "851",
-                    "850"
+                    "852"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -57,8 +59,6 @@
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -92,6 +92,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "881",
+                    "880",
                     "879",
                     "878",
                     "877",
@@ -119,9 +121,7 @@
                     "855",
                     "854",
                     "853",
-                    "852",
-                    "851",
-                    "850"
+                    "852"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -129,14 +129,6 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "None",
@@ -149,11 +141,19 @@
                     "Passed",
                     "Passed",
                     "Passed",
+                    "None",
                     "Passed",
                     "Passed",
-                    "Flake",
                     "Passed",
-                    "Passed"
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Flake"
                 ]
             },
             "last_stack_traces": {

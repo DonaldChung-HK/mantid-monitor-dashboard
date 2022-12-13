@@ -9,6 +9,13 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "920",
+                    "919",
+                    "918",
+                    "917",
+                    "916",
+                    "915",
+                    "914",
                     "913",
                     "912",
                     "911",
@@ -31,16 +38,16 @@
                     "894",
                     "893",
                     "892",
-                    "891",
-                    "890",
-                    "889",
-                    "888",
-                    "887",
-                    "886",
-                    "885",
-                    "884"
+                    "891"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "None",
                     "None",
                     "None",
                     "None",
@@ -63,14 +70,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -89,9 +89,16 @@
             "agent_name": "Windows",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-windows",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "920",
+                    "919",
+                    "918",
+                    "917",
+                    "916",
+                    "915",
+                    "914",
                     "913",
                     "912",
                     "911",
@@ -114,16 +121,16 @@
                     "894",
                     "893",
                     "892",
-                    "891",
-                    "890",
-                    "889",
-                    "888",
-                    "887",
-                    "886",
-                    "885",
-                    "884"
+                    "891"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "None",
                     "None",
                     "None",
                     "None",
@@ -146,14 +153,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Flake",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {

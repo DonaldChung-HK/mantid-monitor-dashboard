@@ -147,9 +147,14 @@
                 "pull_requests-conda-osx_553": "Failed",
                 "pull_requests-conda-osx_559": "Failed",
                 "pull_requests-conda-osx_564": "Failed",
-                "pull_requests-conda-osx_571": "Failed"
+                "pull_requests-conda-osx_571": "Failed",
+                "pull_requests-conda-osx_891": "Failed",
+                "pull_requests-conda-osx_894": "Failed",
+                "pull_requests-conda-osx_895": "Failed",
+                "pull_requests-conda-osx_896": "Failed",
+                "pull_requests-conda-osx_897": "Failed"
             },
-            "last_fail_detected": "1990-01-01"
+            "last_fail_detected": "2022-12-14"
         },
         {
             "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisPresenterTest",
@@ -162,9 +167,14 @@
                 "pull_requests-conda-osx_571": "Failed",
                 "pull_requests-conda-osx_726": "Failed",
                 "pull_requests-conda-osx_730": "Failed",
-                "pull_requests-conda-osx_732": "Failed"
+                "pull_requests-conda-osx_732": "Failed",
+                "pull_requests-conda-osx_891": "Failed",
+                "pull_requests-conda-osx_894": "Failed",
+                "pull_requests-conda-osx_895": "Failed",
+                "pull_requests-conda-osx_896": "Failed",
+                "pull_requests-conda-osx_897": "Failed"
             },
-            "last_fail_detected": "1990-01-01"
+            "last_fail_detected": "2022-12-14"
         },
         {
             "test_name": "MantidQtInterfacesDirectTestQt5_ALFInstrumentModelTest",
@@ -174,9 +184,14 @@
                 "pull_requests-conda-osx_553": "Failed",
                 "pull_requests-conda-osx_559": "Failed",
                 "pull_requests-conda-osx_564": "Failed",
-                "pull_requests-conda-osx_571": "Failed"
+                "pull_requests-conda-osx_571": "Failed",
+                "pull_requests-conda-osx_891": "Failed",
+                "pull_requests-conda-osx_894": "Failed",
+                "pull_requests-conda-osx_895": "Failed",
+                "pull_requests-conda-osx_896": "Failed",
+                "pull_requests-conda-osx_897": "Failed"
             },
-            "last_fail_detected": "1990-01-01"
+            "last_fail_detected": "2022-12-14"
         },
         {
             "test_name": "MantidQtInterfacesDirectTestQt5_ALFInstrumentPresenterTest",
@@ -186,9 +201,14 @@
                 "pull_requests-conda-osx_553": "Failed",
                 "pull_requests-conda-osx_559": "Failed",
                 "pull_requests-conda-osx_564": "Failed",
-                "pull_requests-conda-osx_571": "Failed"
+                "pull_requests-conda-osx_571": "Failed",
+                "pull_requests-conda-osx_891": "Failed",
+                "pull_requests-conda-osx_894": "Failed",
+                "pull_requests-conda-osx_895": "Failed",
+                "pull_requests-conda-osx_896": "Failed",
+                "pull_requests-conda-osx_897": "Failed"
             },
-            "last_fail_detected": "1990-01-01"
+            "last_fail_detected": "2022-12-14"
         },
         {
             "test_name": "MantidQtWidgetsMplCppTestQt5_FigureCanvasQtTest",

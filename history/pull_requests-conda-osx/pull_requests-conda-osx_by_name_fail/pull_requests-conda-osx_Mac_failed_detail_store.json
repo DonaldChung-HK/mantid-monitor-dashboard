@@ -267,89 +267,94 @@
         },
         "MantidQtInterfacesDirectTestQt5_ALFAnalysisModelTest": {
             "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisModelTest",
-            "latest_failed_build": "571",
+            "latest_failed_build": "897",
             "agent_name": "Mac",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-osx",
             "past_failed_outcome": {
-                "553": "Failed",
-                "559": "Failed",
-                "564": "Failed",
-                "571": "Failed"
+                "891": "Failed",
+                "894": "Failed",
+                "895": "Failed",
+                "896": "Failed",
+                "897": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisModelTest",
-                "build": "571",
+                "build": "897",
                 "agent_name": "Mac",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "0.13",
-                "stacktrace": "dyld: Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nSubprocess aborted\n\n          Start 2303: python.DNSReductionQt5.dns_file_test.dns_file_test\n"
+                "test_time": "0.14",
+                "stacktrace": "dyld: Symbol not found: __ZTVN8MantidQt16CustomInterfaces19ALFInstrumentWidgetE\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidScientificInterfacesDirectQt5.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidScientificInterfacesDirectQt5.dylib\nSubprocess aborted\n\n          Start 1787: PSISINQTest_PoldiCreatePeaksFromCellTest\n"
             }
         },
         "MantidQtInterfacesDirectTestQt5_ALFAnalysisPresenterTest": {
             "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisPresenterTest",
-            "latest_failed_build": "732",
+            "latest_failed_build": "897",
             "agent_name": "Mac",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-osx",
             "past_failed_outcome": {
-                "726": "Failed",
-                "730": "Failed",
-                "732": "Failed"
+                "891": "Failed",
+                "894": "Failed",
+                "895": "Failed",
+                "896": "Failed",
+                "897": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisPresenterTest",
-                "build": "732",
+                "build": "897",
                 "agent_name": "Mac",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "0.60",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221128.1159\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 14 tests./Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/scientific_interfaces/Direct/test/ALFAnalysisPresenterTest.h:218: Failure\nActual function call count doesn&#x27;t match EXPECT_CALL(*m_view, peakCentre())...\n         Expected: to be called once\n           Actual: never called - unsatisfied and active\nlibc++abi.dylib: terminating with uncaught exception of type testing::internal::GoogleTestFailureException: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/scientific_interfaces/Direct/test/ALFAnalysisPresenterTest.h:218: Failure\nActual function call count doesn&#x27;t match EXPECT_CALL(*m_view, peakCentre())...\n         Expected: to be called once\n           Actual: never called - unsatisfied and active\nSubprocess aborted\n\n          Start  221: AlgorithmsTest_ConvertToHistogramTest\n"
+                "test_time": "0.14",
+                "stacktrace": "dyld: Symbol not found: __ZTVN8MantidQt16CustomInterfaces19ALFInstrumentWidgetE\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidScientificInterfacesDirectQt5.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidScientificInterfacesDirectQt5.dylib\nSubprocess aborted\n\n          Start  159: AlgorithmsTest_AddSampleLogTest\n"
             }
         },
         "MantidQtInterfacesDirectTestQt5_ALFInstrumentModelTest": {
             "test_name": "MantidQtInterfacesDirectTestQt5_ALFInstrumentModelTest",
-            "latest_failed_build": "571",
+            "latest_failed_build": "897",
             "agent_name": "Mac",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-osx",
             "past_failed_outcome": {
-                "553": "Failed",
-                "559": "Failed",
-                "564": "Failed",
-                "571": "Failed"
+                "891": "Failed",
+                "894": "Failed",
+                "895": "Failed",
+                "896": "Failed",
+                "897": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "MantidQtInterfacesDirectTestQt5_ALFInstrumentModelTest",
-                "build": "571",
+                "build": "897",
                 "agent_name": "Mac",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "0.12",
-                "stacktrace": "dyld: Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nSubprocess aborted\n\n          Start  319: AlgorithmsTest_GroupToXResolutionTest\n"
+                "test_time": "0.14",
+                "stacktrace": "dyld: Symbol not found: __ZTVN8MantidQt16CustomInterfaces19ALFInstrumentWidgetE\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidScientificInterfacesDirectQt5.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidScientificInterfacesDirectQt5.dylib\nSubprocess aborted\n\n          Start 1701: python.functions.AFM_LFTest.AFM_LFTest\n"
             }
         },
         "MantidQtInterfacesDirectTestQt5_ALFInstrumentPresenterTest": {
             "test_name": "MantidQtInterfacesDirectTestQt5_ALFInstrumentPresenterTest",
-            "latest_failed_build": "571",
+            "latest_failed_build": "897",
             "agent_name": "Mac",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-osx",
             "past_failed_outcome": {
-                "553": "Failed",
-                "559": "Failed",
-                "564": "Failed",
-                "571": "Failed"
+                "891": "Failed",
+                "894": "Failed",
+                "895": "Failed",
+                "896": "Failed",
+                "897": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "MantidQtInterfacesDirectTestQt5_ALFInstrumentPresenterTest",
-                "build": "571",
+                "build": "897",
                 "agent_name": "Mac",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "0.12",
-                "stacktrace": "dyld: Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nSubprocess aborted\n\n          Start 1084: GeometryTest_BnIdTest\n"
+                "test_time": "0.14",
+                "stacktrace": "dyld: Symbol not found: __ZTVN8MantidQt16CustomInterfaces19ALFInstrumentWidgetE\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidScientificInterfacesDirectQt5.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidScientificInterfacesDirectQt5.dylib\nSubprocess aborted\n\n          Start  281: AlgorithmsTest_ExtractMaskTest\n"
             }
         },
         "MantidQtWidgetsMplCppTestQt5_FigureCanvasQtTest": {

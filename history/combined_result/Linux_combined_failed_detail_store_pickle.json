@@ -647,8 +647,11 @@
             "agent_name": "Linux",
             "past_failed_outcome": {
                 "pull_requests-conda-linux_2042": "Failed",
-                "pull_requests-conda-linux_2049": "Failed"
-            }
+                "pull_requests-conda-linux_2049": "Failed",
+                "pull_requests-conda-linux_2214": "Failed",
+                "pull_requests-conda-linux_2220": "Failed"
+            },
+            "last_fail_detected": "2022-12-14"
         },
         "mantidqt_qt5.test_view.test_view": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -774,9 +777,11 @@
             "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisModelTest",
             "agent_name": "Linux",
             "past_failed_outcome": {
-                "pull_requests-conda-linux_2160": "Failed"
+                "pull_requests-conda-linux_2160": "Failed",
+                "pull_requests-conda-linux_2214": "Failed",
+                "pull_requests-conda-linux_2220": "Failed"
             },
-            "last_fail_detected": "2022-12-06"
+            "last_fail_detected": "2022-12-14"
         },
         "python.MuonQt5.fit_function_options_view_test.fit_function_options_view_test": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -813,6 +818,26 @@
                 "pull_requests-conda-linux_2169": "Failed"
             },
             "last_fail_detected": "2022-12-07"
+        },
+        "MantidQtInterfacesDirectTestQt5_ALFInstrumentModelTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "MantidQtInterfacesDirectTestQt5_ALFInstrumentModelTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2214": "Failed",
+                "pull_requests-conda-linux_2220": "Failed"
+            },
+            "last_fail_detected": "2022-12-14"
+        },
+        "MantidQtInterfacesDirectTestQt5_ALFInstrumentPresenterTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "MantidQtInterfacesDirectTestQt5_ALFInstrumentPresenterTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2214": "Failed",
+                "pull_requests-conda-linux_2220": "Failed"
+            },
+            "last_fail_detected": "2022-12-14"
         }
     }
 }

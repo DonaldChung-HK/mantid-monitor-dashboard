@@ -1281,23 +1281,23 @@
         "MantidQtInterfacesDirectTestQt5_ALFAnalysisPresenterTest": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisPresenterTest",
-            "latest_failed_build": "2049",
+            "latest_failed_build": "2220",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
             "past_failed_outcome": {
-                "2042": "Failed",
-                "2049": "Failed"
+                "2214": "Failed",
+                "2220": "Failed"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisPresenterTest",
-                "build": "2049",
+                "build": "2220",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
                 "test_time": "0.51",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221128.1159\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 14 tests./jenkins_workdir/workspace/pull_requests-conda-linux/qt/scientific_interfaces/Direct/test/ALFAnalysisPresenterTest.h:218: Failure\nActual function call count doesn&#x27;t match EXPECT_CALL(*m_view, peakCentre())...\n         Expected: to be called once\n           Actual: never called - unsatisfied and active\n\n********* UNHANDLED EXCEPTION *********\n  what(): /jenkins_workdir/workspace/pull_requests-conda-linux/qt/scientific_interfaces/Direct/test/ALFAnalysisPresenterTest.h:218: Failure\nActual function call count doesn&#x27;t match EXPECT_CALL(*m_view, peakCentre())...\n         Expected: to be called once\n           Actual: never called - unsatisfied and active\n\nBacktrace:\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidAPI.so(+0x1efb9a) [0x7f62c4176b9a]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidAPI.so(+0xfffef) [0x7f62c4086fef]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libstdc++.so.6(+0xb0514) [0x7f62c3340514]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libstdc++.so.6(+0xaf8b5) [0x7f62c333f8b5]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libstdc++.so.6(__gxx_personality_v0+0x7f) [0x7f62c333fe5f]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libgcc_s.so.1(+0x11d79) [0x7f62c2f86d79]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libgcc_s.so.1(_Unwind_Resume+0x65) [0x7f62c2f8729b]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtInterfacesDirectTestQt5(+0x32fa9) [0x55f580740fa9]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtInterfacesDirectTestQt5(+0x8c3d9) [0x55f58079a3d9]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtInterfacesDirectTestQt5(+0x920df) [0x55f5807a00df]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtInterfacesDirectTestQt5(+0x92903) [0x55f5807a0903]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtInterfacesDirectTestQt5(+0xbe026) [0x55f5807cc026]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtInterfacesDirectTestQt5(+0xc03cf) [0x55f5807ce3cf]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtInterfacesDirectTestQt5(+0x3a657) [0x55f580748657]\n /lib64/libc.so.6(__libc_start_main+0xf5) [0x7f62c2bc9555]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtInterfacesDirectTestQt5(+0x3b7a9) [0x55f5807497a9]\n\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/scientific_interfaces/Direct/test/ALFAnalysisPresenterTest.h:218: ERROR: this mock object should be deleted but never is. Its address is @0x55f58102e940.\nERROR: 1 leaked mock object found at program exit. Expectations on a mock object are verified when the object is destructed. Leaking a mock means that its expectations aren&#x27;t verified, which is usually a test bug. If you really intend to leak a mock, you can suppress this error using testing::Mock::AllowLeak(mock_object), or you may use a fake or stub instead of a mock.\n\n          Start  665: CurveFittingTest_CalculateChiSquaredTest\n"
+                "stacktrace": "/jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtInterfacesDirectTestQt5: symbol lookup error: /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesDirectQt5.so: undefined symbol: _ZTVN8MantidQt16CustomInterfaces19ALFInstrumentWidgetE\n\n          Start  809: CurveFittingTest_ThermalNeutronBk2BkExpBetaTest\n"
             }
         },
         "mantidqt_qt5.test_view.test_view": {
@@ -1560,22 +1560,23 @@
         "MantidQtInterfacesDirectTestQt5_ALFAnalysisModelTest": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisModelTest",
-            "latest_failed_build": "2160",
+            "latest_failed_build": "2220",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
             "past_failed_outcome": {
-                "2160": "Failed"
+                "2214": "Failed",
+                "2220": "Failed"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisModelTest",
-                "build": "2160",
+                "build": "2220",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "0.62",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221206.1126\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 13 tests.Fit-[Notice] Fit started\nFit-[Notice] Fit status: success\nFit-[Notice] Stopped after 2 iterations\nFit-[Notice] Fit successful, Duration 0.00 seconds\n..CropWorkspace-[Notice] CropWorkspace started\nCropWorkspace-[Notice] CropWorkspace successful, Duration 0.00 seconds\nConvertToPointData-[Notice] ConvertToPointData started\nConvertToPointData-[Notice] ConvertToPointData successful, Duration 0.01 seconds\n.CropWorkspace-[Notice] CropWorkspace started\nExtractSpectra-[Error] Error in execution of algorithm ExtractSpectra:\nExtractSpectra-[Error] XMax is less than the smallest X value (100 &lt; 300)\nCropWorkspace-[Error] Logic Error in execution of algorithm CropWorkspace\nCropWorkspace-[Error] XMax is less than the smallest X value (100 &lt; 300)\n.Fit-[Notice] Fit started\nFit-[Notice] Fit status: success\nFit-[Notice] Stopped after 2 iterations\nFit-[Notice] Fit successful, Duration 0.00 seconds\n....Fit-[Notice] Fit started\nFit-[Notice] Fit status: success\nFit-[Notice] Stopped after 2 iterations\nFit-[Notice] Fit successful, Duration 0.01 seconds\n...\nIn ALFAnalysisModelTest::test_rotationAngle_returns_the_correct_value_with_valid_data:\n/jenkins_workdir/workspace/pull_requests-conda-linux/qt/scientific_interfaces/Direct/test/ALFAnalysisModelTest.h:167: Error: Expected (-9.255963 == *m_model-&gt;rotationAngle()) up to 0.000001 (0.0000010000), found (-9.2559630084 != 0.0000000000)\nFailed 1 of 13 tests\nSuccess rate: 92%\n\n          Start  386: AlgorithmsTest_PoissonErrorsTest\n"
+                "test_time": "0.21",
+                "stacktrace": "/jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtInterfacesDirectTestQt5: symbol lookup error: /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesDirectQt5.so: undefined symbol: _ZTVN8MantidQt16CustomInterfaces19ALFInstrumentWidgetE\n\n          Start  565: APITest_ProjectionTest\n"
             }
         },
         "python.MuonQt5.fit_function_options_view_test.fit_function_options_view_test": {
@@ -1660,6 +1661,50 @@
                 "outcome": "Failed",
                 "test_time": "0.25",
                 "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221206.1653\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 1 test\nIn PropertyNexusTest::test_saving_then_loading:\n/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/Kernel/test/PropertyNexusTest.h:37: Error: Expected (p-&gt;units() == other-&gt;units()), found (&quot;&quot; != &quot;meter&quot;)\nFailed 1 of 1 test\nSuccess rate: 0%\n\n          Start  794: CurveFittingTest_QuadraticTest\n"
+            }
+        },
+        "MantidQtInterfacesDirectTestQt5_ALFInstrumentModelTest": {
+            "py/object": "datatable_helper.LTS_Problem_test_entry",
+            "test_name": "MantidQtInterfacesDirectTestQt5_ALFInstrumentModelTest",
+            "latest_failed_build": "2220",
+            "agent_name": "Linux",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-linux",
+            "past_failed_outcome": {
+                "2214": "Failed",
+                "2220": "Failed"
+            },
+            "last_stack_traces": {
+                "py/object": "datatable_helper.Problem_test_trial",
+                "test_name": "MantidQtInterfacesDirectTestQt5_ALFInstrumentModelTest",
+                "build": "2220",
+                "agent_name": "Linux",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "0.19",
+                "stacktrace": "/jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtInterfacesDirectTestQt5: symbol lookup error: /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesDirectQt5.so: undefined symbol: _ZTVN8MantidQt16CustomInterfaces19ALFInstrumentWidgetE\n\n          Start 2346: python.EngineeringDiffraction.test_settings_model.test_settings_model\n"
+            }
+        },
+        "MantidQtInterfacesDirectTestQt5_ALFInstrumentPresenterTest": {
+            "py/object": "datatable_helper.LTS_Problem_test_entry",
+            "test_name": "MantidQtInterfacesDirectTestQt5_ALFInstrumentPresenterTest",
+            "latest_failed_build": "2220",
+            "agent_name": "Linux",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-linux",
+            "past_failed_outcome": {
+                "2214": "Failed",
+                "2220": "Failed"
+            },
+            "last_stack_traces": {
+                "py/object": "datatable_helper.Problem_test_trial",
+                "test_name": "MantidQtInterfacesDirectTestQt5_ALFInstrumentPresenterTest",
+                "build": "2220",
+                "agent_name": "Linux",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "0.34",
+                "stacktrace": "/jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidQtInterfacesDirectTestQt5: symbol lookup error: /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesDirectQt5.so: undefined symbol: _ZTVN8MantidQt16CustomInterfaces19ALFInstrumentWidgetE\n\n          Start 2566: python.SANS.algorithm_detail.create_sans_wavelength_pixel_adjustment_test.create_sans_wavelength_pixel_adjustment_test\n"
             }
         }
     }

@@ -807,9 +807,10 @@
             "agent_name": "Mac",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_709": "Failed",
-                "pull_requests-conda-osx_875": "Failed"
+                "pull_requests-conda-osx_875": "Failed",
+                "pull_requests-conda-osx_918": "Failed"
             },
-            "last_fail_detected": "2022-12-10"
+            "last_fail_detected": "2022-12-15"
         },
         "python.IsisPowder.ISISPowderCommonTest.ISISPowderCommonTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -842,9 +843,11 @@
             "agent_name": "Mac",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_744": "Failed",
-                "pull_requests-conda-osx_792": "Failed"
+                "pull_requests-conda-osx_792": "Failed",
+                "pull_requests-conda-osx_911": "Failed",
+                "pull_requests-conda-osx_919": "Failed"
             },
-            "last_fail_detected": "2022-12-02"
+            "last_fail_detected": "2022-12-15"
         },
         "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -852,9 +855,11 @@
             "agent_name": "Mac",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_744": "Failed",
-                "pull_requests-conda-osx_792": "Failed"
+                "pull_requests-conda-osx_792": "Failed",
+                "pull_requests-conda-osx_911": "Failed",
+                "pull_requests-conda-osx_919": "Failed"
             },
-            "last_fail_detected": "2022-12-02"
+            "last_fail_detected": "2022-12-15"
         },
         "HistogramDataTest_InterpolateTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -939,6 +944,15 @@
                 "pull_requests-conda-osx_848": "Failed"
             },
             "last_fail_detected": "2022-12-07"
+        },
+        "python.MuonQt5.corrections_view_test.corrections_view_test": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.MuonQt5.corrections_view_test.corrections_view_test",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_916": "Flake"
+            },
+            "last_fail_detected": "2022-12-15"
         }
     }
 }

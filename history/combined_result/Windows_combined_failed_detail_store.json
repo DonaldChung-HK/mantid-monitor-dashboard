@@ -544,9 +544,10 @@
             "agent_name": "Windows",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_744": "Failed",
-                "pull_requests-conda-windows_902": "Failed"
+                "pull_requests-conda-windows_902": "Failed",
+                "pull_requests-conda-windows_948": "Failed"
             },
-            "last_fail_detected": "2022-12-10"
+            "last_fail_detected": "2022-12-15"
         },
         "python.IsisPowder.ISISPowderCommonTest.ISISPowderCommonTest": {
             "test_name": "python.IsisPowder.ISISPowderCommonTest.ISISPowderCommonTest",
@@ -570,9 +571,12 @@
             "past_failed_outcome": {
                 "pull_requests-conda-windows_779": "Failed",
                 "pull_requests-conda-windows_827": "Failed",
-                "pull_requests-conda-windows_828": "Failed"
+                "pull_requests-conda-windows_828": "Failed",
+                "pull_requests-conda-windows_940": "Failed",
+                "pull_requests-conda-windows_942": "Failed",
+                "pull_requests-conda-windows_946": "Failed"
             },
-            "last_fail_detected": "2022-12-02"
+            "last_fail_detected": "2022-12-15"
         },
         "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest": {
             "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest",
@@ -580,9 +584,12 @@
             "past_failed_outcome": {
                 "pull_requests-conda-windows_779": "Failed",
                 "pull_requests-conda-windows_827": "Failed",
-                "pull_requests-conda-windows_828": "Failed"
+                "pull_requests-conda-windows_828": "Failed",
+                "pull_requests-conda-windows_940": "Failed",
+                "pull_requests-conda-windows_942": "Failed",
+                "pull_requests-conda-windows_946": "Failed"
             },
-            "last_fail_detected": "2022-12-02"
+            "last_fail_detected": "2022-12-15"
         },
         "DataHandlingTest_LoadILLDiffractionTest": {
             "test_name": "DataHandlingTest_LoadILLDiffractionTest",
@@ -1112,6 +1119,15 @@
                 "pull_requests-conda-windows_874": "Failed"
             },
             "last_fail_detected": "2022-12-07"
+        },
+        "AlgorithmsTest_RemoveLowResTOFTest": {
+            "test_name": "AlgorithmsTest_RemoveLowResTOFTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_942": "Flake",
+                "pull_requests-conda-windows_946": "Flake"
+            },
+            "last_fail_detected": "2022-12-15"
         }
     }
 }

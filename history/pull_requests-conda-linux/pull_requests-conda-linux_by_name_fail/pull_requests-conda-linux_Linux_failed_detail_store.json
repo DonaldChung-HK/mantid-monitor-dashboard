@@ -1109,21 +1109,22 @@
         },
         "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter": {
             "test_name": "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter",
-            "latest_failed_build": "2201",
+            "latest_failed_build": "2248",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
             "past_failed_outcome": {
-                "2201": "Failed"
+                "2246": "Failed",
+                "2248": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter",
-                "build": "2201",
+                "build": "2248",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "5.90",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221209.1419\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\n....EEEE.........\n======================================================================\nERROR: test_do_all_fit_sets_progress_bar_to_in_progress_then_final (test_plot_presenter.FittingPlotPresenterTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 138, in test_do_all_fit_sets_progress_bar_to_in_progress_then_final\n    self.fit_all_helper(mock_fit, do_sequential=False)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 104, in fit_all_helper\n    self.presenter.do_fit_all(ws_list, do_sequential=do_sequential)\nTypeError: do_fit_all() missing 1 required positional argument: &#x27;ws_name_list&#x27;\n\n======================================================================\nERROR: test_do_sequential_fit (test_plot_presenter.FittingPlotPresenterTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 64, in test_do_sequential_fit\n    self.fit_all_helper(mock_fit, do_sequential=True)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 104, in fit_all_helper\n    self.presenter.do_fit_all(ws_list, do_sequential=do_sequential)\nTypeError: do_fit_all() missing 1 required positional argument: &#x27;ws_name_list&#x27;\n\n======================================================================\nERROR: test_do_sequential_fit_does_not_use_failed_fit_as_input (test_plot_presenter.FittingPlotPresenterTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 81, in test_do_sequential_fit_does_not_use_failed_fit_as_input\n    self.presenter.do_fit_all(ws_list, do_sequential=True)\nTypeError: do_fit_all() missing 1 required positional argument: &#x27;ws_name_list&#x27;\n\n======================================================================\nERROR: test_do_serial_fit (test_plot_presenter.FittingPlotPresenterTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 68, in test_do_serial_fit\n    self.fit_all_helper(mock_fit, do_sequential=False)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 104, in fit_all_helper\n    self.presenter.do_fit_all(ws_list, do_sequential=do_sequential)\nTypeError: do_fit_all() missing 1 required positional argument: &#x27;ws_name_list&#x27;\n\n----------------------------------------------------------------------\nRan 17 tests in 1.182s\n\nFAILED (errors=4)\n\n          Start 1197: GeometryTest_SphereTest\n"
+                "test_time": "4.70",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221214.1653\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\n....EEEE.........\n======================================================================\nERROR: test_do_all_fit_sets_progress_bar_to_in_progress_then_final (test_plot_presenter.FittingPlotPresenterTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 138, in test_do_all_fit_sets_progress_bar_to_in_progress_then_final\n    self.fit_all_helper(mock_fit, do_sequential=False)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 104, in fit_all_helper\n    self.presenter.do_fit_all(ws_list, do_sequential=do_sequential)\nTypeError: do_fit_all() missing 1 required positional argument: &#x27;ws_name_list&#x27;\n\n======================================================================\nERROR: test_do_sequential_fit (test_plot_presenter.FittingPlotPresenterTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 64, in test_do_sequential_fit\n    self.fit_all_helper(mock_fit, do_sequential=True)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 104, in fit_all_helper\n    self.presenter.do_fit_all(ws_list, do_sequential=do_sequential)\nTypeError: do_fit_all() missing 1 required positional argument: &#x27;ws_name_list&#x27;\n\n======================================================================\nERROR: test_do_sequential_fit_does_not_use_failed_fit_as_input (test_plot_presenter.FittingPlotPresenterTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 81, in test_do_sequential_fit_does_not_use_failed_fit_as_input\n    self.presenter.do_fit_all(ws_list, do_sequential=True)\nTypeError: do_fit_all() missing 1 required positional argument: &#x27;ws_name_list&#x27;\n\n======================================================================\nERROR: test_do_serial_fit (test_plot_presenter.FittingPlotPresenterTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 68, in test_do_serial_fit\n    self.fit_all_helper(mock_fit, do_sequential=False)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 104, in fit_all_helper\n    self.presenter.do_fit_all(ws_list, do_sequential=do_sequential)\nTypeError: do_fit_all() missing 1 required positional argument: &#x27;ws_name_list&#x27;\n\n----------------------------------------------------------------------\nRan 17 tests in 1.042s\n\nFAILED (errors=4)\n\n          Start 2255: python.MuonQt5.plotting_canvas_presenter_test.plotting_canvas_presenter_test\n"
             }
         },
         "python.IsisPowder.ISISPowderCommonTest.ISISPowderCommonTest": {
@@ -1167,17 +1168,17 @@
         },
         "MantidQtInterfacesDirectTestQt5_ALFAnalysisPresenterTest": {
             "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisPresenterTest",
-            "latest_failed_build": "2220",
+            "latest_failed_build": "2233",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
             "past_failed_outcome": {
-                "2214": "Failed",
-                "2220": "Failed"
+                "2228": "Failed",
+                "2233": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisPresenterTest",
-                "build": "2220",
+                "build": "2233",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
@@ -1206,44 +1207,46 @@
         },
         "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest": {
             "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest",
-            "latest_failed_build": "2120",
+            "latest_failed_build": "2247",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
             "past_failed_outcome": {
-                "2113": "Failed",
-                "2114": "Failed",
-                "2120": "Failed"
+                "2235": "Failed",
+                "2241": "Failed",
+                "2244": "Failed",
+                "2247": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest",
-                "build": "2120",
+                "build": "2247",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "1.31",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221202.1203\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 12 testsQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\n\n********* UNHANDLED EXCEPTION *********\n  what(): Unknown property search object PolarizationEfficiencies\n\nBacktrace:\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidAPI.so(+0x1efb9a) [0x7f89d1c44b9a]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidAPI.so(+0xfffef) [0x7f89d1b54fef]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libstdc++.so.6(+0xb0514) [0x7f89d0e0e514]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libstdc++.so.6(+0xb0566) [0x7f89d0e0e566]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libstdc++.so.6(__cxa_rethrow+0) [0x7f89d0e0e758]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidKernel.so(+0x12692f) [0x7f89d10d092f]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry16QtExperimentView33setToolTipAsPropertyDocumentationER7QWidgetRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt10shared_ptrIN6Mantid3API10IAlgorithmEE+0x35) [0x7f89d44ba805]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry16QtExperimentView33registerExperimentSettingsWidgetsERKSt10shared_ptrIN6Mantid3API10IAlgorithmEE+0x2fb) [0x7f89d44bc1ab]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry16QtExperimentView23registerSettingsWidgetsERKSt10shared_ptrIN6Mantid3API10IAlgorithmEE+0xa) [0x7f89d44bc83a]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry16QtExperimentViewC1ERKSt10shared_ptrIN6Mantid3API10IAlgorithmEEP7QWidget+0xab) [0x7f89d44c2c2b]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry11QtBatchView10initLayoutEv+0x2e2) [0x7f89d449d932]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry11QtBatchViewC2EP7QWidget+0x4d) [0x7f89d449de6d]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry16QtMainWindowView8newBatchEv+0x37) [0x7f89d44f27f7]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry19MainWindowPresenter23notifyNewBatchRequestedEv+0xe) [0x7f89d44e987e]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry16QtMainWindowView10initLayoutEv+0xd09) [0x7f89d44f5d29]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidQtWidgetsCommonQt5.so(_ZN8MantidQt3API13UserSubWindow16initializeLayoutEv+0x47) [0x7f89d34df957]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidQtWidgetsCommonQt5.so(_ZN8MantidQt3API16InterfaceManager15createSubWindowERK7QStringP7QWidgetb+0x14d) [0x7f89d344100d]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry7Decoder6decodeERK4QMapI7QString8QVariantERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x61) [0x7f89d45745a1]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidScientificInterfacesISISReflectometryTestQt5(+0x2f7ec9) [0x55fbab3e5ec9]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidScientificInterfacesISISReflectometryTestQt5(+0x525653) [0x55fbab613653]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidScientificInterfacesISISReflectometryTestQt5(+0x133577) [0x55fbab221577]\n /lib64/libc.so.6(__libc_start_main+0xf5) [0x7f89d0697555]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidScientificInterfacesISISReflectometryTestQt5(+0x134809) [0x55fbab222809]\n\n          Start 2118: python.MuonQt5.base_pane_presenter_test.base_pane_presenter_test\n"
+                "test_time": "3.55",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221214.1711\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 12 testsQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\nSegmentation fault\n\n          Start  300: AlgorithmsTest_FindEPPTest\n"
             }
         },
         "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest": {
             "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest",
-            "latest_failed_build": "2120",
+            "latest_failed_build": "2247",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
             "past_failed_outcome": {
-                "2113": "Failed",
-                "2114": "Failed",
-                "2120": "Failed"
+                "2235": "Failed",
+                "2241": "Failed",
+                "2244": "Failed",
+                "2247": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest",
-                "build": "2120",
+                "build": "2247",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "1.21",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221202.1203\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 2 testsQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\n\n********* UNHANDLED EXCEPTION *********\n  what(): Unknown property search object PolarizationEfficiencies\n\nBacktrace:\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidAPI.so(+0x1efb9a) [0x7fca5aba1b9a]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidAPI.so(+0xfffef) [0x7fca5aab1fef]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libstdc++.so.6(+0xb0514) [0x7fca59d6b514]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libstdc++.so.6(+0xb0566) [0x7fca59d6b566]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libstdc++.so.6(__cxa_rethrow+0) [0x7fca59d6b758]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidKernel.so(+0x12692f) [0x7fca5a02d92f]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry16QtExperimentView33setToolTipAsPropertyDocumentationER7QWidgetRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt10shared_ptrIN6Mantid3API10IAlgorithmEE+0x35) [0x7fca5d417805]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry16QtExperimentView33registerExperimentSettingsWidgetsERKSt10shared_ptrIN6Mantid3API10IAlgorithmEE+0x2fb) [0x7fca5d4191ab]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry16QtExperimentView23registerSettingsWidgetsERKSt10shared_ptrIN6Mantid3API10IAlgorithmEE+0xa) [0x7fca5d41983a]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry16QtExperimentViewC1ERKSt10shared_ptrIN6Mantid3API10IAlgorithmEEP7QWidget+0xab) [0x7fca5d41fc2b]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry11QtBatchView10initLayoutEv+0x2e2) [0x7fca5d3fa932]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry11QtBatchViewC2EP7QWidget+0x4d) [0x7fca5d3fae6d]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry16QtMainWindowView8newBatchEv+0x37) [0x7fca5d44f7f7]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry19MainWindowPresenter23notifyNewBatchRequestedEv+0xe) [0x7fca5d44687e]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry16QtMainWindowView10initLayoutEv+0xd09) [0x7fca5d452d29]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidScientificInterfacesISISReflectometryTestQt5(+0x2e88de) [0x562c6e3088de]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidScientificInterfacesISISReflectometryTestQt5(+0x525653) [0x562c6e545653]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidScientificInterfacesISISReflectometryTestQt5(+0x133577) [0x562c6e153577]\n /lib64/libc.so.6(__libc_start_main+0xf5) [0x7fca595f4555]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidScientificInterfacesISISReflectometryTestQt5(+0x134809) [0x562c6e154809]\n\n          Start  111: KernelTest_StartsWithValidatorTest\n"
+                "test_time": "1.73",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221214.1711\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 2 testsQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\nSegmentation fault\n\n          Start  796: CurveFittingTest_ReflectivityMulfTest\n"
             }
         },
         "python.MuonQt5.general_fitting_view_test.general_fitting_view_test": {
@@ -1420,17 +1423,17 @@
         },
         "MantidQtInterfacesDirectTestQt5_ALFAnalysisModelTest": {
             "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisModelTest",
-            "latest_failed_build": "2220",
+            "latest_failed_build": "2233",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
             "past_failed_outcome": {
-                "2214": "Failed",
-                "2220": "Failed"
+                "2228": "Failed",
+                "2233": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisModelTest",
-                "build": "2220",
+                "build": "2233",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
@@ -1516,17 +1519,17 @@
         },
         "MantidQtInterfacesDirectTestQt5_ALFInstrumentModelTest": {
             "test_name": "MantidQtInterfacesDirectTestQt5_ALFInstrumentModelTest",
-            "latest_failed_build": "2220",
+            "latest_failed_build": "2233",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
             "past_failed_outcome": {
-                "2214": "Failed",
-                "2220": "Failed"
+                "2228": "Failed",
+                "2233": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "MantidQtInterfacesDirectTestQt5_ALFInstrumentModelTest",
-                "build": "2220",
+                "build": "2233",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
@@ -1536,17 +1539,17 @@
         },
         "MantidQtInterfacesDirectTestQt5_ALFInstrumentPresenterTest": {
             "test_name": "MantidQtInterfacesDirectTestQt5_ALFInstrumentPresenterTest",
-            "latest_failed_build": "2220",
+            "latest_failed_build": "2233",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
             "past_failed_outcome": {
-                "2214": "Failed",
-                "2220": "Failed"
+                "2228": "Failed",
+                "2233": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "MantidQtInterfacesDirectTestQt5_ALFInstrumentPresenterTest",
-                "build": "2220",
+                "build": "2233",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",

@@ -1064,21 +1064,21 @@
         },
         "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter": {
             "test_name": "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter",
-            "latest_failed_build": "902",
+            "latest_failed_build": "948",
             "agent_name": "Windows",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "902": "Failed"
+                "948": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter",
-                "build": "902",
+                "build": "948",
                 "agent_name": "Windows",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "6.71",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221209.1419\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\n....EEEE.........\r\n======================================================================\r\nERROR: test_do_all_fit_sets_progress_bar_to_in_progress_then_final (test_plot_presenter.FittingPlotPresenterTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\unittest\\mock.py&quot;, line 1325, in patched\r\n    return func(*newargs, **newkeywargs)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 138, in test_do_all_fit_sets_progress_bar_to_in_progress_then_final\r\n    self.fit_all_helper(mock_fit, do_sequential=False)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 104, in fit_all_helper\r\n    self.presenter.do_fit_all(ws_list, do_sequential=do_sequential)\r\nTypeError: do_fit_all() missing 1 required positional argument: &#x27;ws_name_list&#x27;\r\n\r\n======================================================================\r\nERROR: test_do_sequential_fit (test_plot_presenter.FittingPlotPresenterTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\unittest\\mock.py&quot;, line 1325, in patched\r\n    return func(*newargs, **newkeywargs)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 64, in test_do_sequential_fit\r\n    self.fit_all_helper(mock_fit, do_sequential=True)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 104, in fit_all_helper\r\n    self.presenter.do_fit_all(ws_list, do_sequential=do_sequential)\r\nTypeError: do_fit_all() missing 1 required positional argument: &#x27;ws_name_list&#x27;\r\n\r\n======================================================================\r\nERROR: test_do_sequential_fit_does_not_use_failed_fit_as_input (test_plot_presenter.FittingPlotPresenterTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\unittest\\mock.py&quot;, line 1325, in patched\r\n    return func(*newargs, **newkeywargs)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 81, in test_do_sequential_fit_does_not_use_failed_fit_as_input\r\n    self.presenter.do_fit_all(ws_list, do_sequential=True)\r\nTypeError: do_fit_all() missing 1 required positional argument: &#x27;ws_name_list&#x27;\r\n\r\n======================================================================\r\nERROR: test_do_serial_fit (test_plot_presenter.FittingPlotPresenterTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\unittest\\mock.py&quot;, line 1325, in patched\r\n    return func(*newargs, **newkeywargs)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 68, in test_do_serial_fit\r\n    self.fit_all_helper(mock_fit, do_sequential=False)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 104, in fit_all_helper\r\n    self.presenter.do_fit_all(ws_list, do_sequential=do_sequential)\r\nTypeError: do_fit_all() missing 1 required positional argument: &#x27;ws_name_list&#x27;\r\n\r\n----------------------------------------------------------------------\r\nRan 17 tests in 0.842s\r\n\r\nFAILED (errors=4)\r\n\r\n          Start  621: CrystalTest_GoniometerAnglesFromPhiRotationTest\r\n"
+                "test_time": "21.61",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221214.1653\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\n....EEEE.........\r\n======================================================================\r\nERROR: test_do_all_fit_sets_progress_bar_to_in_progress_then_final (test_plot_presenter.FittingPlotPresenterTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\unittest\\mock.py&quot;, line 1325, in patched\r\n    return func(*newargs, **newkeywargs)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 138, in test_do_all_fit_sets_progress_bar_to_in_progress_then_final\r\n    self.fit_all_helper(mock_fit, do_sequential=False)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 104, in fit_all_helper\r\n    self.presenter.do_fit_all(ws_list, do_sequential=do_sequential)\r\nTypeError: do_fit_all() missing 1 required positional argument: &#x27;ws_name_list&#x27;\r\n\r\n======================================================================\r\nERROR: test_do_sequential_fit (test_plot_presenter.FittingPlotPresenterTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\unittest\\mock.py&quot;, line 1325, in patched\r\n    return func(*newargs, **newkeywargs)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 64, in test_do_sequential_fit\r\n    self.fit_all_helper(mock_fit, do_sequential=True)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 104, in fit_all_helper\r\n    self.presenter.do_fit_all(ws_list, do_sequential=do_sequential)\r\nTypeError: do_fit_all() missing 1 required positional argument: &#x27;ws_name_list&#x27;\r\n\r\n======================================================================\r\nERROR: test_do_sequential_fit_does_not_use_failed_fit_as_input (test_plot_presenter.FittingPlotPresenterTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\unittest\\mock.py&quot;, line 1325, in patched\r\n    return func(*newargs, **newkeywargs)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 81, in test_do_sequential_fit_does_not_use_failed_fit_as_input\r\n    self.presenter.do_fit_all(ws_list, do_sequential=True)\r\nTypeError: do_fit_all() missing 1 required positional argument: &#x27;ws_name_list&#x27;\r\n\r\n======================================================================\r\nERROR: test_do_serial_fit (test_plot_presenter.FittingPlotPresenterTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\unittest\\mock.py&quot;, line 1325, in patched\r\n    return func(*newargs, **newkeywargs)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 68, in test_do_serial_fit\r\n    self.fit_all_helper(mock_fit, do_sequential=False)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqtinterfaces/mantidqtinterfaces/Engineering/gui/engineering_diffraction/tabs/fitting/plotting/test/test_plot_presenter.py&quot;, line 104, in fit_all_helper\r\n    self.presenter.do_fit_all(ws_list, do_sequential=do_sequential)\r\nTypeError: do_fit_all() missing 1 required positional argument: &#x27;ws_name_list&#x27;\r\n\r\n----------------------------------------------------------------------\r\nRan 17 tests in 2.103s\r\n\r\nFAILED (errors=4)\r\n\r\n          Start  861: DataHandlingTest_JoinISISPolarizationEfficienciesTest\r\n"
             }
         },
         "python.IsisPowder.ISISPowderCommonTest.ISISPowderCommonTest": {
@@ -1123,42 +1123,44 @@
         },
         "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest": {
             "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest",
-            "latest_failed_build": "828",
+            "latest_failed_build": "946",
             "agent_name": "Windows",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "827": "Failed",
-                "828": "Failed"
+                "940": "Failed",
+                "942": "Failed",
+                "946": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest",
-                "build": "828",
+                "build": "946",
                 "agent_name": "Windows",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "3.61",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221202.1203\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 12 testsExit code 0xc0000409\r\n\r\n\r\n          Start 1307: MuonTest_PlotAsymmetryByLogValueTest\r\n"
+                "test_time": "8.50",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221214.1711\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 12 testsAccess violation\r\n\r\n          Start 1124: GeometryTest_HKLTest\r\n"
             }
         },
         "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest": {
             "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest",
-            "latest_failed_build": "828",
+            "latest_failed_build": "946",
             "agent_name": "Windows",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "827": "Failed",
-                "828": "Failed"
+                "940": "Failed",
+                "942": "Failed",
+                "946": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest",
-                "build": "828",
+                "build": "946",
                 "agent_name": "Windows",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "3.60",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221202.1203\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 2 testsExit code 0xc0000409\r\n\r\n\r\n          Start 1352: python.kernel.PhysicalConstantsTest.PhysicalConstantsTest\r\n"
+                "test_time": "8.95",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221214.1711\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 2 testsAccess violation\r\n\r\n          Start  731: CurveFittingTest_BivariateNormalTest\r\n"
             }
         },
         "DataHandlingTest_LoadILLDiffractionTest": {
@@ -2343,6 +2345,26 @@
                 "outcome": "Failed",
                 "test_time": "0.63",
                 "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221206.1653\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 1 test\r\nIn PropertyNexusTest::test_saving_then_loading:\r\nC:/Jenkins/workspace/pull_requests-conda-windows/Framework/Kernel/test/PropertyNexusTest.h:37: Error: Expected (p-&gt;units() == other-&gt;units()), found (&quot;&quot; != &quot;meter&quot;)\r\nFailed 1 of 1 test\r\nSuccess rate: 0%\r\n\r\n          Start  741: CurveFittingTest_CrystalFieldEnergiesTest\r\n"
+            }
+        },
+        "AlgorithmsTest_RemoveLowResTOFTest": {
+            "test_name": "AlgorithmsTest_RemoveLowResTOFTest",
+            "latest_failed_build": "946",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Flake",
+            "pipeline_name": "pull_requests-conda-windows",
+            "past_failed_outcome": {
+                "942": "Flake",
+                "946": "Flake"
+            },
+            "last_stack_traces": {
+                "test_name": "AlgorithmsTest_RemoveLowResTOFTest",
+                "build": "946",
+                "agent_name": "Windows",
+                "trial": 1,
+                "outcome": "Timeout",
+                "test_time": "1199.96",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221214.1711\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 1 testRemoveLowResTOF-[Notice] RemoveLowResTOF started\r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 4 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 13 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 22 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 31 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] 4 spectra of 36 had all data removed.  The number of removed events is 400.\r\nRemoveLowResTOF-[Notice] RemoveLowResTOF successful, Duration 0.01 seconds\r\nEvents (Input) = 3600; Result = 3108, Low Res = 92.\r\n.OK!\r\n\r\n          Start  411: AlgorithmsTest_RemoveLowResTOFTest\r\n"
             }
         }
     }

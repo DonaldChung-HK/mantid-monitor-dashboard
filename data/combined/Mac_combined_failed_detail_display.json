@@ -719,9 +719,10 @@
             "test_name": "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_709": "Failed",
-                "pull_requests-conda-osx_875": "Failed"
+                "pull_requests-conda-osx_875": "Failed",
+                "pull_requests-conda-osx_918": "Failed"
             },
-            "last_fail_detected": "2022-12-10"
+            "last_fail_detected": "2022-12-15"
         },
         {
             "test_name": "python.IsisPowder.ISISPowderCommonTest.ISISPowderCommonTest",
@@ -749,17 +750,21 @@
             "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_744": "Failed",
-                "pull_requests-conda-osx_792": "Failed"
+                "pull_requests-conda-osx_792": "Failed",
+                "pull_requests-conda-osx_911": "Failed",
+                "pull_requests-conda-osx_919": "Failed"
             },
-            "last_fail_detected": "2022-12-02"
+            "last_fail_detected": "2022-12-15"
         },
         {
             "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_744": "Failed",
-                "pull_requests-conda-osx_792": "Failed"
+                "pull_requests-conda-osx_792": "Failed",
+                "pull_requests-conda-osx_911": "Failed",
+                "pull_requests-conda-osx_919": "Failed"
             },
-            "last_fail_detected": "2022-12-02"
+            "last_fail_detected": "2022-12-15"
         },
         {
             "test_name": "HistogramDataTest_InterpolateTest",
@@ -827,6 +832,13 @@
                 "pull_requests-conda-osx_848": "Failed"
             },
             "last_fail_detected": "2022-12-07"
+        },
+        {
+            "test_name": "python.MuonQt5.corrections_view_test.corrections_view_test",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_916": "Flake"
+            },
+            "last_fail_detected": "2022-12-15"
         }
     ]
 }

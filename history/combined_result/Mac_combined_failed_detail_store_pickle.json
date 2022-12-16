@@ -789,17 +789,20 @@
             "agent_name": "Mac",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_696": "Flake",
-                "pull_requests-conda-osx_852": "Flake"
+                "pull_requests-conda-osx_852": "Flake",
+                "pull_requests-conda-osx_929": "Flake"
             },
-            "last_fail_detected": "2022-12-07"
+            "last_fail_detected": "2022-12-16"
         },
         "DataHandlingTest_LoadILLDiffractionTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
             "test_name": "DataHandlingTest_LoadILLDiffractionTest",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_715": "Flake"
-            }
+                "pull_requests-conda-osx_715": "Flake",
+                "pull_requests-conda-osx_939": "Flake"
+            },
+            "last_fail_detected": "2022-12-16"
         },
         "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",

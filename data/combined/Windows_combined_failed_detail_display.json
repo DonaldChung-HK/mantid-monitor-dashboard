@@ -1063,6 +1063,13 @@
                 "pull_requests-conda-windows_946": "Flake"
             },
             "last_fail_detected": "2022-12-15"
+        },
+        {
+            "test_name": "python.MuonQt5.basic_fitting_view_test.basic_fitting_view_test",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_970": "Flake"
+            },
+            "last_fail_detected": "2022-12-16"
         }
     ]
 }

@@ -1,14 +1,18 @@
 {
     "data": [
         {
-            "test_name": "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter",
-            "latest_failed_build": "2248",
+            "test_name": "mantidqt_qt5.test_interpreter.test_interpreter",
+            "latest_failed_build": "2275",
             "agent_name": "Linux",
-            "last_failed_outcome": "Failed",
+            "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2276",
+                    "2275",
+                    "2274",
+                    "2273",
                     "2272",
                     "2271",
                     "2270",
@@ -34,11 +38,90 @@
                     "2250",
                     "2249",
                     "2248",
-                    "2247",
-                    "2246",
-                    "2245",
-                    "2244",
-                    "2243"
+                    "2247"
+                ],
+                "past_outcome_list": [
+                    "Passed",
+                    "Flake",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "mantidqt_qt5.test_interpreter.test_interpreter",
+                "build": "2275",
+                "agent_name": "Linux",
+                "trial": 1,
+                "outcome": "Timeout",
+                "test_time": "1200.09",
+                "stacktrace": "QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\n.........\n----------------------------------------------------------------------\nRan 9 tests in 0.144s\n\nOK\nthis is a string\nthis is a string\n\n          Start 2038: mantidqt_qt5.test_interpreter.test_interpreter\n"
+            }
+        },
+        {
+            "test_name": "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter",
+            "latest_failed_build": "2248",
+            "agent_name": "Linux",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-linux",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "2276",
+                    "2275",
+                    "2274",
+                    "2273",
+                    "2272",
+                    "2271",
+                    "2270",
+                    "2269",
+                    "2268",
+                    "2267",
+                    "2266",
+                    "2265",
+                    "2264",
+                    "2263",
+                    "2262",
+                    "2261",
+                    "2260",
+                    "2259",
+                    "2258",
+                    "2257",
+                    "2256",
+                    "2255",
+                    "2254",
+                    "2253",
+                    "2252",
+                    "2251",
+                    "2250",
+                    "2249",
+                    "2248",
+                    "2247"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -56,6 +139,10 @@
                     "Passed",
                     "Passed",
                     "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "None",
                     "Passed",
                     "Passed",
@@ -66,10 +153,6 @@
                     "None",
                     "Passed",
                     "Failed",
-                    "Passed",
-                    "Failed",
-                    "Passed",
-                    "Passed",
                     "Passed"
                 ]
             },
@@ -89,9 +172,13 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2276",
+                    "2275",
+                    "2274",
+                    "2273",
                     "2272",
                     "2271",
                     "2270",
@@ -117,11 +204,7 @@
                     "2250",
                     "2249",
                     "2248",
-                    "2247",
-                    "2246",
-                    "2245",
-                    "2244",
-                    "2243"
+                    "2247"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -139,6 +222,10 @@
                     "Passed",
                     "Passed",
                     "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "None",
                     "Passed",
                     "Passed",
@@ -149,11 +236,7 @@
                     "None",
                     "Passed",
                     "Passed",
-                    "Failed",
-                    "Passed",
-                    "Passed",
-                    "Failed",
-                    "Passed"
+                    "Failed"
                 ]
             },
             "last_stack_traces": {
@@ -172,9 +255,13 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2276",
+                    "2275",
+                    "2274",
+                    "2273",
                     "2272",
                     "2271",
                     "2270",
@@ -200,11 +287,7 @@
                     "2250",
                     "2249",
                     "2248",
-                    "2247",
-                    "2246",
-                    "2245",
-                    "2244",
-                    "2243"
+                    "2247"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -222,6 +305,10 @@
                     "Passed",
                     "Passed",
                     "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "None",
                     "Passed",
                     "Passed",
@@ -232,11 +319,7 @@
                     "None",
                     "Passed",
                     "Passed",
-                    "Failed",
-                    "Passed",
-                    "Passed",
-                    "Failed",
-                    "Passed"
+                    "Failed"
                 ]
             },
             "last_stack_traces": {

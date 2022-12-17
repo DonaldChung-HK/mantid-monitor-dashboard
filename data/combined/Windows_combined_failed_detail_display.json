@@ -1024,9 +1024,10 @@
         {
             "test_name": "AlgorithmsTest_PowerTest",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_862": "Flake"
+                "pull_requests-conda-windows_862": "Flake",
+                "pull_requests-conda-windows_975": "Flake"
             },
-            "last_fail_detected": "2022-12-06"
+            "last_fail_detected": "2022-12-17"
         },
         {
             "test_name": "python.WorkflowAlgorithms.SaveVulcanGSSTest.SaveVulcanGSSTest",

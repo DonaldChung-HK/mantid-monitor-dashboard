@@ -83,8 +83,10 @@
             "past_failed_outcome": {
                 "pull_requests-conda-linux_1784": "Flake",
                 "pull_requests-conda-linux_1825": "Flake",
-                "pull_requests-conda-linux_2040": "Flake"
-            }
+                "pull_requests-conda-linux_2040": "Flake",
+                "pull_requests-conda-linux_2275": "Flake"
+            },
+            "last_fail_detected": "2022-12-17"
         },
         "python.algorithms.IntegratePeaksSkewTest.IntegratePeaksSkewTest": {
             "test_name": "python.algorithms.IntegratePeaksSkewTest.IntegratePeaksSkewTest",

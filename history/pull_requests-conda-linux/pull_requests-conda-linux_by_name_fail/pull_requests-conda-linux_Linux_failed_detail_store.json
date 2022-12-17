@@ -143,21 +143,21 @@
         },
         "mantidqt_qt5.test_interpreter.test_interpreter": {
             "test_name": "mantidqt_qt5.test_interpreter.test_interpreter",
-            "latest_failed_build": "2040",
+            "latest_failed_build": "2275",
             "agent_name": "Linux",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-linux",
             "past_failed_outcome": {
-                "2040": "Flake"
+                "2275": "Flake"
             },
             "last_stack_traces": {
                 "test_name": "mantidqt_qt5.test_interpreter.test_interpreter",
-                "build": "2040",
+                "build": "2275",
                 "agent_name": "Linux",
                 "trial": 1,
-                "outcome": "Failed",
-                "test_time": "1.63",
-                "stacktrace": "QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\n........Segmentation fault\n\n          Start 2032: mantidqt_qt5.test_interpreter.test_interpreter\n"
+                "outcome": "Timeout",
+                "test_time": "1200.09",
+                "stacktrace": "QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\n.........\n----------------------------------------------------------------------\nRan 9 tests in 0.144s\n\nOK\nthis is a string\nthis is a string\n\n          Start 2038: mantidqt_qt5.test_interpreter.test_interpreter\n"
             }
         },
         "python.algorithms.IntegratePeaksSkewTest.IntegratePeaksSkewTest": {

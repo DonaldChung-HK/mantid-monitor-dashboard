@@ -732,9 +732,10 @@
             "test_name": "python.MuonQt5.fit_function_options_view_test.fit_function_options_view_test",
             "agent_name": "Linux",
             "past_failed_outcome": {
-                "pull_requests-conda-linux_2159": "Flake"
+                "pull_requests-conda-linux_2159": "Flake",
+                "pull_requests-conda-linux_2277": "Flake"
             },
-            "last_fail_detected": "2022-12-06"
+            "last_fail_detected": "2022-12-19"
         },
         "python.algorithms.AnstoCommonFractionalTest.AnstoCommonFractionalTest": {
             "test_name": "python.algorithms.AnstoCommonFractionalTest.AnstoCommonFractionalTest",

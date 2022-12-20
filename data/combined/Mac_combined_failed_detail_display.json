@@ -984,6 +984,15 @@
             "last_fail_detected": "2022-12-15"
         },
         {
+            "test_name": "python.algorithms.LoadAndMergeTest.LoadAndMergeTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_964": "Failed",
+                "pull_requests-conda-osx_970": "Failed",
+                "pull_requests-conda-osx_980": "Failed"
+            },
+            "last_fail_detected": "2022-12-20"
+        },
+        {
             "test_name": "PythonSANS.file_information_test.file_information_test",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_961": "Failed",
@@ -3184,24 +3193,9 @@
             "last_fail_detected": "2022-12-20"
         },
         {
-            "test_name": "python.algorithms.LoadAndMergeTest.LoadAndMergeTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-osx_964": "Failed",
-                "pull_requests-conda-osx_970": "Failed"
-            },
-            "last_fail_detected": "2022-12-20"
-        },
-        {
             "test_name": "python.WorkflowAlgorithms.PolDiffILLReductionTest.PolDiffILLReductionTest",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_968": "Flake"
-            },
-            "last_fail_detected": "2022-12-20"
-        },
-        {
-            "test_name": "python.WorkflowAlgorithms.LagrangeILLReductionTest.LagrangeILLReductionTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-osx_957": "Failed"
             },
             "last_fail_detected": "2022-12-20"
         }

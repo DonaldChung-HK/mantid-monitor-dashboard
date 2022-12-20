@@ -38,8 +38,9 @@ The main.py does the following
 11. Generate the HTML code for failed test dataTable with `jinja2` and `assets/agg_table.html.j2` note that you will have to add the helper functions to the header of `assets/content.html.j2`
 12. generate the HTML code for the page using `jinja2` and `assets/content.html.j2` 
 13. This is repeated for every pipeline
-14. A page of aggregate result will be generated for each environment (Windows, MacOS, Linux etc.). This will include the test name, the pipeline and builds that it has failed and the last detected fail date. The last detected failed date is checking if the entry for a test in  `history/combined_result/{OS}_combined_failed_detail_store.json` has changed and updating it with current date
+14. A page of aggregate result will be generated for each environment (Windows, MacOS, Linux etc.). This will include the test name, the pipeline and builds that it has failed and the last detected fail date. The last detected failed date is checking if the entry for a test in  `history/combined_result/{OS}_combined_failed_detail_store.json` has changed and updating it with current date.
 15. An index page is generated using `jinja2` and `assets/index.html.j2` that contains links to all pipeline dashboard and the combined result dashboard
+16. All the pages and related JSON files are copied to `dist`
 ## Github page
 This repo is deploy using the legacy github page mode, you have to enable the github page in the `repo settings -> pages`
 set source to `deploy from a branch` and point to the `gh-pages` Branch

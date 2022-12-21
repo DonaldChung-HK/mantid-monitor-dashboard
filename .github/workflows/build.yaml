@@ -47,5 +47,4 @@ jobs:
           commit_options: '--no-verify --signoff'
           commit_message: Build and auto update history
           create_branch: true
-          file_pattern: 'history/*'
-          disable_globbing: true
+          

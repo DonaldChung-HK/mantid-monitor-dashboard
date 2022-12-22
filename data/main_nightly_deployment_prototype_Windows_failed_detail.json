@@ -1,3 +1,47 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "APITest_InstrumentFileFinderTest",
+            "latest_failed_build": "476",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Flake",
+            "pipeline_name": "main_nightly_deployment_prototype",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "476",
+                    "475",
+                    "474",
+                    "473",
+                    "472",
+                    "471",
+                    "470",
+                    "469",
+                    "468",
+                    "467"
+                ],
+                "past_outcome_list": [
+                    "Flake",
+                    "Passed",
+                    "None",
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "APITest_InstrumentFileFinderTest",
+                "build": "476",
+                "agent_name": "Windows",
+                "trial": 1,
+                "outcome": "Failed",
+                "test_time": "9.06",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221221.1509\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 10 tests\r\nIn InstrumentFileFinderTest::testAllDatesInIDFs:\r\nC:/Jenkins/workspace/main_nightly_deployment_prototype/Framework/API/test/InstrumentFileFinderTest.h:38: Error: Test failed: File not found\r\n.........\r\nFailed 1 of 10 tests\r\nSuccess rate: 90%\r\n\r\n          Start  538: APITest_InstrumentFileFinderTest\r\n"
+            }
+        }
+    ]
 }

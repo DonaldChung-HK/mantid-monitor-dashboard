@@ -956,6 +956,24 @@
                 "pull_requests-conda-osx_916": "Flake"
             },
             "last_fail_detected": "2022-12-15"
+        },
+        "AlgorithmsTest_GeneratePythonFitScriptTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "AlgorithmsTest_GeneratePythonFitScriptTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_990": "Failed"
+            },
+            "last_fail_detected": "2022-12-22"
+        },
+        "AlgorithmsTest_SassenaFFTTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "AlgorithmsTest_SassenaFFTTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_989": "Flake"
+            },
+            "last_fail_detected": "2022-12-22"
         }
     }
 }

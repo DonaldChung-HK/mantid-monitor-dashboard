@@ -859,6 +859,15 @@
                 "pull_requests-conda-linux_2233": "Failed"
             },
             "last_fail_detected": "2022-12-15"
+        },
+        "AlgorithmsTest_GeneratePythonFitScriptTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "AlgorithmsTest_GeneratePythonFitScriptTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2325": "Failed"
+            },
+            "last_fail_detected": "2022-12-22"
         }
     }
 }

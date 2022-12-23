@@ -881,6 +881,23 @@
                 "pull_requests-conda-osx_989": "Flake"
             },
             "last_fail_detected": "2022-12-22"
+        },
+        "python.drill.DrillTest.DrillTest": {
+            "test_name": "python.drill.DrillTest.DrillTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_994": "Flake",
+                "pull_requests-conda-osx_997": "Flake"
+            },
+            "last_fail_detected": "2022-12-23"
+        },
+        "python.WorkflowAlgorithms.EnergyWindowScanTest.EnergyWindowScanTest": {
+            "test_name": "python.WorkflowAlgorithms.EnergyWindowScanTest.EnergyWindowScanTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_993": "Flake"
+            },
+            "last_fail_detected": "2022-12-23"
         }
     }
 }

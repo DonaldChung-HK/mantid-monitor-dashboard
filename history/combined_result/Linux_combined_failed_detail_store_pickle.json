@@ -868,6 +868,15 @@
                 "pull_requests-conda-linux_2325": "Failed"
             },
             "last_fail_detected": "2022-12-22"
+        },
+        "MantidQtInterfacesIndirectTestQt5_IndirectPlotOptionsModelTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "MantidQtInterfacesIndirectTestQt5_IndirectPlotOptionsModelTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2328": "Flake"
+            },
+            "last_fail_detected": "2022-12-23"
         }
     }
 }

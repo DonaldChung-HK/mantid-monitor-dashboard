@@ -30,6 +30,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       # edit the parameter here
+      - name: Joining splitted file
+        run:  bash ${GITHUB_WORKSPACE}/join_helper.sh
       - name: Run builder
         run: |
           python main.py -u 'https://builds.mantidproject.org/' -p 'pull_requests-conda-linux' 'pull_requests-conda-windows' 'pull_requests-conda-osx' 'main_nightly_deployment_prototype' -n 30 -t "Linux" -f "linux-gnu.log" -t "Windows" -f "msys.log" -t "Mac" -f "darwin17.log" -t "Mac" "Linux" "Windows" -f "darwin17.log" "linux-gnu.log" "msys.log"
@@ -40,6 +42,8 @@ jobs:
           folder: dist # The folder the action should deploy.
           git-config-name: github-actions[bot]
           git-config-email: github-actions[bot]@users.noreply.github.com
+      - name: Splitting file into smaller size
+        run:  bash ${GITHUB_WORKSPACE}/split_helper.sh
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           branch: main

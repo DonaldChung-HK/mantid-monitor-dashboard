@@ -1,7 +1,7 @@
 #!/bin/bash
 # A bash script to split and remove JSON file that is too big change the FILE_SIZE_LIMIT to suit your need
 
-FILE_SIZE_LIMIT=2 # in MB
+FILE_SIZE_LIMIT=90 # in MB
 
 
 function split_file_and_delete() {

@@ -981,9 +981,10 @@
             "agent_name": "Mac",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_994": "Flake",
-                "pull_requests-conda-osx_997": "Flake"
+                "pull_requests-conda-osx_997": "Flake",
+                "pull_requests-conda-osx_1006": "Flake"
             },
-            "last_fail_detected": "2022-12-23"
+            "last_fail_detected": "2023-01-03"
         },
         "python.WorkflowAlgorithms.EnergyWindowScanTest.EnergyWindowScanTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -993,6 +994,15 @@
                 "pull_requests-conda-osx_993": "Flake"
             },
             "last_fail_detected": "2022-12-23"
+        },
+        "python.plots.datafunctionsTest.datafunctionsTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.plots.datafunctionsTest.datafunctionsTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_1009": "Failed"
+            },
+            "last_fail_detected": "2023-01-03"
         }
     }
 }

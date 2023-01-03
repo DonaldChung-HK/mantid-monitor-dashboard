@@ -772,6 +772,13 @@
                 "pull_requests-conda-linux_2328": "Flake"
             },
             "last_fail_detected": "2022-12-23"
+        },
+        {
+            "test_name": "python.plots.datafunctionsTest.datafunctionsTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2344": "Failed"
+            },
+            "last_fail_detected": "2023-01-03"
         }
     ]
 }

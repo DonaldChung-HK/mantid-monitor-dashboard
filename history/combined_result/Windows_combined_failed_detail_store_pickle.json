@@ -674,9 +674,11 @@
                 "pull_requests-conda-windows_1041": "Failed",
                 "pull_requests-conda-windows_1044": "Failed",
                 "pull_requests-conda-windows_1048": "Failed",
-                "pull_requests-conda-windows_1050": "Failed"
+                "pull_requests-conda-windows_1050": "Failed",
+                "pull_requests-conda-windows_1065": "Flake",
+                "main_nightly_deployment_prototype_478": "Flake"
             },
-            "last_fail_detected": "2023-01-03"
+            "last_fail_detected": "2023-01-04"
         },
         "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -1827,6 +1829,15 @@
                 "pull_requests-conda-windows_1049": "Failed"
             },
             "last_fail_detected": "2023-01-03"
+        },
+        "python.WorkflowAlgorithms.PowderILLDetectorScanTest.PowderILLDetectorScanTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.WorkflowAlgorithms.PowderILLDetectorScanTest.PowderILLDetectorScanTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_1065": "Failed"
+            },
+            "last_fail_detected": "2023-01-04"
         }
     }
 }

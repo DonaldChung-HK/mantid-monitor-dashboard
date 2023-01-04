@@ -1,3 +1,39 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "python.drill.DrillTest.DrillTest",
+            "latest_failed_build": "478",
+            "agent_name": "Linux",
+            "last_failed_outcome": "Flake",
+            "pipeline_name": "main_nightly_deployment_prototype",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "479",
+                    "478",
+                    "477",
+                    "476",
+                    "475",
+                    "472"
+                ],
+                "past_outcome_list": [
+                    "Passed",
+                    "Flake",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "python.drill.DrillTest.DrillTest",
+                "build": "478",
+                "agent_name": "Linux",
+                "trial": 1,
+                "outcome": "Failed",
+                "test_time": "5.75",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230103.1605\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\nan integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\n....an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\n...AttributeError: &#x27;DrillView&#x27; does not have a signal with the signature instrumentChanged(QString)\nSubprocess aborted\n\n          Start 2367: python.drill.DrillTest.DrillTest\n"
+            }
+        }
+    ]
 }

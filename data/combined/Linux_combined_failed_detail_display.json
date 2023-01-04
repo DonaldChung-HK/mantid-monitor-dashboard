@@ -681,9 +681,10 @@
             "test_name": "python.drill.DrillTest.DrillTest",
             "past_failed_outcome": {
                 "pull_requests-conda-linux_2116": "Failed",
-                "pull_requests-conda-linux_2117": "Failed"
+                "pull_requests-conda-linux_2117": "Failed",
+                "main_nightly_deployment_prototype_478": "Flake"
             },
-            "last_fail_detected": "2022-12-02"
+            "last_fail_detected": "2023-01-04"
         },
         {
             "test_name": "python.WorkflowAlgorithms.MDNormSCDPreprocessIncoherentTest.MDNormSCDPreprocessIncoherentTest",
@@ -779,6 +780,13 @@
                 "pull_requests-conda-linux_2344": "Failed"
             },
             "last_fail_detected": "2023-01-03"
+        },
+        {
+            "test_name": "python.WorkflowAlgorithms.PowderILLDetectorScanTest.PowderILLDetectorScanTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2355": "Failed"
+            },
+            "last_fail_detected": "2023-01-04"
         }
     ]
 }

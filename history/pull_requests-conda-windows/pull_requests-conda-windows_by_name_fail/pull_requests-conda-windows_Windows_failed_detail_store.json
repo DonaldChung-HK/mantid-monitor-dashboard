@@ -1165,24 +1165,32 @@
         },
         "DataHandlingTest_LoadILLDiffractionTest": {
             "test_name": "DataHandlingTest_LoadILLDiffractionTest",
-            "latest_failed_build": "1065",
+            "latest_failed_build": "1094",
             "agent_name": "Windows",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "1044": "Failed",
-                "1048": "Failed",
-                "1050": "Failed",
-                "1065": "Flake"
+                "1065": "Flake",
+                "1072": "Flake",
+                "1073": "Failed",
+                "1076": "Failed",
+                "1077": "Failed",
+                "1079": "Failed",
+                "1081": "Failed",
+                "1083": "Flake",
+                "1086": "Flake",
+                "1091": "Flake",
+                "1093": "Flake",
+                "1094": "Flake"
             },
             "last_stack_traces": {
                 "test_name": "DataHandlingTest_LoadILLDiffractionTest",
-                "build": "1065",
+                "build": "1094",
                 "agent_name": "Windows",
-                "trial": 2,
+                "trial": 1,
                 "outcome": "Failed",
-                "test_time": "10.36",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230104.1001\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 11 tests....LoadILLDiffraction-[Notice] LoadILLDiffraction started\r\nLoadILLDiffraction-[Notice] LoadILLDiffraction successful, Duration 1.06 seconds\r\n.Load-[Notice] Load started\r\nLoad-[Notice] Load successful, Duration 0.72 seconds\r\n.\r\nIn LoadILLDiffractionTest::test_D2B_alignment:\r\nC:/Jenkins/workspace/pull_requests-conda-windows/Framework/DataHandling/test/LoadILLDiffractionTest.h:357: Error: Assertion failed: !outputWS-&gt;detectorInfo().isMonitor(16385 * 25)\r\n..LoadILLDiffraction-[Notice] A 2theta offset angle is necessary for D1B data.\r\n..\r\nFailed 1 of 11 tests\r\nSuccess rate: 90%\r\n\r\n          Start  887: DataHandlingTest_LoadILLDiffractionTest\r\n"
+                "test_time": "8.56",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230105.1235\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 14 tests...LoadILLDiffraction-[Warning] Invalid value for DataType: Calibrated data requested, but only raw data exists in this NeXus file.\r\n..LoadILLDiffraction-[Notice] LoadILLDiffraction started\r\nLoadILLDiffraction-[Notice] LoadILLDiffraction successful, Duration 0.64 seconds\r\n.Load-[Notice] Load started\r\nLoad-[Notice] Load successful, Duration 0.29 seconds\r\n.InstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D2Bfed5c17191ce18f4c6a528b1c0feee2d87e63c68.vtp\r\n\r\nIn LoadILLDiffractionTest::test_D2B_alignment:\r\nC:/Jenkins/workspace/pull_requests-conda-windows/Framework/DataHandling/test/LoadILLDiffractionTest.h:375: Error: Assertion failed: !outputWS-&gt;detectorInfo().isMonitor(16385 * 25)\r\n...InstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D2B3b7f429c025fbdc995eaf67c0329ff427a57bfbe.vtp\r\n.LoadILLDiffraction-[Notice] A 2theta offset angle is necessary for D1B data.\r\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D1B8d3124501c775196e31d5ce933bb9a51db0c969e.vtp\r\n..\r\nFailed 1 of 14 tests\r\nSuccess rate: 92%\r\n\r\n          Start  887: DataHandlingTest_LoadILLDiffractionTest\r\n"
             }
         },
         "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest": {
@@ -2908,6 +2916,27 @@
                 "outcome": "Failed",
                 "test_time": "15.14",
                 "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230104.1001\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nPowderILLDetectorScan-[Notice] PowderILLDetectorScan started\r\nPowderILLDetectorScan-[Error] Error in execution of algorithm PowderILLDetectorScan:\r\nPowderILLDetectorScan-[Error] name &#x27;align_tubes&#x27; is not defined\r\nPowderILLDetectorScan-[Error]   at line 213 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/PowderILLDetectorScan.py&#x27;\r\nEPowderILLDetectorScan-[Notice] PowderILLDetectorScan started\r\nPowderILLDetectorScan-[Error] Error in execution of algorithm PowderILLDetectorScan:\r\nPowderILLDetectorScan-[Error] name &#x27;align_tubes&#x27; is not defined\r\nPowderILLDetectorScan-[Error]   at line 213 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/PowderILLDetectorScan.py&#x27;\r\nE\r\n======================================================================\r\nERROR: test_default_options_d20 (PowderILLDetectorScanTest.PowderILLDetectorScanTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\framework\\pythoninterface\\mantid\\simpleapi.py&quot;, line 1070, in __call__\r\n    algm.execute()\r\nRuntimeError: name &#x27;align_tubes&#x27; is not defined\r\n  at line 213 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/PowderILLDetectorScan.py&#x27;\r\n\r\nThe above exception was the direct cause of the following exception:\r\n\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/test/python/plugins/algorithms/WorkflowAlgorithms/PowderILLDetectorScanTest.py&quot;, line 49, in test_default_options_d20\r\n    red = PowderILLDetectorScan(Run=&quot;171414&quot;)\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\framework\\pythoninterface\\mantid\\simpleapi.py&quot;, line 1077, in __call__\r\n    raise RuntimeError(msg) from e\r\nRuntimeError: PowderILLDetectorScan-v1: name &#x27;align_tubes&#x27; is not defined\r\n  at line 213 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/PowderILLDetectorScan.py&#x27;\r\n\r\n======================================================================\r\nERROR: test_default_options_d2b (PowderILLDetectorScanTest.PowderILLDetectorScanTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\framework\\pythoninterface\\mantid\\simpleapi.py&quot;, line 1070, in __call__\r\n    algm.execute()\r\nRuntimeError: name &#x27;align_tubes&#x27; is not defined\r\n  at line 213 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/PowderILLDetectorScan.py&#x27;\r\n\r\nThe above exception was the direct cause of the following exception:\r\n\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/test/python/plugins/algorithms/WorkflowAlgorithms/PowderILLDetectorScanTest.py&quot;, line 26, in test_default_options_d2b\r\n    red = PowderILLDetectorScan(Run=&quot;508093&quot;)\r\n  File &quot;c:\\jenkins\\workspace\\pull_requests-conda-windows\\framework\\pythoninterface\\mantid\\simpleapi.py&quot;, line 1077, in __call__\r\n    raise RuntimeError(msg) from e\r\nRuntimeError: PowderILLDetectorScan-v1: name &#x27;align_tubes&#x27; is not defined\r\n  at line 213 in &#x27;C:/Jenkins/workspace/pull_requests-conda-windows/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/PowderILLDetectorScan.py&#x27;\r\n\r\n----------------------------------------------------------------------\r\nRan 2 tests in 0.133s\r\n\r\nFAILED (errors=2)\r\n\r\n          Start 1079: DataObjectsTest_Workspace2DTest\r\n"
+            }
+        },
+        "mantidqt_qt5.test_async.test_async": {
+            "test_name": "mantidqt_qt5.test_async.test_async",
+            "latest_failed_build": "1085",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-windows",
+            "past_failed_outcome": {
+                "1072": "Failed",
+                "1073": "Failed",
+                "1085": "Failed"
+            },
+            "last_stack_traces": {
+                "test_name": "mantidqt_qt5.test_async.test_async",
+                "build": "1085",
+                "agent_name": "Windows",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "1.06",
+                "stacktrace": ".....FF....\r\n======================================================================\r\nFAIL: test_unsuccessful_no_arg_operation_calls_error_and_finished_callback (test_async.AsyncTaskTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/utils/test/test_async.py&quot;, line 102, in test_unsuccessful_no_arg_operation_calls_error_and_finished_callback\r\n    self.assertEqual(65, recv.task_exc_stack[0][1])\r\nAssertionError: 65 != 63\r\n\r\n======================================================================\r\nFAIL: test_unsuccessful_operation_with_error_cb (test_async.AsyncTaskTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/utils/test/test_async.py&quot;, line 137, in test_unsuccessful_operation_with_error_cb\r\n    self.assertEqual(133, recv.task_exc_stack[1][1])\r\nAssertionError: 133 != 127\r\n\r\n----------------------------------------------------------------------\r\nRan 11 tests in 0.005s\r\n\r\nFAILED (failures=2)\r\n\r\n          Start 2399: MantidScientificInterfacesISISReflectometryTestQt5_RunsTablePresenterGroupInsertionTest\r\n"
             }
         }
     }

@@ -787,6 +787,22 @@
                 "pull_requests-conda-linux_2355": "Failed"
             },
             "last_fail_detected": "2023-01-04"
+        },
+        {
+            "test_name": "mantidqt_qt5.test_async.test_async",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2362": "Failed",
+                "pull_requests-conda-linux_2363": "Failed",
+                "pull_requests-conda-linux_2374": "Failed"
+            },
+            "last_fail_detected": "2023-01-05"
+        },
+        {
+            "test_name": "DataHandlingTest_LoadILLDiffractionTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2367": "Failed"
+            },
+            "last_fail_detected": "2023-01-05"
         }
     ]
 }

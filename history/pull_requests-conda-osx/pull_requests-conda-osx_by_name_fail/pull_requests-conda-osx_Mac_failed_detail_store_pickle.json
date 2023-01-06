@@ -837,22 +837,24 @@
         "KernelTest_StdoutChannelTest": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "KernelTest_StdoutChannelTest",
-            "latest_failed_build": "1044",
+            "latest_failed_build": "1058",
             "agent_name": "Mac",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-osx",
             "past_failed_outcome": {
-                "1044": "Flake"
+                "1044": "Flake",
+                "1057": "Flake",
+                "1058": "Flake"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "KernelTest_StdoutChannelTest",
-                "build": "1044",
+                "build": "1058",
                 "agent_name": "Mac",
                 "trial": 1,
                 "outcome": "Failed",
-                "test_time": "0.46",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230105.1147\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 2 tests..OK!\nKernelTest(94017,0x7fffadb42380) malloc: *** error for object 0x7ff8db6a3bf8: incorrect checksum for freed object - object was probably modified after being freed.\n*** set a breakpoint in malloc_error_break to debug\nSubprocess aborted\n\n          Start  113: KernelTest_StdoutChannelTest\n"
+                "test_time": "0.61",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230106.1131\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 2 tests..OK!\nKernelTest(48016,0x7fff8d4d4380) malloc: *** error for object 0x7f909a59da58: incorrect checksum for freed object - object was probably modified after being freed.\n*** set a breakpoint in malloc_error_break to debug\nSubprocess aborted\n\n          Start  113: KernelTest_StdoutChannelTest\n"
             }
         },
         "python.algorithms.HB2AReduceTest.HB2AReduceTest": {

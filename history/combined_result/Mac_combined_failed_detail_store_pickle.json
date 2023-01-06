@@ -462,9 +462,11 @@
                 "pull_requests-conda-osx_589": "Flake",
                 "pull_requests-conda-osx_734": "Flake",
                 "pull_requests-conda-osx_780": "Flake",
-                "pull_requests-conda-osx_1044": "Flake"
+                "pull_requests-conda-osx_1044": "Flake",
+                "pull_requests-conda-osx_1057": "Flake",
+                "pull_requests-conda-osx_1058": "Flake"
             },
-            "last_fail_detected": "2023-01-05"
+            "last_fail_detected": "2023-01-06"
         },
         "python.algorithms.HB2AReduceTest.HB2AReduceTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",

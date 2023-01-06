@@ -2,24 +2,24 @@
     "data": [
         {
             "test_name": "DataHandlingTest_LoadILLDiffractionTest",
-            "latest_failed_build": "478",
+            "latest_failed_build": "480",
             "agent_name": "Windows",
             "last_failed_outcome": "Flake",
             "pipeline_name": "main_nightly_deployment_prototype",
-            "problem_count": 1,
+            "problem_count": 2,
             "past_outcome": {
                 "build_keys": [
+                    "480",
                     "479",
                     "478",
                     "477",
-                    "476",
                     "475",
                     "472"
                 ],
                 "past_outcome_list": [
-                    "Passed",
                     "Flake",
                     "Passed",
+                    "Flake",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -27,47 +27,12 @@
             },
             "last_stack_traces": {
                 "test_name": "DataHandlingTest_LoadILLDiffractionTest",
-                "build": "478",
+                "build": "480",
                 "agent_name": "Windows",
                 "trial": 1,
                 "outcome": "Failed",
-                "test_time": "11.59",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230103.1605\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 14 tests.InstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D2042e688dd1ee04dccce26ccdad7f757f8688f1416.vtp\r\n..LoadILLDiffraction-[Warning] Invalid value for DataType: Calibrated data requested, but only raw data exists in this NeXus file.\r\n..LoadILLDiffraction-[Notice] LoadILLDiffraction started\r\nLoadILLDiffraction-[Notice] LoadILLDiffraction successful, Duration 0.61 seconds\r\n.Load-[Notice] Load started\r\nLoad-[Notice] Load successful, Duration 0.30 seconds\r\n.InstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D2Bfed5c17191ce18f4c6a528b1c0feee2d87e63c68.vtp\r\n\r\nIn LoadILLDiffractionTest::test_D2B_alignment:\r\nC:/Jenkins/workspace/main_nightly_deployment_prototype/Framework/DataHandling/test/LoadILLDiffractionTest.h:375: Error: Assertion failed: !outputWS-&gt;detectorInfo().isMonitor(16385 * 25)\r\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D2B53e992e65214c96c9dd51bd3b1c27f335fb79504.vtp\r\n...InstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D2B3b7f429c025fbdc995eaf67c0329ff427a57bfbe.vtp\r\n.LoadILLDiffraction-[Notice] A 2theta offset angle is necessary for D1B data.\r\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D1B8d3124501c775196e31d5ce933bb9a51db0c969e.vtp\r\n.InstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D4C9855f30ada2b9daf2a2bbd5d419002c425d3cd22.vtp\r\n.\r\nFailed 1 of 14 tests\r\nSuccess rate: 92%\r\n\r\n          Start  887: DataHandlingTest_LoadILLDiffractionTest\r\n"
-            }
-        },
-        {
-            "test_name": "APITest_InstrumentFileFinderTest",
-            "latest_failed_build": "476",
-            "agent_name": "Windows",
-            "last_failed_outcome": "Flake",
-            "pipeline_name": "main_nightly_deployment_prototype",
-            "problem_count": 1,
-            "past_outcome": {
-                "build_keys": [
-                    "479",
-                    "478",
-                    "477",
-                    "476",
-                    "475",
-                    "472"
-                ],
-                "past_outcome_list": [
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Flake",
-                    "Passed",
-                    "Passed"
-                ]
-            },
-            "last_stack_traces": {
-                "test_name": "APITest_InstrumentFileFinderTest",
-                "build": "476",
-                "agent_name": "Windows",
-                "trial": 1,
-                "outcome": "Failed",
-                "test_time": "9.06",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221221.1509\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 10 tests\r\nIn InstrumentFileFinderTest::testAllDatesInIDFs:\r\nC:/Jenkins/workspace/main_nightly_deployment_prototype/Framework/API/test/InstrumentFileFinderTest.h:38: Error: Test failed: File not found\r\n.........\r\nFailed 1 of 10 tests\r\nSuccess rate: 90%\r\n\r\n          Start  538: APITest_InstrumentFileFinderTest\r\n"
+                "test_time": "10.72",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230105.1946\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 14 tests...LoadILLDiffraction-[Warning] Invalid value for DataType: Calibrated data requested, but only raw data exists in this NeXus file.\r\n..LoadILLDiffraction-[Notice] LoadILLDiffraction started\r\nLoadILLDiffraction-[Notice] LoadILLDiffraction successful, Duration 1.20 seconds\r\n.Load-[Notice] Load started\r\nLoad-[Notice] Load successful, Duration 0.46 seconds\r\n.InstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D2Bfed5c17191ce18f4c6a528b1c0feee2d87e63c68.vtp\r\n\r\nIn LoadILLDiffractionTest::test_D2B_alignment:\r\nC:/Jenkins/workspace/main_nightly_deployment_prototype/Framework/DataHandling/test/LoadILLDiffractionTest.h:375: Error: Assertion failed: !outputWS-&gt;detectorInfo().isMonitor(16385 * 25)\r\n...InstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D2B3b7f429c025fbdc995eaf67c0329ff427a57bfbe.vtp\r\n.LoadILLDiffraction-[Notice] A 2theta offset angle is necessary for D1B data.\r\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D1B8d3124501c775196e31d5ce933bb9a51db0c969e.vtp\r\n..\r\nFailed 1 of 14 tests\r\nSuccess rate: 92%\r\n\r\n          Start  887: DataHandlingTest_LoadILLDiffractionTest\r\n"
             }
         }
     ]

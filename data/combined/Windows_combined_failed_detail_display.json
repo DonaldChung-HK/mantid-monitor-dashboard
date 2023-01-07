@@ -618,9 +618,10 @@
                 "pull_requests-conda-windows_1094": "Flake",
                 "pull_requests-conda-windows_1095": "Flake",
                 "pull_requests-conda-windows_1104": "Flake",
-                "main_nightly_deployment_prototype_480": "Flake"
+                "main_nightly_deployment_prototype_480": "Flake",
+                "pull_requests-conda-windows_1111": "Flake"
             },
-            "last_fail_detected": "2023-01-06"
+            "last_fail_detected": "2023-01-07"
         },
         {
             "test_name": "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest",

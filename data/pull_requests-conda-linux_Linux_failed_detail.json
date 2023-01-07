@@ -1,14 +1,19 @@
 {
     "data": [
         {
-            "test_name": "mantidqt_qt5.test_async.test_async",
-            "latest_failed_build": "2374",
+            "test_name": "python.drill.DrillTest.DrillTest",
+            "latest_failed_build": "2405",
             "agent_name": "Linux",
-            "last_failed_outcome": "Failed",
+            "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-linux",
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2405",
+                    "2404",
+                    "2403",
+                    "2402",
+                    "2401",
                     "2400",
                     "2399",
                     "2398",
@@ -33,14 +38,14 @@
                     "2379",
                     "2378",
                     "2377",
-                    "2376",
-                    "2375",
-                    "2374",
-                    "2373",
-                    "2372",
-                    "2371"
+                    "2376"
                 ],
                 "past_outcome_list": [
+                    "Flake",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -63,24 +68,19 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Failed",
                     "Passed",
                     "Passed",
                     "Passed"
                 ]
             },
             "last_stack_traces": {
-                "test_name": "mantidqt_qt5.test_async.test_async",
-                "build": "2374",
+                "test_name": "python.drill.DrillTest.DrillTest",
+                "build": "2405",
                 "agent_name": "Linux",
-                "trial": 3,
+                "trial": 1,
                 "outcome": "Failed",
-                "test_time": "0.78",
-                "stacktrace": ".....FF....\n======================================================================\nFAIL: test_unsuccessful_no_arg_operation_calls_error_and_finished_callback (test_async.AsyncTaskTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqt/mantidqt/utils/test/test_async.py&quot;, line 102, in test_unsuccessful_no_arg_operation_calls_error_and_finished_callback\n    self.assertEqual(65, recv.task_exc_stack[0][1])\nAssertionError: 65 != 63\n\n======================================================================\nFAIL: test_unsuccessful_operation_with_error_cb (test_async.AsyncTaskTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqt/mantidqt/utils/test/test_async.py&quot;, line 137, in test_unsuccessful_operation_with_error_cb\n    self.assertEqual(133, recv.task_exc_stack[1][1])\nAssertionError: 133 != 127\n\n----------------------------------------------------------------------\nRan 11 tests in 0.122s\n\nFAILED (failures=2)\n\n          Start 2368: python.drill.DrillParameterControllerTest.DrillParameterControllerTest\n"
+                "test_time": "5.88",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230106.2203\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\nan integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\n....an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\n....AttributeError: &#x27;QToolButton&#x27; does not have a signal with the signature instrumentChanged(QString)\nSubprocess aborted\n\n          Start 2368: python.drill.DrillTest.DrillTest\n"
             }
         }
     ]

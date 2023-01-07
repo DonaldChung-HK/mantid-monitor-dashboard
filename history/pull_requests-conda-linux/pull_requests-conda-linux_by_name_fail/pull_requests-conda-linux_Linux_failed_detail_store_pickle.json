@@ -1499,23 +1499,22 @@
         "python.drill.DrillTest.DrillTest": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "python.drill.DrillTest.DrillTest",
-            "latest_failed_build": "2117",
+            "latest_failed_build": "2405",
             "agent_name": "Linux",
-            "last_failed_outcome": "Failed",
+            "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-linux",
             "past_failed_outcome": {
-                "2116": "Failed",
-                "2117": "Failed"
+                "2405": "Flake"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "python.drill.DrillTest.DrillTest",
-                "build": "2117",
+                "build": "2405",
                 "agent_name": "Linux",
-                "trial": 3,
+                "trial": 1,
                 "outcome": "Failed",
-                "test_time": "3.57",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221202.1312\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\nan integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\n...Traceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqtinterfaces/mantidqtinterfaces/drill/presenter/DrillPresenter.py&quot;, line 311, in instrumentChanged\n    self.model.setInstrument(instrument)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqtinterfaces/mantidqtinterfaces/drill/model/DrillModel.py&quot;, line 156, in setInstrument\n    self.setAcquisitionMode(RundexSettings.ACQUISITION_MODES[instrument][0])\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqtinterfaces/mantidqtinterfaces/drill/model/DrillModel.py&quot;, line 198, in setAcquisitionMode\n    self._initProcessingParameters()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqtinterfaces/mantidqtinterfaces/drill/model/DrillModel.py&quot;, line 300, in _initProcessingParameters\n    alg = sapi.AlgorithmManager.createUnmanaged(self.algorithm)\nRuntimeError: AlgorithmFactory::highestVersion() - Unknown algorithm &#x27;ILLLagrange&#x27;\nSubprocess aborted\n\n          Start 1024: DataObjectsTest_CoordTransformAlignedTest\n"
+                "test_time": "5.88",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230106.2203\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\nan integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\n....an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\n....AttributeError: &#x27;QToolButton&#x27; does not have a signal with the signature instrumentChanged(QString)\nSubprocess aborted\n\n          Start 2368: python.drill.DrillTest.DrillTest\n"
             }
         },
         "python.WorkflowAlgorithms.MDNormSCDPreprocessIncoherentTest.MDNormSCDPreprocessIncoherentTest": {

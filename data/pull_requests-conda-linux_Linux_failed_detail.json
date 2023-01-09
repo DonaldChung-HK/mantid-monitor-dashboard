@@ -9,6 +9,14 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2413",
+                    "2412",
+                    "2411",
+                    "2410",
+                    "2409",
+                    "2408",
+                    "2407",
+                    "2406",
                     "2405",
                     "2404",
                     "2403",
@@ -30,17 +38,17 @@
                     "2387",
                     "2386",
                     "2385",
-                    "2384",
-                    "2383",
-                    "2382",
-                    "2381",
-                    "2380",
-                    "2379",
-                    "2378",
-                    "2377",
-                    "2376"
+                    "2384"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "None",
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "None",
                     "Flake",
                     "Passed",
                     "Passed",
@@ -62,15 +70,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "None",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {

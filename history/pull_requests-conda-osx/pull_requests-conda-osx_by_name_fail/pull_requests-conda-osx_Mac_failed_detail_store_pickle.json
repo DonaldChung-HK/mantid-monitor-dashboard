@@ -1988,24 +1988,22 @@
         "python.drill.DrillTest.DrillTest": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "python.drill.DrillTest.DrillTest",
-            "latest_failed_build": "1006",
+            "latest_failed_build": "1065",
             "agent_name": "Mac",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-osx",
             "past_failed_outcome": {
-                "994": "Flake",
-                "997": "Flake",
-                "1006": "Flake"
+                "1065": "Flake"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "python.drill.DrillTest.DrillTest",
-                "build": "1006",
+                "build": "1065",
                 "agent_name": "Mac",
                 "trial": 1,
                 "outcome": "Failed",
-                "test_time": "10.77",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230103.930\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nan integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\n..AttributeError: &#x27;QAction&#x27; does not have a signal with the signature instrumentChanged(QString)\nSubprocess aborted\n\n          Start 2367: python.drill.DrillTest.DrillTest\n"
+                "test_time": "15.63",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230109.1128\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nan integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\n....an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\n...AttributeError: &#x27;DrillView&#x27; does not have a signal with the signature instrumentChanged(QString)\nSubprocess aborted\n\n          Start 2367: python.drill.DrillTest.DrillTest\n"
             }
         },
         "python.WorkflowAlgorithms.EnergyWindowScanTest.EnergyWindowScanTest": {

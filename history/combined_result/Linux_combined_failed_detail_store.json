@@ -698,9 +698,10 @@
                 "pull_requests-conda-linux_2116": "Failed",
                 "pull_requests-conda-linux_2117": "Failed",
                 "main_nightly_deployment_prototype_478": "Flake",
-                "pull_requests-conda-linux_2405": "Flake"
+                "pull_requests-conda-linux_2405": "Flake",
+                "pull_requests-conda-linux_2429": "Flake"
             },
-            "last_fail_detected": "2023-01-07"
+            "last_fail_detected": "2023-01-10"
         },
         "python.WorkflowAlgorithms.MDNormSCDPreprocessIncoherentTest.MDNormSCDPreprocessIncoherentTest": {
             "test_name": "python.WorkflowAlgorithms.MDNormSCDPreprocessIncoherentTest.MDNormSCDPreprocessIncoherentTest",

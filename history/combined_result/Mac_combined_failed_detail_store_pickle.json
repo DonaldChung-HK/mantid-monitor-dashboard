@@ -806,9 +806,13 @@
                 "pull_requests-conda-osx_939": "Flake",
                 "pull_requests-conda-osx_1016": "Flake",
                 "pull_requests-conda-osx_1030": "Failed",
-                "pull_requests-conda-osx_1031": "Failed"
+                "pull_requests-conda-osx_1031": "Failed",
+                "pull_requests-conda-osx_1070": "Flake",
+                "pull_requests-conda-osx_1073": "Flake",
+                "pull_requests-conda-osx_1082": "Flake",
+                "pull_requests-conda-osx_1086": "Flake"
             },
-            "last_fail_detected": "2023-01-05"
+            "last_fail_detected": "2023-01-10"
         },
         "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -989,9 +993,10 @@
                 "pull_requests-conda-osx_994": "Flake",
                 "pull_requests-conda-osx_997": "Flake",
                 "pull_requests-conda-osx_1006": "Flake",
-                "pull_requests-conda-osx_1065": "Flake"
+                "pull_requests-conda-osx_1065": "Flake",
+                "pull_requests-conda-osx_1089": "Flake"
             },
-            "last_fail_detected": "2023-01-09"
+            "last_fail_detected": "2023-01-10"
         },
         "python.WorkflowAlgorithms.EnergyWindowScanTest.EnergyWindowScanTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -1021,6 +1026,26 @@
                 "pull_requests-conda-osx_1038": "Failed"
             },
             "last_fail_detected": "2023-01-05"
+        },
+        "AlgorithmsTest_SofQCommonTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "AlgorithmsTest_SofQCommonTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_1087": "Failed",
+                "pull_requests-conda-osx_1088": "Failed",
+                "pull_requests-conda-osx_1089": "Failed"
+            },
+            "last_fail_detected": "2023-01-10"
+        },
+        "MDAlgorithmsTest_LoadMDTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "MDAlgorithmsTest_LoadMDTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "main_nightly_deployment_prototype_482": "Flake"
+            },
+            "last_fail_detected": "2023-01-10"
         }
     }
 }

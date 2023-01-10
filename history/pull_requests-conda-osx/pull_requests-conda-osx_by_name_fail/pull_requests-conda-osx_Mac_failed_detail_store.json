@@ -1442,22 +1442,24 @@
         },
         "DataHandlingTest_LoadILLDiffractionTest": {
             "test_name": "DataHandlingTest_LoadILLDiffractionTest",
-            "latest_failed_build": "1031",
+            "latest_failed_build": "1086",
             "agent_name": "Mac",
-            "last_failed_outcome": "Failed",
+            "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-osx",
             "past_failed_outcome": {
-                "1030": "Failed",
-                "1031": "Failed"
+                "1070": "Flake",
+                "1073": "Flake",
+                "1082": "Flake",
+                "1086": "Flake"
             },
             "last_stack_traces": {
                 "test_name": "DataHandlingTest_LoadILLDiffractionTest",
-                "build": "1031",
+                "build": "1086",
                 "agent_name": "Mac",
-                "trial": 3,
+                "trial": 1,
                 "outcome": "Failed",
-                "test_time": "11.36",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230104.1614\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 11 tests.DllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n...LoadILLDiffraction-[Notice] LoadILLDiffraction started\nLoadILLDiffraction-[Notice] LoadILLDiffraction successful, Duration 1.14 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.94 seconds\n.\nIn LoadILLDiffractionTest::test_D2B_alignment:\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/LoadILLDiffractionTest.h:362: Error: Assertion failed: run.hasProperty(&quot;MaxHeight&quot;)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/LoadILLDiffractionTest.h:364: Error: Test failed: Unknown property search object MaxHeight\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/LoadILLDiffractionTest.h:367: Error: Expected (tube1CentreTime1.Y() == 0.) up to 0.001 (0.0010000000), found (0.0152324218 != 0.0000000000)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/LoadILLDiffractionTest.h:370: Error: Expected (theta == 11.25) up to 0.001 (0.0010000000), found (11.2698762844 != 11.2500000084)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/LoadILLDiffractionTest.h:372: Error: Expected (tube1CentreTime2.Y() == 0.) up to 0.001 (0.0010000000), found (0.0152324218 != 0.0000000000)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/LoadILLDiffractionTest.h:374: Error: Expected (theta == 11.2) up to 0.001 (0.0010000000), found (11.2199671743 != 11.2000000084)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/LoadILLDiffractionTest.h:376: Error: Expected (tube23CentreTime1.Y() == 0.) up to 0.001 (0.0010000000), found (0.0124628906 != 0.0000000000)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/LoadILLDiffractionTest.h:378: Error: Expected (theta == 16.238) up to 0.001 (0.0010000000), found (16.2590860074 != 16.2380000028)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/LoadILLDiffractionTest.h:380: Error: Expected (tube23CentreTime2.Y() == 0.) up to 0.001 (0.0010000000), found (0.0124628906 != 0.0000000000)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/LoadILLDiffractionTest.h:382: Error: Expected (theta == 16.288) up to 0.001 (0.0010000000), found (16.3090565970 != 16.2880000028)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/LoadILLDiffractionTest.h:384: Error: Expected (tube128CentreTime1.Y() == 0.) up to 0.001 (0.0010000000), found (0.0096933593 != 0.0000000000)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/LoadILLDiffractionTest.h:386: Error: Expected (theta == 147.5) up to 0.001 (0.0010000000), found (147.4974845948 != 147.5000000262)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/LoadILLDiffractionTest.h:388: Error: Expected (tube128CentreTime2.Y() == 0.) up to 0.001 (0.0010000000), found (0.0096933593 != 0.0000000000)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/LoadILLDiffractionTest.h:390: Error: Expected (theta == 147.55) up to 0.001 (0.0010000000), found (147.5474797444 != 147.5500000262)\n..LoadILLDiffraction-[Notice] A 2theta offset angle is necessary for D1B data.\n..\nFailed 1 of 11 tests\nSuccess rate: 90%\n\n          Start  692: CurveFittingTest_SplineSmoothingTest\n"
+                "test_time": "19.39",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230109.2042\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 14 tests.DllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n..LoadILLDiffraction-[Warning] Invalid value for DataType: Calibrated data requested, but only raw data exists in this NeXus file.\n..LoadILLDiffraction-[Notice] LoadILLDiffraction started\nLoadILLDiffraction-[Notice] LoadILLDiffraction successful, Duration 1.48 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 1.13 seconds\n.InstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D2Bfed5c17191ce18f4c6a528b1c0feee2d87e63c68.vtp\n\nIn LoadILLDiffractionTest::test_D2B_alignment:\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/LoadILLDiffractionTest.h:375: Error: Assertion failed: !outputWS-&gt;detectorInfo().isMonitor(16385 * 25)\n...InstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D2B3b7f429c025fbdc995eaf67c0329ff427a57bfbe.vtp\n.LoadILLDiffraction-[Notice] A 2theta offset angle is necessary for D1B data.\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D1B8d3124501c775196e31d5ce933bb9a51db0c969e.vtp\n.InstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D4C9855f30ada2b9daf2a2bbd5d419002c425d3cd22.vtp\n.\nFailed 1 of 14 tests\nSuccess rate: 92%\n\n          Start  888: DataHandlingTest_LoadILLDiffractionTest\n"
             }
         },
         "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter": {
@@ -1808,21 +1810,22 @@
         },
         "python.drill.DrillTest.DrillTest": {
             "test_name": "python.drill.DrillTest.DrillTest",
-            "latest_failed_build": "1065",
+            "latest_failed_build": "1089",
             "agent_name": "Mac",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-osx",
             "past_failed_outcome": {
-                "1065": "Flake"
+                "1065": "Flake",
+                "1089": "Flake"
             },
             "last_stack_traces": {
                 "test_name": "python.drill.DrillTest.DrillTest",
-                "build": "1065",
+                "build": "1089",
                 "agent_name": "Mac",
                 "trial": 1,
                 "outcome": "Failed",
-                "test_time": "15.63",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230109.1128\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nan integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\n....an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\n...AttributeError: &#x27;DrillView&#x27; does not have a signal with the signature instrumentChanged(QString)\nSubprocess aborted\n\n          Start 2367: python.drill.DrillTest.DrillTest\n"
+                "test_time": "16.58",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230109.2211\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nan integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\n....an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\n....AttributeError: &#x27;DrillView&#x27; does not have a signal with the signature instrumentChanged(QString)\nSubprocess aborted\n\n          Start 2367: python.drill.DrillTest.DrillTest\n"
             }
         },
         "python.WorkflowAlgorithms.EnergyWindowScanTest.EnergyWindowScanTest": {
@@ -1882,6 +1885,27 @@
                 "outcome": "Failed",
                 "test_time": "0.78",
                 "stacktrace": ".....FF....\n======================================================================\nFAIL: test_unsuccessful_no_arg_operation_calls_error_and_finished_callback (test_async.AsyncTaskTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/utils/test/test_async.py&quot;, line 102, in test_unsuccessful_no_arg_operation_calls_error_and_finished_callback\n    self.assertEqual(65, recv.task_exc_stack[0][1])\nAssertionError: 65 != 63\n\n======================================================================\nFAIL: test_unsuccessful_operation_with_error_cb (test_async.AsyncTaskTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/utils/test/test_async.py&quot;, line 137, in test_unsuccessful_operation_with_error_cb\n    self.assertEqual(133, recv.task_exc_stack[1][1])\nAssertionError: 133 != 127\n\n----------------------------------------------------------------------\nRan 11 tests in 0.005s\n\nFAILED (failures=2)\n\n          Start   74: KernelTest_MaterialBuilderTest\n"
+            }
+        },
+        "AlgorithmsTest_SofQCommonTest": {
+            "test_name": "AlgorithmsTest_SofQCommonTest",
+            "latest_failed_build": "1089",
+            "agent_name": "Mac",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-osx",
+            "past_failed_outcome": {
+                "1087": "Failed",
+                "1088": "Failed",
+                "1089": "Failed"
+            },
+            "last_stack_traces": {
+                "test_name": "AlgorithmsTest_SofQCommonTest",
+                "build": "1089",
+                "agent_name": "Mac",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "0.75",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230109.2211\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 10 tests........\nIn SofQCommonTest::testDirectQ:\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/Algorithms/test/SofQCommonTest.h:206: Error: Expected (s.q(testDeltaE, twoTheta, nullptr) == expected), found (0.3519644320 != 0.3519644320)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/Algorithms/test/SofQCommonTest.h:206: Error: Expected (s.q(testDeltaE, twoTheta, nullptr) == expected), found (0.3533975892 != 0.3533975892)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/Algorithms/test/SofQCommonTest.h:206: Error: Expected (s.q(testDeltaE, twoTheta, nullptr) == expected), found (0.3576575258 != 0.3576575258)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/Algorithms/test/SofQCommonTest.h:206: Error: Expected (s.q(testDeltaE, twoTheta, nullptr) == expected), found (0.3646302840 != 0.3646302840)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/Algorithms/test/SofQCommonTest.h:206: Error: Expected (s.q(testDeltaE, twoTheta, nullptr) == expected), found (0.3741401876 != 0.3741401876)\n.\nFailed 1 of 10 tests\nSuccess rate: 90%\n\n          Start 2035: mantidqt_qt5.test_completion.test_completion\n"
             }
         }
     }

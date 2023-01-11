@@ -1,6 +1,43 @@
 {
     "data": [
         {
+            "test_name": "AlgorithmsTest_LogarithmTest",
+            "latest_failed_build": "483",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "main_nightly_deployment_prototype",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "484",
+                    "483",
+                    "482",
+                    "481",
+                    "480",
+                    "479",
+                    "478"
+                ],
+                "past_outcome_list": [
+                    "Passed",
+                    "Failed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "AlgorithmsTest_LogarithmTest",
+                "build": "483",
+                "agent_name": "Windows",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "0.37",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230110.2239\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 4 tests.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nLogarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  324: AlgorithmsTest_He3TubeEfficiencyTest\r\n"
+            }
+        },
+        {
             "test_name": "DataHandlingTest_LoadILLDiffractionTest",
             "latest_failed_build": "480",
             "agent_name": "Windows",
@@ -9,22 +46,22 @@
             "problem_count": 2,
             "past_outcome": {
                 "build_keys": [
+                    "484",
+                    "483",
                     "482",
                     "481",
                     "480",
                     "479",
-                    "478",
-                    "475",
-                    "472"
+                    "478"
                 ],
                 "past_outcome_list": [
                     "Passed",
                     "Passed",
-                    "Flake",
+                    "Passed",
                     "Passed",
                     "Flake",
                     "Passed",
-                    "Passed"
+                    "Flake"
                 ]
             },
             "last_stack_traces": {

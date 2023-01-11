@@ -1907,6 +1907,25 @@
                 "test_time": "0.75",
                 "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230109.2211\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 10 tests........\nIn SofQCommonTest::testDirectQ:\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/Algorithms/test/SofQCommonTest.h:206: Error: Expected (s.q(testDeltaE, twoTheta, nullptr) == expected), found (0.3519644320 != 0.3519644320)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/Algorithms/test/SofQCommonTest.h:206: Error: Expected (s.q(testDeltaE, twoTheta, nullptr) == expected), found (0.3533975892 != 0.3533975892)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/Algorithms/test/SofQCommonTest.h:206: Error: Expected (s.q(testDeltaE, twoTheta, nullptr) == expected), found (0.3576575258 != 0.3576575258)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/Algorithms/test/SofQCommonTest.h:206: Error: Expected (s.q(testDeltaE, twoTheta, nullptr) == expected), found (0.3646302840 != 0.3646302840)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/Algorithms/test/SofQCommonTest.h:206: Error: Expected (s.q(testDeltaE, twoTheta, nullptr) == expected), found (0.3741401876 != 0.3741401876)\n.\nFailed 1 of 10 tests\nSuccess rate: 90%\n\n          Start 2035: mantidqt_qt5.test_completion.test_completion\n"
             }
+        },
+        "python.DNSReductionQt5.file_selector_presenter_test.file_selector_presenter_test": {
+            "test_name": "python.DNSReductionQt5.file_selector_presenter_test.file_selector_presenter_test",
+            "latest_failed_build": "1100",
+            "agent_name": "Mac",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-osx",
+            "past_failed_outcome": {
+                "1100": "Failed"
+            },
+            "last_stack_traces": {
+                "test_name": "python.DNSReductionQt5.file_selector_presenter_test.file_selector_presenter_test",
+                "build": "1100",
+                "agent_name": "Mac",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "1.04",
+                "stacktrace": ".........E................\n======================================================================\nERROR: test_format_view (file_selector_presenter_test.DNSFileSelectorPresenterTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/test/dns_powder_tof/file_selector/file_selector_presenter_test.py&quot;, line 306, in test_format_view\n    self.presenter._format_view()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqtinterfaces/mantidqtinterfaces/dns_powder_tof/file_selector/file_selector_presenter.py&quot;, line 229, in _format_view\n    if file_count &lt;= 150:\nTypeError: &#x27;&lt;=&#x27; not supported between instances of &#x27;MagicMock&#x27; and &#x27;int&#x27;\n\n----------------------------------------------------------------------\nRan 26 tests in 0.370s\n\nFAILED (errors=1)\n\n          Start 2169: python.MuonQt5.ea_match_table_presenter_test.ea_match_table_presenter_test\n"
+            }
         }
     }
 }

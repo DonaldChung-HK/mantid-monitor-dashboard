@@ -947,6 +947,14 @@
                 "main_nightly_deployment_prototype_482": "Flake"
             },
             "last_fail_detected": "2023-01-10"
+        },
+        "python.DNSReductionQt5.file_selector_presenter_test.file_selector_presenter_test": {
+            "test_name": "python.DNSReductionQt5.file_selector_presenter_test.file_selector_presenter_test",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_1100": "Failed"
+            },
+            "last_fail_detected": "2023-01-11"
         }
     }
 }

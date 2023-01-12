@@ -812,6 +812,20 @@
                 "pull_requests-conda-linux_2442": "Failed"
             },
             "last_fail_detected": "2023-01-11"
+        },
+        {
+            "test_name": "workbench.test_mainwindow.test_mainwindow",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2450": "Failed"
+            },
+            "last_fail_detected": "2023-01-12"
+        },
+        {
+            "test_name": "python.algorithms.SaveINSTest.SaveINSTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2444": "Failed"
+            },
+            "last_fail_detected": "2023-01-12"
         }
     ]
 }

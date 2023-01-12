@@ -562,9 +562,12 @@
                 "pull_requests-conda-windows_666": "Flake",
                 "pull_requests-conda-windows_1142": "Failed",
                 "pull_requests-conda-windows_1147": "Failed",
-                "main_nightly_deployment_prototype_483": "Failed"
+                "main_nightly_deployment_prototype_483": "Failed",
+                "pull_requests-conda-windows_1151": "Failed",
+                "pull_requests-conda-windows_1158": "Flake",
+                "main_nightly_deployment_prototype_485": "Failed"
             },
-            "last_fail_detected": "2023-01-11"
+            "last_fail_detected": "2023-01-12"
         },
         "MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -701,9 +704,10 @@
                 "pull_requests-conda-windows_1137": "Flake",
                 "pull_requests-conda-windows_1145": "Flake",
                 "pull_requests-conda-windows_1148": "Flake",
-                "pull_requests-conda-windows_1150": "Flake"
+                "pull_requests-conda-windows_1150": "Flake",
+                "pull_requests-conda-windows_1158": "Flake"
             },
-            "last_fail_detected": "2023-01-11"
+            "last_fail_detected": "2023-01-12"
         },
         "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -1751,9 +1755,11 @@
                 "pull_requests-conda-windows_1136": "Flake",
                 "pull_requests-conda-windows_1142": "Failed",
                 "pull_requests-conda-windows_1145": "Failed",
-                "pull_requests-conda-windows_1146": "Failed"
+                "pull_requests-conda-windows_1146": "Failed",
+                "pull_requests-conda-windows_1158": "Failed",
+                "pull_requests-conda-windows_1159": "Flake"
             },
-            "last_fail_detected": "2023-01-11"
+            "last_fail_detected": "2023-01-12"
         },
         "python.WorkflowAlgorithms.SaveVulcanGSSTest.SaveVulcanGSSTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -1799,9 +1805,11 @@
                 "pull_requests-conda-windows_942": "Flake",
                 "pull_requests-conda-windows_946": "Flake",
                 "pull_requests-conda-windows_1146": "Flake",
-                "pull_requests-conda-windows_1149": "Flake"
+                "pull_requests-conda-windows_1149": "Flake",
+                "pull_requests-conda-windows_1151": "Failed",
+                "pull_requests-conda-windows_1158": "Flake"
             },
-            "last_fail_detected": "2023-01-11"
+            "last_fail_detected": "2023-01-12"
         },
         "python.MuonQt5.basic_fitting_view_test.basic_fitting_view_test": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -1895,9 +1903,10 @@
             "test_name": "AlgorithmsTest_UnwrapSNSTest",
             "agent_name": "Windows",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_1150": "Flake"
+                "pull_requests-conda-windows_1150": "Flake",
+                "pull_requests-conda-windows_1159": "Flake"
             },
-            "last_fail_detected": "2023-01-11"
+            "last_fail_detected": "2023-01-12"
         },
         "python.DNSReductionQt5.file_selector_presenter_test.file_selector_presenter_test": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -1916,6 +1925,26 @@
                 "pull_requests-conda-windows_1144": "Flake"
             },
             "last_fail_detected": "2023-01-11"
+        },
+        "AlgorithmsTest_ExponentialTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "AlgorithmsTest_ExponentialTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_1156": "Flake",
+                "pull_requests-conda-windows_1158": "Flake",
+                "main_nightly_deployment_prototype_485": "Failed"
+            },
+            "last_fail_detected": "2023-01-12"
+        },
+        "python.algorithms.SaveINSTest.SaveINSTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "python.algorithms.SaveINSTest.SaveINSTest",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_1152": "Failed"
+            },
+            "last_fail_detected": "2023-01-12"
         }
     }
 }

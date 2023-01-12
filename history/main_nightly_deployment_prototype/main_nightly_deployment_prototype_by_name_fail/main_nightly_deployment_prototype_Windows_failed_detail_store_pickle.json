@@ -195,22 +195,44 @@
         "AlgorithmsTest_LogarithmTest": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "AlgorithmsTest_LogarithmTest",
-            "latest_failed_build": "483",
+            "latest_failed_build": "485",
             "agent_name": "Windows",
             "last_failed_outcome": "Failed",
             "pipeline_name": "main_nightly_deployment_prototype",
             "past_failed_outcome": {
-                "483": "Failed"
+                "483": "Failed",
+                "485": "Failed"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "AlgorithmsTest_LogarithmTest",
-                "build": "483",
+                "build": "485",
                 "agent_name": "Windows",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "0.37",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230110.2239\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 4 tests.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nLogarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  324: AlgorithmsTest_He3TubeEfficiencyTest\r\n"
+                "test_time": "0.39",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230111.1854\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 4 tests.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nLogarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start 1550: python.algorithms.LoadNMoldyn4Ascii1DTest.LoadNMoldyn4Ascii1DTest\r\n"
+            }
+        },
+        "AlgorithmsTest_ExponentialTest": {
+            "py/object": "datatable_helper.LTS_Problem_test_entry",
+            "test_name": "AlgorithmsTest_ExponentialTest",
+            "latest_failed_build": "485",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "main_nightly_deployment_prototype",
+            "past_failed_outcome": {
+                "485": "Failed"
+            },
+            "last_stack_traces": {
+                "py/object": "datatable_helper.Problem_test_trial",
+                "test_name": "AlgorithmsTest_ExponentialTest",
+                "build": "485",
+                "agent_name": "Windows",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "0.36",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230111.1854\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 3 tests.Exponential-[Notice] Exponential started\r\nExponential-[Notice] Exponential successful, Duration 0.00 seconds\r\n.Exponential-[Notice] Exponential started\r\nExponential-[Notice] Exponential successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start 2558: python.corelli.calibration.test_utils.test_utils\r\n"
             }
         }
     }

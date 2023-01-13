@@ -4740,6 +4740,170 @@
                     }
                 }
             }
+        },
+        "486": {
+            "py/object": "data_object.Build",
+            "build_name": "486",
+            "is_completed": false,
+            "aggregate": {
+                "Tested": 5309,
+                "Passed": 5305,
+                "Flake": 1,
+                "Failed": 3,
+                "Timeout": 0
+            },
+            "ctest_runs": {
+                "Mac": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Mac",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2654,
+                        "Passed": 2653,
+                        "Flake": 1,
+                        "Failed": 0,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {
+                            "DataHandlingTest_LoadILLDiffractionTest": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "DataHandlingTest_LoadILLDiffractionTest",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "23.11",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230112.1717\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 14 tests.DllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n..LoadILLDiffraction-[Warning] Invalid value for DataType: Calibrated data requested, but only raw data exists in this NeXus file.\n..LoadILLDiffraction-[Notice] LoadILLDiffraction started\nLoadILLDiffraction-[Notice] LoadILLDiffraction successful, Duration 1.76 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 1.31 seconds\n.InstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D2Bfed5c17191ce18f4c6a528b1c0feee2d87e63c68.vtp\n\nIn LoadILLDiffractionTest::test_D2B_alignment:\n/Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/Framework/DataHandling/test/LoadILLDiffractionTest.h:375: Error: Assertion failed: !outputWS-&gt;detectorInfo().isMonitor(16385 * 25)\n...InstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D2B3b7f429c025fbdc995eaf67c0329ff427a57bfbe.vtp\n.LoadILLDiffraction-[Notice] A 2theta offset angle is necessary for D1B data.\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D1B8d3124501c775196e31d5ce933bb9a51db0c969e.vtp\n..\nFailed 1 of 14 tests\nSuccess rate: 92%\n\n          Start  888: DataHandlingTest_LoadILLDiffractionTest\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Passed",
+                                        "test_time": "23.23",
+                                        "stack_trace": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "Failed": {},
+                        "Timeout": {}
+                    }
+                },
+                "Linux": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Linux",
+                    "is_not_found": true,
+                    "outcome_count": {
+                        "Tested": null,
+                        "Passed": null,
+                        "Flake": null,
+                        "Failed": null,
+                        "Timeout": null
+                    },
+                    "outcome_groups": {}
+                },
+                "Windows": {
+                    "py/object": "data_object.Ctest_run",
+                    "agent_name": "Windows",
+                    "is_not_found": false,
+                    "outcome_count": {
+                        "Tested": 2655,
+                        "Passed": 2652,
+                        "Flake": 0,
+                        "Failed": 3,
+                        "Timeout": 0
+                    },
+                    "outcome_groups": {
+                        "Flake": {},
+                        "Failed": {
+                            "AlgorithmsTest_LogarithmTest": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "AlgorithmsTest_LogarithmTest",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "4.11",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230112.1717\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 4 tests.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nLogarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  336: AlgorithmsTest_LogarithmTest\r\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "0.38",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230112.1717\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 4 tests.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nLogarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  336: AlgorithmsTest_LogarithmTest\r\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Failed",
+                                        "test_time": "0.86",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230112.1717\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 4 tests.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nLogarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  740: CurveFittingTest_ConvolutionTest\r\n"
+                                    }
+                                ]
+                            },
+                            "AlgorithmsTest_PowerTest": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "AlgorithmsTest_PowerTest",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "0.50",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230112.1717\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 11 tests.......Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  393: AlgorithmsTest_PowerTest\r\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "0.44",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230112.1717\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 11 tests.......Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  393: AlgorithmsTest_PowerTest\r\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Failed",
+                                        "test_time": "0.43",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230112.1717\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 11 tests.......Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  579: APITest_SpectrumInfoTest\r\n"
+                                    }
+                                ]
+                            },
+                            "AlgorithmsTest_RemoveLowResTOFTest": {
+                                "py/object": "data_object.Ctest_test",
+                                "test_name": "AlgorithmsTest_RemoveLowResTOFTest",
+                                "trials": [
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 1,
+                                        "outcome": "Failed",
+                                        "test_time": "0.53",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230112.1717\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 1 testRemoveLowResTOF-[Notice] RemoveLowResTOF started\r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 4 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 13 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 22 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 31 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] 4 spectra of 36 had all data removed.  The number of removed events is 400.\r\nRemoveLowResTOF-[Notice] RemoveLowResTOF successful, Duration 0.00 seconds\r\nEvents (Input) = 3600; Result = 3108, Low Res = 92.\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  412: AlgorithmsTest_RemoveLowResTOFTest\r\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 2,
+                                        "outcome": "Failed",
+                                        "test_time": "0.46",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230112.1717\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 1 testRemoveLowResTOF-[Notice] RemoveLowResTOF started\r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 4 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 13 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 22 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 31 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] 4 spectra of 36 had all data removed.  The number of removed events is 400.\r\nRemoveLowResTOF-[Notice] RemoveLowResTOF successful, Duration 0.00 seconds\r\nEvents (Input) = 3600; Result = 3108, Low Res = 92.\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  412: AlgorithmsTest_RemoveLowResTOFTest\r\n"
+                                    },
+                                    {
+                                        "py/object": "data_object.Ctest_test_trial",
+                                        "trial_num": 3,
+                                        "outcome": "Failed",
+                                        "test_time": "0.43",
+                                        "stack_trace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230112.1717\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 1 testRemoveLowResTOF-[Notice] RemoveLowResTOF started\r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 4 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 13 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 22 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 31 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] 4 spectra of 36 had all data removed.  The number of removed events is 400.\r\nRemoveLowResTOF-[Notice] RemoveLowResTOF successful, Duration 0.00 seconds\r\nEvents (Input) = 3600; Result = 3108, Low Res = 92.\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start 2285: python.MuonQt5.AxisChangerTwoPresenter_test.AxisChangerTwoPresenter_test\r\n"
+                                    }
+                                ]
+                            }
+                        },
+                        "Timeout": {}
+                    }
+                }
+            }
         }
     }
 }

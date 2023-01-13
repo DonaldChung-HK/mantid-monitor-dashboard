@@ -175,22 +175,23 @@
         },
         "AlgorithmsTest_LogarithmTest": {
             "test_name": "AlgorithmsTest_LogarithmTest",
-            "latest_failed_build": "485",
+            "latest_failed_build": "486",
             "agent_name": "Windows",
             "last_failed_outcome": "Failed",
             "pipeline_name": "main_nightly_deployment_prototype",
             "past_failed_outcome": {
                 "483": "Failed",
-                "485": "Failed"
+                "485": "Failed",
+                "486": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "AlgorithmsTest_LogarithmTest",
-                "build": "485",
+                "build": "486",
                 "agent_name": "Windows",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "0.39",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230111.1854\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 4 tests.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nLogarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start 1550: python.algorithms.LoadNMoldyn4Ascii1DTest.LoadNMoldyn4Ascii1DTest\r\n"
+                "test_time": "0.86",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230112.1717\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 4 tests.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nLogarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  740: CurveFittingTest_ConvolutionTest\r\n"
             }
         },
         "AlgorithmsTest_ExponentialTest": {
@@ -210,6 +211,44 @@
                 "outcome": "Failed",
                 "test_time": "0.36",
                 "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230111.1854\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 3 tests.Exponential-[Notice] Exponential started\r\nExponential-[Notice] Exponential successful, Duration 0.00 seconds\r\n.Exponential-[Notice] Exponential started\r\nExponential-[Notice] Exponential successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start 2558: python.corelli.calibration.test_utils.test_utils\r\n"
+            }
+        },
+        "AlgorithmsTest_PowerTest": {
+            "test_name": "AlgorithmsTest_PowerTest",
+            "latest_failed_build": "486",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "main_nightly_deployment_prototype",
+            "past_failed_outcome": {
+                "486": "Failed"
+            },
+            "last_stack_traces": {
+                "test_name": "AlgorithmsTest_PowerTest",
+                "build": "486",
+                "agent_name": "Windows",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "0.43",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230112.1717\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 11 tests.......Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  579: APITest_SpectrumInfoTest\r\n"
+            }
+        },
+        "AlgorithmsTest_RemoveLowResTOFTest": {
+            "test_name": "AlgorithmsTest_RemoveLowResTOFTest",
+            "latest_failed_build": "486",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "main_nightly_deployment_prototype",
+            "past_failed_outcome": {
+                "486": "Failed"
+            },
+            "last_stack_traces": {
+                "test_name": "AlgorithmsTest_RemoveLowResTOFTest",
+                "build": "486",
+                "agent_name": "Windows",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "0.43",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230112.1717\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 1 testRemoveLowResTOF-[Notice] RemoveLowResTOF started\r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 4 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 13 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 22 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 31 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] 4 spectra of 36 had all data removed.  The number of removed events is 400.\r\nRemoveLowResTOF-[Notice] RemoveLowResTOF successful, Duration 0.00 seconds\r\nEvents (Input) = 3600; Result = 3108, Low Res = 92.\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start 2285: python.MuonQt5.AxisChangerTwoPresenter_test.AxisChangerTwoPresenter_test\r\n"
             }
         }
     }

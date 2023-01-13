@@ -2,13 +2,14 @@
     "data": [
         {
             "test_name": "DataHandlingTest_LoadILLDiffractionTest",
-            "latest_failed_build": "485",
+            "latest_failed_build": "486",
             "agent_name": "Mac",
             "last_failed_outcome": "Flake",
             "pipeline_name": "main_nightly_deployment_prototype",
-            "problem_count": 1,
+            "problem_count": 2,
             "past_outcome": {
                 "build_keys": [
+                    "486",
                     "485",
                     "484",
                     "483",
@@ -19,6 +20,7 @@
                     "478"
                 ],
                 "past_outcome_list": [
+                    "Flake",
                     "Flake",
                     "Passed",
                     "Passed",
@@ -31,12 +33,12 @@
             },
             "last_stack_traces": {
                 "test_name": "DataHandlingTest_LoadILLDiffractionTest",
-                "build": "485",
+                "build": "486",
                 "agent_name": "Mac",
                 "trial": 1,
                 "outcome": "Failed",
-                "test_time": "20.13",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230111.1854\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 14 tests.DllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n..LoadILLDiffraction-[Warning] Invalid value for DataType: Calibrated data requested, but only raw data exists in this NeXus file.\n..LoadILLDiffraction-[Notice] LoadILLDiffraction started\nLoadILLDiffraction-[Notice] LoadILLDiffraction successful, Duration 1.41 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 1.09 seconds\n.InstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D2Bfed5c17191ce18f4c6a528b1c0feee2d87e63c68.vtp\n\nIn LoadILLDiffractionTest::test_D2B_alignment:\n/Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/Framework/DataHandling/test/LoadILLDiffractionTest.h:375: Error: Assertion failed: !outputWS-&gt;detectorInfo().isMonitor(16385 * 25)\n...InstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D2B3b7f429c025fbdc995eaf67c0329ff427a57bfbe.vtp\n.LoadILLDiffraction-[Notice] A 2theta offset angle is necessary for D1B data.\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D1B8d3124501c775196e31d5ce933bb9a51db0c969e.vtp\n..\nFailed 1 of 14 tests\nSuccess rate: 92%\n\n          Start  888: DataHandlingTest_LoadILLDiffractionTest\n"
+                "test_time": "23.11",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230112.1717\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 14 tests.DllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n..LoadILLDiffraction-[Warning] Invalid value for DataType: Calibrated data requested, but only raw data exists in this NeXus file.\n..LoadILLDiffraction-[Notice] LoadILLDiffraction started\nLoadILLDiffraction-[Notice] LoadILLDiffraction successful, Duration 1.76 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 1.31 seconds\n.InstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D2Bfed5c17191ce18f4c6a528b1c0feee2d87e63c68.vtp\n\nIn LoadILLDiffractionTest::test_D2B_alignment:\n/Users/builder/Jenkins/workspace/main_nightly_deployment_prototype/Framework/DataHandling/test/LoadILLDiffractionTest.h:375: Error: Assertion failed: !outputWS-&gt;detectorInfo().isMonitor(16385 * 25)\n...InstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D2B3b7f429c025fbdc995eaf67c0329ff427a57bfbe.vtp\n.LoadILLDiffraction-[Notice] A 2theta offset angle is necessary for D1B data.\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D1B8d3124501c775196e31d5ce933bb9a51db0c969e.vtp\n..\nFailed 1 of 14 tests\nSuccess rate: 92%\n\n          Start  888: DataHandlingTest_LoadILLDiffractionTest\n"
             }
         },
         {
@@ -48,6 +50,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "486",
                     "485",
                     "484",
                     "483",
@@ -58,6 +61,7 @@
                     "478"
                 ],
                 "past_outcome_list": [
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",

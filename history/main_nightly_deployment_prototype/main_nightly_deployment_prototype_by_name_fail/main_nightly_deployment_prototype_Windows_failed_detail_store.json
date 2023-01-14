@@ -250,6 +250,25 @@
                 "test_time": "0.43",
                 "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230112.1717\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 1 testRemoveLowResTOF-[Notice] RemoveLowResTOF started\r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 4 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 13 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 22 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 31 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] 4 spectra of 36 had all data removed.  The number of removed events is 400.\r\nRemoveLowResTOF-[Notice] RemoveLowResTOF successful, Duration 0.00 seconds\r\nEvents (Input) = 3600; Result = 3108, Low Res = 92.\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start 2285: python.MuonQt5.AxisChangerTwoPresenter_test.AxisChangerTwoPresenter_test\r\n"
             }
+        },
+        "AlgorithmsTest_MaskBinsTest": {
+            "test_name": "AlgorithmsTest_MaskBinsTest",
+            "latest_failed_build": "488",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Flake",
+            "pipeline_name": "main_nightly_deployment_prototype",
+            "past_failed_outcome": {
+                "488": "Flake"
+            },
+            "last_stack_traces": {
+                "test_name": "AlgorithmsTest_MaskBinsTest",
+                "build": "488",
+                "agent_name": "Windows",
+                "trial": 1,
+                "outcome": "Failed",
+                "test_time": "1.06",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.0.dev1901\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 12 tests...MaskBins-[Notice] MaskBins started\r\nPropertyManager-[Error] Property &quot;XMAX&quot; is not set to a valid value: &quot;Selected value 1.79769e+308 is &gt; the upper bound (1.77972e+308)&quot;.\r\nPropertyManager-[Error] Property &quot;XMIN&quot; is not set to a valid value: &quot;Selected value 1.79769e+308 is &gt; the upper bound (1.77972e+308)&quot;.\r\nPropertyManager-[Error] Property &quot;XMAX&quot; is not set to a valid value: &quot;Selected value 1.79769e+308 is &gt; the upper bound (1.77972e+308)&quot;.\r\nPropertyManager-[Error] Property &quot;XMIN&quot; is not set to a valid value: &quot;Selected value 1.79769e+308 is &gt; the upper bound (1.77972e+308)&quot;.\r\nMaskBins-[Notice] MaskBins started\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Error] Logic Error in execution of algorithm MaskBins\r\nMaskBins-[Error] When setting value of property &quot;InputWorkspaceIndexSet&quot;: Indices provided to IndexProperty are out of range: The following value is out of range: 10\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Warning] The &#x27;SpectraList&#x27; property is deprecated. Use &#x27;InputWorkspaceIndexSet&#x27; instead.\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Warning] The &#x27;SpectraList&#x27; property is deprecated. Use &#x27;InputWorkspaceIndexSet&#x27; instead.\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Warning] The &#x27;SpectraList&#x27; property is deprecated. Use &#x27;InputWorkspaceIndexSet&#x27; instead.\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Warning] The &#x27;SpectraList&#x27; property is deprecated. Use &#x27;InputWorkspaceIndexSet&#x27; instead.\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  344: AlgorithmsTest_MaskBinsTest\r\n"
+            }
         }
     }
 }

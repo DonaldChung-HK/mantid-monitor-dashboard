@@ -1,6 +1,49 @@
 {
     "data": [
         {
+            "test_name": "AlgorithmsTest_MaskBinsTest",
+            "latest_failed_build": "488",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Flake",
+            "pipeline_name": "main_nightly_deployment_prototype",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "488",
+                    "487",
+                    "486",
+                    "485",
+                    "484",
+                    "483",
+                    "482",
+                    "481",
+                    "480",
+                    "479"
+                ],
+                "past_outcome_list": [
+                    "Flake",
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "AlgorithmsTest_MaskBinsTest",
+                "build": "488",
+                "agent_name": "Windows",
+                "trial": 1,
+                "outcome": "Failed",
+                "test_time": "1.06",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.0.dev1901\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 12 tests...MaskBins-[Notice] MaskBins started\r\nPropertyManager-[Error] Property &quot;XMAX&quot; is not set to a valid value: &quot;Selected value 1.79769e+308 is &gt; the upper bound (1.77972e+308)&quot;.\r\nPropertyManager-[Error] Property &quot;XMIN&quot; is not set to a valid value: &quot;Selected value 1.79769e+308 is &gt; the upper bound (1.77972e+308)&quot;.\r\nPropertyManager-[Error] Property &quot;XMAX&quot; is not set to a valid value: &quot;Selected value 1.79769e+308 is &gt; the upper bound (1.77972e+308)&quot;.\r\nPropertyManager-[Error] Property &quot;XMIN&quot; is not set to a valid value: &quot;Selected value 1.79769e+308 is &gt; the upper bound (1.77972e+308)&quot;.\r\nMaskBins-[Notice] MaskBins started\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Error] Logic Error in execution of algorithm MaskBins\r\nMaskBins-[Error] When setting value of property &quot;InputWorkspaceIndexSet&quot;: Indices provided to IndexProperty are out of range: The following value is out of range: 10\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Warning] The &#x27;SpectraList&#x27; property is deprecated. Use &#x27;InputWorkspaceIndexSet&#x27; instead.\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Warning] The &#x27;SpectraList&#x27; property is deprecated. Use &#x27;InputWorkspaceIndexSet&#x27; instead.\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Warning] The &#x27;SpectraList&#x27; property is deprecated. Use &#x27;InputWorkspaceIndexSet&#x27; instead.\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Warning] The &#x27;SpectraList&#x27; property is deprecated. Use &#x27;InputWorkspaceIndexSet&#x27; instead.\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  344: AlgorithmsTest_MaskBinsTest\r\n"
+            }
+        },
+        {
             "test_name": "AlgorithmsTest_LogarithmTest",
             "latest_failed_build": "486",
             "agent_name": "Windows",
@@ -9,6 +52,8 @@
             "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
+                    "488",
+                    "487",
                     "486",
                     "485",
                     "484",
@@ -16,15 +61,15 @@
                     "482",
                     "481",
                     "480",
-                    "479",
-                    "478"
+                    "479"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "None",
                     "Failed",
                     "Failed",
                     "Passed",
                     "Failed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -50,6 +95,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "488",
+                    "487",
                     "486",
                     "485",
                     "484",
@@ -57,12 +104,12 @@
                     "482",
                     "481",
                     "480",
-                    "479",
-                    "478"
+                    "479"
                 ],
                 "past_outcome_list": [
-                    "Failed",
                     "Passed",
+                    "None",
+                    "Failed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -91,6 +138,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "488",
+                    "487",
                     "486",
                     "485",
                     "484",
@@ -98,12 +147,12 @@
                     "482",
                     "481",
                     "480",
-                    "479",
-                    "478"
+                    "479"
                 ],
                 "past_outcome_list": [
-                    "Failed",
                     "Passed",
+                    "None",
+                    "Failed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -132,6 +181,8 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "488",
+                    "487",
                     "486",
                     "485",
                     "484",
@@ -139,13 +190,13 @@
                     "482",
                     "481",
                     "480",
-                    "479",
-                    "478"
+                    "479"
                 ],
                 "past_outcome_list": [
                     "Passed",
-                    "Failed",
+                    "None",
                     "Passed",
+                    "Failed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -170,9 +221,11 @@
             "agent_name": "Windows",
             "last_failed_outcome": "Flake",
             "pipeline_name": "main_nightly_deployment_prototype",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "488",
+                    "487",
                     "486",
                     "485",
                     "484",
@@ -180,10 +233,11 @@
                     "482",
                     "481",
                     "480",
-                    "479",
-                    "478"
+                    "479"
                 ],
                 "past_outcome_list": [
+                    "Passed",
+                    "None",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -191,8 +245,7 @@
                     "Passed",
                     "Passed",
                     "Flake",
-                    "Passed",
-                    "Flake"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {

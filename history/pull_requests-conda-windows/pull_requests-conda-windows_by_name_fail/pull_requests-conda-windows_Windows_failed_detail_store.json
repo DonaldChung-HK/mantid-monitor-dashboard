@@ -1170,7 +1170,7 @@
         },
         "DataHandlingTest_LoadILLDiffractionTest": {
             "test_name": "DataHandlingTest_LoadILLDiffractionTest",
-            "latest_failed_build": "1204",
+            "latest_failed_build": "1205",
             "agent_name": "Windows",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-windows",
@@ -1180,11 +1180,12 @@
                 "1182": "Flake",
                 "1187": "Failed",
                 "1199": "Flake",
-                "1204": "Flake"
+                "1204": "Flake",
+                "1205": "Flake"
             },
             "last_stack_traces": {
                 "test_name": "DataHandlingTest_LoadILLDiffractionTest",
-                "build": "1204",
+                "build": "1205",
                 "agent_name": "Windows",
                 "trial": 1,
                 "outcome": "Failed",

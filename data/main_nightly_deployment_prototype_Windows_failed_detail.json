@@ -9,6 +9,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "489",
                     "488",
                     "487",
                     "486",
@@ -17,13 +18,12 @@
                     "483",
                     "482",
                     "481",
-                    "480",
-                    "479"
+                    "480"
                 ],
                 "past_outcome_list": [
+                    "Passed",
                     "Flake",
                     "None",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -52,6 +52,7 @@
             "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
+                    "489",
                     "488",
                     "487",
                     "486",
@@ -60,17 +61,16 @@
                     "483",
                     "482",
                     "481",
-                    "480",
-                    "479"
+                    "480"
                 ],
                 "past_outcome_list": [
+                    "Passed",
                     "Passed",
                     "None",
                     "Failed",
                     "Failed",
                     "Passed",
                     "Failed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -95,6 +95,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "489",
                     "488",
                     "487",
                     "486",
@@ -103,14 +104,13 @@
                     "483",
                     "482",
                     "481",
-                    "480",
-                    "479"
+                    "480"
                 ],
                 "past_outcome_list": [
                     "Passed",
+                    "Passed",
                     "None",
                     "Failed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -138,6 +138,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "489",
                     "488",
                     "487",
                     "486",
@@ -146,14 +147,13 @@
                     "483",
                     "482",
                     "481",
-                    "480",
-                    "479"
+                    "480"
                 ],
                 "past_outcome_list": [
                     "Passed",
+                    "Passed",
                     "None",
                     "Failed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -181,6 +181,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "489",
                     "488",
                     "487",
                     "486",
@@ -189,15 +190,14 @@
                     "483",
                     "482",
                     "481",
-                    "480",
-                    "479"
+                    "480"
                 ],
                 "past_outcome_list": [
+                    "Passed",
                     "Passed",
                     "None",
                     "Passed",
                     "Failed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -224,6 +224,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "489",
                     "488",
                     "487",
                     "486",
@@ -232,10 +233,10 @@
                     "483",
                     "482",
                     "481",
-                    "480",
-                    "479"
+                    "480"
                 ],
                 "past_outcome_list": [
+                    "Passed",
                     "Passed",
                     "None",
                     "Passed",
@@ -244,8 +245,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Flake",
-                    "Passed"
+                    "Flake"
                 ]
             },
             "last_stack_traces": {

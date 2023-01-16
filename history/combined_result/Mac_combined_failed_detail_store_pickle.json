@@ -1084,9 +1084,11 @@
                 "pull_requests-conda-osx_1065": "Flake",
                 "pull_requests-conda-osx_1089": "Flake",
                 "pull_requests-conda-osx_1141": "Flake",
-                "pull_requests-conda-osx_1142": "Flake"
+                "pull_requests-conda-osx_1142": "Flake",
+                "pull_requests-conda-osx_1150": "Flake",
+                "pull_requests-conda-osx_1151": "Flake"
             },
-            "last_fail_detected": "2023-01-14"
+            "last_fail_detected": "2023-01-16"
         },
         "python.WorkflowAlgorithms.EnergyWindowScanTest.EnergyWindowScanTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",

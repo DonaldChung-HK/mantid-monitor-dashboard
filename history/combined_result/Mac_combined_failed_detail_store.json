@@ -475,9 +475,10 @@
                 "pull_requests-conda-osx_1044": "Flake",
                 "pull_requests-conda-osx_1057": "Flake",
                 "pull_requests-conda-osx_1058": "Flake",
-                "pull_requests-conda-osx_1143": "Flake"
+                "pull_requests-conda-osx_1143": "Flake",
+                "pull_requests-conda-osx_1154": "Flake"
             },
-            "last_fail_detected": "2023-01-14"
+            "last_fail_detected": "2023-01-17"
         },
         "python.algorithms.HB2AReduceTest.HB2AReduceTest": {
             "test_name": "python.algorithms.HB2AReduceTest.HB2AReduceTest",
@@ -992,9 +993,10 @@
                 "pull_requests-conda-osx_1141": "Flake",
                 "pull_requests-conda-osx_1142": "Flake",
                 "pull_requests-conda-osx_1150": "Flake",
-                "pull_requests-conda-osx_1151": "Flake"
+                "pull_requests-conda-osx_1151": "Flake",
+                "pull_requests-conda-osx_1153": "Flake"
             },
-            "last_fail_detected": "2023-01-16"
+            "last_fail_detected": "2023-01-17"
         },
         "python.WorkflowAlgorithms.EnergyWindowScanTest.EnergyWindowScanTest": {
             "test_name": "python.WorkflowAlgorithms.EnergyWindowScanTest.EnergyWindowScanTest",

@@ -861,22 +861,23 @@
         "KernelTest_StdoutChannelTest": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "KernelTest_StdoutChannelTest",
-            "latest_failed_build": "1143",
+            "latest_failed_build": "1154",
             "agent_name": "Mac",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-osx",
             "past_failed_outcome": {
-                "1143": "Flake"
+                "1143": "Flake",
+                "1154": "Flake"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "KernelTest_StdoutChannelTest",
-                "build": "1143",
+                "build": "1154",
                 "agent_name": "Mac",
                 "trial": 1,
                 "outcome": "Failed",
-                "test_time": "0.83",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.0.dev1846\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 2 tests..OK!\nKernelTest(27198,0x7fff8d4d4380) malloc: *** error for object 0x7fa2f7c4ea30: incorrect checksum for freed object - object was probably modified after being freed.\n*** set a breakpoint in malloc_error_break to debug\nSubprocess aborted\n\n          Start  113: KernelTest_StdoutChannelTest\n"
+                "test_time": "0.63",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev3\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 2 tests..OK!\nKernelTest(33784,0x7fff8d4d4380) malloc: *** error for object 0x7f92dd4a1b68: incorrect checksum for freed object - object was probably modified after being freed.\n*** set a breakpoint in malloc_error_break to debug\nSubprocess aborted\n\n          Start  113: KernelTest_StdoutChannelTest\n"
             }
         },
         "python.algorithms.HB2AReduceTest.HB2AReduceTest": {
@@ -2026,7 +2027,7 @@
         "python.drill.DrillTest.DrillTest": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "python.drill.DrillTest.DrillTest",
-            "latest_failed_build": "1151",
+            "latest_failed_build": "1153",
             "agent_name": "Mac",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-osx",
@@ -2034,12 +2035,13 @@
                 "1141": "Flake",
                 "1142": "Flake",
                 "1150": "Flake",
-                "1151": "Flake"
+                "1151": "Flake",
+                "1153": "Flake"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "python.drill.DrillTest.DrillTest",
-                "build": "1151",
+                "build": "1153",
                 "agent_name": "Mac",
                 "trial": 1,
                 "outcome": "Failed",

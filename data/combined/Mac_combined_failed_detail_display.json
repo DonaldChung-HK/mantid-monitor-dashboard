@@ -487,9 +487,10 @@
             "test_name": "python.WorkflowAlgorithms.TransformToIqtTest.TransformToIqtTest",
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_446": "Flake",
-                "pull_requests-conda-osx_672": "Flake"
+                "pull_requests-conda-osx_672": "Flake",
+                "pull_requests-conda-osx_1165": "Flake"
             },
-            "last_fail_detected": "1990-01-01"
+            "last_fail_detected": "2023-01-18"
         },
         {
             "test_name": "mantidqt_qt5.test_cut_representation.test_cut_representation",
@@ -785,9 +786,10 @@
                 "pull_requests-conda-osx_1126": "Flake",
                 "main_nightly_deployment_prototype_486": "Flake",
                 "pull_requests-conda-osx_1145": "Flake",
-                "pull_requests-conda-osx_1146": "Flake"
+                "pull_requests-conda-osx_1146": "Flake",
+                "pull_requests-conda-osx_1175": "Failed"
             },
-            "last_fail_detected": "2023-01-14"
+            "last_fail_detected": "2023-01-18"
         },
         {
             "test_name": "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter",

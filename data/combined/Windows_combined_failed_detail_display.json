@@ -167,9 +167,10 @@
                 "pull_requests-conda-windows_1195": "Failed",
                 "pull_requests-conda-windows_1196": "Failed",
                 "pull_requests-conda-windows_1209": "Failed",
-                "pull_requests-conda-windows_1212": "Failed"
+                "pull_requests-conda-windows_1212": "Failed",
+                "pull_requests-conda-windows_1222": "Flake"
             },
-            "last_fail_detected": "2023-01-17"
+            "last_fail_detected": "2023-01-18"
         },
         {
             "test_name": "MantidQtWidgetsMplCppTestQt5_FigureCanvasQtTest",
@@ -534,9 +535,11 @@
                 "pull_requests-conda-windows_1197": "Failed",
                 "pull_requests-conda-windows_1200": "Failed",
                 "pull_requests-conda-windows_1206": "Flake",
-                "main_nightly_deployment_prototype_490": "Flake"
+                "main_nightly_deployment_prototype_490": "Flake",
+                "pull_requests-conda-windows_1231": "Flake",
+                "pull_requests-conda-windows_1235": "Failed"
             },
-            "last_fail_detected": "2023-01-16"
+            "last_fail_detected": "2023-01-18"
         },
         {
             "test_name": "MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest",
@@ -671,9 +674,11 @@
                 "pull_requests-conda-windows_1199": "Flake",
                 "pull_requests-conda-windows_1204": "Flake",
                 "pull_requests-conda-windows_1205": "Flake",
-                "main_nightly_deployment_prototype_490": "Flake"
+                "main_nightly_deployment_prototype_490": "Flake",
+                "pull_requests-conda-windows_1220": "Flake",
+                "pull_requests-conda-windows_1223": "Flake"
             },
-            "last_fail_detected": "2023-01-16"
+            "last_fail_detected": "2023-01-18"
         },
         {
             "test_name": "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest",
@@ -1645,9 +1650,11 @@
                 "pull_requests-conda-windows_1196": "Failed",
                 "pull_requests-conda-windows_1197": "Failed",
                 "pull_requests-conda-windows_1206": "Failed",
-                "pull_requests-conda-windows_1211": "Failed"
+                "pull_requests-conda-windows_1211": "Failed",
+                "pull_requests-conda-windows_1224": "Failed",
+                "pull_requests-conda-windows_1232": "Flake"
             },
-            "last_fail_detected": "2023-01-17"
+            "last_fail_detected": "2023-01-18"
         },
         {
             "test_name": "python.WorkflowAlgorithms.SaveVulcanGSSTest.SaveVulcanGSSTest",
@@ -1695,9 +1702,12 @@
                 "pull_requests-conda-windows_1196": "Failed",
                 "pull_requests-conda-windows_1200": "Failed",
                 "pull_requests-conda-windows_1211": "Failed",
-                "pull_requests-conda-windows_1213": "Flake"
+                "pull_requests-conda-windows_1213": "Flake",
+                "pull_requests-conda-windows_1222": "Failed",
+                "pull_requests-conda-windows_1224": "Flake",
+                "pull_requests-conda-windows_1232": "Flake"
             },
-            "last_fail_detected": "2023-01-17"
+            "last_fail_detected": "2023-01-18"
         },
         {
             "test_name": "python.MuonQt5.basic_fitting_view_test.basic_fitting_view_test",
@@ -1798,9 +1808,10 @@
                 "pull_requests-conda-windows_1164": "Flake",
                 "pull_requests-conda-windows_1189": "Flake",
                 "pull_requests-conda-windows_1194": "Flake",
-                "pull_requests-conda-windows_1208": "Flake"
+                "pull_requests-conda-windows_1208": "Flake",
+                "pull_requests-conda-windows_1222": "Flake"
             },
-            "last_fail_detected": "2023-01-16"
+            "last_fail_detected": "2023-01-18"
         },
         {
             "test_name": "AlgorithmsTest_ExponentialTest",
@@ -1816,9 +1827,11 @@
                 "pull_requests-conda-windows_1187": "Failed",
                 "pull_requests-conda-windows_1200": "Failed",
                 "pull_requests-conda-windows_1201": "Failed",
-                "pull_requests-conda-windows_1206": "Failed"
+                "pull_requests-conda-windows_1206": "Failed",
+                "pull_requests-conda-windows_1226": "Flake",
+                "pull_requests-conda-windows_1235": "Flake"
             },
-            "last_fail_detected": "2023-01-16"
+            "last_fail_detected": "2023-01-18"
         },
         {
             "test_name": "python.algorithms.SaveINSTest.SaveINSTest",
@@ -2013,9 +2026,10 @@
         {
             "test_name": "AlgorithmsTest_SmoothNeighboursTest",
             "past_failed_outcome": {
-                "main_nightly_deployment_prototype_490": "Flake"
+                "main_nightly_deployment_prototype_490": "Flake",
+                "pull_requests-conda-windows_1236": "Failed"
             },
-            "last_fail_detected": "2023-01-16"
+            "last_fail_detected": "2023-01-18"
         },
         {
             "test_name": "AlgorithmsTest_ConvertToMatrixWorkspaceTest",
@@ -2023,6 +2037,29 @@
                 "pull_requests-conda-windows_1213": "Flake"
             },
             "last_fail_detected": "2023-01-17"
+        },
+        {
+            "test_name": "CrystalTest_MaskPeaksWorkspaceTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_1236": "Flake"
+            },
+            "last_fail_detected": "2023-01-18"
+        },
+        {
+            "test_name": "AlgorithmsTest_FilterEventsTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_1235": "Flake"
+            },
+            "last_fail_detected": "2023-01-18"
+        },
+        {
+            "test_name": "DataHandlingTest_GroupDetectors2Test",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_1222": "Flake",
+                "pull_requests-conda-windows_1228": "Flake",
+                "pull_requests-conda-windows_1229": "Flake"
+            },
+            "last_fail_detected": "2023-01-18"
         }
     ]
 }

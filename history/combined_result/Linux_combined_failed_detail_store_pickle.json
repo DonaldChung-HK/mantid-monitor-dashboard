@@ -970,9 +970,10 @@
                 "pull_requests-conda-linux_2478": "Failed",
                 "pull_requests-conda-linux_2481": "Failed",
                 "pull_requests-conda-linux_2482": "Failed",
-                "pull_requests-conda-linux_2486": "Failed"
+                "pull_requests-conda-linux_2486": "Failed",
+                "pull_requests-conda-linux_2510": "Flake"
             },
-            "last_fail_detected": "2023-01-15"
+            "last_fail_detected": "2023-01-18"
         },
         "DataHandlingTest_LoadISISNexusTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -1186,6 +1187,15 @@
                 "pull_requests-conda-linux_2483": "Failed"
             },
             "last_fail_detected": "2023-01-14"
+        },
+        "CrystalTest_SaveIsawPeaksTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "CrystalTest_SaveIsawPeaksTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2510": "Flake"
+            },
+            "last_fail_detected": "2023-01-18"
         }
     }
 }

@@ -855,23 +855,22 @@
         "KernelTest_StdoutChannelTest": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "KernelTest_StdoutChannelTest",
-            "latest_failed_build": "1154",
+            "latest_failed_build": "1211",
             "agent_name": "Mac",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-osx",
             "past_failed_outcome": {
-                "1143": "Flake",
-                "1154": "Flake"
+                "1211": "Flake"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "KernelTest_StdoutChannelTest",
-                "build": "1154",
+                "build": "1211",
                 "agent_name": "Mac",
                 "trial": 1,
                 "outcome": "Failed",
-                "test_time": "0.63",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev3\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 2 tests..OK!\nKernelTest(33784,0x7fff8d4d4380) malloc: *** error for object 0x7f92dd4a1b68: incorrect checksum for freed object - object was probably modified after being freed.\n*** set a breakpoint in malloc_error_break to debug\nSubprocess aborted\n\n          Start  113: KernelTest_StdoutChannelTest\n"
+                "test_time": "0.56",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev82\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 2 tests..OK!\nKernelTest(10648,0x7fff8d4d4380) malloc: *** error for object 0x7f9ab569df88: incorrect checksum for freed object - object was probably modified after being freed.\n*** set a breakpoint in malloc_error_break to debug\nSubprocess aborted\n\n          Start  113: KernelTest_StdoutChannelTest\n"
             }
         },
         "python.algorithms.HB2AReduceTest.HB2AReduceTest": {
@@ -1602,23 +1601,22 @@
         "DataHandlingTest_LoadILLDiffractionTest": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "DataHandlingTest_LoadILLDiffractionTest",
-            "latest_failed_build": "1176",
+            "latest_failed_build": "1209",
             "agent_name": "Mac",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-osx",
             "past_failed_outcome": {
-                "1175": "Failed",
-                "1176": "Flake"
+                "1209": "Flake"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "DataHandlingTest_LoadILLDiffractionTest",
-                "build": "1176",
+                "build": "1209",
                 "agent_name": "Mac",
                 "trial": 1,
                 "outcome": "Failed",
-                "test_time": "20.14",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev4\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 14 tests.DllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D2042e688dd1ee04dccce26ccdad7f757f8688f1416.vtp\n..LoadILLDiffraction-[Warning] Invalid value for DataType: Calibrated data requested, but only raw data exists in this NeXus file.\n..LoadILLDiffraction-[Notice] LoadILLDiffraction started\nLoadILLDiffraction-[Notice] LoadILLDiffraction successful, Duration 1.26 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 1.10 seconds\n.InstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D2Bfed5c17191ce18f4c6a528b1c0feee2d87e63c68.vtp\n\nIn LoadILLDiffractionTest::test_D2B_alignment:\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/LoadILLDiffractionTest.h:375: Error: Assertion failed: !outputWS-&gt;detectorInfo().isMonitor(16385 * 25)\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D2B53e992e65214c96c9dd51bd3b1c27f335fb79504.vtp\n...InstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D2B3b7f429c025fbdc995eaf67c0329ff427a57bfbe.vtp\n.LoadILLDiffraction-[Notice] A 2theta offset angle is necessary for D1B data.\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D1B8d3124501c775196e31d5ce933bb9a51db0c969e.vtp\n.InstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D4C9855f30ada2b9daf2a2bbd5d419002c425d3cd22.vtp\n.\nFailed 1 of 14 tests\nSuccess rate: 92%\n\n          Start  888: DataHandlingTest_LoadILLDiffractionTest\n"
+                "test_time": "11.35",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev60\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 11 tests.DllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D2042e688dd1ee04dccce26ccdad7f757f8688f1416.vtp\n...LoadILLDiffraction-[Notice] LoadILLDiffraction started\nLoadILLDiffraction-[Notice] LoadILLDiffraction successful, Duration 1.10 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.93 seconds\n.InstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D2Bfed5c17191ce18f4c6a528b1c0feee2d87e63c68.vtp\n\nIn LoadILLDiffractionTest::test_D2B_alignment:\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/LoadILLDiffractionTest.h:358: Error: Assertion failed: !outputWS-&gt;detectorInfo().isMonitor(16385 * 25)\n.InstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D2B3b7f429c025fbdc995eaf67c0329ff427a57bfbe.vtp\n.LoadILLDiffraction-[Notice] A 2theta offset angle is necessary for D1B data.\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D1B8d3124501c775196e31d5ce933bb9a51db0c969e.vtp\n.InstrumentDefinitionParser-[Notice] Geometry cache is not available\nInstrumentDefinitionParser-[Notice] Creating cache in /Users/builder/.mantid/instrument/geometryCache/D4C9855f30ada2b9daf2a2bbd5d419002c425d3cd22.vtp\n.\nFailed 1 of 11 tests\nSuccess rate: 90%\n\n          Start  888: DataHandlingTest_LoadILLDiffractionTest\n"
             }
         },
         "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter": {
@@ -2019,26 +2017,22 @@
         "python.drill.DrillTest.DrillTest": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "python.drill.DrillTest.DrillTest",
-            "latest_failed_build": "1153",
+            "latest_failed_build": "1211",
             "agent_name": "Mac",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-osx",
             "past_failed_outcome": {
-                "1141": "Flake",
-                "1142": "Flake",
-                "1150": "Flake",
-                "1151": "Flake",
-                "1153": "Flake"
+                "1211": "Flake"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "python.drill.DrillTest.DrillTest",
-                "build": "1153",
+                "build": "1211",
                 "agent_name": "Mac",
                 "trial": 1,
                 "outcome": "Failed",
-                "test_time": "15.46",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev2\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nan integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\n....an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\n....AttributeError: &#x27;DrillView&#x27; does not have a signal with the signature instrumentChanged(QString)\nSubprocess aborted\n\n          Start 2369: python.drill.DrillTest.DrillTest\n"
+                "test_time": "13.28",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev82\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nan integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\n....an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\n....AttributeError: &#x27;DrillView&#x27; does not have a signal with the signature instrumentChanged(QString)\nSubprocess aborted\n\n          Start 2369: python.drill.DrillTest.DrillTest\n"
             }
         },
         "python.WorkflowAlgorithms.EnergyWindowScanTest.EnergyWindowScanTest": {

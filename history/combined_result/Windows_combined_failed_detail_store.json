@@ -560,9 +560,11 @@
                 "pull_requests-conda-windows_1245": "Flake",
                 "pull_requests-conda-windows_1247": "Failed",
                 "pull_requests-conda-windows_1259": "Flake",
-                "pull_requests-conda-windows_1263": "Failed"
+                "pull_requests-conda-windows_1263": "Failed",
+                "pull_requests-conda-windows_1276": "Failed",
+                "pull_requests-conda-windows_1279": "Failed"
             },
-            "last_fail_detected": "2023-01-20"
+            "last_fail_detected": "2023-01-21"
         },
         "MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest": {
             "test_name": "MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest",
@@ -706,9 +708,10 @@
                 "pull_requests-conda-windows_1223": "Flake",
                 "pull_requests-conda-windows_1246": "Flake",
                 "pull_requests-conda-windows_1253": "Flake",
-                "pull_requests-conda-windows_1257": "Flake"
+                "pull_requests-conda-windows_1257": "Flake",
+                "pull_requests-conda-windows_1275": "Flake"
             },
-            "last_fail_detected": "2023-01-20"
+            "last_fail_detected": "2023-01-21"
         },
         "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest": {
             "test_name": "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest",
@@ -1689,9 +1692,10 @@
             "agent_name": "Windows",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_830": "Failed",
-                "pull_requests-conda-windows_831": "Failed"
+                "pull_requests-conda-windows_831": "Failed",
+                "pull_requests-conda-windows_1283": "Flake"
             },
-            "last_fail_detected": "2022-12-03"
+            "last_fail_detected": "2023-01-21"
         },
         "PythonSANSQt5.beam_centre_presenter_test.beam_centre_presenter_test": {
             "test_name": "PythonSANSQt5.beam_centre_presenter_test.beam_centre_presenter_test",
@@ -1810,9 +1814,12 @@
                 "pull_requests-conda-windows_1249": "Failed",
                 "pull_requests-conda-windows_1256": "Failed",
                 "pull_requests-conda-windows_1258": "Failed",
-                "pull_requests-conda-windows_1263": "Flake"
+                "pull_requests-conda-windows_1263": "Flake",
+                "pull_requests-conda-windows_1275": "Flake",
+                "pull_requests-conda-windows_1276": "Flake",
+                "pull_requests-conda-windows_1279": "Flake"
             },
-            "last_fail_detected": "2023-01-20"
+            "last_fail_detected": "2023-01-21"
         },
         "python.MuonQt5.basic_fitting_view_test.basic_fitting_view_test": {
             "test_name": "python.MuonQt5.basic_fitting_view_test.basic_fitting_view_test",
@@ -2250,9 +2257,10 @@
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1222": "Flake",
                 "pull_requests-conda-windows_1228": "Flake",
-                "pull_requests-conda-windows_1229": "Flake"
+                "pull_requests-conda-windows_1229": "Flake",
+                "pull_requests-conda-windows_1275": "Flake"
             },
-            "last_fail_detected": "2023-01-18"
+            "last_fail_detected": "2023-01-21"
         },
         "WorkflowAlgorithmsTest_AlignAndFocusPowderTest": {
             "test_name": "WorkflowAlgorithmsTest_AlignAndFocusPowderTest",

@@ -522,9 +522,10 @@
                 "pull_requests-conda-osx_1057": "Flake",
                 "pull_requests-conda-osx_1058": "Flake",
                 "pull_requests-conda-osx_1143": "Flake",
-                "pull_requests-conda-osx_1154": "Flake"
+                "pull_requests-conda-osx_1154": "Flake",
+                "pull_requests-conda-osx_1211": "Flake"
             },
-            "last_fail_detected": "2023-01-17"
+            "last_fail_detected": "2023-01-21"
         },
         "python.algorithms.HB2AReduceTest.HB2AReduceTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -891,9 +892,10 @@
                 "pull_requests-conda-osx_1145": "Flake",
                 "pull_requests-conda-osx_1146": "Flake",
                 "pull_requests-conda-osx_1175": "Failed",
-                "pull_requests-conda-osx_1176": "Flake"
+                "pull_requests-conda-osx_1176": "Flake",
+                "pull_requests-conda-osx_1209": "Flake"
             },
-            "last_fail_detected": "2023-01-19"
+            "last_fail_detected": "2023-01-21"
         },
         "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -1098,9 +1100,10 @@
                 "pull_requests-conda-osx_1142": "Flake",
                 "pull_requests-conda-osx_1150": "Flake",
                 "pull_requests-conda-osx_1151": "Flake",
-                "pull_requests-conda-osx_1153": "Flake"
+                "pull_requests-conda-osx_1153": "Flake",
+                "pull_requests-conda-osx_1211": "Flake"
             },
-            "last_fail_detected": "2023-01-17"
+            "last_fail_detected": "2023-01-21"
         },
         "python.WorkflowAlgorithms.EnergyWindowScanTest.EnergyWindowScanTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",

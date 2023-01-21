@@ -1081,26 +1081,25 @@
         "AlgorithmsTest_LogarithmTest": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "AlgorithmsTest_LogarithmTest",
-            "latest_failed_build": "1263",
+            "latest_failed_build": "1279",
             "agent_name": "Windows",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "1244": "Failed",
-                "1245": "Flake",
-                "1247": "Failed",
                 "1259": "Flake",
-                "1263": "Failed"
+                "1263": "Failed",
+                "1276": "Failed",
+                "1279": "Failed"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "AlgorithmsTest_LogarithmTest",
-                "build": "1263",
+                "build": "1279",
                 "agent_name": "Windows",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "1.28",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev59\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 4 tests.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nLogarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start 1308: MuonTest_PhaseQuadMuonTest\r\n"
+                "test_time": "2.05",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev79\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 4 tests.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nLogarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start 1289: LiveDataTest_KafkaTopicSubscriberTest\r\n"
             }
         },
         "MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest": {
@@ -1285,24 +1284,23 @@
         "DataHandlingTest_LoadILLDiffractionTest": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "DataHandlingTest_LoadILLDiffractionTest",
-            "latest_failed_build": "1257",
+            "latest_failed_build": "1275",
             "agent_name": "Windows",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "1246": "Flake",
-                "1253": "Flake",
-                "1257": "Flake"
+                "1257": "Flake",
+                "1275": "Flake"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "DataHandlingTest_LoadILLDiffractionTest",
-                "build": "1257",
+                "build": "1275",
                 "agent_name": "Windows",
-                "trial": 1,
+                "trial": 2,
                 "outcome": "Failed",
-                "test_time": "20.29",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev23\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 14 tests...LoadILLDiffraction-[Warning] Invalid value for DataType: Calibrated data requested, but only raw data exists in this NeXus file.\r\n..LoadILLDiffraction-[Notice] LoadILLDiffraction started\r\nLoadILLDiffraction-[Notice] LoadILLDiffraction successful, Duration 2.02 seconds\r\n.Load-[Notice] Load started\r\nLoad-[Notice] Load successful, Duration 0.90 seconds\r\n.InstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\Users\\builder\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D2Bfed5c17191ce18f4c6a528b1c0feee2d87e63c68.vtp\r\n\r\nIn LoadILLDiffractionTest::test_D2B_alignment:\r\nC:/Jenkins/workspace/pull_requests-conda-windows/Framework/DataHandling/test/LoadILLDiffractionTest.h:375: Error: Assertion failed: !outputWS-&gt;detectorInfo().isMonitor(16385 * 25)\r\n...InstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\Users\\builder\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D2B3b7f429c025fbdc995eaf67c0329ff427a57bfbe.vtp\r\n.LoadILLDiffraction-[Notice] A 2theta offset angle is necessary for D1B data.\r\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\Users\\builder\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D1B8d3124501c775196e31d5ce933bb9a51db0c969e.vtp\r\n..\r\nFailed 1 of 14 tests\r\nSuccess rate: 92%\r\n\r\n          Start  888: DataHandlingTest_LoadILLDiffractionTest\r\n"
+                "test_time": "6.98",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev80\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 11 tests....LoadILLDiffraction-[Notice] LoadILLDiffraction started\r\nLoadILLDiffraction-[Notice] LoadILLDiffraction successful, Duration 0.71 seconds\r\n.Load-[Notice] Load started\r\nLoad-[Notice] Load successful, Duration 0.53 seconds\r\n.\r\nIn LoadILLDiffractionTest::test_D2B_alignment:\r\nC:/Jenkins/workspace/pull_requests-conda-windows/Framework/DataHandling/test/LoadILLDiffractionTest.h:358: Error: Assertion failed: !outputWS-&gt;detectorInfo().isMonitor(16385 * 25)\r\n..LoadILLDiffraction-[Notice] A 2theta offset angle is necessary for D1B data.\r\n..\r\nFailed 1 of 11 tests\r\nSuccess rate: 90%\r\n\r\n          Start  888: DataHandlingTest_LoadILLDiffractionTest\r\n"
             }
         },
         "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest": {
@@ -2785,23 +2783,22 @@
         "python.drill.DrillTest.DrillTest": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "python.drill.DrillTest.DrillTest",
-            "latest_failed_build": "831",
+            "latest_failed_build": "1283",
             "agent_name": "Windows",
-            "last_failed_outcome": "Failed",
+            "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "830": "Failed",
-                "831": "Failed"
+                "1283": "Flake"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "python.drill.DrillTest.DrillTest",
-                "build": "831",
+                "build": "1283",
                 "agent_name": "Windows",
-                "trial": 3,
+                "trial": 1,
                 "outcome": "Failed",
-                "test_time": "9.31",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221202.1312\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nan integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\r\n...Exit code 0xc0000409\r\n\r\n\r\n          Start  194: AlgorithmsTest_ChangeLogTimeTest\r\n"
+                "test_time": "16.85",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev82\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nan integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\r\n....an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\r\n...Exit code 0xc0000409\r\n\r\n\r\n          Start 2370: python.drill.DrillTest.DrillTest\r\n"
             }
         },
         "PythonSANSQt5.beam_centre_presenter_test.beam_centre_presenter_test": {
@@ -2981,25 +2978,27 @@
         "AlgorithmsTest_RemoveLowResTOFTest": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "AlgorithmsTest_RemoveLowResTOFTest",
-            "latest_failed_build": "1263",
+            "latest_failed_build": "1279",
             "agent_name": "Windows",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "1249": "Failed",
                 "1256": "Failed",
                 "1258": "Failed",
-                "1263": "Flake"
+                "1263": "Flake",
+                "1275": "Flake",
+                "1276": "Flake",
+                "1279": "Flake"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "AlgorithmsTest_RemoveLowResTOFTest",
-                "build": "1263",
+                "build": "1279",
                 "agent_name": "Windows",
-                "trial": 1,
+                "trial": 2,
                 "outcome": "Failed",
-                "test_time": "1.36",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev59\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 1 testRemoveLowResTOF-[Notice] RemoveLowResTOF started\r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 4 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 13 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 22 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 31 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] 4 spectra of 36 had all data removed.  The number of removed events is 400.\r\nRemoveLowResTOF-[Notice] RemoveLowResTOF successful, Duration 0.00 seconds\r\nEvents (Input) = 3600; Result = 3108, Low Res = 92.\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  412: AlgorithmsTest_RemoveLowResTOFTest\r\n"
+                "test_time": "1.49",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev79\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 1 testRemoveLowResTOF-[Notice] RemoveLowResTOF started\r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 4 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 13 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 22 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 31 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] 4 spectra of 36 had all data removed.  The number of removed events is 400.\r\nRemoveLowResTOF-[Notice] RemoveLowResTOF successful, Duration 0.01 seconds\r\nEvents (Input) = 3600; Result = 3108, Low Res = 92.\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  412: AlgorithmsTest_RemoveLowResTOFTest\r\n"
             }
         },
         "python.MuonQt5.basic_fitting_view_test.basic_fitting_view_test": {
@@ -3827,24 +3826,22 @@
         "DataHandlingTest_GroupDetectors2Test": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "DataHandlingTest_GroupDetectors2Test",
-            "latest_failed_build": "1229",
+            "latest_failed_build": "1275",
             "agent_name": "Windows",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "1222": "Flake",
-                "1228": "Flake",
-                "1229": "Flake"
+                "1275": "Flake"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "DataHandlingTest_GroupDetectors2Test",
-                "build": "1229",
+                "build": "1275",
                 "agent_name": "Windows",
                 "trial": 1,
                 "outcome": "Failed",
-                "test_time": "2.41",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev6\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 29 testsGroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Error] Logic Error in execution of algorithm GroupDetectors\r\nGroupDetectors-[Error] All list properties are empty, nothing to group\r\n.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.00 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Error] Spectra index 6 doesn&#x27;t exist in the input workspace, the highest possible index is 5\r\nGroupDetectors-[Error] Logic Error in execution of algorithm GroupDetectors\r\nGroupDetectors-[Error] One of the spectra requested to group does not exist in the input workspace\r\nGroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.00 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Error] Error in execution of algorithm GroupDetectors\r\nGroupDetectors-[Error] IndexError: SpectraAxis: Index out of range. 6 :: 0 &lt;==&gt; 5\r\nGroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.01 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Error] Spectra index 6 doesn&#x27;t exist in the input workspace, the highest possible index is 5\r\nGroupDetectors-[Error] Logic Error in execution of algorithm GroupDetectors\r\nGroupDetectors-[Error] One of the spectra requested to group does not exist in the input workspace\r\nGroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.01 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Error] Error in execution of algorithm GroupDetectors\r\nGroupDetectors-[Error] IndexError: SpectraAxis: Index out of range. 6 :: 0 &lt;==&gt; 5\r\nGroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.00 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.00 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.02 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.01 seconds\r\n.LoadMuonNexus-[Notice] LoadMuonNexus started\r\nLoadMuonNexus-[Notice] LoadMuonNexus successful, Duration 0.19 seconds\r\nGroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.02 seconds\r\n.LoadMuonNexus-[Notice] LoadMuonNexus started\r\nLoadMuonNexus-[Notice] LoadMuonNexus successful, Duration 0.14 seconds\r\nGroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.02 seconds\r\n.LoadMuonNexus-[Notice] LoadMuonNexus started\r\nLoadMuonNexus-[Notice] LoadMuonNexus successful, Duration 0.17 seconds\r\nGroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.02 seconds\r\n.MaskDetectors-[Notice] MaskDetectors started\r\nMaskDetectors-[Notice] MaskDetectors successful, Duration 0.00 seconds\r\nGroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.00 seconds\r\n...GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.00 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.00 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.00 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.00 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.00 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.01 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.00 seconds\r\nGroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.00 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Warning] Invalid value for GroupingPattern: GroupingPattern is not well formed: -1, 0\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.00 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Error] Error in execution of algorithm GroupDetectors:\r\nGroupDetectors-[Error] GroupDetectors does not currently support EventWorkspaces with detector scans.\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.00 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.00 seconds\r\n..OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  855: DataHandlingTest_GroupDetectors2Test\r\n"
+                "test_time": "1.76",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev80\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 29 testsGroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Error] Logic Error in execution of algorithm GroupDetectors\r\nGroupDetectors-[Error] All list properties are empty, nothing to group\r\n.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.00 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Error] Spectra index 6 doesn&#x27;t exist in the input workspace, the highest possible index is 5\r\nGroupDetectors-[Error] Logic Error in execution of algorithm GroupDetectors\r\nGroupDetectors-[Error] One of the spectra requested to group does not exist in the input workspace\r\nGroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.00 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Error] Error in execution of algorithm GroupDetectors\r\nGroupDetectors-[Error] IndexError: SpectraAxis: Index out of range. 6 :: 0 &lt;==&gt; 5\r\nGroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.00 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Error] Spectra index 6 doesn&#x27;t exist in the input workspace, the highest possible index is 5\r\nGroupDetectors-[Error] Logic Error in execution of algorithm GroupDetectors\r\nGroupDetectors-[Error] One of the spectra requested to group does not exist in the input workspace\r\nGroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.01 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Error] Error in execution of algorithm GroupDetectors\r\nGroupDetectors-[Error] IndexError: SpectraAxis: Index out of range. 6 :: 0 &lt;==&gt; 5\r\nGroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.00 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.00 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.02 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.02 seconds\r\n.LoadMuonNexus-[Notice] LoadMuonNexus started\r\nLoadMuonNexus-[Notice] LoadMuonNexus successful, Duration 0.11 seconds\r\nGroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.01 seconds\r\n.LoadMuonNexus-[Notice] LoadMuonNexus started\r\nLoadMuonNexus-[Notice] LoadMuonNexus successful, Duration 0.13 seconds\r\nGroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.01 seconds\r\n.LoadMuonNexus-[Notice] LoadMuonNexus started\r\nLoadMuonNexus-[Notice] LoadMuonNexus successful, Duration 0.11 seconds\r\nGroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.02 seconds\r\n.MaskDetectors-[Notice] MaskDetectors started\r\nMaskDetectors-[Notice] MaskDetectors successful, Duration 0.00 seconds\r\nGroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.00 seconds\r\n...GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.01 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.01 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.03 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.01 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.02 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.01 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.01 seconds\r\nGroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.02 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Warning] Invalid value for GroupingPattern: GroupingPattern is not well formed: -1, 0\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.00 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Error] Error in execution of algorithm GroupDetectors:\r\nGroupDetectors-[Error] GroupDetectors does not currently support EventWorkspaces with detector scans.\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.01 seconds\r\n.GroupDetectors-[Notice] GroupDetectors started\r\nGroupDetectors-[Notice] GroupDetectors successful, Duration 0.02 seconds\r\n..OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  855: DataHandlingTest_GroupDetectors2Test\r\n"
             }
         },
         "WorkflowAlgorithmsTest_AlignAndFocusPowderTest": {

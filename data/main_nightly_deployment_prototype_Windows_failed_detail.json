@@ -17,15 +17,13 @@
                     "485",
                     "484",
                     "483",
-                    "482",
-                    "481"
+                    "482"
                 ],
                 "past_outcome_list": [
                     "Flake",
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -60,8 +58,7 @@
                     "485",
                     "484",
                     "483",
-                    "482",
-                    "481"
+                    "482"
                 ],
                 "past_outcome_list": [
                     "Flake",
@@ -72,7 +69,6 @@
                     "Failed",
                     "Passed",
                     "Failed",
-                    "Passed",
                     "Passed"
                 ]
             },
@@ -103,15 +99,13 @@
                     "485",
                     "484",
                     "483",
-                    "482",
-                    "481"
+                    "482"
                 ],
                 "past_outcome_list": [
                     "Flake",
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -146,15 +140,13 @@
                     "485",
                     "484",
                     "483",
-                    "482",
-                    "481"
+                    "482"
                 ],
                 "past_outcome_list": [
                     "Flake",
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -189,15 +181,13 @@
                     "485",
                     "484",
                     "483",
-                    "482",
-                    "481"
+                    "482"
                 ],
                 "past_outcome_list": [
                     "Flake",
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -232,15 +222,13 @@
                     "485",
                     "484",
                     "483",
-                    "482",
-                    "481"
+                    "482"
                 ],
                 "past_outcome_list": [
                     "Passed",
                     "Passed",
                     "Flake",
                     "None",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -275,8 +263,7 @@
                     "485",
                     "484",
                     "483",
-                    "482",
-                    "481"
+                    "482"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -284,7 +271,6 @@
                     "Passed",
                     "None",
                     "Failed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -318,8 +304,7 @@
                     "485",
                     "484",
                     "483",
-                    "482",
-                    "481"
+                    "482"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -327,7 +312,6 @@
                     "Passed",
                     "None",
                     "Failed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -361,8 +345,7 @@
                     "485",
                     "484",
                     "483",
-                    "482",
-                    "481"
+                    "482"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -371,7 +354,6 @@
                     "None",
                     "Passed",
                     "Failed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"

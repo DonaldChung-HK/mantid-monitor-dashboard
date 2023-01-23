@@ -983,45 +983,43 @@
         },
         "AlgorithmsTest_LogarithmTest": {
             "test_name": "AlgorithmsTest_LogarithmTest",
-            "latest_failed_build": "1279",
+            "latest_failed_build": "1286",
             "agent_name": "Windows",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "1259": "Flake",
                 "1263": "Failed",
                 "1276": "Failed",
-                "1279": "Failed"
+                "1279": "Failed",
+                "1286": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "AlgorithmsTest_LogarithmTest",
-                "build": "1279",
+                "build": "1286",
                 "agent_name": "Windows",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "2.05",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev79\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 4 tests.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nLogarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start 1289: LiveDataTest_KafkaTopicSubscriberTest\r\n"
+                "test_time": "0.76",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev73\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 4 tests.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nLogarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start 2369: python.drill.DrillViewTest.DrillViewTest\r\n"
             }
         },
         "MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest": {
             "test_name": "MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest",
-            "latest_failed_build": "734",
+            "latest_failed_build": "1286",
             "agent_name": "Windows",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "717": "Failed",
-                "725": "Failed",
-                "734": "Failed"
+                "1286": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest",
-                "build": "734",
+                "build": "1286",
                 "agent_name": "Windows",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "3.19",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20221124.750\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 10 testsunknown file: error: \r\nUnexpected mock function call - returning directly.\r\n    Function call: connect(000001A7B14E0550, 00007FFB7FAC2A10 pointing to &quot;2initWidget(bool, bool)&quot;, 0000008B1536F420, 00007FFB7FAC29F8 pointing to &quot;1initWidget(bool, bool)&quot;)\r\nGoogle Mock tried the following 11 expectations, but none matched:\r\n\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #0: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2enableLighting(bool)&quot;\r\n           Actual: 00007FFB7FAC2A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1enableLighting(bool)&quot;\r\n           Actual: 00007FFB7FAC29F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: called once - saturated and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #1: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2changed(double, double)&quot;\r\n           Actual: 00007FFB7FAC2A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1setIntegrationRange(double, double)&quot;\r\n           Actual: 00007FFB7FAC29F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: called once - saturated and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #2: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2clicked()&quot;\r\n           Actual: 00007FFB7FAC2A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1helpClicked()&quot;\r\n           Actual: 00007FFB7FAC29F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: called once - saturated and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #3: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2setAutoscaling(bool)&quot;\r\n           Actual: 00007FFB7FAC2A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1setColorMapAutoscaling(bool)&quot;\r\n           Actual: 00007FFB7FAC29F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #4: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2rescaleColorMap()&quot;\r\n           Actual: 00007FFB7FAC2A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1setupColorMap()&quot;\r\n           Actual: 00007FFB7FAC29F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #5: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2executeAlgorithm(const QString &amp;, const QString &amp;)&quot;\r\n           Actual: 00007FFB7FAC2A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1executeAlgorithm(const QString &amp;, const QString &amp;)&quot;\r\n           Actual: 00007FFB7FAC29F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #6: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2changed(double, double)&quot;\r\n           Actual: 00007FFB7FAC2A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1changedIntegrationRange(double, double)&quot;\r\n           Actual: 00007FFB7FAC29F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #7: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2currentChanged(int)&quot;\r\n           Actual: 00007FFB7FAC2A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1tabChanged(int)&quot;\r\n           Actual: 00007FFB7FAC29F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #8: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2triggered()&quot;\r\n           Actual: 00007FFB7FAC2A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1clearPeakOverlays()&quot;\r\n           Actual: 00007FFB7FAC29F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #9: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2triggered()&quot;\r\n           Actual: 00007FFB7FAC2A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1clearAlignmentPlane()&quot;\r\n           Actual: 00007FFB7FAC29F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nC:/Jenkins/workspace/pull_requests-conda-windows/qt/widgets/instrumentview/test/InstrumentWidget/InstrumentWidgetTest.h(308): tried expectation #10: EXPECT_CALL(mock, connect(_, StrEq(signal), _, StrEq(slot)))...\r\n  Expected arg #1: is equal to &quot;2executeAlgorithm(Mantid::API::IAlgorithm_sptr)&quot;\r\n           Actual: 00007FFB7FAC2A10 pointing to &quot;2initWidget(bool, bool)&quot;\r\n  Expected arg #3: is equal to &quot;1executeAlgorithm(Mantid::API::IAlgorithm_sptr)&quot;\r\n           Actual: 00007FFB7FAC29F8 pointing to &quot;1initWidget(bool, bool)&quot;\r\n         Expected: to be called once\r\n           Actual: never called - unsatisfied and active\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  214: AlgorithmsTest_ConvertFromDistributionTest\r\n"
+                "test_time": "4.40",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev73\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 10 testsAccess violation\r\n\r\n          Start  665: CrystalTest_SortPeaksWorkspaceTest\r\n"
             }
         },
         "python.algorithms.MaskBTPTest.MaskBTPTest": {
@@ -1168,22 +1166,22 @@
         },
         "DataHandlingTest_LoadILLDiffractionTest": {
             "test_name": "DataHandlingTest_LoadILLDiffractionTest",
-            "latest_failed_build": "1275",
+            "latest_failed_build": "1286",
             "agent_name": "Windows",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "1257": "Flake",
-                "1275": "Flake"
+                "1275": "Flake",
+                "1286": "Flake"
             },
             "last_stack_traces": {
                 "test_name": "DataHandlingTest_LoadILLDiffractionTest",
-                "build": "1275",
+                "build": "1286",
                 "agent_name": "Windows",
                 "trial": 2,
                 "outcome": "Failed",
-                "test_time": "6.98",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev80\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 11 tests....LoadILLDiffraction-[Notice] LoadILLDiffraction started\r\nLoadILLDiffraction-[Notice] LoadILLDiffraction successful, Duration 0.71 seconds\r\n.Load-[Notice] Load started\r\nLoad-[Notice] Load successful, Duration 0.53 seconds\r\n.\r\nIn LoadILLDiffractionTest::test_D2B_alignment:\r\nC:/Jenkins/workspace/pull_requests-conda-windows/Framework/DataHandling/test/LoadILLDiffractionTest.h:358: Error: Assertion failed: !outputWS-&gt;detectorInfo().isMonitor(16385 * 25)\r\n..LoadILLDiffraction-[Notice] A 2theta offset angle is necessary for D1B data.\r\n..\r\nFailed 1 of 11 tests\r\nSuccess rate: 90%\r\n\r\n          Start  888: DataHandlingTest_LoadILLDiffractionTest\r\n"
+                "test_time": "7.20",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev73\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 11 tests....LoadILLDiffraction-[Notice] LoadILLDiffraction started\r\nLoadILLDiffraction-[Notice] LoadILLDiffraction successful, Duration 0.78 seconds\r\n.Load-[Notice] Load started\r\nLoad-[Notice] Load successful, Duration 0.55 seconds\r\n.\r\nIn LoadILLDiffractionTest::test_D2B_alignment:\r\nC:/Jenkins/workspace/pull_requests-conda-windows/Framework/DataHandling/test/LoadILLDiffractionTest.h:358: Error: Assertion failed: !outputWS-&gt;detectorInfo().isMonitor(16385 * 25)\r\n..LoadILLDiffraction-[Notice] A 2theta offset angle is necessary for D1B data.\r\n..\r\nFailed 1 of 11 tests\r\nSuccess rate: 90%\r\n\r\n          Start  888: DataHandlingTest_LoadILLDiffractionTest\r\n"
             }
         },
         "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest": {
@@ -2565,21 +2563,22 @@
         },
         "python.drill.DrillTest.DrillTest": {
             "test_name": "python.drill.DrillTest.DrillTest",
-            "latest_failed_build": "1283",
+            "latest_failed_build": "1287",
             "agent_name": "Windows",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "1283": "Flake"
+                "1283": "Flake",
+                "1287": "Flake"
             },
             "last_stack_traces": {
                 "test_name": "python.drill.DrillTest.DrillTest",
-                "build": "1283",
+                "build": "1287",
                 "agent_name": "Windows",
                 "trial": 1,
                 "outcome": "Failed",
-                "test_time": "16.85",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev82\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nan integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\r\n....an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\r\n...Exit code 0xc0000409\r\n\r\n\r\n          Start 2370: python.drill.DrillTest.DrillTest\r\n"
+                "test_time": "10.62",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev65\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nan integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.\r\n...Exit code 0xc0000409\r\n\r\n\r\n          Start 2370: python.drill.DrillTest.DrillTest\r\n"
             }
         },
         "PythonSANSQt5.beam_centre_presenter_test.beam_centre_presenter_test": {
@@ -2914,28 +2913,27 @@
         },
         "AlgorithmsTest_UnwrapSNSTest": {
             "test_name": "AlgorithmsTest_UnwrapSNSTest",
-            "latest_failed_build": "1269",
+            "latest_failed_build": "1287",
             "agent_name": "Windows",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "1251": "Flake",
-                "1256": "Flake",
-                "1258": "Flake",
                 "1262": "Flake",
                 "1264": "Flake",
                 "1266": "Flake",
                 "1268": "Flake",
-                "1269": "Flake"
+                "1269": "Flake",
+                "1285": "Flake",
+                "1287": "Flake"
             },
             "last_stack_traces": {
                 "test_name": "AlgorithmsTest_UnwrapSNSTest",
-                "build": "1269",
+                "build": "1287",
                 "agent_name": "Windows",
                 "trial": 1,
                 "outcome": "Failed",
-                "test_time": "0.76",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev57\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 1 testUnwrapSNS-[Notice] UnwrapSNS started\r\nMaskDetectors-[Notice] Masking using workspace indicies\r\nMaskDetectors-[Warning] No spectra affected.\r\nUnwrapSNS-[Notice] UnwrapSNS successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  469: AlgorithmsTest_UnwrapSNSTest\r\n"
+                "test_time": "1.36",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev65\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 1 testUnwrapSNS-[Notice] UnwrapSNS started\r\nMaskDetectors-[Notice] Masking using workspace indicies\r\nMaskDetectors-[Warning] No spectra affected.\r\nUnwrapSNS-[Notice] UnwrapSNS successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  469: AlgorithmsTest_UnwrapSNSTest\r\n"
             }
         },
         "python.DNSReductionQt5.file_selector_presenter_test.file_selector_presenter_test": {
@@ -2981,23 +2979,22 @@
         },
         "AlgorithmsTest_ExponentialTest": {
             "test_name": "AlgorithmsTest_ExponentialTest",
-            "latest_failed_build": "1263",
+            "latest_failed_build": "1287",
             "agent_name": "Windows",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "1244": "Flake",
-                "1249": "Failed",
-                "1263": "Failed"
+                "1263": "Failed",
+                "1287": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "AlgorithmsTest_ExponentialTest",
-                "build": "1263",
+                "build": "1287",
                 "agent_name": "Windows",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "1.41",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev59\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 3 tests.Exponential-[Notice] Exponential started\r\nExponential-[Notice] Exponential successful, Duration 0.00 seconds\r\n.Exponential-[Notice] Exponential started\r\nExponential-[Notice] Exponential successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  168: AlgorithmsTest_ApplyFloodWorkspaceTest\r\n"
+                "test_time": "0.78",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev65\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 3 tests.Exponential-[Notice] Exponential started\r\nExponential-[Notice] Exponential successful, Duration 0.00 seconds\r\n.Exponential-[Notice] Exponential started\r\nExponential-[Notice] Exponential successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start 1295: MuonTest_CalculateMuonAsymmetryTest\r\n"
             }
         },
         "python.algorithms.SaveINSTest.SaveINSTest": {

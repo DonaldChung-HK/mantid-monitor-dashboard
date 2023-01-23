@@ -831,8 +831,10 @@
                 "pull_requests-conda-osx_683": "Failed",
                 "pull_requests-conda-osx_690": "Failed",
                 "pull_requests-conda-osx_692": "Failed",
-                "pull_requests-conda-osx_699": "Failed"
-            }
+                "pull_requests-conda-osx_699": "Failed",
+                "pull_requests-conda-osx_1213": "Failed"
+            },
+            "last_fail_detected": "2023-01-23"
         },
         "CurveFittingTest_ResolutionTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",

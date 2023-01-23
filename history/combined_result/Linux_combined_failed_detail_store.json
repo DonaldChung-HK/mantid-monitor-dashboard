@@ -633,8 +633,11 @@
                 "pull_requests-conda-linux_1992": "Failed",
                 "pull_requests-conda-linux_1997": "Failed",
                 "pull_requests-conda-linux_2000": "Failed",
-                "pull_requests-conda-linux_2011": "Failed"
-            }
+                "pull_requests-conda-linux_2011": "Failed",
+                "pull_requests-conda-linux_2550": "Failed",
+                "pull_requests-conda-linux_2551": "Failed"
+            },
+            "last_fail_detected": "2023-01-23"
         },
         "python.algorithms.MaskBTPTest.MaskBTPTest": {
             "test_name": "python.algorithms.MaskBTPTest.MaskBTPTest",

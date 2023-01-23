@@ -1,14 +1,18 @@
 {
     "data": [
         {
-            "test_name": "KernelTest_StdoutChannelTest",
-            "latest_failed_build": "1211",
+            "test_name": "MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest",
+            "latest_failed_build": "1213",
             "agent_name": "Mac",
-            "last_failed_outcome": "Flake",
+            "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-osx",
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "1216",
+                    "1215",
+                    "1214",
+                    "1213",
                     "1212",
                     "1211",
                     "1210",
@@ -34,13 +38,96 @@
                     "1190",
                     "1189",
                     "1188",
-                    "1187",
-                    "1186",
-                    "1185",
-                    "1184",
-                    "1183"
+                    "1187"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Failed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "None"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest",
+                "build": "1213",
+                "agent_name": "Mac",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "5.10",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev73\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 10 testsQObject::connect: Cannot connect (nullptr)::colorMapChanged() to MantidQt::MantidWidgets::ProjectionSurface::colorMapChanged()\nQObject::connect: Cannot connect (nullptr)::refreshView() to MantidQt::MantidWidgets::ProjectionSurface::refreshView()\nQObject::connect: Cannot queue arguments of type &#x27;std::string&#x27;\n(Make sure &#x27;std::string&#x27; is registered using qRegisterMetaType().)\nQObject::connect: Cannot queue arguments of type &#x27;std::string&#x27;\n(Make sure &#x27;std::string&#x27; is registered using qRegisterMetaType().)\nQObject::connect: Cannot queue arguments of type &#x27;std::string&#x27;\n(Make sure &#x27;std::string&#x27; is registered using qRegisterMetaType().)\nSegmentation fault\n\n          Start 1147: GeometryTest_MatrixVectorPairTest\n"
+            }
+        },
+        {
+            "test_name": "KernelTest_StdoutChannelTest",
+            "latest_failed_build": "1211",
+            "agent_name": "Mac",
+            "last_failed_outcome": "Flake",
+            "pipeline_name": "pull_requests-conda-osx",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "1216",
+                    "1215",
+                    "1214",
+                    "1213",
+                    "1212",
+                    "1211",
+                    "1210",
+                    "1209",
+                    "1208",
+                    "1207",
+                    "1206",
+                    "1205",
+                    "1204",
+                    "1203",
+                    "1202",
+                    "1201",
+                    "1200",
+                    "1199",
+                    "1198",
+                    "1197",
+                    "1196",
+                    "1195",
+                    "1194",
+                    "1193",
+                    "1192",
+                    "1191",
+                    "1190",
+                    "1189",
+                    "1188",
+                    "1187"
+                ],
+                "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Flake",
                     "Passed",
@@ -66,11 +153,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -92,6 +175,10 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "1216",
+                    "1215",
+                    "1214",
+                    "1213",
                     "1212",
                     "1211",
                     "1210",
@@ -117,13 +204,13 @@
                     "1190",
                     "1189",
                     "1188",
-                    "1187",
-                    "1186",
-                    "1185",
-                    "1184",
-                    "1183"
+                    "1187"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Flake",
                     "Passed",
@@ -149,11 +236,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -175,6 +258,10 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "1216",
+                    "1215",
+                    "1214",
+                    "1213",
                     "1212",
                     "1211",
                     "1210",
@@ -200,13 +287,13 @@
                     "1190",
                     "1189",
                     "1188",
-                    "1187",
-                    "1186",
-                    "1185",
-                    "1184",
-                    "1183"
+                    "1187"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -232,11 +319,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -258,6 +341,10 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "1216",
+                    "1215",
+                    "1214",
+                    "1213",
                     "1212",
                     "1211",
                     "1210",
@@ -283,13 +370,13 @@
                     "1190",
                     "1189",
                     "1188",
-                    "1187",
-                    "1186",
-                    "1185",
-                    "1184",
-                    "1183"
+                    "1187"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -315,11 +402,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -341,6 +424,10 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "1216",
+                    "1215",
+                    "1214",
+                    "1213",
                     "1212",
                     "1211",
                     "1210",
@@ -366,13 +453,13 @@
                     "1190",
                     "1189",
                     "1188",
-                    "1187",
-                    "1186",
-                    "1185",
-                    "1184",
-                    "1183"
+                    "1187"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -398,11 +485,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -424,6 +507,10 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "1216",
+                    "1215",
+                    "1214",
+                    "1213",
                     "1212",
                     "1211",
                     "1210",
@@ -449,13 +536,13 @@
                     "1190",
                     "1189",
                     "1188",
-                    "1187",
-                    "1186",
-                    "1185",
-                    "1184",
-                    "1183"
+                    "1187"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -481,11 +568,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -507,6 +590,10 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "1216",
+                    "1215",
+                    "1214",
+                    "1213",
                     "1212",
                     "1211",
                     "1210",
@@ -532,13 +619,13 @@
                     "1190",
                     "1189",
                     "1188",
-                    "1187",
-                    "1186",
-                    "1185",
-                    "1184",
-                    "1183"
+                    "1187"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -564,11 +651,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -590,6 +673,10 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "1216",
+                    "1215",
+                    "1214",
+                    "1213",
                     "1212",
                     "1211",
                     "1210",
@@ -615,13 +702,13 @@
                     "1190",
                     "1189",
                     "1188",
-                    "1187",
-                    "1186",
-                    "1185",
-                    "1184",
-                    "1183"
+                    "1187"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -647,11 +734,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -673,6 +756,10 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "1216",
+                    "1215",
+                    "1214",
+                    "1213",
                     "1212",
                     "1211",
                     "1210",
@@ -698,13 +785,13 @@
                     "1190",
                     "1189",
                     "1188",
-                    "1187",
-                    "1186",
-                    "1185",
-                    "1184",
-                    "1183"
+                    "1187"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -730,11 +817,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -756,6 +839,10 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "1216",
+                    "1215",
+                    "1214",
+                    "1213",
                     "1212",
                     "1211",
                     "1210",
@@ -781,13 +868,13 @@
                     "1190",
                     "1189",
                     "1188",
-                    "1187",
-                    "1186",
-                    "1185",
-                    "1184",
-                    "1183"
+                    "1187"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -813,11 +900,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -839,6 +922,10 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "1216",
+                    "1215",
+                    "1214",
+                    "1213",
                     "1212",
                     "1211",
                     "1210",
@@ -864,13 +951,13 @@
                     "1190",
                     "1189",
                     "1188",
-                    "1187",
-                    "1186",
-                    "1185",
-                    "1184",
-                    "1183"
+                    "1187"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -896,11 +983,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -922,6 +1005,10 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "1216",
+                    "1215",
+                    "1214",
+                    "1213",
                     "1212",
                     "1211",
                     "1210",
@@ -947,13 +1034,13 @@
                     "1190",
                     "1189",
                     "1188",
-                    "1187",
-                    "1186",
-                    "1185",
-                    "1184",
-                    "1183"
+                    "1187"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -979,11 +1066,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -1005,6 +1088,10 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "1216",
+                    "1215",
+                    "1214",
+                    "1213",
                     "1212",
                     "1211",
                     "1210",
@@ -1030,13 +1117,13 @@
                     "1190",
                     "1189",
                     "1188",
-                    "1187",
-                    "1186",
-                    "1185",
-                    "1184",
-                    "1183"
+                    "1187"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -1062,11 +1149,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -1088,6 +1171,10 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "1216",
+                    "1215",
+                    "1214",
+                    "1213",
                     "1212",
                     "1211",
                     "1210",
@@ -1113,13 +1200,13 @@
                     "1190",
                     "1189",
                     "1188",
-                    "1187",
-                    "1186",
-                    "1185",
-                    "1184",
-                    "1183"
+                    "1187"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -1145,11 +1232,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -1171,6 +1254,10 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "1216",
+                    "1215",
+                    "1214",
+                    "1213",
                     "1212",
                     "1211",
                     "1210",
@@ -1196,13 +1283,13 @@
                     "1190",
                     "1189",
                     "1188",
-                    "1187",
-                    "1186",
-                    "1185",
-                    "1184",
-                    "1183"
+                    "1187"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -1228,11 +1315,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -1254,6 +1337,10 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "1216",
+                    "1215",
+                    "1214",
+                    "1213",
                     "1212",
                     "1211",
                     "1210",
@@ -1279,13 +1366,13 @@
                     "1190",
                     "1189",
                     "1188",
-                    "1187",
-                    "1186",
-                    "1185",
-                    "1184",
-                    "1183"
+                    "1187"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -1311,11 +1398,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {
@@ -1326,89 +1409,6 @@
                 "outcome": "Failed",
                 "test_time": "13.45",
                 "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev59\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nReflectometryISISCalibration-[Error] Error in execution of algorithm ReflectometryISISCalibration:\nReflectometryISISCalibration-[Error] Missing calibration data for specular pixel with workspace index 5\nReflectometryISISCalibration-[Error]   at line 64 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/ReflectometryISISCalibration.py&#x27;\nReflectometryISISCalibration-[Error]   caused by line 148 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/ReflectometryISISCalibration.py&#x27;\nReflectometryISISPreprocess-[Error] Error in execution of algorithm ReflectometryISISPreprocess:\nReflectometryISISPreprocess-[Error] Missing calibration data for specular pixel with workspace index 5\nReflectometryISISPreprocess-[Error]   at line 64 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/ReflectometryISISCalibration.py&#x27;\nReflectometryISISPreprocess-[Error]   caused by line 148 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/ReflectometryISISCalibration.py&#x27;\nReflectometryISISPreprocess-[Error]   at line 71 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/ReflectometryISISPreprocess.py&#x27;\nReflectometryISISPreprocess-[Error]   caused by line 113 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/ReflectometryISISPreprocess.py&#x27;\nE.......CreateSampleWorkspace-[Notice] CreateSampleWorkspace started\nCreateSampleWorkspace-[Notice] CreateSampleWorkspace successful, Duration 0.00 seconds\n..ReflectometryISISPreprocess-[Error] Error in execution of algorithm ReflectometryISISPreprocess:\nReflectometryISISPreprocess-[Error] Calibrating a Workspace Group as part of pre-processing is not currently supported\nReflectometryISISPreprocess-[Error]   at line 71 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/ReflectometryISISPreprocess.py&#x27;\nReflectometryISISPreprocess-[Error]   caused by line 107 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/ReflectometryISISPreprocess.py&#x27;\n.\n======================================================================\nERROR: test_calibration_file_is_applied_when_provided (ReflectometryISISPreprocessTest.ReflectometryISISPreprocessTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/test/python/plugins/algorithms/WorkflowAlgorithms/ReflectometryISISPreprocessTest.py&quot;, line 81, in test_calibration_file_is_applied_when_provided\n    output_ws = self._run_test(args)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/test/python/plugins/algorithms/WorkflowAlgorithms/ReflectometryISISPreprocessTest.py&quot;, line 109, in _run_test\n    output_ws, _ = self._run_test_with_monitors(args)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/test/python/plugins/algorithms/WorkflowAlgorithms/ReflectometryISISPreprocessTest.py&quot;, line 103, in _run_test_with_monitors\n    alg.execute()\nRuntimeError: Missing calibration data for specular pixel with workspace index 5\n  at line 64 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/ReflectometryISISCalibration.py&#x27;\n  caused by line 148 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/ReflectometryISISCalibration.py&#x27;\n  at line 71 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/ReflectometryISISPreprocess.py&#x27;\n  caused by line 113 in &#x27;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/ReflectometryISISPreprocess.py&#x27;\n\n----------------------------------------------------------------------\nRan 11 tests in 7.296s\n\nFAILED (errors=1)\n\n          Start 2384: MantidQtInterfacesMuonTestQt5_ALCPeakFittingModelTest\n"
-            }
-        },
-        {
-            "test_name": "AlgorithmsTest_CreateWorkspaceTest",
-            "latest_failed_build": "1183",
-            "agent_name": "Mac",
-            "last_failed_outcome": "Flake",
-            "pipeline_name": "pull_requests-conda-osx",
-            "problem_count": 1,
-            "past_outcome": {
-                "build_keys": [
-                    "1212",
-                    "1211",
-                    "1210",
-                    "1209",
-                    "1208",
-                    "1207",
-                    "1206",
-                    "1205",
-                    "1204",
-                    "1203",
-                    "1202",
-                    "1201",
-                    "1200",
-                    "1199",
-                    "1198",
-                    "1197",
-                    "1196",
-                    "1195",
-                    "1194",
-                    "1193",
-                    "1192",
-                    "1191",
-                    "1190",
-                    "1189",
-                    "1188",
-                    "1187",
-                    "1186",
-                    "1185",
-                    "1184",
-                    "1183"
-                ],
-                "past_outcome_list": [
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Flake"
-                ]
-            },
-            "last_stack_traces": {
-                "test_name": "AlgorithmsTest_CreateWorkspaceTest",
-                "build": "1183",
-                "agent_name": "Mac",
-                "trial": 1,
-                "outcome": "Failed",
-                "test_time": "0.62",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev19\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 11 tests.CreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.01 seconds\n.CreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\n.CreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\n.CreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Error] Error in execution of algorithm CreateWorkspace:\nCreateWorkspace-[Error] The number of vertical axis values doesn&#x27;t match the number of histograms.\n.CreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\n.CreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\n.CreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\n....OK!\nAlgorithmsTest(95005,0x7fffadb42380) malloc: *** error for object 0x7fba266dc270: pointer being freed was not allocated\n*** set a breakpoint in malloc_error_break to debug\nSubprocess aborted\n\n          Start  251: AlgorithmsTest_CreateWorkspaceTest\n"
             }
         }
     ]

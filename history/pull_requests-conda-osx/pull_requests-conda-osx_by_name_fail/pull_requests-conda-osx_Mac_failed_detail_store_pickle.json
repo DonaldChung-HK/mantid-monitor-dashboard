@@ -242,23 +242,22 @@
         "mantidqt_qt5.test_sliceviewer_presenter.test_sliceviewer_presenter": {
             "py/object": "datatable_helper.LTS_Problem_test_entry",
             "test_name": "mantidqt_qt5.test_sliceviewer_presenter.test_sliceviewer_presenter",
-            "latest_failed_build": "582",
+            "latest_failed_build": "1225",
             "agent_name": "Mac",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-osx",
             "past_failed_outcome": {
-                "575": "Failed",
-                "582": "Failed"
+                "1225": "Failed"
             },
             "last_stack_traces": {
                 "py/object": "datatable_helper.Problem_test_trial",
                 "test_name": "mantidqt_qt5.test_sliceviewer_presenter.test_sliceviewer_presenter",
-                "build": "582",
+                "build": "1225",
                 "agent_name": "Mac",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "4.01",
-                "stacktrace": ".........F...F.......................\n======================================================================\nFAIL: test_cut_view_toggled_on (test_sliceviewer_presenter.SliceViewerTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_presenter.py&quot;, line 331, in test_cut_view_toggled_on\n    self.view.data_view.deactivate_and_disable_tool.assert_has_calls([mock.call(tool) for tool in\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 950, in assert_has_calls\n    raise AssertionError(\nAssertionError: Calls not found.\nExpected: [call(&#x27;RegionSelection&#x27;), call(&#x27;LinePlots&#x27;), call(&#x27;NonOrthogonalAxes&#x27;)]\nActual: [call(&#x27;RegionSelection&#x27;), call(&#x27;LinePlots&#x27;)]\n\n======================================================================\nFAIL: test_non_orthogonal_axes_toggled_off (test_sliceviewer_presenter.SliceViewerTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_presenter.py&quot;, line 292, in test_non_orthogonal_axes_toggled_off\n    data_view_mock.enable_tool_button.assert_has_calls(\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 950, in assert_has_calls\n    raise AssertionError(\nAssertionError: Calls not found.\nExpected: [call(&#x27;LinePlots&#x27;), call(&#x27;RegionSelection&#x27;), call(&#x27;NonAxisAlignedCuts&#x27;)]\nActual: [call(&#x27;LinePlots&#x27;), call(&#x27;RegionSelection&#x27;)]\n\n----------------------------------------------------------------------\nRan 37 tests in 1.442s\n\nFAILED (failures=2)\n\n          Start 1081: GeometryTest_AcompTest\n"
+                "test_time": "7.83",
+                "stacktrace": "........E..................................\n======================================================================\nERROR: test_cut_view_toggled_off (test_sliceviewer_presenter.SliceViewerTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_presenter.py&quot;, line 341, in test_cut_view_toggled_off\n    presenter._cutviewer_presenter.hide_view.assert_called_once()\nAttributeError: &#x27;NoneType&#x27; object has no attribute &#x27;hide_view&#x27;\n\n----------------------------------------------------------------------\nRan 43 tests in 4.194s\n\nFAILED (errors=1)\n\n          Start  108: KernelTest_ShrinkToFitTest\n"
             }
         },
         "AlgorithmsTest_Q1DWeightedTest": {

@@ -243,22 +243,21 @@
         },
         "mantidqt_qt5.test_sliceviewer_presenter.test_sliceviewer_presenter": {
             "test_name": "mantidqt_qt5.test_sliceviewer_presenter.test_sliceviewer_presenter",
-            "latest_failed_build": "612",
+            "latest_failed_build": "1311",
             "agent_name": "Windows",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "611": "Failed",
-                "612": "Failed"
+                "1311": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "mantidqt_qt5.test_sliceviewer_presenter.test_sliceviewer_presenter",
-                "build": "612",
+                "build": "1311",
                 "agent_name": "Windows",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "12.02",
-                "stacktrace": ".........F...F.......................\r\n======================================================================\r\nFAIL: test_cut_view_toggled_on (test_sliceviewer_presenter.SliceViewerTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\unittest\\mock.py&quot;, line 1325, in patched\r\n    return func(*newargs, **newkeywargs)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_presenter.py&quot;, line 331, in test_cut_view_toggled_on\r\n    self.view.data_view.deactivate_and_disable_tool.assert_has_calls([mock.call(tool) for tool in\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\unittest\\mock.py&quot;, line 950, in assert_has_calls\r\n    raise AssertionError(\r\nAssertionError: Calls not found.\r\nExpected: [call(&#x27;RegionSelection&#x27;), call(&#x27;LinePlots&#x27;), call(&#x27;NonOrthogonalAxes&#x27;)]\r\nActual: [call(&#x27;RegionSelection&#x27;), call(&#x27;LinePlots&#x27;)]\r\n\r\n======================================================================\r\nFAIL: test_non_orthogonal_axes_toggled_off (test_sliceviewer_presenter.SliceViewerTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\unittest\\mock.py&quot;, line 1325, in patched\r\n    return func(*newargs, **newkeywargs)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_presenter.py&quot;, line 292, in test_non_orthogonal_axes_toggled_off\r\n    data_view_mock.enable_tool_button.assert_has_calls(\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\unittest\\mock.py&quot;, line 950, in assert_has_calls\r\n    raise AssertionError(\r\nAssertionError: Calls not found.\r\nExpected: [call(&#x27;LinePlots&#x27;), call(&#x27;RegionSelection&#x27;), call(&#x27;NonAxisAlignedCuts&#x27;)]\r\nActual: [call(&#x27;LinePlots&#x27;), call(&#x27;RegionSelection&#x27;)]\r\n\r\n----------------------------------------------------------------------\r\nRan 37 tests in 2.081s\r\n\r\nFAILED (failures=2)\r\n\r\n          Start  220: AlgorithmsTest_ConvertToEventWorkspaceTest\r\n"
+                "test_time": "8.38",
+                "stacktrace": "........E..................................\r\n======================================================================\r\nERROR: test_cut_view_toggled_off (test_sliceviewer_presenter.SliceViewerTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:\\Jenkins\\workspace\\pull_requests-conda-windows\\mambaforge\\envs\\mantid-developer\\lib\\unittest\\mock.py&quot;, line 1325, in patched\r\n    return func(*newargs, **newkeywargs)\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_presenter.py&quot;, line 341, in test_cut_view_toggled_off\r\n    presenter._cutviewer_presenter.hide_view.assert_called_once()\r\nAttributeError: &#x27;NoneType&#x27; object has no attribute &#x27;hide_view&#x27;\r\n\r\n----------------------------------------------------------------------\r\nRan 43 tests in 2.390s\r\n\r\nFAILED (errors=1)\r\n\r\n          Start 1743: python.functions.StretchedExpFTTest.StretchedExpFTTest\r\n"
             }
         },
         "AlgorithmsTest_Q1DWeightedTest": {
@@ -983,24 +982,23 @@
         },
         "AlgorithmsTest_LogarithmTest": {
             "test_name": "AlgorithmsTest_LogarithmTest",
-            "latest_failed_build": "1286",
+            "latest_failed_build": "1298",
             "agent_name": "Windows",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "1263": "Failed",
-                "1276": "Failed",
-                "1279": "Failed",
-                "1286": "Failed"
+                "1286": "Failed",
+                "1292": "Failed",
+                "1298": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "AlgorithmsTest_LogarithmTest",
-                "build": "1286",
+                "build": "1298",
                 "agent_name": "Windows",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "0.76",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev73\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 4 tests.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nLogarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start 2369: python.drill.DrillViewTest.DrillViewTest\r\n"
+                "test_time": "1.24",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev13\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 4 tests.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nLogarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.Logarithm-[Notice] Logarithm started\r\nLogarithm-[Notice] Logarithm successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  407: AlgorithmsTest_RectangularBeamProfileTest\r\n"
             }
         },
         "MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest": {
@@ -1166,22 +1164,24 @@
         },
         "DataHandlingTest_LoadILLDiffractionTest": {
             "test_name": "DataHandlingTest_LoadILLDiffractionTest",
-            "latest_failed_build": "1286",
+            "latest_failed_build": "1311",
             "agent_name": "Windows",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "1275": "Flake",
-                "1286": "Flake"
+                "1286": "Flake",
+                "1301": "Flake",
+                "1309": "Flake",
+                "1311": "Flake"
             },
             "last_stack_traces": {
                 "test_name": "DataHandlingTest_LoadILLDiffractionTest",
-                "build": "1286",
+                "build": "1311",
                 "agent_name": "Windows",
                 "trial": 2,
                 "outcome": "Failed",
-                "test_time": "7.20",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev73\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 11 tests....LoadILLDiffraction-[Notice] LoadILLDiffraction started\r\nLoadILLDiffraction-[Notice] LoadILLDiffraction successful, Duration 0.78 seconds\r\n.Load-[Notice] Load started\r\nLoad-[Notice] Load successful, Duration 0.55 seconds\r\n.\r\nIn LoadILLDiffractionTest::test_D2B_alignment:\r\nC:/Jenkins/workspace/pull_requests-conda-windows/Framework/DataHandling/test/LoadILLDiffractionTest.h:358: Error: Assertion failed: !outputWS-&gt;detectorInfo().isMonitor(16385 * 25)\r\n..LoadILLDiffraction-[Notice] A 2theta offset angle is necessary for D1B data.\r\n..\r\nFailed 1 of 11 tests\r\nSuccess rate: 90%\r\n\r\n          Start  888: DataHandlingTest_LoadILLDiffractionTest\r\n"
+                "test_time": "11.80",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230123.1825.dev7\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 14 tests...LoadILLDiffraction-[Warning] Invalid value for DataType: Calibrated data requested, but only raw data exists in this NeXus file.\r\n..LoadILLDiffraction-[Notice] LoadILLDiffraction started\r\nLoadILLDiffraction-[Notice] LoadILLDiffraction successful, Duration 0.79 seconds\r\n.Load-[Notice] Load started\r\nLoad-[Notice] Load successful, Duration 0.65 seconds\r\n.\r\nIn LoadILLDiffractionTest::test_D2B_alignment:\r\nC:/Jenkins/workspace/pull_requests-conda-windows/Framework/DataHandling/test/LoadILLDiffractionTest.h:375: Error: Assertion failed: !outputWS-&gt;detectorInfo().isMonitor(16385 * 25)\r\n....LoadILLDiffraction-[Notice] A 2theta offset angle is necessary for D1B data.\r\n..\r\nFailed 1 of 14 tests\r\nSuccess rate: 92%\r\n\r\n          Start  888: DataHandlingTest_LoadILLDiffractionTest\r\n"
             }
         },
         "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest": {
@@ -2659,27 +2659,22 @@
         },
         "AlgorithmsTest_PowerTest": {
             "test_name": "AlgorithmsTest_PowerTest",
-            "latest_failed_build": "1269",
+            "latest_failed_build": "1304",
             "agent_name": "Windows",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "1244": "Failed",
-                "1256": "Flake",
-                "1258": "Flake",
-                "1264": "Failed",
-                "1266": "Failed",
-                "1268": "Failed",
-                "1269": "Failed"
+                "1301": "Flake",
+                "1304": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "AlgorithmsTest_PowerTest",
-                "build": "1269",
+                "build": "1304",
                 "agent_name": "Windows",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "0.80",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev57\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 11 tests.......Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start 1166: GeometryTest_PeakTransformQLabTest\r\n"
+                "test_time": "1.07",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev16\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 11 tests.......Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start   65: KernelTest_MDAxisValidatorTest\r\n"
             }
         },
         "python.WorkflowAlgorithms.SaveVulcanGSSTest.SaveVulcanGSSTest": {
@@ -2741,26 +2736,22 @@
         },
         "AlgorithmsTest_RemoveLowResTOFTest": {
             "test_name": "AlgorithmsTest_RemoveLowResTOFTest",
-            "latest_failed_build": "1279",
+            "latest_failed_build": "1301",
             "agent_name": "Windows",
-            "last_failed_outcome": "Flake",
+            "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "1256": "Failed",
-                "1258": "Failed",
-                "1263": "Flake",
-                "1275": "Flake",
-                "1276": "Flake",
-                "1279": "Flake"
+                "1292": "Failed",
+                "1301": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "AlgorithmsTest_RemoveLowResTOFTest",
-                "build": "1279",
+                "build": "1301",
                 "agent_name": "Windows",
-                "trial": 2,
+                "trial": 3,
                 "outcome": "Failed",
-                "test_time": "1.49",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev79\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 1 testRemoveLowResTOF-[Notice] RemoveLowResTOF started\r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 4 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 13 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 22 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 31 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] 4 spectra of 36 had all data removed.  The number of removed events is 400.\r\nRemoveLowResTOF-[Notice] RemoveLowResTOF successful, Duration 0.01 seconds\r\nEvents (Input) = 3600; Result = 3108, Low Res = 92.\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  412: AlgorithmsTest_RemoveLowResTOFTest\r\n"
+                "test_time": "0.87",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev88\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 1 testRemoveLowResTOF-[Notice] RemoveLowResTOF started\r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 4 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 13 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 22 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 31 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] 4 spectra of 36 had all data removed.  The number of removed events is 400.\r\nRemoveLowResTOF-[Notice] RemoveLowResTOF successful, Duration 0.00 seconds\r\nEvents (Input) = 3600; Result = 3108, Low Res = 92.\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  183: AlgorithmsTest_CalculateIqtTest\r\n"
             }
         },
         "python.MuonQt5.basic_fitting_view_test.basic_fitting_view_test": {
@@ -2979,22 +2970,23 @@
         },
         "AlgorithmsTest_ExponentialTest": {
             "test_name": "AlgorithmsTest_ExponentialTest",
-            "latest_failed_build": "1287",
+            "latest_failed_build": "1304",
             "agent_name": "Windows",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "1263": "Failed",
-                "1287": "Failed"
+                "1287": "Failed",
+                "1299": "Flake",
+                "1304": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "AlgorithmsTest_ExponentialTest",
-                "build": "1287",
+                "build": "1304",
                 "agent_name": "Windows",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "0.78",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev65\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 3 tests.Exponential-[Notice] Exponential started\r\nExponential-[Notice] Exponential successful, Duration 0.00 seconds\r\n.Exponential-[Notice] Exponential started\r\nExponential-[Notice] Exponential successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start 1295: MuonTest_CalculateMuonAsymmetryTest\r\n"
+                "test_time": "1.11",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev16\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 3 tests.Exponential-[Notice] Exponential started\r\nExponential-[Notice] Exponential successful, Duration 0.00 seconds\r\n.Exponential-[Notice] Exponential started\r\nExponential-[Notice] Exponential successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  223: AlgorithmsTest_ConvertToMatrixWorkspaceTest\r\n"
             }
         },
         "python.algorithms.SaveINSTest.SaveINSTest": {
@@ -3039,25 +3031,21 @@
         },
         "DataObjectsTest_EventListTest": {
             "test_name": "DataObjectsTest_EventListTest",
-            "latest_failed_build": "1258",
+            "latest_failed_build": "1299",
             "agent_name": "Windows",
-            "last_failed_outcome": "Flake",
+            "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "1241": "Flake",
-                "1243": "Failed",
-                "1244": "Failed",
-                "1256": "Flake",
-                "1258": "Flake"
+                "1299": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "DataObjectsTest_EventListTest",
-                "build": "1258",
+                "build": "1299",
                 "agent_name": "Windows",
-                "trial": 2,
+                "trial": 3,
                 "outcome": "Failed",
-                "test_time": "0.74",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev43\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 111 tests...............................................................................................................OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start 1030: DataObjectsTest_EventListTest\r\n"
+                "test_time": "0.78",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev78\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 111 tests...............................................................................................................OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  492: APITest_BoxControllerSettingsAlgorithmTest\r\n"
             }
         },
         "AlgorithmsTest_DiffractionFocussing2Test": {
@@ -3437,21 +3425,21 @@
         },
         "AlgorithmsTest_ConvertToMatrixWorkspaceTest": {
             "test_name": "AlgorithmsTest_ConvertToMatrixWorkspaceTest",
-            "latest_failed_build": "1213",
+            "latest_failed_build": "1292",
             "agent_name": "Windows",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "1213": "Flake"
+                "1292": "Flake"
             },
             "last_stack_traces": {
                 "test_name": "AlgorithmsTest_ConvertToMatrixWorkspaceTest",
-                "build": "1213",
+                "build": "1292",
                 "agent_name": "Windows",
-                "trial": 2,
+                "trial": 1,
                 "outcome": "Failed",
-                "test_time": "1.38",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev3\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 5 tests...CompareWorkspaces-[Notice] CompareWorkspaces started\r\nCompareWorkspaces-[Notice] The workspaces &quot;&quot; and &quot;&quot; matched!\r\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\r\n..OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  223: AlgorithmsTest_ConvertToMatrixWorkspaceTest\r\n"
+                "test_time": "0.98",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev74\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 5 tests...CompareWorkspaces-[Notice] CompareWorkspaces started\r\nCompareWorkspaces-[Notice] The workspaces &quot;&quot; and &quot;&quot; matched!\r\nCompareWorkspaces-[Notice] CompareWorkspaces successful, Duration 0.00 seconds\r\n..OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  223: AlgorithmsTest_ConvertToMatrixWorkspaceTest\r\n"
             }
         },
         "CrystalTest_MaskPeaksWorkspaceTest": {
@@ -3566,6 +3554,25 @@
                 "outcome": "Failed",
                 "test_time": "0.60",
                 "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev55\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nERROR: unknown suite &#x27;SplittingIntervalTest&#x27;\r\n\r\n          Start  604: CrystalTest_CentroidPeaksTest\r\n"
+            }
+        },
+        "AlgorithmsTest_RemovePromptPulseTest": {
+            "test_name": "AlgorithmsTest_RemovePromptPulseTest",
+            "latest_failed_build": "1299",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Flake",
+            "pipeline_name": "pull_requests-conda-windows",
+            "past_failed_outcome": {
+                "1299": "Flake"
+            },
+            "last_stack_traces": {
+                "test_name": "AlgorithmsTest_RemovePromptPulseTest",
+                "build": "1299",
+                "agent_name": "Windows",
+                "trial": 1,
+                "outcome": "Failed",
+                "test_time": "0.82",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev78\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 3 tests.RemovePromptPulse-[Notice] RemovePromptPulse started\r\nRemovePromptPulse-[Notice] Filtering tmin=10000, tmax=11000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=20000, tmax=21000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=30000, tmax=31000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=40000, tmax=41000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=50000, tmax=51000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=60000, tmax=61000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=70000, tmax=71000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=80000, tmax=81000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=90000, tmax=91000 microseconds\r\nRemovePromptPulse-[Notice] RemovePromptPulse successful, Duration 0.02 seconds\r\n.RemovePromptPulse-[Notice] RemovePromptPulse started\r\nRemovePromptPulse-[Notice] Filtering tmin=5000, tmax=6000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=10000, tmax=11000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=15000, tmax=16000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=20000, tmax=21000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=25000, tmax=26000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=30000, tmax=31000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=35000, tmax=36000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=40000, tmax=41000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=45000, tmax=46000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=50000, tmax=51000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=55000, tmax=56000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=60000, tmax=61000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=65000, tmax=66000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=70000, tmax=71000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=75000, tmax=76000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=80000, tmax=81000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=85000, tmax=86000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=90000, tmax=91000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=95000, tmax=96000 microseconds\r\nRemovePromptPulse-[Notice] RemovePromptPulse successful, Duration 0.01 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  414: AlgorithmsTest_RemovePromptPulseTest\r\n"
             }
         }
     }

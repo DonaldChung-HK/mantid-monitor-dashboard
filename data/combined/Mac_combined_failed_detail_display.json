@@ -137,9 +137,10 @@
                 "pull_requests-conda-osx_499": "Failed",
                 "pull_requests-conda-osx_501": "Failed",
                 "pull_requests-conda-osx_575": "Failed",
-                "pull_requests-conda-osx_582": "Failed"
+                "pull_requests-conda-osx_582": "Failed",
+                "pull_requests-conda-osx_1225": "Failed"
             },
-            "last_fail_detected": "1990-01-01"
+            "last_fail_detected": "2023-01-24"
         },
         {
             "test_name": "AlgorithmsTest_Q1DWeightedTest",

@@ -2088,9 +2088,10 @@
             "test_name": "mantidqt_qt5.test_sliceviewer_model.test_sliceviewer_model",
             "past_failed_outcome": {
                 "pull_requests-conda-linux_2546": "Failed",
-                "pull_requests-conda-linux_2558": "Failed"
+                "pull_requests-conda-linux_2558": "Failed",
+                "pull_requests-conda-linux_2575": "Failed"
             },
-            "last_fail_detected": "2023-01-24"
+            "last_fail_detected": "2023-01-25"
         },
         {
             "test_name": "mantidqt_qt5.test_spectraselectiondialog.test_spectraselectiondialog",

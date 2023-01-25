@@ -822,9 +822,12 @@
                 "pull_requests-conda-osx_1146": "Flake",
                 "pull_requests-conda-osx_1175": "Failed",
                 "pull_requests-conda-osx_1176": "Flake",
-                "pull_requests-conda-osx_1209": "Flake"
+                "pull_requests-conda-osx_1209": "Flake",
+                "pull_requests-conda-osx_1231": "Flake",
+                "pull_requests-conda-osx_1232": "Flake",
+                "pull_requests-conda-osx_1239": "Flake"
             },
-            "last_fail_detected": "2023-01-21"
+            "last_fail_detected": "2023-01-25"
         },
         "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter": {
             "test_name": "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter",
@@ -1011,9 +1014,10 @@
                 "pull_requests-conda-osx_1150": "Flake",
                 "pull_requests-conda-osx_1151": "Flake",
                 "pull_requests-conda-osx_1153": "Flake",
-                "pull_requests-conda-osx_1211": "Flake"
+                "pull_requests-conda-osx_1211": "Flake",
+                "pull_requests-conda-osx_1243": "Flake"
             },
-            "last_fail_detected": "2023-01-21"
+            "last_fail_detected": "2023-01-25"
         },
         "python.WorkflowAlgorithms.EnergyWindowScanTest.EnergyWindowScanTest": {
             "test_name": "python.WorkflowAlgorithms.EnergyWindowScanTest.EnergyWindowScanTest",
@@ -2240,6 +2244,15 @@
                 "pull_requests-conda-osx_1196": "Failed"
             },
             "last_fail_detected": "2023-01-20"
+        },
+        "mantidqt_qt5.test_sliceviewer_model.test_sliceviewer_model": {
+            "test_name": "mantidqt_qt5.test_sliceviewer_model.test_sliceviewer_model",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_1234": "Failed",
+                "pull_requests-conda-osx_1235": "Failed"
+            },
+            "last_fail_detected": "2023-01-25"
         }
     }
 }

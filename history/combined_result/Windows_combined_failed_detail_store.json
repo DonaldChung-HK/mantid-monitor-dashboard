@@ -720,9 +720,15 @@
                 "pull_requests-conda-windows_1286": "Flake",
                 "pull_requests-conda-windows_1301": "Flake",
                 "pull_requests-conda-windows_1309": "Flake",
-                "pull_requests-conda-windows_1311": "Flake"
+                "pull_requests-conda-windows_1311": "Flake",
+                "pull_requests-conda-windows_1314": "Flake",
+                "pull_requests-conda-windows_1316": "Flake",
+                "pull_requests-conda-windows_1318": "Flake",
+                "pull_requests-conda-windows_1319": "Flake",
+                "pull_requests-conda-windows_1322": "Flake",
+                "pull_requests-conda-windows_1324": "Flake"
             },
-            "last_fail_detected": "2023-01-24"
+            "last_fail_detected": "2023-01-25"
         },
         "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest": {
             "test_name": "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest",
@@ -2308,6 +2314,15 @@
                 "pull_requests-conda-windows_1299": "Flake"
             },
             "last_fail_detected": "2023-01-24"
+        },
+        "mantidqt_qt5.test_sliceviewer_model.test_sliceviewer_model": {
+            "test_name": "mantidqt_qt5.test_sliceviewer_model.test_sliceviewer_model",
+            "agent_name": "Windows",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_1320": "Failed",
+                "pull_requests-conda-windows_1321": "Failed"
+            },
+            "last_fail_detected": "2023-01-25"
         }
     }
 }

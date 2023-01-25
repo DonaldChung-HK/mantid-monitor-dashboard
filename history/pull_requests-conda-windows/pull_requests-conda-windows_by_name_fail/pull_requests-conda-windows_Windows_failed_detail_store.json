@@ -1164,24 +1164,29 @@
         },
         "DataHandlingTest_LoadILLDiffractionTest": {
             "test_name": "DataHandlingTest_LoadILLDiffractionTest",
-            "latest_failed_build": "1311",
+            "latest_failed_build": "1324",
             "agent_name": "Windows",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "1286": "Flake",
                 "1301": "Flake",
                 "1309": "Flake",
-                "1311": "Flake"
+                "1311": "Flake",
+                "1314": "Flake",
+                "1316": "Flake",
+                "1318": "Flake",
+                "1319": "Flake",
+                "1322": "Flake",
+                "1324": "Flake"
             },
             "last_stack_traces": {
                 "test_name": "DataHandlingTest_LoadILLDiffractionTest",
-                "build": "1311",
+                "build": "1324",
                 "agent_name": "Windows",
                 "trial": 2,
                 "outcome": "Failed",
-                "test_time": "11.80",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230123.1825.dev7\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 14 tests...LoadILLDiffraction-[Warning] Invalid value for DataType: Calibrated data requested, but only raw data exists in this NeXus file.\r\n..LoadILLDiffraction-[Notice] LoadILLDiffraction started\r\nLoadILLDiffraction-[Notice] LoadILLDiffraction successful, Duration 0.79 seconds\r\n.Load-[Notice] Load started\r\nLoad-[Notice] Load successful, Duration 0.65 seconds\r\n.\r\nIn LoadILLDiffractionTest::test_D2B_alignment:\r\nC:/Jenkins/workspace/pull_requests-conda-windows/Framework/DataHandling/test/LoadILLDiffractionTest.h:375: Error: Assertion failed: !outputWS-&gt;detectorInfo().isMonitor(16385 * 25)\r\n....LoadILLDiffraction-[Notice] A 2theta offset angle is necessary for D1B data.\r\n..\r\nFailed 1 of 14 tests\r\nSuccess rate: 92%\r\n\r\n          Start  888: DataHandlingTest_LoadILLDiffractionTest\r\n"
+                "test_time": "21.58",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230124.1333.dev6\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 14 tests...LoadILLDiffraction-[Warning] Invalid value for DataType: Calibrated data requested, but only raw data exists in this NeXus file.\r\n..LoadILLDiffraction-[Notice] LoadILLDiffraction started\r\nLoadILLDiffraction-[Notice] LoadILLDiffraction successful, Duration 1.17 seconds\r\n.Load-[Notice] Load started\r\nLoad-[Notice] Load successful, Duration 0.94 seconds\r\n.\r\nIn LoadILLDiffractionTest::test_D2B_alignment:\r\nC:/Jenkins/workspace/pull_requests-conda-windows/Framework/DataHandling/test/LoadILLDiffractionTest.h:375: Error: Assertion failed: !outputWS-&gt;detectorInfo().isMonitor(16385 * 25)\r\n....LoadILLDiffraction-[Notice] A 2theta offset angle is necessary for D1B data.\r\n..\r\nFailed 1 of 14 tests\r\nSuccess rate: 92%\r\n\r\n          Start  888: DataHandlingTest_LoadILLDiffractionTest\r\n"
             }
         },
         "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest": {
@@ -3573,6 +3578,26 @@
                 "outcome": "Failed",
                 "test_time": "0.82",
                 "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev78\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 3 tests.RemovePromptPulse-[Notice] RemovePromptPulse started\r\nRemovePromptPulse-[Notice] Filtering tmin=10000, tmax=11000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=20000, tmax=21000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=30000, tmax=31000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=40000, tmax=41000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=50000, tmax=51000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=60000, tmax=61000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=70000, tmax=71000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=80000, tmax=81000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=90000, tmax=91000 microseconds\r\nRemovePromptPulse-[Notice] RemovePromptPulse successful, Duration 0.02 seconds\r\n.RemovePromptPulse-[Notice] RemovePromptPulse started\r\nRemovePromptPulse-[Notice] Filtering tmin=5000, tmax=6000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=10000, tmax=11000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=15000, tmax=16000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=20000, tmax=21000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=25000, tmax=26000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=30000, tmax=31000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=35000, tmax=36000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=40000, tmax=41000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=45000, tmax=46000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=50000, tmax=51000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=55000, tmax=56000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=60000, tmax=61000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=65000, tmax=66000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=70000, tmax=71000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=75000, tmax=76000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=80000, tmax=81000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=85000, tmax=86000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=90000, tmax=91000 microseconds\r\nRemovePromptPulse-[Notice] Filtering tmin=95000, tmax=96000 microseconds\r\nRemovePromptPulse-[Notice] RemovePromptPulse successful, Duration 0.01 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  414: AlgorithmsTest_RemovePromptPulseTest\r\n"
+            }
+        },
+        "mantidqt_qt5.test_sliceviewer_model.test_sliceviewer_model": {
+            "test_name": "mantidqt_qt5.test_sliceviewer_model.test_sliceviewer_model",
+            "latest_failed_build": "1321",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-windows",
+            "past_failed_outcome": {
+                "1320": "Failed",
+                "1321": "Failed"
+            },
+            "last_stack_traces": {
+                "test_name": "mantidqt_qt5.test_sliceviewer_model.test_sliceviewer_model",
+                "build": "1321",
+                "agent_name": "Windows",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "12.75",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230123.1825.dev10\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\n...........F.....................................\r\n======================================================================\r\nFAIL: test_calculate_axes_angles_uses_W_if_basis_vectors_unavailable_and_W_available_MDHisto (test_sliceviewer_model.SliceViewerModelTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/Jenkins/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_model.py&quot;, line 543, in test_calculate_axes_angles_uses_W_if_basis_vectors_unavailable_and_W_available_MDHisto\r\n    self.assertAlmostEqual(axes_angles[1, 2], np.pi / 4, delta=1e-10)\r\nAssertionError: 1.5707963267948968 != 0.7853981633974483 within 1e-10 delta (0.7853981633974485 difference)\r\n\r\n----------------------------------------------------------------------\r\nRan 49 tests in 1.284s\r\n\r\nFAILED (failures=1)\r\n\r\n          Start   89: KernelTest_NexusHDF5DescriptorTest\r\n"
             }
         }
     }

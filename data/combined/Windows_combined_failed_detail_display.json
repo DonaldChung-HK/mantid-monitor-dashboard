@@ -711,9 +711,12 @@
                 "pull_requests-conda-windows_1318": "Flake",
                 "pull_requests-conda-windows_1319": "Flake",
                 "pull_requests-conda-windows_1322": "Flake",
-                "pull_requests-conda-windows_1324": "Flake"
+                "pull_requests-conda-windows_1324": "Flake",
+                "pull_requests-conda-windows_1331": "Flake",
+                "pull_requests-conda-windows_1333": "Flake",
+                "pull_requests-conda-windows_1341": "Flake"
             },
-            "last_fail_detected": "2023-01-25"
+            "last_fail_detected": "2023-01-26"
         },
         {
             "test_name": "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest",
@@ -1706,9 +1709,10 @@
                 "pull_requests-conda-windows_1268": "Failed",
                 "pull_requests-conda-windows_1269": "Failed",
                 "pull_requests-conda-windows_1301": "Flake",
-                "pull_requests-conda-windows_1304": "Failed"
+                "pull_requests-conda-windows_1304": "Failed",
+                "pull_requests-conda-windows_1353": "Failed"
             },
-            "last_fail_detected": "2023-01-24"
+            "last_fail_detected": "2023-01-26"
         },
         {
             "test_name": "python.WorkflowAlgorithms.SaveVulcanGSSTest.SaveVulcanGSSTest",
@@ -1768,9 +1772,10 @@
                 "pull_requests-conda-windows_1276": "Flake",
                 "pull_requests-conda-windows_1279": "Flake",
                 "pull_requests-conda-windows_1292": "Failed",
-                "pull_requests-conda-windows_1301": "Failed"
+                "pull_requests-conda-windows_1301": "Failed",
+                "pull_requests-conda-windows_1353": "Failed"
             },
-            "last_fail_detected": "2023-01-24"
+            "last_fail_detected": "2023-01-26"
         },
         {
             "test_name": "python.MuonQt5.basic_fitting_view_test.basic_fitting_view_test",

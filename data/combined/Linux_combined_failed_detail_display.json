@@ -99,9 +99,10 @@
                 "pull_requests-conda-linux_2040": "Flake",
                 "pull_requests-conda-linux_2275": "Flake",
                 "pull_requests-conda-linux_2546": "Failed",
-                "pull_requests-conda-linux_2558": "Failed"
+                "pull_requests-conda-linux_2558": "Failed",
+                "pull_requests-conda-linux_2587": "Flake"
             },
-            "last_fail_detected": "2023-01-24"
+            "last_fail_detected": "2023-01-26"
         },
         {
             "test_name": "python.algorithms.IntegratePeaksSkewTest.IntegratePeaksSkewTest",
@@ -8003,6 +8004,20 @@
                 "pull_requests-conda-linux_2557": "Flake"
             },
             "last_fail_detected": "2023-01-24"
+        },
+        {
+            "test_name": "AlgorithmsTest_GetAllEiTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2605": "Failed"
+            },
+            "last_fail_detected": "2023-01-26"
+        },
+        {
+            "test_name": "KernelTest_TimeSeriesPropertyTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2605": "Failed"
+            },
+            "last_fail_detected": "2023-01-26"
         }
     ]
 }

@@ -14,9 +14,7 @@
                     "488",
                     "487",
                     "486",
-                    "485",
-                    "484",
-                    "483"
+                    "485"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -24,9 +22,7 @@
                     "Passed",
                     "None",
                     "Flake",
-                    "Flake",
-                    "Passed",
-                    "Passed"
+                    "Flake"
                 ]
             },
             "last_stack_traces": {

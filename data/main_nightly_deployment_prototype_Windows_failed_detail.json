@@ -14,17 +14,13 @@
                     "488",
                     "487",
                     "486",
-                    "485",
-                    "484",
-                    "483"
+                    "485"
                 ],
                 "past_outcome_list": [
                     "Flake",
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed"
                 ]
@@ -45,7 +41,7 @@
             "agent_name": "Windows",
             "last_failed_outcome": "Flake",
             "pipeline_name": "main_nightly_deployment_prototype",
-            "problem_count": 4,
+            "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
                     "490",
@@ -53,9 +49,7 @@
                     "488",
                     "487",
                     "486",
-                    "485",
-                    "484",
-                    "483"
+                    "485"
                 ],
                 "past_outcome_list": [
                     "Flake",
@@ -63,8 +57,6 @@
                     "Passed",
                     "None",
                     "Failed",
-                    "Failed",
-                    "Passed",
                     "Failed"
                 ]
             },
@@ -92,17 +84,13 @@
                     "488",
                     "487",
                     "486",
-                    "485",
-                    "484",
-                    "483"
+                    "485"
                 ],
                 "past_outcome_list": [
                     "Flake",
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed"
                 ]
@@ -131,17 +119,13 @@
                     "488",
                     "487",
                     "486",
-                    "485",
-                    "484",
-                    "483"
+                    "485"
                 ],
                 "past_outcome_list": [
                     "Flake",
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed"
                 ]
@@ -170,17 +154,13 @@
                     "488",
                     "487",
                     "486",
-                    "485",
-                    "484",
-                    "483"
+                    "485"
                 ],
                 "past_outcome_list": [
                     "Flake",
                     "Passed",
                     "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed"
                 ]
@@ -209,17 +189,13 @@
                     "488",
                     "487",
                     "486",
-                    "485",
-                    "484",
-                    "483"
+                    "485"
                 ],
                 "past_outcome_list": [
                     "Passed",
                     "Passed",
                     "Flake",
                     "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed"
                 ]
@@ -248,9 +224,7 @@
                     "488",
                     "487",
                     "486",
-                    "485",
-                    "484",
-                    "483"
+                    "485"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -258,8 +232,6 @@
                     "Passed",
                     "None",
                     "Failed",
-                    "Passed",
-                    "Passed",
                     "Passed"
                 ]
             },
@@ -287,9 +259,7 @@
                     "488",
                     "487",
                     "486",
-                    "485",
-                    "484",
-                    "483"
+                    "485"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -297,8 +267,6 @@
                     "Passed",
                     "None",
                     "Failed",
-                    "Passed",
-                    "Passed",
                     "Passed"
                 ]
             },
@@ -326,9 +294,7 @@
                     "488",
                     "487",
                     "486",
-                    "485",
-                    "484",
-                    "483"
+                    "485"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -336,9 +302,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Failed",
-                    "Passed",
-                    "Passed"
+                    "Failed"
                 ]
             },
             "last_stack_traces": {

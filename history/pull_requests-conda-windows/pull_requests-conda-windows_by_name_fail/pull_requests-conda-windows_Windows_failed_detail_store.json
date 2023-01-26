@@ -1164,29 +1164,23 @@
         },
         "DataHandlingTest_LoadILLDiffractionTest": {
             "test_name": "DataHandlingTest_LoadILLDiffractionTest",
-            "latest_failed_build": "1324",
+            "latest_failed_build": "1341",
             "agent_name": "Windows",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "1301": "Flake",
-                "1309": "Flake",
-                "1311": "Flake",
-                "1314": "Flake",
-                "1316": "Flake",
-                "1318": "Flake",
-                "1319": "Flake",
-                "1322": "Flake",
-                "1324": "Flake"
+                "1331": "Flake",
+                "1333": "Flake",
+                "1341": "Flake"
             },
             "last_stack_traces": {
                 "test_name": "DataHandlingTest_LoadILLDiffractionTest",
-                "build": "1324",
+                "build": "1341",
                 "agent_name": "Windows",
-                "trial": 2,
+                "trial": 1,
                 "outcome": "Failed",
-                "test_time": "21.58",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230124.1333.dev6\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 14 tests...LoadILLDiffraction-[Warning] Invalid value for DataType: Calibrated data requested, but only raw data exists in this NeXus file.\r\n..LoadILLDiffraction-[Notice] LoadILLDiffraction started\r\nLoadILLDiffraction-[Notice] LoadILLDiffraction successful, Duration 1.17 seconds\r\n.Load-[Notice] Load started\r\nLoad-[Notice] Load successful, Duration 0.94 seconds\r\n.\r\nIn LoadILLDiffractionTest::test_D2B_alignment:\r\nC:/Jenkins/workspace/pull_requests-conda-windows/Framework/DataHandling/test/LoadILLDiffractionTest.h:375: Error: Assertion failed: !outputWS-&gt;detectorInfo().isMonitor(16385 * 25)\r\n....LoadILLDiffraction-[Notice] A 2theta offset angle is necessary for D1B data.\r\n..\r\nFailed 1 of 14 tests\r\nSuccess rate: 92%\r\n\r\n          Start  888: DataHandlingTest_LoadILLDiffractionTest\r\n"
+                "test_time": "4.82",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230124.1333.dev78\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 11 tests....LoadILLDiffraction-[Notice] LoadILLDiffraction started\r\nLoadILLDiffraction-[Notice] LoadILLDiffraction successful, Duration 0.95 seconds\r\n.Load-[Notice] Load started\r\nLoad-[Notice] Load successful, Duration 0.76 seconds\r\n.InstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D2Bfed5c17191ce18f4c6a528b1c0feee2d87e63c68.vtp\r\nAccess violation\r\n\r\n          Start  887: DataHandlingTest_LoadILLDiffractionTest\r\n"
             }
         },
         "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest": {
@@ -2664,22 +2658,21 @@
         },
         "AlgorithmsTest_PowerTest": {
             "test_name": "AlgorithmsTest_PowerTest",
-            "latest_failed_build": "1304",
+            "latest_failed_build": "1353",
             "agent_name": "Windows",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "1301": "Flake",
-                "1304": "Failed"
+                "1353": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "AlgorithmsTest_PowerTest",
-                "build": "1304",
+                "build": "1353",
                 "agent_name": "Windows",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "1.07",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev16\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 11 tests.......Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start   65: KernelTest_MDAxisValidatorTest\r\n"
+                "test_time": "0.43",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev2\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 11 tests.......Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.Power-[Notice] Power started\r\nPower-[Notice] Power successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  573: APITest_ScopedWorkspaceTest\r\n"
             }
         },
         "python.WorkflowAlgorithms.SaveVulcanGSSTest.SaveVulcanGSSTest": {
@@ -2741,22 +2734,21 @@
         },
         "AlgorithmsTest_RemoveLowResTOFTest": {
             "test_name": "AlgorithmsTest_RemoveLowResTOFTest",
-            "latest_failed_build": "1301",
+            "latest_failed_build": "1353",
             "agent_name": "Windows",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-windows",
             "past_failed_outcome": {
-                "1292": "Failed",
-                "1301": "Failed"
+                "1353": "Failed"
             },
             "last_stack_traces": {
                 "test_name": "AlgorithmsTest_RemoveLowResTOFTest",
-                "build": "1301",
+                "build": "1353",
                 "agent_name": "Windows",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "0.87",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230119.2253.dev88\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 1 testRemoveLowResTOF-[Notice] RemoveLowResTOF started\r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 4 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 13 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 22 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 31 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] 4 spectra of 36 had all data removed.  The number of removed events is 400.\r\nRemoveLowResTOF-[Notice] RemoveLowResTOF successful, Duration 0.00 seconds\r\nEvents (Input) = 3600; Result = 3108, Low Res = 92.\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  183: AlgorithmsTest_CalculateIqtTest\r\n"
+                "test_time": "0.39",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230115.2237.dev2\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 1 testRemoveLowResTOF-[Notice] RemoveLowResTOF started\r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 4 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 13 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 22 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] tmin is nan because dspmap = inf.\r\nRemoveLowResTOF-[Warning] tmin for workspaceIndex 31 is nan. Clearing out data. There are 100 of it. \r\nRemoveLowResTOF-[Warning] 4 spectra of 36 had all data removed.  The number of removed events is 400.\r\nRemoveLowResTOF-[Notice] RemoveLowResTOF successful, Duration 0.00 seconds\r\nEvents (Input) = 3600; Result = 3108, Low Res = 92.\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start 1296: MuonTest_CalMuonDeadTimeTest\r\n"
             }
         },
         "python.MuonQt5.basic_fitting_view_test.basic_fitting_view_test": {

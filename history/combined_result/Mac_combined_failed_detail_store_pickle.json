@@ -900,9 +900,13 @@
                 "pull_requests-conda-osx_1209": "Flake",
                 "pull_requests-conda-osx_1231": "Flake",
                 "pull_requests-conda-osx_1232": "Flake",
-                "pull_requests-conda-osx_1239": "Flake"
+                "pull_requests-conda-osx_1239": "Flake",
+                "pull_requests-conda-osx_1246": "Flake",
+                "pull_requests-conda-osx_1254": "Flake",
+                "pull_requests-conda-osx_1264": "Flake",
+                "pull_requests-conda-osx_1265": "Flake"
             },
-            "last_fail_detected": "2023-01-25"
+            "last_fail_detected": "2023-01-26"
         },
         "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -1109,9 +1113,10 @@
                 "pull_requests-conda-osx_1151": "Flake",
                 "pull_requests-conda-osx_1153": "Flake",
                 "pull_requests-conda-osx_1211": "Flake",
-                "pull_requests-conda-osx_1243": "Flake"
+                "pull_requests-conda-osx_1243": "Flake",
+                "pull_requests-conda-osx_1255": "Flake"
             },
-            "last_fail_detected": "2023-01-25"
+            "last_fail_detected": "2023-01-26"
         },
         "python.WorkflowAlgorithms.EnergyWindowScanTest.EnergyWindowScanTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",

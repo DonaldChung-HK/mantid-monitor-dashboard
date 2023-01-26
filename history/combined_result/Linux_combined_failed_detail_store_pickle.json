@@ -117,9 +117,10 @@
                 "pull_requests-conda-linux_2040": "Flake",
                 "pull_requests-conda-linux_2275": "Flake",
                 "pull_requests-conda-linux_2546": "Failed",
-                "pull_requests-conda-linux_2558": "Failed"
+                "pull_requests-conda-linux_2558": "Failed",
+                "pull_requests-conda-linux_2587": "Flake"
             },
-            "last_fail_detected": "2023-01-24"
+            "last_fail_detected": "2023-01-26"
         },
         "python.algorithms.IntegratePeaksSkewTest.IntegratePeaksSkewTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -9901,6 +9902,24 @@
                 "pull_requests-conda-linux_2557": "Flake"
             },
             "last_fail_detected": "2023-01-24"
+        },
+        "AlgorithmsTest_GetAllEiTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "AlgorithmsTest_GetAllEiTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2605": "Failed"
+            },
+            "last_fail_detected": "2023-01-26"
+        },
+        "KernelTest_TimeSeriesPropertyTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "KernelTest_TimeSeriesPropertyTest",
+            "agent_name": "Linux",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2605": "Failed"
+            },
+            "last_fail_detected": "2023-01-26"
         }
     }
 }

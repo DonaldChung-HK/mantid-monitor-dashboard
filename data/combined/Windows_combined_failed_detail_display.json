@@ -815,9 +815,13 @@
                 "pull_requests-conda-windows_1370": "Flake",
                 "pull_requests-conda-windows_1371": "Flake",
                 "pull_requests-conda-windows_1379": "Flake",
-                "pull_requests-conda-windows_1380": "Flake"
+                "pull_requests-conda-windows_1380": "Flake",
+                "pull_requests-conda-windows_1386": "Flake",
+                "pull_requests-conda-windows_1387": "Flake",
+                "pull_requests-conda-windows_1391": "Flake",
+                "pull_requests-conda-windows_1396": "Flake"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-01-28"
         },
         {
             "test_name": "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest",
@@ -2383,9 +2387,10 @@
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1367": "Failed",
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_1385": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-01-28"
         },
         {
             "test_name": "MDAlgorithmsTest_ConvertToMDMinMaxLocalTest",
@@ -2896,9 +2901,10 @@
             "test_name": "mantidqt_qt5.test_instrumentview_io.test_instrumentview_io",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_1389": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-01-28"
         },
         {
             "test_name": "mantidqt_qt5.test_instrumentview_presenter.test_instrumentview_presenter",

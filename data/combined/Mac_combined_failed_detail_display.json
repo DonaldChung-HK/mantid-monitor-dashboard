@@ -2234,9 +2234,12 @@
             "past_failed_outcome": {
                 "pull_requests-conda-osx_1281": "Failed",
                 "pull_requests-conda-osx_1284": "Failed",
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_1296": "Failed",
+                "pull_requests-conda-osx_1303": "Failed",
+                "pull_requests-conda-osx_1305": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-01-28"
         },
         {
             "test_name": "MDAlgorithmsTest_ConvertToMDMinMaxLocalTest",
@@ -2691,9 +2694,10 @@
         {
             "test_name": "mantidqt_qt5.test_instrumentview_io.test_instrumentview_io",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_1300": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-01-28"
         },
         {
             "test_name": "mantidqt_qt5.test_instrumentview_view.test_instrumentview_view",

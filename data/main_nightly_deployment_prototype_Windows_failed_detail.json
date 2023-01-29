@@ -10,15 +10,11 @@
             "past_outcome": {
                 "build_keys": [
                     "490",
-                    "489",
-                    "488",
-                    "487"
+                    "489"
                 ],
                 "past_outcome_list": [
                     "Flake",
-                    "Passed",
-                    "Passed",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -41,15 +37,11 @@
             "past_outcome": {
                 "build_keys": [
                     "490",
-                    "489",
-                    "488",
-                    "487"
+                    "489"
                 ],
                 "past_outcome_list": [
                     "Flake",
-                    "Passed",
-                    "Passed",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -72,15 +64,11 @@
             "past_outcome": {
                 "build_keys": [
                     "490",
-                    "489",
-                    "488",
-                    "487"
+                    "489"
                 ],
                 "past_outcome_list": [
                     "Flake",
-                    "Passed",
-                    "Passed",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -103,15 +91,11 @@
             "past_outcome": {
                 "build_keys": [
                     "490",
-                    "489",
-                    "488",
-                    "487"
+                    "489"
                 ],
                 "past_outcome_list": [
                     "Flake",
-                    "Passed",
-                    "Passed",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -134,15 +118,11 @@
             "past_outcome": {
                 "build_keys": [
                     "490",
-                    "489",
-                    "488",
-                    "487"
+                    "489"
                 ],
                 "past_outcome_list": [
                     "Flake",
-                    "Passed",
-                    "Passed",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -153,37 +133,6 @@
                 "outcome": "Failed",
                 "test_time": "11.89",
                 "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.0.dev1905\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 14 tests...LoadILLDiffraction-[Warning] Invalid value for DataType: Calibrated data requested, but only raw data exists in this NeXus file.\r\n..LoadILLDiffraction-[Notice] LoadILLDiffraction started\r\nLoadILLDiffraction-[Notice] LoadILLDiffraction successful, Duration 0.89 seconds\r\n.Load-[Notice] Load started\r\nLoad-[Notice] Load successful, Duration 0.65 seconds\r\n.InstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D2Bfed5c17191ce18f4c6a528b1c0feee2d87e63c68.vtp\r\n\r\nIn LoadILLDiffractionTest::test_D2B_alignment:\r\nC:/Jenkins/workspace/main_nightly_deployment_prototype/source/Framework/DataHandling/test/LoadILLDiffractionTest.h:375: Error: Assertion failed: !outputWS-&gt;detectorInfo().isMonitor(16385 * 25)\r\n...InstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D2B3b7f429c025fbdc995eaf67c0329ff427a57bfbe.vtp\r\n.LoadILLDiffraction-[Notice] A 2theta offset angle is necessary for D1B data.\r\nInstrumentDefinitionParser-[Notice] Geometry cache is not available\r\nInstrumentDefinitionParser-[Notice] Creating cache in C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\mantidproject\\mantid\\instrument\\geometryCache\\D1B8d3124501c775196e31d5ce933bb9a51db0c969e.vtp\r\n..\r\nFailed 1 of 14 tests\r\nSuccess rate: 92%\r\n\r\n          Start  888: DataHandlingTest_LoadILLDiffractionTest\r\n"
-            }
-        },
-        {
-            "test_name": "AlgorithmsTest_MaskBinsTest",
-            "latest_failed_build": "488",
-            "agent_name": "Windows",
-            "last_failed_outcome": "Flake",
-            "pipeline_name": "main_nightly_deployment_prototype",
-            "problem_count": 1,
-            "past_outcome": {
-                "build_keys": [
-                    "490",
-                    "489",
-                    "488",
-                    "487"
-                ],
-                "past_outcome_list": [
-                    "Passed",
-                    "Passed",
-                    "Flake",
-                    "None"
-                ]
-            },
-            "last_stack_traces": {
-                "test_name": "AlgorithmsTest_MaskBinsTest",
-                "build": "488",
-                "agent_name": "Windows",
-                "trial": 1,
-                "outcome": "Failed",
-                "test_time": "1.06",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.0.dev1901\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 12 tests...MaskBins-[Notice] MaskBins started\r\nPropertyManager-[Error] Property &quot;XMAX&quot; is not set to a valid value: &quot;Selected value 1.79769e+308 is &gt; the upper bound (1.77972e+308)&quot;.\r\nPropertyManager-[Error] Property &quot;XMIN&quot; is not set to a valid value: &quot;Selected value 1.79769e+308 is &gt; the upper bound (1.77972e+308)&quot;.\r\nPropertyManager-[Error] Property &quot;XMAX&quot; is not set to a valid value: &quot;Selected value 1.79769e+308 is &gt; the upper bound (1.77972e+308)&quot;.\r\nPropertyManager-[Error] Property &quot;XMIN&quot; is not set to a valid value: &quot;Selected value 1.79769e+308 is &gt; the upper bound (1.77972e+308)&quot;.\r\nMaskBins-[Notice] MaskBins started\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Error] Logic Error in execution of algorithm MaskBins\r\nMaskBins-[Error] When setting value of property &quot;InputWorkspaceIndexSet&quot;: Indices provided to IndexProperty are out of range: The following value is out of range: 10\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Warning] The &#x27;SpectraList&#x27; property is deprecated. Use &#x27;InputWorkspaceIndexSet&#x27; instead.\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Warning] The &#x27;SpectraList&#x27; property is deprecated. Use &#x27;InputWorkspaceIndexSet&#x27; instead.\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Warning] The &#x27;SpectraList&#x27; property is deprecated. Use &#x27;InputWorkspaceIndexSet&#x27; instead.\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Warning] The &#x27;SpectraList&#x27; property is deprecated. Use &#x27;InputWorkspaceIndexSet&#x27; instead.\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.MaskBins-[Notice] MaskBins started\r\nMaskBins-[Notice] MaskBins successful, Duration 0.00 seconds\r\n.OK!\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  344: AlgorithmsTest_MaskBinsTest\r\n"
             }
         }
     ]

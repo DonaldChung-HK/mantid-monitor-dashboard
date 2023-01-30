@@ -996,9 +996,10 @@
                 "pull_requests-conda-osx_1264": "Flake",
                 "pull_requests-conda-osx_1265": "Flake",
                 "pull_requests-conda-osx_1276": "Flake",
-                "pull_requests-conda-osx_1277": "Flake"
+                "pull_requests-conda-osx_1277": "Flake",
+                "pull_requests-conda-osx_1310": "Flake"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-01-30"
         },
         "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -1224,9 +1225,10 @@
                 "pull_requests-conda-osx_1211": "Flake",
                 "pull_requests-conda-osx_1243": "Flake",
                 "pull_requests-conda-osx_1255": "Flake",
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_1314": "Flake"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-01-30"
         },
         "python.WorkflowAlgorithms.EnergyWindowScanTest.EnergyWindowScanTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -2600,9 +2602,10 @@
                 "pull_requests-conda-osx_1285": "Failed",
                 "pull_requests-conda-osx_1296": "Failed",
                 "pull_requests-conda-osx_1303": "Failed",
-                "pull_requests-conda-osx_1305": "Failed"
+                "pull_requests-conda-osx_1305": "Failed",
+                "pull_requests-conda-osx_1311": "Failed"
             },
-            "last_fail_detected": "2023-01-28"
+            "last_fail_detected": "2023-01-30"
         },
         "MDAlgorithmsTest_ConvertToMDMinMaxLocalTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",

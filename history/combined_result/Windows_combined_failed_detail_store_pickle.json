@@ -934,9 +934,12 @@
                 "pull_requests-conda-windows_1386": "Flake",
                 "pull_requests-conda-windows_1387": "Flake",
                 "pull_requests-conda-windows_1391": "Flake",
-                "pull_requests-conda-windows_1396": "Flake"
+                "pull_requests-conda-windows_1396": "Flake",
+                "pull_requests-conda-windows_1397": "Flake",
+                "pull_requests-conda-windows_1407": "Flake",
+                "pull_requests-conda-windows_1411": "Flake"
             },
-            "last_fail_detected": "2023-01-28"
+            "last_fail_detected": "2023-01-30"
         },
         "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",

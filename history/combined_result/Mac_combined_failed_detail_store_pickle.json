@@ -997,9 +997,10 @@
                 "pull_requests-conda-osx_1265": "Flake",
                 "pull_requests-conda-osx_1276": "Flake",
                 "pull_requests-conda-osx_1277": "Flake",
-                "pull_requests-conda-osx_1310": "Flake"
+                "pull_requests-conda-osx_1310": "Flake",
+                "pull_requests-conda-osx_1335": "Flake"
             },
-            "last_fail_detected": "2023-01-30"
+            "last_fail_detected": "2023-01-31"
         },
         "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -2588,9 +2589,10 @@
             "past_failed_outcome": {
                 "pull_requests-conda-osx_1234": "Failed",
                 "pull_requests-conda-osx_1235": "Failed",
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_1327": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-01-31"
         },
         "APITest_LogManagerTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -9832,9 +9834,10 @@
             "test_name": "workbench.test_mantidfigurecanvas.test_mantidfigurecanvas",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_1343": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-01-31"
         },
         "workbench.test_plot_settings.test_plot_settings": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",

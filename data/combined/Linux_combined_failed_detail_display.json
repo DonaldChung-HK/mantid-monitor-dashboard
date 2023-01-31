@@ -2438,9 +2438,10 @@
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2575": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed"
+                "pull_requests-conda-linux_2629": "Failed",
+                "pull_requests-conda-linux_2670": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-01-31"
         },
         {
             "test_name": "mantidqt_qt5.test_spectraselectiondialog.test_spectraselectiondialog",
@@ -9575,9 +9576,10 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed"
+                "pull_requests-conda-linux_2629": "Failed",
+                "pull_requests-conda-linux_2687": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-01-31"
         },
         {
             "test_name": "workbench.test_plot_settings.test_plot_settings",

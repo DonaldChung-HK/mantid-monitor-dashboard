@@ -922,9 +922,13 @@
                 "pull_requests-conda-osx_690": "Failed",
                 "pull_requests-conda-osx_692": "Failed",
                 "pull_requests-conda-osx_699": "Failed",
-                "pull_requests-conda-osx_1213": "Failed"
+                "pull_requests-conda-osx_1213": "Failed",
+                "pull_requests-conda-osx_1364": "Failed",
+                "pull_requests-conda-osx_1367": "Failed",
+                "pull_requests-conda-osx_1369": "Failed",
+                "pull_requests-conda-osx_1381": "Failed"
             },
-            "last_fail_detected": "2023-01-23"
+            "last_fail_detected": "2023-02-02"
         },
         "CurveFittingTest_ResolutionTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -1001,9 +1005,12 @@
                 "pull_requests-conda-osx_1335": "Flake",
                 "pull_requests-conda-osx_1344": "Flake",
                 "pull_requests-conda-osx_1345": "Flake",
-                "pull_requests-conda-osx_1346": "Flake"
+                "pull_requests-conda-osx_1346": "Flake",
+                "pull_requests-conda-osx_1365": "Flake",
+                "pull_requests-conda-osx_1370": "Flake",
+                "pull_requests-conda-osx_1383": "Flake"
             },
-            "last_fail_detected": "2023-02-01"
+            "last_fail_detected": "2023-02-02"
         },
         "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -2625,9 +2632,10 @@
                 "pull_requests-conda-osx_1284": "Failed",
                 "pull_requests-conda-osx_1285": "Failed",
                 "pull_requests-conda-osx_1347": "Failed",
-                "pull_requests-conda-osx_1350": "Failed"
+                "pull_requests-conda-osx_1350": "Failed",
+                "pull_requests-conda-osx_1374": "Failed"
             },
-            "last_fail_detected": "2023-02-01"
+            "last_fail_detected": "2023-02-02"
         },
         "MantidQtWidgetsMplCppTestQt5_FigureTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -4647,9 +4655,10 @@
                 "pull_requests-conda-osx_1285": "Failed",
                 "pull_requests-conda-osx_1347": "Failed",
                 "pull_requests-conda-osx_1350": "Failed",
-                "pull_requests-conda-osx_1351": "Failed"
+                "pull_requests-conda-osx_1351": "Failed",
+                "pull_requests-conda-osx_1374": "Failed"
             },
-            "last_fail_detected": "2023-02-01"
+            "last_fail_detected": "2023-02-02"
         },
         "python.MuonQt5.fit_parameters_test.fit_parameters_test": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -4953,9 +4962,12 @@
             "test_name": "python.MuonQt5.muon_context_test.muon_context_test",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_1373": "Failed",
+                "pull_requests-conda-osx_1376": "Failed",
+                "pull_requests-conda-osx_1383": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-02-02"
         },
         "python.MuonQt5.muon_context_with_frequency_test.muon_context_with_frequency_test": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -5273,9 +5285,10 @@
                 "pull_requests-conda-osx_1285": "Failed",
                 "pull_requests-conda-osx_1347": "Failed",
                 "pull_requests-conda-osx_1350": "Failed",
-                "pull_requests-conda-osx_1351": "Failed"
+                "pull_requests-conda-osx_1351": "Failed",
+                "pull_requests-conda-osx_1374": "Failed"
             },
-            "last_fail_detected": "2023-02-01"
+            "last_fail_detected": "2023-02-02"
         },
         "python.MuonQt5.results_tab_presenter_test.results_tab_presenter_test": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -10094,6 +10107,16 @@
                 "pull_requests-conda-osx_1284": "Failed"
             },
             "last_fail_detected": "2023-01-27"
+        },
+        "GeometryTest_XMLInstrumentParameterTest": {
+            "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
+            "test_name": "GeometryTest_XMLInstrumentParameterTest",
+            "agent_name": "Mac",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_1378": "Failed",
+                "pull_requests-conda-osx_1380": "Failed"
+            },
+            "last_fail_detected": "2023-02-02"
         }
     }
 }

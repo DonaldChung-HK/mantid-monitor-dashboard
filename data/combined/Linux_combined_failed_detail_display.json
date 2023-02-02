@@ -719,9 +719,11 @@
                 "pull_requests-conda-linux_2000": "Failed",
                 "pull_requests-conda-linux_2011": "Failed",
                 "pull_requests-conda-linux_2550": "Failed",
-                "pull_requests-conda-linux_2551": "Failed"
+                "pull_requests-conda-linux_2551": "Failed",
+                "pull_requests-conda-linux_2709": "Failed",
+                "pull_requests-conda-linux_2726": "Failed"
             },
-            "last_fail_detected": "2023-01-23"
+            "last_fail_detected": "2023-02-02"
         },
         {
             "test_name": "python.algorithms.MaskBTPTest.MaskBTPTest",
@@ -3559,9 +3561,10 @@
                 "pull_requests-conda-linux_2691": "Failed",
                 "pull_requests-conda-linux_2694": "Failed",
                 "pull_requests-conda-linux_2695": "Failed",
-                "pull_requests-conda-linux_2707": "Failed"
+                "pull_requests-conda-linux_2707": "Failed",
+                "pull_requests-conda-linux_2719": "Failed"
             },
-            "last_fail_detected": "2023-02-01"
+            "last_fail_detected": "2023-02-02"
         },
         {
             "test_name": "python.MuonQt5.fit_parameters_test.fit_parameters_test",
@@ -3909,9 +3912,12 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed"
+                "pull_requests-conda-linux_2629": "Failed",
+                "pull_requests-conda-linux_2718": "Failed",
+                "pull_requests-conda-linux_2721": "Failed",
+                "pull_requests-conda-linux_2728": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-02-02"
         },
         {
             "test_name": "python.MuonQt5.muon_context_with_frequency_test.muon_context_with_frequency_test",
@@ -4274,9 +4280,10 @@
                 "pull_requests-conda-linux_2691": "Failed",
                 "pull_requests-conda-linux_2694": "Failed",
                 "pull_requests-conda-linux_2695": "Failed",
-                "pull_requests-conda-linux_2707": "Failed"
+                "pull_requests-conda-linux_2707": "Failed",
+                "pull_requests-conda-linux_2719": "Failed"
             },
-            "last_fail_detected": "2023-02-01"
+            "last_fail_detected": "2023-02-02"
         },
         {
             "test_name": "python.MuonQt5.results_tab_presenter_test.results_tab_presenter_test",
@@ -9897,9 +9904,10 @@
                 "pull_requests-conda-linux_2628": "Failed",
                 "pull_requests-conda-linux_2629": "Failed",
                 "pull_requests-conda-linux_2691": "Failed",
-                "pull_requests-conda-linux_2694": "Failed"
+                "pull_requests-conda-linux_2694": "Failed",
+                "pull_requests-conda-linux_2719": "Failed"
             },
-            "last_fail_detected": "2023-02-01"
+            "last_fail_detected": "2023-02-02"
         },
         {
             "test_name": "PythonTOFTOFReductionQt5.TOFTOFGUITest.TOFTOFGUITest",
@@ -9988,6 +9996,14 @@
                 "pull_requests-conda-linux_2629": "Failed"
             },
             "last_fail_detected": "2023-01-27"
+        },
+        {
+            "test_name": "GeometryTest_XMLInstrumentParameterTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_2723": "Failed",
+                "pull_requests-conda-linux_2725": "Failed"
+            },
+            "last_fail_detected": "2023-02-02"
         }
     ]
 }

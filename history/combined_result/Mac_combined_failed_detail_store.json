@@ -933,9 +933,12 @@
                 "pull_requests-conda-osx_1346": "Flake",
                 "pull_requests-conda-osx_1365": "Flake",
                 "pull_requests-conda-osx_1370": "Flake",
-                "pull_requests-conda-osx_1383": "Flake"
+                "pull_requests-conda-osx_1383": "Flake",
+                "pull_requests-conda-osx_1386": "Flake",
+                "pull_requests-conda-osx_1395": "Flake",
+                "pull_requests-conda-osx_1397": "Flake"
             },
-            "last_fail_detected": "2023-02-02"
+            "last_fail_detected": "2023-02-03"
         },
         "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter": {
             "test_name": "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter",
@@ -1145,9 +1148,12 @@
                 "pull_requests-conda-osx_1243": "Flake",
                 "pull_requests-conda-osx_1255": "Flake",
                 "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_1314": "Flake"
+                "pull_requests-conda-osx_1314": "Flake",
+                "pull_requests-conda-osx_1395": "Flake",
+                "pull_requests-conda-osx_1398": "Flake",
+                "pull_requests-conda-osx_1401": "Flake"
             },
-            "last_fail_detected": "2023-01-30"
+            "last_fail_detected": "2023-02-03"
         },
         "python.WorkflowAlgorithms.EnergyWindowScanTest.EnergyWindowScanTest": {
             "test_name": "python.WorkflowAlgorithms.EnergyWindowScanTest.EnergyWindowScanTest",
@@ -4540,9 +4546,10 @@
             "test_name": "python.MuonQt5.muon_file_utils_test.muon_file_utils_test",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_1395": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-02-03"
         },
         "python.MuonQt5.muon_group_pair_context_test.muon_group_pair_context_test": {
             "test_name": "python.MuonQt5.muon_group_pair_context_test.muon_group_pair_context_test",

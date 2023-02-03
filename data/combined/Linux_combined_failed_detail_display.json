@@ -721,9 +721,10 @@
                 "pull_requests-conda-linux_2550": "Failed",
                 "pull_requests-conda-linux_2551": "Failed",
                 "pull_requests-conda-linux_2709": "Failed",
-                "pull_requests-conda-linux_2726": "Failed"
+                "pull_requests-conda-linux_2726": "Failed",
+                "pull_requests-conda-linux_2736": "Failed"
             },
-            "last_fail_detected": "2023-02-02"
+            "last_fail_detected": "2023-02-03"
         },
         {
             "test_name": "python.algorithms.MaskBTPTest.MaskBTPTest",
@@ -3945,9 +3946,10 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed"
+                "pull_requests-conda-linux_2629": "Failed",
+                "pull_requests-conda-linux_2741": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-02-03"
         },
         {
             "test_name": "python.MuonQt5.muon_group_pair_context_test.muon_group_pair_context_test",

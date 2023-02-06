@@ -1064,9 +1064,10 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed"
+                "pull_requests-conda-linux_2629": "Failed",
+                "pull_requests-conda-linux_2782": "Flake"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-02-06"
         },
         "python.WorkflowAlgorithms.MDNormSCDPreprocessIncoherentTest.MDNormSCDPreprocessIncoherentTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -1313,9 +1314,10 @@
                 "pull_requests-conda-linux_2486": "Failed",
                 "pull_requests-conda-linux_2516": "Failed",
                 "pull_requests-conda-linux_2517": "Failed",
-                "pull_requests-conda-linux_2530": "Failed"
+                "pull_requests-conda-linux_2530": "Failed",
+                "pull_requests-conda-linux_2780": "Failed"
             },
-            "last_fail_detected": "2023-01-20"
+            "last_fail_detected": "2023-02-06"
         },
         "DataHandlingTest_LoadMuonNexus1Test": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -10850,9 +10852,10 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed"
+                "pull_requests-conda-linux_2629": "Failed",
+                "pull_requests-conda-linux_2782": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-02-06"
         },
         "python.scripts.AbinsDataTest.AbinsDataTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",

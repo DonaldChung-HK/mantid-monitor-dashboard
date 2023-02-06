@@ -1015,9 +1015,11 @@
                 "pull_requests-conda-osx_1383": "Flake",
                 "pull_requests-conda-osx_1386": "Flake",
                 "pull_requests-conda-osx_1395": "Flake",
-                "pull_requests-conda-osx_1397": "Flake"
+                "pull_requests-conda-osx_1397": "Flake",
+                "pull_requests-conda-osx_1424": "Flake",
+                "pull_requests-conda-osx_1428": "Flake"
             },
-            "last_fail_detected": "2023-02-03"
+            "last_fail_detected": "2023-02-06"
         },
         "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -1253,9 +1255,13 @@
                 "pull_requests-conda-osx_1314": "Flake",
                 "pull_requests-conda-osx_1395": "Flake",
                 "pull_requests-conda-osx_1398": "Flake",
-                "pull_requests-conda-osx_1401": "Flake"
+                "pull_requests-conda-osx_1401": "Flake",
+                "pull_requests-conda-osx_1426": "Flake",
+                "pull_requests-conda-osx_1428": "Flake",
+                "pull_requests-conda-osx_1429": "Flake",
+                "pull_requests-conda-osx_1430": "Flake"
             },
-            "last_fail_detected": "2023-02-03"
+            "last_fail_detected": "2023-02-06"
         },
         "python.WorkflowAlgorithms.EnergyWindowScanTest.EnergyWindowScanTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -9538,9 +9544,10 @@
             "test_name": "python.scripts.AbinsCalculateSPowderTest.AbinsCalculateSPowderTest",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_1429": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-02-06"
         },
         "python.scripts.AbinsDataTest.AbinsDataTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",

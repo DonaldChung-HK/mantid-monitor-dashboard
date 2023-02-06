@@ -905,9 +905,13 @@
                 "pull_requests-conda-windows_1491": "Flake",
                 "pull_requests-conda-windows_1493": "Flake",
                 "pull_requests-conda-windows_1499": "Flake",
-                "pull_requests-conda-windows_1501": "Flake"
+                "pull_requests-conda-windows_1501": "Flake",
+                "pull_requests-conda-windows_1516": "Flake",
+                "pull_requests-conda-windows_1519": "Flake",
+                "pull_requests-conda-windows_1521": "Flake",
+                "pull_requests-conda-windows_1522": "Flake"
             },
-            "last_fail_detected": "2023-02-03"
+            "last_fail_detected": "2023-02-06"
         },
         "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest": {
             "test_name": "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest",
@@ -2296,9 +2300,10 @@
                 "pull_requests-conda-windows_1212": "Failed",
                 "pull_requests-conda-windows_1242": "Failed",
                 "pull_requests-conda-windows_1244": "Failed",
-                "pull_requests-conda-windows_1263": "Failed"
+                "pull_requests-conda-windows_1263": "Failed",
+                "pull_requests-conda-windows_1520": "Failed"
             },
-            "last_fail_detected": "2023-01-20"
+            "last_fail_detected": "2023-02-06"
         },
         "DataHandlingTest_LoadMuonNexus1Test": {
             "test_name": "DataHandlingTest_LoadMuonNexus1Test",
@@ -9598,9 +9603,10 @@
             "agent_name": "Windows",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_1522": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-02-06"
         },
         "python.scripts.AbinsDataTest.AbinsDataTest": {
             "test_name": "python.scripts.AbinsDataTest.AbinsDataTest",

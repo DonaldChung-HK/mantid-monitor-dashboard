@@ -6565,9 +6565,11 @@
             "test_name": "python.WorkflowAlgorithms.SANSILLParameterScanTest.SANSILLParameterScanTest",
             "agent_name": "Mac",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_1556": "Failed",
+                "pull_requests-conda-osx_1557": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-02-15"
         },
         "python.WorkflowAlgorithms.SANSILLReduction2Test.SANSILLReduction2Test": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",

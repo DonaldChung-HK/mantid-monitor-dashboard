@@ -965,9 +965,13 @@
                 "pull_requests-conda-windows_1649": "Failed",
                 "pull_requests-conda-windows_1659": "Flake",
                 "pull_requests-conda-windows_1661": "Flake",
-                "pull_requests-conda-windows_1663": "Flake"
+                "pull_requests-conda-windows_1663": "Flake",
+                "pull_requests-conda-windows_1667": "Flake",
+                "pull_requests-conda-windows_1670": "Flake",
+                "pull_requests-conda-windows_1676": "Failed",
+                "pull_requests-conda-windows_1677": "Flake"
             },
-            "last_fail_detected": "2023-02-14"
+            "last_fail_detected": "2023-02-15"
         },
         "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest": {
             "test_name": "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest",
@@ -6662,9 +6666,11 @@
             "agent_name": "Windows",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_1667": "Failed",
+                "pull_requests-conda-windows_1670": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-02-15"
         },
         "python.WorkflowAlgorithms.SANSILLReduction2Test.SANSILLReduction2Test": {
             "test_name": "python.WorkflowAlgorithms.SANSILLReduction2Test.SANSILLReduction2Test",

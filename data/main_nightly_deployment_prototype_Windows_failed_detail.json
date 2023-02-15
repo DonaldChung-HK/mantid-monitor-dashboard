@@ -9,11 +9,13 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "493",
                     "492",
                     "491",
                     "490"
                 ],
                 "past_outcome_list": [
+                    "Passed",
                     "Passed",
                     "None",
                     "Flake"
@@ -38,11 +40,13 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "493",
                     "492",
                     "491",
                     "490"
                 ],
                 "past_outcome_list": [
+                    "Passed",
                     "Passed",
                     "None",
                     "Flake"
@@ -67,11 +71,13 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "493",
                     "492",
                     "491",
                     "490"
                 ],
                 "past_outcome_list": [
+                    "Passed",
                     "Passed",
                     "None",
                     "Flake"
@@ -96,11 +102,13 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "493",
                     "492",
                     "491",
                     "490"
                 ],
                 "past_outcome_list": [
+                    "Passed",
                     "Passed",
                     "None",
                     "Flake"
@@ -125,11 +133,13 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "493",
                     "492",
                     "491",
                     "490"
                 ],
                 "past_outcome_list": [
+                    "Passed",
                     "Passed",
                     "None",
                     "Flake"

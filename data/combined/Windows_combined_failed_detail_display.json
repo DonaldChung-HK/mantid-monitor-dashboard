@@ -22,9 +22,10 @@
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_433": "Flake",
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_1685": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-02-16"
         },
         {
             "test_name": "python.functions.CompositePCRmagnetTest.CompositePCRmagnetTest",
@@ -917,9 +918,11 @@
                 "pull_requests-conda-windows_1667": "Flake",
                 "pull_requests-conda-windows_1670": "Flake",
                 "pull_requests-conda-windows_1676": "Failed",
-                "pull_requests-conda-windows_1677": "Flake"
+                "pull_requests-conda-windows_1677": "Flake",
+                "pull_requests-conda-windows_1685": "Flake",
+                "pull_requests-conda-windows_1687": "Flake"
             },
-            "last_fail_detected": "2023-02-15"
+            "last_fail_detected": "2023-02-16"
         },
         {
             "test_name": "AlgorithmsTest_DiscusMultipleScatteringCorrectionTest",

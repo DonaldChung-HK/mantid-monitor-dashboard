@@ -1055,9 +1055,10 @@
                 "pull_requests-conda-osx_1547": "Flake",
                 "pull_requests-conda-osx_1609": "Flake",
                 "pull_requests-conda-osx_1611": "Flake",
-                "pull_requests-conda-osx_1614": "Flake"
+                "pull_requests-conda-osx_1614": "Flake",
+                "pull_requests-conda-osx_1617": "Flake"
             },
-            "last_fail_detected": "2023-02-18"
+            "last_fail_detected": "2023-02-20"
         },
         "python.EngineeringDiffraction.test_plot_presenter.test_plot_presenter": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",

@@ -5757,9 +5757,10 @@
                 "pull_requests-conda-linux_2929": "Failed",
                 "pull_requests-conda-linux_2975": "Failed",
                 "pull_requests-conda-linux_2985": "Failed",
-                "pull_requests-conda-linux_2990": "Failed"
+                "pull_requests-conda-linux_2990": "Failed",
+                "pull_requests-conda-linux_3002": "Failed"
             },
-            "last_fail_detected": "2023-02-17"
+            "last_fail_detected": "2023-02-20"
         },
         "python.WorkflowAlgorithms.DirectILLDiagnosticsTest.DirectILLDiagnosticsTest": {
             "test_name": "python.WorkflowAlgorithms.DirectILLDiagnosticsTest.DirectILLDiagnosticsTest",

@@ -1,14 +1,20 @@
 {
     "data": [
         {
-            "test_name": "AlgorithmsTest_ConjoinXRunsTest",
-            "latest_failed_build": "2999",
+            "test_name": "python.WorkflowAlgorithms.DirectILLCollectDataTest.DirectILLCollectDataTest",
+            "latest_failed_build": "3002",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 4,
+            "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -32,15 +38,98 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Failed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Failed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Failed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "Passed",
+                    "Passed"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "python.WorkflowAlgorithms.DirectILLCollectDataTest.DirectILLCollectDataTest",
+                "build": "3002",
+                "agent_name": "Linux",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "10.88",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230206.1750.dev543\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nCloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] DirectILLCollectData started\nSetInstrumentParameter-[Notice] SetInstrumentParameter started (child)\nSetInstrumentParameter-[Notice] SetInstrumentParameter successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] ElasticChannel set to Fit Elastic Channel by the IPF.\nDirectILLCollectData-[Notice] Elastic channel index 0.0 was used for TOF axis adjustment.\nDirectILLCollectData-[Notice] DirectILLCollectData successful, Duration 0.27 seconds\n.run(src, dest, srcValue, l1, l2, theta, emode, efixed) is deprecated. Use .run(src, dest, srcValue, l1, emode, params) instead.\n.run(src, dest, srcValue, l1, l2, theta, emode, efixed) is deprecated. Use .run(src, dest, srcValue, l1, emode, params) instead.\n.run(src, dest, srcValue, l1, l2, theta, emode, efixed) is deprecated. Use .run(src, dest, srcValue, l1, emode, params) instead.\n.run(src, dest, srcValue, l1, l2, theta, emode, efixed) is deprecated. Use .run(src, dest, srcValue, l1, emode, params) instead.\n.CloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] DirectILLCollectData started\nSetInstrumentParameter-[Notice] SetInstrumentParameter started (child)\nSetInstrumentParameter-[Notice] SetInstrumentParameter successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] ElasticChannel set to Fit Elastic Channel by the IPF.\nDirectILLCollectData-[Notice] Elastic channel index 0.0 was used for TOF axis adjustment.\nDirectILLCollectData-[Notice] DirectILLCollectData successful, Duration 0.25 seconds\n.CloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] DirectILLCollectData started\nDirectILLCollectData-[Error] Error in execution of algorithm DirectILLCollectData:\nDirectILLCollectData-[Error] LoadAndMerge-v1: Cannot read data from NeXus file\nDirectILLCollectData-[Error]   at line 148 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/plugins/algorithms/LoadAndMerge.py&#x27;\nDirectILLCollectData-[Error]   caused by line 96 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/plugins/algorithms/LoadAndMerge.py&#x27;\nDirectILLCollectData-[Error]   at line 350 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/DirectILLCollectData.py&#x27;\nDirectILLCollectData-[Error]   caused by line 845 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/DirectILLCollectData.py&#x27;\nDirectILLCollectData-[Error]   caused by line 1077 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/mantid/simpleapi.py&#x27;\nECloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] DirectILLCollectData started\nSetInstrumentParameter-[Notice] SetInstrumentParameter started (child)\nSetInstrumentParameter-[Notice] SetInstrumentParameter successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] ElasticChannel set to Fit Elastic Channel by the IPF.\nDirectILLCollectData-[Notice] Elastic channel index 0.0 was used for TOF axis adjustment.\nDirectILLCollectData-[Notice] DirectILLCollectData successful, Duration 0.19 seconds\n.CloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] DirectILLCollectData started\nSetInstrumentParameter-[Notice] SetInstrumentParameter started (child)\nSetInstrumentParameter-[Notice] SetInstrumentParameter successful, Duration 0.00 seconds\nDirectILLCollectData-[Warning] &#x27;monsum&#x27; less than 100. Disabling normalization to monitor.\nDirectILLCollectData-[Notice] ElasticChannel set to Fit Elastic Channel by the IPF.\nDirectILLCollectData-[Notice] Elastic channel index 0.0 was used for TOF axis adjustment.\nDirectILLCollectData-[Notice] DirectILLCollectData successful, Duration 0.17 seconds\n.CloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] DirectILLCollectData started\nSetInstrumentParameter-[Notice] SetInstrumentParameter started (child)\nSetInstrumentParameter-[Notice] SetInstrumentParameter successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] Flat background subtraction disabled by the IPF.\nDirectILLCollectData-[Notice] ElasticChannel set to Fit Elastic Channel by the IPF.\nDirectILLCollectData-[Notice] Elastic channel index 0.0 was used for TOF axis adjustment.\nDirectILLCollectData-[Notice] DirectILLCollectData successful, Duration 0.25 seconds\n.CloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] DirectILLCollectData started\nSetInstrumentParameter-[Notice] SetInstrumentParameter started (child)\nSetInstrumentParameter-[Notice] SetInstrumentParameter successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] Flat background subtraction disabled by the IPF.\nDirectILLCollectData-[Notice] Incident energy calibration disabled by the IPF.\nDirectILLCollectData-[Notice] ElasticChannel set to Fit Elastic Channel by the IPF.\nDirectILLCollectData-[Notice] Elastic channel index 0.0 was used for TOF axis adjustment.\nDirectILLCollectData-[Notice] DirectILLCollectData successful, Duration 0.22 seconds\n.CloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] DirectILLCollectData started\nSetInstrumentParameter-[Notice] SetInstrumentParameter started (child)\nSetInstrumentParameter-[Notice] SetInstrumentParameter successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] Elastic channel index 42 was used for TOF axis adjustment.\nDirectILLCollectData-[Notice] DirectILLCollectData successful, Duration 0.16 seconds\n.\n======================================================================\nERROR: testIncidentEnergyPanther (DirectILLCollectDataTest.DirectILLCollectDataTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/test/python/plugins/algorithms/WorkflowAlgorithms/DirectILLCollectDataTest.py&quot;, line 207, in testIncidentEnergyPanther\n    run_algorithm(&quot;DirectILLCollectData&quot;, **algProperties)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/test/testhelpers/__init__.py&quot;, line 32, in run_algorithm\n    alg.execute()\nRuntimeError: LoadAndMerge-v1: Cannot read data from NeXus file\n  at line 148 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/plugins/algorithms/LoadAndMerge.py&#x27;\n  caused by line 96 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/plugins/algorithms/LoadAndMerge.py&#x27;\n  at line 350 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/DirectILLCollectData.py&#x27;\n  caused by line 845 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/DirectILLCollectData.py&#x27;\n  caused by line 1077 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/mantid/simpleapi.py&#x27;\n\n----------------------------------------------------------------------\nRan 8 tests in 9.933s\n\nFAILED (errors=1)\n\n          Start  247: AlgorithmsTest_CreateLogPropertyTableTest\n"
+            }
+        },
+        {
+            "test_name": "AlgorithmsTest_ConjoinXRunsTest",
+            "latest_failed_build": "2999",
+            "agent_name": "Linux",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-linux",
+            "problem_count": 3,
+            "past_outcome": {
+                "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
+                    "2999",
+                    "2998",
+                    "2997",
+                    "2996",
+                    "2995",
+                    "2994",
+                    "2993",
+                    "2992",
+                    "2991",
+                    "2990",
+                    "2989",
+                    "2988",
+                    "2987",
+                    "2986",
+                    "2985",
+                    "2984",
+                    "2983",
+                    "2982",
+                    "2981",
+                    "2980",
+                    "2979",
+                    "2978",
+                    "2977",
+                    "2976"
+                ],
+                "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "None",
                     "None",
@@ -64,13 +153,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -89,9 +172,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 4,
+            "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -115,15 +204,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "None",
                     "None",
@@ -147,13 +236,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -172,9 +255,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 4,
+            "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -198,15 +287,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "None",
                     "None",
@@ -230,13 +319,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -255,9 +338,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 4,
+            "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -281,15 +370,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "None",
                     "None",
@@ -313,13 +402,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -338,9 +421,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 4,
+            "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -364,15 +453,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "None",
                     "None",
@@ -396,13 +485,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -421,9 +504,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 4,
+            "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -447,15 +536,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "None",
                     "None",
@@ -479,13 +568,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -504,9 +587,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 4,
+            "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -530,15 +619,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "None",
                     "None",
@@ -562,13 +651,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -590,6 +673,12 @@
             "problem_count": 2,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -613,15 +702,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "None",
                     "None",
@@ -645,13 +734,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -673,6 +756,12 @@
             "problem_count": 2,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -696,15 +785,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "None",
                     "None",
@@ -728,13 +817,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -753,9 +836,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 4,
+            "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -779,15 +868,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "None",
                     "None",
@@ -811,13 +900,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -836,9 +919,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 4,
+            "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -862,15 +951,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "None",
                     "None",
@@ -894,13 +983,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -919,9 +1002,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 4,
+            "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -945,15 +1034,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "None",
                     "None",
@@ -977,13 +1066,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -1002,9 +1085,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 4,
+            "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -1028,15 +1117,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "None",
                     "None",
@@ -1060,13 +1149,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -1088,6 +1171,12 @@
             "problem_count": 2,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -1111,15 +1200,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "None",
                     "None",
@@ -1143,13 +1232,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -1168,9 +1251,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 4,
+            "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -1194,15 +1283,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "None",
                     "None",
@@ -1226,13 +1315,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -1251,9 +1334,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 4,
+            "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -1277,15 +1366,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "None",
                     "None",
@@ -1309,13 +1398,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -1334,9 +1417,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 4,
+            "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -1360,15 +1449,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "None",
                     "None",
@@ -1392,13 +1481,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -1417,9 +1500,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 4,
+            "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -1443,15 +1532,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "None",
                     "None",
@@ -1475,13 +1564,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -1500,9 +1583,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 4,
+            "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -1526,15 +1615,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Failed",
                     "None",
                     "None",
@@ -1558,13 +1647,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -1578,89 +1661,6 @@
             }
         },
         {
-            "test_name": "python.WorkflowAlgorithms.DirectILLCollectDataTest.DirectILLCollectDataTest",
-            "latest_failed_build": "2990",
-            "agent_name": "Linux",
-            "last_failed_outcome": "Failed",
-            "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 3,
-            "past_outcome": {
-                "build_keys": [
-                    "2999",
-                    "2998",
-                    "2997",
-                    "2996",
-                    "2995",
-                    "2994",
-                    "2993",
-                    "2992",
-                    "2991",
-                    "2990",
-                    "2989",
-                    "2988",
-                    "2987",
-                    "2986",
-                    "2985",
-                    "2984",
-                    "2983",
-                    "2982",
-                    "2981",
-                    "2980",
-                    "2979",
-                    "2978",
-                    "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
-                ],
-                "past_outcome_list": [
-                    "Passed",
-                    "None",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Failed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Failed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
-                    "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
-                ]
-            },
-            "last_stack_traces": {
-                "test_name": "python.WorkflowAlgorithms.DirectILLCollectDataTest.DirectILLCollectDataTest",
-                "build": "2990",
-                "agent_name": "Linux",
-                "trial": 3,
-                "outcome": "Failed",
-                "test_time": "8.57",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.5.20230206.1750.dev531\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nCloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] DirectILLCollectData started\nSetInstrumentParameter-[Notice] SetInstrumentParameter started (child)\nSetInstrumentParameter-[Notice] SetInstrumentParameter successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] ElasticChannel set to Fit Elastic Channel by the IPF.\nDirectILLCollectData-[Notice] Elastic channel index 0.0 was used for TOF axis adjustment.\nDirectILLCollectData-[Notice] DirectILLCollectData successful, Duration 0.11 seconds\n.run(src, dest, srcValue, l1, l2, theta, emode, efixed) is deprecated. Use .run(src, dest, srcValue, l1, emode, params) instead.\n.run(src, dest, srcValue, l1, l2, theta, emode, efixed) is deprecated. Use .run(src, dest, srcValue, l1, emode, params) instead.\n.run(src, dest, srcValue, l1, l2, theta, emode, efixed) is deprecated. Use .run(src, dest, srcValue, l1, emode, params) instead.\n.run(src, dest, srcValue, l1, l2, theta, emode, efixed) is deprecated. Use .run(src, dest, srcValue, l1, emode, params) instead.\n.CloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] DirectILLCollectData started\nSetInstrumentParameter-[Notice] SetInstrumentParameter started (child)\nSetInstrumentParameter-[Notice] SetInstrumentParameter successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] ElasticChannel set to Fit Elastic Channel by the IPF.\nDirectILLCollectData-[Notice] Elastic channel index 0.0 was used for TOF axis adjustment.\nDirectILLCollectData-[Notice] DirectILLCollectData successful, Duration 0.09 seconds\n.CloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] DirectILLCollectData started\nDirectILLCollectData-[Error] Error in execution of algorithm DirectILLCollectData:\nDirectILLCollectData-[Error] LoadAndMerge-v1: Cannot read data from NeXus file\nDirectILLCollectData-[Error]   at line 148 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/plugins/algorithms/LoadAndMerge.py&#x27;\nDirectILLCollectData-[Error]   caused by line 96 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/plugins/algorithms/LoadAndMerge.py&#x27;\nDirectILLCollectData-[Error]   at line 350 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/DirectILLCollectData.py&#x27;\nDirectILLCollectData-[Error]   caused by line 845 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/DirectILLCollectData.py&#x27;\nDirectILLCollectData-[Error]   caused by line 1077 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/mantid/simpleapi.py&#x27;\nECloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] DirectILLCollectData started\nSetInstrumentParameter-[Notice] SetInstrumentParameter started (child)\nSetInstrumentParameter-[Notice] SetInstrumentParameter successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] ElasticChannel set to Fit Elastic Channel by the IPF.\nDirectILLCollectData-[Notice] Elastic channel index 0.0 was used for TOF axis adjustment.\nDirectILLCollectData-[Notice] DirectILLCollectData successful, Duration 0.07 seconds\n.CloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] DirectILLCollectData started\nSetInstrumentParameter-[Notice] SetInstrumentParameter started (child)\nSetInstrumentParameter-[Notice] SetInstrumentParameter successful, Duration 0.00 seconds\nDirectILLCollectData-[Warning] &#x27;monsum&#x27; less than 100. Disabling normalization to monitor.\nDirectILLCollectData-[Notice] ElasticChannel set to Fit Elastic Channel by the IPF.\nDirectILLCollectData-[Notice] Elastic channel index 0.0 was used for TOF axis adjustment.\nDirectILLCollectData-[Notice] DirectILLCollectData successful, Duration 0.07 seconds\n.CloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] DirectILLCollectData started\nSetInstrumentParameter-[Notice] SetInstrumentParameter started (child)\nSetInstrumentParameter-[Notice] SetInstrumentParameter successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] Flat background subtraction disabled by the IPF.\nDirectILLCollectData-[Notice] ElasticChannel set to Fit Elastic Channel by the IPF.\nDirectILLCollectData-[Notice] Elastic channel index 0.0 was used for TOF axis adjustment.\nDirectILLCollectData-[Notice] DirectILLCollectData successful, Duration 0.09 seconds\n.CloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] DirectILLCollectData started\nSetInstrumentParameter-[Notice] SetInstrumentParameter started (child)\nSetInstrumentParameter-[Notice] SetInstrumentParameter successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] Flat background subtraction disabled by the IPF.\nDirectILLCollectData-[Notice] Incident energy calibration disabled by the IPF.\nDirectILLCollectData-[Notice] ElasticChannel set to Fit Elastic Channel by the IPF.\nDirectILLCollectData-[Notice] Elastic channel index 0.0 was used for TOF axis adjustment.\nDirectILLCollectData-[Notice] DirectILLCollectData successful, Duration 0.09 seconds\n.CloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] DirectILLCollectData started\nSetInstrumentParameter-[Notice] SetInstrumentParameter started (child)\nSetInstrumentParameter-[Notice] SetInstrumentParameter successful, Duration 0.00 seconds\nDirectILLCollectData-[Notice] Elastic channel index 42 was used for TOF axis adjustment.\nDirectILLCollectData-[Notice] DirectILLCollectData successful, Duration 0.04 seconds\n.\n======================================================================\nERROR: testIncidentEnergyPanther (DirectILLCollectDataTest.DirectILLCollectDataTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/test/python/plugins/algorithms/WorkflowAlgorithms/DirectILLCollectDataTest.py&quot;, line 207, in testIncidentEnergyPanther\n    run_algorithm(&quot;DirectILLCollectData&quot;, **algProperties)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/test/testhelpers/__init__.py&quot;, line 32, in run_algorithm\n    alg.execute()\nRuntimeError: LoadAndMerge-v1: Cannot read data from NeXus file\n  at line 148 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/plugins/algorithms/LoadAndMerge.py&#x27;\n  caused by line 96 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/plugins/algorithms/LoadAndMerge.py&#x27;\n  at line 350 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/DirectILLCollectData.py&#x27;\n  caused by line 845 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/plugins/algorithms/WorkflowAlgorithms/DirectILLCollectData.py&#x27;\n  caused by line 1077 in &#x27;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/mantid/simpleapi.py&#x27;\n\n----------------------------------------------------------------------\nRan 8 tests in 7.680s\n\nFAILED (errors=1)\n\n          Start 2092: mantidqt_qt5.test_peaksviewer_representation_alpha.test_peaksviewer_representation_alpha\n"
-            }
-        },
-        {
             "test_name": "MantidQtWidgetsInstrumentWidgetTestQt5_InstrumentWidgetTest",
             "latest_failed_build": "2988",
             "agent_name": "Linux",
@@ -1669,6 +1669,12 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -1692,15 +1698,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -1724,13 +1730,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -1752,6 +1752,12 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -1775,15 +1781,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -1807,13 +1813,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -1832,9 +1832,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -1858,15 +1864,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -1890,13 +1896,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -1915,9 +1915,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -1941,15 +1947,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -1973,13 +1979,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -1998,9 +1998,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -2024,15 +2030,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -2056,13 +2062,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -2081,9 +2081,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -2107,15 +2113,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -2139,13 +2145,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -2164,9 +2164,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -2190,15 +2196,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -2222,13 +2228,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -2247,9 +2247,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -2273,15 +2279,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -2305,13 +2311,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -2330,9 +2330,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -2356,15 +2362,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -2388,13 +2394,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -2413,9 +2413,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -2439,15 +2445,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -2471,13 +2477,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -2496,9 +2496,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -2522,15 +2528,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -2554,13 +2560,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -2579,9 +2579,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -2605,15 +2611,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -2637,13 +2643,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -2662,9 +2662,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -2688,15 +2694,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -2720,13 +2726,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -2745,9 +2745,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -2771,15 +2777,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -2803,13 +2809,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -2828,9 +2828,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -2854,15 +2860,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -2886,13 +2892,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -2911,9 +2911,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -2937,15 +2943,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -2969,13 +2975,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -2994,9 +2994,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -3020,15 +3026,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -3052,13 +3058,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -3077,9 +3077,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -3103,15 +3109,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -3135,13 +3141,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -3160,9 +3160,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -3186,15 +3192,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -3218,13 +3224,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -3243,9 +3243,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -3269,15 +3275,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -3301,13 +3307,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -3326,9 +3326,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -3352,15 +3358,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -3384,13 +3390,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -3409,9 +3409,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -3435,15 +3441,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -3467,13 +3473,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -3492,9 +3492,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -3518,15 +3524,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -3550,13 +3556,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -3575,9 +3575,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -3601,15 +3607,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -3633,13 +3639,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -3658,9 +3658,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -3684,15 +3690,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -3716,13 +3722,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -3741,9 +3741,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -3767,15 +3773,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -3799,13 +3805,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -3824,9 +3824,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -3850,15 +3856,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -3882,13 +3888,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -3907,9 +3907,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -3933,15 +3939,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -3965,13 +3971,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -3990,9 +3990,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -4016,15 +4022,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -4048,13 +4054,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -4073,9 +4073,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -4099,15 +4105,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -4131,13 +4137,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -4156,9 +4156,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -4182,15 +4188,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -4214,13 +4220,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -4239,9 +4239,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -4265,15 +4271,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -4297,13 +4303,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -4322,9 +4322,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -4348,15 +4354,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -4380,13 +4386,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -4405,9 +4405,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -4431,15 +4437,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -4463,13 +4469,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -4488,9 +4488,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -4514,15 +4520,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -4546,13 +4552,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -4571,9 +4571,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -4597,15 +4603,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -4629,13 +4635,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -4654,9 +4654,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -4680,15 +4686,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -4712,13 +4718,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -4737,9 +4737,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -4763,15 +4769,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -4795,13 +4801,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -4820,9 +4820,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -4846,15 +4852,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -4878,13 +4884,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -4903,9 +4903,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -4929,15 +4935,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -4961,13 +4967,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -4986,9 +4986,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -5012,15 +5018,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -5044,13 +5050,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -5069,9 +5069,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -5095,15 +5101,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -5127,13 +5133,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -5152,9 +5152,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -5178,15 +5184,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -5210,13 +5216,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -5235,9 +5235,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -5261,15 +5267,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -5293,13 +5299,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -5318,9 +5318,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -5344,15 +5350,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -5376,13 +5382,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -5401,9 +5401,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -5427,15 +5433,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -5459,13 +5465,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -5484,9 +5484,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -5510,15 +5516,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -5542,13 +5548,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -5567,9 +5567,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -5593,15 +5599,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -5625,13 +5631,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -5650,9 +5650,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -5676,15 +5682,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -5708,13 +5714,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -5733,9 +5733,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -5759,15 +5765,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -5791,13 +5797,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -5816,9 +5816,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -5842,15 +5848,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -5874,13 +5880,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -5899,9 +5899,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -5925,15 +5931,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -5957,13 +5963,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -5982,9 +5982,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -6008,15 +6014,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -6040,13 +6046,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -6065,9 +6065,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -6091,15 +6097,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -6123,13 +6129,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -6148,9 +6148,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -6174,15 +6180,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -6206,13 +6212,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -6231,9 +6231,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -6257,15 +6263,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -6289,13 +6295,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -6314,9 +6314,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -6340,15 +6346,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -6372,13 +6378,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -6397,9 +6397,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -6423,15 +6429,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -6455,13 +6461,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -6480,9 +6480,15 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -6506,15 +6512,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -6538,13 +6544,7 @@
                     "Passed",
                     "None",
                     "Passed",
-                    "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -6566,6 +6566,12 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
                     "2999",
                     "2998",
                     "2997",
@@ -6589,15 +6595,15 @@
                     "2979",
                     "2978",
                     "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970"
+                    "2976"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "None",
                     "None",
@@ -6621,13 +6627,7 @@
                     "Passed",
                     "None",
                     "Failed",
-                    "Passed",
-                    "Passed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
-                    "None"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {

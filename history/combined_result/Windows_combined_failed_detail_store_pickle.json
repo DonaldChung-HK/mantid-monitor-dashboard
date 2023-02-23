@@ -256,9 +256,10 @@
                 "pull_requests-conda-windows_1730": "Failed",
                 "pull_requests-conda-windows_1735": "Failed",
                 "pull_requests-conda-windows_1737": "Failed",
-                "pull_requests-conda-windows_1741": "Failed"
+                "pull_requests-conda-windows_1741": "Failed",
+                "pull_requests-conda-windows_1768": "Failed"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-02-23"
         },
         "MantidQtWidgetsMplCppTestQt5_FigureCanvasQtTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -1183,9 +1184,10 @@
                 "pull_requests-conda-windows_1730": "Failed",
                 "pull_requests-conda-windows_1735": "Failed",
                 "pull_requests-conda-windows_1737": "Failed",
-                "pull_requests-conda-windows_1741": "Failed"
+                "pull_requests-conda-windows_1741": "Failed",
+                "pull_requests-conda-windows_1768": "Failed"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-02-23"
         },
         "CrystalTest_SCDCalibratePanels2ObjFuncTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -2464,9 +2466,10 @@
                 "pull_requests-conda-windows_1730": "Failed",
                 "pull_requests-conda-windows_1735": "Failed",
                 "pull_requests-conda-windows_1737": "Failed",
-                "pull_requests-conda-windows_1741": "Failed"
+                "pull_requests-conda-windows_1741": "Failed",
+                "pull_requests-conda-windows_1768": "Failed"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-02-23"
         },
         "python.WorkflowAlgorithms.PowderILLDetectorScanTest.PowderILLDetectorScanTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -2659,9 +2662,10 @@
                 "pull_requests-conda-windows_1730": "Failed",
                 "pull_requests-conda-windows_1735": "Failed",
                 "pull_requests-conda-windows_1737": "Failed",
-                "pull_requests-conda-windows_1741": "Failed"
+                "pull_requests-conda-windows_1741": "Failed",
+                "pull_requests-conda-windows_1768": "Failed"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-02-23"
         },
         "DataHandlingTest_LoadMuonNexus1Test": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -2697,9 +2701,10 @@
                 "pull_requests-conda-windows_1730": "Failed",
                 "pull_requests-conda-windows_1735": "Failed",
                 "pull_requests-conda-windows_1737": "Failed",
-                "pull_requests-conda-windows_1741": "Failed"
+                "pull_requests-conda-windows_1741": "Failed",
+                "pull_requests-conda-windows_1768": "Failed"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-02-23"
         },
         "DataHandlingTest_LoadRawBin0Test": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -2716,9 +2721,10 @@
                 "pull_requests-conda-windows_1730": "Failed",
                 "pull_requests-conda-windows_1735": "Failed",
                 "pull_requests-conda-windows_1737": "Failed",
-                "pull_requests-conda-windows_1741": "Failed"
+                "pull_requests-conda-windows_1741": "Failed",
+                "pull_requests-conda-windows_1768": "Failed"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-02-23"
         },
         "DataHandlingTest_LoadRawSaveNxsLoadNxsTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -2739,9 +2745,10 @@
                 "pull_requests-conda-windows_1730": "Failed",
                 "pull_requests-conda-windows_1735": "Failed",
                 "pull_requests-conda-windows_1737": "Failed",
-                "pull_requests-conda-windows_1741": "Failed"
+                "pull_requests-conda-windows_1741": "Failed",
+                "pull_requests-conda-windows_1768": "Failed"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-02-23"
         },
         "DataHandlingTest_LoadRawSpectrum0Test": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -2761,9 +2768,10 @@
                 "pull_requests-conda-windows_1730": "Failed",
                 "pull_requests-conda-windows_1735": "Failed",
                 "pull_requests-conda-windows_1737": "Failed",
-                "pull_requests-conda-windows_1741": "Failed"
+                "pull_requests-conda-windows_1741": "Failed",
+                "pull_requests-conda-windows_1768": "Failed"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-02-23"
         },
         "DataHandlingTest_XMLInstrumentParameterTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -2811,9 +2819,10 @@
                 "pull_requests-conda-windows_1730": "Failed",
                 "pull_requests-conda-windows_1735": "Failed",
                 "pull_requests-conda-windows_1737": "Failed",
-                "pull_requests-conda-windows_1741": "Failed"
+                "pull_requests-conda-windows_1741": "Failed",
+                "pull_requests-conda-windows_1768": "Failed"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-02-23"
         },
         "mantidqt_qt5.test_samplelogs_model.test_samplelogs_model": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -2857,9 +2866,10 @@
                 "pull_requests-conda-windows_1730": "Failed",
                 "pull_requests-conda-windows_1735": "Failed",
                 "pull_requests-conda-windows_1737": "Failed",
-                "pull_requests-conda-windows_1741": "Failed"
+                "pull_requests-conda-windows_1741": "Failed",
+                "pull_requests-conda-windows_1768": "Failed"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-02-23"
         },
         "python.MuonQt5.home_runinfo_presenter_test.home_runinfo_presenter_test": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -2898,9 +2908,10 @@
                 "pull_requests-conda-windows_1730": "Failed",
                 "pull_requests-conda-windows_1735": "Failed",
                 "pull_requests-conda-windows_1737": "Failed",
-                "pull_requests-conda-windows_1741": "Failed"
+                "pull_requests-conda-windows_1741": "Failed",
+                "pull_requests-conda-windows_1768": "Failed"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-02-23"
         },
         "python.SimpleAPILoadTest.SimpleAPILoadTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -2919,9 +2930,10 @@
                 "pull_requests-conda-windows_1730": "Failed",
                 "pull_requests-conda-windows_1735": "Failed",
                 "pull_requests-conda-windows_1737": "Failed",
-                "pull_requests-conda-windows_1741": "Failed"
+                "pull_requests-conda-windows_1741": "Failed",
+                "pull_requests-conda-windows_1768": "Failed"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-02-23"
         },
         "python.algorithms.LoadLogPropertyTableTest.LoadLogPropertyTableTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -4288,9 +4300,10 @@
             "agent_name": "Windows",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_1772": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-02-23"
         },
         "mantidqt_qt5.test_superplot_view.test_superplot_view": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -7373,9 +7386,10 @@
             "agent_name": "Windows",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_1760": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-02-23"
         },
         "python.WorkflowAlgorithms.ReflectometryILLSumForegroundTest.ReflectometryILLSumForegroundTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -8779,9 +8793,10 @@
                 "pull_requests-conda-windows_1730": "Failed",
                 "pull_requests-conda-windows_1735": "Failed",
                 "pull_requests-conda-windows_1737": "Failed",
-                "pull_requests-conda-windows_1741": "Failed"
+                "pull_requests-conda-windows_1741": "Failed",
+                "pull_requests-conda-windows_1768": "Failed"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-02-23"
         },
         "python.algorithms.RetrieveRunInfoTest.RetrieveRunInfoTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -11003,9 +11018,10 @@
                 "pull_requests-conda-windows_1730": "Failed",
                 "pull_requests-conda-windows_1735": "Failed",
                 "pull_requests-conda-windows_1737": "Failed",
-                "pull_requests-conda-windows_1741": "Failed"
+                "pull_requests-conda-windows_1741": "Failed",
+                "pull_requests-conda-windows_1768": "Failed"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-02-23"
         },
         "python.plots.compatabilityTest.compatabilityTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -11789,9 +11805,10 @@
                 "pull_requests-conda-windows_1730": "Failed",
                 "pull_requests-conda-windows_1735": "Failed",
                 "pull_requests-conda-windows_1737": "Failed",
-                "pull_requests-conda-windows_1741": "Failed"
+                "pull_requests-conda-windows_1741": "Failed",
+                "pull_requests-conda-windows_1768": "Failed"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-02-23"
         },
         "workbench.test_plotscriptgeneratorutils.test_plotscriptgeneratorutils": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -12118,9 +12135,10 @@
                 "pull_requests-conda-windows_1730": "Failed",
                 "pull_requests-conda-windows_1735": "Failed",
                 "pull_requests-conda-windows_1737": "Failed",
-                "pull_requests-conda-windows_1741": "Failed"
+                "pull_requests-conda-windows_1741": "Failed",
+                "pull_requests-conda-windows_1768": "Failed"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-02-23"
         },
         "AlgorithmsTest_ConvertToConstantL2Test": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -12181,9 +12199,10 @@
                 "pull_requests-conda-windows_1730": "Failed",
                 "pull_requests-conda-windows_1735": "Failed",
                 "pull_requests-conda-windows_1737": "Failed",
-                "pull_requests-conda-windows_1741": "Failed"
+                "pull_requests-conda-windows_1741": "Failed",
+                "pull_requests-conda-windows_1768": "Failed"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-02-23"
         },
         "AlgorithmsTest_FilterByTime2Test": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",

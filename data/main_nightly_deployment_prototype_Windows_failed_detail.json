@@ -9,6 +9,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "502",
                     "501",
                     "500",
                     "499",
@@ -18,12 +19,11 @@
                     "495",
                     "494",
                     "493",
-                    "492",
                     "490"
                 ],
                 "past_outcome_list": [
                     "None",
-                    "Passed",
+                    "None",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -54,6 +54,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "502",
                     "501",
                     "500",
                     "499",
@@ -63,12 +64,11 @@
                     "495",
                     "494",
                     "493",
-                    "492",
                     "490"
                 ],
                 "past_outcome_list": [
                     "None",
-                    "Passed",
+                    "None",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -99,6 +99,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "502",
                     "501",
                     "500",
                     "499",
@@ -108,12 +109,11 @@
                     "495",
                     "494",
                     "493",
-                    "492",
                     "490"
                 ],
                 "past_outcome_list": [
                     "None",
-                    "Passed",
+                    "None",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -144,6 +144,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "502",
                     "501",
                     "500",
                     "499",
@@ -153,12 +154,11 @@
                     "495",
                     "494",
                     "493",
-                    "492",
                     "490"
                 ],
                 "past_outcome_list": [
                     "None",
-                    "Passed",
+                    "None",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -189,6 +189,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "502",
                     "501",
                     "500",
                     "499",
@@ -198,12 +199,11 @@
                     "495",
                     "494",
                     "493",
-                    "492",
                     "490"
                 ],
                 "past_outcome_list": [
                     "None",
-                    "Passed",
+                    "None",
                     "Passed",
                     "Passed",
                     "Passed",

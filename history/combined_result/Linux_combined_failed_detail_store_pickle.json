@@ -973,9 +973,10 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed"
+                "pull_requests-conda-linux_2629": "Failed",
+                "pull_requests-conda-linux_3124": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-03-01"
         },
         "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -1487,9 +1488,10 @@
                 "pull_requests-conda-linux_3039": "Failed",
                 "pull_requests-conda-linux_3050": "Failed",
                 "pull_requests-conda-linux_3078": "Failed",
-                "pull_requests-conda-linux_3085": "Failed"
+                "pull_requests-conda-linux_3085": "Failed",
+                "pull_requests-conda-linux_3131": "Failed"
             },
-            "last_fail_detected": "2023-02-25"
+            "last_fail_detected": "2023-03-01"
         },
         "DataHandlingTest_LoadRaw3Test": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -1667,9 +1669,10 @@
                 "pull_requests-conda-linux_3039": "Failed",
                 "pull_requests-conda-linux_3050": "Failed",
                 "pull_requests-conda-linux_3078": "Failed",
-                "pull_requests-conda-linux_3085": "Failed"
+                "pull_requests-conda-linux_3085": "Failed",
+                "pull_requests-conda-linux_3131": "Failed"
             },
-            "last_fail_detected": "2023-02-25"
+            "last_fail_detected": "2023-03-01"
         },
         "mantidqt_qt5.test_samplelogs_model.test_samplelogs_model": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -1715,9 +1718,10 @@
                 "pull_requests-conda-linux_3039": "Failed",
                 "pull_requests-conda-linux_3050": "Failed",
                 "pull_requests-conda-linux_3078": "Failed",
-                "pull_requests-conda-linux_3085": "Failed"
+                "pull_requests-conda-linux_3085": "Failed",
+                "pull_requests-conda-linux_3131": "Failed"
             },
-            "last_fail_detected": "2023-02-25"
+            "last_fail_detected": "2023-03-01"
         },
         "python.MuonQt5.home_runinfo_presenter_test.home_runinfo_presenter_test": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -1758,9 +1762,10 @@
                 "pull_requests-conda-linux_3039": "Failed",
                 "pull_requests-conda-linux_3050": "Failed",
                 "pull_requests-conda-linux_3078": "Failed",
-                "pull_requests-conda-linux_3085": "Failed"
+                "pull_requests-conda-linux_3085": "Failed",
+                "pull_requests-conda-linux_3131": "Failed"
             },
-            "last_fail_detected": "2023-02-25"
+            "last_fail_detected": "2023-03-01"
         },
         "python.SimpleAPILoadTest.SimpleAPILoadTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -8518,9 +8523,10 @@
                 "pull_requests-conda-linux_3039": "Failed",
                 "pull_requests-conda-linux_3050": "Failed",
                 "pull_requests-conda-linux_3078": "Failed",
-                "pull_requests-conda-linux_3085": "Failed"
+                "pull_requests-conda-linux_3085": "Failed",
+                "pull_requests-conda-linux_3131": "Failed"
             },
-            "last_fail_detected": "2023-02-25"
+            "last_fail_detected": "2023-03-01"
         },
         "python.algorithms.RetrieveRunInfoTest.RetrieveRunInfoTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -12678,9 +12684,10 @@
                 "pull_requests-conda-linux_3039": "Failed",
                 "pull_requests-conda-linux_3050": "Failed",
                 "pull_requests-conda-linux_3078": "Failed",
-                "pull_requests-conda-linux_3085": "Failed"
+                "pull_requests-conda-linux_3085": "Failed",
+                "pull_requests-conda-linux_3131": "Failed"
             },
-            "last_fail_detected": "2023-02-25"
+            "last_fail_detected": "2023-03-01"
         },
         "AlgorithmsTest_FilterByLogValueTest": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",
@@ -12711,9 +12718,10 @@
                 "pull_requests-conda-linux_3039": "Failed",
                 "pull_requests-conda-linux_3050": "Failed",
                 "pull_requests-conda-linux_3078": "Failed",
-                "pull_requests-conda-linux_3085": "Failed"
+                "pull_requests-conda-linux_3085": "Failed",
+                "pull_requests-conda-linux_3131": "Failed"
             },
-            "last_fail_detected": "2023-02-25"
+            "last_fail_detected": "2023-03-01"
         },
         "AlgorithmsTest_FilterByTime2Test": {
             "py/object": "datatable_helper.Combined_LTS_Problem_test_entry",

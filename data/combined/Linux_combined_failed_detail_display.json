@@ -119,9 +119,10 @@
                 "pull_requests-conda-linux_2629": "Failed",
                 "pull_requests-conda-linux_2883": "Flake",
                 "pull_requests-conda-linux_2926": "Flake",
-                "pull_requests-conda-linux_3032": "Flake"
+                "pull_requests-conda-linux_3032": "Flake",
+                "pull_requests-conda-linux_3176": "Flake"
             },
-            "last_fail_detected": "2023-02-23"
+            "last_fail_detected": "2023-03-06"
         },
         {
             "test_name": "python.algorithms.IntegratePeaksSkewTest.IntegratePeaksSkewTest",
@@ -1318,9 +1319,10 @@
                 "pull_requests-conda-linux_3050": "Failed",
                 "pull_requests-conda-linux_3078": "Failed",
                 "pull_requests-conda-linux_3085": "Failed",
-                "pull_requests-conda-linux_3131": "Failed"
+                "pull_requests-conda-linux_3131": "Failed",
+                "pull_requests-conda-linux_3176": "Failed"
             },
-            "last_fail_detected": "2023-03-01"
+            "last_fail_detected": "2023-03-06"
         },
         {
             "test_name": "DataHandlingTest_LoadRaw3Test",
@@ -1483,9 +1485,10 @@
                 "pull_requests-conda-linux_3050": "Failed",
                 "pull_requests-conda-linux_3078": "Failed",
                 "pull_requests-conda-linux_3085": "Failed",
-                "pull_requests-conda-linux_3131": "Failed"
+                "pull_requests-conda-linux_3131": "Failed",
+                "pull_requests-conda-linux_3176": "Failed"
             },
-            "last_fail_detected": "2023-03-01"
+            "last_fail_detected": "2023-03-06"
         },
         {
             "test_name": "mantidqt_qt5.test_samplelogs_model.test_samplelogs_model",
@@ -1530,9 +1533,10 @@
                 "pull_requests-conda-linux_3050": "Failed",
                 "pull_requests-conda-linux_3078": "Failed",
                 "pull_requests-conda-linux_3085": "Failed",
-                "pull_requests-conda-linux_3131": "Failed"
+                "pull_requests-conda-linux_3131": "Failed",
+                "pull_requests-conda-linux_3176": "Failed"
             },
-            "last_fail_detected": "2023-03-01"
+            "last_fail_detected": "2023-03-06"
         },
         {
             "test_name": "python.MuonQt5.home_runinfo_presenter_test.home_runinfo_presenter_test",

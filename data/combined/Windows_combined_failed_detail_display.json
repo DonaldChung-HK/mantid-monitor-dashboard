@@ -226,9 +226,12 @@
                 "pull_requests-conda-windows_1741": "Failed",
                 "pull_requests-conda-windows_1768": "Failed",
                 "pull_requests-conda-windows_1778": "Failed",
-                "pull_requests-conda-windows_1876": "Failed"
+                "pull_requests-conda-windows_1876": "Failed",
+                "pull_requests-conda-windows_1990": "Failed",
+                "pull_requests-conda-windows_1991": "Failed",
+                "pull_requests-conda-windows_1992": "Failed"
             },
-            "last_fail_detected": "2023-03-01"
+            "last_fail_detected": "2023-03-10"
         },
         {
             "test_name": "MantidQtWidgetsMplCppTestQt5_FigureCanvasQtTest",
@@ -1396,9 +1399,11 @@
                 "pull_requests-conda-windows_1263": "Failed",
                 "pull_requests-conda-windows_1705": "Failed",
                 "pull_requests-conda-windows_1706": "Failed",
-                "pull_requests-conda-windows_1710": "Failed"
+                "pull_requests-conda-windows_1710": "Failed",
+                "pull_requests-conda-windows_1990": "Failed",
+                "pull_requests-conda-windows_1991": "Failed"
             },
-            "last_fail_detected": "2023-02-17"
+            "last_fail_detected": "2023-03-10"
         },
         {
             "test_name": "DataHandlingTest_LoadPreNexusTest",
@@ -2330,9 +2335,10 @@
                 "pull_requests-conda-windows_1263": "Failed",
                 "pull_requests-conda-windows_1287": "Failed",
                 "pull_requests-conda-windows_1299": "Flake",
-                "pull_requests-conda-windows_1304": "Failed"
+                "pull_requests-conda-windows_1304": "Failed",
+                "pull_requests-conda-windows_1990": "Flake"
             },
-            "last_fail_detected": "2023-01-24"
+            "last_fail_detected": "2023-03-10"
         },
         {
             "test_name": "python.algorithms.SaveINSTest.SaveINSTest",
@@ -5601,9 +5607,10 @@
                 "pull_requests-conda-windows_1580": "Failed",
                 "pull_requests-conda-windows_1609": "Failed",
                 "pull_requests-conda-windows_1613": "Failed",
-                "pull_requests-conda-windows_1616": "Failed"
+                "pull_requests-conda-windows_1616": "Failed",
+                "pull_requests-conda-windows_1991": "Failed"
             },
-            "last_fail_detected": "2023-02-10"
+            "last_fail_detected": "2023-03-10"
         },
         {
             "test_name": "python.SANS.algorithm_detail.scale_sans_workspace_test.scale_sans_workspace_test",

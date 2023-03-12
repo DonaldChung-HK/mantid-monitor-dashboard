@@ -4960,10 +4960,9 @@
                 "pull_requests-conda-linux_2825": "Failed",
                 "pull_requests-conda-linux_2829": "Failed",
                 "pull_requests-conda-linux_2842": "Failed",
-                "pull_requests-conda-linux_2867": "Failed",
-                "pull_requests-conda-linux_3249": "Failed"
+                "pull_requests-conda-linux_2867": "Failed"
             },
-            "last_fail_detected": "2023-03-11"
+            "last_fail_detected": "2023-02-10"
         },
         {
             "test_name": "python.SANS.algorithm_detail.scale_sans_workspace_test.scale_sans_workspace_test",
@@ -5518,10 +5517,9 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_3250": "Flake"
+                "pull_requests-conda-linux_2629": "Failed"
             },
-            "last_fail_detected": "2023-03-11"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.WorkflowAlgorithms.IndirectAnnulusAbsorption2Test.IndirectAnnulusAbsorption2Test",

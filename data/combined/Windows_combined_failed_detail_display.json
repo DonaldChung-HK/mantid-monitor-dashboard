@@ -5601,10 +5601,9 @@
                 "pull_requests-conda-windows_1580": "Failed",
                 "pull_requests-conda-windows_1609": "Failed",
                 "pull_requests-conda-windows_1613": "Failed",
-                "pull_requests-conda-windows_1616": "Failed",
-                "pull_requests-conda-windows_1999": "Failed"
+                "pull_requests-conda-windows_1616": "Failed"
             },
-            "last_fail_detected": "2023-03-11"
+            "last_fail_detected": "2023-02-10"
         },
         {
             "test_name": "python.SANS.algorithm_detail.scale_sans_workspace_test.scale_sans_workspace_test",

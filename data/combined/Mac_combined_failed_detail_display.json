@@ -3766,9 +3766,10 @@
         {
             "test_name": "python.EngineeringDiffraction.test_presenter.test_presenter",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_1869": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-03-14"
         },
         {
             "test_name": "python.EngineeringDiffraction.test_settings_model.test_settings_model",
@@ -3843,9 +3844,10 @@
         {
             "test_name": "python.IsisPowder.ISISPowderPearlTest.ISISPowderPearlTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_1867": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-03-14"
         },
         {
             "test_name": "python.IsisPowder.ISISPowderRunDetailsTest.ISISPowderRunDetailsTest",
@@ -8340,9 +8342,12 @@
         {
             "test_name": "python.scripts.SANSUtilityTest.SANSUtilityTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_1861": "Failed",
+                "pull_requests-conda-osx_1864": "Failed",
+                "pull_requests-conda-osx_1865": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-03-14"
         },
         {
             "test_name": "python.scripts.SettingsTest.SettingsTest",
@@ -9603,6 +9608,13 @@
                 "pull_requests-conda-osx_1739": "Failed"
             },
             "last_fail_detected": "2023-03-01"
+        },
+        {
+            "test_name": "MantidQtWidgetsCommonTestQt5_FitPropertyBrowserTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_1870": "Failed"
+            },
+            "last_fail_detected": "2023-03-14"
         }
     ]
 }

@@ -3158,9 +3158,10 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed"
+                "pull_requests-conda-linux_2629": "Failed",
+                "pull_requests-conda-linux_3270": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-03-14"
         },
         {
             "test_name": "python.EngineeringDiffraction.test_settings_model.test_settings_model",
@@ -3268,9 +3269,10 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed"
+                "pull_requests-conda-linux_2629": "Failed",
+                "pull_requests-conda-linux_3268": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-03-14"
         },
         {
             "test_name": "python.IsisPowder.ISISPowderRunDetailsTest.ISISPowderRunDetailsTest",
@@ -9899,9 +9901,12 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed"
+                "pull_requests-conda-linux_2629": "Failed",
+                "pull_requests-conda-linux_3262": "Failed",
+                "pull_requests-conda-linux_3265": "Failed",
+                "pull_requests-conda-linux_3266": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-03-14"
         },
         {
             "test_name": "python.scripts.SettingsTest.SettingsTest",
@@ -11611,6 +11616,13 @@
                 "main_nightly_deployment_prototype_501": "Flake"
             },
             "last_fail_detected": "2023-02-25"
+        },
+        {
+            "test_name": "MantidQtWidgetsCommonTestQt5_FitPropertyBrowserTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_3271": "Failed"
+            },
+            "last_fail_detected": "2023-03-14"
         }
     ]
 }

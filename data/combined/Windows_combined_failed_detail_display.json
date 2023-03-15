@@ -4134,10 +4134,9 @@
             "test_name": "python.EngineeringDiffraction.test_presenter.test_presenter",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed",
-                "pull_requests-conda-windows_2020": "Failed"
+                "pull_requests-conda-windows_1372": "Failed"
             },
-            "last_fail_detected": "2023-03-14"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.EngineeringDiffraction.test_settings_model.test_settings_model",
@@ -4224,9 +4223,9 @@
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
                 "pull_requests-conda-windows_1372": "Failed",
-                "pull_requests-conda-windows_2018": "Failed"
+                "pull_requests-conda-windows_2045": "Failed"
             },
-            "last_fail_detected": "2023-03-14"
+            "last_fail_detected": "2023-03-15"
         },
         {
             "test_name": "python.IsisPowder.ISISPowderRunDetailsTest.ISISPowderRunDetailsTest",
@@ -8945,9 +8944,10 @@
             "test_name": "python.kernel.MantidVersionTest.MantidVersionTest",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_2035": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-03-15"
         },
         {
             "test_name": "python.kernel.MaterialBuilderTest.MaterialBuilderTest",
@@ -9562,12 +9562,9 @@
             "test_name": "python.scripts.SANSUtilityTest.SANSUtilityTest",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed",
-                "pull_requests-conda-windows_2012": "Failed",
-                "pull_requests-conda-windows_2015": "Failed",
-                "pull_requests-conda-windows_2016": "Failed"
+                "pull_requests-conda-windows_1372": "Failed"
             },
-            "last_fail_detected": "2023-03-14"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.SettingsTest.SettingsTest",
@@ -10884,6 +10881,13 @@
                 "pull_requests-conda-windows_1710": "Failed"
             },
             "last_fail_detected": "2023-02-17"
+        },
+        {
+            "test_name": "DataObjectsTest_TimeSplitterTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_2031": "Flake"
+            },
+            "last_fail_detected": "2023-03-15"
         }
     ]
 }

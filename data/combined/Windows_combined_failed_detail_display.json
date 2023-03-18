@@ -4222,16 +4222,9 @@
             "test_name": "python.IsisPowder.ISISPowderPearlTest.ISISPowderPearlTest",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed",
-                "pull_requests-conda-windows_2090": "Failed",
-                "pull_requests-conda-windows_2091": "Failed",
-                "pull_requests-conda-windows_2093": "Failed",
-                "pull_requests-conda-windows_2104": "Failed",
-                "pull_requests-conda-windows_2105": "Failed",
-                "pull_requests-conda-windows_2106": "Failed",
-                "pull_requests-conda-windows_2107": "Failed"
+                "pull_requests-conda-windows_1372": "Failed"
             },
-            "last_fail_detected": "2023-03-17"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.IsisPowder.ISISPowderRunDetailsTest.ISISPowderRunDetailsTest",

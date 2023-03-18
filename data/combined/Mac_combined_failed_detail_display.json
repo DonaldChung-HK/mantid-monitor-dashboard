@@ -2763,9 +2763,9 @@
             "past_failed_outcome": {
                 "pull_requests-conda-osx_1285": "Failed",
                 "pull_requests-conda-osx_1660": "Flake",
-                "pull_requests-conda-osx_1948": "Flake"
+                "pull_requests-conda-osx_1964": "Flake"
             },
-            "last_fail_detected": "2023-03-17"
+            "last_fail_detected": "2023-03-18"
         },
         {
             "test_name": "PythonSANSQt5.concrete_run_tab_listener_test.concrete_run_tab_listener_test",
@@ -3844,17 +3844,9 @@
         {
             "test_name": "python.IsisPowder.ISISPowderPearlTest.ISISPowderPearlTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_1933": "Failed",
-                "pull_requests-conda-osx_1934": "Failed",
-                "pull_requests-conda-osx_1936": "Failed",
-                "pull_requests-conda-osx_1937": "Failed",
-                "pull_requests-conda-osx_1948": "Failed",
-                "pull_requests-conda-osx_1949": "Failed",
-                "pull_requests-conda-osx_1950": "Failed",
-                "pull_requests-conda-osx_1951": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-03-17"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.IsisPowder.ISISPowderRunDetailsTest.ISISPowderRunDetailsTest",

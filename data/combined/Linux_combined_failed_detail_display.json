@@ -119,10 +119,9 @@
                 "pull_requests-conda-linux_2629": "Failed",
                 "pull_requests-conda-linux_2883": "Flake",
                 "pull_requests-conda-linux_2926": "Flake",
-                "pull_requests-conda-linux_3032": "Flake",
-                "pull_requests-conda-linux_3372": "Flake"
+                "pull_requests-conda-linux_3032": "Flake"
             },
-            "last_fail_detected": "2023-03-18"
+            "last_fail_detected": "2023-02-23"
         },
         {
             "test_name": "python.algorithms.IntegratePeaksSkewTest.IntegratePeaksSkewTest",
@@ -8124,7 +8123,7 @@
                 "pull_requests-conda-linux_2629": "Failed",
                 "main_nightly_deployment_prototype_515": "Flake"
             },
-            "last_fail_detected": "2023-03-18"
+            "last_fail_detected": "2023-03-19"
         },
         {
             "test_name": "python.corelli.calibration.test_utils.test_utils",

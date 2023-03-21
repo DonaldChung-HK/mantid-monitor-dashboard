@@ -462,9 +462,10 @@
                 "pull_requests-conda-osx_1595": "Failed",
                 "pull_requests-conda-osx_1598": "Failed",
                 "pull_requests-conda-osx_1622": "Failed",
-                "pull_requests-conda-osx_1626": "Failed"
+                "pull_requests-conda-osx_1626": "Failed",
+                "pull_requests-conda-osx_1978": "Failed"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-03-21"
         },
         {
             "test_name": "python.WorkflowAlgorithms.ReflectometryISISPreprocessTest.ReflectometryISISPreprocessTest",
@@ -6548,9 +6549,10 @@
                 "pull_requests-conda-osx_1687": "Failed",
                 "pull_requests-conda-osx_1694": "Failed",
                 "pull_requests-conda-osx_1724": "Failed",
-                "pull_requests-conda-osx_1735": "Failed"
+                "pull_requests-conda-osx_1735": "Failed",
+                "pull_requests-conda-osx_1978": "Failed"
             },
-            "last_fail_detected": "2023-03-01"
+            "last_fail_detected": "2023-03-21"
         },
         {
             "test_name": "python.algorithms.RetrieveRunInfoTest.RetrieveRunInfoTest",
@@ -8923,9 +8925,10 @@
                 "pull_requests-conda-osx_1466": "Failed",
                 "pull_requests-conda-osx_1488": "Failed",
                 "pull_requests-conda-osx_1510": "Failed",
-                "pull_requests-conda-osx_1515": "Failed"
+                "pull_requests-conda-osx_1515": "Failed",
+                "pull_requests-conda-osx_1978": "Failed"
             },
-            "last_fail_detected": "2023-02-10"
+            "last_fail_detected": "2023-03-21"
         },
         {
             "test_name": "AlgorithmsTest_FilterEventsTest",
@@ -8938,9 +8941,10 @@
                 "pull_requests-conda-osx_1466": "Failed",
                 "pull_requests-conda-osx_1488": "Failed",
                 "pull_requests-conda-osx_1510": "Failed",
-                "pull_requests-conda-osx_1515": "Failed"
+                "pull_requests-conda-osx_1515": "Failed",
+                "pull_requests-conda-osx_1978": "Failed"
             },
-            "last_fail_detected": "2023-02-10"
+            "last_fail_detected": "2023-03-21"
         },
         {
             "test_name": "AlgorithmsTest_HyspecScharpfCorrectionTest",

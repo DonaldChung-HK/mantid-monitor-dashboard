@@ -1,3 +1,47 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "LiveDataTest_KafkaEventStreamDecoderTest",
+            "latest_failed_build": "520",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Flake",
+            "pipeline_name": "main_nightly_deployment_prototype",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "520",
+                    "519",
+                    "518",
+                    "517",
+                    "516",
+                    "515",
+                    "514",
+                    "513",
+                    "512",
+                    "511"
+                ],
+                "past_outcome_list": [
+                    "Flake",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "LiveDataTest_KafkaEventStreamDecoderTest",
+                "build": "520",
+                "agent_name": "Windows",
+                "trial": 1,
+                "outcome": "Failed",
+                "test_time": "8.10",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230321.1104.dev13\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 14 testsFacilityInfo-[Notice] No timezone specified for TEST in Facilities.xml\r\n.FacilityInfo-[Notice] No timezone specified for TEST in Facilities.xml\r\n.FacilityInfo-[Notice] No timezone specified for TEST in Facilities.xml\r\nIKafkaStreamDecoder-[Notice] Reached end of run in data streams.\r\nIKafkaStreamDecoder-[Notice] Reached end of run in data streams.\r\n.FacilityInfo-[Notice] No timezone specified for TEST in Facilities.xml\r\nIKafkaStreamDecoder-[Notice] Reached end of run in data streams.\r\n\r\nGMOCK WARNING:\r\nUninteresting mock function call - returning default value.\r\n    Function call: subscribe_({ &quot;&quot;, &quot;&quot;, &quot;&quot; }, 1472645262000, 4-byte object &lt;04-00 00-00&gt;)\r\n          Returns: NULL\r\nNOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don&#x27;t mean to enforce the call.  See https://github.com/google/googletest/blob/master/docs/gmock_cook_book.md#knowing-when-to-expect for details.\r\nAccess violation\r\n\r\n          Start 1291: LiveDataTest_KafkaEventStreamDecoderTest\r\n"
+            }
+        }
+    ]
 }

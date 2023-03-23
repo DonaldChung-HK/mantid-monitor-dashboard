@@ -2354,9 +2354,10 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed"
+                "pull_requests-conda-linux_2629": "Failed",
+                "pull_requests-conda-linux_3422": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-03-23"
         },
         {
             "test_name": "mantidqt_qt5.test_line_edit_double_validator.test_line_edit_double_validator",
@@ -8123,7 +8124,7 @@
                 "pull_requests-conda-linux_2629": "Failed",
                 "main_nightly_deployment_prototype_515": "Flake"
             },
-            "last_fail_detected": "2023-03-22"
+            "last_fail_detected": "2023-03-23"
         },
         {
             "test_name": "python.corelli.calibration.test_utils.test_utils",
@@ -11612,13 +11613,6 @@
                 "main_nightly_deployment_prototype_501": "Flake"
             },
             "last_fail_detected": "2023-02-25"
-        },
-        {
-            "test_name": "MantidQtWidgetsCommonTestQt5_FitPropertyBrowserTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-linux_3409": "Failed"
-            },
-            "last_fail_detected": "2023-03-22"
         }
     ]
 }

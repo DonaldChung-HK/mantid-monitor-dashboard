@@ -1,14 +1,26 @@
 {
     "data": [
         {
-            "test_name": "MantidQtWidgetsCommonTestQt5_FitPropertyBrowserTest",
-            "latest_failed_build": "3409",
+            "test_name": "mantidqt_qt5.test_jupyterconsole.test_jupyterconsole",
+            "latest_failed_build": "3422",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3422",
+                    "3421",
+                    "3420",
+                    "3419",
+                    "3418",
+                    "3417",
+                    "3416",
+                    "3415",
+                    "3414",
+                    "3413",
+                    "3412",
+                    "3411",
                     "3410",
                     "3409",
                     "3408",
@@ -26,22 +38,9 @@
                     "3396",
                     "3395",
                     "3394",
-                    "3393",
-                    "3392",
-                    "3391",
-                    "3390",
-                    "3389",
-                    "3388",
-                    "3387",
-                    "3386",
-                    "3385",
-                    "3384",
-                    "3383",
-                    "3382",
-                    "3381"
+                    "3393"
                 ],
                 "past_outcome_list": [
-                    "None",
                     "Failed",
                     "Passed",
                     "Passed",
@@ -53,15 +52,16 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
                     "None",
-                    "Passed",
-                    "Passed",
-                    "Passed",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
                     "None",
                     "None",
                     "None",
@@ -74,13 +74,13 @@
                 ]
             },
             "last_stack_traces": {
-                "test_name": "MantidQtWidgetsCommonTestQt5_FitPropertyBrowserTest",
-                "build": "3409",
+                "test_name": "mantidqt_qt5.test_jupyterconsole.test_jupyterconsole",
+                "build": "3422",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "0.73",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230321.1104.dev14\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 7 testsQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\n....Segmentation fault\n\n          Start  260: AlgorithmsTest_CylinderAbsorptionTest\n"
+                "test_time": "0.37",
+                "stacktrace": "Segmentation fault\n\n          Start  943: DataHandlingTest_LoadSampleShapeTest\n"
             }
         }
     ]

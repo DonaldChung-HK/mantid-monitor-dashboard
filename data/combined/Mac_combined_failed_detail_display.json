@@ -525,10 +525,9 @@
                 "pull_requests-conda-osx_1211": "Flake",
                 "pull_requests-conda-osx_1276": "Flake",
                 "pull_requests-conda-osx_1491": "Flake",
-                "pull_requests-conda-osx_1640": "Flake",
-                "pull_requests-conda-osx_1988": "Flake"
+                "pull_requests-conda-osx_1640": "Flake"
             },
-            "last_fail_detected": "2023-03-22"
+            "last_fail_detected": "2023-02-22"
         },
         {
             "test_name": "python.algorithms.HB2AReduceTest.HB2AReduceTest",
@@ -1083,9 +1082,10 @@
                 "pull_requests-conda-osx_1117": "Failed",
                 "pull_requests-conda-osx_1120": "Failed",
                 "pull_requests-conda-osx_1122": "Failed",
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_2007": "Flake"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-03-23"
         },
         {
             "test_name": "python.algorithms.AnstoCommonFractionalTest.AnstoCommonFractionalTest",
@@ -9604,13 +9604,6 @@
                 "pull_requests-conda-osx_1739": "Failed"
             },
             "last_fail_detected": "2023-03-01"
-        },
-        {
-            "test_name": "MantidQtWidgetsCommonTestQt5_FitPropertyBrowserTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-osx_2004": "Failed"
-            },
-            "last_fail_detected": "2023-03-22"
         }
     ]
 }

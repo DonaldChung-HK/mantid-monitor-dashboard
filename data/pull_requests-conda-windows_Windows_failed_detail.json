@@ -1,3 +1,87 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "APITest_RunTest",
+            "latest_failed_build": "2199",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-windows",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "2199",
+                    "2198",
+                    "2197",
+                    "2196",
+                    "2195",
+                    "2194",
+                    "2193",
+                    "2192",
+                    "2191",
+                    "2190",
+                    "2189",
+                    "2188",
+                    "2187",
+                    "2186",
+                    "2185",
+                    "2184",
+                    "2183",
+                    "2182",
+                    "2181",
+                    "2180",
+                    "2179",
+                    "2178",
+                    "2177",
+                    "2176",
+                    "2175",
+                    "2174",
+                    "2173",
+                    "2172",
+                    "2171",
+                    "2170"
+                ],
+                "past_outcome_list": [
+                    "Failed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "Passed",
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "APITest_RunTest",
+                "build": "2199",
+                "agent_name": "Windows",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "1.21",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230322.1523.dev57\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 45 tests..Run-[Notice] There is no proton charge associated with this workspace\r\n................................run 1\r\nrun 2\r\nrun compare pcharge\r\n\r\nIn RunTest::test_integratePCharge:\r\nC:/jenkins_workdir/workspace/pull_requests-conda-windows/Framework/API/test/RunTest.h:537: Error: Expected (left.time_mean == right.time_mean), found (2.4998958260 != 2.5000000000)\r\nC:/jenkins_workdir/workspace/pull_requests-conda-windows/Framework/API/test/RunTest.h:538: Error: Expected (left.time_standard_deviation == right.time_standard_deviation), found (1.1180029246 != 1.1180339885)\r\nC:/jenkins_workdir/workspace/pull_requests-conda-windows/Framework/API/test/RunTest.h:539: Error: Expected (left.duration == right.duration), found (14399.0000022080 != 14400.0000022088)\r\nrun compare other\r\nC:/jenkins_workdir/workspace/pull_requests-conda-windows/Framework/API/test/RunTest.h:537: Error: Expected (left.time_mean == right.time_mean), found (2.4998958260 != 2.5000000000)\r\nC:/jenkins_workdir/workspace/pull_requests-conda-windows/Framework/API/test/RunTest.h:538: Error: Expected (left.time_standard_deviation == right.time_standard_deviation), found (1.1180029246 != 1.1180339885)\r\nC:/jenkins_workdir/workspace/pull_requests-conda-windows/Framework/API/test/RunTest.h:539: Error: Expected (left.duration == right.duration), found (14399.0000022080 != 14400.0000022088)\r\n..Run-[Warning] Goniometer angle changed in omega log from 0 to 90.  Used time averaged value = 0.006250000000001422.\r\nRun-[Warning] To set to last angle, replace omega with 0: SetGoniometer(Workspace=&#x27;workspace&#x27;,Axis0=omega,0,1,0,1&#x27;,Axis1=&#x27;chi,0,0,1,1&#x27;,Axis2=&#x27;phi,0,1,0,1&#x27;)\r\n........\r\nFailed 1 of 45 tests\r\nSuccess rate: 97%\r\n\r\n          Start  140: KernelTest_VMDTest\r\n"
+            }
+        }
+    ]
 }

@@ -1082,10 +1082,9 @@
                 "pull_requests-conda-osx_1117": "Failed",
                 "pull_requests-conda-osx_1120": "Failed",
                 "pull_requests-conda-osx_1122": "Failed",
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_2007": "Flake"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-03-23"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.algorithms.AnstoCommonFractionalTest.AnstoCommonFractionalTest",
@@ -8757,9 +8756,10 @@
                 "pull_requests-conda-osx_1466": "Failed",
                 "pull_requests-conda-osx_1488": "Failed",
                 "pull_requests-conda-osx_1510": "Failed",
-                "pull_requests-conda-osx_1515": "Failed"
+                "pull_requests-conda-osx_1515": "Failed",
+                "pull_requests-conda-osx_2027": "Failed"
             },
-            "last_fail_detected": "2023-02-10"
+            "last_fail_detected": "2023-03-24"
         },
         {
             "test_name": "AlgorithmsTest_CalculateCountRateTest",

@@ -2355,9 +2355,26 @@
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
                 "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_3422": "Failed"
+                "pull_requests-conda-linux_3423": "Failed",
+                "pull_requests-conda-linux_3424": "Failed",
+                "pull_requests-conda-linux_3425": "Failed",
+                "pull_requests-conda-linux_3426": "Failed",
+                "pull_requests-conda-linux_3427": "Failed",
+                "pull_requests-conda-linux_3428": "Failed",
+                "pull_requests-conda-linux_3430": "Failed",
+                "pull_requests-conda-linux_3431": "Failed",
+                "pull_requests-conda-linux_3433": "Failed",
+                "pull_requests-conda-linux_3434": "Failed",
+                "pull_requests-conda-linux_3435": "Failed",
+                "pull_requests-conda-linux_3436": "Failed",
+                "pull_requests-conda-linux_3437": "Failed",
+                "pull_requests-conda-linux_3438": "Failed",
+                "pull_requests-conda-linux_3439": "Failed",
+                "pull_requests-conda-linux_3441": "Failed",
+                "pull_requests-conda-linux_3442": "Failed",
+                "main_nightly_deployment_prototype_521": "Failed"
             },
-            "last_fail_detected": "2023-03-23"
+            "last_fail_detected": "2023-03-24"
         },
         {
             "test_name": "mantidqt_qt5.test_line_edit_double_validator.test_line_edit_double_validator",
@@ -8124,7 +8141,7 @@
                 "pull_requests-conda-linux_2629": "Failed",
                 "main_nightly_deployment_prototype_515": "Flake"
             },
-            "last_fail_detected": "2023-03-23"
+            "last_fail_detected": "2023-03-24"
         },
         {
             "test_name": "python.corelli.calibration.test_utils.test_utils",
@@ -10604,9 +10621,10 @@
                 "pull_requests-conda-linux_2829": "Failed",
                 "pull_requests-conda-linux_2842": "Failed",
                 "pull_requests-conda-linux_2867": "Failed",
-                "pull_requests-conda-linux_2873": "Failed"
+                "pull_requests-conda-linux_2873": "Failed",
+                "pull_requests-conda-linux_3442": "Failed"
             },
-            "last_fail_detected": "2023-02-10"
+            "last_fail_detected": "2023-03-24"
         },
         {
             "test_name": "AlgorithmsTest_AppendSpectraTest",

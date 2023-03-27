@@ -2,13 +2,14 @@
     "data": [
         {
             "test_name": "mantidqt_qt5.test_jupyterconsole.test_jupyterconsole",
-            "latest_failed_build": "521",
+            "latest_failed_build": "522",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "main_nightly_deployment_prototype",
-            "problem_count": 1,
+            "problem_count": 2,
             "past_outcome": {
                 "build_keys": [
+                    "522",
                     "521",
                     "520",
                     "519",
@@ -17,12 +18,11 @@
                     "516",
                     "515",
                     "514",
-                    "513",
-                    "512"
+                    "513"
                 ],
                 "past_outcome_list": [
                     "Failed",
-                    "Passed",
+                    "Failed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -35,12 +35,12 @@
             },
             "last_stack_traces": {
                 "test_name": "mantidqt_qt5.test_jupyterconsole.test_jupyterconsole",
-                "build": "521",
+                "build": "522",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "0.35",
-                "stacktrace": "Segmentation fault\n\n          Start 2142: python.MuonQt5.dual_plot_maxent_pane_model_test.dual_plot_maxent_pane_model_test\n"
+                "test_time": "0.44",
+                "stacktrace": "Segmentation fault\n\n          Start 1188: GeometryTest_RotCounterTest\n"
             }
         },
         {
@@ -52,6 +52,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "522",
                     "521",
                     "520",
                     "519",
@@ -60,8 +61,7 @@
                     "516",
                     "515",
                     "514",
-                    "513",
-                    "512"
+                    "513"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -70,8 +70,8 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Flake",
                     "Passed",
+                    "Flake",
                     "Passed",
                     "Passed"
                 ]

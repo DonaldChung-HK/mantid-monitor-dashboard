@@ -2355,9 +2355,13 @@
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
                 "pull_requests-conda-linux_2629": "Failed",
-                "main_nightly_deployment_prototype_521": "Failed"
+                "pull_requests-conda-linux_3449": "Failed",
+                "pull_requests-conda-linux_3450": "Failed",
+                "pull_requests-conda-linux_3451": "Failed",
+                "main_nightly_deployment_prototype_521": "Failed",
+                "main_nightly_deployment_prototype_522": "Failed"
             },
-            "last_fail_detected": "2023-03-26"
+            "last_fail_detected": "2023-03-27"
         },
         {
             "test_name": "mantidqt_qt5.test_line_edit_double_validator.test_line_edit_double_validator",
@@ -8124,7 +8128,7 @@
                 "pull_requests-conda-linux_2629": "Failed",
                 "main_nightly_deployment_prototype_515": "Flake"
             },
-            "last_fail_detected": "2023-03-26"
+            "last_fail_detected": "2023-03-27"
         },
         {
             "test_name": "python.corelli.calibration.test_utils.test_utils",

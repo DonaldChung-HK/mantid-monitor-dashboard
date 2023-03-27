@@ -1,3 +1,87 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "mantidqt_qt5.test_jupyterconsole.test_jupyterconsole",
+            "latest_failed_build": "3451",
+            "agent_name": "Linux",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-linux",
+            "problem_count": 3,
+            "past_outcome": {
+                "build_keys": [
+                    "3451",
+                    "3450",
+                    "3449",
+                    "3448",
+                    "3447",
+                    "3446",
+                    "3445",
+                    "3444",
+                    "3443",
+                    "3442",
+                    "3441",
+                    "3440",
+                    "3439",
+                    "3438",
+                    "3437",
+                    "3436",
+                    "3435",
+                    "3434",
+                    "3433",
+                    "3432",
+                    "3431",
+                    "3430",
+                    "3429",
+                    "3428",
+                    "3427",
+                    "3426",
+                    "3425",
+                    "3424",
+                    "3423",
+                    "3422"
+                ],
+                "past_outcome_list": [
+                    "Failed",
+                    "Failed",
+                    "Failed",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "mantidqt_qt5.test_jupyterconsole.test_jupyterconsole",
+                "build": "3451",
+                "agent_name": "Linux",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "0.22",
+                "stacktrace": "Segmentation fault\n\n          Start 1102: GeometryTest_ComponentParserTest\n"
+            }
+        }
+    ]
 }

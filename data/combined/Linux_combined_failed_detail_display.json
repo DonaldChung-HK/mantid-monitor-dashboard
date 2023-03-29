@@ -119,10 +119,9 @@
                 "pull_requests-conda-linux_2629": "Failed",
                 "pull_requests-conda-linux_2883": "Flake",
                 "pull_requests-conda-linux_2926": "Flake",
-                "pull_requests-conda-linux_3032": "Flake",
-                "pull_requests-conda-linux_3463": "Flake"
+                "pull_requests-conda-linux_3032": "Flake"
             },
-            "last_fail_detected": "2023-03-28"
+            "last_fail_detected": "2023-02-23"
         },
         {
             "test_name": "python.algorithms.IntegratePeaksSkewTest.IntegratePeaksSkewTest",
@@ -2356,15 +2355,10 @@
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
                 "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_3452": "Failed",
-                "pull_requests-conda-linux_3454": "Failed",
-                "pull_requests-conda-linux_3456": "Failed",
-                "pull_requests-conda-linux_3459": "Failed",
-                "pull_requests-conda-linux_3467": "Failed",
                 "main_nightly_deployment_prototype_521": "Failed",
                 "main_nightly_deployment_prototype_522": "Failed"
             },
-            "last_fail_detected": "2023-03-28"
+            "last_fail_detected": "2023-03-29"
         },
         {
             "test_name": "mantidqt_qt5.test_line_edit_double_validator.test_line_edit_double_validator",
@@ -8131,7 +8125,7 @@
                 "pull_requests-conda-linux_2629": "Failed",
                 "main_nightly_deployment_prototype_515": "Flake"
             },
-            "last_fail_detected": "2023-03-28"
+            "last_fail_detected": "2023-03-29"
         },
         {
             "test_name": "python.corelli.calibration.test_utils.test_utils",

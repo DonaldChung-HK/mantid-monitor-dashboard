@@ -10039,10 +10039,9 @@
                 "pull_requests-conda-windows_1580": "Failed",
                 "pull_requests-conda-windows_1609": "Failed",
                 "pull_requests-conda-windows_1613": "Failed",
-                "pull_requests-conda-windows_1616": "Failed",
-                "pull_requests-conda-windows_2220": "Failed"
+                "pull_requests-conda-windows_1616": "Failed"
             },
-            "last_fail_detected": "2023-03-28"
+            "last_fail_detected": "2023-02-10"
         },
         {
             "test_name": "AlgorithmsTest_AppendSpectraTest",
@@ -10476,7 +10475,7 @@
                 "pull_requests-conda-windows_1616": "Failed",
                 "main_nightly_deployment_prototype_520": "Flake"
             },
-            "last_fail_detected": "2023-03-28"
+            "last_fail_detected": "2023-03-29"
         },
         {
             "test_name": "MDAlgorithmsTest_ConvertCWPDMDToSpectraTest",
@@ -10881,6 +10880,14 @@
                 "pull_requests-conda-windows_1710": "Failed"
             },
             "last_fail_detected": "2023-02-17"
+        },
+        {
+            "test_name": "DataObjectsTest_TimeSplitterTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_2243": "Flake",
+                "pull_requests-conda-windows_2250": "Flake"
+            },
+            "last_fail_detected": "2023-03-29"
         }
     ]
 }

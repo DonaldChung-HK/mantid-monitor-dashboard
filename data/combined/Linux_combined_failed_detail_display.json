@@ -2358,7 +2358,7 @@
                 "main_nightly_deployment_prototype_521": "Failed",
                 "main_nightly_deployment_prototype_522": "Failed"
             },
-            "last_fail_detected": "2023-03-29"
+            "last_fail_detected": "2023-03-30"
         },
         {
             "test_name": "mantidqt_qt5.test_line_edit_double_validator.test_line_edit_double_validator",
@@ -8125,7 +8125,7 @@
                 "pull_requests-conda-linux_2629": "Failed",
                 "main_nightly_deployment_prototype_515": "Flake"
             },
-            "last_fail_detected": "2023-03-29"
+            "last_fail_detected": "2023-03-30"
         },
         {
             "test_name": "python.corelli.calibration.test_utils.test_utils",

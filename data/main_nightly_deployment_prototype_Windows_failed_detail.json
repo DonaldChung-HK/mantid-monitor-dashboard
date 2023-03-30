@@ -1,14 +1,15 @@
 {
     "data": [
         {
-            "test_name": "LiveDataTest_KafkaEventStreamDecoderTest",
-            "latest_failed_build": "520",
+            "test_name": "python.algorithms.CleanFileCacheTest.CleanFileCacheTest",
+            "latest_failed_build": "524",
             "agent_name": "Windows",
-            "last_failed_outcome": "Flake",
+            "last_failed_outcome": "Failed",
             "pipeline_name": "main_nightly_deployment_prototype",
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "524",
                     "523",
                     "522",
                     "521",
@@ -17,15 +18,57 @@
                     "518",
                     "517",
                     "516",
-                    "515",
-                    "514"
+                    "515"
+                ],
+                "past_outcome_list": [
+                    "Failed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "python.algorithms.CleanFileCacheTest.CleanFileCacheTest",
+                "build": "524",
+                "agent_name": "Windows",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "24.53",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230322.1523.dev68\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nCreateCacheFilename-[Notice] CreateCacheFilename started\r\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\r\nCreateCacheFilename-[Notice] CreateCacheFilename started\r\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\r\nFrameworkManager-[Notice] Welcome to Mantid 6.6.20230322.1523.dev68\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nCleanFileCache-[Notice] CleanFileCache started\r\nC:\\Users\\jenkins\\AppData\\Local\\Temp\\tmpvk3xbjzr\\8c63086b2c2ee03389ade42367021d297a8dbacc.nxs: mtime=1680134266.5326178, rm_date=1680217200.0\r\n  removing C:\\Users\\jenkins\\AppData\\Local\\Temp\\tmpvk3xbjzr\\8c63086b2c2ee03389ade42367021d297a8dbacc.nxs\r\nC:\\Users\\jenkins\\AppData\\Local\\Temp\\tmpvk3xbjzr\\f596d542925c4be4055bddc7feb813410567e869.nxs: mtime=1680134266.5316236, rm_date=1680217200.0\r\n  removing C:\\Users\\jenkins\\AppData\\Local\\Temp\\tmpvk3xbjzr\\f596d542925c4be4055bddc7feb813410567e869.nxs\r\nCleanFileCache-[Notice] CleanFileCache successful, Duration 0.00 seconds\r\n.CreateCacheFilename-[Notice] CreateCacheFilename started\r\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\r\nCreateCacheFilename-[Notice] CreateCacheFilename started\r\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\r\nFrameworkManager-[Notice] Welcome to Mantid 6.6.20230322.1523.dev68\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nCleanFileCache-[Notice] CleanFileCache started\r\nC:\\Users\\jenkins\\AppData\\Local\\Temp\\tmp09fm2kye\\00000000000000000000000000000000000000000.nxs: mtime=1680134272.4894977, rm_date=1680217200.0\r\nC:\\Users\\jenkins\\AppData\\Local\\Temp\\tmp09fm2kye\\62ed8b58fd63f2b1a23c1f6fa2e58f09c4e1fe72.nxs: mtime=1680134272.486503, rm_date=1680217200.0\r\n  removing C:\\Users\\jenkins\\AppData\\Local\\Temp\\tmp09fm2kye\\62ed8b58fd63f2b1a23c1f6fa2e58f09c4e1fe72.nxs\r\nC:\\Users\\jenkins\\AppData\\Local\\Temp\\tmp09fm2kye\\68c2c79351bbe3c6bcc6ed4ed29532c3bda26667.nxs: mtime=1680134272.4855006, rm_date=1680217200.0\r\n  removing C:\\Users\\jenkins\\AppData\\Local\\Temp\\tmp09fm2kye\\68c2c79351bbe3c6bcc6ed4ed29532c3bda26667.nxs\r\nC:\\Users\\jenkins\\AppData\\Local\\Temp\\tmp09fm2kye\\aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.nxs: mtime=1680134272.487496, rm_date=1680217200.0\r\nC:\\Users\\jenkins\\AppData\\Local\\Temp\\tmp09fm2kye\\alpha_bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb.nxs: mtime=1680134272.4905012, rm_date=1680217200.0\r\nC:\\Users\\jenkins\\AppData\\Local\\Temp\\tmp09fm2kye\\beta_eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.nxs: mtime=1680134272.492497, rm_date=1680217200.0\r\nCleanFileCache-[Notice] CleanFileCache successful, Duration 0.00 seconds\r\n.CreateCacheFilename-[Notice] CreateCacheFilename started\r\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\r\nCreateCacheFilename-[Notice] CreateCacheFilename started\r\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\r\nCreateCacheFilename-[Notice] CreateCacheFilename started\r\nCreateCacheFilename-[Notice] CreateCacheFilename successful, Duration 0.00 seconds\r\nTime before creating files: 1680134278.4421182\r\ncache1=C:\\Users\\jenkins\\AppData\\Local\\Temp\\tmpgfonnzgw\\4b687a7a2a6a3e6b0c766aef4fc17d8082bac0dd.nxs\r\n  Computed modification time: 1679356678.444116\r\ncache2=C:\\Users\\jenkins\\AppData\\Local\\Temp\\tmpgfonnzgw\\b4fd5fc22586b9b01c0193ad550440ef7b19bf91.nxs\r\n  Computed modification time: 1679270278.4451165\r\ncache3=C:\\Users\\jenkins\\AppData\\Local\\Temp\\tmpgfonnzgw\\8e9c0576a0bf685c59c8add2b93dc79d10e38eaf.nxs\r\n  Computed modification time: 1679183878.4471178\r\nCache files:\r\n[&#x27;C:\\\\Users\\\\jenkins\\\\AppData\\\\Local\\\\Temp\\\\tmpgfonnzgw\\\\00000000000000000000000000000000000000000.nxs&#x27;, &#x27;C:\\\\Users\\\\jenkins\\\\AppData\\\\Local\\\\Temp\\\\tmpgfonnzgw\\\\4b687a7a2a6a3e6b0c766aef4fc17d8082bac0dd.nxs&#x27;, &#x27;C:\\\\Users\\\\jenkins\\\\AppData\\\\Local\\\\Temp\\\\tmpgfonnzgw\\\\8e9c0576a0bf685c59c8add2b93dc79d10e38eaf.nxs&#x27;, &#x27;C:\\\\Users\\\\jenkins\\\\AppData\\\\Local\\\\Temp\\\\tmpgfonnzgw\\\\aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.nxs&#x27;, &#x27;C:\\\\Users\\\\jenkins\\\\AppData\\\\Local\\\\Temp\\\\tmpgfonnzgw\\\\alpha_bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb.nxs&#x27;, &#x27;C:\\\\Users\\\\jenkins\\\\AppData\\\\Local\\\\Temp\\\\tmpgfonnzgw\\\\b4fd5fc22586b9b01c0193ad550440ef7b19bf91.nxs&#x27;, &#x27;C:\\\\Users\\\\jenkins\\\\AppData\\\\Local\\\\Temp\\\\tmpgfonnzgw\\\\beta_eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.nxs&#x27;]\r\nTime before running CleanFileCache algorithm: 1680134278.4571166\r\nFrameworkManager-[Notice] Welcome to Mantid 6.6.20230322.1523.dev68\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nCleanFileCache-[Notice] CleanFileCache started\r\nC:\\Users\\jenkins\\AppData\\Local\\Temp\\tmpgfonnzgw\\00000000000000000000000000000000000000000.nxs: mtime=1680134278.453117, rm_date=1679356800.0\r\n  skipping C:\\Users\\jenkins\\AppData\\Local\\Temp\\tmpgfonnzgw\\00000000000000000000000000000000000000000.nxs\r\nC:\\Users\\jenkins\\AppData\\Local\\Temp\\tmpgfonnzgw\\4b687a7a2a6a3e6b0c766aef4fc17d8082bac0dd.nxs: mtime=1679356678.444116, rm_date=1679356800.0\r\n  removing C:\\Users\\jenkins\\AppData\\Local\\Temp\\tmpgfonnzgw\\4b687a7a2a6a3e6b0c766aef4fc17d8082bac0dd.nxs\r\nC:\\Users\\jenkins\\AppData\\Local\\Temp\\tmpgfonnzgw\\8e9c0576a0bf685c59c8add2b93dc79d10e38eaf.nxs: mtime=1679183878.4471178, rm_date=1679356800.0\r\n  removing C:\\Users\\jenkins\\AppData\\Local\\Temp\\tmpgfonnzgw\\8e9c0576a0bf685c59c8add2b93dc79d10e38eaf.nxs\r\nC:\\Users\\jenkins\\AppData\\Local\\Temp\\tmpgfonnzgw\\aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.nxs: mtime=1680134278.4521165, rm_date=1679356800.0\r\n  skipping C:\\Users\\jenkins\\AppData\\Local\\Temp\\tmpgfonnzgw\\aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.nxs\r\nC:\\Users\\jenkins\\AppData\\Local\\Temp\\tmpgfonnzgw\\alpha_bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb.nxs: mtime=1680134278.454117, rm_date=1679356800.0\r\n  skipping C:\\Users\\jenkins\\AppData\\Local\\Temp\\tmpgfonnzgw\\alpha_bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb.nxs\r\nC:\\Users\\jenkins\\AppData\\Local\\Temp\\tmpgfonnzgw\\b4fd5fc22586b9b01c0193ad550440ef7b19bf91.nxs: mtime=1679270278.4451165, rm_date=1679356800.0\r\n  removing C:\\Users\\jenkins\\AppData\\Local\\Temp\\tmpgfonnzgw\\b4fd5fc22586b9b01c0193ad550440ef7b19bf91.nxs\r\nC:\\Users\\jenkins\\AppData\\Local\\Temp\\tmpgfonnzgw\\beta_eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.nxs: mtime=1680134278.4561167, rm_date=1679356800.0\r\n  skipping C:\\Users\\jenkins\\AppData\\Local\\Temp\\tmpgfonnzgw\\beta_eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.nxs\r\nCleanFileCache-[Notice] CleanFileCache successful, Duration 0.00 seconds\r\nF\r\n======================================================================\r\nFAIL: test3 (CleanFileCacheTest.CleanFileCache)\r\nCleanFileCache: &quot;age&quot; parameter\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/PythonInterface/test/python/plugins/algorithms/CleanFileCacheTest.py&quot;, line 144, in test3\r\n    self.assertEqual(set(files_remained), set(non_cache + [cache1]))\r\nAssertionError: Items in the second set but not the first:\r\n&#x27;C:\\\\Users\\\\jenkins\\\\AppData\\\\Local\\\\Temp\\\\tmpgfonnzgw\\\\4b687a7a2a6a3e6b0c766aef4fc17d8082bac0dd.nxs&#x27;\r\n\r\n----------------------------------------------------------------------\r\nRan 3 tests in 18.188s\r\n\r\nFAILED (failures=1)\r\n\r\n          Start  298: AlgorithmsTest_FilterEventsTest\r\n"
+            }
+        },
+        {
+            "test_name": "LiveDataTest_KafkaEventStreamDecoderTest",
+            "latest_failed_build": "520",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Flake",
+            "pipeline_name": "main_nightly_deployment_prototype",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "524",
+                    "523",
+                    "522",
+                    "521",
+                    "520",
+                    "519",
+                    "518",
+                    "517",
+                    "516",
+                    "515"
                 ],
                 "past_outcome_list": [
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Flake",
                     "Passed",
+                    "Flake",
                     "Passed",
                     "Passed",
                     "Passed",

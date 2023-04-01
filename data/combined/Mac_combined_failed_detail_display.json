@@ -51,7 +51,7 @@
                 "main_nightly_deployment_prototype_523": "Failed",
                 "main_nightly_deployment_prototype_525": "Failed"
             },
-            "last_fail_detected": "2023-03-31"
+            "last_fail_detected": "2023-04-01"
         },
         {
             "test_name": "python.simplescanviewer.RectanglePlotTest.RectanglePlotTest",
@@ -332,9 +332,9 @@
             "past_failed_outcome": {
                 "pull_requests-conda-osx_524": "Failed",
                 "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_2133": "Failed"
+                "pull_requests-conda-osx_2142": "Failed"
             },
-            "last_fail_detected": "2023-03-31"
+            "last_fail_detected": "2023-04-01"
         },
         {
             "test_name": "mantidqt_qt5.test_tiledplots.test_tiledplots",
@@ -465,11 +465,9 @@
                 "pull_requests-conda-osx_1595": "Failed",
                 "pull_requests-conda-osx_1598": "Failed",
                 "pull_requests-conda-osx_1622": "Failed",
-                "pull_requests-conda-osx_1626": "Failed",
-                "pull_requests-conda-osx_2121": "Failed",
-                "pull_requests-conda-osx_2132": "Failed"
+                "pull_requests-conda-osx_1626": "Failed"
             },
-            "last_fail_detected": "2023-03-31"
+            "last_fail_detected": "2023-02-22"
         },
         {
             "test_name": "python.WorkflowAlgorithms.ReflectometryISISPreprocessTest.ReflectometryISISPreprocessTest",
@@ -6553,11 +6551,9 @@
                 "pull_requests-conda-osx_1687": "Failed",
                 "pull_requests-conda-osx_1694": "Failed",
                 "pull_requests-conda-osx_1724": "Failed",
-                "pull_requests-conda-osx_1735": "Failed",
-                "pull_requests-conda-osx_2121": "Failed",
-                "pull_requests-conda-osx_2132": "Failed"
+                "pull_requests-conda-osx_1735": "Failed"
             },
-            "last_fail_detected": "2023-03-31"
+            "last_fail_detected": "2023-03-01"
         },
         {
             "test_name": "python.algorithms.RetrieveRunInfoTest.RetrieveRunInfoTest",

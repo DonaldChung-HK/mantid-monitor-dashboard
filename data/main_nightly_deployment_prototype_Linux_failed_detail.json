@@ -6,9 +6,10 @@
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "main_nightly_deployment_prototype",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "531",
                     "530",
                     "529",
                     "528",
@@ -18,7 +19,6 @@
                     "524",
                     "523",
                     "522",
-                    "521",
                     "520"
                 ],
                 "past_outcome_list": [
@@ -30,7 +30,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Failed",
+                    "Passed",
                     "Failed",
                     "Passed"
                 ]

@@ -6621,7 +6621,7 @@
                 "main_nightly_deployment_prototype_524": "Failed",
                 "main_nightly_deployment_prototype_528": "Failed"
             },
-            "last_fail_detected": "2023-04-07"
+            "last_fail_detected": "2023-04-08"
         },
         {
             "test_name": "python.algorithms.ClipPeaksTest.ClipPeaksTest",
@@ -8015,11 +8015,9 @@
                 "pull_requests-conda-windows_1580": "Failed",
                 "pull_requests-conda-windows_1609": "Failed",
                 "pull_requests-conda-windows_1613": "Failed",
-                "pull_requests-conda-windows_1616": "Failed",
-                "pull_requests-conda-windows_2435": "Failed",
-                "pull_requests-conda-windows_2437": "Failed"
+                "pull_requests-conda-windows_1616": "Failed"
             },
-            "last_fail_detected": "2023-04-07"
+            "last_fail_detected": "2023-02-10"
         },
         {
             "test_name": "python.api.SampleTest.SampleTest",
@@ -10479,7 +10477,7 @@
                 "pull_requests-conda-windows_1616": "Failed",
                 "main_nightly_deployment_prototype_520": "Flake"
             },
-            "last_fail_detected": "2023-04-07"
+            "last_fail_detected": "2023-04-08"
         },
         {
             "test_name": "MDAlgorithmsTest_ConvertCWPDMDToSpectraTest",

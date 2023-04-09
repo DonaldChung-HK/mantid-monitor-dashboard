@@ -52,7 +52,7 @@
                 "main_nightly_deployment_prototype_525": "Failed",
                 "main_nightly_deployment_prototype_527": "Failed"
             },
-            "last_fail_detected": "2023-04-08"
+            "last_fail_detected": "2023-04-09"
         },
         {
             "test_name": "python.simplescanviewer.RectanglePlotTest.RectanglePlotTest",
@@ -151,9 +151,12 @@
                 "pull_requests-conda-osx_575": "Failed",
                 "pull_requests-conda-osx_582": "Failed",
                 "pull_requests-conda-osx_1225": "Failed",
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_2266": "Failed",
+                "pull_requests-conda-osx_2267": "Failed",
+                "pull_requests-conda-osx_2268": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-04-09"
         },
         {
             "test_name": "AlgorithmsTest_Q1DWeightedTest",
@@ -7072,9 +7075,10 @@
                 "pull_requests-conda-osx_1444": "Failed",
                 "pull_requests-conda-osx_1466": "Failed",
                 "pull_requests-conda-osx_1488": "Failed",
-                "pull_requests-conda-osx_1510": "Failed"
+                "pull_requests-conda-osx_1510": "Failed",
+                "pull_requests-conda-osx_2265": "Failed"
             },
-            "last_fail_detected": "2023-02-10"
+            "last_fail_detected": "2023-04-09"
         },
         {
             "test_name": "python.api.SampleTest.SampleTest",

@@ -163,11 +163,9 @@
                 "pull_requests-conda-windows_612": "Failed",
                 "pull_requests-conda-windows_1311": "Failed",
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed",
-                "pull_requests-conda-windows_2447": "Failed",
-                "pull_requests-conda-windows_2449": "Failed"
+                "pull_requests-conda-windows_1372": "Failed"
             },
-            "last_fail_detected": "2023-04-09"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "AlgorithmsTest_Q1DWeightedTest",
@@ -6623,7 +6621,7 @@
                 "main_nightly_deployment_prototype_524": "Failed",
                 "main_nightly_deployment_prototype_528": "Failed"
             },
-            "last_fail_detected": "2023-04-09"
+            "last_fail_detected": "2023-04-10"
         },
         {
             "test_name": "python.algorithms.ClipPeaksTest.ClipPeaksTest",
@@ -8017,10 +8015,9 @@
                 "pull_requests-conda-windows_1580": "Failed",
                 "pull_requests-conda-windows_1609": "Failed",
                 "pull_requests-conda-windows_1613": "Failed",
-                "pull_requests-conda-windows_1616": "Failed",
-                "pull_requests-conda-windows_2446": "Failed"
+                "pull_requests-conda-windows_1616": "Failed"
             },
-            "last_fail_detected": "2023-04-09"
+            "last_fail_detected": "2023-02-10"
         },
         {
             "test_name": "python.api.SampleTest.SampleTest",
@@ -10480,7 +10477,7 @@
                 "pull_requests-conda-windows_1616": "Failed",
                 "main_nightly_deployment_prototype_520": "Flake"
             },
-            "last_fail_detected": "2023-04-09"
+            "last_fail_detected": "2023-04-10"
         },
         {
             "test_name": "MDAlgorithmsTest_ConvertCWPDMDToSpectraTest",
@@ -10885,14 +10882,6 @@
                 "pull_requests-conda-windows_1710": "Failed"
             },
             "last_fail_detected": "2023-02-17"
-        },
-        {
-            "test_name": "DataObjectsTest_TimeSplitterTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-windows_2446": "Flake",
-                "pull_requests-conda-windows_2447": "Flake"
-            },
-            "last_fail_detected": "2023-04-09"
         }
     ]
 }

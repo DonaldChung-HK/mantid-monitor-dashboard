@@ -9,6 +9,7 @@
             "problem_count": 2,
             "past_outcome": {
                 "build_keys": [
+                    "533",
                     "532",
                     "531",
                     "530",
@@ -18,7 +19,6 @@
                     "526",
                     "525",
                     "524",
-                    "523",
                     "520"
                 ],
                 "past_outcome_list": [
@@ -26,12 +26,12 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Failed",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Failed",
                     "Passed",
+                    "Passed",
+                    "Passed",
+                    "Failed",
                     "Passed"
                 ]
             },
@@ -54,6 +54,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "533",
                     "532",
                     "531",
                     "530",
@@ -63,7 +64,6 @@
                     "526",
                     "525",
                     "524",
-                    "523",
                     "520"
                 ],
                 "past_outcome_list": [

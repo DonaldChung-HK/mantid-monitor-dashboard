@@ -6,7 +6,7 @@
             "agent_name": "Mac",
             "last_failed_outcome": "Failed",
             "pipeline_name": "main_nightly_deployment_prototype",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
                     "534",
@@ -17,8 +17,6 @@
                     "529",
                     "528",
                     "527",
-                    "526",
-                    "525",
                     "520"
                 ],
                 "past_outcome_list": [
@@ -28,8 +26,6 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Passed",
-                    "Failed",
                     "Passed",
                     "Failed",
                     "Passed"

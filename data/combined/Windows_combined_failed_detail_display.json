@@ -527,9 +527,10 @@
                 "pull_requests-conda-windows_1706": "Failed",
                 "pull_requests-conda-windows_1710": "Failed",
                 "pull_requests-conda-windows_1737": "Failed",
-                "pull_requests-conda-windows_1741": "Failed"
+                "pull_requests-conda-windows_1741": "Failed",
+                "pull_requests-conda-windows_2533": "Failed"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-04-15"
         },
         {
             "test_name": "python.WorkflowAlgorithms.ReflectometryISISPreprocessTest.ReflectometryISISPreprocessTest",
@@ -1745,11 +1746,9 @@
                 "pull_requests-conda-windows_1705": "Failed",
                 "pull_requests-conda-windows_1706": "Failed",
                 "pull_requests-conda-windows_1710": "Failed",
-                "pull_requests-conda-windows_2522": "Failed",
-                "pull_requests-conda-windows_2523": "Failed",
-                "pull_requests-conda-windows_2532": "Failed"
+                "pull_requests-conda-windows_2539": "Failed"
             },
-            "last_fail_detected": "2023-04-14"
+            "last_fail_detected": "2023-04-15"
         },
         {
             "test_name": "NexusGeometryTest_NexusGeometryParserTest",
@@ -6623,7 +6622,7 @@
                 "pull_requests-conda-windows_1372": "Failed",
                 "main_nightly_deployment_prototype_528": "Failed"
             },
-            "last_fail_detected": "2023-04-14"
+            "last_fail_detected": "2023-04-15"
         },
         {
             "test_name": "python.algorithms.ClipPeaksTest.ClipPeaksTest",
@@ -7414,9 +7413,10 @@
                 "pull_requests-conda-windows_1741": "Failed",
                 "pull_requests-conda-windows_1768": "Failed",
                 "pull_requests-conda-windows_1778": "Failed",
-                "pull_requests-conda-windows_1876": "Failed"
+                "pull_requests-conda-windows_1876": "Failed",
+                "pull_requests-conda-windows_2533": "Failed"
             },
-            "last_fail_detected": "2023-03-01"
+            "last_fail_detected": "2023-04-15"
         },
         {
             "test_name": "python.algorithms.RetrieveRunInfoTest.RetrieveRunInfoTest",
@@ -9564,12 +9564,9 @@
             "test_name": "python.scripts.SANSUtilityTest.SANSUtilityTest",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed",
-                "pull_requests-conda-windows_2522": "Failed",
-                "pull_requests-conda-windows_2523": "Failed",
-                "pull_requests-conda-windows_2532": "Failed"
+                "pull_requests-conda-windows_1372": "Failed"
             },
-            "last_fail_detected": "2023-04-14"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.SettingsTest.SettingsTest",
@@ -10482,7 +10479,7 @@
                 "pull_requests-conda-windows_1616": "Failed",
                 "main_nightly_deployment_prototype_520": "Flake"
             },
-            "last_fail_detected": "2023-04-14"
+            "last_fail_detected": "2023-04-15"
         },
         {
             "test_name": "MDAlgorithmsTest_ConvertCWPDMDToSpectraTest",
@@ -10891,63 +10888,19 @@
         {
             "test_name": "CrystalTest_PeakStatisticsToolsTest",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_2529": "Failed",
-                "pull_requests-conda-windows_2531": "Failed"
+                "pull_requests-conda-windows_2537": "Failed",
+                "pull_requests-conda-windows_2540": "Failed",
+                "pull_requests-conda-windows_2541": "Failed",
+                "pull_requests-conda-windows_2542": "Failed"
             },
-            "last_fail_detected": "2023-04-14"
+            "last_fail_detected": "2023-04-15"
         },
         {
-            "test_name": "CrystalTest_StatisticsOfPeaksWorkspaceTest",
+            "test_name": "CrystalTest_FindUBUsingIndexedPeaksTest",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_2529": "Failed",
-                "pull_requests-conda-windows_2531": "Failed"
+                "pull_requests-conda-windows_2541": "Failed"
             },
-            "last_fail_detected": "2023-04-14"
-        },
-        {
-            "test_name": "APITest_FunctionParameterDecoratorTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-windows_2516": "Failed",
-                "pull_requests-conda-windows_2528": "Failed"
-            },
-            "last_fail_detected": "2023-04-14"
-        },
-        {
-            "test_name": "APITest_ParameterTieTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-windows_2516": "Failed",
-                "pull_requests-conda-windows_2528": "Failed"
-            },
-            "last_fail_detected": "2023-04-14"
-        },
-        {
-            "test_name": "MantidQtWidgetsCommonTestQt5_FitPropertyBrowserTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-windows_2516": "Timeout",
-                "pull_requests-conda-windows_2528": "Timeout"
-            },
-            "last_fail_detected": "2023-04-14"
-        },
-        {
-            "test_name": "CrystalTest_FilterPeaksTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-windows_2519": "Failed"
-            },
-            "last_fail_detected": "2023-04-14"
-        },
-        {
-            "test_name": "APITest_CompositeFunctionTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-windows_2516": "Failed"
-            },
-            "last_fail_detected": "2023-04-14"
-        },
-        {
-            "test_name": "APITest_FunctionTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-windows_2516": "Failed"
-            },
-            "last_fail_detected": "2023-04-14"
+            "last_fail_detected": "2023-04-15"
         }
     ]
 }

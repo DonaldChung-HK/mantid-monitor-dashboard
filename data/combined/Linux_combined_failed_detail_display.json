@@ -572,10 +572,9 @@
                 "pull_requests-conda-linux_2975": "Failed",
                 "pull_requests-conda-linux_2983": "Failed",
                 "pull_requests-conda-linux_3007": "Failed",
-                "pull_requests-conda-linux_3012": "Failed",
-                "pull_requests-conda-linux_3759": "Failed"
+                "pull_requests-conda-linux_3012": "Failed"
             },
-            "last_fail_detected": "2023-04-15"
+            "last_fail_detected": "2023-02-22"
         },
         {
             "test_name": "python.WorkflowAlgorithms.ReflectometryISISPreprocessTest.ReflectometryISISPreprocessTest",
@@ -1447,10 +1446,9 @@
                 "pull_requests-conda-linux_2461": "Failed",
                 "pull_requests-conda-linux_2465": "Failed",
                 "pull_requests-conda-linux_2975": "Failed",
-                "pull_requests-conda-linux_2983": "Failed",
-                "pull_requests-conda-linux_3764": "Failed"
+                "pull_requests-conda-linux_2983": "Failed"
             },
-            "last_fail_detected": "2023-04-15"
+            "last_fail_detected": "2023-02-17"
         },
         {
             "test_name": "MuonTest_PlotAsymmetryByLogValueTest",
@@ -7244,10 +7242,9 @@
                 "pull_requests-conda-linux_3050": "Failed",
                 "pull_requests-conda-linux_3078": "Failed",
                 "pull_requests-conda-linux_3085": "Failed",
-                "pull_requests-conda-linux_3131": "Failed",
-                "pull_requests-conda-linux_3759": "Failed"
+                "pull_requests-conda-linux_3131": "Failed"
             },
-            "last_fail_detected": "2023-04-15"
+            "last_fail_detected": "2023-03-01"
         },
         {
             "test_name": "python.algorithms.RetrieveRunInfoTest.RetrieveRunInfoTest",
@@ -11614,23 +11611,6 @@
                 "main_nightly_deployment_prototype_501": "Flake"
             },
             "last_fail_detected": "2023-02-25"
-        },
-        {
-            "test_name": "CrystalTest_PeakStatisticsToolsTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-linux_3762": "Failed",
-                "pull_requests-conda-linux_3765": "Failed",
-                "pull_requests-conda-linux_3766": "Failed",
-                "pull_requests-conda-linux_3767": "Failed"
-            },
-            "last_fail_detected": "2023-04-15"
-        },
-        {
-            "test_name": "CrystalTest_FindUBUsingIndexedPeaksTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-linux_3766": "Failed"
-            },
-            "last_fail_detected": "2023-04-15"
         }
     ]
 }

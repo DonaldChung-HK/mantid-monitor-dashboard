@@ -527,10 +527,9 @@
                 "pull_requests-conda-windows_1706": "Failed",
                 "pull_requests-conda-windows_1710": "Failed",
                 "pull_requests-conda-windows_1737": "Failed",
-                "pull_requests-conda-windows_1741": "Failed",
-                "pull_requests-conda-windows_2533": "Failed"
+                "pull_requests-conda-windows_1741": "Failed"
             },
-            "last_fail_detected": "2023-04-15"
+            "last_fail_detected": "2023-02-22"
         },
         {
             "test_name": "python.WorkflowAlgorithms.ReflectometryISISPreprocessTest.ReflectometryISISPreprocessTest",
@@ -1745,10 +1744,9 @@
                 "pull_requests-conda-windows_1171": "Failed",
                 "pull_requests-conda-windows_1705": "Failed",
                 "pull_requests-conda-windows_1706": "Failed",
-                "pull_requests-conda-windows_1710": "Failed",
-                "pull_requests-conda-windows_2539": "Failed"
+                "pull_requests-conda-windows_1710": "Failed"
             },
-            "last_fail_detected": "2023-04-15"
+            "last_fail_detected": "2023-02-17"
         },
         {
             "test_name": "NexusGeometryTest_NexusGeometryParserTest",
@@ -6622,7 +6620,7 @@
                 "pull_requests-conda-windows_1372": "Failed",
                 "main_nightly_deployment_prototype_528": "Failed"
             },
-            "last_fail_detected": "2023-04-15"
+            "last_fail_detected": "2023-04-16"
         },
         {
             "test_name": "python.algorithms.ClipPeaksTest.ClipPeaksTest",
@@ -7413,10 +7411,9 @@
                 "pull_requests-conda-windows_1741": "Failed",
                 "pull_requests-conda-windows_1768": "Failed",
                 "pull_requests-conda-windows_1778": "Failed",
-                "pull_requests-conda-windows_1876": "Failed",
-                "pull_requests-conda-windows_2533": "Failed"
+                "pull_requests-conda-windows_1876": "Failed"
             },
-            "last_fail_detected": "2023-04-15"
+            "last_fail_detected": "2023-03-01"
         },
         {
             "test_name": "python.algorithms.RetrieveRunInfoTest.RetrieveRunInfoTest",
@@ -10479,7 +10476,7 @@
                 "pull_requests-conda-windows_1616": "Failed",
                 "main_nightly_deployment_prototype_520": "Flake"
             },
-            "last_fail_detected": "2023-04-15"
+            "last_fail_detected": "2023-04-16"
         },
         {
             "test_name": "MDAlgorithmsTest_ConvertCWPDMDToSpectraTest",
@@ -10884,23 +10881,6 @@
                 "pull_requests-conda-windows_1710": "Failed"
             },
             "last_fail_detected": "2023-02-17"
-        },
-        {
-            "test_name": "CrystalTest_PeakStatisticsToolsTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-windows_2537": "Failed",
-                "pull_requests-conda-windows_2540": "Failed",
-                "pull_requests-conda-windows_2541": "Failed",
-                "pull_requests-conda-windows_2542": "Failed"
-            },
-            "last_fail_detected": "2023-04-15"
-        },
-        {
-            "test_name": "CrystalTest_FindUBUsingIndexedPeaksTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-windows_2541": "Failed"
-            },
-            "last_fail_detected": "2023-04-15"
         }
     ]
 }

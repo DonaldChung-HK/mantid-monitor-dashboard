@@ -572,9 +572,10 @@
                 "pull_requests-conda-linux_2975": "Failed",
                 "pull_requests-conda-linux_2983": "Failed",
                 "pull_requests-conda-linux_3007": "Failed",
-                "pull_requests-conda-linux_3012": "Failed"
+                "pull_requests-conda-linux_3012": "Failed",
+                "pull_requests-conda-linux_3772": "Failed"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-04-17"
         },
         {
             "test_name": "python.WorkflowAlgorithms.ReflectometryISISPreprocessTest.ReflectometryISISPreprocessTest",
@@ -7242,9 +7243,10 @@
                 "pull_requests-conda-linux_3050": "Failed",
                 "pull_requests-conda-linux_3078": "Failed",
                 "pull_requests-conda-linux_3085": "Failed",
-                "pull_requests-conda-linux_3131": "Failed"
+                "pull_requests-conda-linux_3131": "Failed",
+                "pull_requests-conda-linux_3772": "Failed"
             },
-            "last_fail_detected": "2023-03-01"
+            "last_fail_detected": "2023-04-17"
         },
         {
             "test_name": "python.algorithms.RetrieveRunInfoTest.RetrieveRunInfoTest",

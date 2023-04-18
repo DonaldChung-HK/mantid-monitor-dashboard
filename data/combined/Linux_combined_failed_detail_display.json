@@ -573,9 +573,9 @@
                 "pull_requests-conda-linux_2983": "Failed",
                 "pull_requests-conda-linux_3007": "Failed",
                 "pull_requests-conda-linux_3012": "Failed",
-                "pull_requests-conda-linux_3772": "Failed"
+                "pull_requests-conda-linux_3779": "Failed"
             },
-            "last_fail_detected": "2023-04-17"
+            "last_fail_detected": "2023-04-18"
         },
         {
             "test_name": "python.WorkflowAlgorithms.ReflectometryISISPreprocessTest.ReflectometryISISPreprocessTest",
@@ -7244,9 +7244,9 @@
                 "pull_requests-conda-linux_3078": "Failed",
                 "pull_requests-conda-linux_3085": "Failed",
                 "pull_requests-conda-linux_3131": "Failed",
-                "pull_requests-conda-linux_3772": "Failed"
+                "pull_requests-conda-linux_3779": "Failed"
             },
-            "last_fail_detected": "2023-04-17"
+            "last_fail_detected": "2023-04-18"
         },
         {
             "test_name": "python.algorithms.RetrieveRunInfoTest.RetrieveRunInfoTest",
@@ -11613,6 +11613,13 @@
                 "main_nightly_deployment_prototype_501": "Flake"
             },
             "last_fail_detected": "2023-02-25"
+        },
+        {
+            "test_name": "DataObjectsTest_EventWorkspaceTest",
+            "past_failed_outcome": {
+                "main_nightly_deployment_prototype_536": "Flake"
+            },
+            "last_fail_detected": "2023-04-18"
         }
     ]
 }

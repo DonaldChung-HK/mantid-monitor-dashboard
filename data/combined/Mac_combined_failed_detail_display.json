@@ -47,10 +47,9 @@
                 "main_nightly_deployment_prototype_442": "Failed",
                 "main_nightly_deployment_prototype_444": "Failed",
                 "main_nightly_deployment_prototype_445": "Failed",
-                "pull_requests-conda-osx_1285": "Failed",
-                "main_nightly_deployment_prototype_527": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-04-18"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.simplescanviewer.RectanglePlotTest.RectanglePlotTest",
@@ -463,9 +462,10 @@
                 "pull_requests-conda-osx_1595": "Failed",
                 "pull_requests-conda-osx_1598": "Failed",
                 "pull_requests-conda-osx_1622": "Failed",
-                "pull_requests-conda-osx_1626": "Failed"
+                "pull_requests-conda-osx_1626": "Failed",
+                "pull_requests-conda-osx_2383": "Failed"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-04-19"
         },
         {
             "test_name": "python.WorkflowAlgorithms.ReflectometryISISPreprocessTest.ReflectometryISISPreprocessTest",
@@ -545,9 +545,11 @@
             "test_name": "mantidqt_qt5.test_base_presenter.test_base_presenter",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_543": "Failed",
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_2385": "Failed",
+                "pull_requests-conda-osx_2387": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-04-19"
         },
         {
             "test_name": "python.WorkflowAlgorithms.TransformToIqtTest.TransformToIqtTest",
@@ -5258,9 +5260,10 @@
         {
             "test_name": "python.WorkflowAlgorithms.CorelliPowderCalibrationCreateTest.CorelliPowderCalibrationCreateTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_2382": "Flake"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-04-19"
         },
         {
             "test_name": "python.WorkflowAlgorithms.D4ILLReductionTest.D4ILLReductionTest",
@@ -6549,9 +6552,10 @@
                 "pull_requests-conda-osx_1687": "Failed",
                 "pull_requests-conda-osx_1694": "Failed",
                 "pull_requests-conda-osx_1724": "Failed",
-                "pull_requests-conda-osx_1735": "Failed"
+                "pull_requests-conda-osx_1735": "Failed",
+                "pull_requests-conda-osx_2383": "Failed"
             },
-            "last_fail_detected": "2023-03-01"
+            "last_fail_detected": "2023-04-19"
         },
         {
             "test_name": "python.algorithms.RetrieveRunInfoTest.RetrieveRunInfoTest",

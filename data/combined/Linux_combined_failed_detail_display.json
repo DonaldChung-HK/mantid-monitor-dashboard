@@ -181,11 +181,9 @@
                 "pull_requests-conda-linux_2566": "Failed",
                 "pull_requests-conda-linux_2567": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_3811": "Failed",
-                "pull_requests-conda-linux_3812": "Failed"
+                "pull_requests-conda-linux_2629": "Failed"
             },
-            "last_fail_detected": "2023-04-21"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.CrystalFieldTest.CrystalFieldTest",
@@ -10809,9 +10807,13 @@
                 "pull_requests-conda-linux_2829": "Failed",
                 "pull_requests-conda-linux_2842": "Failed",
                 "pull_requests-conda-linux_2867": "Failed",
-                "pull_requests-conda-linux_2873": "Failed"
+                "pull_requests-conda-linux_2873": "Failed",
+                "pull_requests-conda-linux_3813": "Failed",
+                "pull_requests-conda-linux_3816": "Failed",
+                "pull_requests-conda-linux_3817": "Failed",
+                "pull_requests-conda-linux_3818": "Failed"
             },
-            "last_fail_detected": "2023-02-10"
+            "last_fail_detected": "2023-04-22"
         },
         {
             "test_name": "AlgorithmsTest_HyspecScharpfCorrectionTest",
@@ -11619,7 +11621,7 @@
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_536": "Flake"
             },
-            "last_fail_detected": "2023-04-21"
+            "last_fail_detected": "2023-04-22"
         }
     ]
 }

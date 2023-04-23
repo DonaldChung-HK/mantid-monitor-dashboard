@@ -525,9 +525,10 @@
                 "pull_requests-conda-osx_1211": "Flake",
                 "pull_requests-conda-osx_1276": "Flake",
                 "pull_requests-conda-osx_1491": "Flake",
-                "pull_requests-conda-osx_1640": "Flake"
+                "pull_requests-conda-osx_1640": "Flake",
+                "pull_requests-conda-osx_2414": "Flake"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-04-23"
         },
         {
             "test_name": "python.algorithms.HB2AReduceTest.HB2AReduceTest",
@@ -8938,13 +8939,9 @@
                 "pull_requests-conda-osx_1466": "Failed",
                 "pull_requests-conda-osx_1488": "Failed",
                 "pull_requests-conda-osx_1510": "Failed",
-                "pull_requests-conda-osx_1515": "Failed",
-                "pull_requests-conda-osx_2407": "Failed",
-                "pull_requests-conda-osx_2410": "Failed",
-                "pull_requests-conda-osx_2411": "Failed",
-                "pull_requests-conda-osx_2412": "Failed"
+                "pull_requests-conda-osx_1515": "Failed"
             },
-            "last_fail_detected": "2023-04-22"
+            "last_fail_detected": "2023-02-10"
         },
         {
             "test_name": "AlgorithmsTest_HyspecScharpfCorrectionTest",

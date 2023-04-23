@@ -10807,13 +10807,9 @@
                 "pull_requests-conda-linux_2829": "Failed",
                 "pull_requests-conda-linux_2842": "Failed",
                 "pull_requests-conda-linux_2867": "Failed",
-                "pull_requests-conda-linux_2873": "Failed",
-                "pull_requests-conda-linux_3813": "Failed",
-                "pull_requests-conda-linux_3816": "Failed",
-                "pull_requests-conda-linux_3817": "Failed",
-                "pull_requests-conda-linux_3818": "Failed"
+                "pull_requests-conda-linux_2873": "Failed"
             },
-            "last_fail_detected": "2023-04-22"
+            "last_fail_detected": "2023-02-10"
         },
         {
             "test_name": "AlgorithmsTest_HyspecScharpfCorrectionTest",
@@ -11621,7 +11617,7 @@
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_536": "Flake"
             },
-            "last_fail_detected": "2023-04-22"
+            "last_fail_detected": "2023-04-23"
         }
     ]
 }

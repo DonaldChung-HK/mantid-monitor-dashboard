@@ -10475,7 +10475,7 @@
                 "pull_requests-conda-windows_1616": "Failed",
                 "main_nightly_deployment_prototype_520": "Flake"
             },
-            "last_fail_detected": "2023-04-23"
+            "last_fail_detected": "2023-04-24"
         },
         {
             "test_name": "MDAlgorithmsTest_ConvertCWPDMDToSpectraTest",
@@ -10880,6 +10880,13 @@
                 "pull_requests-conda-windows_1710": "Failed"
             },
             "last_fail_detected": "2023-02-17"
+        },
+        {
+            "test_name": "DataObjectsTest_TimeSplitterTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_2598": "Flake"
+            },
+            "last_fail_detected": "2023-04-24"
         }
     ]
 }

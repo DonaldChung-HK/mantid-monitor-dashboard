@@ -6417,9 +6417,10 @@
                 "pull_requests-conda-windows_1372": "Failed",
                 "pull_requests-conda-windows_1705": "Failed",
                 "pull_requests-conda-windows_1706": "Failed",
-                "pull_requests-conda-windows_1710": "Failed"
+                "pull_requests-conda-windows_1710": "Failed",
+                "pull_requests-conda-windows_2607": "Failed"
             },
-            "last_fail_detected": "2023-02-17"
+            "last_fail_detected": "2023-04-25"
         },
         {
             "test_name": "python.WorkflowAlgorithms.SofQWMomentsTest.SofQWMomentsTest",
@@ -10475,7 +10476,7 @@
                 "pull_requests-conda-windows_1616": "Failed",
                 "main_nightly_deployment_prototype_520": "Flake"
             },
-            "last_fail_detected": "2023-04-24"
+            "last_fail_detected": "2023-04-25"
         },
         {
             "test_name": "MDAlgorithmsTest_ConvertCWPDMDToSpectraTest",
@@ -10689,9 +10690,10 @@
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1511": "Failed",
                 "pull_requests-conda-windows_1515": "Failed",
-                "pull_requests-conda-windows_1537": "Failed"
+                "pull_requests-conda-windows_1537": "Failed",
+                "pull_requests-conda-windows_2607": "Failed"
             },
-            "last_fail_detected": "2023-02-07"
+            "last_fail_detected": "2023-04-25"
         },
         {
             "test_name": "MantidQtInterfacesIndirectTestQt5_InelasticDataManipulationSymmetriseTabModelTest",
@@ -10882,11 +10884,11 @@
             "last_fail_detected": "2023-02-17"
         },
         {
-            "test_name": "DataObjectsTest_TimeSplitterTest",
+            "test_name": "AlgorithmsTest_SofQWTest",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_2598": "Flake"
+                "pull_requests-conda-windows_2607": "Failed"
             },
-            "last_fail_detected": "2023-04-24"
+            "last_fail_detected": "2023-04-25"
         }
     ]
 }

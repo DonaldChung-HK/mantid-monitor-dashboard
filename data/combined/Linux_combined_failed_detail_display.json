@@ -6022,10 +6022,9 @@
                 "pull_requests-conda-linux_2628": "Failed",
                 "pull_requests-conda-linux_2629": "Failed",
                 "pull_requests-conda-linux_2975": "Failed",
-                "pull_requests-conda-linux_2983": "Failed",
-                "pull_requests-conda-linux_3830": "Failed"
+                "pull_requests-conda-linux_2983": "Failed"
             },
-            "last_fail_detected": "2023-04-25"
+            "last_fail_detected": "2023-02-17"
         },
         {
             "test_name": "python.WorkflowAlgorithms.SofQWMomentsTest.SofQWMomentsTest",
@@ -11319,10 +11318,9 @@
                 "pull_requests-conda-linux_2773": "Failed",
                 "pull_requests-conda-linux_2797": "Failed",
                 "pull_requests-conda-linux_2807": "Failed",
-                "pull_requests-conda-linux_2811": "Failed",
-                "pull_requests-conda-linux_3830": "Failed"
+                "pull_requests-conda-linux_2811": "Failed"
             },
-            "last_fail_detected": "2023-04-25"
+            "last_fail_detected": "2023-02-08"
         },
         {
             "test_name": "MantidQtInterfacesIndirectTestQt5_InelasticDataManipulationSymmetriseTabModelTest",
@@ -11615,18 +11613,11 @@
             "last_fail_detected": "2023-02-25"
         },
         {
-            "test_name": "AlgorithmsTest_SofQWTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-linux_3830": "Failed"
-            },
-            "last_fail_detected": "2023-04-25"
-        },
-        {
             "test_name": "DataObjectsTest_EventWorkspaceTest",
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_536": "Flake"
             },
-            "last_fail_detected": "2023-04-25"
+            "last_fail_detected": "2023-04-26"
         }
     ]
 }

@@ -525,10 +525,9 @@
                 "pull_requests-conda-osx_1211": "Flake",
                 "pull_requests-conda-osx_1276": "Flake",
                 "pull_requests-conda-osx_1491": "Flake",
-                "pull_requests-conda-osx_1640": "Flake",
-                "pull_requests-conda-osx_2427": "Flake"
+                "pull_requests-conda-osx_1640": "Flake"
             },
-            "last_fail_detected": "2023-04-26"
+            "last_fail_detected": "2023-02-22"
         },
         {
             "test_name": "python.algorithms.HB2AReduceTest.HB2AReduceTest",

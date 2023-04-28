@@ -7464,9 +7464,11 @@
         {
             "test_name": "python.functions.RedfieldTest.RedfieldTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_2442": "Failed",
+                "pull_requests-conda-osx_2443": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-04-28"
         },
         {
             "test_name": "python.functions.SpinGlassTest.SpinGlassTest",

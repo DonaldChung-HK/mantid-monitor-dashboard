@@ -1,3 +1,87 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "python.functions.RedfieldTest.RedfieldTest",
+            "latest_failed_build": "2640",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-windows",
+            "problem_count": 2,
+            "past_outcome": {
+                "build_keys": [
+                    "2640",
+                    "2639",
+                    "2638",
+                    "2637",
+                    "2636",
+                    "2635",
+                    "2634",
+                    "2633",
+                    "2632",
+                    "2631",
+                    "2630",
+                    "2629",
+                    "2628",
+                    "2627",
+                    "2626",
+                    "2625",
+                    "2624",
+                    "2623",
+                    "2622",
+                    "2621",
+                    "2620",
+                    "2619",
+                    "2618",
+                    "2617",
+                    "2616",
+                    "2615",
+                    "2614",
+                    "2613",
+                    "2612",
+                    "2611"
+                ],
+                "past_outcome_list": [
+                    "Failed",
+                    "Failed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "python.functions.RedfieldTest.RedfieldTest",
+                "build": "2640",
+                "agent_name": "Windows",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "8.58",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230427.1427.dev3\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nCreateWorkspace-[Notice] CreateWorkspace started\r\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\r\nPython-[Warning] Property NIterations to Fit does not apply to any of the input workspaces\r\nFit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 1 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n..F\r\n======================================================================\r\nFAIL: test_function_output (RedfieldTest.RedfieldTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/jenkins_workdir/workspace/pull_requests-conda-windows/Framework/PythonInterface/test/python/plugins/functions/RedfieldTest.py&quot;, line 27, in test_function_output\r\n    self.fail(msg.format(*[str(i) for i in (output, input, expected)]))\r\nAssertionError: Computed output [0.0918476  0.07627868 0.05056509 0.03237545] from input [   0.          333.33333333  666.66666667 1000.        ] unequal to expected: [0.91847597, 0.76278678, 0.5056509, 0.3237545]\r\n\r\n----------------------------------------------------------------------\r\nRan 3 tests in 0.023s\r\n\r\nFAILED (failures=1)\r\n\r\n          Start 2179: python.MuonQt5.load_features_test.load_features_test\r\n"
+            }
+        }
+    ]
 }

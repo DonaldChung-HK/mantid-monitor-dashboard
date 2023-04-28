@@ -1,3 +1,87 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "python.functions.RedfieldTest.RedfieldTest",
+            "latest_failed_build": "2443",
+            "agent_name": "Mac",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-osx",
+            "problem_count": 2,
+            "past_outcome": {
+                "build_keys": [
+                    "2443",
+                    "2442",
+                    "2441",
+                    "2440",
+                    "2439",
+                    "2438",
+                    "2437",
+                    "2436",
+                    "2435",
+                    "2434",
+                    "2433",
+                    "2432",
+                    "2431",
+                    "2430",
+                    "2429",
+                    "2428",
+                    "2427",
+                    "2426",
+                    "2425",
+                    "2424",
+                    "2423",
+                    "2422",
+                    "2421",
+                    "2420",
+                    "2419",
+                    "2418",
+                    "2417",
+                    "2416",
+                    "2415",
+                    "2414"
+                ],
+                "past_outcome_list": [
+                    "Failed",
+                    "Failed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "python.functions.RedfieldTest.RedfieldTest",
+                "build": "2443",
+                "agent_name": "Mac",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "7.20",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230427.1427.dev3\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nCreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.00 seconds\nPython-[Warning] Property NIterations to Fit does not apply to any of the input workspaces\nFit-[Notice] Fit started\nFit-[Notice] Fit status: success\nFit-[Notice] Stopped after 1 iterations\nFit-[Notice] Fit successful, Duration 0.00 seconds\n..F\n======================================================================\nFAIL: test_function_output (RedfieldTest.RedfieldTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/PythonInterface/test/python/plugins/functions/RedfieldTest.py&quot;, line 27, in test_function_output\n    self.fail(msg.format(*[str(i) for i in (output, input, expected)]))\nAssertionError: Computed output [0.0918476  0.07627868 0.05056509 0.03237545] from input [   0.          333.33333333  666.66666667 1000.        ] unequal to expected: [0.91847597, 0.76278678, 0.5056509, 0.3237545]\n\n----------------------------------------------------------------------\nRan 3 tests in 0.014s\n\nFAILED (failures=1)\n\n          Start   59: KernelTest_InvisiblePropertyTest\n"
+            }
+        }
+    ]
 }

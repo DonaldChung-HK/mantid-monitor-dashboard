@@ -8596,9 +8596,11 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed"
+                "pull_requests-conda-linux_2629": "Failed",
+                "pull_requests-conda-linux_3852": "Failed",
+                "pull_requests-conda-linux_3853": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-04-28"
         },
         {
             "test_name": "python.functions.SpinGlassTest.SpinGlassTest",
@@ -11617,7 +11619,7 @@
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_536": "Flake"
             },
-            "last_fail_detected": "2023-04-27"
+            "last_fail_detected": "2023-04-28"
         }
     ]
 }

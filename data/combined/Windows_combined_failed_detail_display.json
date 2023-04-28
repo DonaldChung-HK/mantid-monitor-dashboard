@@ -8493,9 +8493,11 @@
             "test_name": "python.functions.RedfieldTest.RedfieldTest",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_2639": "Failed",
+                "pull_requests-conda-windows_2640": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-04-28"
         },
         {
             "test_name": "python.functions.SpinGlassTest.SpinGlassTest",
@@ -10475,7 +10477,7 @@
                 "pull_requests-conda-windows_1616": "Failed",
                 "main_nightly_deployment_prototype_520": "Flake"
             },
-            "last_fail_detected": "2023-04-27"
+            "last_fail_detected": "2023-04-28"
         },
         {
             "test_name": "MDAlgorithmsTest_ConvertCWPDMDToSpectraTest",

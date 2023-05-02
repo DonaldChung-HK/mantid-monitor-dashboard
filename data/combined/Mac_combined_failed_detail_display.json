@@ -3604,9 +3604,11 @@
         {
             "test_name": "python.Calibration.tofpd.test_group_calibration.test_group_calibration",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_2460": "Failed",
+                "pull_requests-conda-osx_2461": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-05-02"
         },
         {
             "test_name": "python.DNSReductionQt5.dns_file_test.dns_file_test",
@@ -9603,6 +9605,14 @@
                 "pull_requests-conda-osx_1739": "Failed"
             },
             "last_fail_detected": "2023-03-01"
+        },
+        {
+            "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_RowPreprocessingAlgorithmTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_2463": "Failed",
+                "pull_requests-conda-osx_2464": "Failed"
+            },
+            "last_fail_detected": "2023-05-02"
         }
     ]
 }

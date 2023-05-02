@@ -3957,9 +3957,12 @@
             "test_name": "python.Calibration.tofpd.test_group_calibration.test_group_calibration",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_2657": "Failed",
+                "pull_requests-conda-windows_2658": "Failed",
+                "pull_requests-conda-windows_2659": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-05-02"
         },
         {
             "test_name": "python.DNSReductionQt5.dns_file_test.dns_file_test",
@@ -10472,10 +10475,9 @@
                 "pull_requests-conda-windows_1580": "Failed",
                 "pull_requests-conda-windows_1609": "Failed",
                 "pull_requests-conda-windows_1613": "Failed",
-                "pull_requests-conda-windows_1616": "Failed",
-                "main_nightly_deployment_prototype_520": "Flake"
+                "pull_requests-conda-windows_1616": "Failed"
             },
-            "last_fail_detected": "2023-04-30"
+            "last_fail_detected": "2023-02-10"
         },
         {
             "test_name": "MDAlgorithmsTest_ConvertCWPDMDToSpectraTest",
@@ -10880,6 +10882,21 @@
                 "pull_requests-conda-windows_1710": "Failed"
             },
             "last_fail_detected": "2023-02-17"
+        },
+        {
+            "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_RowPreprocessingAlgorithmTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_2661": "Failed",
+                "pull_requests-conda-windows_2662": "Failed"
+            },
+            "last_fail_detected": "2023-05-02"
+        },
+        {
+            "test_name": "DataObjectsTest_TimeSplitterTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_2654": "Flake"
+            },
+            "last_fail_detected": "2023-05-02"
         }
     ]
 }

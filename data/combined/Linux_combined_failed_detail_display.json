@@ -2987,9 +2987,12 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed"
+                "pull_requests-conda-linux_2629": "Failed",
+                "pull_requests-conda-linux_3870": "Failed",
+                "pull_requests-conda-linux_3871": "Failed",
+                "pull_requests-conda-linux_3872": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-05-02"
         },
         {
             "test_name": "python.DNSReductionQt5.dns_file_test.dns_file_test",
@@ -11613,11 +11616,19 @@
             "last_fail_detected": "2023-02-25"
         },
         {
+            "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_RowPreprocessingAlgorithmTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_3874": "Failed",
+                "pull_requests-conda-linux_3875": "Failed"
+            },
+            "last_fail_detected": "2023-05-02"
+        },
+        {
             "test_name": "DataObjectsTest_EventWorkspaceTest",
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_536": "Flake"
             },
-            "last_fail_detected": "2023-04-30"
+            "last_fail_detected": "2023-05-02"
         }
     ]
 }

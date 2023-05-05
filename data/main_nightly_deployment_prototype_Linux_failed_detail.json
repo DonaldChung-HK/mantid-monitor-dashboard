@@ -1,3 +1,47 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "KernelTest_ConfigServiceTest",
+            "latest_failed_build": "548",
+            "agent_name": "Linux",
+            "last_failed_outcome": "Flake",
+            "pipeline_name": "main_nightly_deployment_prototype",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "548",
+                    "547",
+                    "546",
+                    "545",
+                    "544",
+                    "543",
+                    "542",
+                    "541",
+                    "540",
+                    "539"
+                ],
+                "past_outcome_list": [
+                    "Flake",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "KernelTest_ConfigServiceTest",
+                "build": "548",
+                "agent_name": "Linux",
+                "trial": 1,
+                "outcome": "Failed",
+                "test_time": "0.92",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230503.1803.dev21\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 27 testslogTest-[Warning] a warning string\nlogTest-[Error] an error string\nlogTest-[Fatal] a fatal string\nlogTest-[Fatal] A fatal message from the stream operators 4.5\nlogTest-[Error] A error message from the stream operators -0.2\nlogTest-[Warning] A warning message from the stream operators 999.99\nlogTest-[Notice] A notice message from the stream operators 0\n.logTestEnabled-[Fatal] a fatal string with enabled=true\nlogTestEnabled-[Fatal] A fatal message from the stream operators with enabled=true 4.5\nlogTestEnabled-[Fatal] you are allowed to see this\nlogTestEnabled-[Fatal] you are allowed to see this via a stream\n.logTestOffset-[Fatal] a fatal string with offset 0\nlogTestOffset-[Fatal] a fatal string with offset -1 should still be fatal\nlogTestOffset-[Notice] a information string with offset -1 should be notice\nlogTestOffset-[Critical] a fatal string with offset 1 should be critical\n.ConfigService-[Warning] logging set to warning priority\nConfigService-[Error] logging set to error priority\nConfigService-[Warning] logging set to warning priority\n...........ConfigService-[Information] Unable to locate directory at: /etc/mantid/instrument\nConfigService-[Information] Unable to locate directory at: /jenkins_workdir/workspace/main_nightly_deployment_prototype/source/build/instrument\nConfigService-[Information] Unable to locate directory at: /etc/mantid/instrument\nConfigService-[Information] Unable to locate directory at: /jenkins_workdir/workspace/main_nightly_deployment_prototype/source/build/instrument\nConfigService-[Information] Unable to locate directory at: /etc/mantid/instrument\nConfigService-[Information] Unable to locate directory at: /jenkins_workdir/workspace/main_nightly_deployment_prototype/source/build/instrument\n.ConfigService-[Information] Unable to locate directory at: /etc/mantid/instrument\nConfigService-[Information] Unable to locate directory at: /jenkins_workdir/workspace/main_nightly_deployment_prototype/source/build/instrument\n..ConfigService-[Information] Unable to locate directory at: /etc/mantid/instrument\nConfigService-[Information] Unable to locate directory at: /jenkins_workdir/workspace/main_nightly_deployment_prototype/source/build/instrument\n.ConfigService-[Information] Unable to locate directory at: /etc/mantid/instrument\nConfigService-[Information] Unable to locate directory at: /jenkins_workdir/workspace/main_nightly_deployment_prototype/source/build/instrument\n\nIn ConfigServiceTest::testLoadChangeClearSavesOriginalPropsFile:\n/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/Kernel/test/ConfigServiceTest.h:403: Error: Assertion failed: !contents.empty()\n...ConfigService-[Information] Unable to locate directory at: /etc/mantid/instrument\nConfigService-[Information] Unable to locate directory at: /jenkins_workdir/workspace/main_nightly_deployment_prototype/source/build/instrument\n.ConfigService-[Information] Unable to locate directory at: /etc/mantid/instrument\nConfigService-[Information] Unable to locate directory at: /jenkins_workdir/workspace/main_nightly_deployment_prototype/source/build/instrument\n.ConfigService-[Information] Unable to locate directory at: /etc/mantid/instrument\nConfigService-[Information] Unable to locate directory at: /jenkins_workdir/workspace/main_nightly_deployment_prototype/source/build/instrument\n.ConfigService-[Information] Unable to locate directory at: /etc/mantid/instrument\nConfigService-[Information] Unable to locate directory at: /jenkins_workdir/workspace/main_nightly_deployment_prototype/source/build/instrument\n.ConfigService-[Information] Unable to locate directory at: /etc/mantid/instrument\nConfigService-[Information] Unable to locate directory at: /jenkins_workdir/workspace/main_nightly_deployment_prototype/source/build/instrument\n.\nFailed 1 of 27 tests\nSuccess rate: 96%\n\n          Start   27: KernelTest_ConfigServiceTest\n"
+            }
+        }
+    ]
 }

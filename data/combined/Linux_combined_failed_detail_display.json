@@ -181,10 +181,9 @@
                 "pull_requests-conda-linux_2566": "Failed",
                 "pull_requests-conda-linux_2567": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_3934": "Failed"
+                "pull_requests-conda-linux_2629": "Failed"
             },
-            "last_fail_detected": "2023-05-06"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.CrystalFieldTest.CrystalFieldTest",
@@ -9633,11 +9632,9 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_3932": "Failed",
-                "pull_requests-conda-linux_3933": "Failed"
+                "pull_requests-conda-linux_2629": "Failed"
             },
-            "last_fail_detected": "2023-05-06"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.AbinsLoadCRYSTALTest.AbinsLoadCRYSTALTest",
@@ -9705,11 +9702,9 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_3932": "Failed",
-                "pull_requests-conda-linux_3933": "Failed"
+                "pull_requests-conda-linux_2629": "Failed"
             },
-            "last_fail_detected": "2023-05-06"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.AbinsPowderDataTest.AbinsPowderDataTest",
@@ -11430,7 +11425,7 @@
                 "pull_requests-conda-linux_2934": "Failed",
                 "main_nightly_deployment_prototype_548": "Flake"
             },
-            "last_fail_detected": "2023-05-06"
+            "last_fail_detected": "2023-05-07"
         },
         {
             "test_name": "KernelTest_FileValidatorTest",

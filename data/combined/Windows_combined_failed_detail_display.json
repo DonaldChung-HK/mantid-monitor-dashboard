@@ -163,10 +163,9 @@
                 "pull_requests-conda-windows_612": "Failed",
                 "pull_requests-conda-windows_1311": "Failed",
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed",
-                "pull_requests-conda-windows_2723": "Failed"
+                "pull_requests-conda-windows_1372": "Failed"
             },
-            "last_fail_detected": "2023-05-06"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "AlgorithmsTest_Q1DWeightedTest",
@@ -9336,12 +9335,9 @@
             "test_name": "python.scripts.AbinsLoadCASTEPTest.AbinsLoadCASTEPTest",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed",
-                "pull_requests-conda-windows_2720": "Failed",
-                "pull_requests-conda-windows_2721": "Failed",
-                "pull_requests-conda-windows_2722": "Failed"
+                "pull_requests-conda-windows_1372": "Failed"
             },
-            "last_fail_detected": "2023-05-06"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.AbinsLoadCRYSTALTest.AbinsLoadCRYSTALTest",
@@ -9395,12 +9391,9 @@
             "test_name": "python.scripts.AbinsPowderCalculatorTest.AbinsPowderCalculatorTest",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed",
-                "pull_requests-conda-windows_2720": "Failed",
-                "pull_requests-conda-windows_2721": "Failed",
-                "pull_requests-conda-windows_2722": "Failed"
+                "pull_requests-conda-windows_1372": "Failed"
             },
-            "last_fail_detected": "2023-05-06"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.AbinsPowderDataTest.AbinsPowderDataTest",
@@ -10892,7 +10885,7 @@
             "past_failed_outcome": {
                 "pull_requests-conda-windows_2724": "Flake"
             },
-            "last_fail_detected": "2023-05-06"
+            "last_fail_detected": "2023-05-07"
         }
     ]
 }

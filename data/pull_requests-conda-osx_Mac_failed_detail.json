@@ -1,3 +1,87 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "DataHandlingTest_LoadNXcanSASTest",
+            "latest_failed_build": "2535",
+            "agent_name": "Mac",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-osx",
+            "problem_count": 2,
+            "past_outcome": {
+                "build_keys": [
+                    "2536",
+                    "2535",
+                    "2534",
+                    "2533",
+                    "2532",
+                    "2531",
+                    "2530",
+                    "2529",
+                    "2528",
+                    "2527",
+                    "2526",
+                    "2525",
+                    "2524",
+                    "2523",
+                    "2522",
+                    "2521",
+                    "2520",
+                    "2519",
+                    "2518",
+                    "2517",
+                    "2516",
+                    "2515",
+                    "2514",
+                    "2513",
+                    "2512",
+                    "2511",
+                    "2510",
+                    "2509",
+                    "2508",
+                    "2507"
+                ],
+                "past_outcome_list": [
+                    "Passed",
+                    "Failed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Failed",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "DataHandlingTest_LoadNXcanSASTest",
+                "build": "2535",
+                "agent_name": "Mac",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "2.35",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230505.1143.dev15\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 7 testsSaveNXcanSAS-[Notice] SaveNXcanSAS started\nSaveNXcanSAS-[Notice] SaveNXcanSAS successful, Duration 0.01 seconds\nLoadNXcanSAS-[Notice] LoadNXcanSAS started\nHDF5-DIAG: Error detected in HDF5 (1.12.2) thread 1:\n  #000: H5D.c line 285 in H5Dopen2(): unable to open dataset\n    major: Dataset\n    minor: Can&#x27;t open object\n  #001: H5VLcallback.c line 1910 in H5VL_dataset_open(): dataset open failed\n    major: Virtual Object Layer\n    minor: Can&#x27;t open object\n  #002: H5VLcallback.c line 1877 in H5VL__dataset_open(): dataset open failed\n    major: Virtual Object Layer\n    minor: Can&#x27;t open object\n  #003: H5VLnative_dataset.c line 123 in H5VL__native_dataset_open(): unable to open dataset\n    major: Dataset\n    minor: Can&#x27;t open object\n  #004: H5Dint.c line 1470 in H5D__open_name(): not found\n    major: Dataset\n    minor: Object not found\n  #005: H5Gloc.c line 442 in H5G_loc_find(): can&#x27;t find object\n    major: Symbol table\n    minor: Object not found\n  #006: H5Gtraverse.c line 837 in H5G_traverse(): internal path traversal failed\n    major: Symbol table\n    minor: Object not found\n  #007: H5Gtraverse.c line 613 in H5G__traverse_real(): traversal operator failed\n    major: Symbol table\n    minor: Callback failed\n  #008: H5Gloc.c line 399 in H5G__loc_find_cb(): object &#x27;batch_file&#x27; doesn&#x27;t exist\n    major: Symbol table\n    minor: Object not found\nHDF5-DIAG: Error detected in HDF5 (1.12.2) thread 1:\n  #000: H5G.c line 510 in H5Gopen2(): unable to open group\n    major: Symbol table\n    minor: Can&#x27;t open object\n  #001: H5VLcallback.c line 4187 in H5VL_group_open(): group open failed\n    major: Virtual Object Layer\n    minor: Can&#x27;t open object\n  #002: H5VLcallback.c line 4154 in H5VL__group_open(): group open failed\n    major: Virtual Object Layer\n    minor: Can&#x27;t open object\n  #003: H5VLnative_group.c line 123 in H5VL__native_group_open(): unable to open group\n    major: Symbol table\n    minor: Can&#x27;t open object\n  #004: H5Gint.c line 270 in H5G__open_name(): group not found\n    major: Symbol table\n    minor: Object not found\n  #005: H5Gloc.c line 442 in H5G_loc_find(): can&#x27;t find object\n    major: Symbol table\n    minor: Object not found\n  #006: H5Gtraverse.c line 837 in H5G_traverse(): internal path traversal failed\n    major: Symbol table\n    minor: Object not found\n  #007: H5Gtraverse.c line 613 in H5G__traverse_real(): traversal operator failed\n    major: Symbol table\n    minor: Callback failed\n  #008: H5Gloc.c line 399 in H5G__loc_find_cb(): object &#x27;sassource&#x27; doesn&#x27;t exist\n    major: Symbol table\n    minor: Object not found\nLoadNXcanSAS-[Error] LoadNXcanSAS: UNKNOWN Exception is caught in exec()\n\nIn LoadNXcanSASTest::test_that_1D_workspace_with_Q_resolution_can_be_loaded:\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/LoadNXcanSASTest.h:285: Error: Expected (alg.execute();) not to throw, but it did\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/LoadNXcanSASTest.h:286: Error: Assertion failed: alg.isExecuted()\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/LoadNXcanSASTest.h:291: Error: Test failed: Unable to find Data Object type with name &#x27;loadNXcanSASTestOutputWorkspace&#x27;: data service  search object loadNXcanSASTestOutputWorkspace\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/LoadNXcanSASTest.h:291: Error: Expected (ws = Mantid::API::AnalysisDataService::Instance().retrieveWS&lt;Mantid::API::MatrixWorkspace&gt;(outWsName)) not to throw, but it did\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/LoadNXcanSASTest.h:292: Error: Assertion failed: ws\nSegmentation fault\n\n          Start 2092: mantidqt_qt5.test_peaksviewer_sliceviewer_add_delete_peaks_integration.test_peaksviewer_sliceviewer_add_delete_peaks_integration\n"
+            }
+        }
+    ]
 }

@@ -1626,9 +1626,10 @@
                 "pull_requests-conda-linux_2829": "Failed",
                 "pull_requests-conda-linux_2842": "Failed",
                 "pull_requests-conda-linux_2867": "Failed",
-                "pull_requests-conda-linux_2873": "Failed"
+                "pull_requests-conda-linux_2873": "Failed",
+                "pull_requests-conda-linux_4033": "Failed"
             },
-            "last_fail_detected": "2023-02-10"
+            "last_fail_detected": "2023-05-17"
         },
         {
             "test_name": "CrystalTest_SaveIsawPeaksTest",
@@ -2726,9 +2727,11 @@
                 "pull_requests-conda-linux_2575": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
                 "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_2670": "Failed"
+                "pull_requests-conda-linux_2670": "Failed",
+                "pull_requests-conda-linux_4018": "Failed",
+                "pull_requests-conda-linux_4020": "Failed"
             },
-            "last_fail_detected": "2023-01-31"
+            "last_fail_detected": "2023-05-17"
         },
         {
             "test_name": "mantidqt_qt5.test_spectraselectiondialog.test_spectraselectiondialog",
@@ -4960,9 +4963,10 @@
                 "pull_requests-conda-linux_2825": "Failed",
                 "pull_requests-conda-linux_2829": "Failed",
                 "pull_requests-conda-linux_2842": "Failed",
-                "pull_requests-conda-linux_2867": "Failed"
+                "pull_requests-conda-linux_2867": "Failed",
+                "pull_requests-conda-linux_4033": "Failed"
             },
-            "last_fail_detected": "2023-02-10"
+            "last_fail_detected": "2023-05-17"
         },
         {
             "test_name": "python.SANS.algorithm_detail.scale_sans_workspace_test.scale_sans_workspace_test",
@@ -5781,7 +5785,7 @@
                 "pull_requests-conda-linux_2629": "Failed",
                 "main_nightly_deployment_prototype_551": "Flake"
             },
-            "last_fail_detected": "2023-05-16"
+            "last_fail_detected": "2023-05-17"
         },
         {
             "test_name": "python.WorkflowAlgorithms.PowderILLParameterScanTest.PowderILLParameterScanTest",
@@ -7243,9 +7247,10 @@
                 "pull_requests-conda-linux_3050": "Failed",
                 "pull_requests-conda-linux_3078": "Failed",
                 "pull_requests-conda-linux_3085": "Failed",
-                "pull_requests-conda-linux_3131": "Failed"
+                "pull_requests-conda-linux_3131": "Failed",
+                "pull_requests-conda-linux_4033": "Failed"
             },
-            "last_fail_detected": "2023-03-01"
+            "last_fail_detected": "2023-05-17"
         },
         {
             "test_name": "python.algorithms.RetrieveRunInfoTest.RetrieveRunInfoTest",
@@ -11426,7 +11431,7 @@
                 "pull_requests-conda-linux_2934": "Failed",
                 "main_nightly_deployment_prototype_548": "Flake"
             },
-            "last_fail_detected": "2023-05-16"
+            "last_fail_detected": "2023-05-17"
         },
         {
             "test_name": "KernelTest_FileValidatorTest",

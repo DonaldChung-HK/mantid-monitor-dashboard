@@ -16,9 +16,7 @@
                     "551",
                     "550",
                     "549",
-                    "548",
-                    "547",
-                    "546"
+                    "548"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -26,8 +24,6 @@
                     "Passed",
                     "Passed",
                     "Flake",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -59,9 +55,7 @@
                     "551",
                     "550",
                     "549",
-                    "548",
-                    "547",
-                    "546"
+                    "548"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -71,9 +65,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Flake",
-                    "Passed",
-                    "Passed"
+                    "Flake"
                 ]
             },
             "last_stack_traces": {

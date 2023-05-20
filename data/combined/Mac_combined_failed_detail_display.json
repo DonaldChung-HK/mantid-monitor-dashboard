@@ -133,11 +133,9 @@
                 "pull_requests-conda-osx_497": "Failed",
                 "pull_requests-conda-osx_499": "Failed",
                 "pull_requests-conda-osx_501": "Failed",
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_2635": "Failed",
-                "pull_requests-conda-osx_2637": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-05-19"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "mantidqt_qt5.test_sliceviewer_presenter.test_sliceviewer_presenter",
@@ -1657,10 +1655,9 @@
                 "pull_requests-conda-osx_1195": "Failed",
                 "pull_requests-conda-osx_1594": "Failed",
                 "pull_requests-conda-osx_1595": "Failed",
-                "pull_requests-conda-osx_1598": "Failed",
-                "pull_requests-conda-osx_2638": "Failed"
+                "pull_requests-conda-osx_1598": "Failed"
             },
-            "last_fail_detected": "2023-05-19"
+            "last_fail_detected": "2023-02-17"
         },
         {
             "test_name": "DataHandlingTest_LoadNexusProcessedTest",
@@ -3607,11 +3604,9 @@
         {
             "test_name": "python.Calibration.tofpd.test_group_calibration.test_group_calibration",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_2633": "Failed",
-                "pull_requests-conda-osx_2636": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-05-19"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.DNSReductionQt5.dns_file_test.dns_file_test",

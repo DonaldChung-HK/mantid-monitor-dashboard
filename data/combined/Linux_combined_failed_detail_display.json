@@ -4359,10 +4359,9 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_4078": "Flake"
+                "pull_requests-conda-linux_2629": "Failed"
             },
-            "last_fail_detected": "2023-05-20"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.MuonQt5.periodic_table_test.periodic_table_test",
@@ -5782,7 +5781,7 @@
                 "pull_requests-conda-linux_2629": "Failed",
                 "main_nightly_deployment_prototype_551": "Flake"
             },
-            "last_fail_detected": "2023-05-20"
+            "last_fail_detected": "2023-05-21"
         },
         {
             "test_name": "python.WorkflowAlgorithms.PowderILLParameterScanTest.PowderILLParameterScanTest",
@@ -9704,10 +9703,9 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_4078": "Failed"
+                "pull_requests-conda-linux_2629": "Failed"
             },
-            "last_fail_detected": "2023-05-20"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.AbinsPowderDataTest.AbinsPowderDataTest",

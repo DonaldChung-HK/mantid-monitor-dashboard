@@ -5781,7 +5781,7 @@
                 "pull_requests-conda-linux_2629": "Failed",
                 "main_nightly_deployment_prototype_551": "Flake"
             },
-            "last_fail_detected": "2023-05-21"
+            "last_fail_detected": "2023-05-22"
         },
         {
             "test_name": "python.WorkflowAlgorithms.PowderILLParameterScanTest.PowderILLParameterScanTest",

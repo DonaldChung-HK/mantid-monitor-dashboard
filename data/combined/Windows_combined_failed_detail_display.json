@@ -2774,7 +2774,7 @@
                 "pull_requests-conda-windows_1616": "Failed",
                 "main_nightly_deployment_prototype_550": "Flake"
             },
-            "last_fail_detected": "2023-05-21"
+            "last_fail_detected": "2023-05-22"
         },
         {
             "test_name": "DataHandlingTest_GroupDetectors2Test",
@@ -10886,7 +10886,7 @@
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_556": "Flake"
             },
-            "last_fail_detected": "2023-05-21"
+            "last_fail_detected": "2023-05-22"
         }
     ]
 }

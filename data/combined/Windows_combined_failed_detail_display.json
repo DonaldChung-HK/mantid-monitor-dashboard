@@ -2772,9 +2772,9 @@
                 "pull_requests-conda-windows_1609": "Failed",
                 "pull_requests-conda-windows_1613": "Failed",
                 "pull_requests-conda-windows_1616": "Failed",
-                "main_nightly_deployment_prototype_550": "Flake"
+                "pull_requests-conda-windows_2884": "Flake"
             },
-            "last_fail_detected": "2023-05-24"
+            "last_fail_detected": "2023-05-25"
         },
         {
             "test_name": "DataHandlingTest_GroupDetectors2Test",
@@ -4135,9 +4135,10 @@
             "test_name": "python.EngineeringDiffraction.test_presenter.test_presenter",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_2885": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-05-25"
         },
         {
             "test_name": "python.EngineeringDiffraction.test_settings_model.test_settings_model",
@@ -10884,10 +10885,9 @@
         {
             "test_name": "DataObjectsTest_TimeSplitterTest",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_2877": "Flake",
                 "main_nightly_deployment_prototype_556": "Flake"
             },
-            "last_fail_detected": "2023-05-24"
+            "last_fail_detected": "2023-05-25"
         }
     ]
 }

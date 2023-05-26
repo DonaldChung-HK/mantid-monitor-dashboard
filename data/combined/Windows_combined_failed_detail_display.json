@@ -2771,10 +2771,9 @@
                 "pull_requests-conda-windows_1580": "Failed",
                 "pull_requests-conda-windows_1609": "Failed",
                 "pull_requests-conda-windows_1613": "Failed",
-                "pull_requests-conda-windows_1616": "Failed",
-                "pull_requests-conda-windows_2884": "Flake"
+                "pull_requests-conda-windows_1616": "Failed"
             },
-            "last_fail_detected": "2023-05-25"
+            "last_fail_detected": "2023-02-10"
         },
         {
             "test_name": "DataHandlingTest_GroupDetectors2Test",
@@ -4136,9 +4135,9 @@
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
                 "pull_requests-conda-windows_1372": "Failed",
-                "pull_requests-conda-windows_2885": "Failed"
+                "pull_requests-conda-windows_2888": "Failed"
             },
-            "last_fail_detected": "2023-05-25"
+            "last_fail_detected": "2023-05-26"
         },
         {
             "test_name": "python.EngineeringDiffraction.test_settings_model.test_settings_model",
@@ -10887,7 +10886,7 @@
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_556": "Flake"
             },
-            "last_fail_detected": "2023-05-25"
+            "last_fail_detected": "2023-05-26"
         }
     ]
 }

@@ -2762,9 +2762,10 @@
             "test_name": "PythonSANSQt5.beam_centre_presenter_test.beam_centre_presenter_test",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_1660": "Flake"
+                "pull_requests-conda-osx_1660": "Flake",
+                "pull_requests-conda-osx_2690": "Flake"
             },
-            "last_fail_detected": "2023-02-24"
+            "last_fail_detected": "2023-05-26"
         },
         {
             "test_name": "PythonSANSQt5.concrete_run_tab_listener_test.concrete_run_tab_listener_test",
@@ -3767,9 +3768,9 @@
             "test_name": "python.EngineeringDiffraction.test_presenter.test_presenter",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_2684": "Failed"
+                "pull_requests-conda-osx_2687": "Failed"
             },
-            "last_fail_detected": "2023-05-25"
+            "last_fail_detected": "2023-05-26"
         },
         {
             "test_name": "python.EngineeringDiffraction.test_settings_model.test_settings_model",

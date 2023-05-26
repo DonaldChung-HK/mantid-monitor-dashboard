@@ -3159,9 +3159,9 @@
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
                 "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_4107": "Failed"
+                "pull_requests-conda-linux_4110": "Failed"
             },
-            "last_fail_detected": "2023-05-25"
+            "last_fail_detected": "2023-05-26"
         },
         {
             "test_name": "python.EngineeringDiffraction.test_settings_model.test_settings_model",
@@ -5779,10 +5779,9 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed",
-                "main_nightly_deployment_prototype_551": "Flake"
+                "pull_requests-conda-linux_2629": "Failed"
             },
-            "last_fail_detected": "2023-05-25"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.WorkflowAlgorithms.PowderILLParameterScanTest.PowderILLParameterScanTest",

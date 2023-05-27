@@ -3158,10 +3158,9 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_4110": "Failed"
+                "pull_requests-conda-linux_2629": "Failed"
             },
-            "last_fail_detected": "2023-05-26"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.EngineeringDiffraction.test_settings_model.test_settings_model",

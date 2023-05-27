@@ -4134,10 +4134,9 @@
             "test_name": "python.EngineeringDiffraction.test_presenter.test_presenter",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed",
-                "pull_requests-conda-windows_2888": "Failed"
+                "pull_requests-conda-windows_1372": "Failed"
             },
-            "last_fail_detected": "2023-05-26"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.EngineeringDiffraction.test_settings_model.test_settings_model",
@@ -10886,7 +10885,7 @@
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_556": "Flake"
             },
-            "last_fail_detected": "2023-05-26"
+            "last_fail_detected": "2023-05-27"
         }
     ]
 }

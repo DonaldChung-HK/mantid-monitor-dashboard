@@ -8165,9 +8165,10 @@
             "test_name": "python.scripts.AbinsCalculateSPowderTest.AbinsCalculateSPowderTest",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_1429": "Failed"
+                "pull_requests-conda-osx_1429": "Failed",
+                "pull_requests-conda-osx_2711": "Failed"
             },
-            "last_fail_detected": "2023-02-06"
+            "last_fail_detected": "2023-05-31"
         },
         {
             "test_name": "python.scripts.AbinsDataTest.AbinsDataTest",

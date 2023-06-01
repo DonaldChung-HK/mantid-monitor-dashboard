@@ -9582,10 +9582,9 @@
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
                 "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_2782": "Failed",
-                "pull_requests-conda-linux_4134": "Failed"
+                "pull_requests-conda-linux_2782": "Failed"
             },
-            "last_fail_detected": "2023-05-31"
+            "last_fail_detected": "2023-02-06"
         },
         {
             "test_name": "python.scripts.AbinsDataTest.AbinsDataTest",

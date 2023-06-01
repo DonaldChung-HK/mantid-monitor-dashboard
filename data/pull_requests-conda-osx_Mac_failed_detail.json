@@ -1,14 +1,22 @@
 {
     "data": [
         {
-            "test_name": "python.scripts.AbinsCalculateSPowderTest.AbinsCalculateSPowderTest",
-            "latest_failed_build": "2711",
+            "test_name": "KernelTest_StdoutChannelTest",
+            "latest_failed_build": "2721",
             "agent_name": "Mac",
-            "last_failed_outcome": "Failed",
+            "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-osx",
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "2723",
+                    "2722",
+                    "2721",
+                    "2720",
+                    "2719",
+                    "2718",
+                    "2717",
+                    "2716",
                     "2715",
                     "2714",
                     "2713",
@@ -30,26 +38,18 @@
                     "2697",
                     "2696",
                     "2695",
-                    "2694",
-                    "2693",
-                    "2692",
-                    "2691",
-                    "2690",
-                    "2689",
-                    "2688",
-                    "2687",
-                    "2686"
+                    "2694"
                 ],
                 "past_outcome_list": [
                     "None",
                     "Passed",
+                    "Flake",
                     "Passed",
                     "Passed",
-                    "Failed",
-                    "None",
-                    "None",
-                    "None",
-                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "None",
                     "None",
                     "None",
@@ -74,13 +74,13 @@
                 ]
             },
             "last_stack_traces": {
-                "test_name": "python.scripts.AbinsCalculateSPowderTest.AbinsCalculateSPowderTest",
-                "build": "2711",
+                "test_name": "KernelTest_StdoutChannelTest",
+                "build": "2721",
                 "agent_name": "Mac",
-                "trial": 3,
+                "trial": 1,
                 "outcome": "Failed",
-                "test_time": "4.48",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230526.1212.dev52\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nPython-[Notice] Data not found in cache. Structure factors need to be calculated.\nPython-[Notice] Warning: No group Powder in hdf file. Data has to be calculated.\nPython-[Notice] Tensor data for analytic powder averaging has been calculated.\n.Python-[Notice] Data not found in cache. Structure factors need to be calculated.\nPython-[Notice] Warning: [Errno 2] Unable to open file (unable to open file: name = &#x27;Si2-sc_CalculateSPowder.hdf5&#x27;, errno = 2, error message = &#x27;No such file or directory&#x27;, flags = 0, o_flags = 0) Data has to be calculated.\nPython-[Notice] Tensor data for analytic powder averaging has been calculated.\nFPython-[Notice] Data not found in cache. Structure factors need to be calculated.\nPython-[Notice] Warning: [Errno 2] Unable to open file (unable to open file: name = &#x27;Si2-sc_CalculateSPowder.hdf5&#x27;, errno = 2, error message = &#x27;No such file or directory&#x27;, flags = 0, o_flags = 0) Data has to be calculated.\nPython-[Notice] Tensor data for analytic powder averaging has been calculated.\n.Python-[Notice] Using default setting &quot;A&quot; for instrument &quot;MARI&quot;\nPython-[Notice] Using default chopper frequency for instrument MARI: 400 Hz\nPython-[Notice] Data not found in cache. Structure factors need to be calculated.\nPython-[Notice] Warning: [Errno 2] Unable to open file (unable to open file: name = &#x27;Si2-sc_CalculateSPowder.hdf5&#x27;, errno = 2, error message = &#x27;No such file or directory&#x27;, flags = 0, o_flags = 0) Data has to be calculated.\nPython-[Notice] Tensor data for analytic powder averaging has been calculated.\n.Python-[Notice] Using default setting &quot;&quot; for instrument &quot;PANTHER&quot;\nPython-[Notice] Using default setting &quot;&quot; for instrument &quot;PANTHER&quot;\nPython-[Notice] Data not found in cache. Structure factors need to be calculated.\nPython-[Notice] Warning: [Errno 2] Unable to open file (unable to open file: name = &#x27;Si2-sc_CalculateSPowder.hdf5&#x27;, errno = 2, error message = &#x27;No such file or directory&#x27;, flags = 0, o_flags = 0) Data has to be calculated.\nPython-[Notice] Tensor data for analytic powder averaging has been calculated.\n..\n======================================================================\nFAIL: test_1d_order10 (AbinsCalculateSPowderTest.SCalculatorFactoryPowderTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/test/Abins/AbinsCalculateSPowderTest.py&quot;, line 117, in test_1d_order10\n    self._good_case(name=self._si2 + &quot;_1d_o10&quot;, castep_name=self._si2, quantum_order_num=2, autoconvolution=True)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/test/Abins/AbinsCalculateSPowderTest.py&quot;, line 158, in _good_case\n    self._check_data(good_data=good_data[&quot;S&quot;], data=calculated_data.extract())\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/test/Abins/AbinsCalculateSPowderTest.py&quot;, line 228, in _check_data\n    assert_almost_equal(ref, calculated)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/site-packages/numpy/testing/_private/utils.py&quot;, line 583, in assert_almost_equal\n    return assert_array_almost_equal(actual, desired, decimal, err_msg)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/site-packages/numpy/testing/_private/utils.py&quot;, line 1046, in assert_array_almost_equal\n    assert_array_compare(compare, x, y, err_msg=err_msg, verbose=verbose,\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/python3.8/site-packages/numpy/testing/_private/utils.py&quot;, line 844, in assert_array_compare\n    raise AssertionError(msg)\nAssertionError: \nArrays are not almost equal to 7 decimals\n\nMismatched elements: 656 / 4100 (16%)\nMax absolute difference: 1.23045312e-06\nMax relative difference: 3.62948515\n x: array([5.7885427e-26, 6.7769479e-26, 4.1057139e-26, ..., 0.0000000e+00,\n       0.0000000e+00, 0.0000000e+00])\n y: array([3.2068142e-25, 3.7467481e-25, 3.4610086e-25, ..., 0.0000000e+00,\n       0.0000000e+00, 0.0000000e+00])\n\n----------------------------------------------------------------------\nRan 6 tests in 2.154s\n\nFAILED (failures=1)\n\n          Start   73: KernelTest_MantidVersionTest\n"
+                "test_time": "0.62",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230526.1212.dev22\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 2 tests..OK!\nKernelTest(85714,0x7fffb688a380) malloc: *** error for object 0x7fa9e74cacb8: incorrect checksum for freed object - object was probably modified after being freed.\n*** set a breakpoint in malloc_error_break to debug\nSubprocess aborted\n\n          Start  115: KernelTest_StdoutChannelTest\n"
             }
         }
     ]

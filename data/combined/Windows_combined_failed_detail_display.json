@@ -10881,13 +10881,20 @@
             "last_fail_detected": "2023-02-17"
         },
         {
+            "test_name": "WorkflowAlgorithmsTest_SofTwoThetaTOFTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_2941": "Failed"
+            },
+            "last_fail_detected": "2023-06-03"
+        },
+        {
             "test_name": "DataObjectsTest_TimeSplitterTest",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_2930": "Flake",
-                "pull_requests-conda-windows_2936": "Flake",
+                "pull_requests-conda-windows_2938": "Flake",
+                "pull_requests-conda-windows_2939": "Flake",
                 "main_nightly_deployment_prototype_556": "Flake"
             },
-            "last_fail_detected": "2023-06-02"
+            "last_fail_detected": "2023-06-03"
         }
     ]
 }

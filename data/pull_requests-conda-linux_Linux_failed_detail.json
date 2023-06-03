@@ -1,3 +1,87 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "WorkflowAlgorithmsTest_SofTwoThetaTOFTest",
+            "latest_failed_build": "4163",
+            "agent_name": "Linux",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-linux",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "4163",
+                    "4162",
+                    "4161",
+                    "4160",
+                    "4159",
+                    "4158",
+                    "4157",
+                    "4156",
+                    "4155",
+                    "4154",
+                    "4153",
+                    "4152",
+                    "4151",
+                    "4150",
+                    "4149",
+                    "4148",
+                    "4147",
+                    "4146",
+                    "4145",
+                    "4144",
+                    "4143",
+                    "4142",
+                    "4141",
+                    "4140",
+                    "4139",
+                    "4138",
+                    "4137",
+                    "4136",
+                    "4135",
+                    "4134"
+                ],
+                "past_outcome_list": [
+                    "Failed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "WorkflowAlgorithmsTest_SofTwoThetaTOFTest",
+                "build": "4163",
+                "agent_name": "Linux",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "3.30",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230601.1618.dev102\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 4 tests.\nIn SofTwoThetaTOFTest::test_twoThetaGrouping:\n/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/WorkflowAlgorithms/test/SofTwoThetaTOFTest.h:66: Error: Expected (angleBinEdge &lt; twoTheta), found (1.0000000008 &gt;= 0.0028875719)\n/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/WorkflowAlgorithms/test/SofTwoThetaTOFTest.h:66: Error: Expected (angleBinEdge &lt; twoTheta), found (1.0017453290 &gt;= 0.0044857097)\n/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/WorkflowAlgorithms/test/SofTwoThetaTOFTest.h:66: Error: Expected (angleBinEdge &lt; twoTheta), found (1.0034906583 &gt;= 0.0063313326)\n/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/WorkflowAlgorithms/test/SofTwoThetaTOFTest.h:66: Error: Expected (angleBinEdge &lt; twoTheta), found (1.0052359875 &gt;= 0.0079858509)\n/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/WorkflowAlgorithms/test/SofTwoThetaTOFTest.h:66: Error: Expected (angleBinEdge &lt; twoTheta), found (1.0069813178 &gt;= 0.0096397010)\n/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/WorkflowAlgorithms/test/SofTwoThetaTOFTest.h:66: Error: Expected (angleBinEdge &lt; twoTheta), found (1.0087266460 &gt;= 0.0113132258)\n.i: 0 j: 0\ni: 1 j: 0\ni: 2 j: 0\ni: 3 j: 0\ni: 4 j: 0\n\nIn SofTwoThetaTOFTest::test_averaging:\n/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/WorkflowAlgorithms/test/SofTwoThetaTOFTest.h:140: Error: Expected (Ys[j] == 0.), found (2.0000000006 != 0.0000000000)\n/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/WorkflowAlgorithms/test/SofTwoThetaTOFTest.h:141: Error: Expected (Es[j] == 0.), found (1.4142135625 != 0.0000000000)\nFailed 2 of 4 tests\nSuccess rate: 50%\n\n          Start 2455: MantidQtInterfacesIndirectTestQt5_IndirectPlotOptionsModelTest\n"
+            }
+        }
+    ]
 }

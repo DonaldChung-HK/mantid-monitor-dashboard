@@ -1,3 +1,87 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "WorkflowAlgorithmsTest_SofTwoThetaTOFTest",
+            "latest_failed_build": "2738",
+            "agent_name": "Mac",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-osx",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "2738",
+                    "2737",
+                    "2736",
+                    "2735",
+                    "2734",
+                    "2733",
+                    "2732",
+                    "2731",
+                    "2730",
+                    "2729",
+                    "2728",
+                    "2727",
+                    "2726",
+                    "2725",
+                    "2724",
+                    "2723",
+                    "2722",
+                    "2721",
+                    "2720",
+                    "2719",
+                    "2718",
+                    "2717",
+                    "2716",
+                    "2715",
+                    "2714",
+                    "2713",
+                    "2712",
+                    "2711",
+                    "2710",
+                    "2709"
+                ],
+                "past_outcome_list": [
+                    "Failed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "WorkflowAlgorithmsTest_SofTwoThetaTOFTest",
+                "build": "2738",
+                "agent_name": "Mac",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "0.52",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230601.1618.dev102\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 4 tests.\nIn SofTwoThetaTOFTest::test_twoThetaGrouping:\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/WorkflowAlgorithms/test/SofTwoThetaTOFTest.h:66: Error: Expected (angleBinEdge &lt; twoTheta), found (1.0000000008 &gt;= 0.0028875719)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/WorkflowAlgorithms/test/SofTwoThetaTOFTest.h:66: Error: Expected (angleBinEdge &lt; twoTheta), found (1.0017453290 &gt;= 0.0044857097)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/WorkflowAlgorithms/test/SofTwoThetaTOFTest.h:66: Error: Expected (angleBinEdge &lt; twoTheta), found (1.0034906583 &gt;= 0.0063313326)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/WorkflowAlgorithms/test/SofTwoThetaTOFTest.h:66: Error: Expected (angleBinEdge &lt; twoTheta), found (1.0052359875 &gt;= 0.0079858509)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/WorkflowAlgorithms/test/SofTwoThetaTOFTest.h:66: Error: Expected (angleBinEdge &lt; twoTheta), found (1.0069813178 &gt;= 0.0096397010)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/WorkflowAlgorithms/test/SofTwoThetaTOFTest.h:66: Error: Expected (angleBinEdge &lt; twoTheta), found (1.0087266460 &gt;= 0.0113132258)\n.i: 0 j: 0\ni: 1 j: 0\ni: 2 j: 0\ni: 3 j: 0\ni: 4 j: 0\n\nIn SofTwoThetaTOFTest::test_averaging:\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/WorkflowAlgorithms/test/SofTwoThetaTOFTest.h:140: Error: Expected (Ys[j] == 0.), found (2.0000000006 != 0.0000000000)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/WorkflowAlgorithms/test/SofTwoThetaTOFTest.h:141: Error: Expected (Es[j] == 0.), found (1.4142135625 != 0.0000000000)\nFailed 2 of 4 tests\nSuccess rate: 50%\n\n          Start  252: AlgorithmsTest_CreateUserDefinedBackgroundTest\n"
+            }
+        }
+    ]
 }

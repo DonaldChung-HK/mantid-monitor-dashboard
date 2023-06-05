@@ -1,3 +1,87 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "LiveDataTest_StartLiveDataTest",
+            "latest_failed_build": "2739",
+            "agent_name": "Mac",
+            "last_failed_outcome": "Flake",
+            "pipeline_name": "pull_requests-conda-osx",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "2747",
+                    "2746",
+                    "2745",
+                    "2744",
+                    "2743",
+                    "2742",
+                    "2741",
+                    "2740",
+                    "2739",
+                    "2738",
+                    "2737",
+                    "2736",
+                    "2735",
+                    "2734",
+                    "2733",
+                    "2732",
+                    "2731",
+                    "2730",
+                    "2729",
+                    "2728",
+                    "2727",
+                    "2726",
+                    "2725",
+                    "2724",
+                    "2723",
+                    "2722",
+                    "2721",
+                    "2720",
+                    "2719",
+                    "2718"
+                ],
+                "past_outcome_list": [
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Flake",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "LiveDataTest_StartLiveDataTest",
+                "build": "2739",
+                "agent_name": "Mac",
+                "trial": 1,
+                "outcome": "Failed",
+                "test_time": "0.78",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230602.1033.dev5\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 4 testsFacilityInfo-[Notice] No timezone specified for TEST in Facilities.xml\n.StartLiveData-[Notice] StartLiveData started\nLoadLiveData-[Notice] Performing the Replace operation.\nLoadLiveData-[Notice] Performing post-processing using Rebin\nStartLiveData-[Notice] StartLiveData successful, Duration 0.01 seconds\n.StartLiveData-[Notice] StartLiveData started\nLoadLiveData-[Notice] Performing the Replace operation.\nStartLiveData-[Notice] StartLiveData successful, Duration 0.01 seconds\n.StartLiveData-[Notice] StartLiveData started\nLoadLiveData-[Notice] Performing the Replace operation.\nMonitorLiveData-[Notice] MonitorLiveData started\nStartLiveData-[Notice] StartLiveData successful, Duration 0.01 seconds\n.OK!\nSegmentation fault\n\n          Start 1288: LiveDataTest_StartLiveDataTest\n"
+            }
+        }
+    ]
 }

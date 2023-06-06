@@ -813,9 +813,10 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed"
+                "pull_requests-conda-linux_2629": "Failed",
+                "pull_requests-conda-linux_4176": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-06-06"
         },
         {
             "test_name": "mantidqt_qt5.test_instrumentview_presenter.test_instrumentview_presenter",
@@ -11611,6 +11612,13 @@
                 "main_nightly_deployment_prototype_501": "Flake"
             },
             "last_fail_detected": "2023-02-25"
+        },
+        {
+            "test_name": "WorkflowAlgorithmsTest_SofTwoThetaTOFTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_4180": "Failed"
+            },
+            "last_fail_detected": "2023-06-06"
         }
     ]
 }

@@ -948,9 +948,10 @@
             "test_name": "python.IsisPowder.ISISPowderCommonTest.ISISPowderCommonTest",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_723": "Failed",
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_2749": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-06-06"
         },
         {
             "test_name": "mantidqt_qt5.test_instrumentview_presenter.test_instrumentview_presenter",
@@ -9603,13 +9604,6 @@
                 "pull_requests-conda-osx_1739": "Failed"
             },
             "last_fail_detected": "2023-03-01"
-        },
-        {
-            "test_name": "LiveDataTest_StartLiveDataTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-osx_2739": "Flake"
-            },
-            "last_fail_detected": "2023-06-05"
         }
     ]
 }

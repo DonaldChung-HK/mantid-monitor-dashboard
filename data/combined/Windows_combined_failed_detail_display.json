@@ -757,10 +757,9 @@
             "past_failed_outcome": {
                 "pull_requests-conda-windows_758": "Failed",
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed",
-                "pull_requests-conda-windows_2953": "Failed"
+                "pull_requests-conda-windows_1372": "Failed"
             },
-            "last_fail_detected": "2023-06-06"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisPresenterTest",
@@ -2773,9 +2772,10 @@
                 "pull_requests-conda-windows_1609": "Failed",
                 "pull_requests-conda-windows_1613": "Failed",
                 "pull_requests-conda-windows_1616": "Failed",
-                "pull_requests-conda-windows_2952": "Flake"
+                "pull_requests-conda-windows_2963": "Flake",
+                "main_nightly_deployment_prototype_567": "Flake"
             },
-            "last_fail_detected": "2023-06-06"
+            "last_fail_detected": "2023-06-07"
         },
         {
             "test_name": "DataHandlingTest_GroupDetectors2Test",
@@ -10885,9 +10885,17 @@
         {
             "test_name": "DataObjectsTest_TimeSplitterTest",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_2953": "Flake"
+                "pull_requests-conda-windows_2964": "Flake"
             },
-            "last_fail_detected": "2023-06-06"
+            "last_fail_detected": "2023-06-07"
+        },
+        {
+            "test_name": "WorkflowAlgorithmsTest_SofTwoThetaTOFTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_2958": "Failed",
+                "pull_requests-conda-windows_2961": "Failed"
+            },
+            "last_fail_detected": "2023-06-07"
         }
     ]
 }

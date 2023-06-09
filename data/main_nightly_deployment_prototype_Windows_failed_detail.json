@@ -1,14 +1,15 @@
 {
     "data": [
         {
-            "test_name": "AlgorithmsTest_FilterEventsTest",
-            "latest_failed_build": "567",
+            "test_name": "python.scripts.AbinsLoadPhonopyTest.AbinsLoadPhonopyTest",
+            "latest_failed_build": "568",
             "agent_name": "Windows",
-            "last_failed_outcome": "Flake",
+            "last_failed_outcome": "Failed",
             "pipeline_name": "main_nightly_deployment_prototype",
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "568",
                     "567",
                     "566",
                     "565",
@@ -17,10 +18,53 @@
                     "562",
                     "561",
                     "560",
-                    "559",
-                    "558"
+                    "559"
                 ],
                 "past_outcome_list": [
+                    "Failed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "None"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "python.scripts.AbinsLoadPhonopyTest.AbinsLoadPhonopyTest",
+                "build": "568",
+                "agent_name": "Windows",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "3.62",
+                "stacktrace": "Traceback (most recent call last):\r\n  File &quot;C:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/PythonInterface/test/testhelpers/testrunner.py&quot;, line 80, in &lt;module&gt;\r\n    main(sys.argv)\r\n  File &quot;C:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/PythonInterface/test/testhelpers/testrunner.py&quot;, line 36, in main\r\n    test_module = SourceFileLoader(module_name(pathname), pathname).load_module()\r\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 522, in _check_name_wrapper\r\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 1022, in load_module\r\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 847, in load_module\r\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 265, in _load_module_shim\r\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 702, in _load\r\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 671, in _load_unlocked\r\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 843, in exec_module\r\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 219, in _call_with_frames_removed\r\n  File &quot;C:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/scripts/test/Abins/AbinsLoadPhonopyTest.py&quot;, line 15, in &lt;module&gt;\r\n    class AbinsLoadPhonopyTest(unittest.TestCase, abins.input.Tester):\r\n  File &quot;C:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/scripts/test/Abins/AbinsLoadPhonopyTest.py&quot;, line 25, in AbinsLoadPhonopyTest\r\n    @unittest.skipUnless(euphonic_available(), &quot;Optional dependency (euphonic) not available&quot;)\r\n  File &quot;C:\\jenkins_workdir\\workspace\\main_nightly_deployment_prototype\\source\\scripts\\Inelastic\\dos\\load_euphonic.py&quot;, line 21, in euphonic_available\r\n    from euphonic.cli.utils import force_constants_from_file  # noqa: F401\r\n  File &quot;C:\\jenkins_workdir\\workspace\\main_nightly_deployment_prototype\\source\\mambaforge\\envs\\mantid-developer\\lib\\site-packages\\euphonic\\__init__.py&quot;, line 5, in &lt;module&gt;\r\n    import pint\r\n  File &quot;C:\\jenkins_workdir\\workspace\\main_nightly_deployment_prototype\\source\\mambaforge\\envs\\mantid-developer\\lib\\site-packages\\pint\\__init__.py&quot;, line 29, in &lt;module&gt;\r\n    from .registry import ApplicationRegistry, LazyRegistry, UnitRegistry\r\n  File &quot;C:\\jenkins_workdir\\workspace\\main_nightly_deployment_prototype\\source\\mambaforge\\envs\\mantid-developer\\lib\\site-packages\\pint\\registry.py&quot;, line 19, in &lt;module&gt;\r\n    from . import registry_helpers\r\n  File &quot;C:\\jenkins_workdir\\workspace\\main_nightly_deployment_prototype\\source\\mambaforge\\envs\\mantid-developer\\lib\\site-packages\\pint\\registry_helpers.py&quot;, line 19, in &lt;module&gt;\r\n    from ._typing import F\r\n  File &quot;C:\\jenkins_workdir\\workspace\\main_nightly_deployment_prototype\\source\\mambaforge\\envs\\mantid-developer\\lib\\site-packages\\pint\\_typing.py&quot;, line 31, in &lt;module&gt;\r\n    UnitLike = Union[str, dict[str, Scalar], &quot;UnitsContainer&quot;, &quot;Unit&quot;]\r\nTypeError: &#x27;type&#x27; object is not subscriptable\r\n\r\n          Start  504: APITest_EnabledWhenWorkspaceIsTypeTest\r\n"
+            }
+        },
+        {
+            "test_name": "AlgorithmsTest_FilterEventsTest",
+            "latest_failed_build": "567",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Flake",
+            "pipeline_name": "main_nightly_deployment_prototype",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "568",
+                    "567",
+                    "566",
+                    "565",
+                    "564",
+                    "563",
+                    "562",
+                    "561",
+                    "560",
+                    "559"
+                ],
+                "past_outcome_list": [
+                    "Passed",
                     "Flake",
                     "Passed",
                     "Passed",
@@ -29,8 +73,7 @@
                     "None",
                     "Passed",
                     "Passed",
-                    "None",
-                    "Passed"
+                    "None"
                 ]
             },
             "last_stack_traces": {

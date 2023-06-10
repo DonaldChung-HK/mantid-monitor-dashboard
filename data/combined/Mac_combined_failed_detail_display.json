@@ -1128,10 +1128,9 @@
         {
             "test_name": "AlgorithmsTest_SassenaFFTTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_989": "Flake",
-                "pull_requests-conda-osx_2782": "Flake"
+                "pull_requests-conda-osx_989": "Flake"
             },
-            "last_fail_detected": "2023-06-09"
+            "last_fail_detected": "2022-12-22"
         },
         {
             "test_name": "python.drill.DrillTest.DrillTest",
@@ -8237,15 +8236,9 @@
             "test_name": "python.scripts.AbinsLoadPhonopyTest.AbinsLoadPhonopyTest",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_2777": "Failed",
-                "pull_requests-conda-osx_2778": "Failed",
-                "pull_requests-conda-osx_2779": "Failed",
-                "pull_requests-conda-osx_2780": "Failed",
-                "pull_requests-conda-osx_2781": "Failed",
-                "pull_requests-conda-osx_2784": "Failed",
                 "pull_requests-conda-osx_2785": "Failed"
             },
-            "last_fail_detected": "2023-06-09"
+            "last_fail_detected": "2023-06-10"
         },
         {
             "test_name": "python.scripts.AbinsLoadVASPTest.AbinsLoadVASPTest",

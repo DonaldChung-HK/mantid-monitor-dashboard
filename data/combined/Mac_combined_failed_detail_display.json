@@ -1497,9 +1497,10 @@
                 "pull_requests-conda-osx_1116": "Failed",
                 "pull_requests-conda-osx_1117": "Failed",
                 "pull_requests-conda-osx_1120": "Failed",
-                "pull_requests-conda-osx_1122": "Failed"
+                "pull_requests-conda-osx_1122": "Failed",
+                "pull_requests-conda-osx_2796": "Flake"
             },
-            "last_fail_detected": "2023-01-13"
+            "last_fail_detected": "2023-06-12"
         },
         {
             "test_name": "DataHandlingTest_LoadDetectorInfoTest",
@@ -2310,9 +2311,10 @@
                 "pull_requests-conda-osx_1117": "Failed",
                 "pull_requests-conda-osx_1120": "Failed",
                 "pull_requests-conda-osx_1122": "Failed",
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_2795": "Flake"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-06-12"
         },
         {
             "test_name": "python.WorkflowAlgorithms.IndirectDiffScanTest.IndirectDiffScanTest",
@@ -8165,9 +8167,10 @@
             "test_name": "python.scripts.AbinsCalculateSPowderTest.AbinsCalculateSPowderTest",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_1429": "Failed"
+                "pull_requests-conda-osx_1429": "Failed",
+                "pull_requests-conda-osx_2792": "Failed"
             },
-            "last_fail_detected": "2023-02-06"
+            "last_fail_detected": "2023-06-12"
         },
         {
             "test_name": "python.scripts.AbinsDataTest.AbinsDataTest",

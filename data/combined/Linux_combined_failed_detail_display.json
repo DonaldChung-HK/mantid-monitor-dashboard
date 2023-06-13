@@ -1101,9 +1101,10 @@
         {
             "test_name": "MantidQtInterfacesIndirectTestQt5_IndirectPlotOptionsModelTest",
             "past_failed_outcome": {
-                "pull_requests-conda-linux_2328": "Flake"
+                "pull_requests-conda-linux_2328": "Flake",
+                "pull_requests-conda-linux_4239": "Flake"
             },
-            "last_fail_detected": "2022-12-23"
+            "last_fail_detected": "2023-06-13"
         },
         {
             "test_name": "python.plots.datafunctionsTest.datafunctionsTest",
@@ -9583,9 +9584,12 @@
                 "pull_requests-conda-linux_2628": "Failed",
                 "pull_requests-conda-linux_2629": "Failed",
                 "pull_requests-conda-linux_2782": "Failed",
-                "pull_requests-conda-linux_4222": "Failed"
+                "pull_requests-conda-linux_4236": "Failed",
+                "pull_requests-conda-linux_4237": "Failed",
+                "pull_requests-conda-linux_4238": "Failed",
+                "pull_requests-conda-linux_4239": "Failed"
             },
-            "last_fail_detected": "2023-06-12"
+            "last_fail_detected": "2023-06-13"
         },
         {
             "test_name": "python.scripts.AbinsDataTest.AbinsDataTest",
@@ -9686,7 +9690,7 @@
                 "pull_requests-conda-linux_2629": "Failed",
                 "main_nightly_deployment_prototype_568": "Failed"
             },
-            "last_fail_detected": "2023-06-12"
+            "last_fail_detected": "2023-06-13"
         },
         {
             "test_name": "python.scripts.AbinsLoadVASPTest.AbinsLoadVASPTest",
@@ -11613,6 +11617,14 @@
                 "main_nightly_deployment_prototype_501": "Flake"
             },
             "last_fail_detected": "2023-02-25"
+        },
+        {
+            "test_name": "WorkflowAlgorithmsTest_SofTwoThetaTOFTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_4242": "Failed",
+                "pull_requests-conda-linux_4243": "Failed"
+            },
+            "last_fail_detected": "2023-06-13"
         }
     ]
 }

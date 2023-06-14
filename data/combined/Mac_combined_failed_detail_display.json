@@ -8165,10 +8165,9 @@
             "test_name": "python.scripts.AbinsCalculateSPowderTest.AbinsCalculateSPowderTest",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_1429": "Failed",
-                "pull_requests-conda-osx_2799": "Failed"
+                "pull_requests-conda-osx_1429": "Failed"
             },
-            "last_fail_detected": "2023-06-13"
+            "last_fail_detected": "2023-02-06"
         },
         {
             "test_name": "python.scripts.AbinsDataTest.AbinsDataTest",
@@ -9604,14 +9603,6 @@
                 "pull_requests-conda-osx_1739": "Failed"
             },
             "last_fail_detected": "2023-03-01"
-        },
-        {
-            "test_name": "WorkflowAlgorithmsTest_SofTwoThetaTOFTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-osx_2805": "Failed",
-                "pull_requests-conda-osx_2806": "Failed"
-            },
-            "last_fail_detected": "2023-06-13"
         }
     ]
 }

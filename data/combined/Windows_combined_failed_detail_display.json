@@ -2774,7 +2774,7 @@
                 "pull_requests-conda-windows_1616": "Failed",
                 "main_nightly_deployment_prototype_567": "Flake"
             },
-            "last_fail_detected": "2023-06-15"
+            "last_fail_detected": "2023-06-16"
         },
         {
             "test_name": "DataHandlingTest_GroupDetectors2Test",
@@ -9379,7 +9379,7 @@
                 "pull_requests-conda-windows_1372": "Failed",
                 "main_nightly_deployment_prototype_568": "Failed"
             },
-            "last_fail_detected": "2023-06-15"
+            "last_fail_detected": "2023-06-16"
         },
         {
             "test_name": "python.scripts.AbinsLoadVASPTest.AbinsLoadVASPTest",

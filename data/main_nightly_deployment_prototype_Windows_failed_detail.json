@@ -1,14 +1,15 @@
 {
     "data": [
         {
-            "test_name": "python.scripts.AbinsLoadPhonopyTest.AbinsLoadPhonopyTest",
-            "latest_failed_build": "568",
+            "test_name": "DataObjectsTest_TimeSplitterTest",
+            "latest_failed_build": "574",
             "agent_name": "Windows",
-            "last_failed_outcome": "Failed",
+            "last_failed_outcome": "Flake",
             "pipeline_name": "main_nightly_deployment_prototype",
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "574",
                     "573",
                     "572",
                     "571",
@@ -17,8 +18,50 @@
                     "568",
                     "567",
                     "566",
-                    "565",
-                    "564"
+                    "565"
+                ],
+                "past_outcome_list": [
+                    "Flake",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "DataObjectsTest_TimeSplitterTest",
+                "build": "574",
+                "agent_name": "Windows",
+                "trial": 2,
+                "outcome": "Failed",
+                "test_time": "0.50",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230602.1033.dev234\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 16 tests.....\r\nIn TimeSplitterTest::test_toSplitters:\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/DataObjects/test/TimeSplitterTest.h:350: Error: Test failed: Something went wrong in TimeSplitter::addROI\r\n..........\r\nFailed 1 of 16 tests\r\nSuccess rate: 93%\r\n\r\n          Start 1080: DataObjectsTest_TimeSplitterTest\r\n"
+            }
+        },
+        {
+            "test_name": "python.scripts.AbinsLoadPhonopyTest.AbinsLoadPhonopyTest",
+            "latest_failed_build": "568",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "main_nightly_deployment_prototype",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "574",
+                    "573",
+                    "572",
+                    "571",
+                    "570",
+                    "569",
+                    "568",
+                    "567",
+                    "566",
+                    "565"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -26,8 +69,8 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Failed",
                     "Passed",
+                    "Failed",
                     "Passed",
                     "Passed",
                     "Passed"
@@ -52,6 +95,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "574",
                     "573",
                     "572",
                     "571",
@@ -60,8 +104,7 @@
                     "568",
                     "567",
                     "566",
-                    "565",
-                    "564"
+                    "565"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -70,8 +113,8 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Flake",
                     "Passed",
+                    "Flake",
                     "Passed",
                     "Passed"
                 ]

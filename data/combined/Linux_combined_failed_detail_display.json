@@ -9685,7 +9685,7 @@
                 "pull_requests-conda-linux_2629": "Failed",
                 "main_nightly_deployment_prototype_568": "Failed"
             },
-            "last_fail_detected": "2023-06-18"
+            "last_fail_detected": "2023-06-19"
         },
         {
             "test_name": "python.scripts.AbinsLoadVASPTest.AbinsLoadVASPTest",

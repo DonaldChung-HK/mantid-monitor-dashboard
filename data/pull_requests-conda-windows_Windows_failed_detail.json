@@ -1,3 +1,87 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "DataObjectsTest_TimeSplitterTest",
+            "latest_failed_build": "3064",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Flake",
+            "pipeline_name": "pull_requests-conda-windows",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "3069",
+                    "3068",
+                    "3067",
+                    "3066",
+                    "3065",
+                    "3064",
+                    "3063",
+                    "3062",
+                    "3061",
+                    "3060",
+                    "3059",
+                    "3058",
+                    "3057",
+                    "3056",
+                    "3055",
+                    "3054",
+                    "3053",
+                    "3052",
+                    "3051",
+                    "3050",
+                    "3049",
+                    "3048",
+                    "3047",
+                    "3046",
+                    "3045",
+                    "3044",
+                    "3043",
+                    "3042",
+                    "3041",
+                    "3040"
+                ],
+                "past_outcome_list": [
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Flake",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "DataObjectsTest_TimeSplitterTest",
+                "build": "3064",
+                "agent_name": "Windows",
+                "trial": 1,
+                "outcome": "Failed",
+                "test_time": "1.49",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230616.1258.dev195\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 16 tests.....Exit code 0xc0000409\r\n\r\n\r\n          Start 1080: DataObjectsTest_TimeSplitterTest\r\n"
+            }
+        }
+    ]
 }

@@ -9,6 +9,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "576",
                     "575",
                     "574",
                     "573",
@@ -17,13 +18,12 @@
                     "570",
                     "569",
                     "568",
-                    "567",
-                    "566"
+                    "567"
                 ],
                 "past_outcome_list": [
                     "Passed",
-                    "Flake",
                     "Passed",
+                    "Flake",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -52,6 +52,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "576",
                     "575",
                     "574",
                     "573",
@@ -60,8 +61,7 @@
                     "570",
                     "569",
                     "568",
-                    "567",
-                    "566"
+                    "567"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -71,8 +71,8 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Failed",
                     "Passed",
+                    "Failed",
                     "Passed"
                 ]
             },
@@ -95,6 +95,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "576",
                     "575",
                     "574",
                     "573",
@@ -103,8 +104,7 @@
                     "570",
                     "569",
                     "568",
-                    "567",
-                    "566"
+                    "567"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -115,8 +115,8 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Flake",
-                    "Passed"
+                    "Passed",
+                    "Flake"
                 ]
             },
             "last_stack_traces": {

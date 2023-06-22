@@ -1,14 +1,15 @@
 {
     "data": [
         {
-            "test_name": "python.scripts.AbinsLoadPhonopyTest.AbinsLoadPhonopyTest",
-            "latest_failed_build": "568",
+            "test_name": "mantidqt_qt5.test_jupyterconsole.test_jupyterconsole",
+            "latest_failed_build": "577",
             "agent_name": "Linux",
-            "last_failed_outcome": "Failed",
+            "last_failed_outcome": "Flake",
             "pipeline_name": "main_nightly_deployment_prototype",
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "577",
                     "576",
                     "575",
                     "574",
@@ -17,8 +18,50 @@
                     "571",
                     "570",
                     "569",
-                    "568",
-                    "567"
+                    "568"
+                ],
+                "past_outcome_list": [
+                    "Flake",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "mantidqt_qt5.test_jupyterconsole.test_jupyterconsole",
+                "build": "577",
+                "agent_name": "Linux",
+                "trial": 1,
+                "outcome": "Timeout",
+                "test_time": "1200.10",
+                "stacktrace": "QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\n\n          Start 2101: mantidqt_qt5.test_jupyterconsole.test_jupyterconsole\n"
+            }
+        },
+        {
+            "test_name": "python.scripts.AbinsLoadPhonopyTest.AbinsLoadPhonopyTest",
+            "latest_failed_build": "568",
+            "agent_name": "Linux",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "main_nightly_deployment_prototype",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "577",
+                    "576",
+                    "575",
+                    "574",
+                    "573",
+                    "572",
+                    "571",
+                    "570",
+                    "569",
+                    "568"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -29,8 +72,8 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Failed",
-                    "Passed"
+                    "Passed",
+                    "Failed"
                 ]
             },
             "last_stack_traces": {

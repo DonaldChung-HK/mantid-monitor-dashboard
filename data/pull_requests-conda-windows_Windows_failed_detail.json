@@ -1,14 +1,22 @@
 {
     "data": [
         {
-            "test_name": "DataObjectsTest_TimeSplitterTest",
-            "latest_failed_build": "3073",
+            "test_name": "AlgorithmsTest_FilterEventsTest",
+            "latest_failed_build": "3081",
             "agent_name": "Windows",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-windows",
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3083",
+                    "3082",
+                    "3081",
+                    "3080",
+                    "3079",
+                    "3078",
+                    "3077",
+                    "3076",
                     "3075",
                     "3074",
                     "3073",
@@ -30,15 +38,7 @@
                     "3057",
                     "3056",
                     "3055",
-                    "3054",
-                    "3053",
-                    "3052",
-                    "3051",
-                    "3050",
-                    "3049",
-                    "3048",
-                    "3047",
-                    "3046"
+                    "3054"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -47,8 +47,8 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "None",
-                    "None",
+                    "Passed",
+                    "Passed",
                     "None",
                     "None",
                     "None",
@@ -74,13 +74,13 @@
                 ]
             },
             "last_stack_traces": {
-                "test_name": "DataObjectsTest_TimeSplitterTest",
-                "build": "3073",
+                "test_name": "AlgorithmsTest_FilterEventsTest",
+                "build": "3081",
                 "agent_name": "Windows",
                 "trial": 1,
                 "outcome": "Failed",
-                "test_time": "0.92",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230619.1332.dev258\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 16 tests...............Exit code 0xc0000409\r\n\r\n\r\n          Start 1080: DataObjectsTest_TimeSplitterTest\r\n"
+                "test_time": "1.00",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230619.1332.dev282\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 18 testsFilterEventsTest-[Notice] \r\ntest_Initialization...\r\n.FilterEventsTest-[Notice] \r\ntest_CreatedEventWorskpaceAndSplitter...\r\n.FilterEventsTest-[Notice] \r\ntest_protonCharge...\r\nFilterEvents-[Notice] FilterEvents started\r\nFilterEvents-[Notice] All spectra have detectors.\r\nFilterEvents-[Notice] FilterEvents successful, Duration 0.02 seconds\r\n.FilterEventsTest-[Notice] \r\ntest_FilterNoCorrection...\r\nFilterEvents-[Notice] FilterEvents started\r\nFilterEvents-[Notice] All spectra have detectors.\r\nFilterEvents-[Notice] FilterEvents successful, Duration 0.01 seconds\r\n.FilterEventsTest-[Notice] \r\ntest_FilterWOCorrection2...\r\nFilterEvents-[Notice] FilterEvents started\r\nFilterEvents-[Notice] All spectra have detectors.\r\nFilterEvents-[Notice] FilterEvents successful, Duration 0.01 seconds\r\n.FilterEventsTest-[Notice] \r\ntest_FilterWithCustomizedCorrection...\r\nFilterEvents-[Notice] FilterEvents started\r\nFilterEvents-[Notice] All spectra have detectors.\r\nFilterEvents-[Notice] FilterEvents successful, Duration 0.00 seconds\r\n.FilterEventsTest-[Notice] \r\ntest_FilterElasticCorrection...\r\nFilterEvents-[Notice] FilterEvents started\r\nFilterEvents-[Notice] All spectra have detectors.\r\nRun-[Warning] proton_charge log was not a time series property. The value of the total proton charge has not been set\r\nRun-[Warning] proton_charge log was not a time series property. The value of the total proton charge has not been set\r\nRun-[Warning] proton_charge log was not a time series property. The value of the total proton charge has not been set\r\nRun-[Warning] proton_charge log was not a time series property. The value of the total proton charge has not been set\r\nRun-[Warning] proton_charge log was not a time series property. The value of the total proton charge has not been set\r\nRun-[Warning] proton_charge log was not a time series property. The value of the total proton charge has not been set\r\nRun-[Warning] proton_charge log was not a time series property. The value of the total proton charge has not been set\r\nRun-[Warning] proton_charge log was not a time series property. The value of the total proton charge has not been set\r\nRun-[Warning] proton_charge log was not a time series property. The value of the total proton charge has not been set\r\nFilterEvents-[Notice] FilterEvents successful, Duration 0.01 seconds\r\n.FilterEventsTest-[Notice] \r\ntest_FilterDGCorrection...\r\nRun-[Warning] proton_charge log was not a time series property. The value of the total proton charge has not been set\r\nFilterEvents-[Notice] FilterEvents started\r\nFilterEvents-[Notice] All spectra have detectors.\r\nRun-[Warning] proton_charge log was not a time series property. The value of the total proton charge has not been set\r\nRun-[Warning] proton_charge log was not a time series property. The value of the total proton charge has not been set\r\nRun-[Warning] proton_charge log was not a time series property. The value of the total proton charge has not been set\r\nRun-[Warning] proton_charge log was not a time series property. The value of the total proton charge has not been set\r\nRun-[Warning] proton_charge log was not a time series property. The value of the total proton charge has not been set\r\nRun-[Warning] proton_charge log was not a time series property. The value of the total proton charge has not been set\r\nRun-[Warning] proton_charge log was not a time series property. The value of the total proton charge has not been set\r\nRun-[Warning] proton_charge log was not a time series property. The value of the total proton charge has not been set\r\nRun-[Warning] proton_charge log was not a time series property. The value of the total proton charge has not been set\r\nFilterEvents-[Notice] FilterEvents successful, Duration 0.01 seconds\r\n.FilterEventsTest-[Notice] \r\ntest_FilterIndirectGeometryCorrection...\r\nFilterEvents-[Notice] FilterEvents started\r\nFilterEvents-[Notice] All spectra have detectors.\r\nFilterEvents-[Error] Error in execution of algorithm FilterEvents\r\nFilterEvents-[Error] Something went wrong in TimeSplitter::addROI\r\n\r\nIn FilterEventsTest::test_FilterIndirectGeometryCorrection:\r\nC:/jenkins_workdir/workspace/pull_requests-conda-windows/Framework/Algorithms/test/FilterEventsTest.h:680: Error: Assertion failed: filter.isExecuted()\r\nExit code 0xc0000409\r\n\r\n\r\n          Start  297: AlgorithmsTest_FilterEventsTest\r\n"
             }
         }
     ]

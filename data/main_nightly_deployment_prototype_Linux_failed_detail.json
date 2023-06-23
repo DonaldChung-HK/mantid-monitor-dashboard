@@ -9,6 +9,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "578",
                     "577",
                     "576",
                     "575",
@@ -17,12 +18,11 @@
                     "572",
                     "571",
                     "570",
-                    "569",
-                    "568"
+                    "569"
                 ],
                 "past_outcome_list": [
-                    "Flake",
                     "Passed",
+                    "Flake",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -41,49 +41,6 @@
                 "outcome": "Timeout",
                 "test_time": "1200.10",
                 "stacktrace": "QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\n\n          Start 2101: mantidqt_qt5.test_jupyterconsole.test_jupyterconsole\n"
-            }
-        },
-        {
-            "test_name": "python.scripts.AbinsLoadPhonopyTest.AbinsLoadPhonopyTest",
-            "latest_failed_build": "568",
-            "agent_name": "Linux",
-            "last_failed_outcome": "Failed",
-            "pipeline_name": "main_nightly_deployment_prototype",
-            "problem_count": 1,
-            "past_outcome": {
-                "build_keys": [
-                    "577",
-                    "576",
-                    "575",
-                    "574",
-                    "573",
-                    "572",
-                    "571",
-                    "570",
-                    "569",
-                    "568"
-                ],
-                "past_outcome_list": [
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Failed"
-                ]
-            },
-            "last_stack_traces": {
-                "test_name": "python.scripts.AbinsLoadPhonopyTest.AbinsLoadPhonopyTest",
-                "build": "568",
-                "agent_name": "Linux",
-                "trial": 3,
-                "outcome": "Failed",
-                "test_time": "2.85",
-                "stacktrace": "Traceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/PythonInterface/test/testhelpers/testrunner.py&quot;, line 80, in &lt;module&gt;\n    main(sys.argv)\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/PythonInterface/test/testhelpers/testrunner.py&quot;, line 36, in main\n    test_module = SourceFileLoader(module_name(pathname), pathname).load_module()\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 522, in _check_name_wrapper\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 1022, in load_module\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 847, in load_module\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 265, in _load_module_shim\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 702, in _load\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 671, in _load_unlocked\n  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 843, in exec_module\n  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 219, in _call_with_frames_removed\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/scripts/test/Abins/AbinsLoadPhonopyTest.py&quot;, line 15, in &lt;module&gt;\n    class AbinsLoadPhonopyTest(unittest.TestCase, abins.input.Tester):\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/scripts/test/Abins/AbinsLoadPhonopyTest.py&quot;, line 25, in AbinsLoadPhonopyTest\n    @unittest.skipUnless(euphonic_available(), &quot;Optional dependency (euphonic) not available&quot;)\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/scripts/Inelastic/dos/load_euphonic.py&quot;, line 21, in euphonic_available\n    from euphonic.cli.utils import force_constants_from_file  # noqa: F401\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/mambaforge/envs/mantid-developer/lib/python3.8/site-packages/euphonic/__init__.py&quot;, line 5, in &lt;module&gt;\n    import pint\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/mambaforge/envs/mantid-developer/lib/python3.8/site-packages/pint/__init__.py&quot;, line 29, in &lt;module&gt;\n    from .registry import ApplicationRegistry, LazyRegistry, UnitRegistry\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/mambaforge/envs/mantid-developer/lib/python3.8/site-packages/pint/registry.py&quot;, line 19, in &lt;module&gt;\n    from . import registry_helpers\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/mambaforge/envs/mantid-developer/lib/python3.8/site-packages/pint/registry_helpers.py&quot;, line 19, in &lt;module&gt;\n    from ._typing import F\n  File &quot;/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/mambaforge/envs/mantid-developer/lib/python3.8/site-packages/pint/_typing.py&quot;, line 31, in &lt;module&gt;\n    UnitLike = Union[str, dict[str, Scalar], &quot;UnitsContainer&quot;, &quot;Unit&quot;]\nTypeError: &#x27;type&#x27; object is not subscriptable\n\n          Start  717: CurveFittingTest_FABADAMinimizerTest\n"
             }
         }
     ]

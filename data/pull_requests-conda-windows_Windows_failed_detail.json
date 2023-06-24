@@ -2,13 +2,19 @@
     "data": [
         {
             "test_name": "DataObjectsTest_TimeSplitterTest",
-            "latest_failed_build": "3088",
+            "latest_failed_build": "3096",
             "agent_name": "Windows",
             "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-windows",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3097",
+                    "3096",
+                    "3095",
+                    "3094",
+                    "3093",
+                    "3092",
                     "3091",
                     "3090",
                     "3089",
@@ -32,23 +38,17 @@
                     "3071",
                     "3070",
                     "3069",
-                    "3068",
-                    "3067",
-                    "3066",
-                    "3065",
-                    "3064",
-                    "3063",
-                    "3062"
+                    "3068"
                 ],
                 "past_outcome_list": [
                     "Passed",
-                    "Passed",
-                    "Passed",
                     "Flake",
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Flake",
+                    "Passed",
+                    "None",
+                    "None",
                     "None",
                     "None",
                     "None",
@@ -75,12 +75,12 @@
             },
             "last_stack_traces": {
                 "test_name": "DataObjectsTest_TimeSplitterTest",
-                "build": "3088",
+                "build": "3096",
                 "agent_name": "Windows",
-                "trial": 2,
+                "trial": 1,
                 "outcome": "Failed",
-                "test_time": "1.12",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230619.1332.dev26\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 16 tests.....Exit code 0xc0000409\r\n\r\n\r\n          Start 1080: DataObjectsTest_TimeSplitterTest\r\n"
+                "test_time": "1.21",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230619.1332.dev290\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 16 tests.....Exit code 0xc0000409\r\n\r\n\r\n          Start 1080: DataObjectsTest_TimeSplitterTest\r\n"
             }
         }
     ]

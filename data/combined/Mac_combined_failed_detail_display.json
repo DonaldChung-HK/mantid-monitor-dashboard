@@ -5257,9 +5257,10 @@
         {
             "test_name": "python.WorkflowAlgorithms.CorelliPowderCalibrationCreateTest.CorelliPowderCalibrationCreateTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_2883": "Flake"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-06-24"
         },
         {
             "test_name": "python.WorkflowAlgorithms.D4ILLReductionTest.D4ILLReductionTest",

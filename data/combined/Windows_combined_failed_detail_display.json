@@ -10883,12 +10883,11 @@
         {
             "test_name": "DataObjectsTest_TimeSplitterTest",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_3084": "Flake",
-                "pull_requests-conda-windows_3088": "Flake",
+                "pull_requests-conda-windows_3096": "Flake",
                 "main_nightly_deployment_prototype_574": "Flake",
                 "main_nightly_deployment_prototype_578": "Flake"
             },
-            "last_fail_detected": "2023-06-23"
+            "last_fail_detected": "2023-06-24"
         }
     ]
 }

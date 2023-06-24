@@ -2357,7 +2357,7 @@
                 "pull_requests-conda-linux_2629": "Failed",
                 "main_nightly_deployment_prototype_577": "Flake"
             },
-            "last_fail_detected": "2023-06-23"
+            "last_fail_detected": "2023-06-24"
         },
         {
             "test_name": "mantidqt_qt5.test_line_edit_double_validator.test_line_edit_double_validator",

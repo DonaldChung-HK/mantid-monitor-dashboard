@@ -3007,9 +3007,10 @@
         {
             "test_name": "mantidqt_qt5.test_colorbar.test_colorbar",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_2887": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-06-26"
         },
         {
             "test_name": "mantidqt_qt5.test_completion.test_completion",

@@ -1,3 +1,87 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "mantidqt_qt5.test_colorbar.test_colorbar",
+            "latest_failed_build": "2887",
+            "agent_name": "Mac",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-osx",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "2891",
+                    "2890",
+                    "2889",
+                    "2888",
+                    "2887",
+                    "2886",
+                    "2885",
+                    "2884",
+                    "2883",
+                    "2882",
+                    "2881",
+                    "2880",
+                    "2879",
+                    "2878",
+                    "2877",
+                    "2876",
+                    "2875",
+                    "2874",
+                    "2873",
+                    "2872",
+                    "2871",
+                    "2870",
+                    "2869",
+                    "2868",
+                    "2867",
+                    "2866",
+                    "2865",
+                    "2864",
+                    "2863",
+                    "2862"
+                ],
+                "past_outcome_list": [
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Failed",
+                    "Passed",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "mantidqt_qt5.test_colorbar.test_colorbar",
+                "build": "2887",
+                "agent_name": "Mac",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "24.50",
+                "stacktrace": "FFFF/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/colorbar/colorbar.py:210: UserWarning: Attempt to set non-positive ylim on a log-scaled axis will be ignored.\n  self.colorbar.mappable.set_norm(self.get_norm())\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/colorbar/colorbar.py:210: UserWarning: Attempting to set identical low and high ylims makes transformation singular; automatically expanding.\n  self.colorbar.mappable.set_norm(self.get_norm())\n./Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/colorbar/colorbar.py:393: UserWarning: Attempt to set non-positive ylim on a log-scaled axis will be ignored.\n  mappable.norm = self._create_linear_normalize_object()\n......\n======================================================================\nFAIL: test_invalid_cmax_range_is_reset (test_colorbar.ColorbarWidgetTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/colorbar/test/test_colorbar.py&quot;, line 126, in test_invalid_cmax_range_is_reset\n    self.assertEqual(&quot;10&quot;, self.widget.cmax.text())\nAssertionError: &#x27;10&#x27; != &#x27;10.0&#x27;\n- 10\n+ 10.0\n?   ++\n\n\n======================================================================\nFAIL: test_invalid_cmax_syntax_is_reset (test_colorbar.ColorbarWidgetTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/colorbar/test/test_colorbar.py&quot;, line 152, in test_invalid_cmax_syntax_is_reset\n    self.assertEqual(&quot;10&quot;, self.widget.cmax.text())\nAssertionError: &#x27;10&#x27; != &#x27;10.0&#x27;\n- 10\n+ 10.0\n?   ++\n\n\n======================================================================\nFAIL: test_invalid_cmin_range_is_reset (test_colorbar.ColorbarWidgetTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/colorbar/test/test_colorbar.py&quot;, line 140, in test_invalid_cmin_range_is_reset\n    self.assertEqual(&quot;0&quot;, self.widget.cmin.text())\nAssertionError: &#x27;0&#x27; != &#x27;0.0&#x27;\n- 0\n+ 0.0\n\n\n======================================================================\nFAIL: test_invalid_cmin_syntax_is_reset (test_colorbar.ColorbarWidgetTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/colorbar/test/test_colorbar.py&quot;, line 164, in test_invalid_cmin_syntax_is_reset\n    self.assertEqual(&quot;0&quot;, self.widget.cmin.text())\nAssertionError: &#x27;0&#x27; != &#x27;0.0&#x27;\n- 0\n+ 0.0\n\n\n----------------------------------------------------------------------\nRan 11 tests in 20.528s\n\nFAILED (failures=4)\n\n          Start 1397: python.api.DataProcessorAlgorithmTest.DataProcessorAlgorithmTest\n"
+            }
+        }
+    ]
 }

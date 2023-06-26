@@ -2771,9 +2771,11 @@
                 "pull_requests-conda-windows_1580": "Failed",
                 "pull_requests-conda-windows_1609": "Failed",
                 "pull_requests-conda-windows_1613": "Failed",
-                "pull_requests-conda-windows_1616": "Failed"
+                "pull_requests-conda-windows_1616": "Failed",
+                "pull_requests-conda-windows_3098": "Flake",
+                "pull_requests-conda-windows_3101": "Flake"
             },
-            "last_fail_detected": "2023-02-10"
+            "last_fail_detected": "2023-06-26"
         },
         {
             "test_name": "DataHandlingTest_GroupDetectors2Test",
@@ -3267,9 +3269,10 @@
             "test_name": "mantidqt_qt5.test_colorbar.test_colorbar",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_3099": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-06-26"
         },
         {
             "test_name": "mantidqt_qt5.test_completion.test_completion",
@@ -10886,7 +10889,7 @@
                 "main_nightly_deployment_prototype_574": "Flake",
                 "main_nightly_deployment_prototype_578": "Flake"
             },
-            "last_fail_detected": "2023-06-25"
+            "last_fail_detected": "2023-06-26"
         }
     ]
 }

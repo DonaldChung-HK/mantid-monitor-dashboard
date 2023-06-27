@@ -2284,9 +2284,10 @@
                 "pull_requests-conda-osx_1117": "Failed",
                 "pull_requests-conda-osx_1120": "Failed",
                 "pull_requests-conda-osx_1122": "Failed",
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_2894": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-06-27"
         },
         {
             "test_name": "python.WorkflowAlgorithms.ISISIndirectDiffractionReductionTest.ISISIndirectDiffractionReductionTest",
@@ -3007,10 +3008,9 @@
         {
             "test_name": "mantidqt_qt5.test_colorbar.test_colorbar",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_2887": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-06-26"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "mantidqt_qt5.test_completion.test_completion",
@@ -5974,9 +5974,10 @@
         {
             "test_name": "python.algorithms.DNSComputeDetEffCorrCoefsTest.DNSComputeDetEffCorrCoefsTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_2894": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-06-27"
         },
         {
             "test_name": "python.algorithms.DNSFlippingRatioCorrTest.DNSFlippingRatioCorrTest",
@@ -6421,9 +6422,10 @@
         {
             "test_name": "python.algorithms.MeanTest.MeanTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_2894": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-06-27"
         },
         {
             "test_name": "python.algorithms.MedianBinWidthTest.MedianBinWidthTest",

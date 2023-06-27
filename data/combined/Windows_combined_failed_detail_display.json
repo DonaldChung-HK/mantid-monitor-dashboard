@@ -2771,11 +2771,9 @@
                 "pull_requests-conda-windows_1580": "Failed",
                 "pull_requests-conda-windows_1609": "Failed",
                 "pull_requests-conda-windows_1613": "Failed",
-                "pull_requests-conda-windows_1616": "Failed",
-                "pull_requests-conda-windows_3098": "Flake",
-                "pull_requests-conda-windows_3101": "Flake"
+                "pull_requests-conda-windows_1616": "Failed"
             },
-            "last_fail_detected": "2023-06-26"
+            "last_fail_detected": "2023-02-10"
         },
         {
             "test_name": "DataHandlingTest_GroupDetectors2Test",
@@ -3269,10 +3267,9 @@
             "test_name": "mantidqt_qt5.test_colorbar.test_colorbar",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed",
-                "pull_requests-conda-windows_3099": "Failed"
+                "pull_requests-conda-windows_1372": "Failed"
             },
-            "last_fail_detected": "2023-06-26"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "mantidqt_qt5.test_completion.test_completion",
@@ -5860,9 +5857,10 @@
             "test_name": "python.WorkflowAlgorithms.CalculateMonteCarloAbsorptionTest.CalculateMonteCarloAbsorptionTest",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_3106": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-06-27"
         },
         {
             "test_name": "python.WorkflowAlgorithms.CorelliPowderCalibrationCreateTest.CorelliPowderCalibrationCreateTest",
@@ -6753,9 +6751,10 @@
             "test_name": "python.algorithms.DNSComputeDetEffCorrCoefsTest.DNSComputeDetEffCorrCoefsTest",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_3106": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-06-27"
         },
         {
             "test_name": "python.algorithms.DNSFlippingRatioCorrTest.DNSFlippingRatioCorrTest",
@@ -7263,9 +7262,10 @@
             "test_name": "python.algorithms.MeanTest.MeanTest",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_3106": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-06-27"
         },
         {
             "test_name": "python.algorithms.MedianBinWidthTest.MedianBinWidthTest",
@@ -10884,12 +10884,26 @@
             "last_fail_detected": "2023-02-17"
         },
         {
+            "test_name": "CurveFittingTest_FitTest",
+            "past_failed_outcome": {
+                "main_nightly_deployment_prototype_580": "Flake"
+            },
+            "last_fail_detected": "2023-06-27"
+        },
+        {
+            "test_name": "CurveFittingTest_ResolutionTest",
+            "past_failed_outcome": {
+                "main_nightly_deployment_prototype_580": "Flake"
+            },
+            "last_fail_detected": "2023-06-27"
+        },
+        {
             "test_name": "DataObjectsTest_TimeSplitterTest",
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_574": "Flake",
                 "main_nightly_deployment_prototype_578": "Flake"
             },
-            "last_fail_detected": "2023-06-26"
+            "last_fail_detected": "2023-06-27"
         }
     ]
 }

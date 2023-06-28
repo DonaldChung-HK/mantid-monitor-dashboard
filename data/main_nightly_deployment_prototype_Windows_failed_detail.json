@@ -9,6 +9,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "581",
                     "580",
                     "579",
                     "578",
@@ -17,12 +18,11 @@
                     "575",
                     "574",
                     "573",
-                    "572",
-                    "571"
+                    "572"
                 ],
                 "past_outcome_list": [
-                    "Flake",
                     "Passed",
+                    "Flake",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -52,6 +52,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "581",
                     "580",
                     "579",
                     "578",
@@ -60,12 +61,11 @@
                     "575",
                     "574",
                     "573",
-                    "572",
-                    "571"
+                    "572"
                 ],
                 "past_outcome_list": [
-                    "Flake",
                     "Passed",
+                    "Flake",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -95,6 +95,7 @@
             "problem_count": 2,
             "past_outcome": {
                 "build_keys": [
+                    "581",
                     "580",
                     "579",
                     "578",
@@ -103,18 +104,17 @@
                     "575",
                     "574",
                     "573",
-                    "572",
-                    "571"
+                    "572"
                 ],
                 "past_outcome_list": [
                     "Passed",
                     "Passed",
-                    "Flake",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Flake",
                     "Passed",
+                    "Passed",
+                    "Passed",
+                    "Flake",
                     "Passed",
                     "Passed"
                 ]

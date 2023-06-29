@@ -9,6 +9,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "582",
                     "581",
                     "580",
                     "579",
@@ -17,13 +18,12 @@
                     "576",
                     "575",
                     "574",
-                    "573",
-                    "572"
+                    "573"
                 ],
                 "past_outcome_list": [
                     "Passed",
-                    "Flake",
                     "Passed",
+                    "Flake",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -52,6 +52,7 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "582",
                     "581",
                     "580",
                     "579",
@@ -60,13 +61,12 @@
                     "576",
                     "575",
                     "574",
-                    "573",
-                    "572"
+                    "573"
                 ],
                 "past_outcome_list": [
                     "Passed",
-                    "Flake",
                     "Passed",
+                    "Flake",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -95,6 +95,7 @@
             "problem_count": 2,
             "past_outcome": {
                 "build_keys": [
+                    "582",
                     "581",
                     "580",
                     "579",
@@ -103,19 +104,18 @@
                     "576",
                     "575",
                     "574",
-                    "573",
-                    "572"
+                    "573"
                 ],
                 "past_outcome_list": [
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Flake",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "Flake",
                     "Passed",
+                    "Passed",
+                    "Passed",
+                    "Flake",
                     "Passed"
                 ]
             },

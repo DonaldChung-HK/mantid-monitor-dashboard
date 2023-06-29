@@ -525,10 +525,9 @@
                 "pull_requests-conda-osx_1211": "Flake",
                 "pull_requests-conda-osx_1276": "Flake",
                 "pull_requests-conda-osx_1491": "Flake",
-                "pull_requests-conda-osx_1640": "Flake",
-                "pull_requests-conda-osx_2903": "Flake"
+                "pull_requests-conda-osx_1640": "Flake"
             },
-            "last_fail_detected": "2023-06-28"
+            "last_fail_detected": "2023-02-22"
         },
         {
             "test_name": "python.algorithms.HB2AReduceTest.HB2AReduceTest",
@@ -2379,11 +2378,9 @@
                 "pull_requests-conda-osx_1285": "Failed",
                 "pull_requests-conda-osx_1594": "Failed",
                 "pull_requests-conda-osx_1595": "Failed",
-                "pull_requests-conda-osx_1598": "Failed",
-                "pull_requests-conda-osx_2909": "Failed",
-                "pull_requests-conda-osx_2912": "Failed"
+                "pull_requests-conda-osx_1598": "Failed"
             },
-            "last_fail_detected": "2023-06-28"
+            "last_fail_detected": "2023-02-17"
         },
         {
             "test_name": "python.algorithms.ComputeIncoherentDOSTest.ComputeIncoherentDOSTest",
@@ -9406,11 +9403,9 @@
                 "pull_requests-conda-osx_1420": "Failed",
                 "pull_requests-conda-osx_1421": "Failed",
                 "pull_requests-conda-osx_1422": "Failed",
-                "pull_requests-conda-osx_1444": "Failed",
-                "pull_requests-conda-osx_2909": "Failed",
-                "pull_requests-conda-osx_2912": "Failed"
+                "pull_requests-conda-osx_1444": "Failed"
             },
-            "last_fail_detected": "2023-06-28"
+            "last_fail_detected": "2023-02-07"
         },
         {
             "test_name": "MantidQtInterfacesIndirectTestQt5_InelasticDataManipulationSymmetriseTabModelTest",
@@ -9608,14 +9603,6 @@
                 "pull_requests-conda-osx_1739": "Failed"
             },
             "last_fail_detected": "2023-03-01"
-        },
-        {
-            "test_name": "AlgorithmsTest_SofQWTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-osx_2909": "Failed",
-                "pull_requests-conda-osx_2912": "Failed"
-            },
-            "last_fail_detected": "2023-06-28"
         }
     ]
 }

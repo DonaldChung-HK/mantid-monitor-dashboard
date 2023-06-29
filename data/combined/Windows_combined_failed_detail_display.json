@@ -2771,9 +2771,10 @@
                 "pull_requests-conda-windows_1580": "Failed",
                 "pull_requests-conda-windows_1609": "Failed",
                 "pull_requests-conda-windows_1613": "Failed",
-                "pull_requests-conda-windows_1616": "Failed"
+                "pull_requests-conda-windows_1616": "Failed",
+                "pull_requests-conda-windows_3132": "Flake"
             },
-            "last_fail_detected": "2023-02-10"
+            "last_fail_detected": "2023-06-29"
         },
         {
             "test_name": "DataHandlingTest_GroupDetectors2Test",
@@ -6417,11 +6418,9 @@
                 "pull_requests-conda-windows_1372": "Failed",
                 "pull_requests-conda-windows_1705": "Failed",
                 "pull_requests-conda-windows_1706": "Failed",
-                "pull_requests-conda-windows_1710": "Failed",
-                "pull_requests-conda-windows_3122": "Failed",
-                "pull_requests-conda-windows_3125": "Failed"
+                "pull_requests-conda-windows_1710": "Failed"
             },
-            "last_fail_detected": "2023-06-28"
+            "last_fail_detected": "2023-02-17"
         },
         {
             "test_name": "python.WorkflowAlgorithms.SofQWMomentsTest.SofQWMomentsTest",
@@ -7412,9 +7411,10 @@
                 "pull_requests-conda-windows_1741": "Failed",
                 "pull_requests-conda-windows_1768": "Failed",
                 "pull_requests-conda-windows_1778": "Failed",
-                "pull_requests-conda-windows_1876": "Failed"
+                "pull_requests-conda-windows_1876": "Failed",
+                "pull_requests-conda-windows_3130": "Flake"
             },
-            "last_fail_detected": "2023-03-01"
+            "last_fail_detected": "2023-06-29"
         },
         {
             "test_name": "python.algorithms.RetrieveRunInfoTest.RetrieveRunInfoTest",
@@ -10690,11 +10690,9 @@
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1511": "Failed",
                 "pull_requests-conda-windows_1515": "Failed",
-                "pull_requests-conda-windows_1537": "Failed",
-                "pull_requests-conda-windows_3122": "Failed",
-                "pull_requests-conda-windows_3125": "Failed"
+                "pull_requests-conda-windows_1537": "Failed"
             },
-            "last_fail_detected": "2023-06-28"
+            "last_fail_detected": "2023-02-07"
         },
         {
             "test_name": "MantidQtInterfacesIndirectTestQt5_InelasticDataManipulationSymmetriseTabModelTest",
@@ -10887,38 +10885,25 @@
         {
             "test_name": "DataObjectsTest_TimeSplitterTest",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_3114": "Flake",
-                "pull_requests-conda-windows_3118": "Flake",
-                "pull_requests-conda-windows_3121": "Flake",
-                "pull_requests-conda-windows_3122": "Flake",
-                "pull_requests-conda-windows_3123": "Flake",
-                "pull_requests-conda-windows_3126": "Flake",
+                "pull_requests-conda-windows_3130": "Flake",
                 "main_nightly_deployment_prototype_574": "Flake",
                 "main_nightly_deployment_prototype_578": "Flake"
             },
-            "last_fail_detected": "2023-06-28"
-        },
-        {
-            "test_name": "AlgorithmsTest_SofQWTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-windows_3122": "Failed",
-                "pull_requests-conda-windows_3125": "Failed"
-            },
-            "last_fail_detected": "2023-06-28"
+            "last_fail_detected": "2023-06-29"
         },
         {
             "test_name": "CurveFittingTest_FitTest",
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_580": "Flake"
             },
-            "last_fail_detected": "2023-06-28"
+            "last_fail_detected": "2023-06-29"
         },
         {
             "test_name": "CurveFittingTest_ResolutionTest",
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_580": "Flake"
             },
-            "last_fail_detected": "2023-06-28"
+            "last_fail_detected": "2023-06-29"
         }
     ]
 }

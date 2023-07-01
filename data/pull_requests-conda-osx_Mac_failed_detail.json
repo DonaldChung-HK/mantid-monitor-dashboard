@@ -1,3 +1,87 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "MantidQtInterfacesIndirectTestQt5_IndirectFitDataModelTest",
+            "latest_failed_build": "2925",
+            "agent_name": "Mac",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-osx",
+            "problem_count": 2,
+            "past_outcome": {
+                "build_keys": [
+                    "2926",
+                    "2925",
+                    "2924",
+                    "2923",
+                    "2922",
+                    "2921",
+                    "2920",
+                    "2919",
+                    "2918",
+                    "2917",
+                    "2916",
+                    "2915",
+                    "2914",
+                    "2913",
+                    "2912",
+                    "2911",
+                    "2910",
+                    "2909",
+                    "2908",
+                    "2907",
+                    "2906",
+                    "2905",
+                    "2904",
+                    "2903",
+                    "2902",
+                    "2901",
+                    "2900",
+                    "2899",
+                    "2898",
+                    "2897"
+                ],
+                "past_outcome_list": [
+                    "Passed",
+                    "Failed",
+                    "Passed",
+                    "Failed",
+                    "Passed",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "MantidQtInterfacesIndirectTestQt5_IndirectFitDataModelTest",
+                "build": "2925",
+                "agent_name": "Mac",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "2.22",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.7.20230629.1209.dev18\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 25 tests.\nIn IndirectFitDataModelTest::test_setResolutin_bad_data:\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/scientific_interfaces/Indirect/test/IndirectFitDataModelTest.h:56: Error: Expected (m_fitData-&gt;setResolution(&quot;resolution workspace&quot;) == false), found (true != false)\n...........Instrument-[Warning] In Instrument::getSource(). No source has been set.\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\n............\nFailed 1 of 25 tests\nSuccess rate: 96%\n\n          Start   10: KernelTest_AtomTest\n"
+            }
+        }
+    ]
 }

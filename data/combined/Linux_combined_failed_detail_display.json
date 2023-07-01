@@ -2357,7 +2357,7 @@
                 "pull_requests-conda-linux_2629": "Failed",
                 "main_nightly_deployment_prototype_577": "Flake"
             },
-            "last_fail_detected": "2023-06-30"
+            "last_fail_detected": "2023-07-01"
         },
         {
             "test_name": "mantidqt_qt5.test_line_edit_double_validator.test_line_edit_double_validator",
@@ -11079,9 +11079,10 @@
                 "pull_requests-conda-linux_2825": "Failed",
                 "pull_requests-conda-linux_2829": "Failed",
                 "pull_requests-conda-linux_2842": "Failed",
-                "pull_requests-conda-linux_2867": "Failed"
+                "pull_requests-conda-linux_2867": "Failed",
+                "pull_requests-conda-linux_4372": "Flake"
             },
-            "last_fail_detected": "2023-02-10"
+            "last_fail_detected": "2023-07-01"
         },
         {
             "test_name": "MDAlgorithmsTest_ConvertCWPDMDToSpectraTest",
@@ -11297,9 +11298,11 @@
                 "pull_requests-conda-linux_2773": "Failed",
                 "pull_requests-conda-linux_2797": "Failed",
                 "pull_requests-conda-linux_2807": "Failed",
-                "pull_requests-conda-linux_2811": "Failed"
+                "pull_requests-conda-linux_2811": "Failed",
+                "pull_requests-conda-linux_4371": "Failed",
+                "pull_requests-conda-linux_4373": "Failed"
             },
-            "last_fail_detected": "2023-02-08"
+            "last_fail_detected": "2023-07-01"
         },
         {
             "test_name": "MantidQtInterfacesIndirectTestQt5_IndirectFitDataTest",

@@ -9381,9 +9381,11 @@
                 "pull_requests-conda-osx_1420": "Failed",
                 "pull_requests-conda-osx_1421": "Failed",
                 "pull_requests-conda-osx_1422": "Failed",
-                "pull_requests-conda-osx_1444": "Failed"
+                "pull_requests-conda-osx_1444": "Failed",
+                "pull_requests-conda-osx_2923": "Failed",
+                "pull_requests-conda-osx_2925": "Failed"
             },
-            "last_fail_detected": "2023-02-07"
+            "last_fail_detected": "2023-07-01"
         },
         {
             "test_name": "MantidQtInterfacesIndirectTestQt5_IndirectFitDataTest",

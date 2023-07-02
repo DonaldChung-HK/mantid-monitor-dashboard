@@ -2027,10 +2027,9 @@
             "past_failed_outcome": {
                 "pull_requests-conda-windows_846": "Flake",
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed",
-                "pull_requests-conda-windows_3137": "Flake"
+                "pull_requests-conda-windows_1372": "Failed"
             },
-            "last_fail_detected": "2023-07-01"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "MantidQtInterfacesDirectTestQt5_ALFAnalysisModelTest",
@@ -10671,11 +10670,9 @@
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1511": "Failed",
                 "pull_requests-conda-windows_1515": "Failed",
-                "pull_requests-conda-windows_1537": "Failed",
-                "pull_requests-conda-windows_3136": "Failed",
-                "pull_requests-conda-windows_3138": "Failed"
+                "pull_requests-conda-windows_1537": "Failed"
             },
-            "last_fail_detected": "2023-07-01"
+            "last_fail_detected": "2023-02-07"
         },
         {
             "test_name": "MantidQtInterfacesIndirectTestQt5_IndirectFitDataTest",
@@ -10888,22 +10885,21 @@
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_580": "Flake"
             },
-            "last_fail_detected": "2023-07-01"
+            "last_fail_detected": "2023-07-02"
         },
         {
             "test_name": "CurveFittingTest_ResolutionTest",
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_580": "Flake"
             },
-            "last_fail_detected": "2023-07-01"
+            "last_fail_detected": "2023-07-02"
         },
         {
             "test_name": "DataObjectsTest_TimeSplitterTest",
             "past_failed_outcome": {
-                "main_nightly_deployment_prototype_574": "Flake",
                 "main_nightly_deployment_prototype_578": "Flake"
             },
-            "last_fail_detected": "2023-07-01"
+            "last_fail_detected": "2023-07-02"
         }
     ]
 }

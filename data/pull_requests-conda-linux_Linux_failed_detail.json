@@ -1,3 +1,87 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "python.IsisPowder.ISISPowderAbsorptionTest.ISISPowderAbsorptionTest",
+            "latest_failed_build": "4378",
+            "agent_name": "Linux",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-linux",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "4379",
+                    "4378",
+                    "4377",
+                    "4376",
+                    "4375",
+                    "4374",
+                    "4373",
+                    "4372",
+                    "4371",
+                    "4370",
+                    "4369",
+                    "4368",
+                    "4367",
+                    "4366",
+                    "4365",
+                    "4364",
+                    "4363",
+                    "4362",
+                    "4361",
+                    "4360",
+                    "4359",
+                    "4358",
+                    "4357",
+                    "4356",
+                    "4355",
+                    "4354",
+                    "4353",
+                    "4352",
+                    "4351",
+                    "4350"
+                ],
+                "past_outcome_list": [
+                    "None",
+                    "Failed",
+                    "None",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "python.IsisPowder.ISISPowderAbsorptionTest.ISISPowderAbsorptionTest",
+                "build": "4378",
+                "agent_name": "Linux",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "10.72",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.7.20230629.1209.dev8\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\n.CreateSampleWorkspace-[Notice] CreateSampleWorkspace started\nCreateSampleWorkspace-[Notice] CreateSampleWorkspace successful, Duration 0.17 seconds\nSetSample-[Notice] SetSample started\nSetSample-[Notice] SetSample successful, Duration 0.00 seconds\nE\n======================================================================\nERROR: test_sample_is_set_correctly (ISISPowderAbsorptionTest.ISISPowderAbsorptionTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/Diffraction/isis_powder/test/ISISPowderAbsorptionTest.py&quot;, line 19, in test_sample_is_set_correctly\n    ws = absorb_corrections.run_cylinder_absorb_corrections(\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/Diffraction/isis_powder/routines/absorb_corrections.py&quot;, line 66, in run_cylinder_absorb_corrections\n    ws_to_correct = _calculate__cylinder_absorb_corrections(\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/Diffraction/isis_powder/routines/absorb_corrections.py&quot;, line 90, in _calculate__cylinder_absorb_corrections\n    ws_to_correct = _do_cylinder_absorb_corrections(\nTypeError: _do_cylinder_absorb_corrections() got an unexpected keyword argument &#x27;ms_events&#x27;\n\n----------------------------------------------------------------------\nRan 2 tests in 0.171s\n\nFAILED (errors=1)\n\n"
+            }
+        }
+    ]
 }

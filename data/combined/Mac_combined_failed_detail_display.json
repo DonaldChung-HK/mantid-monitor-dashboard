@@ -3808,9 +3808,10 @@
         {
             "test_name": "python.IsisPowder.ISISPowderAbsorptionTest.ISISPowderAbsorptionTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_2930": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-07-03"
         },
         {
             "test_name": "python.IsisPowder.ISISPowderAbstractInstrumentTest.ISISPowderAbstractInstrumentTest",

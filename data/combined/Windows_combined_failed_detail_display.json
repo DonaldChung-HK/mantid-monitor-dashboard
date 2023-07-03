@@ -10885,21 +10885,21 @@
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_580": "Flake"
             },
-            "last_fail_detected": "2023-07-02"
+            "last_fail_detected": "2023-07-03"
         },
         {
             "test_name": "CurveFittingTest_ResolutionTest",
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_580": "Flake"
             },
-            "last_fail_detected": "2023-07-02"
+            "last_fail_detected": "2023-07-03"
         },
         {
             "test_name": "DataObjectsTest_TimeSplitterTest",
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_578": "Flake"
             },
-            "last_fail_detected": "2023-07-02"
+            "last_fail_detected": "2023-07-03"
         }
     ]
 }

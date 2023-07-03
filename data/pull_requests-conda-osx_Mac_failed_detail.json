@@ -1,3 +1,87 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "python.IsisPowder.ISISPowderAbsorptionTest.ISISPowderAbsorptionTest",
+            "latest_failed_build": "2930",
+            "agent_name": "Mac",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-osx",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "2931",
+                    "2930",
+                    "2929",
+                    "2928",
+                    "2927",
+                    "2926",
+                    "2925",
+                    "2924",
+                    "2923",
+                    "2922",
+                    "2921",
+                    "2920",
+                    "2919",
+                    "2918",
+                    "2917",
+                    "2916",
+                    "2915",
+                    "2914",
+                    "2913",
+                    "2912",
+                    "2911",
+                    "2910",
+                    "2909",
+                    "2908",
+                    "2907",
+                    "2906",
+                    "2905",
+                    "2904",
+                    "2903",
+                    "2902"
+                ],
+                "past_outcome_list": [
+                    "None",
+                    "Failed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "python.IsisPowder.ISISPowderAbsorptionTest.ISISPowderAbsorptionTest",
+                "build": "2930",
+                "agent_name": "Mac",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "6.35",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.7.20230629.1209.dev8\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\n.CreateSampleWorkspace-[Notice] CreateSampleWorkspace started\nCreateSampleWorkspace-[Notice] CreateSampleWorkspace successful, Duration 0.00 seconds\nSetSample-[Notice] SetSample started\nSetSample-[Notice] SetSample successful, Duration 0.00 seconds\nE\n======================================================================\nERROR: test_sample_is_set_correctly (ISISPowderAbsorptionTest.ISISPowderAbsorptionTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/Diffraction/isis_powder/test/ISISPowderAbsorptionTest.py&quot;, line 19, in test_sample_is_set_correctly\n    ws = absorb_corrections.run_cylinder_absorb_corrections(\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/Diffraction/isis_powder/routines/absorb_corrections.py&quot;, line 66, in run_cylinder_absorb_corrections\n    ws_to_correct = _calculate__cylinder_absorb_corrections(\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/scripts/Diffraction/isis_powder/routines/absorb_corrections.py&quot;, line 90, in _calculate__cylinder_absorb_corrections\n    ws_to_correct = _do_cylinder_absorb_corrections(\nTypeError: _do_cylinder_absorb_corrections() got an unexpected keyword argument &#x27;ms_events&#x27;\n\n----------------------------------------------------------------------\nRan 2 tests in 0.010s\n\nFAILED (errors=1)\n\n          Start 1713: python.functions.GaussBesselTest.GaussBesselTest\n"
+            }
+        }
+    ]
 }

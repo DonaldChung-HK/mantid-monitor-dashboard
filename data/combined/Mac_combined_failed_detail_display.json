@@ -3811,7 +3811,7 @@
                 "pull_requests-conda-osx_1285": "Failed",
                 "pull_requests-conda-osx_2930": "Failed"
             },
-            "last_fail_detected": "2023-07-03"
+            "last_fail_detected": "2023-07-04"
         },
         {
             "test_name": "python.IsisPowder.ISISPowderAbstractInstrumentTest.ISISPowderAbstractInstrumentTest",
@@ -9382,9 +9382,10 @@
                 "pull_requests-conda-osx_1420": "Failed",
                 "pull_requests-conda-osx_1421": "Failed",
                 "pull_requests-conda-osx_1422": "Failed",
-                "pull_requests-conda-osx_1444": "Failed"
+                "pull_requests-conda-osx_1444": "Failed",
+                "pull_requests-conda-osx_2932": "Failed"
             },
-            "last_fail_detected": "2023-02-07"
+            "last_fail_detected": "2023-07-04"
         },
         {
             "test_name": "MantidQtInterfacesIndirectTestQt5_IndirectFitDataTest",
@@ -9604,6 +9605,14 @@
                 "pull_requests-conda-osx_1739": "Failed"
             },
             "last_fail_detected": "2023-03-01"
+        },
+        {
+            "test_name": "APITest_IFunction1DTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_2934": "Failed",
+                "pull_requests-conda-osx_2936": "Failed"
+            },
+            "last_fail_detected": "2023-07-04"
         }
     ]
 }

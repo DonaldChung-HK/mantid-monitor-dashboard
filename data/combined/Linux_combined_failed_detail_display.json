@@ -2357,7 +2357,7 @@
                 "pull_requests-conda-linux_2629": "Failed",
                 "main_nightly_deployment_prototype_577": "Flake"
             },
-            "last_fail_detected": "2023-07-03"
+            "last_fail_detected": "2023-07-04"
         },
         {
             "test_name": "mantidqt_qt5.test_line_edit_double_validator.test_line_edit_double_validator",
@@ -3222,7 +3222,7 @@
                 "pull_requests-conda-linux_2629": "Failed",
                 "pull_requests-conda-linux_4378": "Failed"
             },
-            "last_fail_detected": "2023-07-03"
+            "last_fail_detected": "2023-07-04"
         },
         {
             "test_name": "python.IsisPowder.ISISPowderAbstractInstrumentTest.ISISPowderAbstractInstrumentTest",
@@ -11298,9 +11298,10 @@
                 "pull_requests-conda-linux_2773": "Failed",
                 "pull_requests-conda-linux_2797": "Failed",
                 "pull_requests-conda-linux_2807": "Failed",
-                "pull_requests-conda-linux_2811": "Failed"
+                "pull_requests-conda-linux_2811": "Failed",
+                "pull_requests-conda-linux_4380": "Failed"
             },
-            "last_fail_detected": "2023-02-08"
+            "last_fail_detected": "2023-07-04"
         },
         {
             "test_name": "MantidQtInterfacesIndirectTestQt5_IndirectFitDataTest",
@@ -11613,6 +11614,13 @@
                 "main_nightly_deployment_prototype_501": "Flake"
             },
             "last_fail_detected": "2023-02-25"
+        },
+        {
+            "test_name": "APITest_ExperimentInfoTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_4384": "Flake"
+            },
+            "last_fail_detected": "2023-07-04"
         }
     ]
 }

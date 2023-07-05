@@ -17,8 +17,7 @@
                     "579",
                     "578",
                     "577",
-                    "576",
-                    "575"
+                    "576"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -29,7 +28,6 @@
                     "Passed",
                     "Passed",
                     "Flake",
-                    "Passed",
                     "Passed"
                 ]
             },

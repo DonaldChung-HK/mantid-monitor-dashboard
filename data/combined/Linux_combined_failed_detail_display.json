@@ -766,10 +766,9 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_4400": "Failed"
+                "pull_requests-conda-linux_2629": "Failed"
             },
-            "last_fail_detected": "2023-07-06"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.MuonQt5.basic_fitting_view_test.basic_fitting_view_test",
@@ -2355,10 +2354,9 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed",
-                "main_nightly_deployment_prototype_577": "Flake"
+                "pull_requests-conda-linux_2629": "Failed"
             },
-            "last_fail_detected": "2023-07-06"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "mantidqt_qt5.test_line_edit_double_validator.test_line_edit_double_validator",
@@ -11615,11 +11613,12 @@
             "last_fail_detected": "2023-02-25"
         },
         {
-            "test_name": "DataHandlingTest_LoadCalFileTest",
+            "test_name": "WorkflowAlgorithmsTest_AlignAndFocusPowderTest",
             "past_failed_outcome": {
-                "pull_requests-conda-linux_4401": "Flake"
+                "pull_requests-conda-linux_4415": "Failed",
+                "pull_requests-conda-linux_4416": "Failed"
             },
-            "last_fail_detected": "2023-07-06"
+            "last_fail_detected": "2023-07-07"
         }
     ]
 }

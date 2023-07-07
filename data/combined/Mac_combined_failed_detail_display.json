@@ -525,9 +525,12 @@
                 "pull_requests-conda-osx_1211": "Flake",
                 "pull_requests-conda-osx_1276": "Flake",
                 "pull_requests-conda-osx_1491": "Flake",
-                "pull_requests-conda-osx_1640": "Flake"
+                "pull_requests-conda-osx_1640": "Flake",
+                "pull_requests-conda-osx_2971": "Flake",
+                "pull_requests-conda-osx_2972": "Flake",
+                "pull_requests-conda-osx_2973": "Flake"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-07-07"
         },
         {
             "test_name": "python.algorithms.HB2AReduceTest.HB2AReduceTest",
@@ -854,10 +857,9 @@
                 "pull_requests-conda-osx_1117": "Failed",
                 "pull_requests-conda-osx_1120": "Failed",
                 "pull_requests-conda-osx_1122": "Failed",
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_2953": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-06"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.MuonQt5.basic_fitting_view_test.basic_fitting_view_test",
@@ -2162,9 +2164,11 @@
                 "pull_requests-conda-osx_1116": "Failed",
                 "pull_requests-conda-osx_1117": "Failed",
                 "pull_requests-conda-osx_1120": "Failed",
-                "pull_requests-conda-osx_1122": "Failed"
+                "pull_requests-conda-osx_1122": "Failed",
+                "pull_requests-conda-osx_2968": "Failed",
+                "pull_requests-conda-osx_2969": "Failed"
             },
-            "last_fail_detected": "2023-01-13"
+            "last_fail_detected": "2023-07-07"
         },
         {
             "test_name": "mantidqt_qt5.test_samplelogs_model.test_samplelogs_model",
@@ -2311,10 +2315,9 @@
                 "pull_requests-conda-osx_1117": "Failed",
                 "pull_requests-conda-osx_1120": "Failed",
                 "pull_requests-conda-osx_1122": "Failed",
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_2964": "Flake"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-06"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.WorkflowAlgorithms.IndirectDiffScanTest.IndirectDiffScanTest",

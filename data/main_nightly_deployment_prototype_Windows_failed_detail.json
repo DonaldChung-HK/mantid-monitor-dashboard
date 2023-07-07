@@ -1,6 +1,45 @@
 {
     "data": [
         {
+            "test_name": "DataObjectsTest_TimeSplitterTest",
+            "latest_failed_build": "585",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "main_nightly_deployment_prototype",
+            "problem_count": 2,
+            "past_outcome": {
+                "build_keys": [
+                    "585",
+                    "584",
+                    "583",
+                    "582",
+                    "581",
+                    "580",
+                    "579",
+                    "578"
+                ],
+                "past_outcome_list": [
+                    "Failed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Flake"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "DataObjectsTest_TimeSplitterTest",
+                "build": "585",
+                "agent_name": "Windows",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "0.50",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.7.20230703.1019.dev56\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 16 tests.....\r\nIn TimeSplitterTest::test_toSplitters:\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/DataObjects/test/TimeSplitterTest.h:350: Error: Test failed: Something went wrong in TimeSplitter::addROI\r\n..........\r\nFailed 1 of 16 tests\r\nSuccess rate: 93%\r\n\r\n          Start 2634: python.SANS.user_file.txt_parsers.toml_v1_schema_test.toml_v1_schema_test\r\n"
+            }
+        },
+        {
             "test_name": "CurveFittingTest_FitTest",
             "latest_failed_build": "580",
             "agent_name": "Windows",
@@ -9,22 +48,22 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "585",
                     "584",
                     "583",
                     "582",
                     "581",
                     "580",
                     "579",
-                    "578",
-                    "577"
+                    "578"
                 ],
                 "past_outcome_list": [
                     "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Flake",
                     "Passed",
+                    "Flake",
                     "Passed",
                     "Passed"
                 ]
@@ -48,22 +87,22 @@
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "585",
                     "584",
                     "583",
                     "582",
                     "581",
                     "580",
                     "579",
-                    "578",
-                    "577"
+                    "578"
                 ],
                 "past_outcome_list": [
                     "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Flake",
                     "Passed",
+                    "Flake",
                     "Passed",
                     "Passed"
                 ]
@@ -76,45 +115,6 @@
                 "outcome": "Failed",
                 "test_time": "0.51",
                 "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230623.1844.dev39\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 4 tests\r\nIn ResolutionTest::testIt:\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/CurveFitting/test/Functions/ResolutionTest.h:112: Error: Test failed: File &quot;ResolutionTestResolution.res&quot; not found in &quot;ResolutionTestResolution.res&quot;\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/CurveFitting/test/Functions/ResolutionTest.h:112: Error: Test failed: File access error\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/CurveFitting/test/Functions/ResolutionTest.h:112: Error: Test failed: Exception thrown from tearDown()\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/CurveFitting/test/Functions/ResolutionTest.h:112: Error: Expected (suite()-&gt;tearDown()) not to throw, but it did\r\n...\r\nFailed 1 of 4 tests\r\nSuccess rate: 75%\r\n\r\n          Start  789: CurveFittingTest_ResolutionTest\r\n"
-            }
-        },
-        {
-            "test_name": "DataObjectsTest_TimeSplitterTest",
-            "latest_failed_build": "578",
-            "agent_name": "Windows",
-            "last_failed_outcome": "Flake",
-            "pipeline_name": "main_nightly_deployment_prototype",
-            "problem_count": 1,
-            "past_outcome": {
-                "build_keys": [
-                    "584",
-                    "583",
-                    "582",
-                    "581",
-                    "580",
-                    "579",
-                    "578",
-                    "577"
-                ],
-                "past_outcome_list": [
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Flake",
-                    "Passed"
-                ]
-            },
-            "last_stack_traces": {
-                "test_name": "DataObjectsTest_TimeSplitterTest",
-                "build": "578",
-                "agent_name": "Windows",
-                "trial": 1,
-                "outcome": "Failed",
-                "test_time": "0.59",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230621.1532.dev5\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 16 tests...............\r\nIn TimeSplitterTest::test_splitEventListLeapingTimes:\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/DataObjects/test/TimeSplitterTest.h:786: Error: Test failed: Something went wrong in TimeSplitter::addROI\r\nFailed 1 of 16 tests\r\nSuccess rate: 93%\r\n\r\n          Start 1080: DataObjectsTest_TimeSplitterTest\r\n"
             }
         }
     ]

@@ -6,7 +6,7 @@
             "agent_name": "Windows",
             "last_failed_outcome": "Failed",
             "pipeline_name": "main_nightly_deployment_prototype",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
                     "585",
@@ -15,8 +15,7 @@
                     "582",
                     "581",
                     "580",
-                    "579",
-                    "578"
+                    "579"
                 ],
                 "past_outcome_list": [
                     "Failed",
@@ -25,8 +24,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Passed",
-                    "Flake"
+                    "Passed"
                 ]
             },
             "last_stack_traces": {
@@ -54,8 +52,7 @@
                     "582",
                     "581",
                     "580",
-                    "579",
-                    "578"
+                    "579"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -64,7 +61,6 @@
                     "Passed",
                     "Passed",
                     "Flake",
-                    "Passed",
                     "Passed"
                 ]
             },
@@ -93,8 +89,7 @@
                     "582",
                     "581",
                     "580",
-                    "579",
-                    "578"
+                    "579"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -103,7 +98,6 @@
                     "Passed",
                     "Passed",
                     "Flake",
-                    "Passed",
                     "Passed"
                 ]
             },

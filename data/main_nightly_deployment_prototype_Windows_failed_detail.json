@@ -14,12 +14,10 @@
                     "583",
                     "582",
                     "581",
-                    "580",
-                    "579"
+                    "580"
                 ],
                 "past_outcome_list": [
                     "Failed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -51,8 +49,7 @@
                     "583",
                     "582",
                     "581",
-                    "580",
-                    "579"
+                    "580"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -60,8 +57,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Flake",
-                    "Passed"
+                    "Flake"
                 ]
             },
             "last_stack_traces": {
@@ -88,8 +84,7 @@
                     "583",
                     "582",
                     "581",
-                    "580",
-                    "579"
+                    "580"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -97,8 +92,7 @@
                     "Passed",
                     "Passed",
                     "Passed",
-                    "Flake",
-                    "Passed"
+                    "Flake"
                 ]
             },
             "last_stack_traces": {

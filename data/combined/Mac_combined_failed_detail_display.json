@@ -6616,10 +6616,9 @@
         {
             "test_name": "python.algorithms.SaveReflectionsTest.SaveReflectionsTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_2975": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-08"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.algorithms.SaveYDATest.SaveYDATest",

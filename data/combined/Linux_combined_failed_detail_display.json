@@ -7348,10 +7348,9 @@
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
                 "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_4422": "Failed",
-                "pull_requests-conda-linux_4424": "Failed"
+                "pull_requests-conda-linux_4429": "Failed"
             },
-            "last_fail_detected": "2023-07-08"
+            "last_fail_detected": "2023-07-09"
         },
         {
             "test_name": "python.algorithms.SaveYDATest.SaveYDATest",
@@ -11613,13 +11612,6 @@
                 "main_nightly_deployment_prototype_501": "Flake"
             },
             "last_fail_detected": "2023-02-25"
-        },
-        {
-            "test_name": "WorkflowAlgorithmsTest_AlignAndFocusPowderTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-linux_4425": "Failed"
-            },
-            "last_fail_detected": "2023-07-08"
         }
     ]
 }

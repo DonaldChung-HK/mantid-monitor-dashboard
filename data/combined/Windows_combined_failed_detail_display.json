@@ -10885,21 +10885,21 @@
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_585": "Failed"
             },
-            "last_fail_detected": "2023-07-09"
+            "last_fail_detected": "2023-07-10"
         },
         {
             "test_name": "CurveFittingTest_FitTest",
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_580": "Flake"
             },
-            "last_fail_detected": "2023-07-09"
+            "last_fail_detected": "2023-07-10"
         },
         {
             "test_name": "CurveFittingTest_ResolutionTest",
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_580": "Flake"
             },
-            "last_fail_detected": "2023-07-09"
+            "last_fail_detected": "2023-07-10"
         }
     ]
 }

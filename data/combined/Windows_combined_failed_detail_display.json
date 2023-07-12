@@ -6417,10 +6417,9 @@
                 "pull_requests-conda-windows_1372": "Failed",
                 "pull_requests-conda-windows_1705": "Failed",
                 "pull_requests-conda-windows_1706": "Failed",
-                "pull_requests-conda-windows_1710": "Failed",
-                "pull_requests-conda-windows_3199": "Failed"
+                "pull_requests-conda-windows_1710": "Failed"
             },
-            "last_fail_detected": "2023-07-11"
+            "last_fail_detected": "2023-02-17"
         },
         {
             "test_name": "python.WorkflowAlgorithms.SofQWMomentsTest.SofQWMomentsTest",
@@ -10689,10 +10688,9 @@
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1511": "Failed",
                 "pull_requests-conda-windows_1515": "Failed",
-                "pull_requests-conda-windows_1537": "Failed",
-                "pull_requests-conda-windows_3199": "Failed"
+                "pull_requests-conda-windows_1537": "Failed"
             },
-            "last_fail_detected": "2023-07-11"
+            "last_fail_detected": "2023-02-07"
         },
         {
             "test_name": "MantidQtInterfacesIndirectTestQt5_InelasticDataManipulationSymmetriseTabModelTest",
@@ -10883,33 +10881,22 @@
             "last_fail_detected": "2023-02-17"
         },
         {
-            "test_name": "AlgorithmsTest_SofQWTest",
+            "test_name": "MDAlgorithmsTest_LoadGaussCubeTest",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_3199": "Failed"
+                "pull_requests-conda-windows_3204": "Failed",
+                "pull_requests-conda-windows_3209": "Failed"
             },
-            "last_fail_detected": "2023-07-11"
+            "last_fail_detected": "2023-07-12"
         },
         {
             "test_name": "DataObjectsTest_TimeSplitterTest",
             "past_failed_outcome": {
+                "pull_requests-conda-windows_3206": "Flake",
                 "main_nightly_deployment_prototype_585": "Failed",
-                "main_nightly_deployment_prototype_586": "Flake"
+                "main_nightly_deployment_prototype_586": "Flake",
+                "main_nightly_deployment_prototype_587": "Flake"
             },
-            "last_fail_detected": "2023-07-11"
-        },
-        {
-            "test_name": "CurveFittingTest_FitTest",
-            "past_failed_outcome": {
-                "main_nightly_deployment_prototype_580": "Flake"
-            },
-            "last_fail_detected": "2023-07-11"
-        },
-        {
-            "test_name": "CurveFittingTest_ResolutionTest",
-            "past_failed_outcome": {
-                "main_nightly_deployment_prototype_580": "Flake"
-            },
-            "last_fail_detected": "2023-07-11"
+            "last_fail_detected": "2023-07-12"
         }
     ]
 }

@@ -2,25 +2,25 @@
     "data": [
         {
             "test_name": "DataObjectsTest_TimeSplitterTest",
-            "latest_failed_build": "586",
+            "latest_failed_build": "587",
             "agent_name": "Windows",
             "last_failed_outcome": "Flake",
             "pipeline_name": "main_nightly_deployment_prototype",
-            "problem_count": 2,
+            "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
+                    "587",
                     "586",
                     "585",
                     "584",
                     "583",
                     "582",
-                    "581",
-                    "580"
+                    "581"
                 ],
                 "past_outcome_list": [
                     "Flake",
+                    "Flake",
                     "Failed",
-                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
@@ -29,86 +29,12 @@
             },
             "last_stack_traces": {
                 "test_name": "DataObjectsTest_TimeSplitterTest",
-                "build": "586",
+                "build": "587",
                 "agent_name": "Windows",
                 "trial": 1,
                 "outcome": "Failed",
-                "test_time": "0.43",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.7.20230703.1019.dev64\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 16 tests.....\r\nIn TimeSplitterTest::test_toSplitters:\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/DataObjects/test/TimeSplitterTest.h:356: Error: Expected (splitVec.size() == 4), found (3 != 4)\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/DataObjects/test/TimeSplitterTest.h:357: Error: Assertion failed: splitVec[0] == SplittingInterval(ONE, TWO, 1)\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/DataObjects/test/TimeSplitterTest.h:358: Error: Assertion failed: splitVec[1] == SplittingInterval(TWO, THREE, 2)\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/DataObjects/test/TimeSplitterTest.h:359: Error: Assertion failed: splitVec[2] == SplittingInterval(THREE, FOUR, TimeSplitter::NO_TARGET)\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/DataObjects/test/TimeSplitterTest.h:360: Error: Assertion failed: splitVec[3] == SplittingInterval(FOUR, FIVE, 3)\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/DataObjects/test/TimeSplitterTest.h:362: Error: Expected (splitVecNoTarget.size() == 3), found (2 != 3)\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/DataObjects/test/TimeSplitterTest.h:363: Error: Assertion failed: splitVecNoTarget[0] == SplittingInterval(ONE, TWO, 1)\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/DataObjects/test/TimeSplitterTest.h:364: Error: Assertion failed: splitVecNoTarget[1] == SplittingInterval(TWO, THREE, 2)\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/DataObjects/test/TimeSplitterTest.h:365: Error: Assertion failed: splitVecNoTarget[2] == SplittingInterval(FOUR, FIVE, 3)\r\n..........\r\nFailed 1 of 16 tests\r\nSuccess rate: 93%\r\n\r\n          Start 1069: DataObjectsTest_TimeSplitterTest\r\n"
-            }
-        },
-        {
-            "test_name": "CurveFittingTest_FitTest",
-            "latest_failed_build": "580",
-            "agent_name": "Windows",
-            "last_failed_outcome": "Flake",
-            "pipeline_name": "main_nightly_deployment_prototype",
-            "problem_count": 1,
-            "past_outcome": {
-                "build_keys": [
-                    "586",
-                    "585",
-                    "584",
-                    "583",
-                    "582",
-                    "581",
-                    "580"
-                ],
-                "past_outcome_list": [
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Flake"
-                ]
-            },
-            "last_stack_traces": {
-                "test_name": "CurveFittingTest_FitTest",
-                "build": "580",
-                "agent_name": "Windows",
-                "trial": 1,
-                "outcome": "Failed",
-                "test_time": "1.18",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230623.1844.dev39\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 48 tests..Fit-[Notice] Fit started\r\nFit-[Warning] Invalid value for Constraints: No operator is present in the constraint.\r\n.Fit-[Notice] Fit started\r\nFit-[Warning] Fit status: Failed to converge after 99 iterations.\r\nFit-[Warning] Stopped after 99 iterations\r\nFit-[Notice] Fit successful, Duration 0.01 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Warning] Fit status: Failed to converge after 99 iterations.\r\nFit-[Warning] Stopped after 99 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 37 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 8 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 10 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 6 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 6 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 13 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 4 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 6 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 20 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 7 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 4 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 21 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 7 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Error] Logic Error in execution of algorithm Fit\r\nFit-[Error] In MatrixWorkspace::isHistogramData(): Histogram::Xmode is not Points\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 5 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 20 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\nFit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 15 iterations\r\nFit-[Notice] Fit successful, Duration 0.01 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 62 iterations\r\nFit-[Notice] Fit successful, Duration 0.13 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 5 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 2 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n\r\nIn FitTest::test_function_lattice_fit:\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/CurveFitting/test/Algorithms/FitTest.h:1016: Error: Test failed: File not found\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/CurveFitting/test/Algorithms/FitTest.h:1016: Error: Test failed: Exception thrown from tearDown()\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/CurveFitting/test/Algorithms/FitTest.h:1016: Error: Expected (suite()-&gt;tearDown()) not to throw, but it did\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 2 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 3 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 7 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 16 iterations\r\nFit-[Notice] Fit successful, Duration 0.02 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 5 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 8 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 63 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 17 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 195 iterations\r\nFit-[Notice] Fit successful, Duration 0.01 seconds\r\n.Fit-[Notice] Fit started\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nIFunction-[Error] No sample defined instrument. Cannot convert units for function\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nIFunction1D-[Warning] No sample set for instrument in workspace.\r\nIFunction1D-[Warning] Can&#x27;t calculate wavelength in IkedaCarpenter.\r\nIFunction1D-[Warning] Default all wavelengths to one.\r\nIFunction1D-[Warning] Solution is to load appropriate instrument into workspace.\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 14 iterations\r\nFit-[Notice] Fit successful, Duration 0.02 seconds\r\n.Instrument-[Warning] In Instrument::getSource(). No source has been set.\r\nInstrument-[Warning] In Instrument::getSamplePos(). No SamplePos has been set.\r\nFit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 32 iterations\r\nFit-[Notice] Fit successful, Duration 0.03 seconds\r\nFit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 8 iterations\r\nFit-[Notice] Fit successful, Duration 0.02 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 5 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.[D] data_set.append([-0.5, 0.680508, 0.824929])\r\n[D] data_set.append([-0.49, 0.459591, 0.677931])\r\n[D] data_set.append([-0.48, 0.332266, 0.576425])\r\n[D] data_set.append([-0.47, 1.2717, 1.1277])\r\n[D] data_set.append([-0.46, 0.925787, 0.962178])\r\n[D] data_set.append([-0.45, 1.36216, 1.16712])\r\n[D] data_set.append([-0.44, 0.890605, 0.943719])\r\n[D] data_set.append([-0.43, 0.983653, 0.991793])\r\n[D] data_set.append([-0.42, 0.965918, 0.982811])\r\n[D] data_set.append([-0.41, 0.916039, 0.957099])\r\n[D] data_set.append([-0.4, 0.979414, 0.989653])\r\n[D] data_set.append([-0.39, 0.861061, 0.927934])\r\n[D] data_set.append([-0.38, 0.973214, 0.986516])\r\n[D] data_set.append([-0.37, 1.53418, 1.23862])\r\n[D] data_set.append([-0.36, 1.52668, 1.23559])\r\n[D] data_set.append([-0.35, 1.10537, 1.05137])\r\n[D] data_set.append([-0.34, 1.36965, 1.17032])\r\n[D] data_set.append([-0.33, 1.64708, 1.28339])\r\n[D] data_set.append([-0.32, 1.52887, 1.23647])\r\n[D] data_set.append([-0.31, 2.0042, 1.4157])\r\n[D] data_set.append([-0.3, 2.11257, 1.45347])\r\n[D] data_set.append([-0.29, 2.44183, 1.56264])\r\n[D] data_set.append([-0.28, 2.29917, 1.5163])\r\n[D] data_set.append([-0.27, 2.61657, 1.61758])\r\n[D] data_set.append([-0.26, 2.25268, 1.50089])\r\n[D] data_set.append([-0.25, 2.82788, 1.68163])\r\n[D] data_set.append([-0.24, 3.089, 1.75756])\r\n[D] data_set.append([-0.23, 3.45517, 1.85881])\r\n[D] data_set.append([-0.22, 3.41001, 1.84662])\r\n[D] data_set.append([-0.21, 4.39168, 2.09563])\r\n[D] data_set.append([-0.2, 5.0277, 2.24225])\r\n[D] data_set.append([-0.19, 5.2431, 2.28978])\r\n[D] data_set.append([-0.18, 6.8158, 2.61071])\r\n[D] data_set.append([-0.17, 7.80098, 2.79302])\r\n[D] data_set.append([-0.16, 9.45674, 3.07518])\r\n[D] data_set.append([-0.15, 11.6082, 3.40708])\r\n[D] data_set.append([-0.14, 14.9449, 3.86586])\r\n[D] data_set.append([-0.13, 17.964, 4.2384])\r\n[D] data_set.append([-0.12, 22.4709, 4.74035])\r\n[D] data_set.append([-0.11, 28.9806, 5.38336])\r\n[D] data_set.append([-0.1, 35.2087, 5.93369])\r\n[D] data_set.append([-0.09, 42.7603, 6.53914])\r\n[D] data_set.append([-0.08, 51.2697, 7.16029])\r\n[D] data_set.append([-0.07, 61.032, 7.8123])\r\n[D] data_set.append([-0.06, 71.2193, 8.43915])\r\n[D] data_set.append([-0.05, 81.0546, 9.00303])\r\n[D] data_set.append([-0.04, 90.7571, 9.52665])\r\n[D] data_set.append([-0.03, 99.5076, 9.97535])\r\n[D] data_set.append([-0.02, 106.364, 10.3133])\r\n[D] data_set.append([-0.01, 111.216, 10.5459])\r\n[D] data_set.append([0, 112.877, 10.6244])\r\n[D] data_set.append([0.01, 111.288, 10.5493])\r\n[D] data_set.append([0.02, 106.463, 10.3181])\r\n[D] data_set.append([0.03, 99.5477, 9.97736])\r\n[D] data_set.append([0.04, 90.7675, 9.5272])\r\n[D] data_set.append([0.05, 81.7059, 9.03913])\r\n[D] data_set.append([0.06, 71.0115, 8.42683])\r\n[D] data_set.append([0.07, 61.3214, 7.8308])\r\n[D] data_set.append([0.08, 51.5543, 7.18013])\r\n[D] data_set.append([0.09, 42.6311, 6.52925])\r\n[D] data_set.append([0.1, 35.1712, 5.93053])\r\n[D] data_set.append([0.11, 28.3785, 5.32715])\r\n[D] data_set.append([0.12, 22.593, 4.75321])\r\n[D] data_set.append([0.13, 18.2557, 4.27267])\r\n[D] data_set.append([0.14, 14.7387, 3.8391])\r\n[D] data_set.append([0.15, 11.8552, 3.44314])\r\n[D] data_set.append([0.16, 9.44558, 3.07337])\r\n[D] data_set.append([0.17, 8.04787, 2.83688])\r\n[D] data_set.append([0.18, 6.46706, 2.54304])\r\n[D] data_set.append([0.19, 5.64766, 2.37648])\r\n[D] data_set.append([0.2, 4.62926, 2.15157])\r\n[D] data_set.append([0.21, 4.28496, 2.07001])\r\n[D] data_set.append([0.22, 4.01921, 2.0048])\r\n[D] data_set.append([0.23, 3.85923, 1.96449])\r\n[D] data_set.append([0.24, 3.15543, 1.77635])\r\n[D] data_set.append([0.25, 2.44881, 1.56487])\r\n[D] data_set.append([0.26, 2.2804, 1.5101])\r\n[D] data_set.append([0.27, 2.08211, 1.44295])\r\n[D] data_set.append([0.28, 2.47078, 1.57187])\r\n[D] data_set.append([0.29, 2.47588, 1.57349])\r\n[D] data_set.append([0.3, 2.45599, 1.56716])\r\n[D] data_set.append([0.31, 1.88098, 1.37149])\r\n[D] data_set.append([0.32, 1.76205, 1.32742])\r\n[D] data_set.append([0.33, 1.37918, 1.17438])\r\n[D] data_set.append([0.34, 1.95951, 1.39982])\r\n[D] data_set.append([0.35, 1.97868, 1.40666])\r\n[D] data_set.append([0.36, 1.24903, 1.1176])\r\n[D] data_set.append([0.37, 1.15062, 1.07267])\r\n[D] data_Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 3 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\nset.append([0.38, 1.33571, 1.15573])\r\n[D] data_set.append([0.39, 0.965367, 0.982531])\r\n[D] data_set.append([0.4, 1.07663, 1.03761])\r\n[D] data_set.append([0.41, 1.40468, 1.18519])\r\n[D] data_set.append([0.42, 0.982297, 0.991109])\r\n[D] data_set.append([0.43, 0.85258, 0.923353])\r\n[D] data_set.append([0.44, 1.23184, 1.10988])\r\n[D] data_set.append([0.45, 0.882275, 0.939295])\r\n[D] data_set.append([0.46, 0.911729, 0.954845])\r\n[D] data_set.append([0.47, 0.614329, 0.783791])\r\n[D] data_set.append([0.48, 1.26008, 1.12253])\r\n[D] data_set.append([0.49, 1.07271, 1.03572])\r\nMixing = 0.618987\r\nPeakCentre = 8.53226e-05\r\nIntensity = 20.5081\r\nFWHM = 0.150415\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 2 iterations\r\nFit-[Notice] Fit successful, Duration 0.01 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 5 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 3 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Warning] Fit status: Changes in parameter value are too small\r\nFit-[Warning] Stopped after 2 iterations\r\nFit-[Notice] Fit successful, Duration 0.01 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Warning] Fit status: Failed to converge after 500 iterations.\r\nFit-[Warning] Stopped after 500 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 2 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Warning] Fit status: Failed to converge after 0 iterations.\r\nFit-[Warning] Stopped after 0 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\nFit-[Notice] Fit started\r\nFit-[Warning] Fit status: Failed to converge after 0 iterations.\r\nFit-[Warning] Stopped after 0 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 6 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\nFit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 7 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 4 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\nFit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 4 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.Fit-[Notice] Fit started\r\nFit-[Notice] Fit status: success\r\nFit-[Notice] Stopped after 2 iterations\r\nFit-[Notice] Fit successful, Duration 0.00 seconds\r\n.\r\nFailed 1 of 48 tests\r\nSuccess rate: 97%\r\n\r\n          Start  668: CurveFittingTest_FitTest\r\n"
-            }
-        },
-        {
-            "test_name": "CurveFittingTest_ResolutionTest",
-            "latest_failed_build": "580",
-            "agent_name": "Windows",
-            "last_failed_outcome": "Flake",
-            "pipeline_name": "main_nightly_deployment_prototype",
-            "problem_count": 1,
-            "past_outcome": {
-                "build_keys": [
-                    "586",
-                    "585",
-                    "584",
-                    "583",
-                    "582",
-                    "581",
-                    "580"
-                ],
-                "past_outcome_list": [
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Flake"
-                ]
-            },
-            "last_stack_traces": {
-                "test_name": "CurveFittingTest_ResolutionTest",
-                "build": "580",
-                "agent_name": "Windows",
-                "trial": 1,
-                "outcome": "Failed",
-                "test_time": "0.51",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.6.20230623.1844.dev39\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 4 tests\r\nIn ResolutionTest::testIt:\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/CurveFitting/test/Functions/ResolutionTest.h:112: Error: Test failed: File &quot;ResolutionTestResolution.res&quot; not found in &quot;ResolutionTestResolution.res&quot;\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/CurveFitting/test/Functions/ResolutionTest.h:112: Error: Test failed: File access error\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/CurveFitting/test/Functions/ResolutionTest.h:112: Error: Test failed: Exception thrown from tearDown()\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/CurveFitting/test/Functions/ResolutionTest.h:112: Error: Expected (suite()-&gt;tearDown()) not to throw, but it did\r\n...\r\nFailed 1 of 4 tests\r\nSuccess rate: 75%\r\n\r\n          Start  789: CurveFittingTest_ResolutionTest\r\n"
+                "test_time": "0.47",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.7.20230703.1019.dev72\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 16 tests.....\r\nIn TimeSplitterTest::test_toSplitters:\r\nC:/jenkins_workdir/workspace/main_nightly_deployment_prototype/source/Framework/DataObjects/test/TimeSplitterTest.h:350: Error: Test failed: Something went wrong in TimeSplitter::addROI\r\n..........\r\nFailed 1 of 16 tests\r\nSuccess rate: 93%\r\n\r\n          Start 1069: DataObjectsTest_TimeSplitterTest\r\n"
             }
         }
     ]

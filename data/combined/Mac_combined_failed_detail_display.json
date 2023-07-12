@@ -2378,10 +2378,9 @@
                 "pull_requests-conda-osx_1285": "Failed",
                 "pull_requests-conda-osx_1594": "Failed",
                 "pull_requests-conda-osx_1595": "Failed",
-                "pull_requests-conda-osx_1598": "Failed",
-                "pull_requests-conda-osx_2987": "Failed"
+                "pull_requests-conda-osx_1598": "Failed"
             },
-            "last_fail_detected": "2023-07-11"
+            "last_fail_detected": "2023-02-17"
         },
         {
             "test_name": "python.algorithms.ComputeIncoherentDOSTest.ComputeIncoherentDOSTest",
@@ -9404,10 +9403,9 @@
                 "pull_requests-conda-osx_1420": "Failed",
                 "pull_requests-conda-osx_1421": "Failed",
                 "pull_requests-conda-osx_1422": "Failed",
-                "pull_requests-conda-osx_1444": "Failed",
-                "pull_requests-conda-osx_2987": "Failed"
+                "pull_requests-conda-osx_1444": "Failed"
             },
-            "last_fail_detected": "2023-07-11"
+            "last_fail_detected": "2023-02-07"
         },
         {
             "test_name": "MantidQtInterfacesIndirectTestQt5_InelasticDataManipulationSymmetriseTabModelTest",
@@ -9607,11 +9605,12 @@
             "last_fail_detected": "2023-03-01"
         },
         {
-            "test_name": "AlgorithmsTest_SofQWTest",
+            "test_name": "MDAlgorithmsTest_LoadGaussCubeTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_2987": "Failed"
+                "pull_requests-conda-osx_2991": "Failed",
+                "pull_requests-conda-osx_2996": "Failed"
             },
-            "last_fail_detected": "2023-07-11"
+            "last_fail_detected": "2023-07-12"
         }
     ]
 }

@@ -10881,22 +10881,20 @@
             "last_fail_detected": "2023-02-17"
         },
         {
-            "test_name": "MDAlgorithmsTest_LoadGaussCubeTest",
+            "test_name": "LiveDataTest_MonitorLiveDataTest",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_3204": "Failed",
-                "pull_requests-conda-windows_3209": "Failed"
+                "pull_requests-conda-windows_3212": "Flake"
             },
-            "last_fail_detected": "2023-07-12"
+            "last_fail_detected": "2023-07-13"
         },
         {
             "test_name": "DataObjectsTest_TimeSplitterTest",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_3206": "Flake",
                 "main_nightly_deployment_prototype_585": "Failed",
                 "main_nightly_deployment_prototype_586": "Flake",
                 "main_nightly_deployment_prototype_587": "Flake"
             },
-            "last_fail_detected": "2023-07-12"
+            "last_fail_detected": "2023-07-13"
         }
     ]
 }

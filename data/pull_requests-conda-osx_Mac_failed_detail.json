@@ -1,14 +1,23 @@
 {
     "data": [
         {
-            "test_name": "MDAlgorithmsTest_LoadGaussCubeTest",
-            "latest_failed_build": "2996",
+            "test_name": "DataHandlingTest_ISISDataArchiveTest",
+            "latest_failed_build": "3001",
             "agent_name": "Mac",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-osx",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3007",
+                    "3006",
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
+                    "2999",
                     "2998",
                     "2997",
                     "2996",
@@ -29,27 +38,18 @@
                     "2981",
                     "2980",
                     "2979",
-                    "2978",
-                    "2977",
-                    "2976",
-                    "2975",
-                    "2974",
-                    "2973",
-                    "2972",
-                    "2971",
-                    "2970",
-                    "2969"
+                    "2978"
                 ],
                 "past_outcome_list": [
                     "Passed",
                     "Passed",
-                    "Failed",
                     "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
                     "Failed",
-                    "None",
+                    "Passed",
+                    "Passed",
                     "None",
                     "None",
                     "None",
@@ -74,13 +74,13 @@
                 ]
             },
             "last_stack_traces": {
-                "test_name": "MDAlgorithmsTest_LoadGaussCubeTest",
-                "build": "2996",
+                "test_name": "DataHandlingTest_ISISDataArchiveTest",
+                "build": "3001",
                 "agent_name": "Mac",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "0.57",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.7.20230703.1019.dev80\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 2 tests.DllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nLoadGaussCube-[Notice] LoadGaussCube started\nCreateMDHistoWorkspace-[Notice] CreateMDHistoWorkspace started\nCreateMDHistoWorkspace-[Notice] CreateMDHistoWorkspace successful, Duration 0.00 seconds\nLoadGaussCube-[Notice] LoadGaussCube successful, Duration 0.01 seconds\n\nIn LoadGaussCubeTest::test_exec:\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/MDAlgorithms/test/LoadGaussCubeTest.h:50: Error: Expected (-10.0 == dim-&gt;getMaximum()), found (-10.0000000082 != 10.0000000082)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/MDAlgorithms/test/LoadGaussCubeTest.h:51: Error: Expected (10.0 == dim-&gt;getMinimum()), found (10.0000000082 != -10.0000000082)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/MDAlgorithms/test/LoadGaussCubeTest.h:50: Error: Expected (-10.0 == dim-&gt;getMaximum()), found (-10.0000000082 != 10.0000000082)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/MDAlgorithms/test/LoadGaussCubeTest.h:51: Error: Expected (10.0 == dim-&gt;getMinimum()), found (10.0000000082 != -10.0000000082)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/MDAlgorithms/test/LoadGaussCubeTest.h:50: Error: Expected (-10.0 == dim-&gt;getMaximum()), found (-10.0000000082 != 10.0000000082)\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/MDAlgorithms/test/LoadGaussCubeTest.h:51: Error: Expected (10.0 == dim-&gt;getMinimum()), found (10.0000000082 != -10.0000000082)\nFailed 1 of 2 tests\nSuccess rate: 50%\n\n          Start  322: AlgorithmsTest_IntegrationTest\n"
+                "test_time": "0.54",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.7.20230703.1019.dev95\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nDllOpen-[Error] Could not open library /Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib: dlopen(/Users/builder/Jenkins/workspace/pull_requests-conda-osx/build/bin/libMantidPythonInterfaceCore.dylib, 10): Symbol not found: _PyBaseObject_Type\n  Referenced from: /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\n  Expected in: flat namespace\n in /Users/builder/Jenkins/workspace/pull_requests-conda-osx/mambaforge/envs/mantid-developer/lib/libboost_python38.dylib\nRunning 6 tests...\nIn ISISDataArchiveTest::testFilenameLoopIgnoresEmptyFilenames:\n/Users/builder/Jenkins/workspace/pull_requests-conda-osx/Framework/DataHandling/test/ISISDataArchiveTest.h:117: Error: Expected (actualPath == expectedPath + &quot;hrpd273.RAW&quot;), found (&quot;/Volumes/inst$/default/path/hrpd273.RAW&quot; != &quot;/archive/default/path/hrpd273.RAW&quot;)\n..\nFailed 1 of 6 tests\nSuccess rate: 83%\n\n          Start 1641: python.WorkflowAlgorithms.IndirectResolutionTest.IndirectResolutionTest\n"
             }
         }
     ]

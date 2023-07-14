@@ -780,9 +780,10 @@
                 "pull_requests-conda-windows_942": "Failed",
                 "pull_requests-conda-windows_946": "Failed",
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_3223": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-07-14"
         },
         {
             "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest",
@@ -794,9 +795,10 @@
                 "pull_requests-conda-windows_942": "Failed",
                 "pull_requests-conda-windows_946": "Failed",
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_3223": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-07-14"
         },
         {
             "test_name": "DataHandlingTest_LoadILLDiffractionTest",
@@ -10881,11 +10883,11 @@
             "last_fail_detected": "2023-02-17"
         },
         {
-            "test_name": "LiveDataTest_MonitorLiveDataTest",
+            "test_name": "python.Diffraction.single_crystal.test_sxd.test_sxd",
             "past_failed_outcome": {
-                "pull_requests-conda-windows_3212": "Flake"
+                "pull_requests-conda-windows_3221": "Failed"
             },
-            "last_fail_detected": "2023-07-13"
+            "last_fail_detected": "2023-07-14"
         },
         {
             "test_name": "DataObjectsTest_TimeSplitterTest",
@@ -10894,7 +10896,7 @@
                 "main_nightly_deployment_prototype_586": "Flake",
                 "main_nightly_deployment_prototype_587": "Flake"
             },
-            "last_fail_detected": "2023-07-13"
+            "last_fail_detected": "2023-07-14"
         }
     ]
 }

@@ -1,14 +1,20 @@
 {
     "data": [
         {
-            "test_name": "python.Diffraction.single_crystal.test_sxd.test_sxd",
-            "latest_failed_build": "4467",
+            "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest",
+            "latest_failed_build": "4469",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "4473",
+                    "4472",
+                    "4471",
+                    "4470",
+                    "4469",
+                    "4468",
                     "4467",
                     "4466",
                     "4465",
@@ -32,27 +38,21 @@
                     "4447",
                     "4446",
                     "4445",
-                    "4444",
-                    "4443",
-                    "4442",
-                    "4441",
-                    "4440",
-                    "4439",
-                    "4438"
+                    "4444"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "None",
+                    "None",
+                    "Passed",
                     "Failed",
                     "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
                     "None",
                     "None",
                     "None",
@@ -74,24 +74,30 @@
                 ]
             },
             "last_stack_traces": {
-                "test_name": "python.Diffraction.single_crystal.test_sxd.test_sxd",
-                "build": "4467",
+                "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_DecoderTest",
+                "build": "4469",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "25.54",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.7.20230703.1019.dev108\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument started\nLoadEmptyInstrument-[Notice] LoadEmptyInstrument successful, Duration 2.59 seconds\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace started\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace successful, Duration 0.00 seconds\nCloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.15 seconds\nCloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.13 seconds\nCloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nSaveParameterFile-[Notice] SaveParameterFile started\nSaveParameterFile-[Notice] SaveParameterFile successful, Duration 0.13 seconds\nClearInstrumentParameters-[Notice] ClearInstrumentParameters started\nClearInstrumentParameters-[Notice] ClearInstrumentParameters successful, Duration 0.00 seconds\nClearInstrumentParameters-[Notice] ClearInstrumentParameters started\nClearInstrumentParameters-[Notice] ClearInstrumentParameters successful, Duration 0.00 seconds\n....CreatePeaksWorkspace-[Notice] CreatePeaksWorkspace started\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace successful, Duration 0.00 seconds\nF.CreatePeaksWorkspace-[Notice] CreatePeaksWorkspace started\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace successful, Duration 0.01 seconds\nCloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nCloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nCloneWorkspace-[Notice] CloneWorkspace started\nCloneWorkspace-[Notice] CloneWorkspace successful, Duration 0.00 seconds\nFCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace started\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace successful, Duration 0.00 seconds\nSetUB-[Notice] SetUB started\nSetUB-[Notice] SetUB successful, Duration 0.00 seconds\n.CreatePeaksWorkspace-[Notice] CreatePeaksWorkspace started\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace successful, Duration 0.00 seconds\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace started\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace successful, Duration 0.00 seconds\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace started\nCreatePeaksWorkspace-[Notice] CreatePeaksWorkspace successful, Duration 0.00 seconds\n.........\n======================================================================\nFAIL: test_get_radius (test_sxd.SXDTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/Diffraction/single_crystal/test/test_sxd.py&quot;, line 178, in test_get_radius\n    self.assertAlmostEqual(0.020582, self.sxd.get_radius(peaks.getPeak(0), self.ws, ispec, scale=1), delta=1e-6)\nAssertionError: 0.020582 != 0.024298931790145337 within 1e-06 delta (0.0037169317901453378 difference)\n\n======================================================================\nFAIL: test_integrate_peaks_MD_optimal_radius (test_sxd.SXDTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/python3.8/unittest/mock.py&quot;, line 1325, in patched\n    return func(*newargs, **newkeywargs)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/scripts/Diffraction/single_crystal/test/test_sxd.py&quot;, line 133, in test_integrate_peaks_MD_optimal_radius\n    self.assertAlmostEqual(radius, mock_int_md.call_args_list[icall].kwargs[&quot;PeakRadius&quot;], delta=1e-3)\nAssertionError: 0.1021 != 0.09482148571955759 within 0.001 delta (0.007278514280442405 difference)\n\n----------------------------------------------------------------------\nRan 17 tests in 6.857s\n\nFAILED (failures=2)\n\n          Start 2105: mantidqt_qt5.test_tableworkspacedisplay_model.test_tableworkspacedisplay_model\n"
+                "test_time": "5.71",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.7.20230703.1019.dev114\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 13 testsQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\n\n********* UNHANDLED EXCEPTION *********\n  what(): Unknown exception type. No more information available\n\nBacktrace:\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidAPI.so(+0x1d9f2a) [0x7f6e67f80f2a]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidAPI.so(+0xec7f3) [0x7f6e67e937f3]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libstdc++.so.6(+0xb640c) [0x7f6e6720040c]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libstdc++.so.6(+0xb645e) [0x7f6e6720045e]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libstdc++.so.6(__cxa_rethrow+0) [0x7f6e67200650]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libboost_python38.so.1.77.0(+0x113d9) [0x7f6e691563d9]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidQtWidgetsMplCppQt5.so(+0x1531f) [0x7f6e664e131f]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidQtWidgetsMplCppQt5.so(_ZN8MantidQt7Widgets6MplCpp6Figure10addSubPlotEiRK7QString+0x2fa) [0x7f6e664ebb2a]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidQtWidgetsMplCppQt5.so(_ZN8MantidQt7Widgets6MplCpp14FigureCanvasQtC1EiRK7QStringP7QWidget+0x7c) [0x7f6e664ec85c]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidQtWidgetsPlottingQt5.so(_ZN8MantidQt13MantidWidgets11PreviewPlotC1EP7QWidgetb+0x95) [0x7f6e6ac1adc5]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry22QtPreviewDockedWidgetsC2EP7QWidgetP7QLayout+0xb2) [0x7f6e6a8a7702]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry16PreviewPresenterC1ENS2_12DependenciesE+0x61d) [0x7f6e6a8a2a8d]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(+0x103929) [0x7f6e6a819929]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(+0x1083ff) [0x7f6e6a81e3ff]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry19MainWindowPresenter11addNewBatchEPNS1_10IBatchViewE+0x70) [0x7f6e6a814830]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry16QtMainWindowView10initLayoutEv+0xd1b) [0x7f6e6a81f91b]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidQtWidgetsCommonQt5.so(_ZN8MantidQt3API13UserSubWindow16initializeLayoutEv+0x47) [0x7f6e6983c3e7]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidQtWidgetsCommonQt5.so(_ZN8MantidQt3API16InterfaceManager15createSubWindowERK7QStringP7QWidgetb+0x14d) [0x7f6e6979e9ad]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry7Decoder6decodeERK4QMapI7QString8QVariantERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x61) [0x7f6e6a89e381]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidScientificInterfacesISISReflectometryTestQt5(+0x326d59) [0x558b8116dd59]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidScientificInterfacesISISReflectometryTestQt5(+0x555e43) [0x558b8139ce43]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidScientificInterfacesISISReflectometryTestQt5(+0x13aa57) [0x558b80f81a57]\n /lib64/libc.so.6(__libc_start_main+0xf5) [0x7f6e66a81555]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidScientificInterfacesISISReflectometryTestQt5(+0x13bce9) [0x558b80f82ce9]\n\n          Start 1240: HistogramDataTest_StandardDeviationVectorOfTest\n"
             }
         },
         {
-            "test_name": "mantidqt_qt5.test_jupyterconsole.test_jupyterconsole",
-            "latest_failed_build": "4464",
+            "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest",
+            "latest_failed_build": "4469",
             "agent_name": "Linux",
-            "last_failed_outcome": "Flake",
+            "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "4473",
+                    "4472",
+                    "4471",
+                    "4470",
+                    "4469",
+                    "4468",
                     "4467",
                     "4466",
                     "4465",
@@ -115,27 +121,21 @@
                     "4447",
                     "4446",
                     "4445",
-                    "4444",
-                    "4443",
-                    "4442",
-                    "4441",
-                    "4440",
-                    "4439",
-                    "4438"
+                    "4444"
                 ],
                 "past_outcome_list": [
+                    "None",
+                    "None",
+                    "None",
                     "Passed",
+                    "Failed",
                     "Passed",
-                    "Passed",
-                    "Flake",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
-                    "Passed",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
                     "None",
                     "None",
                     "None",
@@ -157,13 +157,13 @@
                 ]
             },
             "last_stack_traces": {
-                "test_name": "mantidqt_qt5.test_jupyterconsole.test_jupyterconsole",
-                "build": "4464",
+                "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest",
+                "build": "4469",
                 "agent_name": "Linux",
-                "trial": 1,
-                "outcome": "Timeout",
-                "test_time": "1200.10",
-                "stacktrace": "QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\n\n          Start 2089: mantidqt_qt5.test_jupyterconsole.test_jupyterconsole\n"
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "6.53",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.7.20230703.1019.dev114\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 2 testsQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\n\n********* UNHANDLED EXCEPTION *********\n  what(): Unknown exception type. No more information available\n\nBacktrace:\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidAPI.so(+0x1d9f2a) [0x7f502e5aef2a]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidAPI.so(+0xec7f3) [0x7f502e4c17f3]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libstdc++.so.6(+0xb640c) [0x7f502d82e40c]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libstdc++.so.6(+0xb645e) [0x7f502d82e45e]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libstdc++.so.6(__cxa_rethrow+0) [0x7f502d82e650]\n /jenkins_workdir/workspace/pull_requests-conda-linux/mambaforge/envs/mantid-developer/lib/libboost_python38.so.1.77.0(+0x113d9) [0x7f502f7843d9]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidQtWidgetsMplCppQt5.so(+0x1531f) [0x7f502cb0f31f]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidQtWidgetsMplCppQt5.so(_ZN8MantidQt7Widgets6MplCpp6Figure10addSubPlotEiRK7QString+0x2fa) [0x7f502cb19b2a]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidQtWidgetsMplCppQt5.so(_ZN8MantidQt7Widgets6MplCpp14FigureCanvasQtC1EiRK7QStringP7QWidget+0x7c) [0x7f502cb1a85c]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidQtWidgetsPlottingQt5.so(_ZN8MantidQt13MantidWidgets11PreviewPlotC1EP7QWidgetb+0x95) [0x7f5031248dc5]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry22QtPreviewDockedWidgetsC2EP7QWidgetP7QLayout+0xb2) [0x7f5030ed5702]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry16PreviewPresenterC1ENS2_12DependenciesE+0x61d) [0x7f5030ed0a8d]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(+0x103929) [0x7f5030e47929]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(+0x1083ff) [0x7f5030e4c3ff]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry19MainWindowPresenter11addNewBatchEPNS1_10IBatchViewE+0x70) [0x7f5030e42830]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/libMantidScientificInterfacesISISReflectometryQt5.so(_ZN8MantidQt16CustomInterfaces17ISISReflectometry16QtMainWindowView10initLayoutEv+0xd1b) [0x7f5030e4d91b]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidScientificInterfacesISISReflectometryTestQt5(+0x316aae) [0x5612ea4ccaae]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidScientificInterfacesISISReflectometryTestQt5(+0x555e43) [0x5612ea70be43]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidScientificInterfacesISISReflectometryTestQt5(+0x13aa57) [0x5612ea2f0a57]\n /lib64/libc.so.6(__libc_start_main+0xf5) [0x7f502d0af555]\n /jenkins_workdir/workspace/pull_requests-conda-linux/build/bin/MantidScientificInterfacesISISReflectometryTestQt5(+0x13bce9) [0x5612ea2f1ce9]\n\n          Start 2148: python.MuonQt5.elemental_analysis_main_GUI_test.elemental_analysis_main_GUI_test\n"
             }
         }
     ]

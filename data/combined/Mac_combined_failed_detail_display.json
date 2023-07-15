@@ -982,10 +982,9 @@
                 "pull_requests-conda-osx_1120": "Failed",
                 "pull_requests-conda-osx_1122": "Failed",
                 "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_1723": "Failed",
-                "pull_requests-conda-osx_3010": "Failed"
+                "pull_requests-conda-osx_1723": "Failed"
             },
-            "last_fail_detected": "2023-07-14"
+            "last_fail_detected": "2023-03-01"
         },
         {
             "test_name": "MantidScientificInterfacesISISReflectometryTestQt5_EncoderTest",
@@ -1000,10 +999,9 @@
                 "pull_requests-conda-osx_1117": "Failed",
                 "pull_requests-conda-osx_1120": "Failed",
                 "pull_requests-conda-osx_1122": "Failed",
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_3010": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-14"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "HistogramDataTest_InterpolateTest",
@@ -9605,13 +9603,6 @@
                 "pull_requests-conda-osx_1739": "Failed"
             },
             "last_fail_detected": "2023-03-01"
-        },
-        {
-            "test_name": "python.Diffraction.single_crystal.test_sxd.test_sxd",
-            "past_failed_outcome": {
-                "pull_requests-conda-osx_3008": "Failed"
-            },
-            "last_fail_detected": "2023-07-14"
         }
     ]
 }

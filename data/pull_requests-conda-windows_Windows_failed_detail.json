@@ -1,3 +1,87 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "mantidqt_qt5.test_sliceviewer_model.test_sliceviewer_model",
+            "latest_failed_build": "3232",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-windows",
+            "problem_count": 2,
+            "past_outcome": {
+                "build_keys": [
+                    "3233",
+                    "3232",
+                    "3231",
+                    "3230",
+                    "3229",
+                    "3228",
+                    "3227",
+                    "3226",
+                    "3225",
+                    "3224",
+                    "3223",
+                    "3222",
+                    "3221",
+                    "3220",
+                    "3219",
+                    "3218",
+                    "3217",
+                    "3216",
+                    "3215",
+                    "3214",
+                    "3213",
+                    "3212",
+                    "3211",
+                    "3210",
+                    "3209",
+                    "3208",
+                    "3207",
+                    "3206",
+                    "3205",
+                    "3204"
+                ],
+                "past_outcome_list": [
+                    "Passed",
+                    "Failed",
+                    "Failed",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "mantidqt_qt5.test_sliceviewer_model.test_sliceviewer_model",
+                "build": "3232",
+                "agent_name": "Windows",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "7.89",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.7.20230713.1348.dev3\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\n.....E.......E.E................................\r\n======================================================================\r\nERROR: test_MDH_workspace_in_hkl_supports_non_orthogonal_axes (test_sliceviewer_model.SliceViewerModelTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/jenkins_workdir/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_model.py&quot;, line 405, in test_MDH_workspace_in_hkl_supports_non_orthogonal_axes\r\n    self._assert_supports_non_orthogonal_axes(\r\n  File &quot;C:/jenkins_workdir/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_model.py&quot;, line 921, in _assert_supports_non_orthogonal_axes\r\n    model = SliceViewerModel(_create_mock_workspace(ws_type, coords, has_oriented_lattice))\r\n  File &quot;C:\\jenkins_workdir\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqt\\mantidqt\\widgets\\sliceviewer\\models\\model.py&quot;, line 84, in __init__\r\n    self._axes_angles = self._calculate_axes_angles()\r\n  File &quot;C:\\jenkins_workdir\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqt\\mantidqt\\widgets\\sliceviewer\\models\\model.py&quot;, line 574, in _calculate_axes_angles\r\n    proj_matrix = self.get_proj_matrix()\r\n  File &quot;C:\\jenkins_workdir\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqt\\mantidqt\\widgets\\sliceviewer\\models\\model.py&quot;, line 553, in get_proj_matrix\r\n    proj_matrix = self.projection_matrix_from_basis(ws)\r\n  File &quot;C:\\jenkins_workdir\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqt\\mantidqt\\widgets\\sliceviewer\\models\\model.py&quot;, line 544, in projection_matrix_from_basis\r\n    proj_matrix[: qmask.sum(), : qmask.sum()] = basis_matrix[qmask, :][:, qflags]\r\nValueError: could not broadcast input array from shape (0,2) into shape (0,0)\r\n\r\n======================================================================\r\nERROR: test_calculate_axes_angles_uses_basis_vectors_even_if_WMatrix_log_available_MDHisto (test_sliceviewer_model.SliceViewerModelTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/jenkins_workdir/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_model.py&quot;, line 508, in test_calculate_axes_angles_uses_basis_vectors_even_if_WMatrix_log_available_MDHisto\r\n    model = SliceViewerModel(ws)\r\n  File &quot;C:\\jenkins_workdir\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqt\\mantidqt\\widgets\\sliceviewer\\models\\model.py&quot;, line 84, in __init__\r\n    self._axes_angles = self._calculate_axes_angles()\r\n  File &quot;C:\\jenkins_workdir\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqt\\mantidqt\\widgets\\sliceviewer\\models\\model.py&quot;, line 574, in _calculate_axes_angles\r\n    proj_matrix = self.get_proj_matrix()\r\n  File &quot;C:\\jenkins_workdir\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqt\\mantidqt\\widgets\\sliceviewer\\models\\model.py&quot;, line 553, in get_proj_matrix\r\n    proj_matrix = self.projection_matrix_from_basis(ws)\r\n  File &quot;C:\\jenkins_workdir\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqt\\mantidqt\\widgets\\sliceviewer\\models\\model.py&quot;, line 544, in projection_matrix_from_basis\r\n    proj_matrix[: qmask.sum(), : qmask.sum()] = basis_matrix[qmask, :][:, qflags]\r\nValueError: could not broadcast input array from shape (0,2) into shape (0,0)\r\n\r\n======================================================================\r\nERROR: test_calculate_axes_angles_uses_identity_if_W_unavailable_MDHisto (test_sliceviewer_model.SliceViewerModelTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/jenkins_workdir/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_model.py&quot;, line 531, in test_calculate_axes_angles_uses_identity_if_W_unavailable_MDHisto\r\n    model = SliceViewerModel(ws)\r\n  File &quot;C:\\jenkins_workdir\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqt\\mantidqt\\widgets\\sliceviewer\\models\\model.py&quot;, line 84, in __init__\r\n    self._axes_angles = self._calculate_axes_angles()\r\n  File &quot;C:\\jenkins_workdir\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqt\\mantidqt\\widgets\\sliceviewer\\models\\model.py&quot;, line 574, in _calculate_axes_angles\r\n    proj_matrix = self.get_proj_matrix()\r\n  File &quot;C:\\jenkins_workdir\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqt\\mantidqt\\widgets\\sliceviewer\\models\\model.py&quot;, line 553, in get_proj_matrix\r\n    proj_matrix = self.projection_matrix_from_basis(ws)\r\n  File &quot;C:\\jenkins_workdir\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqt\\mantidqt\\widgets\\sliceviewer\\models\\model.py&quot;, line 544, in projection_matrix_from_basis\r\n    proj_matrix[: qmask.sum(), : qmask.sum()] = basis_matrix[qmask, :][:, qflags]\r\nValueError: could not broadcast input array from shape (0,2) into shape (0,0)\r\n\r\n----------------------------------------------------------------------\r\nRan 48 tests in 1.081s\r\n\r\nFAILED (errors=3)\r\n\r\n          Start  545: APITest_NotebookBuilderTest\r\n"
+            }
+        }
+    ]
 }

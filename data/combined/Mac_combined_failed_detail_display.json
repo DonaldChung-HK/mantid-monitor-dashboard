@@ -2614,9 +2614,11 @@
                 "pull_requests-conda-osx_1234": "Failed",
                 "pull_requests-conda-osx_1235": "Failed",
                 "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_1327": "Failed"
+                "pull_requests-conda-osx_1327": "Failed",
+                "pull_requests-conda-osx_3018": "Failed",
+                "pull_requests-conda-osx_3019": "Failed"
             },
-            "last_fail_detected": "2023-01-31"
+            "last_fail_detected": "2023-07-17"
         },
         {
             "test_name": "APITest_LogManagerTest",

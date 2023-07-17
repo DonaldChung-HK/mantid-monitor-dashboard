@@ -2726,9 +2726,11 @@
                 "pull_requests-conda-linux_2575": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
                 "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_2670": "Failed"
+                "pull_requests-conda-linux_2670": "Failed",
+                "pull_requests-conda-linux_4478": "Failed",
+                "pull_requests-conda-linux_4479": "Failed"
             },
-            "last_fail_detected": "2023-01-31"
+            "last_fail_detected": "2023-07-17"
         },
         {
             "test_name": "mantidqt_qt5.test_spectraselectiondialog.test_spectraselectiondialog",

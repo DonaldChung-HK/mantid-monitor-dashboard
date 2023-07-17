@@ -1,3 +1,87 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "mantidqt_qt5.test_sliceviewer_model.test_sliceviewer_model",
+            "latest_failed_build": "3019",
+            "agent_name": "Mac",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-osx",
+            "problem_count": 2,
+            "past_outcome": {
+                "build_keys": [
+                    "3020",
+                    "3019",
+                    "3018",
+                    "3017",
+                    "3016",
+                    "3015",
+                    "3014",
+                    "3013",
+                    "3012",
+                    "3011",
+                    "3010",
+                    "3009",
+                    "3008",
+                    "3007",
+                    "3006",
+                    "3005",
+                    "3004",
+                    "3003",
+                    "3002",
+                    "3001",
+                    "3000",
+                    "2999",
+                    "2998",
+                    "2997",
+                    "2996",
+                    "2995",
+                    "2994",
+                    "2993",
+                    "2992",
+                    "2991"
+                ],
+                "past_outcome_list": [
+                    "Passed",
+                    "Failed",
+                    "Failed",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "mantidqt_qt5.test_sliceviewer_model.test_sliceviewer_model",
+                "build": "3019",
+                "agent_name": "Mac",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "8.52",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.7.20230713.1348.dev3\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\n.....E.......E.E................................\n======================================================================\nERROR: test_MDH_workspace_in_hkl_supports_non_orthogonal_axes (test_sliceviewer_model.SliceViewerModelTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_model.py&quot;, line 405, in test_MDH_workspace_in_hkl_supports_non_orthogonal_axes\n    self._assert_supports_non_orthogonal_axes(\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_model.py&quot;, line 921, in _assert_supports_non_orthogonal_axes\n    model = SliceViewerModel(_create_mock_workspace(ws_type, coords, has_oriented_lattice))\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/models/model.py&quot;, line 84, in __init__\n    self._axes_angles = self._calculate_axes_angles()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/models/model.py&quot;, line 574, in _calculate_axes_angles\n    proj_matrix = self.get_proj_matrix()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/models/model.py&quot;, line 553, in get_proj_matrix\n    proj_matrix = self.projection_matrix_from_basis(ws)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/models/model.py&quot;, line 544, in projection_matrix_from_basis\n    proj_matrix[: qmask.sum(), : qmask.sum()] = basis_matrix[qmask, :][:, qflags]\nValueError: could not broadcast input array from shape (0,2) into shape (0,0)\n\n======================================================================\nERROR: test_calculate_axes_angles_uses_basis_vectors_even_if_WMatrix_log_available_MDHisto (test_sliceviewer_model.SliceViewerModelTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_model.py&quot;, line 508, in test_calculate_axes_angles_uses_basis_vectors_even_if_WMatrix_log_available_MDHisto\n    model = SliceViewerModel(ws)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/models/model.py&quot;, line 84, in __init__\n    self._axes_angles = self._calculate_axes_angles()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/models/model.py&quot;, line 574, in _calculate_axes_angles\n    proj_matrix = self.get_proj_matrix()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/models/model.py&quot;, line 553, in get_proj_matrix\n    proj_matrix = self.projection_matrix_from_basis(ws)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/models/model.py&quot;, line 544, in projection_matrix_from_basis\n    proj_matrix[: qmask.sum(), : qmask.sum()] = basis_matrix[qmask, :][:, qflags]\nValueError: could not broadcast input array from shape (0,2) into shape (0,0)\n\n======================================================================\nERROR: test_calculate_axes_angles_uses_identity_if_W_unavailable_MDHisto (test_sliceviewer_model.SliceViewerModelTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/test/test_sliceviewer_model.py&quot;, line 531, in test_calculate_axes_angles_uses_identity_if_W_unavailable_MDHisto\n    model = SliceViewerModel(ws)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/models/model.py&quot;, line 84, in __init__\n    self._axes_angles = self._calculate_axes_angles()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/models/model.py&quot;, line 574, in _calculate_axes_angles\n    proj_matrix = self.get_proj_matrix()\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/models/model.py&quot;, line 553, in get_proj_matrix\n    proj_matrix = self.projection_matrix_from_basis(ws)\n  File &quot;/Users/builder/Jenkins/workspace/pull_requests-conda-osx/qt/python/mantidqt/mantidqt/widgets/sliceviewer/models/model.py&quot;, line 544, in projection_matrix_from_basis\n    proj_matrix[: qmask.sum(), : qmask.sum()] = basis_matrix[qmask, :][:, qflags]\nValueError: could not broadcast input array from shape (0,2) into shape (0,0)\n\n----------------------------------------------------------------------\nRan 48 tests in 1.644s\n\nFAILED (errors=3)\n\n          Start 2418: MantidScientificInterfacesISISReflectometryTestQt5_ValidateLookupRowTest\n"
+            }
+        }
+    ]
 }

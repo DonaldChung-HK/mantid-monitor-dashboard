@@ -2817,9 +2817,11 @@
                 "pull_requests-conda-windows_1321": "Failed",
                 "pull_requests-conda-windows_1371": "Failed",
                 "pull_requests-conda-windows_1372": "Failed",
-                "pull_requests-conda-windows_1416": "Failed"
+                "pull_requests-conda-windows_1416": "Failed",
+                "pull_requests-conda-windows_3231": "Failed",
+                "pull_requests-conda-windows_3232": "Failed"
             },
-            "last_fail_detected": "2023-01-31"
+            "last_fail_detected": "2023-07-17"
         },
         {
             "test_name": "python.WorkflowAlgorithms.IndirectTransmissionMonitorTest.IndirectTransmissionMonitorTest",
@@ -10887,7 +10889,7 @@
                 "main_nightly_deployment_prototype_586": "Flake",
                 "main_nightly_deployment_prototype_587": "Flake"
             },
-            "last_fail_detected": "2023-07-16"
+            "last_fail_detected": "2023-07-17"
         }
     ]
 }

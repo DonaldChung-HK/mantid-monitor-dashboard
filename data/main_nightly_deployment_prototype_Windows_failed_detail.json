@@ -9,24 +9,24 @@
             "problem_count": 3,
             "past_outcome": {
                 "build_keys": [
+                    "592",
                     "591",
                     "590",
                     "589",
                     "588",
                     "587",
                     "586",
-                    "585",
-                    "584"
+                    "585"
                 ],
                 "past_outcome_list": [
                     "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
+                    "Passed",
                     "Flake",
                     "Flake",
-                    "Failed",
-                    "Passed"
+                    "Failed"
                 ]
             },
             "last_stack_traces": {

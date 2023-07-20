@@ -2354,11 +2354,9 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_4503": "Flake",
-                "pull_requests-conda-linux_4507": "Flake"
+                "pull_requests-conda-linux_2629": "Failed"
             },
-            "last_fail_detected": "2023-07-19"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "mantidqt_qt5.test_line_edit_double_validator.test_line_edit_double_validator",
@@ -10419,9 +10417,10 @@
             "test_name": "APITest_AsynchronousTest",
             "past_failed_outcome": {
                 "pull_requests-conda-linux_2557": "Flake",
-                "pull_requests-conda-linux_2693": "Flake"
+                "pull_requests-conda-linux_2693": "Flake",
+                "pull_requests-conda-linux_4530": "Flake"
             },
-            "last_fail_detected": "2023-02-01"
+            "last_fail_detected": "2023-07-20"
         },
         {
             "test_name": "AlgorithmsTest_GetAllEiTest",
@@ -10620,9 +10619,10 @@
                 "pull_requests-conda-linux_2825": "Failed",
                 "pull_requests-conda-linux_2829": "Failed",
                 "pull_requests-conda-linux_2842": "Failed",
-                "pull_requests-conda-linux_2867": "Failed"
+                "pull_requests-conda-linux_2867": "Failed",
+                "pull_requests-conda-linux_4525": "Flake"
             },
-            "last_fail_detected": "2023-02-10"
+            "last_fail_detected": "2023-07-20"
         },
         {
             "test_name": "AlgorithmsTest_CalculateCountRateTest",
@@ -11613,6 +11613,13 @@
                 "main_nightly_deployment_prototype_501": "Flake"
             },
             "last_fail_detected": "2023-02-25"
+        },
+        {
+            "test_name": "python.Diffraction.single_crystal.test_sxd.test_sxd",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_4525": "Failed"
+            },
+            "last_fail_detected": "2023-07-20"
         }
     ]
 }

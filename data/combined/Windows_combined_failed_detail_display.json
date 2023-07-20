@@ -10881,13 +10881,20 @@
             "last_fail_detected": "2023-02-17"
         },
         {
+            "test_name": "python.Diffraction.single_crystal.test_sxd.test_sxd",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_3265": "Failed"
+            },
+            "last_fail_detected": "2023-07-20"
+        },
+        {
             "test_name": "DataObjectsTest_TimeSplitterTest",
             "past_failed_outcome": {
                 "main_nightly_deployment_prototype_585": "Failed",
                 "main_nightly_deployment_prototype_586": "Flake",
                 "main_nightly_deployment_prototype_587": "Flake"
             },
-            "last_fail_detected": "2023-07-19"
+            "last_fail_detected": "2023-07-20"
         }
     ]
 }

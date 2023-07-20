@@ -9603,6 +9603,13 @@
                 "pull_requests-conda-osx_1739": "Failed"
             },
             "last_fail_detected": "2023-03-01"
+        },
+        {
+            "test_name": "python.Diffraction.single_crystal.test_sxd.test_sxd",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_3055": "Failed"
+            },
+            "last_fail_detected": "2023-07-20"
         }
     ]
 }

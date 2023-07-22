@@ -6,9 +6,10 @@
             "agent_name": "Windows",
             "last_failed_outcome": "Flake",
             "pipeline_name": "main_nightly_deployment_prototype",
-            "problem_count": 3,
+            "problem_count": 2,
             "past_outcome": {
                 "build_keys": [
+                    "595",
                     "594",
                     "593",
                     "592",
@@ -17,8 +18,7 @@
                     "589",
                     "588",
                     "587",
-                    "586",
-                    "585"
+                    "586"
                 ],
                 "past_outcome_list": [
                     "Passed",
@@ -28,9 +28,9 @@
                     "Passed",
                     "Passed",
                     "Passed",
+                    "Passed",
                     "Flake",
-                    "Flake",
-                    "Failed"
+                    "Flake"
                 ]
             },
             "last_stack_traces": {

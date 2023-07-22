@@ -1813,10 +1813,10 @@
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
                 "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_4542": "Failed",
-                "pull_requests-conda-linux_4543": "Failed"
+                "pull_requests-conda-linux_4544": "Failed",
+                "pull_requests-conda-linux_4546": "Failed"
             },
-            "last_fail_detected": "2023-07-21"
+            "last_fail_detected": "2023-07-22"
         },
         {
             "test_name": "PythonSANSQt5.beam_centre_model_test.beam_centre_model_test",
@@ -1916,10 +1916,10 @@
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
                 "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_4542": "Failed",
-                "pull_requests-conda-linux_4543": "Failed"
+                "pull_requests-conda-linux_4544": "Failed",
+                "pull_requests-conda-linux_4546": "Failed"
             },
-            "last_fail_detected": "2023-07-21"
+            "last_fail_detected": "2023-07-22"
         },
         {
             "test_name": "PythonSANSQt5.save_other_presenter_test.save_other_presenter_test",
@@ -1968,10 +1968,10 @@
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
                 "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_4542": "Failed",
-                "pull_requests-conda-linux_4543": "Failed"
+                "pull_requests-conda-linux_4544": "Failed",
+                "pull_requests-conda-linux_4546": "Failed"
             },
-            "last_fail_detected": "2023-07-21"
+            "last_fail_detected": "2023-07-22"
         },
         {
             "test_name": "PythonSANSQt5.table_model_test.table_model_test",
@@ -11084,9 +11084,10 @@
                 "pull_requests-conda-linux_2825": "Failed",
                 "pull_requests-conda-linux_2829": "Failed",
                 "pull_requests-conda-linux_2842": "Failed",
-                "pull_requests-conda-linux_2867": "Failed"
+                "pull_requests-conda-linux_2867": "Failed",
+                "pull_requests-conda-linux_4548": "Flake"
             },
-            "last_fail_detected": "2023-02-10"
+            "last_fail_detected": "2023-07-22"
         },
         {
             "test_name": "MDAlgorithmsTest_ConvertCWPDMDToSpectraTest",
@@ -11617,15 +11618,6 @@
                 "main_nightly_deployment_prototype_501": "Flake"
             },
             "last_fail_detected": "2023-02-25"
-        },
-        {
-            "test_name": "python.Diffraction.single_crystal.test_sxd.test_sxd",
-            "past_failed_outcome": {
-                "pull_requests-conda-linux_4533": "Failed",
-                "pull_requests-conda-linux_4534": "Failed",
-                "pull_requests-conda-linux_4536": "Failed"
-            },
-            "last_fail_detected": "2023-07-21"
         }
     ]
 }

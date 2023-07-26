@@ -1068,10 +1068,9 @@
             "test_name": "python.scripts.AbinsIOmoduleTest.AbinsIOmoduleTest",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_776": "Failed",
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_3082": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-25"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.WorkflowAlgorithms.ISISIndirectEnergyTransferTest.ISISIndirectEnergyTransferTest",
@@ -3219,9 +3218,10 @@
         {
             "test_name": "mantidqt_qt5.test_multifileinterpreter.test_multifileinterpreter",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed"
+                "pull_requests-conda-osx_1285": "Failed",
+                "pull_requests-conda-osx_3100": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-07-26"
         },
         {
             "test_name": "mantidqt_qt5.test_multifileinterpreter_view.test_multifileinterpreter_view",
@@ -5776,18 +5776,16 @@
         {
             "test_name": "python.algorithms.AbinsAdvancedParametersTest.AbinsAdvancedParametersTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_3082": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-25"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.algorithms.AbinsBasicTest.AbinsBasicTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_3082": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-25"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.algorithms.AlignComponentsTest.AlignComponentsTest",
@@ -8146,59 +8144,52 @@
         {
             "test_name": "python.scripts.AbinsAtomsDataTest.AbinsAtomsDataTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_3082": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-25"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.AbinsBroadeningTest.AbinsBroadeningTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_3082": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-25"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.AbinsCalculateQToscaTest.AbinsCalculateQToscaTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_3082": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-25"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.AbinsCalculateSPowderTest.AbinsCalculateSPowderTest",
             "past_failed_outcome": {
                 "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_1429": "Failed",
-                "pull_requests-conda-osx_3082": "Failed"
+                "pull_requests-conda-osx_1429": "Failed"
             },
-            "last_fail_detected": "2023-07-25"
+            "last_fail_detected": "2023-02-06"
         },
         {
             "test_name": "python.scripts.AbinsDataTest.AbinsDataTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_3082": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-25"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.AbinsFrequencyPowderGeneratorTest.AbinsFrequencyPowderGeneratorTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_3082": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-25"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.AbinsInstrumentTest.AbinsInstrumentTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_3082": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-25"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.AbinsKpointsDataTest.AbinsKpointsDataTest",
@@ -8210,82 +8201,72 @@
         {
             "test_name": "python.scripts.AbinsLoadCASTEPTest.AbinsLoadCASTEPTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_3082": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-25"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.AbinsLoadCRYSTALTest.AbinsLoadCRYSTALTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_3082": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-25"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.AbinsLoadDMOL3InternalsTest.AbinsLoadDMOL3InternalsTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_3082": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-25"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.AbinsLoadDMOL3Test.AbinsLoadDMOL3Test",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_3082": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-25"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.AbinsLoadGAUSSIANTest.AbinsLoadGAUSSIANTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_3082": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-25"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.AbinsLoadPhonopyTest.AbinsLoadPhonopyTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_3082": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-25"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.AbinsLoadVASPTest.AbinsLoadVASPTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_3082": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-25"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.AbinsPowderCalculatorTest.AbinsPowderCalculatorTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_3082": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-25"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.AbinsPowderDataTest.AbinsPowderDataTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_3082": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-25"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.AbinsSDataTest.AbinsSDataTest",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_3082": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-25"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.AbsorptionShapesTest.AbsorptionShapesTest",

@@ -3516,10 +3516,9 @@
             "test_name": "mantidqt_qt5.test_multifileinterpreter.test_multifileinterpreter",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed",
-                "pull_requests-conda-windows_3311": "Failed"
+                "pull_requests-conda-windows_1372": "Failed"
             },
-            "last_fail_detected": "2023-07-26"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "mantidqt_qt5.test_multifileinterpreter_view.test_multifileinterpreter_view",
@@ -5474,9 +5473,11 @@
             "test_name": "python.SANS.algorithm_detail.batch_execution_test.batch_execution_test",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_3319": "Failed",
+                "pull_requests-conda-windows_3320": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-07-27"
         },
         {
             "test_name": "python.SANS.algorithm_detail.calculate_sans_transmission_test.calculate_sans_transmission_test",

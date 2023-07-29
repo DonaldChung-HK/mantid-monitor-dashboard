@@ -1,14 +1,26 @@
 {
     "data": [
         {
-            "test_name": "mantidqt_qt5.test_colorbar.test_colorbar",
-            "latest_failed_build": "4592",
+            "test_name": "CurveFittingTest_CrystalFieldControlTest",
+            "latest_failed_build": "4598",
             "agent_name": "Linux",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "4610",
+                    "4609",
+                    "4608",
+                    "4607",
+                    "4606",
+                    "4605",
+                    "4604",
+                    "4603",
+                    "4602",
+                    "4601",
+                    "4600",
+                    "4599",
                     "4598",
                     "4597",
                     "4596",
@@ -26,35 +38,23 @@
                     "4584",
                     "4583",
                     "4582",
-                    "4581",
-                    "4580",
-                    "4579",
-                    "4578",
-                    "4577",
-                    "4576",
-                    "4575",
-                    "4574",
-                    "4573",
-                    "4572",
-                    "4571",
-                    "4570",
-                    "4569"
+                    "4581"
                 ],
                 "past_outcome_list": [
-                    "None",
-                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
                     "Failed",
-                    "Failed",
                     "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
-                    "None",
-                    "None",
                     "None",
                     "None",
                     "None",
@@ -74,13 +74,13 @@
                 ]
             },
             "last_stack_traces": {
-                "test_name": "mantidqt_qt5.test_colorbar.test_colorbar",
-                "build": "4592",
+                "test_name": "CurveFittingTest_CrystalFieldControlTest",
+                "build": "4598",
                 "agent_name": "Linux",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "46.60",
-                "stacktrace": "QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\n....FF.\n======================================================================\nFAIL: test_that_masked_data_in_log_mode_will_cause_a_switch_back_to_linear_normalisation (test_colorbar.ColorbarWidgetTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqt/mantidqt/widgets/colorbar/test/test_colorbar.py&quot;, line 48, in test_that_masked_data_in_log_mode_will_cause_a_switch_back_to_linear_normalisation\n    self.assertEqual(self.widget.norm.currentIndex(), NORM_OPTS.index(&quot;Linear&quot;))\nAssertionError: 1 != 0\n\n======================================================================\nFAIL: test_that_masked_data_in_symmetric_log_mode_will_cause_a_switch_back_to_linear_normalisation (test_colorbar.ColorbarWidgetTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqt/mantidqt/widgets/colorbar/test/test_colorbar.py&quot;, line 59, in test_that_masked_data_in_symmetric_log_mode_will_cause_a_switch_back_to_linear_normalisation\n    self.assertEqual(self.widget.norm.currentIndex(), NORM_OPTS.index(&quot;Linear&quot;))\nAssertionError: 2 != 0\n\n----------------------------------------------------------------------\nRan 7 tests in 36.466s\n\nFAILED (failures=2)\n\n          Start  307: AlgorithmsTest_GetEiMonDet3Test\n"
+                "test_time": "1.32",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.7.20230726.1845.dev53\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 15 tests......\nIn CrystalFieldControlTest::test_build_single_site_and_multiple_spectra_and_multiple_temperatures_and_FWHMs:\n/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/CurveFitting/test/Functions/CrystalFieldControlTest.h:180: Error: Expected (nControls == 2), found (4 != 2)\n........\nFailed 1 of 15 tests\nSuccess rate: 93%\n\n          Start  783: CurveFittingTest_ProductFunctionTest\n"
             }
         }
     ]

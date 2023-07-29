@@ -2173,11 +2173,9 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_4591": "Failed",
-                "pull_requests-conda-linux_4592": "Failed"
+                "pull_requests-conda-linux_2629": "Failed"
             },
-            "last_fail_detected": "2023-07-28"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "mantidqt_qt5.test_completion.test_completion",
@@ -11613,6 +11611,13 @@
                 "main_nightly_deployment_prototype_501": "Flake"
             },
             "last_fail_detected": "2023-02-25"
+        },
+        {
+            "test_name": "CurveFittingTest_CrystalFieldControlTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_4598": "Failed"
+            },
+            "last_fail_detected": "2023-07-29"
         }
     ]
 }

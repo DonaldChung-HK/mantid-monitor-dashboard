@@ -1,14 +1,26 @@
 {
     "data": [
         {
-            "test_name": "mantidqt_qt5.test_colorbar.test_colorbar",
-            "latest_failed_build": "3331",
+            "test_name": "CurveFittingTest_CrystalFieldControlTest",
+            "latest_failed_build": "3337",
             "agent_name": "Windows",
             "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-windows",
-            "problem_count": 2,
+            "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "3349",
+                    "3348",
+                    "3347",
+                    "3346",
+                    "3345",
+                    "3344",
+                    "3343",
+                    "3342",
+                    "3341",
+                    "3340",
+                    "3339",
+                    "3338",
                     "3337",
                     "3336",
                     "3335",
@@ -26,35 +38,23 @@
                     "3323",
                     "3322",
                     "3321",
-                    "3320",
-                    "3319",
-                    "3318",
-                    "3317",
-                    "3316",
-                    "3315",
-                    "3314",
-                    "3313",
-                    "3312",
-                    "3311",
-                    "3310",
-                    "3309",
-                    "3308"
+                    "3320"
                 ],
                 "past_outcome_list": [
-                    "None",
-                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
                     "Passed",
                     "Failed",
-                    "Failed",
                     "Passed",
-                    "Passed",
-                    "Passed",
-                    "None",
-                    "None",
-                    "None",
                     "None",
                     "None",
                     "None",
@@ -74,13 +74,13 @@
                 ]
             },
             "last_stack_traces": {
-                "test_name": "mantidqt_qt5.test_colorbar.test_colorbar",
-                "build": "3331",
+                "test_name": "CurveFittingTest_CrystalFieldControlTest",
+                "build": "3337",
                 "agent_name": "Windows",
                 "trial": 3,
                 "outcome": "Failed",
-                "test_time": "9.33",
-                "stacktrace": "....FF.\r\n======================================================================\r\nFAIL: test_that_masked_data_in_log_mode_will_cause_a_switch_back_to_linear_normalisation (test_colorbar.ColorbarWidgetTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/jenkins_workdir/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/colorbar/test/test_colorbar.py&quot;, line 48, in test_that_masked_data_in_log_mode_will_cause_a_switch_back_to_linear_normalisation\r\n    self.assertEqual(self.widget.norm.currentIndex(), NORM_OPTS.index(&quot;Linear&quot;))\r\nAssertionError: 1 != 0\r\n\r\n======================================================================\r\nFAIL: test_that_masked_data_in_symmetric_log_mode_will_cause_a_switch_back_to_linear_normalisation (test_colorbar.ColorbarWidgetTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/jenkins_workdir/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/colorbar/test/test_colorbar.py&quot;, line 59, in test_that_masked_data_in_symmetric_log_mode_will_cause_a_switch_back_to_linear_normalisation\r\n    self.assertEqual(self.widget.norm.currentIndex(), NORM_OPTS.index(&quot;Linear&quot;))\r\nAssertionError: 2 != 0\r\n\r\n----------------------------------------------------------------------\r\nRan 7 tests in 5.340s\r\n\r\nFAILED (failures=2)\r\n\r\n          Start 2567: python.SANS.algorithm_detail.create_sans_adjustment_workspaces_test.create_sans_adjustment_workspaces_test\r\n"
+                "test_time": "0.36",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.7.20230726.1845.dev53\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\nRunning 15 tests......\r\nIn CrystalFieldControlTest::test_build_single_site_and_multiple_spectra_and_multiple_temperatures_and_FWHMs:\r\nC:/jenkins_workdir/workspace/pull_requests-conda-windows/Framework/CurveFitting/test/Functions/CrystalFieldControlTest.h:180: Error: Expected (nControls == 2), found (4 != 2)\r\n........\r\nFailed 1 of 15 tests\r\nSuccess rate: 93%\r\n\r\n          Start  508: APITest_FunctionPropertyTest\r\n"
             }
         }
     ]

@@ -525,9 +525,10 @@
                 "pull_requests-conda-osx_1211": "Flake",
                 "pull_requests-conda-osx_1276": "Flake",
                 "pull_requests-conda-osx_1491": "Flake",
-                "pull_requests-conda-osx_1640": "Flake"
+                "pull_requests-conda-osx_1640": "Flake",
+                "pull_requests-conda-osx_3128": "Flake"
             },
-            "last_fail_detected": "2023-02-22"
+            "last_fail_detected": "2023-07-29"
         },
         {
             "test_name": "python.algorithms.HB2AReduceTest.HB2AReduceTest",
@@ -3007,11 +3008,9 @@
         {
             "test_name": "mantidqt_qt5.test_colorbar.test_colorbar",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_3115": "Failed",
-                "pull_requests-conda-osx_3116": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-07-28"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "mantidqt_qt5.test_completion.test_completion",
@@ -9605,6 +9604,13 @@
                 "pull_requests-conda-osx_1739": "Failed"
             },
             "last_fail_detected": "2023-03-01"
+        },
+        {
+            "test_name": "CurveFittingTest_CrystalFieldControlTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-osx_3122": "Failed"
+            },
+            "last_fail_detected": "2023-07-29"
         }
     ]
 }

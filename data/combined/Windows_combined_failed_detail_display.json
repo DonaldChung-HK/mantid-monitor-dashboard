@@ -10879,13 +10879,6 @@
                 "pull_requests-conda-windows_1710": "Failed"
             },
             "last_fail_detected": "2023-02-17"
-        },
-        {
-            "test_name": "CurveFittingTest_CrystalFieldControlTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-windows_3337": "Failed"
-            },
-            "last_fail_detected": "2023-07-29"
         }
     ]
 }

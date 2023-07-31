@@ -1,3 +1,87 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "mantidqt_qt5.test_multifileinterpreter.test_multifileinterpreter",
+            "latest_failed_build": "4615",
+            "agent_name": "Linux",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-linux",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "4618",
+                    "4617",
+                    "4616",
+                    "4615",
+                    "4614",
+                    "4613",
+                    "4612",
+                    "4611",
+                    "4610",
+                    "4609",
+                    "4608",
+                    "4607",
+                    "4606",
+                    "4605",
+                    "4604",
+                    "4603",
+                    "4602",
+                    "4601",
+                    "4600",
+                    "4599",
+                    "4598",
+                    "4597",
+                    "4596",
+                    "4595",
+                    "4594",
+                    "4593",
+                    "4592",
+                    "4591",
+                    "4590",
+                    "4589"
+                ],
+                "past_outcome_list": [
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Failed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "mantidqt_qt5.test_multifileinterpreter.test_multifileinterpreter",
+                "build": "4615",
+                "agent_name": "Linux",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "19.96",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.7.20230728.1339.dev9\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\n......E\n======================================================================\nERROR: test_save_as_closes_the_original_tab (test_multifileinterpreter.MultiPythonFileInterpreterTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqt/mantidqt/widgets/codeeditor/test/test_multifileinterpreter.py&quot;, line 91, in test_save_as_closes_the_original_tab\n    widget.save_current_file_as()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqt/mantidqt/widgets/codeeditor/multifileinterpreter.py&quot;, line 355, in save_current_file_as\n    saved, filename = self.current_editor().save_as()\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/qt/python/mantidqt/mantidqt/widgets/codeeditor/interpreter.py&quot;, line 229, in save_as\n    new_filename = io.ask_for_filename()\nTypeError: &#x27;str&#x27; object is not callable\n\n----------------------------------------------------------------------\nRan 7 tests in 7.539s\n\nFAILED (errors=1)\n\n          Start  493: APITest_EnabledWhenWorkspaceIsTypeTest\n"
+            }
+        }
+    ]
 }

@@ -1,3 +1,87 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "mantidqt_qt5.test_multifileinterpreter.test_multifileinterpreter",
+            "latest_failed_build": "3354",
+            "agent_name": "Windows",
+            "last_failed_outcome": "Failed",
+            "pipeline_name": "pull_requests-conda-windows",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "3357",
+                    "3356",
+                    "3355",
+                    "3354",
+                    "3353",
+                    "3352",
+                    "3351",
+                    "3350",
+                    "3349",
+                    "3348",
+                    "3347",
+                    "3346",
+                    "3345",
+                    "3344",
+                    "3343",
+                    "3342",
+                    "3341",
+                    "3340",
+                    "3339",
+                    "3338",
+                    "3337",
+                    "3336",
+                    "3335",
+                    "3334",
+                    "3333",
+                    "3332",
+                    "3331",
+                    "3330",
+                    "3329",
+                    "3328"
+                ],
+                "past_outcome_list": [
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Failed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "mantidqt_qt5.test_multifileinterpreter.test_multifileinterpreter",
+                "build": "3354",
+                "agent_name": "Windows",
+                "trial": 3,
+                "outcome": "Failed",
+                "test_time": "10.60",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.7.20230728.1339.dev9\r\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\r\n......E\r\n======================================================================\r\nERROR: test_save_as_closes_the_original_tab (test_multifileinterpreter.MultiPythonFileInterpreterTest)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File &quot;C:/jenkins_workdir/workspace/pull_requests-conda-windows/qt/python/mantidqt/mantidqt/widgets/codeeditor/test/test_multifileinterpreter.py&quot;, line 91, in test_save_as_closes_the_original_tab\r\n    widget.save_current_file_as()\r\n  File &quot;C:\\jenkins_workdir\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqt\\mantidqt\\widgets\\codeeditor\\multifileinterpreter.py&quot;, line 355, in save_current_file_as\r\n    saved, filename = self.current_editor().save_as()\r\n  File &quot;C:\\jenkins_workdir\\workspace\\pull_requests-conda-windows\\qt\\python\\mantidqt\\mantidqt\\widgets\\codeeditor\\interpreter.py&quot;, line 229, in save_as\r\n    new_filename = io.ask_for_filename()\r\nTypeError: &#x27;str&#x27; object is not callable\r\n\r\n----------------------------------------------------------------------\r\nRan 7 tests in 1.411s\r\n\r\nFAILED (errors=1)\r\n\r\n          Start  314: AlgorithmsTest_HRPDSlabCanAbsorptionTest\r\n"
+            }
+        }
+    ]
 }

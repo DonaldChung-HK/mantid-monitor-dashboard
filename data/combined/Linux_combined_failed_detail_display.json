@@ -2354,10 +2354,9 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_4653": "Flake"
+                "pull_requests-conda-linux_2629": "Failed"
             },
-            "last_fail_detected": "2023-08-03"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "mantidqt_qt5.test_line_edit_double_validator.test_line_edit_double_validator",
@@ -5232,9 +5231,11 @@
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
                 "pull_requests-conda-linux_2629": "Failed",
-                "pull_requests-conda-linux_4665": "Failed"
+                "pull_requests-conda-linux_4672": "Failed",
+                "pull_requests-conda-linux_4674": "Failed",
+                "pull_requests-conda-linux_4675": "Failed"
             },
-            "last_fail_detected": "2023-08-03"
+            "last_fail_detected": "2023-08-04"
         },
         {
             "test_name": "python.WorkflowAlgorithms.AddSampleLogMultipleTest.AddSampleLogMultipleTest",
@@ -11613,6 +11614,15 @@
                 "main_nightly_deployment_prototype_501": "Flake"
             },
             "last_fail_detected": "2023-02-25"
+        },
+        {
+            "test_name": "KernelTest_EnumeratedStringTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_4672": "Failed",
+                "pull_requests-conda-linux_4674": "Failed",
+                "pull_requests-conda-linux_4675": "Failed"
+            },
+            "last_fail_detected": "2023-08-04"
         }
     ]
 }

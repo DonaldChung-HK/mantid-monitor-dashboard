@@ -2357,7 +2357,7 @@
                 "pull_requests-conda-linux_2629": "Failed",
                 "pull_requests-conda-linux_4688": "Flake"
             },
-            "last_fail_detected": "2023-08-05"
+            "last_fail_detected": "2023-08-06"
         },
         {
             "test_name": "mantidqt_qt5.test_line_edit_double_validator.test_line_edit_double_validator",

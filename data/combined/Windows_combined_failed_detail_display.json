@@ -5818,10 +5818,9 @@
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
                 "pull_requests-conda-windows_1372": "Failed",
-                "pull_requests-conda-windows_3454": "Failed",
-                "pull_requests-conda-windows_3455": "Failed"
+                "pull_requests-conda-windows_3489": "Failed"
             },
-            "last_fail_detected": "2023-08-10"
+            "last_fail_detected": "2023-08-11"
         },
         {
             "test_name": "python.WorkflowAlgorithms.AddSampleLogMultipleTest.AddSampleLogMultipleTest",
@@ -10881,13 +10880,6 @@
                 "pull_requests-conda-windows_1710": "Failed"
             },
             "last_fail_detected": "2023-02-17"
-        },
-        {
-            "test_name": "MantidQtInterfacesIndirectTestQt5_ISISEnergyTransferModelTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-windows_3459": "Failed"
-            },
-            "last_fail_detected": "2023-08-10"
         }
     ]
 }

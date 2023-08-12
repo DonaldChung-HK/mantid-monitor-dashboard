@@ -3933,17 +3933,19 @@
             "test_name": "python.Calibration.test_tube.test_tube",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_3509": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-08-12"
         },
         {
             "test_name": "python.Calibration.test_tube_calib.test_tube_calib",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_3509": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-08-12"
         },
         {
             "test_name": "python.Calibration.tofpd.test_diagnostics.test_diagnostics",
@@ -5817,10 +5819,9 @@
             "test_name": "python.SimpleAPITest.SimpleAPITest",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed",
-                "pull_requests-conda-windows_3489": "Failed"
+                "pull_requests-conda-windows_1372": "Failed"
             },
-            "last_fail_detected": "2023-08-11"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.WorkflowAlgorithms.AddSampleLogMultipleTest.AddSampleLogMultipleTest",
@@ -8110,25 +8111,28 @@
             "test_name": "python.corelli.calibration.test_bank.test_bank",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_3509": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-08-12"
         },
         {
             "test_name": "python.corelli.calibration.test_database.test_database",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_3509": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-08-12"
         },
         {
             "test_name": "python.corelli.calibration.test_utils.test_utils",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed"
+                "pull_requests-conda-windows_1372": "Failed",
+                "pull_requests-conda-windows_3509": "Failed"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-08-12"
         },
         {
             "test_name": "python.dataobjects.EventListTest.EventListTest",
@@ -10880,6 +10884,21 @@
                 "pull_requests-conda-windows_1710": "Failed"
             },
             "last_fail_detected": "2023-02-17"
+        },
+        {
+            "test_name": "python.algorithms.FindSXPeaksConvolveTest.FindSXPeaksConvolveTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_3501": "Failed",
+                "pull_requests-conda-windows_3502": "Failed"
+            },
+            "last_fail_detected": "2023-08-12"
+        },
+        {
+            "test_name": "python.WorkflowAlgorithms.QuickBayesHelperTest.QuickBayesHelperTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-windows_3499": "Failed"
+            },
+            "last_fail_detected": "2023-08-12"
         }
     ]
 }

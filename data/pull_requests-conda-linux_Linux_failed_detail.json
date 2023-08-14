@@ -1,14 +1,22 @@
 {
     "data": [
         {
-            "test_name": "LiveDataTest_KafkaEventStreamDecoderTest",
-            "latest_failed_build": "4773",
+            "test_name": "python.WorkflowAlgorithms.QuickBayesHelperTest.QuickBayesHelperTest",
+            "latest_failed_build": "4778",
             "agent_name": "Linux",
-            "last_failed_outcome": "Flake",
+            "last_failed_outcome": "Failed",
             "pipeline_name": "pull_requests-conda-linux",
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "4781",
+                    "4780",
+                    "4779",
+                    "4778",
+                    "4777",
+                    "4776",
+                    "4775",
+                    "4774",
                     "4773",
                     "4772",
                     "4771",
@@ -30,25 +38,17 @@
                     "4755",
                     "4754",
                     "4753",
-                    "4752",
-                    "4751",
-                    "4750",
-                    "4749",
-                    "4748",
-                    "4747",
-                    "4746",
-                    "4745",
-                    "4744"
+                    "4752"
                 ],
                 "past_outcome_list": [
-                    "Flake",
                     "None",
                     "None",
                     "None",
+                    "Failed",
                     "None",
-                    "None",
-                    "None",
-                    "None",
+                    "Passed",
+                    "Passed",
+                    "Passed",
                     "None",
                     "None",
                     "None",
@@ -74,13 +74,13 @@
                 ]
             },
             "last_stack_traces": {
-                "test_name": "LiveDataTest_KafkaEventStreamDecoderTest",
-                "build": "4773",
+                "test_name": "python.WorkflowAlgorithms.QuickBayesHelperTest.QuickBayesHelperTest",
+                "build": "4778",
                 "agent_name": "Linux",
-                "trial": 1,
+                "trial": 3,
                 "outcome": "Failed",
-                "test_time": "5.93",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.7.20230811.1352.dev10\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 14 testsFacilityInfo-[Notice] No timezone specified for TEST in Facilities.xml\n.FacilityInfo-[Notice] No timezone specified for TEST in Facilities.xml\n.FacilityInfo-[Notice] No timezone specified for TEST in Facilities.xml\nIKafkaStreamDecoder-[Notice] Reached end of run in data streams.\nIKafkaStreamDecoder-[Notice] Reached end of run in data streams.\n.FacilityInfo-[Notice] No timezone specified for TEST in Facilities.xml\nIKafkaStreamDecoder-[Notice] Reached end of run in data streams.\n\nGMOCK WARNING:\nUninteresting mock function call - returning default value.\n    Function call: subscribe_({ &quot;&quot;, &quot;&quot;, &quot;&quot; }, 1472645262000, 4-byte object &lt;04-00 00-00&gt;)\n          Returns: NULL\nNOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don&#x27;t mean to enforce the call.  See https://github.com/google/googletest/blob/master/docs/gmock_cook_book.md#knowing-when-to-expect for details.\nSegmentation fault\n\n          Start 1278: LiveDataTest_KafkaEventStreamDecoderTest\n"
+                "test_time": "29.85",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.7.20230811.1352.dev18\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoad-[Notice] Load started\nInstrumentDefinitionParser-[Warning] Attribute &#x27;mark-as&#x27; is a depricated attribute in Instrument Definition File. Please see the deprecated section of docs.mantidproject.org/concepts/InstrumentDefinitionFile for how to remove this warning message\nInstrumentDefinitionParser-[Warning] Attribute &#x27;mark-as&#x27; is a depricated attribute in Instrument Definition File. Please see the deprecated section of docs.mantidproject.org/concepts/InstrumentDefinitionFile for how to remove this warning message\nLoad-[Notice] Load successful, Duration 0.71 seconds\nLoad-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.30 seconds\nCreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.31 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.22 seconds\nLoad-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.09 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.31 seconds\nLoad-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.47 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.02 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.01 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.45 seconds\nLoad-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.33 seconds\nCreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.14 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.30 seconds\nLoad-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.37 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.47 seconds\nLoad-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.35 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds. Processed as a workspace group\nELoad-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.43 seconds\nLoad-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.32 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.36 seconds\nLoad-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.28 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.35 seconds\nLoad-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.51 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.28 seconds\nLoad-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.46 seconds\nCreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.25 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n.\n======================================================================\nERROR: test_group_ws (QuickBayesHelperTest.QuickBayesHelperTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 933, in do_set_property\n    if isinstance(new_value, _kernel.DataItem) and new_value.name():\nRuntimeError: Variable invalidated, data has been deleted.\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/test/python/plugins/algorithms/WorkflowAlgorithms/QuickBayesHelperTest.py&quot;, line 38, in tearDown\n    DeleteWorkspace(self._sample_ws)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 1067, in __call__\n    set_properties(algm, *args, **final_keywords)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 962, in set_properties\n    do_set_property(key, value)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 939, in do_set_property\n    raise e.__class__(msg) from e\nRuntimeError: Problem setting &quot;Workspace&quot; in DeleteWorkspace-v1: Variable invalidated, data has been deleted.\n\n----------------------------------------------------------------------\nRan 10 tests in 12.254s\n\nFAILED (errors=1)\n\n          Start 2085: mantidqt_qt5.test_peaksviewer_peaksworkspaceselectorpresenter.test_peaksviewer_peaksworkspaceselectorpresenter\n"
             }
         }
     ]

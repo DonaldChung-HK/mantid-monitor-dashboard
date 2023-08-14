@@ -11078,10 +11078,9 @@
                 "pull_requests-conda-linux_2825": "Failed",
                 "pull_requests-conda-linux_2829": "Failed",
                 "pull_requests-conda-linux_2842": "Failed",
-                "pull_requests-conda-linux_2867": "Failed",
-                "pull_requests-conda-linux_4773": "Flake"
+                "pull_requests-conda-linux_2867": "Failed"
             },
-            "last_fail_detected": "2023-08-13"
+            "last_fail_detected": "2023-02-10"
         },
         {
             "test_name": "MDAlgorithmsTest_ConvertCWPDMDToSpectraTest",
@@ -11612,6 +11611,13 @@
                 "main_nightly_deployment_prototype_501": "Flake"
             },
             "last_fail_detected": "2023-02-25"
+        },
+        {
+            "test_name": "python.WorkflowAlgorithms.QuickBayesHelperTest.QuickBayesHelperTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_4778": "Failed"
+            },
+            "last_fail_detected": "2023-08-14"
         }
     ]
 }

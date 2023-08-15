@@ -1465,10 +1465,9 @@
                 "pull_requests-conda-windows_1047": "Failed",
                 "pull_requests-conda-windows_1048": "Failed",
                 "pull_requests-conda-windows_1049": "Failed",
-                "pull_requests-conda-windows_1050": "Failed",
-                "pull_requests-conda-windows_3518": "Flake"
+                "pull_requests-conda-windows_1050": "Failed"
             },
-            "last_fail_detected": "2023-08-14"
+            "last_fail_detected": "2023-01-03"
         },
         {
             "test_name": "DataHandlingTest_SaveDaveGrpTest",
@@ -5842,10 +5841,9 @@
             "test_name": "python.WorkflowAlgorithms.BayesQuasiTest.BayesQuasiTest",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed",
-                "pull_requests-conda-windows_3512": "Flake"
+                "pull_requests-conda-windows_1372": "Failed"
             },
-            "last_fail_detected": "2023-08-14"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.WorkflowAlgorithms.BayesStretchTest.BayesStretchTest",
@@ -10881,13 +10879,6 @@
                 "pull_requests-conda-windows_1710": "Failed"
             },
             "last_fail_detected": "2023-02-17"
-        },
-        {
-            "test_name": "python.WorkflowAlgorithms.QuickBayesHelperTest.QuickBayesHelperTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-windows_3516": "Failed"
-            },
-            "last_fail_detected": "2023-08-14"
         }
     ]
 }

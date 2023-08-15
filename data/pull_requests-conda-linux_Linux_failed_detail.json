@@ -1,14 +1,24 @@
 {
     "data": [
         {
-            "test_name": "python.WorkflowAlgorithms.QuickBayesHelperTest.QuickBayesHelperTest",
-            "latest_failed_build": "4778",
+            "test_name": "python.drill.DrillTest.DrillTest",
+            "latest_failed_build": "4785",
             "agent_name": "Linux",
-            "last_failed_outcome": "Failed",
+            "last_failed_outcome": "Flake",
             "pipeline_name": "pull_requests-conda-linux",
             "problem_count": 1,
             "past_outcome": {
                 "build_keys": [
+                    "4791",
+                    "4790",
+                    "4789",
+                    "4788",
+                    "4787",
+                    "4786",
+                    "4785",
+                    "4784",
+                    "4783",
+                    "4782",
                     "4781",
                     "4780",
                     "4779",
@@ -28,30 +38,20 @@
                     "4765",
                     "4764",
                     "4763",
-                    "4762",
-                    "4761",
-                    "4760",
-                    "4759",
-                    "4758",
-                    "4757",
-                    "4756",
-                    "4755",
-                    "4754",
-                    "4753",
-                    "4752"
+                    "4762"
                 ],
                 "past_outcome_list": [
                     "None",
                     "None",
                     "None",
-                    "Failed",
-                    "None",
-                    "Passed",
-                    "Passed",
                     "Passed",
                     "None",
                     "None",
+                    "Flake",
+                    "Passed",
                     "None",
+                    "Passed",
+                    "Passed",
                     "None",
                     "None",
                     "None",
@@ -74,13 +74,13 @@
                 ]
             },
             "last_stack_traces": {
-                "test_name": "python.WorkflowAlgorithms.QuickBayesHelperTest.QuickBayesHelperTest",
-                "build": "4778",
+                "test_name": "python.drill.DrillTest.DrillTest",
+                "build": "4785",
                 "agent_name": "Linux",
-                "trial": 3,
+                "trial": 2,
                 "outcome": "Failed",
-                "test_time": "29.85",
-                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.7.20230811.1352.dev18\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nLoad-[Notice] Load started\nInstrumentDefinitionParser-[Warning] Attribute &#x27;mark-as&#x27; is a depricated attribute in Instrument Definition File. Please see the deprecated section of docs.mantidproject.org/concepts/InstrumentDefinitionFile for how to remove this warning message\nInstrumentDefinitionParser-[Warning] Attribute &#x27;mark-as&#x27; is a depricated attribute in Instrument Definition File. Please see the deprecated section of docs.mantidproject.org/concepts/InstrumentDefinitionFile for how to remove this warning message\nLoad-[Notice] Load successful, Duration 0.71 seconds\nLoad-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.30 seconds\nCreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.31 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.22 seconds\nLoad-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.09 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.31 seconds\nLoad-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.47 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.02 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.01 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.45 seconds\nLoad-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.33 seconds\nCreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.14 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.30 seconds\nLoad-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.37 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.47 seconds\nLoad-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.35 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started (child)\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds. Processed as a workspace group\nELoad-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.43 seconds\nLoad-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.32 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.36 seconds\nLoad-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.28 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.35 seconds\nLoad-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.51 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n.Load-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.28 seconds\nLoad-[Notice] Load started\nLoad-[Notice] Load successful, Duration 0.46 seconds\nCreateWorkspace-[Notice] CreateWorkspace started\nCreateWorkspace-[Notice] CreateWorkspace successful, Duration 0.25 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\nDeleteWorkspace-[Notice] DeleteWorkspace started\nDeleteWorkspace-[Notice] DeleteWorkspace successful, Duration 0.00 seconds\n.\n======================================================================\nERROR: test_group_ws (QuickBayesHelperTest.QuickBayesHelperTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 933, in do_set_property\n    if isinstance(new_value, _kernel.DataItem) and new_value.name():\nRuntimeError: Variable invalidated, data has been deleted.\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/test/python/plugins/algorithms/WorkflowAlgorithms/QuickBayesHelperTest.py&quot;, line 38, in tearDown\n    DeleteWorkspace(self._sample_ws)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 1067, in __call__\n    set_properties(algm, *args, **final_keywords)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 962, in set_properties\n    do_set_property(key, value)\n  File &quot;/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/PythonInterface/mantid/simpleapi.py&quot;, line 939, in do_set_property\n    raise e.__class__(msg) from e\nRuntimeError: Problem setting &quot;Workspace&quot; in DeleteWorkspace-v1: Variable invalidated, data has been deleted.\n\n----------------------------------------------------------------------\nRan 10 tests in 12.254s\n\nFAILED (errors=1)\n\n          Start 2085: mantidqt_qt5.test_peaksviewer_peaksworkspaceselectorpresenter.test_peaksviewer_peaksworkspaceselectorpresenter\n"
+                "test_time": "29.87",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.7.20230811.1352.dev26\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#x27;/tmp/runtime-abc&#x27;\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nlibEGL warning: DRI2: failed to open swrast (search paths /usr/lib64/dri)\nQXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled\n.........Python-[Warning] No sample found when importing test.\n...AttributeError: &#x27;DrillTableItem&#x27; does not have a signal with the signature instrumentChanged(QString)\nSubprocess aborted\n\n          Start 2364: python.drill.DrillTest.DrillTest\n"
             }
         }
     ]

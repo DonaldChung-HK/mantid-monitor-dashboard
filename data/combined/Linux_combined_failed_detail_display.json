@@ -996,10 +996,9 @@
                 "pull_requests-conda-linux_2811": "Flake",
                 "pull_requests-conda-linux_2884": "Flake",
                 "pull_requests-conda-linux_2937": "Flake",
-                "pull_requests-conda-linux_3170": "Flake",
-                "pull_requests-conda-linux_4785": "Flake"
+                "pull_requests-conda-linux_3170": "Flake"
             },
-            "last_fail_detected": "2023-08-15"
+            "last_fail_detected": "2023-03-04"
         },
         {
             "test_name": "python.WorkflowAlgorithms.MDNormSCDPreprocessIncoherentTest.MDNormSCDPreprocessIncoherentTest",
@@ -1102,9 +1101,10 @@
         {
             "test_name": "MantidQtInterfacesIndirectTestQt5_IndirectPlotOptionsModelTest",
             "past_failed_outcome": {
-                "pull_requests-conda-linux_2328": "Flake"
+                "pull_requests-conda-linux_2328": "Flake",
+                "pull_requests-conda-linux_4801": "Flake"
             },
-            "last_fail_detected": "2022-12-23"
+            "last_fail_detected": "2023-08-16"
         },
         {
             "test_name": "python.plots.datafunctionsTest.datafunctionsTest",
@@ -11612,6 +11612,14 @@
                 "main_nightly_deployment_prototype_501": "Flake"
             },
             "last_fail_detected": "2023-02-25"
+        },
+        {
+            "test_name": "AlgorithmsTest_RebinTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_4799": "Failed",
+                "pull_requests-conda-linux_4800": "Failed"
+            },
+            "last_fail_detected": "2023-08-16"
         }
     ]
 }

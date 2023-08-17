@@ -4318,10 +4318,9 @@
             "test_name": "python.MuonQt5.add_fitting_test.add_fitting_test",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed",
-                "pull_requests-conda-windows_3533": "Flake"
+                "pull_requests-conda-windows_1372": "Failed"
             },
-            "last_fail_detected": "2023-08-16"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.MuonQt5.add_grouping_workspaces_test.add_grouping_workspaces_test",
@@ -9601,12 +9600,9 @@
             "test_name": "python.scripts.sampletransmissioncalculator.stc_model_test.stc_model_test",
             "past_failed_outcome": {
                 "pull_requests-conda-windows_1371": "Failed",
-                "pull_requests-conda-windows_1372": "Failed",
-                "pull_requests-conda-windows_3533": "Failed",
-                "pull_requests-conda-windows_3534": "Failed",
-                "pull_requests-conda-windows_3537": "Failed"
+                "pull_requests-conda-windows_1372": "Failed"
             },
-            "last_fail_detected": "2023-08-16"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.sampletransmissioncalculator.stc_view_test.stc_view_test",

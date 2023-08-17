@@ -1131,7 +1131,7 @@
                 "pull_requests-conda-osx_989": "Flake",
                 "main_nightly_deployment_prototype_611": "Flake"
             },
-            "last_fail_detected": "2023-08-16"
+            "last_fail_detected": "2023-08-17"
         },
         {
             "test_name": "python.drill.DrillTest.DrillTest",
@@ -8376,11 +8376,9 @@
         {
             "test_name": "python.scripts.sampletransmissioncalculator.stc_model_test.stc_model_test",
             "past_failed_outcome": {
-                "pull_requests-conda-osx_1285": "Failed",
-                "pull_requests-conda-osx_3300": "Failed",
-                "pull_requests-conda-osx_3301": "Failed"
+                "pull_requests-conda-osx_1285": "Failed"
             },
-            "last_fail_detected": "2023-08-16"
+            "last_fail_detected": "2023-01-27"
         },
         {
             "test_name": "python.scripts.sampletransmissioncalculator.stc_view_test.stc_view_test",
@@ -9606,13 +9604,6 @@
                 "pull_requests-conda-osx_1739": "Failed"
             },
             "last_fail_detected": "2023-03-01"
-        },
-        {
-            "test_name": "AlgorithmsTest_RebinTest",
-            "past_failed_outcome": {
-                "pull_requests-conda-osx_3305": "Failed"
-            },
-            "last_fail_detected": "2023-08-16"
         }
     ]
 }

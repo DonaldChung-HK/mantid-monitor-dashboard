@@ -1101,10 +1101,9 @@
         {
             "test_name": "MantidQtInterfacesIndirectTestQt5_IndirectPlotOptionsModelTest",
             "past_failed_outcome": {
-                "pull_requests-conda-linux_2328": "Flake",
-                "pull_requests-conda-linux_4801": "Flake"
+                "pull_requests-conda-linux_2328": "Flake"
             },
-            "last_fail_detected": "2023-08-16"
+            "last_fail_detected": "2022-12-23"
         },
         {
             "test_name": "python.plots.datafunctionsTest.datafunctionsTest",
@@ -11614,12 +11613,48 @@
             "last_fail_detected": "2023-02-25"
         },
         {
-            "test_name": "AlgorithmsTest_RebinTest",
+            "test_name": "python.WorkflowAlgorithms.BayesQuasi2Test.BayesQuasi2Test",
             "past_failed_outcome": {
-                "pull_requests-conda-linux_4799": "Failed",
-                "pull_requests-conda-linux_4800": "Failed"
+                "pull_requests-conda-linux_4828": "Failed"
             },
-            "last_fail_detected": "2023-08-16"
+            "last_fail_detected": "2023-08-17"
+        },
+        {
+            "test_name": "python.WorkflowAlgorithms.BayesStretch2Test.BayesStretch2Test",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_4828": "Failed"
+            },
+            "last_fail_detected": "2023-08-17"
+        },
+        {
+            "test_name": "AlgorithmsTest_Stitch1DManyTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_4821": "Failed",
+                "pull_requests-conda-linux_4822": "Failed"
+            },
+            "last_fail_detected": "2023-08-17"
+        },
+        {
+            "test_name": "AlgorithmsTest_Stitch1DTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_4821": "Failed",
+                "pull_requests-conda-linux_4822": "Failed"
+            },
+            "last_fail_detected": "2023-08-17"
+        },
+        {
+            "test_name": "MDAlgorithmsTest_LoadMDTest",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_4815": "Flake"
+            },
+            "last_fail_detected": "2023-08-17"
+        },
+        {
+            "test_name": "MDAlgorithmsTest_SaveMD2Test",
+            "past_failed_outcome": {
+                "pull_requests-conda-linux_4815": "Flake"
+            },
+            "last_fail_detected": "2023-08-17"
         }
     ]
 }

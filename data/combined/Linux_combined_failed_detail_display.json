@@ -996,10 +996,9 @@
                 "pull_requests-conda-linux_2811": "Flake",
                 "pull_requests-conda-linux_2884": "Flake",
                 "pull_requests-conda-linux_2937": "Flake",
-                "pull_requests-conda-linux_3170": "Flake",
-                "pull_requests-conda-linux_4838": "Flake"
+                "pull_requests-conda-linux_3170": "Flake"
             },
-            "last_fail_detected": "2023-08-18"
+            "last_fail_detected": "2023-03-04"
         },
         {
             "test_name": "python.WorkflowAlgorithms.MDNormSCDPreprocessIncoherentTest.MDNormSCDPreprocessIncoherentTest",
@@ -8207,9 +8206,10 @@
                 "pull_requests-conda-linux_2546": "Failed",
                 "pull_requests-conda-linux_2558": "Failed",
                 "pull_requests-conda-linux_2628": "Failed",
-                "pull_requests-conda-linux_2629": "Failed"
+                "pull_requests-conda-linux_2629": "Failed",
+                "pull_requests-conda-linux_4852": "Flake"
             },
-            "last_fail_detected": "2023-01-27"
+            "last_fail_detected": "2023-08-19"
         },
         {
             "test_name": "python.drill.DrillParameterTest.DrillParameterTest",
@@ -11614,20 +11614,12 @@
             "last_fail_detected": "2023-02-25"
         },
         {
-            "test_name": "python.WorkflowAlgorithms.BayesQuasi2Test.BayesQuasi2Test",
+            "test_name": "python.WorkflowAlgorithms.QuickBayesHelperTest.QuickBayesHelperTest",
             "past_failed_outcome": {
-                "pull_requests-conda-linux_4834": "Failed",
-                "pull_requests-conda-linux_4835": "Failed"
+                "pull_requests-conda-linux_4851": "Failed",
+                "pull_requests-conda-linux_4852": "Failed"
             },
-            "last_fail_detected": "2023-08-18"
-        },
-        {
-            "test_name": "python.WorkflowAlgorithms.BayesStretch2Test.BayesStretch2Test",
-            "past_failed_outcome": {
-                "pull_requests-conda-linux_4834": "Failed",
-                "pull_requests-conda-linux_4835": "Failed"
-            },
-            "last_fail_detected": "2023-08-18"
+            "last_fail_detected": "2023-08-19"
         }
     ]
 }

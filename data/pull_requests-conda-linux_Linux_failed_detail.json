@@ -1,3 +1,87 @@
 {
-    "data": []
+    "data": [
+        {
+            "test_name": "APITest_ExperimentInfoTest",
+            "latest_failed_build": "4860",
+            "agent_name": "Linux",
+            "last_failed_outcome": "Flake",
+            "pipeline_name": "pull_requests-conda-linux",
+            "problem_count": 1,
+            "past_outcome": {
+                "build_keys": [
+                    "4860",
+                    "4859",
+                    "4858",
+                    "4857",
+                    "4856",
+                    "4855",
+                    "4854",
+                    "4853",
+                    "4852",
+                    "4851",
+                    "4850",
+                    "4849",
+                    "4848",
+                    "4847",
+                    "4846",
+                    "4845",
+                    "4844",
+                    "4843",
+                    "4842",
+                    "4841",
+                    "4840",
+                    "4839",
+                    "4838",
+                    "4837",
+                    "4836",
+                    "4835",
+                    "4834",
+                    "4833",
+                    "4832",
+                    "4831"
+                ],
+                "past_outcome_list": [
+                    "Flake",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "Passed",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None",
+                    "None"
+                ]
+            },
+            "last_stack_traces": {
+                "test_name": "APITest_ExperimentInfoTest",
+                "build": "4860",
+                "agent_name": "Linux",
+                "trial": 1,
+                "outcome": "Failed",
+                "test_time": "1.52",
+                "stacktrace": "FrameworkManager-[Notice] Welcome to Mantid 6.7.20230816.1558.dev46\nFrameworkManager-[Notice] Please cite: http://dx.doi.org/10.1016/j.nima.2014.07.029 and this release: http://dx.doi.org/10.5286/Software/Mantid\nRunning 42 tests...........................Instrument-[Warning] Saving Instrument with no XML data. If this was instrument data you may not be able to load this data back into Mantid, for fitted/analysed data this warning can be ignored.\n\nIn ExperimentInfoTest::test_nexus:\n/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/API/test/ExperimentInfoTest.h:369: Error: Test failed: Unable to parse File: in &quot;/home/abc/.mantid/instrument/geometryCache/GEM79cd9448aebda416934e7eaafbc9acde3319724b.vtp&quot;\n/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/API/test/ExperimentInfoTest.h:369: Error: Expected (ws2.loadExperimentInfoNexus(filename, th.file.get(), parameterStr)) not to throw, but it did\n/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/API/test/ExperimentInfoTest.h:371: Error: Expected (inst-&gt;getName() == &quot;GEM&quot;), found (&quot;&quot; != GEM)\n/jenkins_workdir/workspace/pull_requests-conda-linux/Framework/API/test/ExperimentInfoTest.h:372: Error: Assertion failed: inst-&gt;getFilename().find(&quot;GEM_Definition.xml&quot;, 0) != std::string::npos\nInstrument-[Warning] Saving Instrument with no XML data. If this was instrument data you may not be able to load this data back into Mantid, for fitted/analysed data this warning can be ignored.\n.Instrument-[Warning] Saving Instrument with no XML data. If this was instrument data you may not be able to load this data back into Mantid, for fitted/analysed data this warning can be ignored.\n.............\nFailed 1 of 42 tests\nSuccess rate: 97%\n\n          Start  496: APITest_ExperimentInfoTest\n"
+            }
+        }
+    ]
 }

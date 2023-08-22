@@ -11613,11 +11613,12 @@
             "last_fail_detected": "2023-02-25"
         },
         {
-            "test_name": "APITest_ExperimentInfoTest",
+            "test_name": "python.WorkflowAlgorithms.QuickBayesHelperTest.QuickBayesHelperTest",
             "past_failed_outcome": {
-                "pull_requests-conda-linux_4860": "Flake"
+                "pull_requests-conda-linux_4862": "Failed",
+                "pull_requests-conda-linux_4863": "Failed"
             },
-            "last_fail_detected": "2023-08-21"
+            "last_fail_detected": "2023-08-22"
         }
     ]
 }

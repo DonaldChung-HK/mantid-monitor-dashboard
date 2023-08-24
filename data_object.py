@@ -293,7 +293,7 @@ class Ctest_test_trial(Data_object):
 
 
 if __name__ == '__main__':
-    f = open("sample_data/34/msys.log", "r")
+    f = open("sample_data/34/ctest_msys.log", "r")
     lines  = f.readlines()
     f.close()
     result = Ctest_run(False ,lines, 'linux')

@@ -9,7 +9,7 @@ Run
 ```
 pip install -r requirements.txt
 # example 1
-python main.py -u 'https://builds.mantidproject.org/' -p 'build_packages_from_branch' 'main_nightly_deployment_prototype' -n 30 -t "Mac" -f "darwin17.log" -t "Mac" "Linux" "Windows" -f "darwin17.log" "linux-gnu.log" "msys.log"
+python main.py -u 'https://builds.mantidproject.org/' -p 'build_packages_from_branch' 'main_nightly_deployment_prototype' -n 30 -t "Mac" -f "ctest_darwin17.log" -t "Mac" "Linux" "Windows" -f "ctest_darwin17.log" "ctest_linux-gnu.log" "ctest_msys.log"
 # example 2
 python main.py -u 'http://localhost:99202/' -p 'ctest-sample' 'ctest-sample-2' -n 35 -a 'your-username' 'your-username' -t "Windows" "Mac" "Linux" -f "windows-64-ci.log" "osx-64-ci.log" "linux-64-ci.log" -t "Windows" -f "windows-64-ci.log"
 ```

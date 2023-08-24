@@ -196,7 +196,7 @@ if __name__ == '__main__':
     build_range = [str(i) for i in build_range]
     print(build_range)
     agent_keys = ["darwin17", "linux-gnu", "msys"]
-    file_names = ["darwin17.log", "linux-gnu.log", "msys.log"]
+    file_names = ["ctest_darwin17.log", "ctest_linux-gnu.log", "ctest_msys.log"]
     file_list = [
         File_object(agent_keys[i], file_names[i]) for i in range(len(file_names))
     ]

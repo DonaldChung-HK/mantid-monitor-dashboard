@@ -32,7 +32,7 @@ jobs:
       # edit the parameter here
       - name: Run builder
         run: |
-          python main.py -u 'https://builds.mantidproject.org/' -p 'pull_requests-conda-linux' 'pull_requests-conda-windows' 'pull_requests-conda-osx' 'main_nightly_deployment_prototype' -n 30 -t "Linux" -f "linux-gnu.log" -t "Windows" -f "msys.log" -t "Mac" -f "darwin17.log" -t "Mac" "Linux" "Windows" -f "darwin17.log" "linux-gnu.log" "msys.log"
+          python main.py -u 'https://builds.mantidproject.org/' -p 'pull_requests-conda-linux' 'pull_requests-conda-windows' 'pull_requests-conda-osx' 'main_nightly_deployment_prototype' -n 30 -t "Linux" -f "ctest_linux-gnu.log" -t "Windows" -f "ctest_msys.log" -t "Mac" -f "ctest_darwin17.log" -t "Mac" "Linux" "Windows" -f "ctest_darwin17.log" "ctest_linux-gnu.log" "ctest_msys.log"
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.7
         with:
